@@ -23,13 +23,21 @@ table {
 	text-align: left;
 }
 
+article table {
+	width: 95%;
+	text-align: left;
+	border:1px solid black;
+	font-style: normal;
+	font-size: 14px;
+}
+
 th, td {
 	padding: 10px 10px;
 }
 
 th {
 	color: #242A75;
-	background: #ccc none repeat-x scroll left top;
+	background: #F8F8F8 none repeat-x scroll left top;
 }
 
 td {
