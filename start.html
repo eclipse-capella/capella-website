@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+<link rel="icon" type="image/png" href="favicon.ico" />
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+<script>
+	jQuery(document).ready(function() {
+		jQuery('.tabs .tab-links a').on('click', function(e)  {
+			var currentAttrValue = jQuery(this).attr('href');
+	 
+			// Show/Hide Tabs
+			// Fade jQuery('.tabs ' + currentAttrValue).fadeIn(400).siblings().hide();
+			jQuery('.tabs ' + currentAttrValue).fadeIn(400).siblings().hide();
+			//jQuery('.tabs ' + currentAttrValue).slideDown(400).siblings().slideUp(400);
+	 
+			// Change/remove current tab to active
+			jQuery(this).parent('li').addClass('active').siblings().removeClass('active');
+	 
+			e.preventDefault();
+		});
+	});
+</script>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Capella</title>
+<link rel="stylesheet" href="styles.css" type="text/css" />
+</head>
+<body>
+<div id="container">
+    <header>
+		<div class="logo-left width">
+			<a href="index.html"><img src="images/logo_capella_350.png" alt="Capella logo" width=""></a>
+		</div>
+    </header>
+    <nav>
+		
+		<div class="width">
+			<ul>
+				<li class="start"><a href="index.html">Home</a></li>
+				<li class="divider-vertical-second-menu"></li>
+				<li><a href="#">Arcadia</a></li>
+				<li class="divider-vertical-second-menu"></li>
+				<li><a href="#">Features</a></li>
+				<li class="divider-vertical-second-menu"></li>
+				<li class="selected"><a href="start.html">Getting Started</a></li>
+				<li class="divider-vertical-second-menu"></li>
+				<li><a href="#">Events</a></li>
+				<li class="divider-vertical-second-menu"></li>
+				<li class="end"><a href="#">Support</a></li>
+			</ul>		
+		</div>
+		<div class="right-nav width">
+			<a href="http://www.polarsys.org/solutions/capella" class="button curl-top-right">Download</a>
+		</div>
+		
+    </nav>
+
+	<div id="hrdiv">
+		<img src="images/bg_breadcrumb.jpg" width="" alt="" height="" />
+	</div>
+
+    <div id="body" class="width-started">
+		
+		<section id="content">
+						
+			<div class="tabs">
+				<ul class="tab-links">
+					<li class="active"><a href="#tab1">Sample</a></li>
+					<li><a href="#tab2">Videos</a></li>
+				</ul>
+			 
+				<div class="tab-content">
+					<div id="tab1" class="tab active">
+						<p>To help users to be concretely efficient in their system engineering activities, we propose a case study that will allow to demonstrate the capabilities of Capella.</p>
+						<br />
+						<br />
+						<br />
+						<br />
+						<br />
+						<br />
+						<br />
+						<br />
+						<br />
+						<br />
+						<br />
+						<br />
+						<br />
+					</div>
+			 
+					<div id="tab2" class="tab">
+						<iframe width="320" height="240" src="http://www.youtube.com/embed/OGpHMR_j3AM?rel=0&autoplay=0&loop=0&wmode=opaque&controls=1&showinfo=0&theme=light" frameborder="0" allowfullscreen></iframe>
+						To be completed...
+						<br />
+						<iframe width="320" height="240" src="http://www.youtube.com/embed/WtwAzftHd4A?rel=0&autoplay=0&loop=0&wmode=opaque&controls=1&showinfo=0&theme=light" frameborder="0" allowfullscreen></iframe>
+						To be completed...
+						<br />
+						<iframe width="320" height="240" src="http://www.youtube.com/embed/UiOiBomTU1c?rel=0&autoplay=0&loop=0&wmode=opaque&controls=1&showinfo=0&theme=light" frameborder="0" allowfullscreen></iframe>
+						To be completed...
+						<br />
+						<iframe width="320" height="240" src="http://www.youtube.com/embed/HKMaGc99Zh8?rel=0&autoplay=0&loop=0&wmode=opaque&controls=1&showinfo=0&theme=light" frameborder="0" allowfullscreen></iframe>
+						To be completed...
+						<br />
+						<iframe width="320" height="240" src="http://www.youtube.com/embed/cT43CmZM2go?rel=0&autoplay=0&loop=0&wmode=opaque&controls=1&showinfo=0&theme=light" frameborder="0" allowfullscreen></iframe>
+						To be completed...
+					</div>
+
+				</div>
+			</div>
+        </section>
+		
+		         
+    	<div class="clear"></div>
+    </div>
+    <footer>
+        <div class="footer-content width">
+			<ul>
+				<li><h4>PolarSys</h4></li>
+				<li><a href="https://www.polarsys.org/eclipse_sites/org_home">About</a></li>
+				<li><a href="https://www.polarsys.org/eclipse_sites/contact">Contact Us</a></li>
+			</ul>
+            <ul>
+            	<li><h4>Legal</h4></li>
+				<li><a href="https://www.polarsys.org/eclipse_sites/privacy">Privacy Policy</a></li>
+				<li><a href="https://www.polarsys.org/eclipse_sites/terms">Terms of Use</a></li>
+				<li><a href="https://www.polarsys.org/eclipse_sites/copyright">Copyright Agent</a></li>
+				<li><a href="https://www.eclipse.org/legal/">Eclipse Public License</a></li>
+				<li><a href="https://www.polarsys.org/eclipse_sites/legal">Legal Resources</a></li>
+            </ul>
+            <ul>
+            	<li><h4>Useful Links</h4></li>
+                <li><a href="https://polarsys.org/bugs/describecomponents.cgi?product=Capella">Report a Bug</a></li>
+				<li><a href="https://polarsys.org/wiki/Capella">Documentation</a></li>
+				<li><a href="https://polarsys.org/wiki/Capella/Development_Process">How to Contribute</a></li>
+				<li><a href="https://polarsys.org/mailman/listinfo/capella-dev">Mailing List</a></li>
+				<li><a href="https://polarsys.org/forums/index.php/f/10/">Forum</a></li>
+            </ul>
+			<ul class="endfooter">
+            	<li><h4>Other</h4></li>
+				<li><a href="https://www.thalesgroup.com/">Thalesgroup</a></li>
+				<li><a href="https://www.clarity-se.org/">Clarity</a></li>
+                <li><a href="https://www.eclipse.org/org/workinggroups/">Working Groups</a></li>
+            </ul>
+			<table>
+				<tr>
+					<td>
+						<a href="http://www.polarsys.org/"><img src="images/polarsys.png" alt="PolarSys logo" width="250"></a>
+						<br />
+						<br />
+					</td>
+					<td>
+						<div class="right-footer">
+							<a href="http://www.eclipse.org/"><img src="images/eclipse.png" alt="Eclipse logo"></a>
+							<br />
+							Copyright © <span id="year">2014</span> The Eclipse Foundation. <br /> All Rights Reserved.
+						</div>
+					</td>
+				</tr>
+			</table>
+		
+			<div class="clear"></div>			
+        </div>
+   
+    </footer>
+</div>
+</body>
+</html>

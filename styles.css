@@ -245,6 +245,11 @@ li ol, li ul {
 	margin: 0 auto;
 }
 
+.width-started {
+	width: 1200px;
+	margin-left: 150px;
+}
+
 .logo {
 	padding-top: 5px;
 	padding-right: 5px;
@@ -397,6 +402,14 @@ article p {
 
 }
 
+#construction ul {
+	margin: 0 0 5px 25px;
+}
+
+article table {
+	width: 80%;
+}
+
 article .article-info {
     color: #999999;
     font-size: 12px;
@@ -449,7 +462,7 @@ article .article-info a {
 	display: block;
 	text-decoration: none;
 	border-top: none;
-	padding: 6px;
+	padding: 4px;
 	margin: 0;
 	line-height: 1.5em;
 	font-size: 12px;
@@ -618,10 +631,10 @@ footer table td{
 	margin: 0px -2px;
 	display: inline-block;
 	border-radius: 5px 5px 0px 0px;
-	background: #DFE8F2;
+	background: #C0C0C0;
 	font-size: 16px;
 	font-weight: 600;
-	color: #707070;
+	color: #fff;
 	text-decoration: none;
 	transition: all linear 0.15s;
 }
@@ -633,8 +646,8 @@ footer table td{
 }
  
 li.active a, li.active a:hover {
-	background: #1791AB;
-	color: #fff;
+	background: #F8F8F8;
+	color: #707070;
 }
  
 /*----- Content of Tabs -----*/
@@ -642,7 +655,7 @@ li.active a, li.active a:hover {
 	padding: 15px;
 	border-radius: 5px;
 	box-shadow: -1px 1px 1px rgba(0,0,0,0.15);
-	background: #DFE8F2;
+	background: #F8F8F8;
 }
  
 .tab {
