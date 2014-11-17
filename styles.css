@@ -246,9 +246,20 @@ li ol, li ul {
 }
 
 .logo {
-	text-align: left;
 	padding-top: 5px;
 	padding-right: 5px;
+}
+
+.logo-left {
+padding-top: 5px;
+	text-align: left;
+	padding-right: 5px;
+}
+
+.logo-right {
+padding-top: 5px;
+	text-align: right;
+	padding-left: 5px;
 }
 
 #container {
@@ -256,11 +267,15 @@ li ol, li ul {
 }
 
 header {
-	padding: 20px 2px;
+	padding: 2px 2px;
 	/*background: #fff; /*  C5D6E8*/
 	background-image:linear-gradient(to left, #C5D6E8, white 90%);
 	margin: 0 auto;
 	text-align:right;
+}
+
+header table td {
+	border: none;
 }
 
 header h1 a, header h1 a:hover {
@@ -405,7 +420,7 @@ article .article-info a {
 	text-decoration: none;
 	text-transform: none;
 	font-weight: bold;
-	color: #242A75;
+	color: #1791AB;
 	padding: 3px 3px;
 	/*border-bottom: 6px solid #DFE8F2;*/
 }
@@ -434,10 +449,10 @@ article .article-info a {
 	display: block;
 	text-decoration: none;
 	border-top: none;
-	padding: 10px;
+	padding: 6px;
 	margin: 0;
 	line-height: 1.5em;
-	font-size: 13.5px;
+	font-size: 12px;
 }
 
 .sidebar li ul li.text { 
