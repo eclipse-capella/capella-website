@@ -2,25 +2,6 @@
 <html>
 <link rel="icon" type="image/png" href="favicon.ico" />
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-<script>
-	jQuery(document).ready(function() {
-		jQuery('.tabs .tab-links a').on('click', function(e)  {
-			var currentAttrValue = jQuery(this).attr('href');
-	 
-			// Show/Hide Tabs
-			// Fade jQuery('.tabs ' + currentAttrValue).fadeIn(400).siblings().hide();
-			jQuery('.tabs ' + currentAttrValue).fadeIn(400).siblings().hide();
-			//jQuery('.tabs ' + currentAttrValue).slideDown(400).siblings().slideUp(400);
-	 
-			// Change/remove current tab to active
-			jQuery(this).parent('li').addClass('active').siblings().removeClass('active');
-	 
-			e.preventDefault();
-		});
-	});
-</script>
-
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Capella</title>
@@ -41,9 +22,9 @@
 				<li class="divider-vertical-second-menu"></li>
 				<li><a href="arcadia.html">Arcadia</a></li>
 				<li class="divider-vertical-second-menu"></li>
-				<li><a href="features.html">Features</a></li>
+				<li class="selected"><a href="features.html">Features</a></li>
 				<li class="divider-vertical-second-menu"></li>
-				<li class="selected"><a href="start.html">Getting Started</a></li>
+				<li><a href="start.html">Getting Started</a></li>
 				<li class="divider-vertical-second-menu"></li>
 				<li><a href="events.html">Events</a></li>
 				<li class="divider-vertical-second-menu"></li>
@@ -63,59 +44,15 @@
     <div id="body" class="width">
 		
 		<section id="content">
-						
-			<div class="tabs">
-				<ul class="tab-links">
-					<li class="active"><a href="#tab1">Sample</a></li>
-					<li><a href="#tab2">Videos</a></li>
-				</ul>
-			 
-				<div class="tab-content">
-					<div id="tab1" class="tab active">
-						<p>
-							To help users to be concretely efficient in their system engineering activities, we propose a case study that will allow to 
-							demonstrate the capabilities of Capella.
-							<br/>
-							<br/>
-							Under contruction...
-						</p>
-						<br />
-						<br />
-						<br />
-						<br />
-						<br />
-						<br />
-						<br />
-						<br />
-						<br />
-						<br />
-						<br />
-						<br />
-						<br />
-					</div>
-			 
-					<div id="tab2" class="tab">
-						<iframe width="320" height="240" src="//www.youtube.com/embed/OGpHMR_j3AM?rel=0&autoplay=0&loop=0&wmode=opaque&controls=1&showinfo=0&theme=light" frameborder="0" allowfullscreen></iframe>
-						Embedded methodological guidance
-						<br />
-						<iframe width="320" height="240" src="//www.youtube.com/embed/WtwAzftHd4A?rel=0&autoplay=0&loop=0&wmode=opaque&controls=1&showinfo=0&theme=light" frameborder="0" allowfullscreen></iframe>
-						Manage model complexity 
-						<br />
-						<iframe width="320" height="240" src="//www.youtube.com/embed/UiOiBomTU1c?rel=0&autoplay=0&loop=0&wmode=opaque&controls=1&showinfo=0&theme=light" frameborder="0" allowfullscreen></iframe>
-						Browsing the model
-						<br />
-						<iframe width="320" height="240" src="//www.youtube.com/embed/HKMaGc99Zh8?rel=0&autoplay=0&loop=0&wmode=opaque&controls=1&showinfo=0&theme=light" frameborder="0" allowfullscreen></iframe>
-						Productivity tools
-						<br />
-						<iframe width="320" height="240" src="//www.youtube.com/embed/cT43CmZM2go?rel=0&autoplay=0&loop=0&wmode=opaque&controls=1&showinfo=0&theme=light" frameborder="0" allowfullscreen></iframe>
-						Multi-viewpoint trade-off analysis 
-					</div>
-
-				</div>
-			</div>
+			<article class="expanded">
+				<h3>Coming Soon...</h3>
+			</article>		
+			
+		
         </section>
 		
-		         
+		
+        
     	<div class="clear"></div>
     </div>
     <footer>
