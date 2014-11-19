@@ -1,6 +1,14 @@
 <!doctype html>
 <html>
 <link rel="icon" type="image/png" href="favicon.ico" />
+<!-- Add jQuery library -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="js-global/fancyzoom_simplified.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('a.zoom').fancyZoom({scaleImg: true, closeOnClick: true});
+	});
+</script>
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -81,19 +89,18 @@
 					<li>Master transitions and traceability with automated transition and information refinement</li>
 				</ul>
 				
-				<ul class="enlarge"> <!--We give the list a class so that we can style it seperately from other unordered lists-->
-
-					<!--First Image-->
-					<li>
-						<img src="images/SAB_System-Context_and_overview-sml.png" width="150px" height="100px" alt="SAB_Overview" /> <!--thumbnail image-->
-						<span> <!--span contains the popup image-->
-							<img src="images/SAB_System-Context_and_overview.png" alt="SAB_Overview" /> <!--popup image-->
-							<br />[SAB] System Context and Overview <!--caption appears under the popup image-->
-						</span>
-					</li>
-
-				</ul>
+				<!-- la miniature -->
+				<a href="#sab" class="zoom"><img alt="SAB diagram example" src="images/SAB_System-Context_and_overview.png" width="80%"></a>
 				
+				<!-- la taille normale -->
+				<div id="sab">
+					<img alt="SAB diagram example" src="images/SAB_System-Context_and_overview.png" />
+				</div>
+				
+				<br />
+				<br />
+				<br />
+
 				<h3>A graphical modeling workbench ...</h3>
 				<p>
 					The Capella workbench is an Eclipse application implementing the
