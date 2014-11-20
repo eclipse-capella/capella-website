@@ -47,7 +47,7 @@
 			<article class="expanded">
 				<p>
 					Current systems are submitted to high constraints regarding safety, security, performance, environment, human factors, Etc. 
-					All of these constraints under THE responsibility of different stakeholders deeply influence systems architectural design and 
+					All of these constraints under the responsibility of different stakeholders deeply influence systems architectural design and 
 					development. They are to be integrated and reconciled.
 				</p>
 				<h3>Architecture as prime engineering driver</h3>
@@ -56,7 +56,7 @@
 					system, software, or hardware function in order to:
 				</p>
 				<ul>
-					<li>Provide significant information for deciders and managers</li>
+					<li>Provide significant information for decision-makers and managers</li>
 					<li>Ease mastering of need, complexity, design and development</li>
 					<li>Structure engineering in a well-defined, justified, technical frame</li>
 					<li>Guide designers and developers so as to respect product definition drivers</li>
@@ -66,10 +66,12 @@
 				
 				<br />
 				<br />
-				
+				</p>
+				<h3>Arcadia, a model-based engineering method</h3>
+				<p>				
 				<p>
 					Arcadia is a model-based engineering method for systems, hardware and software architectural design. 
-					It has been developed in Thales between 2005 and 2010, through an iterative process involving operational 
+					It has been developed in Thales between 2005 and 2010 through an iterative process involving operational 
 					architects from all Thales domains.
 				</p>
 				<p>
@@ -87,20 +89,20 @@
 					Steps and activities of the method have been defined with a few Golden Rules:
 				</p>
 				<ol>
-					<li>Besides Requirement Management, drive an <b>Operational Need Analysis</b>, describing final user expectations 
-						and conditions of use, along with realistic IVVQ conditions</li>
-					<li>Consider Engineering through <i><u>three mandatory interrelated activities</u></i>, at the same level of importance:</li>
+					<li>Besides requirement engineering, drive an <b>operational need analysis</b>, describing final user expectations,  
+						usage conditions, and realistic IVVQ conditions</li>
+					<li>Consider engineering through three mandatory interrelated activities, at the same level of importance:</li>
 					<ol type="a">
 						<li><b>Need analysis and modelling</b></li>
 						<li><b>Architecture building and validation</b></li>
-						<li><b>Requirements management</b></li>
+						<li><b>Requirements engineering</b></li>
 					</ol>
-					<li>Check Requirements against an <b>Architectural Design Model</b> (early architecture) for robustness and feasibility</li>
-					<li>Structure system/hardware/software and build a <b>logical Architecture</b>, by searching for best <b>Compromise between Design 
-						Drivers, [non-functional] Constraints and Viewpoints</b>. Each Viewpoint deals with a specific concern such as Functional 
-						Consistency, Interfaces, Performances, Real Time, Safety, Security, Integration, Reuse, Cost, Risk, Schedule, ease of 
+					<li>Check requirements against an <b>architectural design model</b> (early architecture) for robustness and feasibility</li>
+					<li>Structure system/hardware/software and build a <b>logical architecture</b>, by searching for best <b>Compromise between design 
+						drivers, (non-functional) constraints and viewpoints</b>. Each viewpoint deals with a specific concern such as functional 
+						consistency, interfaces, performances, real time, safety, security, integration, reuse, cost, risk, schedule, ease of 
 						adaptation (e.g. to changing requirements)</li>
-					<li>Ease and secure development and IVVQ through a <b>Physical Architecture</b> dealing with technical and development issues, 
+					<li>Ease and secure development and IVVQ through a <b>physical architecture</b> dealing with technical and development issues, 
 						favouring separation of concerns, efficient and safe components interaction (e.g. layered architecture, generic behaviour 
 						and interaction patterns, component model, etc.)</li>
 				</ol>
@@ -110,35 +112,35 @@
 				<br />
 				<br />
 				
-				<h3>Define the problem - Customer Operational Need Analysis</h3>
+				<h3>Define the Problem - Customer Operational Need Analysis</h3>
 				<p>
 					The first step focuses on analysing the customer needs and goals, expected missions and activities, far beyond System/Software 
-					requirements. This analysis aims at ensuring good adequacy of System/Software definition with regards to its real operational 
+					requirements. This analysis aims at ensuring a good adequacy of system definition with regards to its real operational 
 					use and IVVQ conditions.
 				</p>
 				<p>
-					<i><u>Outputs</u></i> of this step mainly consist in an “operational architecture” describing and structuring this need, in terms of actors/users, 
+					Outputs of this engineering phase mainly consist in an “operational architecture” describing and structuring this need, in terms of actors/users, 
 					their operational capabilities and activities, operational use scenarios giving dimensioning parameters, operational constraints 
 					including safety, security, lifecycle, etc.
 				</p>
-				<h3>Formalization of System/SW requirements - System Need Analysis</h3>
+				<h3>Formalization of system requirements - System Need Analysis</h3>
 				<p>
 					The second step focuses on the system itself, in order to define how it can satisfy the former operational need, along with its 
 					expected behaviour and qualities: Functions to be supported and related exchanges, non-functional constraints (safety, security, etc.), 
 					performance allocated to system boundary, role sharing and interactions between system and operators, etc.
 				</p>
 				<p>
-					The goal at this stage is also to check for feasibility of customer requirements (cost, schedule, technology readiness, etc.) 
+					The goal at this stage is also to check the feasibility of customer requirements (cost, schedule, technology readiness, etc.) 
 					and if necessary, to provide means to renegotiate their contents. This functional need analysis can be completed by a first 
 					early system architectural design model in order to examine requirements against this architecture and evaluate their cost 
 					and consistency.
 				</p>
 				<p>
-					<i><u>Outputs</u></i> of this engineering phase mainly consist of system functional need description, interoperability and 
-					interaction with the users and external systems (functions, exchanges plus non-functional constraints), and system/SW requirements.
+					Outputs of this engineering phase mainly consist of system functional need description (functions, functional chains, scenarios), interoperability and 
+					interaction with the users and external systems (functions, exchanges plus non-functional constraints), and system requirements.
 				</p>
 				<p>
-					Note that these two phases, which constitute the first part of architecture building, <b><i>"specify" the subsequent design</i></b>, 
+					Note that these two phases, which constitute the first part of architecture building, <b>"specify" the subsequent design</b>, 
 					and therefore should be approved/validated with the Customer.
 				</p>
 				<h3>Development of System Architectural Design - Logical Architecture (Notional Solution)</h3>
@@ -157,18 +159,18 @@
 				
 				
 				<p>
-					This building process has to take into account architecture drivers and priorities, viewpoints and associated design rules, 
-					etc. For this breakdown in components to be stable in further engineering phases, all major [non-functional] constraints 
-					(safety, security, performance, IVV, Cost, non-technical…) are taken into account and compared to each other so as to find 
-					the best compromise between them. This method is described as 'viewpoints-driven', viewpoints being the formalisation of 
+					The building process has to take into account architecture drivers and priorities, viewpoints and associated design rules, 
+					etc. For this breakdown in components to be stable in further engineering phases, all major (non-functional) constraints 
+					(safety, security, performance, IVV, cost, non-technical, Etc.) are taken into account and compared to each other so as to find 
+					the best compromise between them. This method is described as "viewpoint-driven", viewpoints being the formalisation of 
 					the way these constraints impact the system architecture.
 				</p>
 				<p>
-					<i><u>Outputs</u></i> of this engineering phase consist of the selected logical architecture: Components and justified 
-					interfaces definition, including formalisation of all viewpoints and the way they are taken into account in the components design. 
+					Outputs of this engineering phase consist of the selected logical architecture: Components and justified 
+					interfaces definition, scenarios, modes and states, formalisation of all viewpoints and the way they are taken into account in the components design. 
 				</p>
 				<p>
-					Since the architecture has to be validated against the need analysis, links with requirements and operational scenarios are also produced.
+					Since the architecture has to be validated against the need analysis, links with requirements and operational scenarios are also to be produced.
 				</p>
 				
 				<img class="center" alt="Viewpoints" src="images/arcadia_viewpoints.png" width="90%">
@@ -179,10 +181,9 @@
 				<h3>Development of System Architecture - Physical Architecture</h3>
 				<p>
 					The fourth step has the same intents as logical architecture building, except that it defines the “final” architecture of the system 
-					at this level of engineering, ready to develop (by lower engineering levels). Therefore, it introduces rationalisation, architectural 
+					at this level of engineering, ready to develop (by "lower" engineering levels). Therefore, it introduces rationalisation, architectural 
 					patterns, new technical services and components, and makes the logical architecture evolve according to implementation, technical and 
-					technological constraints and choices. The same viewpoint-driven approach as for logical architecture building is used for physical 
-					architecture definition.
+					technological constraints and choices. The same viewpoint-driven approach as for logical architecture building is used.
 				</p>
 				<p>
 					<i><u>Outputs</u></i> of this engineering phase consist of the selected physical architecture: Components to be produced, 
@@ -199,12 +200,12 @@
 					architecture to fit need and constraints are summarised and checked here.
 				</p>
 				<p>
-					<i><u>Outputs</u></i> from this engineering phase are mainly "component Integration contract" collected all necessary 
+					Outputs from this engineering phase are mainly "component integration contracts" collecting all necessary 
 					expected properties for each component to be developed.
 				</p>
-				<h3>Co-engineering, sub-contracting and multi-level engineering</h3>
+				<h3>Co-Engineering, Sub-Contracting and Multi-Level Engineering</h3>
 				<p>
-					The Physical Architecture is the preferred place for co-engineering between systems, software, and hardware stakeholders.
+					The physical architecture is the preferred place for co-engineering between systems, software, and hardware stakeholders.
 				</p>
 				
 				<img class="center" alt="Coengineering" src="images/coengineering-and-subcontracting.png" width="80%">
@@ -218,7 +219,7 @@
 					COTS are identified.
 				</p>
 				<p>
-					The Physical Architecture at level n defines components to be developed at level n-1, according to the corresponding component 
+					The physical architecture at level n defines components to be developed at level n-1, according to the corresponding component 
 					integration contract. Level "n" need analysis is restricted to each component scope, in order to define its IVVQ context.
 				</p>
 				
@@ -229,15 +230,15 @@
 				<br />
 				
 				
-				<h3>Adaptation to dedicated domains, contexts, etc.</h3>
+				<h3>Adaptation of Arcadia to Dedicated Domains, Contexts, Etc.</h3>
 				<p>
 					Beyond the transverse, common architectural design work, each organization, in the field of its own business, 
-					constraints and know-how, should appropriate and apply the results, by adapting them to its own domains, 
-					products and programs, in order to optimise and tune it.
+					constraints and know-how, should tailor the method steps by adapting them to their own domains, 
+					products and programs.
 				</p>
 				<ul>
 					<li>Definition of a reference architecture (including architecture drivers) for each key product and software</li>
-					<li>Definition of appropriate Viewpoints adapted to the domain, product and architecture</li>
+					<li>Definition of appropriate viewpoints adapted to the domain, product and architecture</li>
 					<li>Definition of complementary dedicated engineering rules</li>
 					<li>Selection of relevant architectural patterns for the domain, product, and technologies considered</li>
 					<li>Setting up of models, based on the reference architecture and viewpoints, and basis for simulation, early validation, 
