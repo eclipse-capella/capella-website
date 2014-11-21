@@ -192,7 +192,7 @@ span.required {
 h1 {
 	color: #1791AB;
 	font-size: 35px;
-	font-family: 'Pontano Sans', Arial, sans-serif;
+	font-family: 'Jura',Arial,sans-serif;
 }
 
 h2 {
@@ -202,7 +202,7 @@ h2 {
 	font-weight: normal;
 	padding: 0 0 5px;
 	margin: 0;
-	font-family: 'Pontano Sans', Arial, sans-serif;
+	font-family: 'Jura',Arial,sans-serif;
 }
 
 h3 {
@@ -211,7 +211,7 @@ h3 {
 	font-weight: normal;
 	margin-bottom: 10px;
 	letter-spacing: -1px;
-	font-family: 'Pontano Sans', Arial, sans-serif;
+	font-family: 'Jura',Arial,sans-serif;
 }
 
 h4 {
@@ -437,12 +437,13 @@ article .article-info a {
 
 .sidebar h4 {
 	padding-bottom: 0;
-	font-size: 15px;
+	font-size: 16px;
 	text-decoration: none;
 	text-transform: none;
-	font-weight: bold;
+	font-weight: normal;
 	color: #1791AB;
 	padding: 3px 3px;
+	font-family: 'Jura',Arial,sans-serif;
 	/*border-bottom: 6px solid #DFE8F2;*/
 }
 
@@ -481,7 +482,18 @@ article .article-info a {
 	text-decoration: none;
 }
 
+.sidebar a {
+	font-weight: normal;
+	color: #242A75;
+	text-decoration: none;
+	font-size: 13px;
 
+}
+
+.sidebar a:hover {
+	color: #1791AB;
+	text-decoration: none;
+}
 
 .sidebar li ul li a {
 	font-weight: normal;
@@ -528,6 +540,11 @@ footer p {
 	padding: 0;
 }
 
+footer table {
+	font-family: 'Jura',Arial,sans-serif;
+
+}
+
 footer p a {
 	color: #ccc;
 	font-weight: bold;
@@ -556,6 +573,7 @@ footer .footer-content li a {
 	color: #242A75;
     font-size: 13px;
     text-decoration: none;
+	font-family: 'Jura',Arial,sans-serif;
 }
 
 footer .footer-content li a:hover { 
@@ -565,6 +583,7 @@ footer .footer-content li a:hover {
 footer .footer-content h4 {
 	color: #1791AB;
     font-size: 20px;
+	font-family: 'Jura',Arial,sans-serif;
     font-weight: normal;
     padding-bottom: 0;
 }
@@ -635,13 +654,14 @@ footer table td{
 }
  
 .tab-links a {
-	padding: 9px 15px;
-	margin: 0px -2px;
+	padding: 11px 30px;
+	margin: 0px -3px;
 	display: inline-block;
 	border-radius: 5px 5px 0px 0px;
 	background: #C0C0C0;
-	font-size: 16px;
-	font-weight: 600;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: 'Jura',Arial,sans-serif;
 	color: #fff;
 	text-decoration: none;
 	transition: all linear 0.15s;
