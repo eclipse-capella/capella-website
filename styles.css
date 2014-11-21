@@ -24,9 +24,9 @@ table {
 }
 
 article table {
-	width: 95%;
+	width: 100%;
 	text-align: left;
-	border:1px solid black;
+	/**border:1px solid black;**/
 	font-style: normal;
 	font-size: 14px;
 }
@@ -40,9 +40,11 @@ th {
 	background: #F8F8F8 none repeat-x scroll left top;
 }
 
+/**
 td {
 	border-bottom: 1px solid #ccc;
 }
+**/
 
 code, blockquote {
 	display: block;
@@ -406,9 +408,6 @@ article p {
 	margin: 0 0 5px 25px;
 }
 
-article table {
-	width: 80%;
-}
 
 article .article-info {
     color: #999999;
