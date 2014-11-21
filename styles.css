@@ -205,13 +205,25 @@ h2 {
 	font-family: 'Jura',Arial,sans-serif;
 }
 
-h3 {
+h3 {/*
 	color: #1791AB;
 	font-size: 20px;
 	font-weight: normal;
 	margin-bottom: 10px;
 	letter-spacing: -1px;
 	font-family: 'Jura',Arial,sans-serif;
+	*/
+	
+    display: block;
+    font-family: 'Jura',Arial,sans-serif;
+    font-size: 15px;
+    letter-spacing: 0;
+	margin: 0;
+    padding: 15px 0px;
+    text-decoration: none;
+    text-transform: uppercase;
+	color: #1791AB; 
+	font-weight:bold;
 }
 
 h4 {
@@ -654,6 +666,8 @@ footer table td{
 }
  
 .tab-links a {
+
+	/*
 	padding: 11px 30px;
 	margin: 0px -3px;
 	display: inline-block;
@@ -665,6 +679,22 @@ footer table td{
 	color: #fff;
 	text-decoration: none;
 	transition: all linear 0.15s;
+	*/
+	
+	
+	display: inline-block;
+    border-radius: 5px 5px 0px 0px;
+	font-family: 'Jura',Arial,sans-serif;
+    font-size: 14px;
+    letter-spacing: 0;
+	margin: 5px -3px;
+    padding: 8px 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+	color: #fff; 
+	background: #C0C0C0;
+	font-weight:normal;
+	transition: all linear 0.15s;
 }
  
 .tab-links a:hover {
@@ -675,7 +705,7 @@ footer table td{
  
 li.active a, li.active a:hover {
 	background: #F8F8F8;
-	color: #707070;
+	color: #1791AB;
 }
  
 /*----- Content of Tabs -----*/
