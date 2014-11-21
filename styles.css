@@ -402,7 +402,14 @@ article h2 {
 
 article p {
 	text-align: justify;
+	font-style: normal;
+	font-weight: normal;
+}
 
+article table li {
+	text-align: justify;
+	font-style: normal;
+	font-weight: normal;
 }
 
 #construction ul {
