@@ -46,20 +46,20 @@
 		<section id="content">
 			<article class="expanded">
 				<p>
-					Current systems are submitted to high constraints regarding safety, security, performance, environment, human factors, Etc. 
-					All of these constraints under the responsibility of different stakeholders deeply influence systems architectural design and 
-					development. They are to be integrated and reconciled.
+					Modern systems are subjected to increasingly higher constraints regarding safety, security, performance, environment, human factors, etc. 
+					Each of these constraints are under the responsibility of different stakeholders which deeply influences the systems architectural 
+					design and development process. They are to be integrated and reconciled.
 				</p>
 				<h3>Architecture as prime engineering driver</h3>
 				<p>
-					Architecture is a powerful tool to analyse operational need, structure and break down the
+					Architecture is a powerful tool to analyse operational needs, structure and break-down of the
 					system, software, or hardware function in order to:
 				</p>
 				<ul>
 					<li>Provide significant information for decision-makers and managers</li>
-					<li>Ease mastering of need, complexity, design and development</li>
+					<li>Ease the mastering of need, complexity, design and development</li>
 					<li>Structure engineering in a well-defined, justified, technical frame</li>
-					<li>Guide designers and developers so as to respect product definition drivers</li>
+					<li>Guide designers and developers to respect the product definition drivers</li>
 				</ul>
 				
 				<img class="center" alt="Architecture benefits" src="images/arcadia/architecture_benefits.png" width="80%">
@@ -71,14 +71,62 @@
 				<p>				
 				<p>
 					Arcadia is a <b>model-based engineering method for systems, hardware and software architectural design</b>. 
-					It has been developed in Thales between 2005 and 2010 through an iterative process involving operational 
-					architects from all Thales domains.
+					It has been developed by Thales between 2005 and 2010 through an iterative process involving operational 
+					architects from all the Thales business domains.
 				</p>
 				<p>
-					Arcadia promotes a viewpoint-driven approach (as described in ISO/IEC 42010 standard) and emphasizes a clear 
+					Arcadia promotes a viewpoint-driven approach (as described in ISO/IEC 42010) and emphasizes a clear 
 					distinction between need and solution.
 				</p>
+				<p>Some noticeable features of ARCADIA are:</p>
 				
+				<ul>
+					<li>Models supporting Entreprise-wide collaboration and co-engineering
+						<ul>
+							<li>A Capella model is built for each ARCADIA step; all of these models are linked by 
+								traceability / justification links, and are processed as a whole for impact analysis</li>
+							<li>Collaboration with engineering specialities (safety, security, performance & sizing, 
+								product policy, Logistics, …) is supported by modelled “engineering Viewpoints” to 
+								formalise constraints and to check architecture adequacy with each of them</li>
+							<li>Collaboration with customer and subsystems engineering relies on co-engineered model 
+								steps (e.g. Physical Architecture), automatic initialisation of need model for sub-systems, 
+								and traceability/impact analysis means between requirements and models of different engineering levels</li>
+						</ul>
+					</li>
+					<li>Adopting user’s language, not the opposite
+						<ul>
+							<li>A domain-specific language (DSL) was preferred in order to ease appropriation by all stakeholders, 
+								usually not familiar with general purpose, generic languages</li>
+						</ul>
+					</li>
+					<li>Open to domain-specific added value
+						<ul>
+							<li>Extensible language and viewpoint analyses allow to capitalise specific know-how while preserving 
+								trade-offs and common approach</li>
+						</ul>
+					</li>
+					<li>Adapted to several lifecycles, workshares…
+						<ul>
+							<li>Great care has been taken in the method, the language and the Capella tool, not to impose one single 
+								engineering path (e.g. top-down), but to be adaptable to many lifecycles (incremental, iterative, 
+								top-down, bottom-up, middle-out, reuse…)</li>
+						</ul>
+					</li>
+					<li>Dealing with complexity & size
+						<ul>
+							<li>Abstraction levels have been defined, and specific language and Capella tool features have been added 
+								or modified, in order to mask and confine complexity</li>
+							<li>Specific Capella features deal with model maintenance, large scale modelling, model evolution and reuse</li>
+						</ul>
+					</li>
+					<li>Field-proven in real industrial situations
+						<ul>
+							<li>ARCADIA is currently in use in most Thales units, in many countries, on very large or small projects, 
+								by hundreds of users. A continuous challenging, improvement and adaptation of both method & tools have 
+								allowed a very fast dissemination.</li>
+						</ul>
+					</li>
+				</ul>
 				
 				<img class="center" alt="Triptique" src="images/arcadia/triptique.png" width="70%">
 				
@@ -89,7 +137,7 @@
 					Steps and activities of the method have been defined with a few Golden Rules:
 				</p>
 				<ol>
-					<li>Besides requirement engineering, drive an <b>operational need analysis</b>, describing final user expectations,  
+					<li>As a precursor to requirement engineering, drive an <b>operational need analysis</b>, describing final user expectations,  
 						usage conditions, and realistic IVVQ conditions</li>
 					<li>Consider engineering through three mandatory interrelated activities, at the same level of importance:</li>
 					<ol type="a">
@@ -98,12 +146,12 @@
 						<li><b>Requirements engineering</b></li>
 					</ol>
 					<li>Check requirements against an <b>architectural design model</b> (early architecture) for robustness and feasibility</li>
-					<li>Structure system/hardware/software and build a <b>logical architecture</b>, by searching for best <b>compromise between design 
+					<li>Structure the system/hardware/software and build a <b>logical architecture</b>, by searching for the best <b>compromise between design 
 						drivers, (non-functional) constraints and viewpoints</b>. Each viewpoint deals with a specific concern such as functional 
-						consistency, interfaces, performances, real time, safety, security, integration, reuse, cost, risk, schedule, ease of 
+						consistency, interfaces, performances, real time, safety, security, integration, reuse, cost, risk, schedule, and the ease of 
 						adaptation (e.g. to changing requirements)</li>
-					<li>Ease and secure development and IVVQ through a <b>physical architecture</b> dealing with technical and development issues, 
-						favouring separation of concerns, efficient and safe components interaction (e.g. layered architecture, generic behaviour 
+					<li>Secure development and IVVQ through a <b>physical architecture</b> which deals with technical and development issues, 
+						favouring separation of concerns, efficient and safe component interaction (e.g. layered architecture, generic behaviour 
 						and interaction patterns, component model, etc.)</li>
 				</ol>
 				
@@ -112,31 +160,31 @@
 				<br />
 				<br />
 				
-				<h3>Define the Problem - Customer Operational Need Analysis</h3>
+				<h3>Definition of the Problem - Customer Operational Need Analysis</h3>
 				<p>
 					The first step focuses on analysing the customer needs and goals, expected missions and activities, far beyond system 
-					requirements. This analysis aims at ensuring a <b>good adequacy of system definition with regards to its real operational 
+					requirements. This analysis aims at ensuring a <b>adequate system definition with regard to its real operational 
 					use and IVVQ conditions</b>.
 				</p>
 				<p>
-					Outputs of this engineering phase mainly consist in an “operational architecture” describing and structuring this need, in terms of actors/users, 
-					their operational capabilities and activities, operational use scenarios giving dimensioning parameters, operational constraints 
-					including safety, security, lifecycle, etc.
+					Outputs of this engineering phase mainly consist of an “operational architecture” which describes and structures the need in terms of actors/users, 
+					their operational capabilities and activities (including operational use scenarios with dimensioning parameters, and operational constraints 
+					including safety, security, lifecycle, etc.).
 				</p>
 				<h3>Formalization of system requirements - System Need Analysis</h3>
 				<p>
 					The second step focuses on the <b>system itself</b>, in order to define <b>how it can satisfy the former operational need</b>, along with its 
-					expected behaviour and qualities: Functions to be supported and related exchanges, non-functional constraints (safety, security, etc.), 
+					expected behaviour and qualities. The following elements are created during this step: Functions to be supported and related exchanges, non-functional constraints (safety, security, etc.), 
 					performance allocated to system boundary, role sharing and interactions between system and operators, etc.
 				</p>
 				<p>
-					The goal at this stage is also to <b>check the feasibility of customer requirements</b> (cost, schedule, technology readiness, etc.) 
-					and if necessary, to provide means to renegotiate their contents. This functional need analysis can be completed by a first 
-					early system architectural design model in order to examine requirements against this architecture and evaluate their cost 
+					The main goal at this stage is to <b>check the feasibility of customer requirements</b> (cost, schedule, technology readiness, etc.) 
+					and if necessary, to provide means to renegotiate their content. The functional need analysis can be completed by an initial 
+					system architectural design model in order to examine requirements against this architecture and evaluate their cost 
 					and consistency.
 				</p>
 				<p>
-					Outputs of this engineering phase mainly consist of system functional need description (functions, functional chains, scenarios), interoperability and 
+					Outputs of this engineering phase mainly consist of system functional need descriptions (functions, functional chains, scenarios), interoperability and 
 					interaction with the users and external systems (functions, exchanges plus non-functional constraints), and system requirements.
 				</p>
 				<p>
@@ -145,8 +193,8 @@
 				</p>
 				<h3>Development of System Architectural Design - Logical Architecture (Notional Solution)</h3>
 				<p>
-					This third step aims at building a <b>coarse-grained breakdown of the system in components</b> not likely to be challenged later 
-					in the development. Starting from previous functional and non-functional analysis refined results (functions, interfaces, 
+					This third step aims at building a <b>coarse-grained component breakdown of the system</b> which is unlikely to be challenged later 
+					in the development process. Starting from previous functional and non-functional analysis refined results (functions, interfaces, 
 					data flows, behaviours…), build one or several decompositions of the system into logical components. These logical components 
 					will later tend to be the basic decomposition for development/sub-contracting, integration, reuse, product and configuration 
 					management item definitions (but other criteria will be taken into account to define the boundaries for these items)
@@ -159,14 +207,14 @@
 				
 				
 				<p>
-					The building process has to take into account <b>architecture drivers and priorities, viewpoints and associated design rules</b>, 
-					etc. For this breakdown in components to be stable in further engineering phases, all major (non-functional) constraints 
+					The building process has to take into account <b>architectural drivers and priorities, viewpoints and associated design rules</b>, 
+					etc. For te component breakdown to be stable in further engineering phases, all major (non-functional) constraints 
 					(safety, security, performance, IVV, cost, non-technical, Etc.) are taken into account and compared to each other so as to find 
-					the best compromise between them. This method is described as "viewpoint-driven", viewpoints being the formalisation of 
+					the best trade-off. This method is described as "viewpoint-driven", where viewpoints formalise  
 					the way these constraints impact the system architecture.
 				</p>
 				<p>
-					Outputs of this engineering phase consist of the selected logical architecture: Components and justified 
+					Outputs of this engineering phase consist of the selected logical architecture which is described by: components and justified 
 					interfaces definition, scenarios, modes and states, formalisation of all viewpoints and the way they are taken into account in the components design. 
 				</p>
 				<p>
@@ -180,24 +228,23 @@
 				
 				<h3>Development of System Architecture - Physical Architecture</h3>
 				<p>
-					The fourth step has the same intents as logical architecture building, except that it defines the “final” architecture of the system 
-					at this level of engineering, <b>ready to develop</b> (by "lower" engineering levels). Therefore, it introduces rationalisation, architectural 
+					The fourth step has the same intent as the logical architecture building, except that it defines the “final” architecture of the system 
+					at this level of engineering. Once this is done the model is considered <b>ready to develop</b> (by "lower" engineering levels). Therefore, it introduces rationalisation, architectural 
 					patterns, new technical services and components, and makes the logical architecture evolve according to implementation, technical and 
 					technological constraints and choices. The same viewpoint-driven approach as for logical architecture building is used.
 				</p>
 				<p>
-					Outputs of this engineering phase consist of the selected physical architecture: Components to be produced, 
-					including formalisation of all viewpoints and the way they are taken into account in the components design. Links with 
+					Outputs of this engineering phase consist of the selected physical architecture which includes components to be produced, 
+					formalisation of all viewpoints and the way they are taken into account in the components design. Links with 
 					requirements and operational scenarios are also produced.
 				</p>
 				<h3>Formalize Components Requirements - Contracts for Development and IVVQ</h3>
 				<p>
-					The fifth and last step is a contribution to EPBS (End-Product Breakdown Structure) building, taking benefits from the former 
-					architectural work, to enforce components requirements definition, and prepare a secured IVVQ.
+					The fifth and last step is a contribution to an EPBS (End-Product Breakdown Structure), taking benefits from the former 
+					architectural work, to formalise the component requirements definition and prepare a secured IVVQ.
 				</p>
 				<p>
-					All choices associated to the system chosen architecture and all hypotheses and constraints imposed to components and 
-					architecture to fit need and constraints are summarised and checked here.
+					All previous hypotheses and imposed constraints associated to the system architecture and components are summarised and checked here.
 				</p>
 				<p>
 					Outputs from this engineering phase are mainly <b>component integration contracts</b> collecting all necessary 
@@ -219,7 +266,7 @@
 					COTS are identified.
 				</p>
 				<p>
-					The physical architecture at level n defines components to be developed at level n-1, according to the corresponding component 
+					The physical architecture at a given level of interest defines the components to be developed at the level above, according to the corresponding component 
 					integration contract. Level "n" need analysis is restricted to each component scope, in order to define its IVVQ context.
 				</p>
 				
@@ -234,10 +281,10 @@
 				<p>
 					Beyond the transverse, common architectural design work, each organization, in the field of its own business, 
 					constraints and know-how, should <b>tailor the method steps by adapting them to their own domains, 
-					products and programs</b>.
+					products and programs</b>. This includes:
 				</p>
 				<ul>
-					<li>Definition of a reference architecture (including architecture drivers) for each key product and software</li>
+					<li>Definition of a reference architecture (including architecture drivers) for each key product and software element</li>
 					<li>Definition of appropriate viewpoints adapted to the domain, product and architecture</li>
 					<li>Definition of complementary dedicated engineering rules</li>
 					<li>Selection of relevant architectural patterns for the domain, product, and technologies considered</li>
@@ -247,7 +294,7 @@
 					<li>Dissemination in the engineering teams (training, coaching)...</li>
 				</ul>
 				<p>
-					The recommended method described in this document will take best benefit from a <b>top-down approach</b>:
+					The recommended method described in this document is to use a <b>top-down approach</b>:
 				</p>
 				<ul>
 					<li>Starting from operational need to define and validate requirements</li>
@@ -255,22 +302,22 @@
 					<li>Then specifying technical functions and services of a physical architecture to implement it in the best way</li>
 				</ul>
 				<p>
-					Yet many constraints to be taken into account arise from the industrial context, such as:
+					Yet many constraints which need to be taken into account arise from the industrial context, such as:
 				</p>
 				<ul>
 					<li>Technical or technological limits</li>
 					<li>Available technology, COTS</li>
 					<li>Existing legacy to be reused</li>
 					<li>Product policy imposing the use of given hardware boards, software components...</li>
-					<li>Industrial constraints such as available skills, necessity to sub-contract, export control...</li>
+					<li>Industrial constraints such as available skills, the necessity to sub-contract, and export control...</li>
 				</ul>
 				<p>					
-					Arcadia can be adapted to several lifecycles and work sharing schemes. Great care has been taken in the method, 
-					the language and the workbench not to impose one single engineering path (e.g. top-down) but to be adaptable to 
+					This is the reason why Arcadia can be applied according to several lifecycles and work sharing schemes. Great care has been taken in the method, 
+					language and the Capella workbench to not impose one single engineering path (e.g. top-down) but to be adaptable to 
 					many lifecycles: <b>Incremental, iterative, top-down, bottom-up, middle-out</b>, Etc.. The method is inherently <b>iterative</b>.
 				</p>
 				<p>
-					Examples of iterations or non-linear courses: 
+					Examples of iterations or non-linear courses are: 
 				</p>
 				<ul>
 					<li>Need analysis starting from requirements, due to a lack of operational knowledge 
