@@ -724,7 +724,7 @@ li.active a, li.active a:hover {
 	display: block;
 }
 
-#tab2 p {
+.tab p {
 	font-size: 12px;
 }
 
