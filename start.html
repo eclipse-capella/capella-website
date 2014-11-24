@@ -2,7 +2,14 @@
 <html>
 <link rel="icon" type="image/png" href="favicon.ico" />
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+<!-- Add jQuery library -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="js-global/fancyzoom_simplified.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('a.zoom').fancyZoom({scaleImg: true, closeOnClick: true});
+	});
+</script>
 <script>
 	jQuery(document).ready(function() {
 		jQuery('.tabs .tab-links a').on('click', function(e)  {
@@ -20,6 +27,7 @@
 		});
 	});
 </script>
+
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -73,17 +81,39 @@
 			 
 				<div class="tab-content">
 					<div id="tab1" class="tab active">
-						<p>
-							Coming Soon...
-						</p>
+						<!-- pour chaque couple [miniature/taille normale], l'identifiant doit etre le meme et unique! -->
+					
+						<h3>Class Diagram Blank [CDB]</h3>
+						<!-- la miniature -->
+						<a href="#cdb" class="zoom">
+							<img class="center" alt="[CDB]" src="images/start/diagrams/[CDB]_Data.jpg" width="80%">
+						</a>
+						
+						<!-- la taille normale -->
+						<div id="cdb">
+							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" alt="[CDB]" src="images/start/diagrams/[CDB]_Data.jpg" />
+						</div>
+						
+						<!-- saut de ligne -->
 						<br />
+						
+						<h3>Logical Architecture Blank [LAB]</h3>
+						<!-- la miniature -->
+						<a href="#lab" class="zoom">
+							<img class="center" alt="[LAB]" src="images/start/diagrams/[LAB]_Eole.jpg" width="80%">
+						</a>
+						
+						<!-- la taille normale -->
+						<div id="lab">
+							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" alt="[LAB]" src="images/start/diagrams/[LAB]_Eole.jpg" />
+						</div>
+						
 						<br />
+						<h3>Physical Architecture Dataflow Blank [PDFB]</h3>
 						<br />
+						<h3>Operational Entity Blank [OEB]</h3>
 						<br />
-						<br />
-						<br />
-						<br />
-						<br />
+						<h3>Entity Scenario [ES]</h3>
 						<br />
 						<br />
 						<br />
