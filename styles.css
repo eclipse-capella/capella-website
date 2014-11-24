@@ -687,8 +687,8 @@ footer table td{
 	font-family: 'Jura',Arial,sans-serif;
     font-size: 14px;
     letter-spacing: 0;
-	margin: 5px -3px;
-    padding: 8px 50px;
+	margin: 10px -3px;
+    padding: 5px 50px;
     text-decoration: none;
     text-transform: uppercase;
 	color: #fff; 
@@ -706,6 +706,9 @@ footer table td{
 li.active a, li.active a:hover {
 	background: #F8F8F8;
 	color: #1791AB;
+	font-weight: bold;
+	padding: 6px 50px;
+	box-shadow: -1px 1px 1px rgba(0,0,0,0.15);
 }
  
 /*----- Content of Tabs -----*/
