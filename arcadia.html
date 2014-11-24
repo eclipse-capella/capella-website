@@ -53,7 +53,7 @@
 				</p>
 				<h3>Architecture as prime engineering driver</h3>
 				<p>
-					Architecture is a powerful tool to analyse operational needs, structure and break-down of the
+					Architecture is a powerful tool to analyse operational needs, to structure and to break down the
 					system, software, or hardware function in order to:
 				</p>
 				<ul>
@@ -89,7 +89,7 @@
 					Steps and activities of the method have been defined with a few Golden Rules:
 				</p>
 				<ol>
-					<li>As a precursor to requirement engineering, drive an <b>operational need analysis</b>, describing final user expectations,  
+					<li>Besides requirement engineering, drive an <b>operational need analysis</b>, describing final user expectations,  
 						usage conditions, and realistic IVVQ conditions</li>
 					<li>Consider engineering through three mandatory interrelated activities, at the same level of importance:
 						<ol type="a">
@@ -118,53 +118,41 @@
 					<table>		
 						<tr>
 							<th>
-								<h3>Some noticeable features of ARCADIA are:</h3>
+								<h3>Noticeable features of Arcadia</h3>
 								<br />
 								
 								<ul>
 									<li><b>Models supporting Entreprise-wide collaboration and co-engineering</b>
 										<ul>
-											<li>A Capella model is built for each ARCADIA step; all of these models are linked by 
-												traceability / justification links, and are processed as a whole for impact analysis</li>
-											<li>Collaboration with engineering specialities (safety, security, performance & sizing, 
-												product policy, Logistics, …) is supported by modelled "engineering Viewpoints" to 
-												formalise constraints and to check architecture adequacy with each of them</li>
-											<li>Collaboration with customer and subsystems engineering relies on co-engineered model 
-												steps (e.g. Physical Architecture), automatic initialisation of need model for sub-systems, 
-												and traceability/impact analysis means between requirements and models of different engineering levels</li>
+											<li>A Capella model is built for each Arcadia engineering phase. All of these models are related by 
+												justification links and are processed as a whole for impact analysis.</li>
+											<li>Collaboration with engineering specialities is supported by modelled engineering viewpoints to 
+												formalise constraints and to check architecture adequacy against each of them</li>
+											<li>Collaboration with customer and subsystems engineering relies on co-engineered models 
+												(e.g. physical architecture), automatic initialisation of need model for sub-systems, 
+												and impact analysis means between requirements and models of different engineering levels.</li>
 										</ul>
 									</li>
-									<li><b>Adopting user’s language, not the opposite</b>
+									<li><b>Tailored for architectural design</b>
 										<ul>
 											<li>A domain-specific language (DSL) was preferred in order to ease appropriation by all stakeholders, 
-												usually not familiar with general purpose, generic languages</li>
+												usually not familiar with general-purpose, generic languages such as UML or SysML.</li>
 										</ul>
 									</li>
 									<li><b>Open to domain-specific added value</b>
-										<ul>
-											<li>Extensible language and viewpoint analyses allow to capitalise specific know-how while preserving 
-												trade-offs and common approach</li>
-										</ul>
 									</li>
-									<li><b>Adapted to several lifecycles, workshares...</b>
-										<ul>
-											<li>Great care has been taken in the method, the language and the Capella tool, not to impose one single 
-												engineering path (e.g. top-down), but to be adaptable to many lifecycles (incremental, iterative, 
-												top-down, bottom-up, middle-out, reuse…)</li>
-										</ul>
+									<li><b>Adapted to several lifecycles and work sharing schemes</b>
 									</li>
-									<li><b>Dealing with complexity & size</b>
+									<li><b>Dealing with complexity and size</b>
 										<ul>
-											<li>Abstraction levels have been defined, and specific language and Capella tool features have been added 
-												or modified, in order to mask and confine complexity</li>
-											<li>Specific Capella features deal with model maintenance, large scale modelling, model evolution and reuse</li>
+											<li>Abstraction levels have been defined. Capella advanced mechanisms have been developed to mask and confine complexity, deal with model maintenance, large-scale modelling, model evolution and reuse.</li>
 										</ul>
 									</li>
 									<li><b>Field-proven in real industrial situations</b>
 										<ul>
-											<li>ARCADIA is currently in use in most Thales units, in many countries, on very large or small projects, 
-												by hundreds of users. A continuous challenging, improvement and adaptation of both method & tools have 
-												allowed a very fast dissemination.</li>
+											<li>Arcadia is currently in use in most Thales business units, in many countries, on very large or small projects, 
+												by hundreds of users. A continuous challenging, improvement and adaptation of both the method and its supporting workbench has 
+												favoured a very fast dissemination.</li>
 										</ul>
 									</li>
 								</ul>
@@ -179,13 +167,13 @@
 				<h3>Definition of the Problem - Customer Operational Need Analysis</h3>
 				<p>
 					The first step focuses on analysing the customer needs and goals, expected missions and activities, far beyond system 
-					requirements. This analysis aims at ensuring a <b>adequate system definition with regard to its real operational 
+					requirements. This analysis aims at ensuring <b>adequate system definition with regard to its real operational 
 					use and IVVQ conditions</b>.
 				</p>
 				<p>
 					Outputs of this engineering phase mainly consist of an “operational architecture” which describes and structures the need in terms of actors/users, 
 					their operational capabilities and activities (including operational use scenarios with dimensioning parameters, and operational constraints 
-					including safety, security, lifecycle, etc.).
+					such as safety, security, lifecycle, etc.).
 				</p>
 				<h3>Formalization of system requirements - System Need Analysis</h3>
 				<p>
@@ -230,7 +218,7 @@
 					the way these constraints impact the system architecture.
 				</p>
 				<p>
-					Outputs of this engineering phase consist of the selected logical architecture which is described by: components and justified 
+					Outputs of this engineering phase consist of the selected logical architecture which is described by components and justified 
 					interfaces definition, scenarios, modes and states, formalisation of all viewpoints and the way they are taken into account in the components design. 
 				</p>
 				<p>
@@ -310,7 +298,7 @@
 					<li>Dissemination in the engineering teams (training, coaching)...</li>
 				</ul>
 				<p>
-					The recommended method described in this document is to use a <b>top-down approach</b>:
+					The recommended method described in this document takes best benefit from a <b>top-down approach</b>:
 				</p>
 				<ul>
 					<li>Starting from operational need to define and validate requirements</li>
@@ -318,7 +306,7 @@
 					<li>Then specifying technical functions and services of a physical architecture to implement it in the best way</li>
 				</ul>
 				<p>
-					Yet many constraints which need to be taken into account arise from the industrial context, such as:
+					Yet many constraints which need to be taken into account arise from the industrial context:
 				</p>
 				<ul>
 					<li>Technical or technological limits</li>
