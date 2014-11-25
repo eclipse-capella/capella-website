@@ -3,225 +3,300 @@
 <link rel="icon" type="image/png" href="favicon.ico" />
 
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Capella</title>
-<link rel="stylesheet" href="styles.css" type="text/css" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Capella</title>
+	
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="js-global/turn.min.js"></script>
+	
+	<script type="text/javascript">
+    $(document).ready(function() {
+		var module = {
+			ratio: 1.38,
+			init: function (id) {
+				var me = this;
+
+				// if older browser then don't run javascript
+				if (document.addEventListener) {
+					this.el = document.getElementById(id);
+					this.resize();
+					this.plugins();
+
+					// on window resize, update the plugin size
+					window.addEventListener('resize', function (e) {
+						var size = me.resize();
+						$(me.el).turn('size', size.width, size.height);
+					});
+				}
+			},
+			resize: function () {
+				// reset the width and height to the css defaults
+				this.el.style.width = '';
+				this.el.style.height = '';
+
+				var width = this.el.clientWidth,
+					height = Math.round(width / this.ratio),
+					padded = Math.round(document.body.clientHeight * 0.9);
+
+				// if the height is too big for the window, constrain it
+				if (height > padded) {
+					height = padded;
+					width = Math.round(height * this.ratio);
+				}
+
+				// set the width and height matching the aspect ratio
+				this.el.style.width = width + 'px';
+				this.el.style.height = height + 'px';
+
+				return {
+					width: width,
+					height: height
+				};
+			},
+			plugins: function () {
+				// run the plugin
+				$(this.el).turn({
+					gradients: true,
+					acceleration: true
+				});
+				// hide the body overflow
+				document.body.className = 'hide-overflow';
+			}
+		};
+		module.init('book');	
+	});
+
+	
+	</script>
+	
+	<script type="text/javascript" src="js-global/fancyzoom_simplified.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('a.zoom').fancyZoom({scaleImg: true, closeOnClick: true});
+		});
+	</script>
+	
+	<link rel="stylesheet" href="styles.css" type="text/css" />
 </head>
+
 <body>
-<div id="container">
-    <header>
-		<div class="logo-left width">
-			<a href="index.html"><img src="images/logo_capella_350.png" alt="Capella logo" width=""></a>
-		</div>
-    </header>
-    <nav>
-		
-		<div class="width">
-			<ul>
-				<li class="start"><a href="index.html">Home</a></li>
-				<li class="divider-vertical-second-menu"></li>
-				<li><a href="arcadia.html">Arcadia</a></li>
-				<li class="divider-vertical-second-menu"></li>
-				<li class="selected"><a href="features.html">Features</a></li>
-				<li class="divider-vertical-second-menu"></li>
-				<li><a href="start.html">Getting Started</a></li>
-				<li class="divider-vertical-second-menu"></li>
-				<li><a href="events.html">Events</a></li>
-				<li class="divider-vertical-second-menu"></li>
-				<li class="end"><a href="support.html">Support</a></li>
-			</ul>		
-		</div>
-		<div class="right-nav width">
-			<a href="http://www.polarsys.org/solutions/capella" class="button curl-top-right">Download</a>
-		</div>
-		
-    </nav>
+	<div id="container">
+		<header>
+			<div class="logo-left width">
+				<a href="index.html"><img src="images/logo_capella_350.png" alt="Capella logo" width=""></a>
+			</div>
+		</header>
+		<nav>
+			
+			<div class="width">
+				<ul>
+					<li class="start"><a href="index.html">Home</a></li>
+					<li class="divider-vertical-second-menu"></li>
+					<li><a href="arcadia.html">Arcadia</a></li>
+					<li class="divider-vertical-second-menu"></li>
+					<li class="selected"><a href="features.html">Features</a></li>
+					<li class="divider-vertical-second-menu"></li>
+					<li><a href="start.html">Getting Started</a></li>
+					<li class="divider-vertical-second-menu"></li>
+					<li><a href="events.html">Events</a></li>
+					<li class="divider-vertical-second-menu"></li>
+					<li class="end"><a href="support.html">Support</a></li>
+				</ul>		
+			</div>
+			<div class="right-nav width">
+				<a href="http://www.polarsys.org/solutions/capella" class="button curl-top-right">Download</a>
+			</div>
+			
+		</nav>
 
-	<div id="hrdiv">
-		<img src="images/bg_breadcrumb.jpg" width="" alt="" height="" />
+		<div id="hrdiv">
+			<img src="images/bg_breadcrumb.jpg" width="" alt="" height="" />
+		</div>
+		
 	</div>
-
-    <div id="body" class="width-started">
-		
-		<section id="content">
-			<article class="expanded">
-				<h3>Some key features of Capella</h3>
-				
-				<h5>Overview</h5>
-				<p>
-					Overview provides a methodological access to all key activities of Capella. It is displayed automatically 
-					each time a Capella model is opened. It can also be launched with the contextual menu. 
-				</p>
-				<img class="center" alt="Overview" src="images/features/overview.png" width="140%">
+	
+	<div class="t width">
+		<div class="tc rel">
+			<div class="book" id="book">
+				<div class="page" style="background-color:#F0F0F0 ;">
 				<br />
 				<br />
-				
-				<h5>Semantic Colormap</h5>
-				<p>
-					Graphical representation of elements play a key role in communication. 
-					Capella relies on a consistent color scheme thus easing communication and 
-					models readability between different stakeholders.
-				</p>
-				<img class="center" alt="Colormap" src="images/features/colormap.png" width="70%">
 				<br />
 				<br />
-								
-				<h5>Semantic Browser</h5>
-				<p>
-					The Semantic Browser provides the context of model elements. 
-					It is the preferred way to navigate in models and diagrams and to 
-					quickly analyze the relationships between model elements.
-				</p>
-				
-				<a href="#semantic" class="zoom">
-					<img class="center" alt="Semantic Browser" src="images/features/semantic_browser.png" width="120%">
-				</a>
-				
-				<!-- la taille normale -->
-				<div id="semantic">
-					<img style="background: #fff; box-shadow: 0px 0px 6px #111;" alt="Semantic Browser" src="images/features/semantic_browser.png" />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+					<h1>Some key features of Capella</h1>
 				</div>
-				
-				<br />
-				<br />
-				
-				<h5>Computed Links</h5>
-				<p>
-					Capella provides means to tackle models complexity.
+				<div class="page" style="background-color:#F8F8F8 ;">
+					<br />
+					<h3>Overview</h3>
+					<p style="text-align: left; padding:10px;">
+						Overview provides a methodological access to all key activities of Capella. It is displayed automatically 
+						each time a Capella model is opened. It can also be launched with the contextual menu. 
+					</p>
+					
+					<!-- la miniature -->
+					<a href="#overview" class="zoom">
+						<img src="images/features/overview.png" alt="">
+					</a>
+					
+					<!-- la taille normale -->
+					<div id="overview">
+						<img style="background: #fff; box-shadow: 0px 0px 6px #111;" src="images/features/overview.png" alt="" />
+					</div>
+				</div>
+				<div class="page" style="background-color:#F8F8F8 ;">
+					<br />
+					<h3>Semantic Colormap</h3>
+					<p style="text-align: left; padding:10px;">
+						Graphical representation of elements play a key role in communication. 
+						Capella relies on a consistent color scheme thus easing communication and 
+						models readability between different stakeholders.
+					</p>
+					
+					<!-- la miniature -->
+					<a href="#colormap" class="zoom">
+						<img src="images/features/colormap.png" alt="">
+					</a>
+					
+					<!-- la taille normale -->
+					<div id="colormap">
+						<img style="background: #fff; box-shadow: 0px 0px 6px #111;" src="images/features/colormap.png" alt="" />
+					</div>
+				</div>
+				<div class="page" style="background-color:#F8F8F8 ;">
+					<br />
+					<h3>Semantic Browser</h3>
+					<p style="text-align: left; padding:10px;">
+						The Semantic Browser provides the context of model elements. 
+						It is the preferred way to navigate in models and diagrams and to 
+						quickly analyze the relationships between model elements.
+					</p>
+					
+					<!-- la miniature -->
+					<a href="#sembrow" class="zoom">
+						<img src="images/features/semantic_browser.png" alt="">
+					</a>
+					
+					<!-- la taille normale -->
+					<div id="sembrow">
+						<img style="background: #fff; box-shadow: 0px 0px 6px #111;" src="images/features/semantic_browser.png" alt="" />
+					</div>
+				</div>
+				<div class="page" style="background-color:#F8F8F8 ;">
+					<br />
+					<h3>Computed Links</h3>
+					<p style="text-align: left; padding:10px;">
+						Capella provides means to tackle models complexity.
 					Considering nested components and links between them, for readability purposes, the model can be simplified 
 					showing only top-level components. Additionnal resulting links between top-level components are computed from 
-					low-level components interactions and this, automatically. 
-				</p>
-				
-				<img class="center" alt="Computed Links" src="images/features/complexity_0.png" width="80%">
-				<br />
-				<br />
-				
-				<img class="center" alt="Computed Links" src="images/features/complexity_1.png" width="80%">
-				<br />
-				<br />
-				
-				<h5>Advanced Diagram Management</h5>
-				<ul>
-					<li>Automated contextual diagrams</li>
-					<li>
-						Synchronized/Unsynchronized diagrams:
-						Using <i>Synchronized</i> mode ensures that at any time, the information displayed on a diagram reflects 
-						exactly the contents of the model (for a given phase). 
-						Using <i>Unsynchronized</i> mode allows the user to break this link, particularly on huge model when 
-						wanting to bring the focus more on elements of the diagram than on others.
-					</li>
-					<li>
-						Filters:
-						Using filters, the user selects the information to be displayed on the diagram 
-						and the one to be hidden. Mainly used for readability purposes.</li>
-					<li>
-						Layers: A good way to visualize a diagram is as a stack of transparencies: in graphical terminology, 
-						each individual transparency is called a layer.  New layers that are added to a diagram will be inserted 
-						above the background. The background is always present. It represents the diagram itself. 
-						Viewpoints utilize layers to bring added-value graphical information to the diagram.
-					</li>
-				</ul>
-				
-				<img class="center" alt="Contextual Diagrams" src="images/features/contextual_diagrams.png" width="70%">
-				<br />
-				<br />
-				
-				<img class="center" alt="Filters" src="images/features/filters.png" width="80%">
-				<br />
-				<br />
-				
-				<h5>Model Validation</h5>
-				<ul>
-					<li>Validation profiles, a mean to specify validation rule sets, thus enabling configuration reuse 
-						during validation of Capella model elements.</li>
-					<li>Batch quickfixes, providing quick solutions to validation issues.</li>
-				</ul>
-				
-				<img class="center" alt="Quickfixes" src="images/features/quickfixes.png" width="120%">
-				<br />
-				<br />
-								
-				<h5>Semantic delete with preview</h5>
-				<p>
-					Shows impacts on architecture on element deletion operation from the model.
-				</p>
-				
-				<img class="center" alt="Delete Preview" src="images/features/del_preview.png" width="80%">
-				<br />
-				<br />
-				
-				
-				<h5>Replicable elements and libraries</h5>
-				<p>
-					Replicable Elements are mechanisms allowing the easy reuse of model parts.
-					A Replicable Elements Collection (REC) is a definition of an element / set of 
-					elements which can be used in multiple contexts / configurations / models. 
-					A Replica (RPL) is a use (instantiation) of a Replicable Elements Collection 
-					in a given context / configuration / model.
-					RECs can be packaged in libraries which can be shared between several projects.
-				</p>
-				
-				<img class="center" alt="REC-RPL" src="images/features/rec_rpl.png" width="80%">
-				<br />
-				<br />
-				
-				
-				<h5>Modelling Patterns</h5>
-				<p>
-					A pattern is a general solution to a recurring engineering problem. Patterns are a very 
-					valuable part of the knowledge of domain experts, where the domain can be Software, Hardware, 
-					System design, or a specialty engineering discipline such as Safety, Security, Performance, etc. 
-					When engineering relies on modeling, a pattern naturally manifests itself as a recurring modeling 
-					principle - or modeling pattern. 
-				</p>
-				
-				<img class="center" alt="Patterns" src="images/features/patterns.png" width="50%">
-				<br />
-				<br />
-				
-				<h5>Transition System Subsystem</h5>
-				<p>
-					The objective of this transition is to re-apply the methodology starting from one or several 
-					given Configuration Item(s) or to extract a subset of the Physical or Logical Architecture 
-					and populate a new model with this subset.
-				</p>
-				
-				
-				<img class="center" alt="Transition System Subsystem" src="images/features/transition_system_subsystem.png" width="100%">
-				<br />
-				<br />
-								
-				<h5>Multi-Viewpoint</h5>
-				<p>
-					From extraction of separated metadata introduced on elements using Viewpoints to correlation thereof.
-					Allows business information computation like architecture evaluation.
-				<p>
-				
-				<img class="center" alt="Multi Viewpoints" src="images/features/multi_vp.png" width="110%">
-				<br />
-				<br />
-				
-				
-				<h5>HTML output</h5>
-				<p>
-					Powerful tool to produce naviguable model-based HTML documentation with custom look-and-feel. 
-					Providing description of all elements of the model and all diagrams.
-				<p>
-				
-				<img class="center" alt="HTML" src="images/features/html.jpg" width="110%">
-				<br />
-				<br />
-				
-			</article>		
-			
+					low-level components interactions and this, automatically.
+					</p>
+				</div>
+				<div class="page" style="background-color:#F8F8F8 ;">
+					<br />
+					<h3>Advanced Diagram Management</h3>
+					<p style="text-align: left; padding:10px;">
+						<ul style="text-align: left; padding:10px;">
+							<li>Automated contextual diagrams</li>
+							<li>
+								Synchronized/Unsynchronized diagrams:
+								Using <i>Synchronized</i> mode ensures that at any time, the information displayed on a diagram reflects 
+								exactly the contents of the model (for a given phase). 
+								Using <i>Unsynchronized</i> mode allows the user to break this link, particularly on huge model when 
+								wanting to bring the focus more on elements of the diagram than on others.
+							</li>
+							<li>
+								Filters:
+								Using filters, the user selects the information to be displayed on the diagram 
+								and the one to be hidden. Mainly used for readability purposes.</li>
+							<li>
+								Layers: A good way to visualize a diagram is as a stack of transparencies: in graphical terminology, 
+								each individual transparency is called a layer.  New layers that are added to a diagram will be inserted 
+								above the background. The background is always present. It represents the diagram itself. 
+								Viewpoints utilize layers to bring added-value graphical information to the diagram.
+							</li>
+						</ul>
+					</p>
+				</div>
+				<div class="page" style="background-color:#F8F8F8 ;">
+					<br />
+					<h3>Model Validation</h3>
+					<p style="text-align: left; padding:10px;">
+						<ul style="text-align: left; padding:10px;">
+							<li>Validation profiles, a mean to specify validation rule sets, thus enabling configuration reuse 
+								during validation of Capella model elements.</li>
+							<li>Batch quickfixes, providing quick solutions to validation issues.</li>
+						</ul>
+					</p>
+				</div>
+				<div class="page" style="background-color:#F8F8F8 ;">
+					<br />
+					<h3>Semantic delete with preview</h3>
+					<p style="text-align: left; padding:10px;">
+						Shows impacts on architecture on element deletion operation from the model.
+					</p>
+				</div>
+				<div class="page" style="background-color:#F8F8F8 ;">
+					<br />
+					<h3>Replicable elements and libraries</h3>
+					<p style="text-align: left; padding:10px;">
+						Replicable Elements are mechanisms allowing the easy reuse of model parts.
+						A Replicable Elements Collection (REC) is a definition of an element / set of 
+						elements which can be used in multiple contexts / configurations / models. 
+						A Replica (RPL) is a use (instantiation) of a Replicable Elements Collection 
+						in a given context / configuration / model.
+						RECs can be packaged in libraries which can be shared between several projects.
+					</p>
+				</div>
+				<div class="page" style="background-color:#F8F8F8 ;">
+					<br />
+					<h3>Modelling Patterns</h3>
+					<p style="text-align: left; padding:10px;">
+						A pattern is a general solution to a recurring engineering problem. Patterns are a very 
+						valuable part of the knowledge of domain experts, where the domain can be Software, Hardware, 
+						System design, or a specialty engineering discipline such as Safety, Security, Performance, etc. 
+						When engineering relies on modeling, a pattern naturally manifests itself as a recurring modeling 
+						principle - or modeling pattern.
+					</p>
+				</div>
+				<div class="page" style="background-color:#F8F8F8 ;">
+					<br />
+					<h3>Transition System/Subsystem</h3>
+					<p style="text-align: left; padding:10px;">
+						The objective of this transition is to re-apply the methodology starting from one or several 
+						given Configuration Item(s) or to extract a subset of the Physical or Logical Architecture 
+						and populate a new model with this subset.
+					</p>
+				</div>
+				<div class="page" style="background-color:#F8F8F8 ;">
+					<br />
+					<h3>Multi-Viewpoint</h3>
+					<p style="text-align: left; padding:10px;">
+						From extraction of separated metadata introduced on elements using Viewpoints to correlation thereof.
+						Allows computation of business information like architecture evaluation.
+					</p>
+				</div>
+				<div class="page" style="background-color:#F8F8F8 ;">
+					<br />
+					<h3>HTML output</h3>
+					<p style="text-align: left; padding:10px;">
+						Powerful tool to generate naviguable model-based HTML documentation with custom look-and-feel. 
+						Providing description of all elements of the model and all diagrams.
+					</p>
+				</div>
+			</div>
+		</div>
 		
-        </section>
-		
-		
-        
-    	<div class="clear"></div>
-    </div>
+		<div class="clear"></div>
+	</div>
+
+	
     <footer>
         <div class="footer-content width">
 			<ul>
