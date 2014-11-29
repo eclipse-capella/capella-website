@@ -56,13 +56,10 @@
 	<div id="body" class="width">
 		<section id="content">
 			<article class="expanded">
-				<h2>Some key features of Capella</h2>
-				
 				<br />
-				<h3>Overview</h3>
+				<h3>Methodological Guidance</h3>
 				<p style="text-align: left; padding:10px;">
-					Overview provides a methodological access to all key activities of Capella. It is displayed automatically 
-					each time a Capella model is opened. It can also be launched with the contextual menu. 
+					The activity browser provides a <b>methodological access</b> to all key activities of Capella. It is the main entry point to a model and is both meant for beginners and power users. 
 				</p>
 				
 				<!-- la miniature -->
@@ -78,9 +75,7 @@
 				<br />
 				<h3>Semantic Colormap</h3>
 				<p style="text-align: left; padding:10px;">
-					Graphical representation of elements play a key role in communication. 
-					Capella relies on a consistent color scheme thus easing communication and 
-					models readability between different stakeholders.
+					As graphical representations of elements play a key role in communication, Capella relies on a consistent colour scheme. This favours enhanced model readability for all stakeholders (architects, V&V practitioners, specialty engineers, managers, etc.).
 				</p>
 				
 				<!-- la miniature -->
@@ -96,9 +91,7 @@
 				<br />
 				<h3>Semantic Browser</h3>
 				<p style="text-align: left; padding:10px;">
-					The Semantic Browser provides the context of model elements. 
-					It is the preferred way to navigate in models and diagrams and to 
-					quickly analyze the relationships between model elements.
+					More useful than the standard hierarchical view of the model, the <b>semantic browser</b> instantaneously provides the context of model elements trough <b>meaningful queries</b>. It is the preferred way to navigate in models and diagrams and to quickly analyse the relationships between model elements.
 				</p>
 				
 				<!-- la miniature -->
@@ -114,13 +107,11 @@
 				<br />
 				<h3>Computed Links</h3>
 				<p style="text-align: left; padding:10px;">
-					Capella provides means to tackle models complexity.
-					Considering nested components and links between them, for readability purposes, the model can be simplified 
-					showing only top-level components. Additionnal resulting links between top-level components are computed from 
-					low-level components interactions and this, automatically.
+					A key feature of Capella is its ability to scale and <b>to tackle the increasing complexity of models</b>. Capella automatically computes graphical simplifications. The information exchanges between lower-level functions are automatically displayed on higher-level functions. This relieves architects from managing intermediate information exchanges and manually maintaining consistency between several levels of abstraction. 
+					Capella also provides tag-based mechanisms allowing the graphical grouping of semantically close exchanges.
+
 				</p>
 				
-				<p style="text-align: left; padding:10px;">First, considering a given model:</p>
 				<!-- la miniature -->
 				<a href="#complex1" class="zoom">
 					<img class="center" src="images/features/complexity_0.jpg" alt="" width="60%">
@@ -132,10 +123,6 @@
 				</div>
 				
 				<br />
-				<p style="text-align: left; padding:10px;">
-					Then, deleting elements from the diagram and refreshing the layout, new ports and links are automatically 
-					computed and supported by the referral parent.
-				<p>
 				
 				<!-- la miniature -->
 				<a href="#complex2" class="zoom">
@@ -150,30 +137,10 @@
 				<br />
 				<h3>Advanced Diagram Management</h3>
 				<ul style="text-align: left;">
-					<li>Automated contextual diagrams</li>
-					<li>
-						Synchronized/Unsynchronized diagrams:
-						<ul>
-							<li>
-								Using <i>Synchronized</i> mode ensures that at any time, the information displayed on a diagram reflects 
-								exactly the contents of the model (for a given phase). 
-							</li>
-							<li>
-								Using <i>Unsynchronized</i> mode allows the user to break this link, particularly on huge model when 
-								wanting to bring the focus more on elements of the diagram than on others.
-							</li>
-						</ul>
-					</li>
-					<li>
-						Filters:
-						Using filters, the user selects the information to be displayed on the diagram 
-						and the one to be hidden. Mainly used for readability purposes.</li>
-					<li>
-						Layers: A good way to visualize a diagram is as a stack of transparencies: in graphical terminology, 
-						each individual transparency is called a layer.  New layers that are added to a diagram will be inserted 
-						above the background. The background is always present. It represents the diagram itself. 
-						In particular, Viewpoints utilize layers to bring added-value graphical information to the diagram.
-					</li>
+					<li><b>Automated contextual diagrams</b>: Content is automatically updated according to preselected elements and predefined semantic rules</li>
+					<li><b>Synchronization/unsynchronization of diagrams</b>: Gives a fine level of control on the elements which are systematically displayed or not (Ports of Functions, Exchanges between Components, Properties of Classes, etc.)</li>
+					<li><b>Filters</b> help improve readability of diagrams by selecting display options and automatically hiding / showing elements.</li>
+					<li><b>Layers</b> are means to customise the graphical rendering of elements in a diagram based on different concerns (e.g. speciality viewpoints).</li>
 				</ul>
 				
 				<!-- la miniature -->
@@ -188,11 +155,9 @@
 				
 				<br />
 				<h3>Model Validation</h3>
-				<ul style="text-align: left;">
-					<li>Validation profiles, a mean to specify validation rule sets, thus enabling configuration reuse 
-						during validation of Capella model elements.</li>
-					<li>Batch quickfixes, providing quick solutions to validation issues.</li>
-				</ul>
+				<p>
+				Capella organizes model validation rules in several categories: Integrity, design, completeness, traceability, etc. Architects can define validation profiles focusing on different aspects. Whenever possible, quick fixes provide quick and automated solutions. 
+				</p>
 				
 				<!-- la miniature -->
 				<a href="#quickfix" class="zoom">
@@ -207,7 +172,7 @@
 				<br />
 				<h3>Semantic delete with preview</h3>
 				<p style="text-align: left; padding:10px;">
-					Shows impacts on architecture on element deletion operation from the model.
+					Capella provides instant impact analysis of deletions.
 				</p>
 				
 				<!-- la miniature -->
@@ -223,12 +188,7 @@
 				<br />
 				<h3>Replicable elements and libraries</h3>
 				<p style="text-align: left; padding:10px;">
-					Replicable Elements are mechanisms allowing the easy reuse of model parts.
-					A Replicable Elements Collection (REC) is a definition of an element / set of 
-					elements which can be used in multiple contexts / configurations / models. 
-					A Replica (RPL) is a use (instantiation) of a Replicable Elements Collection 
-					in a given context / configuration / model.
-					RECs can be packaged in libraries which can be shared between several projects.
+					Replicable Elements are mechanisms allowing the easy reuse of (possibly multi-root) model parts. A Replicable Elements Collection (REC, for Record) is a definition of an element / set of elements which can be reused in multiple contexts / configurations / models. A Replica (RPL, for Replay) is an instantiation of a REC. RECs can be packaged in libraries, which can be shared between several projects.
 				</p>
 				
 				<!-- la miniature -->
@@ -244,11 +204,7 @@
 				<br />
 				<h3>Modelling Patterns</h3>
 				<p style="text-align: left; padding:10px;">
-					A pattern is a general solution to a recurring engineering problem. Patterns are a very 
-					valuable part of the knowledge of domain experts, where the domain can be Software, Hardware, 
-					System design, or a specialty engineering discipline such as Safety, Security, Performance, etc. 
-					When engineering relies on modeling, a pattern naturally manifests itself as a recurring modeling 
-					principle - or modeling pattern.
+					Recurring modelling schemes can be captured with patterns.
 				</p>
 				
 				<!-- la miniature -->
@@ -264,9 +220,7 @@
 				<br />
 				<h3>Transition System/Subsystem</h3>
 				<p style="text-align: left; padding:10px;">
-					The objective of this transition is to re-apply the methodology starting from one or several 
-					given Configuration Item(s) or to extract a subset of the Physical or Logical Architecture 
-					and populate a new model with this subset.
+					The automated and iterative transition between system and subsystem is a great help for managing several levels of engineering. The contract and model of the subsystems are computed from the system. Ideally, subsystems stakeholders are involved in co-engineering activities at system level before the transition occurs. 
 				</p>
 				
 				<!-- la miniature -->
@@ -282,9 +236,7 @@
 				<br />
 				<h3>Multi-Viewpoint</h3>
 				<p style="text-align: left; padding:10px;">
-					From extraction of separated metadata introduced on elements using Viewpoints to correlation thereof.
-					Allows computation of business information like architecture evaluation.
-				</p>
+					Capella provides basic demonstration viewpoints (Mass, Cost and Latency). Combined with Kitalpha, it also provides an API for viewpoint development and a contributive comparison view to evaluate the performance of candidate architectures according to different concerns. 				</p>
 				
 				<!-- la miniature -->
 				<a href="#multivp" class="zoom">
@@ -299,8 +251,7 @@
 				<br />
 				<h3>HTML output</h3>
 				<p style="text-align: left; padding:10px;">
-					Powerful tool to generate naviguable model-based HTML documentation with custom look-and-feel. 
-					Providing description of all elements of the model and all diagrams.
+					Sharing models with all stakeholders is essential in model-based systems engineering. Publishing and sharing HTML versions of models helps make models THE reference of all engineering activities. 
 				</p>
 				
 				<!-- la miniature -->
