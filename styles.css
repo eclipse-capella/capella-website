@@ -76,17 +76,31 @@ p {
 
 a {
 	text-decoration: none;
-	color: #1791AB;
+	color: #242A75;
 }
 
 a:hover {
-	color: #242A75;
+	color: #1791AB;
 }
 
 a:focus {
 	outline: none;
 }
 
+.box {
+	color: #fff;
+    background: #1791AB;
+	padding: 10px 25px;
+    border-radius: 6px
+    transition-property: background, border-radius;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+	text-transform:none;
+	margin-left: 200px;
+  }
+.box:hover {
+	box-shadow: 0 200px 100px -100px white inset;
+  }
 
 a.button { 
 	margin-right: 190px;
