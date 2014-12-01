@@ -2,273 +2,543 @@
 <html>
 <link rel="icon" type="image/png" href="favicon.ico" />
 
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Capella</title>
-	
-	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-	<script type="text/javascript" src="js-global/fancyzoom_simplified.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function() {
-			$('a.zoom').fancyZoom({scaleImg: true, closeOnClick: true});
+<!-- Add jQuery library -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="js-global/fancyzoom_simplified.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('a.zoom').fancyZoom({scaleImg: true, closeOnClick: true});
+	});
+</script>
+<script>
+	jQuery(document).ready(function() {
+		jQuery('.tabs .tab-links a').on('click', function(e)  {
+			var currentAttrValue = jQuery(this).attr('href');
+	 
+			// Show/Hide Tabs
+			// Fade jQuery('.tabs ' + currentAttrValue).fadeIn(400).siblings().hide();
+			jQuery('.tabs ' + currentAttrValue).fadeIn(400).siblings().hide();
+			//jQuery('.tabs ' + currentAttrValue).slideDown(400).siblings().slideUp(400);
+	 
+			// Change/remove current tab to active
+			jQuery(this).parent('li').addClass('active').siblings().removeClass('active');
+	 
+			e.preventDefault();
 		});
-	</script>
-	
-	<link rel="stylesheet" href="styles.css" type="text/css" />
+	});
+</script>
+
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Capella</title>
+<link rel="stylesheet" href="styles.css" type="text/css" />
 </head>
-
 <body>
-	<div id="container">
-		<header>
-			<div class="logo-left width">
-				<a href="index.html"><img src="images/logo_capella_350.png" alt="Capella logo" width=""></a>
-			</div>
-		</header>
-		<nav>
-			
-			<div class="width">
-				<ul>
-					<li class="start"><a href="index.html">Home</a></li>
-					<li class="divider-vertical-second-menu"></li>
-					<li><a href="arcadia.html">Arcadia</a></li>
-					<li class="divider-vertical-second-menu"></li>
-					<li class="selected"><a href="features.html">Features</a></li>
-					<li class="divider-vertical-second-menu"></li>
-					<li><a href="start.html">Getting Started</a></li>
-					<li class="divider-vertical-second-menu"></li>
-					<li><a href="events.html">Events</a></li>
-					<li class="divider-vertical-second-menu"></li>
-					<li class="end"><a href="support.html">Support</a></li>
-				</ul>		
-			</div>
-			<div class="right-nav width">
-				<a href="http://www.polarsys.org/solutions/capella" class="button curl-top-right">Download</a>
-			</div>
-			
-		</nav>
-
-		<div id="hrdiv">
-			<img src="images/bg_breadcrumb.jpg" width="" alt="" height="" />
+<div id="container">
+    <header>
+		<div class="logo-left width">
+			<a href="index.html"><img src="images/logo_capella_350.png" alt="Capella logo" width=""></a>
+		</div>
+    </header>
+    <nav>
+		
+		<div class="width">
+			<ul>
+				<li class="start"><a href="index.html">Home</a></li>
+				<li class="divider-vertical-second-menu"></li>
+				<li><a href="arcadia.html">Arcadia</a></li>
+				<li class="divider-vertical-second-menu"></li>
+				<li class="selected"><a href="features.html">Features</a></li>
+				<li class="divider-vertical-second-menu"></li>
+				<li><a href="start.html">Getting Started</a></li>
+				<li class="divider-vertical-second-menu"></li>
+				<li><a href="events.html">Events</a></li>
+				<li class="divider-vertical-second-menu"></li>
+				<li class="end"><a href="support.html">Support</a></li>
+			</ul>		
+		</div>
+		<div class="right-nav width">
+			<a href="http://www.polarsys.org/solutions/capella" class="button curl-top-right">Download</a>
 		</div>
 		
-	</div>
-	
-	<div id="body" class="width">
-		<section id="content">
-			<article class="expanded">
-				<br />
-				<h3>Methodological Guidance</h3>
-				<p style="text-align: left; padding:10px;">
-					The activity browser provides a <b>methodological access</b> to all key activities of Capella. It is the main entry point to a model and is both meant for beginners and power users. 
-				</p>
-				
-				<!-- la miniature -->
-				<a href="#overview" class="zoom">
-					<img class="center" src="images/features/overview.png" alt="" width="100%">
-				</a>
-				
-				<!-- la taille normale -->
-				<div id="overview">
-					<img style="background: #fff; box-shadow: 0px 0px 6px #111;" src="images/features/overview.png" alt="" />
-				</div>
-				
-				<br />
-				<h3>Semantic Colormap</h3>
-				<p style="text-align: left; padding:10px;">
-					As graphical representations of elements play a key role in communication, Capella relies on a consistent colour scheme. This favours enhanced model readability for all stakeholders (architects, V&V practitioners, specialty engineers, managers, etc.).
-				</p>
-				
-				<!-- la miniature -->
-				<a href="#colormap" class="zoom">
-					<img class="center" src="images/features/colormap.png" alt="" width="60%">
-				</a>
-				
-				<!-- la taille normale -->
-				<div id="colormap">
-					<img style="background: #fff; box-shadow: 0px 0px 6px #111;" src="images/features/colormap.png" alt="" />
-				</div>
-				
-				<br />
-				<h3>Semantic Browser</h3>
-				<p style="text-align: left; padding:10px;">
-					More useful than the standard hierarchical view of the model, the <b>semantic browser</b> instantaneously provides the context of model elements trough <b>meaningful queries</b>. It is the preferred way to navigate in models and diagrams and to quickly analyse the relationships between model elements.
-				</p>
-				
-				<!-- la miniature -->
-				<a href="#sembrow" class="zoom">
-					<img class="center" src="images/features/semantic_browser.png" alt="" width="100%">
-				</a>
-				
-				<!-- la taille normale -->
-				<div id="sembrow">
-					<img style="background: #fff; box-shadow: 0px 0px 6px #111;" src="images/features/semantic_browser.png" alt="" />
-				</div>
-				
-				<br />
-				<h3>Computed Links</h3>
-				<p style="text-align: left; padding:10px;">
-					A key feature of Capella is its ability to scale and <b>to tackle the increasing complexity of models</b>. Capella automatically computes graphical simplifications. The information exchanges between lower-level functions are automatically displayed on higher-level functions. This relieves architects from managing intermediate information exchanges and manually maintaining consistency between several levels of abstraction. 
-					Capella also provides tag-based mechanisms allowing the graphical grouping of semantically close exchanges.
+    </nav>
 
-				</p>
-				
-				<!-- la miniature -->
-				<a href="#complex1" class="zoom">
-					<img class="center" src="images/features/complexity_0.png" alt="" width="75%">
-				</a>
-				
-				<!-- la taille normale -->
-				<div id="complex1">
-					<img style="background: #fff; box-shadow: 0px 0px 6px #111;" src="images/features/complexity_0.png" alt="" />
-				</div>
-				
-				<br />
-				
-				<!-- la miniature -->
-				<a href="#complex2" class="zoom">
-					<img class="center" src="images/features/complexity_1.png" alt="" width="75%">
-				</a>
-				
-				<!-- la taille normale -->
-				<div id="complex2">
-					<img style="background: #fff; box-shadow: 0px 0px 6px #111;" src="images/features/complexity_1.png" alt="" />
-				</div>
-				
-				<br />
-				<h3>Advanced Diagram Management</h3>
-				<ul style="text-align: left;">
-					<li><b>Automated contextual diagrams</b>: Content is automatically updated according to preselected elements and predefined semantic rules</li>
-					<li><b>Synchronization/unsynchronization of diagrams</b>: Gives a fine level of control on the elements which are systematically displayed or not (Ports of Functions, Exchanges between Components, Properties of Classes, etc.)</li>
-					<li><b>Filters</b> help improve readability of diagrams by selecting display options and automatically hiding / showing elements.</li>
-					<li><b>Layers</b> are means to customise the graphical rendering of elements in a diagram based on different concerns (e.g. speciality viewpoints).</li>
-				</ul>
-				
-				<!-- la miniature -->
-				<a href="#filters" class="zoom">
-					<img class="center" src="images/features/filters.png" alt="" width="70%">
-				</a>
-				
-				<!-- la taille normale -->
-				<div id="filters">
-					<img style="background: #fff; box-shadow: 0px 0px 6px #111;" src="images/features/filters.png" alt="" />
-				</div>
-				
-				<br />
-				<h3>Model Validation</h3>
-				<p>
-				Capella organizes model validation rules in several categories: Integrity, design, completeness, traceability, etc. Architects can define <b>validation profiles</b> focusing on different aspects. Whenever possible, <b>quick fixes</b> provide quick and automated solutions. 
-				</p>
-				
-				<!-- la miniature -->
-				<a href="#quickfix" class="zoom">
-					<img class="center" src="images/features/quickfixes.png" alt="" width="80%">
-				</a>
-				
-				<!-- la taille normale -->
-				<div id="quickfix">
-					<img style="background: #fff; box-shadow: 0px 0px 6px #111;" src="images/features/quickfixes.png" alt="" />
-				</div>
-				
-				<br />
-				<h3>Semantic delete with preview</h3>
-				<p style="text-align: left; padding:10px;">
-					Capella provides instant impact analysis of deletions.
-				</p>
-				
-				<!-- la miniature -->
-				<a href="#delprev" class="zoom">
-					<img class="center" src="images/features/del_preview.png" alt="" width="80%">
-				</a>
-				
-				<!-- la taille normale -->
-				<div id="delprev">
-					<img style="background: #fff; box-shadow: 0px 0px 6px #111;" src="images/features/del_preview.png" alt="" />
-				</div>
-				
-				<br />
-				<h3>Replicable elements and libraries</h3>
-				<p style="text-align: left; padding:10px;">
-					Replicable Elements are mechanisms allowing the <b>easy reuse of (possibly multi-root) model parts</b>. A Replicable Elements Collection (REC, for Record) is a definition of an element / set of elements which can be reused in multiple contexts / configurations / models. A Replica (RPL, for Replay) is an instantiation of a REC. RECs can be packaged in libraries, which can be shared between several projects.
-				</p>
-				
-				<!-- la miniature -->
-				<a href="#recrpl" class="zoom">
-					<img class="center" src="images/features/rec_rpl.png" alt="" width="100%">
-				</a>
-				
-				<!-- la taille normale -->
-				<div id="recrpl">
-					<img style="background: #fff; box-shadow: 0px 0px 6px #111;" src="images/features/rec_rpl.png" alt="" />
-				</div>
-				
-				<br />
-				<h3>Modelling Patterns</h3>
-				<p style="text-align: left; padding:10px;">
-					Recurring modelling schemes can be captured with patterns.
-				</p>
-				
-				<!-- la miniature -->
-				<a href="#pattern" class="zoom">
-					<img class="center" src="images/features/patterns.png" alt="" width="60%">
-				</a>
-				
-				<!-- la taille normale -->
-				<div id="pattern">
-					<img style="background: #fff; box-shadow: 0px 0px 6px #111;" src="images/features/patterns.png" alt="" />
-				</div>
-				
-				<br />
-				<h3>Transition System/Subsystems</h3>
-				<p style="text-align: left; padding:10px;">
-					The <b>automated and iterative transition between system and subsystems</b> is a great help for managing several levels of engineering. The contract and model of the subsystems are computed from the system. Ideally, subsystems stakeholders are involved in co-engineering activities at system level before the transition occurs. 
-				</p>
-				
-				<!-- la miniature -->
-				<a href="#transition" class="zoom">
-					<img class="center" src="images/features/transition_system_subsystem.png" alt="" width="80%">
-				</a>
-				
-				<!-- la taille normale -->
-				<div id="transition">
-					<img style="background: #fff; box-shadow: 0px 0px 6px #111;" src="images/features/transition_system_subsystem.png" alt="" />
-				</div>
-				
-				<br />
-				<h3>Multi-Viewpoint</h3>
-				<p style="text-align: left; padding:10px;">
-					Capella provides basic demonstration viewpoints (Mass, Cost and Latency). Combined with Kitalpha, it also provides an <b>API for viewpoint development</b> and a contributive comparison view to evaluate the performance of candidate architectures according to different concerns. 				</p>
-				
-				<!-- la miniature -->
-				<a href="#multivp" class="zoom">
-					<img class="center" src="images/features/multi_vp.png" alt="" width="100%">
-				</a>
-				
-				<!-- la taille normale -->
-				<div id="multivp">
-					<img style="background: #fff; box-shadow: 0px 0px 6px #111;" src="images/features/multi_vp.png" alt="" />
-				</div>
-				
-				<br />
-				<h3>HTML output</h3>
-				<p style="text-align: left; padding:10px;">
-					Sharing models with all stakeholders is essential in model-based systems engineering. Publishing and sharing HTML versions of models helps <b>make models THE reference of all engineering activities</b>. 
-				</p>
-				
-				<!-- la miniature -->
-				<a href="#html" class="zoom">
-					<img class="center" src="images/features/html.jpg" alt="" width="100%">
-				</a>
-				
-				<!-- la taille normale -->
-				<div id="html">
-					<img style="background: #fff; box-shadow: 0px 0px 6px #111;" src="images/features/html.jpg" alt="" />
-				</div>
-			</article>		
-		</section>
-		
-    	<div class="clear"></div>
+	<div id="hrdiv">
+		<img src="images/bg_breadcrumb.jpg" width="" alt="" height="" />
 	</div>
+
+    <div id="body" class="width">
+		
+		<section id="content">
+						
+			<div class="tabs">
+				<ul class="tab-links">
+					<li class="active"><a href="#tab1">Diagrams</a></li>
+					<li><a href="#tab2">Features</a></li>
+					<li><a href="#tab3">Videos</a></li>
+				</ul>
+			 
+				<div class="tab-content">
+					<div id="tab1" class="tab active">
+						<!-- pour chaque couple [miniature/taille normale], l'identifiant doit etre le meme et unique! -->
+						<p>
+						This section provides an overview of the different kinds of diagrams supported by Capella. 
+						It is not an exhaustive list of all diagrams available in each Arcadia engineering phase.
+						</p>
+						<h3>Operational Architecture</h3>
+						<!-- la miniature -->
+						<p>
+						Operational architecture diagrams are used in Operational Analysis. It captures the allocation of 
+						<b>Operational Activities</b> to <b>Operational Entities</b>. Operational Processes can be displayed as highlighted paths.
+						</p>
+
+						<a href="#oeb" class="zoom">
+							<img class="center" alt="[OEB]" src="images/start/diagrams/[OEB]_Meteo.png" width="80%">
+						</a>
+						
+						<!-- la taille normale -->
+						<div id="oeb">
+							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" alt="[OEB]" src="images/start/diagrams/[OEB]_Meteo.png" />
+						</div>
+						
+						<!-- saut de ligne -->
+						<br />
+
+						<h3>Capabilities</h3>
+						<!-- la miniature -->
+						<p>
+						Capabilities diagrams are available in all Arcadia engineering phases but are particularly useful in 
+						Operational Analysis and System Need Analaysis. <b>Capabilities</b> are similar to UML use cases. They are 
+						illustrated by Dataflows, Functional Chains and Sequence Diagrams. 
+						</p>
+						<br/>
+						<br/>
+						<a href="#mcb" class="zoom">
+							<img class="center" alt="[MCB]" src="images/start/diagrams/capabilities.PNG" width="80%">
+						</a>
+						
+						<!-- la taille normale -->
+						<div id="mcb">
+							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" alt="[MCB]" src="images/start/diagrams/capabilities.PNG" />
+						</div>
+						
+						<!-- saut de ligne -->
+						<br />
+						
 	
+						<h3>Dataflows</h3>
+						<!-- la miniature -->
+						<p>
+						Dataflow diagrams are available in all Arcadia engineering levels. They represent information 
+						dependency between functions. These diagrams provide rich mechanisms to manage complexity: 
+						Computed simplified links between high-level Functions, categorization of Exchanges, etc. 
+						Functional Chains can be displayed as highlighted paths. 
+						</p>
+						<br />
+						<br/>
+						<a href="#dfb" class="zoom">
+							<img class="center" alt="[DFB]" src="images/start/diagrams/SDFB.png" width="80%">
+						</a>
+						
+						<!-- la taille normale -->
+						<div id="dfb">
+							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" alt="[DFB]" src="images/start/diagrams/SDFB.png" />
+						</div>
+						
+						<!-- saut de ligne -->
+						<br />						
+						
+												
+						<h3>Architecture</h3>
+						<!-- la miniature -->
+						<p>
+						Architecture diagrams are used in all Arcadia engineering phases. Their main goal is to show 
+						the allocation of <b>Functions</b> onto <b>Components</b>. Functional Chains can be displayed as highlighted paths. 
+						In System Need Analysis, these diagrams contain one box representing the System under study plus the Actors. 
+						</p>
+						<br/>
+						<a href="#sab" class="zoom">
+							<img class="center" alt="[SAB]" src="images/start/diagrams/melody-diagrams.png" width="80%">
+						</a>
+						
+						<!-- la taille normale -->
+						<div id="sab">
+							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" alt="[SAB]" src="images/start/diagrams/melody-diagrams.png" />
+						</div>
+						
+						<!-- saut de ligne -->
+						<br />		
+						<br />						
+						<p>
+						In Logical Architecture, these diagrams show the building blocks of the system. These are called <b>Logical Components</b>.  
+						</p>
+						
+						<a href="#lab" class="zoom">
+							<img class="center" alt="[LAB]" src="images/start/diagrams/[LAB]_Eole.png" width="80%">
+						</a>
+						
+						<!-- la taille normale -->
+						<div id="lab">
+							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" alt="[LAB]" src="images/start/diagrams/[LAB]_Eole.png" />
+						</div>
+						
+						<!-- saut de ligne -->
+						<br />					
+						<br />							
+						<p>
+						In Physical Architecture, these diagrams also show the allocation of <b>Behavioural Components</b> onto 
+						<b>Implementation Components</b> (typically material, but not necessarily).
+						</p>
+						<a href="#pab" class="zoom">
+							<img class="center" alt="[CDB]" src="images/start/diagrams/pab.png" width="80%">
+						</a>
+						
+						<!-- la taille normale -->
+						<div id="pab">
+							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" alt="[DFB]" src="images/start/diagrams/pab.png" />
+						</div>
+						
+						<!-- saut de ligne -->
+						<br />							
+						
+						<h3>Trees</h3>
+						<!-- la miniature -->
+						<p>
+						Tree diagrams represent breakdowns of either <b>Functions</b> or <b>Components</b>. Each node can be folded / unfolded. 
+						</p>
+
+						<a href="#tre" class="zoom">
+							<img class="center" alt="[CDB]" src="images/start/diagrams/breakdown.png" width="80%">
+						</a>
+						
+						<!-- la taille normale -->
+						<div id="tre">
+							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" alt="[DFB]" src="images/start/diagrams/breakdown.png" />
+						</div>
+						
+						<!-- saut de ligne -->
+						<br />	
+						
+						<h3>Sequence Diagrams</h3>
+						<!-- la miniature -->
+						<p>
+						Capella provides several kinds of sequence diagrams: Functional Scenarios (lifelines are Functions), 
+						Exchange Scenarios (lifelines are Components/Actors while sequence messages are Functional or Component Exchanges), 
+						Interface Scenarios (lifelines are Components/Actors while sequence messages are Interface Operations). 
+						Modes, States and Functions can also be displayed on these diagrams.
+						</p>
+
+						<a href="#seq" class="zoom">
+							<img class="center" alt="[CDB]" src="images/start/diagrams/[ES]_SAR.png" width="80%">
+						</a>
+						
+						<!-- la taille normale -->
+						<div id="seq">
+							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" alt="[CDB]" src="images/start/diagrams/[ES]_SAR.png" />
+						</div>
+						
+						<!-- saut de ligne -->
+						<br />						
+						
+
+						<h3>Modes and States</h3>
+						<!-- la miniature -->
+						<p>
+						Modes and States diagrams are UML-inspired state machines. Modes / States / Transitions can be related to Functions, 
+						Functional Exchanges, Interface Operations, etc. 
+						</p>
+
+						<a href="#mas" class="zoom">
+							<img class="center" alt="[CDB]" src="images/start/diagrams/Modes_and_States.PNG" width="80%">
+						</a>
+						
+						<!-- la taille normale -->
+						<div id="mas">
+							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" alt="[CDB]" src="images/start/diagrams/Modes_and_States.PNG" />
+						</div>
+						
+						<!-- saut de ligne -->
+						<br />	
+						
+						<h3>Classes and Interfaces</h3>
+						<!-- la miniature -->
+						<p>
+						Capella provides advanced mechanisms to model bit-precise data structures and relate them to Functional Exchanges, 
+						Component or Function Ports, Interfaces, etc.
+						</p>
+						<br />
+						<br/>
+						<a href="#cdb" class="zoom">
+							<img class="center" alt="[CDB]" src="images/start/diagrams/[CDB]_Data.png" width="80%">
+						</a>
+						
+						<!-- la taille normale -->
+						<div id="cdb">
+							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" alt="[CDB]" src="images/start/diagrams/[CDB]_Data.png" />
+						</div>
+						
+						<!-- saut de ligne -->
+						<br />
+						
+					</div>
+					
+					<div id="tab2" class="tab">
+						<h3>Methodological Guidance</h3>
+						<p style="text-align: left; padding:10px; font-size: 14px;">
+							The activity browser provides a <b>methodological access</b> to all key activities of Capella. 
+							It is the main entry point to a model and is both meant for beginners and power users. 
+						</p>
+						
+						<!-- la miniature -->
+						<a href="#overview" class="zoom">
+							<img class="center" src="images/features/overview.png" alt="" width="100%">
+						</a>
+						
+						<!-- la taille normale -->
+						<div id="overview">
+							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" src="images/features/overview.png" alt="" />
+						</div>
+						
+						<br />
+						<h3>Semantic Colormap</h3>
+						<p style="text-align: left; padding:10px;">
+							As graphical representations of elements play a key role in communication, 
+							Capella relies on a consistent colour scheme. This favours enhanced model readability 
+							for all stakeholders (architects, V&V practitioners, specialty engineers, managers, etc.).
+						</p>
+						
+						<!-- la miniature -->
+						<a href="#colormap" class="zoom">
+							<img class="center" src="images/features/colormap.png" alt="" width="60%">
+						</a>
+						
+						<!-- la taille normale -->
+						<div id="colormap">
+							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" src="images/features/colormap.png" alt="" />
+						</div>
+						
+						<br />
+						<h3>Semantic Browser</h3>
+						<p style="text-align: left; padding:10px;">
+							More useful than the standard hierarchical view of the model, the <b>semantic browser</b> instantaneously 
+							provides the context of model elements trough <b>meaningful queries</b>. It is the preferred way 
+							to navigate in models and diagrams and to quickly analyse the relationships between model elements.
+						</p>
+						
+						<!-- la miniature -->
+						<a href="#sembrow" class="zoom">
+							<img class="center" src="images/features/semantic_browser.png" alt="" width="100%">
+						</a>
+						
+						<!-- la taille normale -->
+						<div id="sembrow">
+							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" src="images/features/semantic_browser.png" alt="" />
+						</div>
+						
+						<br />
+						<h3>Computed Links</h3>
+						<p style="text-align: left; padding:10px;">
+							A key feature of Capella is its ability to scale and <b>to tackle the increasing complexity of models</b>. 
+							Capella automatically computes graphical simplifications. The information exchanges between lower-level 
+							functions are automatically displayed on higher-level functions. This relieves architects from managing 
+							intermediate information exchanges and manually maintaining consistency between several levels of abstraction. 
+							Capella also provides tag-based mechanisms allowing the graphical grouping of semantically close exchanges.
+
+						</p>
+						
+						<!-- la miniature -->
+						<a href="#complex1" class="zoom">
+							<img class="center" src="images/features/complexity_0.png" alt="" width="75%">
+						</a>
+						
+						<!-- la taille normale -->
+						<div id="complex1">
+							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" src="images/features/complexity_0.png" alt="" />
+						</div>
+						
+						<br />
+						
+						<!-- la miniature -->
+						<a href="#complex2" class="zoom">
+							<img class="center" src="images/features/complexity_1.png" alt="" width="75%">
+						</a>
+						
+						<!-- la taille normale -->
+						<div id="complex2">
+							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" src="images/features/complexity_1.png" alt="" />
+						</div>
+						
+						<br />
+						<h3>Advanced Diagram Management</h3>
+						<ul style="text-align: left;">
+							<li><b>Automated contextual diagrams</b>: Content is automatically updated according to preselected 
+							elements and predefined semantic rules</li>
+							<li><b>Synchronization/unsynchronization of diagrams</b>: Gives a fine level of control on the elements 
+							which are systematically displayed or not (Ports of Functions, Exchanges between Components, Properties of Classes, etc.)</li>
+							<li><b>Filters</b> help improve readability of diagrams by selecting display options and automatically 
+							hiding / showing elements.</li>
+							<li><b>Layers</b> are means to customise the graphical rendering of elements in a diagram based on different 
+							concerns (e.g. speciality viewpoints).</li>
+						</ul>
+						
+						<!-- la miniature -->
+						<a href="#filters" class="zoom">
+							<img class="center" src="images/features/filters.png" alt="" width="70%">
+						</a>
+						
+						<!-- la taille normale -->
+						<div id="filters">
+							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" src="images/features/filters.png" alt="" />
+						</div>
+						
+						<br />
+						<h3>Model Validation</h3>
+						<p>
+						Capella organizes model validation rules in several categories: Integrity, design, completeness, traceability, etc. 
+						Architects can define <b>validation profiles</b> focusing on different aspects. Whenever possible, <b>quick fixes</b> 
+						provide quick and automated solutions. 
+						</p>
+						
+						<!-- la miniature -->
+						<a href="#quickfix" class="zoom">
+							<img class="center" src="images/features/quickfixes.png" alt="" width="80%">
+						</a>
+						
+						<!-- la taille normale -->
+						<div id="quickfix">
+							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" src="images/features/quickfixes.png" alt="" />
+						</div>
+						
+						<br />
+						<h3>Semantic delete with preview</h3>
+						<p style="text-align: left; padding:10px;">
+							Capella provides instant impact analysis of deletions.
+						</p>
+						
+						<!-- la miniature -->
+						<a href="#delprev" class="zoom">
+							<img class="center" src="images/features/del_preview.png" alt="" width="80%">
+						</a>
+						
+						<!-- la taille normale -->
+						<div id="delprev">
+							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" src="images/features/del_preview.png" alt="" />
+						</div>
+						
+						<br />
+						<h3>Replicable elements and libraries</h3>
+						<p style="text-align: left; padding:10px;">
+							Replicable Elements are mechanisms allowing the <b>easy reuse of (possibly multi-root) model parts</b>. 
+							A Replicable Elements Collection (REC, for Record) is a definition of an element / set of elements which 
+							can be reused in multiple contexts / configurations / models. A Replica (RPL, for Replay) is an 
+							instantiation of a REC. RECs can be packaged in libraries, which can be shared between several projects.
+						</p>
+						
+						<!-- la miniature -->
+						<a href="#recrpl" class="zoom">
+							<img class="center" src="images/features/rec_rpl.png" alt="" width="100%">
+						</a>
+						
+						<!-- la taille normale -->
+						<div id="recrpl">
+							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" src="images/features/rec_rpl.png" alt="" />
+						</div>
+						
+						<br />
+						<h3>Modelling Patterns</h3>
+						<p style="text-align: left; padding:10px;">
+							Recurring modelling schemes can be captured with patterns.
+						</p>
+						
+						<!-- la miniature -->
+						<a href="#pattern" class="zoom">
+							<img class="center" src="images/features/patterns.png" alt="" width="60%">
+						</a>
+						
+						<!-- la taille normale -->
+						<div id="pattern">
+							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" src="images/features/patterns.png" alt="" />
+						</div>
+						
+						<br />
+						<h3>Transition System/Subsystems</h3>
+						<p style="text-align: left; padding:10px;">
+							The <b>automated and iterative transition between system and subsystems</b> is a great help for 
+							managing several levels of engineering. The contract and model of the subsystems are computed from the system. 
+							Ideally, subsystems stakeholders are involved in co-engineering activities at system level before the transition occurs. 
+						</p>
+						
+						<!-- la miniature -->
+						<a href="#transition" class="zoom">
+							<img class="center" src="images/features/transition_system_subsystem.png" alt="" width="80%">
+						</a>
+						
+						<!-- la taille normale -->
+						<div id="transition">
+							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" src="images/features/transition_system_subsystem.png" alt="" />
+						</div>
+						
+						<br />
+						<h3>Multi-Viewpoint</h3>
+						<p style="text-align: left; padding:10px;">
+							Capella provides basic demonstration viewpoints (Mass, Cost and Latency). Combined with Kitalpha, 
+							it also provides an <b>API for viewpoint development</b> and a contributive comparison view to 
+							evaluate the performance of candidate architectures according to different concerns.</p>
+						
+						<!-- la miniature -->
+						<a href="#multivp" class="zoom">
+							<img class="center" src="images/features/multi_vp.png" alt="" width="100%">
+						</a>
+						
+						<!-- la taille normale -->
+						<div id="multivp">
+							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" src="images/features/multi_vp.png" alt="" />
+						</div>
+						
+						<br />
+						<h3>HTML output</h3>
+						<p style="text-align: left; padding:10px;">
+							Sharing models with all stakeholders is essential in model-based systems engineering. Publishing and 
+							sharing HTML versions of models helps <b>make models THE reference of all engineering activities</b>. 
+						</p>
+						
+						<!-- la miniature -->
+						<a href="#html" class="zoom">
+							<img class="center" src="images/features/html.jpg" alt="" width="100%">
+						</a>
+						
+						<!-- la taille normale -->
+						<div id="html">
+							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" src="images/features/html.jpg" alt="" />
+						</div>
+					</div>
+			 
+					<div id="tab3" class="tab">
+						
+						<iframe width="560" height="315" src="//www.youtube.com/embed/OGpHMR_j3AM?rel=0&autoplay=0&loop=0&wmode=opaque&controls=1&showinfo=0&theme=light&vq=hd720&color=white" frameborder="0" allowfullscreen></iframe>
+						<p><b>Embedded methodological guidance</b></p>
+						
+						<iframe width="560" height="315" src="//www.youtube.com/embed/WtwAzftHd4A?rel=0&autoplay=0&loop=0&wmode=opaque&controls=1&showinfo=0&theme=light&vq=hd720&color=white" frameborder="0" allowfullscreen></iframe>
+						<p><b>Manage model complexity</b></p>
+						
+						<iframe width="560" height="315" src="//www.youtube.com/embed/UiOiBomTU1c?rel=0&autoplay=0&loop=0&wmode=opaque&controls=1&showinfo=0&theme=light&vq=hd720&color=white" frameborder="0" allowfullscreen></iframe>
+						<p><b>Browsing the model</b></p>
+						
+						<iframe width="560" height="315" src="//www.youtube.com/embed/HKMaGc99Zh8?rel=0&autoplay=0&loop=0&wmode=opaque&controls=1&showinfo=0&theme=light&vq=hd720&color=white" frameborder="0" allowfullscreen></iframe>
+						<p><b>Productivity tools</b></p>
+						
+						<iframe width="560" height="315" src="//www.youtube.com/embed/cT43CmZM2go?rel=0&autoplay=0&loop=0&wmode=opaque&controls=1&showinfo=0&theme=light&vq=hd720&color=white" frameborder="0" allowfullscreen></iframe>
+						<p><b>Multi-viewpoint trade-off analysis</b></p> 
+					</div>
+
+				</div>
+			</div>
+        </section>
+		
+		         
+    	<div class="clear"></div>
+    </div>
     <footer>
         <div class="footer-content width">
 			<ul>
