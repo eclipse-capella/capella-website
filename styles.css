@@ -298,6 +298,9 @@ padding-top: 5px;
 
 #container {
 	background-color: #fff; /* C5D6E8 */
+	position:absolute;
+	left:0;
+	right:0;
 }
 
 header {
@@ -590,9 +593,9 @@ footer p a {
 }
 
 footer .footer-content ul {
-	width: 225px;
+	width: 220px;
 	list-style: none;
-	margin: 0 65px 0 0;
+	margin: 0 60px 0 0;
 	padding: 0;
 	float: left;
 }
