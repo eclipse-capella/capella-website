@@ -355,15 +355,24 @@ nav ul li.selected a,
 nav ul li.selected a:hover { 
 	/*background-color: #1791AB;*/
 	color: #1791AB; 
-	font-weight:bold;
 	background: url("images/arrow.png") no-repeat center bottom;
 	background-position: 50% 93%;
+	-webkit-transform: scale(1);
+        -moz-transform: scale(1);
+			-o-transform: scale(1);
+				transform: scale(1);	
 }
 
 
 nav ul li a:hover {
 	color: #1791AB;
-	text-decoration: none;
+	
+	/*transition*/
+	-webkit-transition:all 1s ease;
+		-moz-transition:all 1s ease;
+			-o-transition:all 1s ease;
+				transition:all 1s ease;
+	
 }
 
 .right-nav {
@@ -567,7 +576,7 @@ footer p a {
 }
 
 footer .footer-content ul {
-	width: 175px;
+	width: 225px;
 	list-style: none;
 	margin: 0 65px 0 0;
 	padding: 0;
@@ -594,10 +603,12 @@ footer .footer-content li a:hover {
 
 footer .footer-content h4 {
 	color: #1791AB;
-    font-size: 20px;
+    font-size: 24px;
 	font-family: 'Jura',Arial,sans-serif;
     font-weight: normal;
+	text-transform: none;
     padding-bottom: 0;
+	border-bottom:2px solid white;
 }
 
 footer .footer-content ul.endfooter {
