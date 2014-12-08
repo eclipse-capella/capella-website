@@ -23,6 +23,11 @@ table {
 	text-align: left;
 }
 
+table a {
+	color: grey;
+	font-style: italic;
+}
+
 article table {
 	width: 100%;
 	text-align: left;
