@@ -820,21 +820,21 @@ img.center {
 
 .features-table td:nth-child(2)
 {
-  background: #efefef;
-  background: rgba(144,144,144,0.15);
+  background: #F8F8F8 ;
+  /* background: rgba(144,144,144,0.15); */
   border-right: 1px solid white;
 }
 
 .features-table td:nth-child(3)
 {
-  background: #E8E8E8;
+  background: #F8F8F8 ;
   /* background: rgba(144,144,144,0.15); */
   border-right: 1px solid white;
 }
 
 .features-table td:nth-child(4)
 {
-  background: #F0F0F0;  
+  background: #F8F8F8 ;  
   /* background: rgba(184,243,85,0.3); */
 }
 
