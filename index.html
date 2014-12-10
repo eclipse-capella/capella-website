@@ -14,15 +14,18 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Capella</title>
 	<link rel="stylesheet" href="styles.css" type="text/css" />
+	
+	<noscript>
+		<style> .jsonly { display: none } </style>
+	</noscript>
 </head>
 <body>
-<div id="container">
-    <header>
+	<header>
 		<div class="logo-left width">
 			<a href="index.html"><img src="images/logo_capella_350.png" alt="Capella logo" width=""></a>
 		</div>
-    </header>
-    <nav>
+	</header>
+	<nav>
 		
 		<div class="width">
 			<ul>
@@ -32,7 +35,7 @@
 				<li class="divider-vertical-second-menu"></li>
 				<li><a href="features.html">Features</a></li>
 				<li class="divider-vertical-second-menu"></li>
-				<li><a href="start.html">Getting Started</a></li>
+				<li><a href="#" disabled="true" style="color:#E5E4E2;">Getting Started</a></li>
 				<li class="divider-vertical-second-menu"></li>
 				<li><a href="events.html">Events</a></li>
 				<li class="divider-vertical-second-menu"></li>
@@ -42,13 +45,13 @@
 			</ul>		
 		</div>
 		
-    </nav>
+	</nav>
 
 	<div id="hrdiv">
 		<img src="images/bg_breadcrumb.jpg" width="" alt="" height="" />
 	</div>
 
-    <div id="body" class="width-started">
+	<div id="body" class="width-started">
 		
 		<section id="content">
 			<article class="expanded" id="construction">
@@ -77,17 +80,21 @@
 					<li>Define the best optimal architectures through trade-off analysis</li>
 					<li>Master different engineering levels and traceability with automated transition and information refinement</li>
 				</ul>
-				
-				<!-- la miniature -->
-				<a href="#sab" class="zoom">
-					<img class="center" alt="SAB diagram example" src="images/SAB_System-Context_and_overview.png" width="85%">
-				</a>
-				
-				<!-- la taille normale -->
-				<div id="sab">
-					<img style="background: #fff; box-shadow: 0px 0px 6px #111;" alt="SAB diagram example" src="images/SAB_System-Context_and_overview.png" />
-				</div>
-				
+							
+					<!-- la miniature -->
+					<a href="#sab" class="zoom jsonly">
+						<img class="center" alt="SAB diagram example" src="images/SAB_System-Context_and_overview.png" width="85%">
+					</a>
+								
+					<!-- la taille normale -->
+					<div class="jsonly" id="sab">
+						<img style="background: #fff; box-shadow: 0px 0px 6px #111;" alt="SAB diagram example" src="images/SAB_System-Context_and_overview.png" />
+					</div>
+					
+					<noscript>
+						<img class="center" alt="SAB diagram example" src="images/SAB_System-Context_and_overview.png" width="85%">
+					</noscript>
+
 				<br />
 				<br />
 				<br />
@@ -132,14 +139,18 @@
 					<br/>
 					<br/>
 					<!-- la miniature -->
-					<a href="#ev" class="zoom">
+					<a href="#ev" class="zoom jsonly">
 						<img class="center" alt="Early Validation" src="images/capella_earlyvalidation_900.png" width="80%">
 					</a>
 					
 					<!-- la taille normale -->
-					<div id="ev">
+					<div class="jsonly" id="ev">
 						<img style="background: #fff; box-shadow: 0px 0px 6px #111;" alt="Early Validation" src="images/capella_earlyvalidation_900.png" />
 					</div>
+					
+					<noscript>
+						<img class="center" alt="Early Validation" src="images/capella_earlyvalidation_900.png" width="80%">
+					</noscript>
 					
 					<br/>
 					<br/>
@@ -154,7 +165,7 @@
 						<li>Interfaces, bit-precise data models, behaviours, etc.</li>
 					</ul>
 				</p>
-		<h3>Capella big picture</h3>
+				<h3>Capella big picture</h3>
 				<p>
 					Capella fits into a wider engineering landscape, as bridges can be developed to:
 					<ul>
@@ -163,24 +174,28 @@
 						<li>Iteratively populate downstream engineering (subsystems, code generation, etc.)</li>
 					</ul>					
 					<!-- la miniature -->
-					<a href="#cbp" class="zoom">
+					<a href="#cbp" class="zoom jsonly">
 						<img class="center" alt="Capella Big Picture" src="images/capella_big_picture.png" width="90%">
 					</a>
 					
 					<!-- la taille normale -->
-					<div id="cbp">
+					<div class="jsonly" id="cbp">
 						<img style="background: #fff; box-shadow: 0px 0px 6px #111;" alt="Capella Big Picture" src="images/capella_big_picture.png" />
 					</div>
+					
+					<noscript>
+						<img class="center" alt="Capella Big Picture" src="images/capella_big_picture.png" width="90%">
+					</noscript>
 				</p>
 				
 			</article>
-        </section>
+		</section>
 		
-		 <aside class="sidebar">
+		<aside class="sidebar">
 	
-            <ul>	
+			<ul>	
 				<li>
-                    <h4>News</h4>
+					<h4>News</h4>
 					<ul>
 						<li>
 							2014/10/29: <a href="http://www.eclipsecon.org/europe2014/session/capella-field-model-based-system-engineering-use-cases"><b>Talk</b></a> EclipseCon, Ludwigsburg, Germany
@@ -207,7 +222,7 @@
 					&nbsp;&nbsp;&nbsp;
 					<a href="http://www.eclipse.org/projects/what-is-incubation.php"><img src="images/egg-incubation.png" alt="incubation"/></a>
 				</li>
-				<li>
+				<li class="jsonly">
 					<br />
 					<h4>Related videos</h4>
 					<ul>
@@ -235,39 +250,40 @@
 				</li>
 			</ul>
 		</aside>
-        
-        
-    	<div class="clear"></div>
-    </div>
-    <footer>
-        <div class="footer-content width">
+		
+		
+		<div class="clear"></div>
+	</div>
+	
+	<footer>
+		<div class="footer-content width">
 			<ul>
 				<li><h4>PolarSys</h4></li>
 				<li><a href="https://www.polarsys.org/eclipse_sites/org_home">About</a></li>
 				<li><a href="https://www.polarsys.org/eclipse_sites/contact">Contact Us</a></li>
 			</ul>
-            <ul>
-            	<li><h4>Legal</h4></li>
+			<ul>
+				<li><h4>Legal</h4></li>
 				<li><a href="https://www.polarsys.org/eclipse_sites/privacy">Privacy Policy</a></li>
 				<li><a href="https://www.polarsys.org/eclipse_sites/terms">Terms of Use</a></li>
 				<li><a href="https://www.polarsys.org/eclipse_sites/copyright">Copyright Agent</a></li>
 				<li><a href="https://www.eclipse.org/legal/">Eclipse Public License</a></li>
 				<li><a href="https://www.polarsys.org/eclipse_sites/legal">Legal Resources</a></li>
-            </ul>
-            <ul>
-            	<li><h4>Useful Links</h4></li>
-                <li><a href="https://polarsys.org/bugs/describecomponents.cgi?product=Capella">Report a Bug</a></li>
+			</ul>
+			<ul>
+				<li><h4>Useful Links</h4></li>
+				<li><a href="https://polarsys.org/bugs/describecomponents.cgi?product=Capella">Report a Bug</a></li>
 				<li><a href="https://polarsys.org/wiki/Capella">Documentation</a></li>
 				<li><a href="https://polarsys.org/wiki/Capella/Technical_Information">How to Contribute</a></li>
 				<li><a href="https://polarsys.org/mailman/listinfo/capella-dev">Mailing List</a></li>
 				<li><a href="https://polarsys.org/forums/index.php/f/10/">Forum</a></li>
-            </ul>
+			</ul>
 			<ul class="endfooter">
-            	<li><h4>Other</h4></li>
+				<li><h4>Other</h4></li>
 				<li><a href="https://www.thalesgroup.com/">Thalesgroup</a></li>
 				<li><a href="http://www.clarity-se.org/">Clarity</a></li>
-                <li><a href="https://www.eclipse.org/org/workinggroups/">Working Groups</a></li>
-            </ul>
+				<li><a href="https://www.eclipse.org/org/workinggroups/">Working Groups</a></li>
+			</ul>
 			<table>
 				<tr>
 					<td>
@@ -286,9 +302,8 @@
 			</table>
 		
 			<div class="clear"></div>			
-        </div>
+		</div>
    
-    </footer>
-</div>
+	</footer>
 </body>
 </html>

@@ -28,14 +28,17 @@
 	});
 </script>
 
-
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Capella</title>
-<link rel="stylesheet" href="styles.css" type="text/css" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Capella</title>
+	<link rel="stylesheet" href="styles.css" type="text/css" />
+
+	<noscript>
+		<style> .jsonly { display: none } </style>
+	</noscript>
 </head>
+
 <body>
-<div id="container">
     <header>
 		<div class="logo-left width">
 			<a href="index.html"><img src="images/logo_capella_350.png" alt="Capella logo" width=""></a>
@@ -51,7 +54,7 @@
 				<li class="divider-vertical-second-menu"></li>
 				<li class="selected"><a href="features.html">Features</a></li>
 				<li class="divider-vertical-second-menu"></li>
-				<li><a href="start.html">Getting Started</a></li>
+				<li><a href="#" disabled="true" style="color:#E5E4E2;">Getting Started</a></li>
 				<li class="divider-vertical-second-menu"></li>
 				<li><a href="events.html">Events</a></li>
 				<li class="divider-vertical-second-menu"></li>
@@ -92,14 +95,18 @@
 						<b>Operational Activities</b> to <b>Operational Entities</b>. Operational Processes can be displayed as highlighted paths.
 						</p>
 
-						<a href="#oeb" class="zoom">
+						<a href="#oeb" class="zoom jsonly">
 							<img class="center" alt="[OEB]" src="images/start/diagrams/[OEB]_Meteo.png" width="80%">
 						</a>
 						
 						<!-- la taille normale -->
-						<div id="oeb">
+						<div id="oeb" class="jsonly">
 							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" alt="[OEB]" src="images/start/diagrams/[OEB]_Meteo.png" />
 						</div>
+						
+						<noscript>
+							<img class="center" alt="[OEB]" src="images/start/diagrams/[OEB]_Meteo.png" width="80%">
+						</noscript>
 						
 						<!-- saut de ligne -->
 						<br />
@@ -113,18 +120,21 @@
 						</p>
 						<br/>
 						<br/>
-						<a href="#mcb" class="zoom">
+						<a href="#mcb" class="zoom jsonly">
 							<img class="center" alt="[MCB]" src="images/start/diagrams/capabilities.PNG" width="80%">
 						</a>
 						
 						<!-- la taille normale -->
-						<div id="mcb">
+						<div id="mcb" class="jsonly">
 							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" alt="[MCB]" src="images/start/diagrams/capabilities.PNG" />
 						</div>
 						
+						<noscript>
+							<img class="center" alt="[MCB]" src="images/start/diagrams/capabilities.PNG" width="80%">
+						</noscript>
+						
 						<!-- saut de ligne -->
 						<br />
-						
 	
 						<h3>Dataflows</h3>
 						<!-- la miniature -->
@@ -136,19 +146,22 @@
 						</p>
 						<br />
 						<br/>
-						<a href="#dfb" class="zoom">
+						<a href="#dfb" class="zoom jsonly">
 							<img class="center" alt="[DFB]" src="images/start/diagrams/SDFB.png" width="80%">
 						</a>
 						
 						<!-- la taille normale -->
-						<div id="dfb">
+						<div id="dfb" class="jsonly">
 							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" alt="[DFB]" src="images/start/diagrams/SDFB.png" />
 						</div>
 						
+						<noscript>
+							<img class="center" alt="[DFB]" src="images/start/diagrams/SDFB.png" width="80%">
+						</noscript>
+						
 						<!-- saut de ligne -->
 						<br />						
-						
-												
+										
 						<h3>Architecture</h3>
 						<!-- la miniature -->
 						<p>
@@ -157,14 +170,18 @@
 						In System Need Analysis, these diagrams contain one box representing the System under study plus the Actors. 
 						</p>
 						<br/>
-						<a href="#sab" class="zoom">
+						<a href="#sab" class="zoom jsonly">
 							<img class="center" alt="[SAB]" src="images/start/diagrams/melody-diagrams.png" width="80%">
 						</a>
 						
 						<!-- la taille normale -->
-						<div id="sab">
+						<div id="sab" class="jsonly">
 							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" alt="[SAB]" src="images/start/diagrams/melody-diagrams.png" />
 						</div>
+						
+						<noscript>
+							<img class="center" alt="[SAB]" src="images/start/diagrams/melody-diagrams.png" width="80%">
+						</noscript>
 						
 						<!-- saut de ligne -->
 						<br />		
@@ -173,14 +190,18 @@
 						In Logical Architecture, these diagrams show the building blocks of the system. These are called <b>Logical Components</b>.  
 						</p>
 						
-						<a href="#lab" class="zoom">
+						<a href="#lab" class="zoom jsonly">
 							<img class="center" alt="[LAB]" src="images/start/diagrams/[LAB]_Eole.png" width="80%">
 						</a>
 						
 						<!-- la taille normale -->
-						<div id="lab">
+						<div id="lab" class="jsonly">
 							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" alt="[LAB]" src="images/start/diagrams/[LAB]_Eole.png" />
 						</div>
+						
+						<noscript>
+							<img class="center" alt="[LAB]" src="images/start/diagrams/[LAB]_Eole.png" width="80%">
+						</noscript>
 						
 						<!-- saut de ligne -->
 						<br />					
@@ -189,14 +210,18 @@
 						In Physical Architecture, these diagrams also show the allocation of <b>Behavioural Components</b> onto 
 						<b>Implementation Components</b> (typically material, but not necessarily).
 						</p>
-						<a href="#pab" class="zoom">
+						<a href="#pab" class="zoom jsonly">
 							<img class="center" alt="[CDB]" src="images/start/diagrams/pab.png" width="80%">
 						</a>
 						
 						<!-- la taille normale -->
-						<div id="pab">
+						<div id="pab" class="jsonly">
 							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" alt="[DFB]" src="images/start/diagrams/pab.png" />
 						</div>
+						
+						<noscript>
+							<img class="center" alt="[CDB]" src="images/start/diagrams/pab.png" width="80%">
+						</noscript>
 						
 						<!-- saut de ligne -->
 						<br />							
@@ -207,14 +232,18 @@
 						Tree diagrams represent breakdowns of either <b>Functions</b> or <b>Components</b>. Each node can be folded / unfolded. 
 						</p>
 
-						<a href="#tre" class="zoom">
+						<a href="#tre" class="zoom jsonly">
 							<img class="center" alt="[CDB]" src="images/start/diagrams/breakdown.png" width="80%">
 						</a>
 						
 						<!-- la taille normale -->
-						<div id="tre">
+						<div id="tre" class="jsonly">
 							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" alt="[DFB]" src="images/start/diagrams/breakdown.png" />
 						</div>
+						
+						<noscript>
+							<img class="center" alt="[CDB]" src="images/start/diagrams/breakdown.png" width="80%">
+						</noscript>
 						
 						<!-- saut de ligne -->
 						<br />	
@@ -228,18 +257,21 @@
 						Modes, States and Functions can also be displayed on these diagrams.
 						</p>
 
-						<a href="#seq" class="zoom">
+						<a href="#seq" class="zoom jsonly">
 							<img class="center" alt="[CDB]" src="images/start/diagrams/[ES]_SAR.png" width="80%">
 						</a>
 						
 						<!-- la taille normale -->
-						<div id="seq">
+						<div id="seq" class="jsonly">
 							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" alt="[CDB]" src="images/start/diagrams/[ES]_SAR.png" />
 						</div>
 						
+						<noscript>
+							<img class="center" alt="[CDB]" src="images/start/diagrams/[ES]_SAR.png" width="80%">
+						</noscript>
+						
 						<!-- saut de ligne -->
 						<br />						
-						
 
 						<h3>Modes and States</h3>
 						<!-- la miniature -->
@@ -248,14 +280,18 @@
 						Functional Exchanges, Interface Operations, etc. 
 						</p>
 
-						<a href="#mas" class="zoom">
+						<a href="#mas" class="zoom jsonly">
 							<img class="center" alt="[CDB]" src="images/start/diagrams/Modes_and_States.PNG" width="80%">
 						</a>
 						
 						<!-- la taille normale -->
-						<div id="mas">
+						<div id="mas" class="jsonly">
 							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" alt="[CDB]" src="images/start/diagrams/Modes_and_States.PNG" />
 						</div>
+						
+						<noscript>
+							<img class="center" alt="[CDB]" src="images/start/diagrams/Modes_and_States.PNG" width="80%">
+						</noscript>
 						
 						<!-- saut de ligne -->
 						<br />	
@@ -268,14 +304,18 @@
 						</p>
 						<br />
 						<br/>
-						<a href="#cdb" class="zoom">
+						<a href="#cdb" class="zoom jsonly">
 							<img class="center" alt="[CDB]" src="images/start/diagrams/[CDB]_Data.png" width="80%">
 						</a>
 						
 						<!-- la taille normale -->
-						<div id="cdb">
+						<div id="cdb" class="jsonly">
 							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" alt="[CDB]" src="images/start/diagrams/[CDB]_Data.png" />
 						</div>
+						
+						<noscript>
+							<img class="center" alt="[CDB]" src="images/start/diagrams/[CDB]_Data.png" width="80%">
+						</noscript>
 						
 						<!-- saut de ligne -->
 						<br />
@@ -291,14 +331,18 @@
 						</p>
 						
 						<!-- la miniature -->
-						<a href="#overview" class="zoom">
+						<a href="#overview" class="zoom jsonly">
 							<img class="center" src="images/features/overview.png" alt="" width="100%">
 						</a>
 						
 						<!-- la taille normale -->
-						<div id="overview">
+						<div id="overview" class="jsonly">
 							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" src="images/features/overview.png" alt="" />
 						</div>
+						
+						<noscript>
+							<img class="center" src="images/features/overview.png" alt="" width="100%">
+						</noscript>
 						
 						<br />
 						<h3>Semantic Colormap</h3>
@@ -309,14 +353,18 @@
 						</p>
 						
 						<!-- la miniature -->
-						<a href="#colormap" class="zoom">
+						<a href="#colormap" class="zoom jsonly">
 							<img class="center" src="images/features/colormap.png" alt="" width="60%">
 						</a>
 						
 						<!-- la taille normale -->
-						<div id="colormap">
+						<div id="colormap" class="jsonly">
 							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" src="images/features/colormap.png" alt="" />
 						</div>
+						
+						<noscript>
+							<img class="center" src="images/features/colormap.png" alt="" width="60%">
+						</noscript>
 						
 						<br />
 						<h3>Semantic Browser</h3>
@@ -327,14 +375,18 @@
 						</p>
 						
 						<!-- la miniature -->
-						<a href="#sembrow" class="zoom">
+						<a href="#sembrow" class="zoom jsonly">
 							<img class="center" src="images/features/semantic_browser.png" alt="" width="100%">
 						</a>
 						
 						<!-- la taille normale -->
-						<div id="sembrow">
+						<div id="sembrow" class="jsonly">
 							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" src="images/features/semantic_browser.png" alt="" />
 						</div>
+						
+						<noscript>
+							<img class="center" src="images/features/semantic_browser.png" alt="" width="100%">
+						</noscript>
 						
 						<br />
 						<h3>Computed Links</h3>
@@ -348,26 +400,34 @@
 						</p>
 						
 						<!-- la miniature -->
-						<a href="#complex1" class="zoom">
+						<a href="#complex1" class="zoom jsonly">
 							<img class="center" src="images/features/complexity_0.png" alt="" width="75%">
 						</a>
 						
 						<!-- la taille normale -->
-						<div id="complex1">
+						<div id="complex1" class="jsonly">
 							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" src="images/features/complexity_0.png" alt="" />
 						</div>
+						
+						<noscript>
+							<img class="center" src="images/features/complexity_0.png" alt="" width="75%">
+						</noscript>
 						
 						<br />
 						
 						<!-- la miniature -->
-						<a href="#complex2" class="zoom">
+						<a href="#complex2" class="zoom jsonly">
 							<img class="center" src="images/features/complexity_1.png" alt="" width="75%">
 						</a>
 						
 						<!-- la taille normale -->
-						<div id="complex2">
+						<div id="complex2" class="jsonly">
 							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" src="images/features/complexity_1.png" alt="" />
 						</div>
+						
+						<noscript>
+							<img class="center" src="images/features/complexity_1.png" alt="" width="75%">
+						</noscript>
 						
 						<br />
 						<h3>Advanced Diagram Management</h3>
@@ -383,14 +443,18 @@
 						</ul>
 						
 						<!-- la miniature -->
-						<a href="#filters" class="zoom">
+						<a href="#filters" class="zoom jsonly">
 							<img class="center" src="images/features/filters.png" alt="" width="70%">
 						</a>
 						
 						<!-- la taille normale -->
-						<div id="filters">
+						<div id="filters" class="jsonly">
 							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" src="images/features/filters.png" alt="" />
 						</div>
+						
+						<noscript>
+							<img class="center" src="images/features/filters.png" alt="" width="70%">
+						</noscript>
 						
 						<br />
 						<h3>Model Validation</h3>
@@ -401,14 +465,18 @@
 						</p>
 						
 						<!-- la miniature -->
-						<a href="#quickfix" class="zoom">
+						<a href="#quickfix" class="zoom jsonly">
 							<img class="center" src="images/features/quickfixes.png" alt="" width="80%">
 						</a>
 						
 						<!-- la taille normale -->
-						<div id="quickfix">
+						<div id="quickfix" class="jsonly">
 							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" src="images/features/quickfixes.png" alt="" />
 						</div>
+						
+						<noscript>
+							<img class="center" src="images/features/quickfixes.png" alt="" width="80%">
+						</noscript>
 						
 						<br />
 						<h3>Semantic delete with preview</h3>
@@ -417,14 +485,18 @@
 						</p>
 						
 						<!-- la miniature -->
-						<a href="#delprev" class="zoom">
+						<a href="#delprev" class="zoom jsonly">
 							<img class="center" src="images/features/del_preview.png" alt="" width="80%">
 						</a>
 						
 						<!-- la taille normale -->
-						<div id="delprev">
+						<div id="delprev" class="jsonly">
 							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" src="images/features/del_preview.png" alt="" />
 						</div>
+						
+						<noscript>
+							<img class="center" src="images/features/del_preview.png" alt="" width="80%">
+						</noscript>
 						
 						<br />
 						<h3>Replicable elements and libraries</h3>
@@ -436,14 +508,18 @@
 						</p>
 						
 						<!-- la miniature -->
-						<a href="#recrpl" class="zoom">
+						<a href="#recrpl" class="zoom jsonly">
 							<img class="center" src="images/features/rec_rpl.png" alt="" width="100%">
 						</a>
 						
 						<!-- la taille normale -->
-						<div id="recrpl">
+						<div id="recrpl" class="jsonly">
 							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" src="images/features/rec_rpl.png" alt="" />
 						</div>
+						
+						<noscript>
+							<img class="center" src="images/features/rec_rpl.png" alt="" width="100%">
+						</noscript>
 						
 						<br />
 						<h3>Modelling Patterns</h3>
@@ -452,14 +528,18 @@
 						</p>
 						
 						<!-- la miniature -->
-						<a href="#pattern" class="zoom">
+						<a href="#pattern" class="zoom jsonly">
 							<img class="center" src="images/features/patterns.png" alt="" width="60%">
 						</a>
 						
 						<!-- la taille normale -->
-						<div id="pattern">
+						<div id="pattern" class="jsonly">
 							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" src="images/features/patterns.png" alt="" />
 						</div>
+						
+						<noscript>
+							<img class="center" src="images/features/patterns.png" alt="" width="60%">
+						</noscript>
 						
 						<br />
 						<h3>Transition System/Subsystems</h3>
@@ -470,14 +550,18 @@
 						</p>
 						
 						<!-- la miniature -->
-						<a href="#transition" class="zoom">
+						<a href="#transition" class="zoom jsonly">
 							<img class="center" src="images/features/transition_system_subsystem.png" alt="" width="80%">
 						</a>
 						
 						<!-- la taille normale -->
-						<div id="transition">
+						<div id="transition" class="jsonly">
 							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" src="images/features/transition_system_subsystem.png" alt="" />
 						</div>
+						
+						<noscript>
+							<img class="center" src="images/features/transition_system_subsystem.png" alt="" width="80%">
+						</noscript>
 						
 						<br />
 						<h3>Multi-Viewpoint</h3>
@@ -487,14 +571,18 @@
 							evaluate the performance of candidate architectures according to different concerns.</p>
 						
 						<!-- la miniature -->
-						<a href="#multivp" class="zoom">
+						<a href="#multivp" class="zoom jsonly">
 							<img class="center" src="images/features/multi_vp.png" alt="" width="100%">
 						</a>
 						
 						<!-- la taille normale -->
-						<div id="multivp">
+						<div id="multivp" class="jsonly">
 							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" src="images/features/multi_vp.png" alt="" />
 						</div>
+						
+						<noscript>
+							<img class="center" src="images/features/multi_vp.png" alt="" width="100%">
+						</noscript>
 						
 						<br />
 						<h3>HTML output</h3>
@@ -504,17 +592,21 @@
 						</p>
 						
 						<!-- la miniature -->
-						<a href="#html" class="zoom">
+						<a href="#html" class="zoom jsonly">
 							<img class="center" src="images/features/html.jpg" alt="" width="100%">
 						</a>
 						
 						<!-- la taille normale -->
-						<div id="html">
+						<div id="html" class="jsonly">
 							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" src="images/features/html.jpg" alt="" />
 						</div>
+						
+						<noscript>
+							<img class="center" src="images/features/html.jpg" alt="" width="100%">
+						</noscript>
 					</div>
 			 
-					<div id="tab3" class="tab">
+					<div id="tab3" class="tab jsonly">
 						
 						<iframe width="560" height="315" src="//www.youtube.com/embed/OGpHMR_j3AM?rel=0&autoplay=0&loop=0&wmode=opaque&controls=1&showinfo=0&theme=light&vq=hd720&color=white" frameborder="0" allowfullscreen></iframe>
 						<p><b>Embedded methodological guidance</b></p>
@@ -589,6 +681,5 @@
         </div>
    
     </footer>
-</div>
 </body>
 </html>
