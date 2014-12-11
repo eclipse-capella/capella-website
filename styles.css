@@ -317,7 +317,7 @@ header {
 	padding: 2px 2px;
 	/*background: #fff; /*  C5D6E8*/
 	background-image:linear-gradient(to left, #C5D6E8, white 90%);
-	margin: 0 auto;
+	/* margin: 0 auto; */
 	text-align:right;
 }
 
@@ -574,8 +574,14 @@ article .article-info a {
 }
 
 footer {
-	margin:20px auto 0;
+	/*margin:20px auto 0;*/
 	/*background: #C5D6E8; /* fff */
+	background-image:linear-gradient(to left, #C5D6E8, white 90%);
+	border-top: 8px solid #1791AB;
+}
+
+#footer-features {
+	margin:450em auto 0;
 	background-image:linear-gradient(to left, #C5D6E8, white 90%);
 	border-top: 8px solid #1791AB;
 }
@@ -665,30 +671,32 @@ footer table td{
 	border:none;
 }
 
-/*----- Tabs -----*/
+/*----- Tabs ----
 .tabs {
     width:100%;
     display:inline-block;
-}
+}-*/
  
-/*----- Tab Links -----*/
+/*----- Tab Links -----
 .tab-links {
 	padding-bottom: 4px;
-}
+}*/
 /* Clearfix */
-.tab-links:after {
-	/*display: block;
-	clear: both;
-	content:'';*/
+/*.tab-links:after {
 	display: block;
-	position: absolute;
+	clear: both;
+	content:'';
+	display: block;
+	position: fixed;
 	clear: both;
     content: "";
     width: 100%;
 	padding: 5px;
     bottom: 0;
-    left: 0;
+    left: 0;*/
     /*border-bottom: 1px solid #AAA;*/
+	
+	/*
     z-index: 1;
 }
  
@@ -705,7 +713,7 @@ footer table td{
  
 .tab-links a {
 
-	/*
+	
 	padding: 11px 30px;
 	margin: 0px -3px;
 	display: inline-block;
@@ -719,7 +727,7 @@ footer table td{
 	transition: all linear 0.15s;
 	*/
 	
-	
+	/*
 	display: inline-block;
     border-radius: 5px 5px 0px 0px;
 	font-family: 'Jura',Arial,sans-serif;
@@ -747,27 +755,8 @@ li.active a, li.active a:hover {
 	font-weight: bold;
 	padding: 6px 50px;
 	box-shadow: -1px 1px 1px rgba(0,0,0,0.15);
-}
+} */
  
-/*----- Content of Tabs -----*/
-.tab-content {
-	padding: 15px;
-	border-radius: 5px;
-	box-shadow: -1px 1px 1px rgba(0,0,0,0.15);
-	background: #F8F8F8;
-}
- 
-.tab {
-	display: none;
-}
- 
-.tab.active {
-	display: block;
-}
-
-.tab p {
-	font-size: 14px;
-}
 
 /**** center images *****/
 img.center {
@@ -777,7 +766,7 @@ img.center {
 }
 
 
-/*Features table------------------------------------------------------------*/
+/*/*****Download Page*****/------------------------------------------------------------*/
 .features-table
 {
   width: 90%;
@@ -804,7 +793,7 @@ img.center {
   text-align: center;
 }
 
-/*Body*/
+
 .features-table tbody td
 {
   text-align: center;
@@ -869,3 +858,4 @@ img.center {
 {
   border-bottom: none;
 }
+

@@ -10,29 +10,133 @@
 		$('a.zoom').fancyZoom({scaleImg: true, closeOnClick: true});
 	});
 </script>
-<script>
-	jQuery(document).ready(function() {
-		jQuery('.tabs .tab-links a').on('click', function(e)  {
-			var currentAttrValue = jQuery(this).attr('href');
-	 
-			// Show/Hide Tabs
-			// Fade jQuery('.tabs ' + currentAttrValue).fadeIn(400).siblings().hide();
-			jQuery('.tabs ' + currentAttrValue).fadeIn(400).siblings().hide();
-			//jQuery('.tabs ' + currentAttrValue).slideDown(400).siblings().slideUp(400);
-	 
-			// Change/remove current tab to active
-			jQuery(this).parent('li').addClass('active').siblings().removeClass('active');
-	 
-			e.preventDefault();
-		});
-	});
-</script>
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Capella</title>
 	<link rel="stylesheet" href="styles.css" type="text/css" />
 
+	
+	<style>
+		/**************************************************************
+			
+			@import url("http://fonts.googleapis.com/css?family=Lato");
+		
+			* {
+			  margin: 0;
+			  padding: 0;
+			  -moz-box-sizing: border-box;
+			  -webkit-box-sizing: border-box;
+			  box-sizing: border-box;
+			}
+
+		
+			body {
+			  padding: 20px;
+			  text-align: left;
+			  font-family: Lato;
+			  color: #fff;
+			  background: #9b59b6;
+			}
+
+			h1 {
+			  font-weight: normal;
+			  font-size: 40px;
+			  font-weight: normal;
+			  text-transform: uppercase;
+			  float: left;
+			  margin: 20px 0 100px 10px;
+			}
+			h1 span {
+			  font-size: 13px;
+			  display: block;
+			  padding-left: 4px;
+			}
+		*****************************************************************/
+
+		.tabs {
+		  width: 740px;
+		  float: none;
+		  list-style: none;
+		  position: relative;
+		  margin: 10px 0 0 10px;
+		  text-align: left;
+		  -moz-box-sizing: border-box;
+		  -webkit-box-sizing: border-box;
+		  box-sizing: border-box;
+		}
+		.tabs li {
+		  float: left;
+		  display: block;
+		}
+		.tabs input[type="radio"] {
+		  position: absolute;
+		  top: -9999px;
+		  left: -9999px;
+		}
+		.tabs label {
+		  display: block;
+		  padding: 16px 28px;
+		  border-radius: 3px 3px 0 0;
+		  font-size: 14px;
+		  font-weight: normal;
+		  text-transform: uppercase;
+		  background: #707070;
+		  cursor: pointer;
+		  position: relative;
+		  top: 4px;
+		  -moz-transition: all 0.2s ease-in-out;
+		  -o-transition: all 0.2s ease-in-out;
+		  -webkit-transition: all 0.2s ease-in-out;
+		  transition: all 0.2s ease-in-out;
+		}
+		.tabs label:hover {
+		  background: #F8F8F8;
+		}
+		.tabs .tab-content {
+		  z-index: 2;
+		  display: none;
+		  overflow: hidden;
+		  width: 100%;
+		  font-size: 16px;
+		  line-height: 25px;
+		  padding: 25px;
+		  position: absolute;
+		  top: 53px;
+		  left: 0;
+		  background: #F8F8F8;
+		}
+		.tabs [id^="tab"]:checked + label {
+		  top: 0;
+		  padding-top: 17px;
+		  background: #F8F8F8;
+		}
+		.tabs [id^="tab"]:checked ~ [id^="tab-content"] {
+		  display: block;
+		}
+
+		p.link {
+		  clear: both;
+		  margin: 380px 0 0 15px;
+		}
+		p.link a {
+		  text-transform: uppercase;
+		  text-decoration: none;
+		  display: inline-block;
+		  color: #fff;
+		  padding: 5px 10px;
+		  margin: 0 5px;
+		  background-color: #612e76;
+		  -moz-transition: all 0.2s ease-in;
+		  -o-transition: all 0.2s ease-in;
+		  -webkit-transition: all 0.2s ease-in;
+		  transition: all 0.2s ease-in;
+		}
+		p.link a:hover {
+		  background-color: #522764;
+		}
+		</style>
+	
 	<noscript>
 		<style> .jsonly { display: none } </style>
 	</noscript>
@@ -52,7 +156,7 @@
 				<li class="divider-vertical-second-menu"></li>
 				<li><a href="arcadia.html">Arcadia</a></li>
 				<li class="divider-vertical-second-menu"></li>
-				<li class="selected"><a href="features.html">Features</a></li>
+				<li class="selected"><a href="features.html#tab1">Features</a></li>
 				<li class="divider-vertical-second-menu"></li>
 				<li><a href="#" disabled="true" style="color:#E5E4E2;">Getting Started</a></li>
 				<li class="divider-vertical-second-menu"></li>
@@ -71,37 +175,30 @@
 	</div>
 
     <div id="body" class="width-started">
-		
-		<section id="content">
-						
-			<div class="tabs">
-				<ul class="tab-links">
-					<li class="active"><a href="#tab1">Diagrams</a></li>
-					<li><a href="#tab2">Tooling</a></li>
-					<li><a href="#tab3">Videos</a></li>
-				</ul>
-			 
-				<div class="tab-content">
-					<div id="tab1" class="tab active">
-						<!-- pour chaque couple [miniature/taille normale], l'identifiant doit etre le meme et unique! -->
+		<article class="expanded">
+			<ul class="tabs">
+				<li>
+					<input name="tabs" id="tab1" checked="" type="radio">
+					<label for="tab1">Diagrams</label>
+					<div id="tab-content1" class="tab-content">
 						<p>
-						This section provides an overview of the different kinds of diagrams supported by Capella. 
-						It is not an exhaustive list of all diagrams available in each Arcadia engineering phase.
+							This section provides an overview of the different kinds of diagrams supported by Capella. 
+							It is not an exhaustive list of all diagrams available in each Arcadia engineering phase.
 						</p>
 						<h3>Operational Architecture</h3>
 						<!-- la miniature -->
 						<p>
-						Operational architecture diagrams are used in Operational Analysis. It captures the allocation of 
-						<b>Operational Activities</b> to <b>Operational Entities</b>. Operational Processes can be displayed as highlighted paths.
+							Operational architecture diagrams are used in Operational Analysis. It captures the allocation of 
+							<b>Operational Activities</b> to <b>Operational Entities</b>. Operational Processes can be displayed as highlighted paths.
 						</p>
 
 						<a href="#oeb" class="zoom jsonly">
-							<img class="center" alt="[OEB]" src="images/start/diagrams/[OEB]_Meteo.png" width="80%">
+							<img class="center" alt="[OEB]" src="images/start/diagrams/[OEB]_Meteo.png" width="100%">
 						</a>
 						
 						<!-- la taille normale -->
 						<div id="oeb" class="jsonly">
-							<img style="background: #fff; box-shadow: 0px 0px 6px #111;" alt="[OEB]" src="images/start/diagrams/[OEB]_Meteo.png" />
+							<img style="background: #fff; box-shadow: 0px 0px 6px #111; position: relative; z-index=:30;" alt="[OEB]" src="images/start/diagrams/[OEB]_Meteo.png" />
 						</div>
 						
 						<noscript>
@@ -114,12 +211,11 @@
 						<h3>Capabilities</h3>
 						<!-- la miniature -->
 						<p>
-						Capabilities diagrams are available in all Arcadia engineering phases but are particularly useful in 
-						Operational Analysis and System Need Analaysis. <b>Capabilities</b> are similar to UML use cases. They are 
-						illustrated by Dataflows, Functional Chains and Sequence Diagrams. 
+							Capabilities diagrams are available in all Arcadia engineering phases but are particularly useful in 
+							Operational Analysis and System Need Analaysis. <b>Capabilities</b> are similar to UML use cases. They are 
+							illustrated by Dataflows, Functional Chains and Sequence Diagrams. 
 						</p>
-						<br/>
-						<br/>
+
 						<a href="#mcb" class="zoom jsonly">
 							<img class="center" alt="[MCB]" src="images/start/diagrams/capabilities.PNG" width="80%">
 						</a>
@@ -135,17 +231,16 @@
 						
 						<!-- saut de ligne -->
 						<br />
-	
+
 						<h3>Dataflows</h3>
 						<!-- la miniature -->
 						<p>
-						Dataflow diagrams are available in all Arcadia engineering levels. They represent information 
-						dependency between functions. These diagrams provide rich mechanisms to manage complexity: 
-						Computed simplified links between high-level Functions, categorization of Exchanges, etc. 
-						Functional Chains can be displayed as highlighted paths. 
+							Dataflow diagrams are available in all Arcadia engineering levels. They represent information 
+							dependency between functions. These diagrams provide rich mechanisms to manage complexity: 
+							Computed simplified links between high-level Functions, categorization of Exchanges, etc. 
+							Functional Chains can be displayed as highlighted paths. 
 						</p>
-						<br />
-						<br/>
+
 						<a href="#dfb" class="zoom jsonly">
 							<img class="center" alt="[DFB]" src="images/start/diagrams/SDFB.png" width="80%">
 						</a>
@@ -165,11 +260,11 @@
 						<h3>Architecture</h3>
 						<!-- la miniature -->
 						<p>
-						Architecture diagrams are used in all Arcadia engineering phases. Their main goal is to show 
-						the allocation of <b>Functions</b> onto <b>Components</b>. Functional Chains can be displayed as highlighted paths. 
-						In System Need Analysis, these diagrams contain one box representing the System under study plus the Actors. 
+							Architecture diagrams are used in all Arcadia engineering phases. Their main goal is to show 
+							the allocation of <b>Functions</b> onto <b>Components</b>. Functional Chains can be displayed as highlighted paths. 
+							In System Need Analysis, these diagrams contain one box representing the System under study plus the Actors. 
 						</p>
-						<br/>
+
 						<a href="#sab" class="zoom jsonly">
 							<img class="center" alt="[SAB]" src="images/start/diagrams/melody-diagrams.png" width="80%">
 						</a>
@@ -187,7 +282,7 @@
 						<br />		
 						<br />						
 						<p>
-						In Logical Architecture, these diagrams show the building blocks of the system. These are called <b>Logical Components</b>.  
+							In Logical Architecture, these diagrams show the building blocks of the system. These are called <b>Logical Components</b>.  
 						</p>
 						
 						<a href="#lab" class="zoom jsonly">
@@ -207,9 +302,10 @@
 						<br />					
 						<br />							
 						<p>
-						In Physical Architecture, these diagrams also show the allocation of <b>Behavioural Components</b> onto 
-						<b>Implementation Components</b> (typically material, but not necessarily).
+							In Physical Architecture, these diagrams also show the allocation of <b>Behavioural Components</b> onto 
+							<b>Implementation Components</b> (typically material, but not necessarily).
 						</p>
+						
 						<a href="#pab" class="zoom jsonly">
 							<img class="center" alt="[CDB]" src="images/start/diagrams/pab.png" width="80%">
 						</a>
@@ -229,7 +325,7 @@
 						<h3>Trees</h3>
 						<!-- la miniature -->
 						<p>
-						Tree diagrams represent breakdowns of either <b>Functions</b> or <b>Components</b>. Each node can be folded / unfolded. 
+							Tree diagrams represent breakdowns of either <b>Functions</b> or <b>Components</b>. Each node can be folded / unfolded. 
 						</p>
 
 						<a href="#tre" class="zoom jsonly">
@@ -251,10 +347,10 @@
 						<h3>Sequence Diagrams</h3>
 						<!-- la miniature -->
 						<p>
-						Capella provides several kinds of sequence diagrams: Functional Scenarios (lifelines are Functions), 
-						Exchange Scenarios (lifelines are Components/Actors while sequence messages are Functional or Component Exchanges), 
-						Interface Scenarios (lifelines are Components/Actors while sequence messages are Interface Operations). 
-						Modes, States and Functions can also be displayed on these diagrams.
+							Capella provides several kinds of sequence diagrams: Functional Scenarios (lifelines are Functions), 
+							Exchange Scenarios (lifelines are Components/Actors while sequence messages are Functional or Component Exchanges), 
+							Interface Scenarios (lifelines are Components/Actors while sequence messages are Interface Operations). 
+							Modes, States and Functions can also be displayed on these diagrams.
 						</p>
 
 						<a href="#seq" class="zoom jsonly">
@@ -276,8 +372,8 @@
 						<h3>Modes and States</h3>
 						<!-- la miniature -->
 						<p>
-						Modes and States diagrams are UML-inspired state machines. Modes / States / Transitions can be related to Functions, 
-						Functional Exchanges, Interface Operations, etc. 
+							Modes and States diagrams are UML-inspired state machines. Modes / States / Transitions can be related to Functions, 
+							Functional Exchanges, Interface Operations, etc. 
 						</p>
 
 						<a href="#mas" class="zoom jsonly">
@@ -299,11 +395,10 @@
 						<h3>Classes and Interfaces</h3>
 						<!-- la miniature -->
 						<p>
-						Capella provides advanced mechanisms to model bit-precise data structures and relate them to Functional Exchanges, 
-						Component or Function Ports, Interfaces, etc.
+							Capella provides advanced mechanisms to model bit-precise data structures and relate them to Functional Exchanges, 
+							Component or Function Ports, Interfaces, etc.
 						</p>
-						<br />
-						<br/>
+
 						<a href="#cdb" class="zoom jsonly">
 							<img class="center" alt="[CDB]" src="images/start/diagrams/[CDB]_Data.png" width="80%">
 						</a>
@@ -316,16 +411,16 @@
 						<noscript>
 							<img class="center" alt="[CDB]" src="images/start/diagrams/[CDB]_Data.png" width="80%">
 						</noscript>
-						
-						<!-- saut de ligne -->
-						<br />
-						
 					</div>
-					
-					<div id="tab2" class="tab">
+				</li>
+			  
+				<li>
+					<input name="tabs" id="tab2" type="radio">
+					<label for="tab2">Tooling</label>
+					<div id="tab-content2" class="tab-content">
 						<p>The following is a non-exhaustive list of Capella differentiating features.</p>
 						<h3>Methodological Guidance</h3>
-						<p style="text-align: left; padding:10px; font-size: 14px;">
+						<p style="text-align: left; padding:10px;">
 							The activity browser provides a <b>methodological access</b> to all key activities of Capella. 
 							It is the main entry point to a model and is both meant for beginners and power users. 
 						</p>
@@ -605,33 +700,53 @@
 							<img class="center" src="images/features/html.jpg" alt="" width="100%">
 						</noscript>
 					</div>
-			 
-					<div id="tab3" class="tab jsonly">
+				</li>
+				
+				<li>
+					<input name="tabs" id="tab3" type="radio">
+					<label for="tab3">Videos</label>
+					<div id="tab-content3" class="tab-content">
+						<noscript>
+							<br />
+							<p style="	background-color: #FEEFB3; 
+										color: #9F6000; 
+										font-size:13px; 
+										font-family:Arial, Helvetica, sans-serif; 
+										border: 1px solid; 
+										margin: 10px 0px; 
+										padding:15px 10px 15px 50px; 
+										background-repeat: no-repeat; 
+										background-position: 10px center; 
+										background-image: url('images/warning.png');">
+								This browser does not have JavaScript turned on, or cannot use JavaScript. Please enable JavaScript and refresh the page to watch the videos.
+							</p>
+						</noscript>
 						
-						<iframe width="560" height="315" src="//www.youtube.com/embed/OGpHMR_j3AM?rel=0&autoplay=0&loop=0&wmode=opaque&controls=1&showinfo=0&theme=light&vq=hd720&color=white" frameborder="0" allowfullscreen></iframe>
-						<p><b>Embedded methodological guidance</b></p>
-						
-						<iframe width="560" height="315" src="//www.youtube.com/embed/WtwAzftHd4A?rel=0&autoplay=0&loop=0&wmode=opaque&controls=1&showinfo=0&theme=light&vq=hd720&color=white" frameborder="0" allowfullscreen></iframe>
-						<p><b>Manage model complexity</b></p>
-						
-						<iframe width="560" height="315" src="//www.youtube.com/embed/UiOiBomTU1c?rel=0&autoplay=0&loop=0&wmode=opaque&controls=1&showinfo=0&theme=light&vq=hd720&color=white" frameborder="0" allowfullscreen></iframe>
-						<p><b>Browsing the model</b></p>
-						
-						<iframe width="560" height="315" src="//www.youtube.com/embed/HKMaGc99Zh8?rel=0&autoplay=0&loop=0&wmode=opaque&controls=1&showinfo=0&theme=light&vq=hd720&color=white" frameborder="0" allowfullscreen></iframe>
-						<p><b>Productivity tools</b></p>
-						
-						<iframe width="560" height="315" src="//www.youtube.com/embed/cT43CmZM2go?rel=0&autoplay=0&loop=0&wmode=opaque&controls=1&showinfo=0&theme=light&vq=hd720&color=white" frameborder="0" allowfullscreen></iframe>
-						<p><b>Multi-viewpoint trade-off analysis</b></p> 
+						<div class="jsonly">
+							<iframe width="560" height="315" src="//www.youtube.com/embed/OGpHMR_j3AM?rel=0&autoplay=0&loop=0&wmode=opaque&controls=1&showinfo=0&theme=light&vq=hd720&color=white" frameborder="0" allowfullscreen></iframe>
+							<p><b>Embedded methodological guidance</b></p>
+							
+							<iframe width="560" height="315" src="//www.youtube.com/embed/WtwAzftHd4A?rel=0&autoplay=0&loop=0&wmode=opaque&controls=1&showinfo=0&theme=light&vq=hd720&color=white" frameborder="0" allowfullscreen></iframe>
+							<p><b>Manage model complexity</b></p>
+							
+							<iframe width="560" height="315" src="//www.youtube.com/embed/UiOiBomTU1c?rel=0&autoplay=0&loop=0&wmode=opaque&controls=1&showinfo=0&theme=light&vq=hd720&color=white" frameborder="0" allowfullscreen></iframe>
+							<p><b>Browsing the model</b></p>
+							
+							<iframe width="560" height="315" src="//www.youtube.com/embed/HKMaGc99Zh8?rel=0&autoplay=0&loop=0&wmode=opaque&controls=1&showinfo=0&theme=light&vq=hd720&color=white" frameborder="0" allowfullscreen></iframe>
+							<p><b>Productivity tools</b></p>
+							
+							<iframe width="560" height="315" src="//www.youtube.com/embed/cT43CmZM2go?rel=0&autoplay=0&loop=0&wmode=opaque&controls=1&showinfo=0&theme=light&vq=hd720&color=white" frameborder="0" allowfullscreen></iframe>
+							<p><b>Multi-viewpoint trade-off analysis</b></p> 				
+						</div>
 					</div>
-
-				</div>
-			</div>
-        </section>
-		
-		         
-    	<div class="clear"></div>
+				</li>
+			</ul>
+		</article>		         
     </div>
-    <footer>
+	
+	<div class="clear"></div>
+	
+    <footer id="footer-features">
         <div class="footer-content width">
 			<ul>
 				<li><h4>PolarSys</h4></li>

@@ -74,7 +74,8 @@ jQuery.fn.fancyZoom = function(options) {
 		} else {
 			zoom.html('');
 		}
-	    
+	    $('#zoom').css("z-index", 10);
+		
 		$('#zoom').animate({
 					top     : newTop + 'px',
 					left    : newLeft + 'px',
