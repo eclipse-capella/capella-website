@@ -9,6 +9,16 @@
 		$('a.zoom').fancyZoom({scaleImg: true, closeOnClick: true});
 	});
 </script>
+<script type="text/javascript">
+	window.twttr = (function (d, s, id) {
+	  var t, js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src= "https://platform.twitter.com/widgets.js";
+	  fjs.parentNode.insertBefore(js, fjs);
+	  return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } });
+	}(document, "script", "twitter-wjs"));
+</script>
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -39,7 +49,7 @@
 				<li class="divider-vertical-second-menu"></li>
 				<li><a href="events.html">Events</a></li>
 				<li class="divider-vertical-second-menu"></li>
-				<li class="end"><a href="support.html">Support</a></li>
+				<li class="end"><a href="community.html">Community</a></li>
 				<li style="text-align:right;"><a href="download.html" class="box">Download</a></li>
 				<li style="float:none;"><br style="clear:both;" /></li> 
 			</ul>		
@@ -221,6 +231,15 @@
 					<br />
 					&nbsp;&nbsp;&nbsp;
 					<a href="http://www.eclipse.org/projects/what-is-incubation.php"><img src="images/egg-incubation.png" alt="incubation"/></a>
+					&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;
+										
+					<a href="http://www.twitter.com/capella_arcadia">
+						<img src="images/Twitter_logo_black.png" width="20%" alt="Capella on Twitter!" style="margin-bottom:10px;" 
+							onmouseover="this.src='images/Twitter_logo_blue.png';"
+							onmouseout="this.src='images/Twitter_logo_black.png';">			
+						</img>
+					</a>
 				</li>
 				<li class="jsonly">
 					<br />
@@ -283,6 +302,12 @@
 				<li><a href="https://www.thalesgroup.com/">Thalesgroup</a></li>
 				<li><a href="http://www.clarity-se.org/">Clarity</a></li>
 				<li><a href="https://www.eclipse.org/org/workinggroups/">Working Groups</a></li>
+				<li>
+					<a target="_blank" class="twitter-btn" title="Follow Capella on Twitter!" href="https://twitter.com/capella_arcadia">
+					<i></i>
+					<span class="label">Capella</span>
+					</a> 
+				</li>
 			</ul>
 			<table>
 				<tr>
