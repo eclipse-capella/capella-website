@@ -15,6 +15,17 @@
 	  ga('send', 'pageview');
 
 	</script>
+	
+		<script type="text/javascript">
+	window.twttr = (function (d, s, id) {
+	  var t, js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src= "https://platform.twitter.com/widgets.js";
+	  fjs.parentNode.insertBefore(js, fjs);
+	  return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } });
+	}(document, "script", "twitter-wjs"));
+	</script>
 </head>
 <body>
     <header>
@@ -370,10 +381,12 @@
 				<li><a href="http://www.clarity-se.org/">Clarity</a></li>
                 <li><a href="https://www.eclipse.org/org/workinggroups/">Working Groups</a></li>
 				<li>
-					<a target="_blank" class="twitter-btn" title="Follow Capella on Twitter!" href="https://twitter.com/capella_arcadia">
-					<i></i>
-					<span class="label">@capella_arcadia</span>
-					</a> 
+					<a class="twitter-follow-button"
+									  href="https://twitter.com/capella_arcadia"
+									  data-show-count="false"
+									  data-lang="en">
+									Follow Capella!
+									</a>
 				</li>
             </ul>
 			<table>
