@@ -1,11 +1,161 @@
 <!doctype html>
 <html>
 <link rel="icon" type="image/png" href="favicon.ico" />
+
+
+
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Capella</title>
 	<link rel="stylesheet" href="styles.css" type="text/css" />
-		<script>
+
+	
+	<style>
+		/**************************************************************
+			
+			@import url("http://fonts.googleapis.com/css?family=Lato");
+		
+			* {
+			  margin: 0;
+			  padding: 0;
+			  -moz-box-sizing: border-box;
+			  -webkit-box-sizing: border-box;
+			  box-sizing: border-box;
+			}
+
+		
+			body {
+			  padding: 20px;
+			  text-align: left;
+			  font-family: Lato;
+			  color: #fff;
+			  background: #9b59b6;
+			}
+
+			h1 {
+			  font-weight: normal;
+			  font-size: 40px;
+			  font-weight: normal;
+			  text-transform: uppercase;
+			  float: left;
+			  margin: 20px 0 100px 10px;
+			}
+			h1 span {
+			  font-size: 13px;
+			  display: block;
+			  padding-left: 4px;
+			}
+		*****************************************************************/
+
+		.tabs {
+		  width: 740px;
+		  float: none;
+		  list-style: none;
+		  position: relative;
+		  margin: 10px 0 0 10px;
+		  text-align: left;
+		  -moz-box-sizing: border-box;
+		  -webkit-box-sizing: border-box;
+		  box-sizing: border-box;
+		}
+		.tabs li {
+		  float: left;
+		  display: block;
+		}
+		.tabs input[type="radio"] {
+		  position: absolute;
+		  top: -9999px;
+		  left: -9999px;
+		}
+		.tabs label {
+		  display: block;
+		  padding: 16px 28px;
+		  border-radius: 3px 3px 0 0;
+		  font-size: 14px;
+		  font-weight: normal;
+		  font-family: 'Jura',Arial,sans-serif;
+		  text-transform: uppercase;
+		  background: #E0E0E0    ;
+		  cursor: pointer;
+		  position: relative;
+		  top: 4px;
+		  -moz-transition: all 0.2s ease-in-out;
+		  -o-transition: all 0.2s ease-in-out;
+		  -webkit-transition: all 0.2s ease-in-out;
+		  transition: all 0.2s ease-in-out;
+		}
+		.tabs label:hover {
+		  background: #F8F8F8;
+		}
+		.tabs .tab-content {
+		  z-index: 2;
+		  display: none;
+		  overflow: hidden;
+		  width: 100%;
+		  font-size: 16px;
+		  line-height: 25px;
+		  padding: 25px;
+		  position: absolute;
+		  top: 53px;
+		  left: 0;
+		  background: #F8F8F8;
+		}
+		.tabs [id^="tab"]:checked + label {
+		  top: 0;
+		  padding-top: 17px;
+		  background: #F8F8F8;
+		}
+		.tabs [id^="tab"]:checked ~ [id^="tab-content"] {
+		  display: block;
+		}
+
+		p.link {
+		  clear: both;
+		  margin: 380px 0 0 15px;
+		}
+		p.link a {
+		  text-transform: uppercase;
+		  text-decoration: none;
+		  display: inline-block;
+		  color: #fff;
+		  padding: 5px 10px;
+		  margin: 0 5px;
+		  background-color: #612e76;
+		  -moz-transition: all 0.2s ease-in;
+		  -o-transition: all 0.2s ease-in;
+		  -webkit-transition: all 0.2s ease-in;
+		  transition: all 0.2s ease-in;
+		}
+		p.link a:hover {
+		  background-color: #522764;
+		}
+		</style>
+	
+	<noscript>
+		<style> .jsonly { display: none } </style>
+	</noscript>
+	
+	<!-- Add jQuery library -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="js-global/fancyzoom_simplified.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('a.zoom').fancyZoom({scaleImg: true, closeOnClick: true});
+		});
+	</script>
+	
+	<script type="text/javascript">
+		window.twttr = (function (d, s, id) {
+		  var t, js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src= "https://platform.twitter.com/widgets.js";
+		  fjs.parentNode.insertBefore(js, fjs);
+		  return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } });
+		}(document, "script", "twitter-wjs"));
+	</script>
+	
+	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -15,18 +165,8 @@
 	  ga('send', 'pageview');
 
 	</script>
-	
-		<script type="text/javascript">
-	window.twttr = (function (d, s, id) {
-	  var t, js, fjs = d.getElementsByTagName(s)[0];
-	  if (d.getElementById(id)) return;
-	  js = d.createElement(s); js.id = id;
-	  js.src= "https://platform.twitter.com/widgets.js";
-	  fjs.parentNode.insertBefore(js, fjs);
-	  return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } });
-	}(document, "script", "twitter-wjs"));
-	</script>
 </head>
+
 <body>
     <header>
 		<div class="logo-left width">
@@ -43,7 +183,7 @@
 				<li class="divider-vertical-second-menu"></li>
 				<li><a href="features.html">Features</a></li>
 				<li class="divider-vertical-second-menu"></li>
-				<li><a href="#" disabled="true" style="color:#E5E4E2;">Getting Started</a></li>
+				<li class="selected"><a href="start.html">Getting Started</a></li>
 				<li class="divider-vertical-second-menu"></li>
 				<li><a href="events.html">Events</a></li>
 				<li class="divider-vertical-second-menu"></li>
@@ -60,28 +200,34 @@
 	</div>
 
     <div id="body" class="width-started">
-		
-		<section id="content">
-			<article class="expanded" id="construction">
-				<table>		
-					<tr>
-						<th>
-							<h3>Under contruction...</h3>
-							<br />
-							<br />
-							<br />
-							<br />
-							<br />
-						</th>
-					</tr>
-				</table>
-			</article>		
-			
-        </section>
-		        
-    	<div class="clear"></div>
+		<article class="expanded">
+			<ul class="tabs">
+				<li>
+					<input name="tabs" id="tab1" checked="" type="radio">
+					<label for="tab1">Installation</label>
+					<div id="tab-content1" class="tab-content">
+						<p>
+							This guide covers preparing for installation, running the installation, and the steps that should be done after the installation has completed. 
+						</p>
+					</div>
+				</li>
+			  
+				<li>
+					<input name="tabs" id="tab2" type="radio">
+					<label for="tab2">Use Case</label>
+					<div id="tab-content2" class="tab-content">
+						<p>
+							<i>In construction...</i> 
+						</p>
+					</div>
+				</li>
+			</ul>
+		</article>		         
     </div>
-    <footer>
+	
+	<div class="clear"></div>
+	
+    <footer id="footer-start">
         <div class="footer-content width">
 			<ul>
 				<li><h4>PolarSys</h4></li>
