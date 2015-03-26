@@ -4,18 +4,20 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Capella</title>
-	<link rel="stylesheet" href="styles.css" type="text/css" />
+	<link rel="stylesheet" href="styles.css" type="text/css" />	
 	
 	<style>
 		
 		.dnd a:link {
 			color: #242A75;
+			
 			font-weight: bold;
-			text-decoration:none;
+			text-decoration:underline;
+			font-style: normal;
 		}
 		.dnd a:visited {
 			color: #999999;
-			font-weight:bold;
+			/*font-weight: bold;*/
 			text-decoration:none;
 		}
 		.dnd a:active,
@@ -41,6 +43,7 @@
 			box-shadow: 0 1px 2px #d1d1d1;
 		}
 		.dnd th {
+			font-size:12px;
 			padding:21px 25px 22px 25px;
 			border-top:1px solid #fafafa;
 			border-bottom:1px solid #e0e0e0;
@@ -73,6 +76,8 @@
 			border-left: 0;
 		}
 		.dnd td {
+			font-size:15px;
+		
 			padding:18px;
 			border-top: 1px solid #ffffff;
 			border-bottom:1px solid #e0e0e0;
@@ -172,17 +177,21 @@
 		
 			<article class="expanded">
 				<h3>
-					Capella v0.8-RC:
+					Capella Download Archive
 				</h3>
+				<p>
+					From this page you can download the previous versions of Capella. 
+				</p>
 				<table class="dnd" cellspacing='0'> <!-- cellspacing='0' is important, must stay -->
 
 					<!-- Table Header -->
 					
 					<thead>
 						<tr>
-							<th>Operating System</th>
+							<th>Version</th>
 							<th>Architecture</th>
 							<th>Download link</th>
+							<th>Release Notes</th>
 						</tr>
 					</thead>
 					
@@ -192,80 +201,53 @@
 					<tbody>
 
 						<tr>
-							<td>Windows</td>
+							<td>Capella 0.8-RC</td>
 							<td>32-bit</td>
-							<td><a href="http://download.polarsys.org/capella/0.8/RC/Win/capella-0.8-RC-win32-x86-juno-incubation.zip" 
-									target="_blank" onClick="ga('send', 'event', 'Download', 'Capella', 'Win-x86');"><img src="images/download.png" width="15%" alt="Link"></a></td>
+							<td>
+							
+								<a href="//download.polarsys.org/capella/0.8/RC/Win/capella-0.8-RC-win32-x86-juno-incubation.zip" 
+								target="_blank" onClick="ga('send', 'event', 'Capella', '0.8-RC', 'Win-x86');">Win</a>
+								&nbsp;
+								/
+								&nbsp;
+								<a href="//download.polarsys.org/capella/0.8/RC/Linux/capella-0.8-RC-linux-gtk-x86-juno-incubation.zip" 
+									target="_blank" onClick="ga('send', 'event', 'Capella', '0.8-RC', 'Linux-x86');">Linux</a>
+							</td>
+							<td>
+								<a href="#">View</a>
+							</td>
 						</tr><!-- Table Row -->
 
 						<tr class="even">
-							<td>Windows</td>
+							<td>Capella 0.8-RC</td>
 							<td>64-bit</td>
-							<td><a href="http://download.polarsys.org/capella/0.8/RC/Win/capella-0.8-RC-win32-x86_64-juno-incubation.zip" 
-									target="_blank" onClick="ga('send', 'event', 'Download', 'Capella', 'Win-x64');"><img src="images/download.png" width="15%" alt="Link"></a></td>
+							<td>
+							
+								<a href="//download.polarsys.org/capella/0.8/RC/Win/capella-0.8-RC-win32-x86_64-juno-incubation.zip" 
+									target="_blank" onClick="ga('send', 'event', 'Capella', '0.8-RC', 'Win-x64');">Win</a>
+								&nbsp;
+								/
+								&nbsp;
+								<a href="//download.polarsys.org/capella/0.8/RC/Mac/capella-0.8-RC-macosx-cocoa-x86_64-juno-incubation.zip" 
+									target="_blank" onClick="ga('send', 'event', 'Capella', '0.8-RC', 'MacOS-x64');">MacOS</a>
+								&nbsp;
+								/
+								&nbsp;
+								<a href="//download.polarsys.org/capella/0.8/RC/Linux/capella-0.8-RC-linux-gtk-x86_64-juno-incubation.zip" 
+									target="_blank" onClick="ga('send', 'event', 'Capella', '0.8-RC', 'Linux-x64');">Linux</a>
+							</td>
+							<td>
+								<a href="#">View</a>
+							</td>
 						</tr><!-- Darker Table Row -->
-
-						<tr>
-							<td>Linux</td>
-							<td>32-bit</td>
-							<td><a href="http://download.polarsys.org/capella/0.8/RC/Linux/capella-0.8-RC-linux-gtk-x86-juno-incubation.zip" 
-									target="_blank" onClick="ga('send', 'event', 'Download', 'Capella', 'Linux-x86');"><img src="images/download.png" width="15%" alt="Link"></a></td>
-						</tr>
-
-						<tr class="even">
-							<td>Linux</td>
-							<td>64-bit</td>
-							<td><a href="http://download.polarsys.org/capella/0.8/RC/Linux/capella-0.8-RC-linux-gtk-x86_64-juno-incubation.zip" 
-									target="_blank" onClick="ga('send', 'event', 'Download', 'Capella', 'Linux-x64');"><img src="images/download.png" width="15%" alt="Link"></a></td>
-						</tr>
-
-						<tr>
-							<td>Mac OSX</td>
-							<td>64-bit</td>
-							<td><a href="http://download.polarsys.org/capella/0.8/RC/Mac/capella-0.8-RC-macosx-cocoa-x86_64-juno-incubation.zip" 
-									target="_blank" onClick="ga('send', 'event', 'Download', 'Capella', 'MacOS-x64');"><img src="images/download.png" width="15%" alt="Link"></a></td>
-						</tr>
 
 					</tbody>
 					<!-- Table Body -->
 
 				</table>
-				
+				<br />
 				<br />
 				
-				<h3>
-					Additional resources:
-				</h3>
-				
-				<table cellspacing='0' class="dnd" id="addreso"> <!-- cellspacing='0' is important, must stay -->
-					<tbody>
-						<tr>
-							<td>In-Flight Entertainment (IFE) Sample Model</td>
-							<td><a href="samples/IFE/Capella_IFE_Sample_Model_150301.zip" 
-									target="_blank" onClick="ga('send', 'event', 'Download', 'Capella', 'IFE');"><img src="images/download.png" width="20%" alt="Link"></a></td>
-						</tr><!-- Table Row -->
-						<tr class="even">
-							<td>Documentation (HTML)</td>
-							<td><a href="http://download.polarsys.org/capella/0.8/RC/Capella-0.8-RC_UserManual.zip" 
-									target="_blank" onClick="ga('send', 'event', 'Download', 'Capella', 'Documentation');"><img src="images/download.png" width="20%" alt="Link"></a></td>
-						</tr><!-- Table Row -->
-						<tr>
-							<td>Introduction to Arcadia (PDF)</td>
-							<td><a href="//polarsys.org/capella/publis/An_Introduction_to_Arcadia_20150115.pdf" 
-									target="_blank" onClick="ga('send', 'event', 'Download', 'Capella', 'Arcadia');"><img src="images/download.png" width="20%" alt="Link"></a></td>
-						</tr><!-- Table Row -->
-						<tr>
-							<td>Older versions of Capella</td>
-							<td><a href="#"><img src="images/archive.png" width="20%" alt="Link"></a></td>
-						</tr><!-- Table Row -->
-					</tbody>
-				
-				</table>
-							
-				<br />
-				<p>
-					&nbsp;&nbsp;&nbsp;The installation instructions are detailed in the <b> <a href="start.html"> <i> Getting Started </i> </a> </b> page.
-				</p>				
 			</article>
         </section>
         
@@ -273,13 +255,10 @@
 
            <ul>	
 				<li>
-					<h4>Important information</h4>
+					<h4>Information</h4>
 					<ul>
 						<li>
-							<u>Note:</u> These are pre-release versions, not official versions. 
-						</li>
-						<li>
-							<sup>*</sup><u>Note:</u> MacOS and Linux versions have not been field-tested. Do not hesitate to provide your feedback on the forum. 
+							The Capella documentation may refer to features in the latest version.
 						</li>
                     </ul>
                 </li>
