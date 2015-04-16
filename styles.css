@@ -240,12 +240,12 @@ h3 {/*
 	
     display: block;
     font-family: 'Jura',Arial,sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     letter-spacing: 0;
 	margin: 0;
     padding: 15px 0px;
     text-decoration: none;
-    /*text-transform: uppercase;*/
+    text-transform: uppercase;
 	color: #1791AB; 
 	font-weight:bold;
 }
