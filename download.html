@@ -2,116 +2,130 @@
 <html>
 <link rel="icon" type="image/png" href="favicon.ico" />
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Capella</title>
-	<link rel="stylesheet" href="styles.css" type="text/css" />
-	
-	<style>
-		
-		.dnd a:link {
-			color: #242A75;
-			font-weight: bold;
-			text-decoration:none;
-		}
-		.dnd a:visited {
-			color: #999999;
-			font-weight:bold;
-			text-decoration:none;
-		}
-		.dnd a:active,
-		.dnd a:hover {
-			color: #1791AB;
-			text-decoration:underline;
-		}
-		.dnd {
-			font-family:Arial, Helvetica, sans-serif;
-			color:#242A75;
-			font-size:12px;
-			text-shadow: 1px 1px 0px #fff;
-			background:#eaebec;
-			#margin:20px;
-			border:#ccc 1px solid;
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Capella</title>
+<link rel="stylesheet" href="styles.css" type="text/css" />
 
-			-moz-border-radius:3px;
-			-webkit-border-radius:3px;
-			border-radius:3px;
+<style>
+.dnd a:link {
+	color: #242A75;
+	font-weight: bold;
+	text-decoration: none;
+}
 
-			-moz-box-shadow: 0 1px 2px #d1d1d1;
-			-webkit-box-shadow: 0 1px 2px #d1d1d1;
-			box-shadow: 0 1px 2px #d1d1d1;
-		}
-		.dnd th {
-			padding:21px 25px 22px 25px;
-			border-top:1px solid #fafafa;
-			border-bottom:1px solid #e0e0e0;
+.dnd a:visited {
+	color: #999999;
+	font-weight: bold;
+	text-decoration: none;
+}
 
-			background: #ededed;
-			background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#ebebeb));
-			background: -moz-linear-gradient(top,  #ededed,  #ebebeb);
-		}
-		.dnd th:first-child {
-			text-align: left;
-			padding-left:20px;
-		}
-		.dnd tr:first-child th:first-child {
-			-moz-border-radius-topleft:3px;
-			-webkit-border-top-left-radius:3px;
-			border-top-left-radius:3px;
-		}
-		.dnd tr:first-child th:last-child {
-			-moz-border-radius-topright:3px;
-			-webkit-border-top-right-radius:3px;
-			border-top-right-radius:3px;
-		}
-		.dnd tr {
-			text-align: center;
-			padding-left:20px;
-		}
-		.dnd td:first-child {
-			text-align: left;
-			padding-left:20px;
-			border-left: 0;
-		}
-		.dnd td {
-			padding:18px;
-			border-top: 1px solid #ffffff;
-			border-bottom:1px solid #e0e0e0;
-			border-left: 1px solid #e0e0e0;
+.dnd a:active,.dnd a:hover {
+	color: #1791AB;
+	text-decoration: underline;
+}
 
-			background: #fafafa;
-			background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
-			background: -moz-linear-gradient(top,  #fbfbfb,  #fafafa);
-		}
-		.dnd tr.even td {
-			background: #f6f6f6;
-			background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#f6f6f6));
-			background: -moz-linear-gradient(top,  #f8f8f8,  #f6f6f6);
-		}
-		.dnd tr:last-child td {
-			border-bottom:0;
-		}
-		.dnd tr:last-child td:first-child {
-			-moz-border-radius-bottomleft:3px;
-			-webkit-border-bottom-left-radius:3px;
-			border-bottom-left-radius:3px;
-		}
-		.dnd tr:last-child td:last-child {
-			-moz-border-radius-bottomright:3px;
-			-webkit-border-bottom-right-radius:3px;
-			border-bottom-right-radius:3px;
-		}
-		.dnd tr:hover td {
-			background: #f2f2f2;
-			background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
-			background: -moz-linear-gradient(top,  #f2f2f2,  #f0f0f0);	
-		}
-	</style>
-	
-	
-	<!-- Add jQuery library -->
-	<script type="text/javascript" src="//code.jquery.com/jquery-latest.min.js"></script>
-	
-	<script type="text/javascript">
+.dnd {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #242A75;
+	font-size: 12px;
+	text-shadow: 1px 1px 0px #fff;
+	background: #eaebec; #
+	margin: 20px;
+	border: #ccc 1px solid;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: 0 1px 2px #d1d1d1;
+	-webkit-box-shadow: 0 1px 2px #d1d1d1;
+	box-shadow: 0 1px 2px #d1d1d1;
+}
+
+.dnd th {
+	padding: 21px 25px 22px 25px;
+	border-top: 1px solid #fafafa;
+	border-bottom: 1px solid #e0e0e0;
+	background: #ededed;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ededed),
+		to(#ebebeb));
+	background: -moz-linear-gradient(top, #ededed, #ebebeb);
+}
+
+.dnd th:first-child {
+	text-align: left;
+	padding-left: 20px;
+}
+
+.dnd tr:first-child th:first-child {
+	-moz-border-radius-topleft: 3px;
+	-webkit-border-top-left-radius: 3px;
+	border-top-left-radius: 3px;
+}
+
+.dnd tr:first-child th:last-child {
+	-moz-border-radius-topright: 3px;
+	-webkit-border-top-right-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+.dnd tr {
+	text-align: center;
+	padding-left: 20px;
+}
+
+.dnd td:first-child {
+	text-align: left;
+	padding-left: 20px;
+	border-left: 0;
+}
+
+.dnd td {
+	padding: 18px;
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #e0e0e0;
+	border-left: 1px solid #e0e0e0;
+	background: #fafafa;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb),
+		to(#fafafa));
+	background: -moz-linear-gradient(top, #fbfbfb, #fafafa);
+}
+
+.dnd tr.even td {
+	background: #f6f6f6;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8),
+		to(#f6f6f6));
+	background: -moz-linear-gradient(top, #f8f8f8, #f6f6f6);
+}
+
+.dnd tr:last-child td {
+	border-bottom: 0;
+}
+
+.dnd tr:last-child td:first-child {
+	-moz-border-radius-bottomleft: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+.dnd tr:last-child td:last-child {
+	-moz-border-radius-bottomright: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+.dnd tr:hover td {
+	background: #f2f2f2;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2),
+		to(#f0f0f0));
+	background: -moz-linear-gradient(top, #f2f2f2, #f0f0f0);
+}
+</style>
+
+
+<!-- Add jQuery library -->
+<script type="text/javascript"
+	src="//code.jquery.com/jquery-latest.min.js"></script>
+
+<script type="text/javascript">
 		window.twttr = (function (d, s, id) {
 		  var t, js, fjs = d.getElementsByTagName(s)[0];
 		  if (d.getElementById(id)) return;
@@ -121,8 +135,8 @@
 		  return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } });
 		}(document, "script", "twitter-wjs"));
 	</script>
-	
-	<script>
+
+<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -132,16 +146,17 @@
 	  ga('send', 'pageview');
 
 	</script>
-	
+
 </head>
 <body>
-    <header>
+	<header>
 		<div class="logo-left width">
-			<a href="index.html"><img src="images/logo_capella_350.png" alt="Capella logo" width=""></a>
+			<a href="index.html"><img src="images/logo_capella_350.png"
+				alt="Capella logo" width=""></a>
 		</div>
-    </header>
+	</header>
 
-    <nav>
+	<nav>
 		<div class="width">
 			<ul>
 				<li class="start"><a href="index.html">Home</a></li>
@@ -155,43 +170,48 @@
 				<li><a href="events.html">Events</a></li>
 				<li class="divider-vertical-second-menu"></li>
 				<li class="end"><a href="community.html">Community</a></li>
-				<li style="text-align:right;"><a href="download.html" class="box">Download</a></li>
-				<li style="float:none;"><br style="clear:both;" /></li> 
-			</ul>		
+				<li style="text-align: right;"><a href="download.html"
+					class="box">Download</a></li>
+				<li style="float: none;"><br style="clear: both;" /></li>
+			</ul>
 		</div>
-    </nav>
+	</nav>
 
 	<div id="hrdiv">
 		<img src="images/bg_breadcrumb.jpg" width="" alt="" height="" />
 	</div>
 
-    <div id="body" class="width-started">
-		
-        <section id="content">
-			
+	<div id="body" class="width-started">
+
+		<section id="content">
+
 			<br />
 			<div style="position: relative; z-index: 10;">
-			
-				<div style="background-color: #D8D8D8; position:absolute; z-index:-1; top:0; left:0; right:0; bottom:0; opacity:0.2;"></div>
-				<p><img style="float: left; margin: 0px 15px 0px 0px;" src="images/whatsnew.png" width="100" />
-				<br/>
-				Capella 0.8.2 has been released! For important changes, please consult the <a href="https://www.polarsys.org/projects/polarsys.capella/releases/0.8.2/plan"><b>release notes</b></a>.
-				<br />
-				<a href="#capella"><b>Below</b></a> are download links. <!-- See <b>this post</b> for more details. -->
-				<br style="clear: both;" /></p>
+
+				<div
+					style="background-color: #D8D8D8; position: absolute; z-index: -1; top: 0; left: 0; right: 0; bottom: 0; opacity: 0.2;"></div>
+				<p>
+					<img style="float: left; margin: 0px 15px 0px 0px;"
+						src="images/whatsnew.png" width="100" /> <br /> Capella 0.8.2 has
+					been released! For important changes, please consult the <a
+						href="https://www.polarsys.org/projects/polarsys.capella/releases/0.8.2/plan"><b>release
+							notes</b></a>. <br /> <a href="#capella"><b>Below</b></a> are download
+					links.
+					<!-- See <b>this post</b> for more details. -->
+					<br style="clear: both;" />
+				</p>
 			</div>
-				
+
 			<article class="expanded">
-								
+
 				<br />
-				
-				<h3>
-					Capella 0.8.2:
-				</h3>
-				<table class="dnd" cellspacing='0' id="capella"> <!-- cellspacing='0' is important, must stay -->
+
+				<h3>Capella 0.8.2:</h3>
+				<table class="dnd" cellspacing='0' id="capella">
+					<!-- cellspacing='0' is important, must stay -->
 
 					<!-- Table Header -->
-					
+
 					<thead>
 						<tr>
 							<th>Operating System</th>
@@ -199,7 +219,7 @@
 							<th>Download link</th>
 						</tr>
 					</thead>
-					
+
 					<!-- Table Header -->
 
 					<!-- Table Body -->
@@ -208,52 +228,68 @@
 						<tr>
 							<td>Windows</td>
 							<td>32-bit</td>
-							<td><a href="http://download.polarsys.org/capella/core/platform/releases/0.8.2/juno/capella-0.8.2-win32-win32-x86-juno-incubation.zip" 
-									target="_blank" onClick="ga('send', 'event', 'Capella', '0.8.2', 'Win-x86');"><img src="images/download.png" width="15%" alt="Link"></a></td>
-						</tr><!-- Table Row -->
+							<td><a
+								href="http://download.polarsys.org/capella/core/platform/releases/0.8.2/juno/capella-0.8.2-win32-win32-x86-juno-incubation.zip"
+								target="_blank"
+								onClick="ga('send', 'event', 'Capella', '0.8.2', 'Win-x86');"><img
+									src="images/download.png" width="15%" alt="Link"></a></td>
+						</tr>
+						<!-- Table Row -->
 
 						<tr class="even">
 							<td>Windows</td>
 							<td>64-bit</td>
-							<td><a href="http://download.polarsys.org/capella/core/platform/releases/0.8.2/juno/capella-0.8.2-win32-win32-x86_64-juno-incubation.zip" 
-									target="_blank" onClick="ga('send', 'event', 'Capella', '0.8.2', 'Win-x64');"><img src="images/download.png" width="15%" alt="Link"></a></td>
-						</tr><!-- Darker Table Row -->
+							<td><a
+								href="http://download.polarsys.org/capella/core/platform/releases/0.8.2/juno/capella-0.8.2-win32-win32-x86_64-juno-incubation.zip"
+								target="_blank"
+								onClick="ga('send', 'event', 'Capella', '0.8.2', 'Win-x64');"><img
+									src="images/download.png" width="15%" alt="Link"></a></td>
+						</tr>
+						<!-- Darker Table Row -->
 
 						<tr>
 							<td>Linux</td>
 							<td>32-bit</td>
-							<td><a href="http://download.polarsys.org/capella/core/platform/releases/0.8.2/juno/capella-0.8.2-linux-gtk-x86-juno-incubation.tar.gz" 
-									target="_blank" onClick="ga('send', 'event', 'Capella', '0.8.2', 'Linux-x86');"><img src="images/download.png" width="15%" alt="Link"></a></td>
+							<td><a
+								href="http://download.polarsys.org/capella/core/platform/releases/0.8.2/juno/capella-0.8.2-linux-gtk-x86-juno-incubation.tar.gz"
+								target="_blank"
+								onClick="ga('send', 'event', 'Capella', '0.8.2', 'Linux-x86');"><img
+									src="images/download.png" width="15%" alt="Link"></a></td>
 						</tr>
 
 						<tr class="even">
 							<td>Linux</td>
 							<td>64-bit</td>
-							<td><a href="http://download.polarsys.org/capella/core/platform/releases/0.8.2/juno/capella-0.8.2-linux-gtk-x86_64-juno-incubation.tar.gz" 
-									target="_blank" onClick="ga('send', 'event', 'Capella', '0.8.2', 'Linux-x64');"><img src="images/download.png" width="15%" alt="Link"></a></td>
+							<td><a
+								href="http://download.polarsys.org/capella/core/platform/releases/0.8.2/juno/capella-0.8.2-linux-gtk-x86_64-juno-incubation.tar.gz"
+								target="_blank"
+								onClick="ga('send', 'event', 'Capella', '0.8.2', 'Linux-x64');"><img
+									src="images/download.png" width="15%" alt="Link"></a></td>
 						</tr>
 
 						<tr>
 							<td>Mac OSX</td>
 							<td>64-bit</td>
-							<td><a href="http://download.polarsys.org/capella/core/platform/releases/0.8.2/juno/capella-0.8.2-macosx-cocoa-x86_64-juno-incubation.tar.gz" 
-									target="_blank" onClick="ga('send', 'event', 'Capella', '0.8.2', 'MacOS-x64');"><img src="images/download.png" width="15%" alt="Link"></a></td>
+							<td><a
+								href="http://download.polarsys.org/capella/core/platform/releases/0.8.2/juno/capella-0.8.2-macosx-cocoa-x86_64-juno-incubation.tar.gz"
+								target="_blank"
+								onClick="ga('send', 'event', 'Capella', '0.8.2', 'MacOS-x64');"><img
+									src="images/download.png" width="15%" alt="Link"></a></td>
 						</tr>
 
 					</tbody>
 					<!-- Table Body -->
 
 				</table>
-				
+
 				<br />
-				
-				<h3>
-					Capella Studio 0.8RC-0.5.1RC1:
-				</h3>
-				<table class="dnd" cellspacing='0' id="studio"> <!-- cellspacing='0' is important, must stay -->
+
+				<h3>Capella Studio 0.8RC-0.5.1RC1:</h3>
+				<table class="dnd" cellspacing='0' id="studio">
+					<!-- cellspacing='0' is important, must stay -->
 
 					<!-- Table Header -->
-					
+
 					<thead>
 						<tr>
 							<th>Operating System</th>
@@ -261,7 +297,7 @@
 							<th>Download link</th>
 						</tr>
 					</thead>
-					
+
 					<!-- Table Header -->
 
 					<!-- Table Body -->
@@ -270,24 +306,27 @@
 						<tr>
 							<td>Windows</td>
 							<td>32-bit</td>
-							<td><a href="http://download.polarsys.org/capella/studio/platform/milestones/0.8RC-0.5.1RC1-20150225/juno/CapellaStudio_0.8RC-kitalpha_0.5.1RC1-20150225.zip" 
-									target="_blank" onClick="ga('send', 'event', 'Capella-studio', '0.8RC-0.5.1RC1', 'Win-x86');"><img src="images/download.png" width="15%" alt="Link"></a></td>
-						</tr><!-- Table Row -->
+							<td><a
+								href="http://download.polarsys.org/capella/studio/platform/milestones/0.8RC-0.5.1RC1-20150225/juno/CapellaStudio_0.8RC-kitalpha_0.5.1RC1-20150225.zip"
+								target="_blank"
+								onClick="ga('send', 'event', 'Capella-studio', '0.8RC-0.5.1RC1', 'Win-x86');"><img
+									src="images/download.png" width="15%" alt="Link"></a></td>
+						</tr>
+						<!-- Table Row -->
 
 					</tbody>
 					<!-- Table Body -->
 
 				</table>
-				
+
 				<br />
-				
-				<h3>
-					Capella Add-ons:
-				</h3>
-				<table class="dnd" cellspacing='0' id="addons"> <!-- cellspacing='0' is important, must stay -->
+
+				<h3>Capella Add-ons:</h3>
+				<table class="dnd" cellspacing='0' id="addons">
+					<!-- cellspacing='0' is important, must stay -->
 
 					<!-- Table Header -->
-					
+
 					<thead>
 						<tr>
 							<th>Add-on</th>
@@ -302,158 +341,196 @@
 
 						<tr>
 							<td>System to Subsystem Transition</td>
-								<!-- <td><a href="#" title="Not available yet" onclick="return false;"><img src="images/download_disabled.png" width="20%" alt="Link"></a></td> -->
-							<td><a href="http://download.polarsys.org/capella/addons/subsystemtransition/dropins/releases/0.8.1/juno/SubsystemTransition-dropins-0.8.1.2015-06-29_10-02-00-incubation.zip" 
-									target="_blank" onClick="ga('send', 'event', 'Capella-addons', '0.8.1', 'Subsystem-Transition-dropins');"><img src="images/download.png" width="15%" alt="Link"></a></td>
-							<td><a href="http://download.polarsys.org/capella/addons/subsystemtransition/updates/releases/0.8.1/juno/SubsystemTransition-updateSite-0.8.1.2015-06-29_10-02-00-incubation.zip" 
-									target="_blank" onClick="ga('send', 'event', 'Capella-addons', '0.8.1', 'Subsystem-Transition-updateSite');"><img src="images/download.png" width="15%" alt="Link"></a></td>
-						</tr><!-- Table Row -->
+							<!-- <td><a href="#" title="Not available yet" onclick="return false;"><img src="images/download_disabled.png" width="20%" alt="Link"></a></td> -->
+							<td><a
+								href="http://download.polarsys.org/capella/addons/subsystemtransition/dropins/releases/0.8.1/juno/SubsystemTransition-dropins-0.8.1.2015-06-29_10-02-00-incubation.zip"
+								target="_blank"
+								onClick="ga('send', 'event', 'Capella-addons', '0.8.1', 'Subsystem-Transition-dropins');"><img
+									src="images/download.png" width="15%" alt="Link"></a></td>
+							<td><a
+								href="http://download.polarsys.org/capella/addons/subsystemtransition/updates/releases/0.8.1/juno/SubsystemTransition-updateSite-0.8.1.2015-06-29_10-02-00-incubation.zip"
+								target="_blank"
+								onClick="ga('send', 'event', 'Capella-addons', '0.8.1', 'Subsystem-Transition-updateSite');"><img
+									src="images/download.png" width="15%" alt="Link"></a></td>
+						</tr>
+						<!-- Table Row -->
 						<tr class="even">
 							<td>Capella XHTML Documentation Generation</td>
-							<td><a href="http://download.polarsys.org/capella/addons/xhtmldocgen/dropins/releases/0.8.2/juno/CapellaXHTMLDocGen-dropins-0.8.2.2015-06-29_10-02-02-incubation.zip" 
-									target="_blank" onClick="ga('send', 'event', 'Capella-addons', '0.8.2', 'HtmlExport-dropins');"><img src="images/download.png" width="15%" alt="Link"></a></td>
-							<td><a href="http://download.polarsys.org/capella/addons/xhtmldocgen/updates/releases/0.8.2/juno/CapellaXHTMLDocGen-updateSite-0.8.2.2015-06-29_10-02-02-incubation.zip" 
-									target="_blank" onClick="ga('send', 'event', 'Capella-addons', '0.8.2', 'HtmlExport-updateSite');"><img src="images/download.png" width="15%" alt="Link"></a></td>
+							<td><a
+								href="http://download.polarsys.org/capella/addons/xhtmldocgen/dropins/releases/0.8.2/juno/CapellaXHTMLDocGen-dropins-0.8.2.2015-06-29_10-02-02-incubation.zip"
+								target="_blank"
+								onClick="ga('send', 'event', 'Capella-addons', '0.8.2', 'HtmlExport-dropins');"><img
+									src="images/download.png" width="15%" alt="Link"></a></td>
+							<td><a
+								href="http://download.polarsys.org/capella/addons/xhtmldocgen/updates/releases/0.8.2/juno/CapellaXHTMLDocGen-updateSite-0.8.2.2015-06-29_10-02-02-incubation.zip"
+								target="_blank"
+								onClick="ga('send', 'event', 'Capella-addons', '0.8.2', 'HtmlExport-updateSite');"><img
+									src="images/download.png" width="15%" alt="Link"></a></td>
 						</tr>
 						<tr>
 							<td>XML Pivot</td>
-							<td><a href="http://download.polarsys.org/capella/addons/xmlpivot/dropins/releases/0.8.1/juno/XMLPivot-dropins-0.8.1.2015-06-29_10-04-49-incubation.zip" 
-									target="_blank" onClick="ga('send', 'event', 'Capella-addons', '0.8.1', 'XMLPivot');"><img src="images/download.png" width="15%" alt="Link"></a></td>
-							<td><a href="http://download.polarsys.org/capella/addons/xmlpivot/updates/releases/0.8.1/juno/XMLPivot-updateSite-0.8.1.2015-06-29_10-04-49-incubation.zip" 
-									target="_blank" onClick="ga('send', 'event', 'Capella-addons', '0.8.1', 'XMLPivot');"><img src="images/download.png" width="15%" alt="Link"></a></td>
-						</tr><!-- Table Row -->
+							<td><a
+								href="http://download.polarsys.org/capella/addons/xmlpivot/dropins/releases/0.8.1/juno/XMLPivot-dropins-0.8.1.2015-06-29_10-04-49-incubation.zip"
+								target="_blank"
+								onClick="ga('send', 'event', 'Capella-addons', '0.8.1', 'XMLPivot');"><img
+									src="images/download.png" width="15%" alt="Link"></a></td>
+							<td><a
+								href="http://download.polarsys.org/capella/addons/xmlpivot/updates/releases/0.8.1/juno/XMLPivot-updateSite-0.8.1.2015-06-29_10-04-49-incubation.zip"
+								target="_blank"
+								onClick="ga('send', 'event', 'Capella-addons', '0.8.1', 'XMLPivot');"><img
+									src="images/download.png" width="15%" alt="Link"></a></td>
+						</tr>
+						<!-- Table Row -->
 					</tbody>
 					<!-- Table Body -->
 
 				</table>
-				
-				
+
+
 				<br />
-				
-				<h3>
-					Additional resources:
-				</h3>
-				
-				<table cellspacing='0' class="dnd" id="addreso"> <!-- cellspacing='0' is important, must stay -->
+
+				<h3>Additional resources:</h3>
+
+				<table cellspacing='0' class="dnd" id="addreso">
+					<!-- cellspacing='0' is important, must stay -->
 					<tbody>
 						<tr>
 							<td>In-Flight Entertainment (IFE) Sample Model</td>
-							<td><a href="samples/IFE/Capella_IFE_Sample_Model_150602.zip" 
-									target="_blank" onClick="ga('send', 'event', 'Capella-docs', 'Model', 'IFE');"><img src="images/download.png" width="20%" alt="Link"></a></td>
-						</tr><!-- Table Row -->
+							<td><a
+								href="samples/IFE/Capella_IFE_Sample_Model_150602.zip"
+								target="_blank"
+								onClick="ga('send', 'event', 'Capella-docs', 'Model', 'IFE');"><img
+									src="images/download.png" width="20%" alt="Link"></a></td>
+						</tr>
+						<!-- Table Row -->
 						<tr>
 							<td>In-Flight Entertainment (IFE) Guide and Highlights</td>
-							<td><a href="samples/IFE/Capella_IFE_Documentation.zip" 
-									target="_blank" onClick="ga('send', 'event', 'Capella-docs', 'Documentation', 'IFE');"><img src="images/download.png" width="20%" alt="Link"></a></td>
-						</tr><!-- Table Row -->
+							<td><a href="samples/IFE/Capella_IFE_Documentation.zip"
+								target="_blank"
+								onClick="ga('send', 'event', 'Capella-docs', 'Documentation', 'IFE');"><img
+									src="images/download.png" width="20%" alt="Link"></a></td>
+						</tr>
+						<!-- Table Row -->
 						<tr class="even">
 							<td>Capella Documentation (HTML)</td>
-							<td><a href="http://download.polarsys.org/capella/core/platform/milestones/0.8RC/juno/Capella-0.8-RC_UserManual.zip" 
-									target="_blank" onClick="ga('send', 'event', 'Capella-docs', 'Documentation', 'SUM');"><img src="images/download.png" width="20%" alt="Link"></a></td>
-						</tr><!-- Table Row -->
+							<td><a
+								href="http://download.polarsys.org/capella/core/platform/milestones/0.8RC/juno/Capella-0.8-RC_UserManual.zip"
+								target="_blank"
+								onClick="ga('send', 'event', 'Capella-docs', 'Documentation', 'SUM');"><img
+									src="images/download.png" width="20%" alt="Link"></a></td>
+						</tr>
+						<!-- Table Row -->
 						<tr>
 							<td>Introduction to Arcadia (PDF)</td>
-							<td><a href="publis/An_Introduction_to_Arcadia_20150115.pdf" 
-									target="_blank" onClick="ga('send', 'event', 'Capella-docs', 'Documentation', 'Arcadia');"><img src="images/download.png" width="20%" alt="Link"></a></td>
-						</tr><!-- Table Row -->
-						
+							<td><a href="publis/An_Introduction_to_Arcadia_20150115.pdf"
+								target="_blank"
+								onClick="ga('send', 'event', 'Capella-docs', 'Documentation', 'Arcadia');"><img
+									src="images/download.png" width="20%" alt="Link"></a></td>
+						</tr>
+						<!-- Table Row -->
+
 					</tbody>
 				</table>
-							
+
 				<br />
 				<p>
-					&nbsp;&nbsp;&nbsp;The installation instructions are detailed in the <b> <a href="start.html"> <i> Getting Started </i> </a> </b> page.
-				</p>				
+					&nbsp;&nbsp;&nbsp;The installation instructions are detailed in the
+					<b> <a href="start.html"> <i> Getting Started </i>
+					</a>
+					</b> page.
+				</p>
 			</article>
-        </section>
-        
-        <aside class="sidebar">
+		</section>
 
-           <ul>	
+		<aside class="sidebar">
+
+			<ul>
 				<li>
 					<h4>Important information</h4>
 					<ul>
-						<li>
-							<sup>*</sup><u>Note:</u> MacOS and Linux versions have not been field-tested. Do not hesitate to provide your feedback on the forum. 
-						</li>
-                    </ul>
-                </li>
-                                               
-            	<li>
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					<a href="//www.eclipse.org/projects/what-is-incubation.php"><img src="images/egg-incubation.png" alt="incubation"/></a>
-				</li> 
+						<li><sup>*</sup><u>Note:</u> MacOS and Linux versions have
+							not been field-tested. Do not hesitate to provide your feedback
+							on the forum.</li>
+					</ul>
+				</li>
+
+				<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a
+					href="//www.eclipse.org/projects/what-is-incubation.php"><img
+						src="images/egg-incubation.png" alt="incubation" /></a>
+				</li>
 			</ul>
-			<br />
-			<br />
-			<br />
-		
-        </aside>
-    	<div class="clear"></div>
-    </div>
-	
-    <footer>
-        <div class="footer-content width">
+			<br /> <br /> <br />
+
+		</aside>
+		<div class="clear"></div>
+	</div>
+
+	<footer>
+		<div class="footer-content width">
 			<ul>
 				<li><h4>PolarSys</h4></li>
 				<li><a href="//www.polarsys.org/about-us">About</a></li>
 				<li><a href="//www.polarsys.org/contact-us">Contact Us</a></li>
-				<li><a href="//www.polarsys.org/projects/polarsys.capella">Capella Project Page</a></li>
+				<li><a href="//www.polarsys.org/projects/polarsys.capella">Capella
+						Project Page</a></li>
 			</ul>
-            <ul>
-            	<li><h4>Legal</h4></li>
-				<li><a href="//www.eclipse.org/legal/privacy.php">Privacy Policy</a></li>
-				<li><a href="//www.eclipse.org/legal/termsofuse.php">Terms of Use</a></li>
-				<li><a href="//www.eclipse.org/legal/copyright.php">Copyright Agent</a></li>
-				<li><a href="//www.eclipse.org/org/documents/epl-v10.php">Eclipse Public License</a></li>
+			<ul>
+				<li><h4>Legal</h4></li>
+				<li><a href="//www.eclipse.org/legal/privacy.php">Privacy
+						Policy</a></li>
+				<li><a href="//www.eclipse.org/legal/termsofuse.php">Terms
+						of Use</a></li>
+				<li><a href="//www.eclipse.org/legal/copyright.php">Copyright
+						Agent</a></li>
+				<li><a href="//www.eclipse.org/org/documents/epl-v10.php">Eclipse
+						Public License</a></li>
 				<li><a href="//www.eclipse.org/legal/">Legal Resources</a></li>
-            </ul>
-            <ul>
-            	<li><h4>Useful Links</h4></li>
-                <li><a href="//polarsys.org/bugs/describecomponents.cgi?product=Capella">Report a Bug</a></li>
+			</ul>
+			<ul>
+				<li><h4>Useful Links</h4></li>
+				<li><a
+					href="//polarsys.org/bugs/describecomponents.cgi?product=Capella">Report
+						a Bug</a></li>
 				<li><a href="https://polarsys.org/wiki/Capella">Documentation</a></li>
-				<li><a href="https://polarsys.org/wiki/Capella/Technical_Information">How to Contribute</a></li>
-				<li><a href="//polarsys.org/mailman/listinfo/capella-dev">Mailing List</a></li>
+				<li><a
+					href="https://polarsys.org/wiki/Capella/Technical_Information">How
+						to Contribute</a></li>
+				<li><a href="//polarsys.org/mailman/listinfo/capella-dev">Mailing
+						List</a></li>
 				<li><a href="//polarsys.org/forums/index.php/i/4/">Forum</a></li>
-            </ul>
+			</ul>
 			<ul class="endfooter">
-            	<li><h4>Other</h4></li>
+				<li><h4>Other</h4></li>
 				<li><a href="//www.thalesgroup.com/">Thalesgroup</a></li>
 				<li><a href="//www.clarity-se.org/">Clarity</a></li>
-                <li><a href="//www.eclipse.org/org/workinggroups/">Working Groups</a></li>
-				<li style="padding-top:10px;">
-					<a class="twitter-follow-button"
-									  href="//twitter.com/capella_arcadia"
-									  data-show-count="false"
-									  data-lang="en">
-									Follow Capella!
-									</a>
-				</li>
-				<li style="padding-top:10px;">
-					<script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
-					<script type="IN/FollowCompany" data-id="9237845" data-counter="none"></script>
-				</li>
-            </ul>
-			<table style="border:;background:;box-shadow:;border-radius:;">
+				<li><a href="//www.eclipse.org/org/workinggroups/">Working
+						Groups</a></li>
+				<li style="padding-top: 10px;"><a class="twitter-follow-button"
+					href="//twitter.com/capella_arcadia" data-show-count="false"
+					data-lang="en"> Follow Capella! </a></li>
+				<li style="padding-top: 10px;"><script
+						src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+					<script type="IN/FollowCompany" data-id="9237845"
+						data-counter="none"></script></li>
+			</ul>
+			<table style="border:; background:; box-shadow:; border-radius:;">
 				<tr>
-					<td>
-						<a href="//www.polarsys.org/"><img src="images/polarsys.png" alt="PolarSys logo" width="250"></a>
-						<br />
-						<br />
-					</td>
+					<td><a href="//www.polarsys.org/"><img
+							src="images/polarsys.png" alt="PolarSys logo" width="250"></a>
+						<br /> <br /></td>
 					<td>
 						<div class="right-footer">
-							<a href="//www.eclipse.org/"><img src="images/eclipse.png" alt="Eclipse logo"></a>
-							<br />
-							Copyright © <span id="year">2014</span> The Eclipse Foundation. <br /> All Rights Reserved.
+							<a href="//www.eclipse.org/"><img src="images/eclipse.png"
+								alt="Eclipse logo"></a> <br /> Copyright © <span id="year">2014</span>
+							The Eclipse Foundation. <br /> All Rights Reserved.
 						</div>
 					</td>
 				</tr>
 			</table>
-		
-			<div class="clear"></div>			
-        </div>
-   
-    </footer>
+
+			<div class="clear"></div>
+		</div>
+
+	</footer>
 </body>
 </html>
