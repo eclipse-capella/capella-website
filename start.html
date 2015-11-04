@@ -152,32 +152,48 @@ p.link a:hover {
 	src="//code.jquery.com/jquery-latest.min.js"></script>
 <script type="text/javascript" src="js-global/fancyzoom_simplified.js"></script>
 <script type="text/javascript">
-		$(document).ready(function() {
-			$('a.zoom').fancyZoom({scaleImg: true, closeOnClick: true});
+	$(document).ready(function() {
+		$('a.zoom').fancyZoom({
+			scaleImg : true,
+			closeOnClick : true
 		});
-	</script>
+	});
+</script>
 
 <script type="text/javascript">
-		window.twttr = (function (d, s, id) {
-		  var t, js, fjs = d.getElementsByTagName(s)[0];
-		  if (d.getElementById(id)) return;
-		  js = d.createElement(s); js.id = id;
-		  js.src= "//platform.twitter.com/widgets.js";
-		  fjs.parentNode.insertBefore(js, fjs);
-		  return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } });
-		}(document, "script", "twitter-wjs"));
-	</script>
+	window.twttr = (function(d, s, id) {
+		var t, js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id))
+			return;
+		js = d.createElement(s);
+		js.id = id;
+		js.src = "//platform.twitter.com/widgets.js";
+		fjs.parentNode.insertBefore(js, fjs);
+		return window.twttr || (t = {
+			_e : [],
+			ready : function(f) {
+				t._e.push(f)
+			}
+		});
+	}(document, "script", "twitter-wjs"));
+</script>
 
 <script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	(function(i, s, o, g, r, a, m) {
+		i['GoogleAnalyticsObject'] = r;
+		i[r] = i[r] || function() {
+			(i[r].q = i[r].q || []).push(arguments)
+		}, i[r].l = 1 * new Date();
+		a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+		a.async = 1;
+		a.src = g;
+		m.parentNode.insertBefore(a, m)
+	})(window, document, 'script', '//www.google-analytics.com/analytics.js',
+			'ga');
 
-	  ga('create', 'UA-57722280-1', 'auto');
-	  ga('send', 'pageview');
-
-	</script>
+	ga('create', 'UA-57722280-1', 'auto');
+	ga('send', 'pageview');
+</script>
 </head>
 
 <body>
@@ -222,84 +238,27 @@ p.link a:hover {
 					<div id="tab-content1" class="tab-content">
 						<h3>Capella</h3>
 						<p>
-							Capella 0.8.3 was released in October 2015. <br /> A Java 7 JRE/JDK
-							is recommended for Capella 0.8.3.
+							Capella <b>0.8.3</b> was released in October 2015. <br /> A <b>Java
+								7</b> JRE/JDK is recommended for Capella 0.8.3. <br />
+							<br /> Follow <b> <a
+								href="https://polarsys.org/wiki/Capella/Installation_Guide">this
+									link</a>
+							</b> to the detailed procedure for installing Capella 0.8.3
+							and its addons.
 						</p>
-						<h3>Install a JVM</h3>
-						<p>
-							Regardless of your operating system, you will need to install
-							some Java virtual machine (JVM). <br /> You may either install a
-							Java Runtime Environment (JRE), or a Java Development Kit (JDK).
-							<br /> If you want to save some disk space, install a JRE.
-						<ul>
-							<li>- If you are using Windows or MacOS, you may already
-								have a JRE installed.</li>
-							<li>- If using Linux, see: <b> <a
-									href="http://www.64bitjungle.com/ubuntu/install-java-jre-160-update-x-on-hardy-as-the-default-java-runtime/">Installing
-										JRE 1.6.0 (Update x) as the Default Runtime in Linux</a>.
-							</b>
-							</li>
-						</ul>
-						</p>
-						<br /> <br />
-						<h3>Download Capella</h3>
-						<p>
-							Download Capella from the <b> <a href="download.html">Capella
-									Downloads Page</a>
-							</b>. <br /> There are several package choices depending on the
-							operating system. <br /> The download will be delivered as a
-							compressed (i.e. a ".zip", or ".tar.gz") file. <br /> Extract
-							this file into the directory of your choice (e.g. "c:\eclipse" on
-							Windows) and ensure you have full "Read" and "Execute"
-							permissions. <br /> You can optionally create a shortcut of the
-							executable file ("eclipse.exe" on Windows, or "eclipse" on Linux
-							and MacOS).
-						</p>
-						<h3>First Steps</h3>
-						<p>
-							Launch Capella (eclipse.exe file). The splashscreen is displayed.
-							<br /> <br /> <img class="center"
-								src="images/screenshots/splash.png" alt="Splashscreen"
-								width="50%"></img> <br /> <br /> Select a directory as
-							workspace. <br /> <br /> <img class="center"
-								src="images/screenshots/workspace.png" alt="Home" width="70%"></img>
-							<br /> <br /> Ensure you have full "Read" and "Execute"
-							permissions on this directory. The homepage appears as follow: <br />
-							<br /> <img class="center" src="images/screenshots/home.png"
-								alt="Home" width="90%"></img> <br /> <br /> Select "New
-							Capella Project". <br /> <br /> <u>Note:</u> For Linux and
-							MacOS users, permissions shall be modified manually on the
-							"executable" file prior to launching Capella. Please refer to <b>
-								<a href="//polarsys.org/forums/index.php/t/29/">this post on
-									the forum</a>
-							</b> for more information.
-						</p>
-						<h3>Capella addons</h3>
-						<p>
-							In order to install an addon for Capella as drop-in:<br />
-							&nbsp;&nbsp;- Download the add-on (zip file) as drop-in<br />
-							&nbsp;&nbsp;- Extract it in <i>Capella_HOME_DIR &frasl;
-								eclipse &frasl; dropins</i> directory<br /> &nbsp;&nbsp;- The
-							add-on zip file also contains the documentation for it as pdf
-							file<br /> &nbsp;&nbsp;- Open the documentation<br />
-							&nbsp;&nbsp;- Launch Capella<br /> &nbsp;&nbsp;- Access the
-							functionality using the documentation provided<br />
-						</p>
-						<h3>Capella Studio</h3>
-						<p>
-							Important note regarding the installation of Capella Studio,
-							please have a look at <a
-								href="//polarsys.org/forums/index.php/m/210/"><b><u>this
-										post</u></a> on Capella Studio forum.
-						</p>
+						<br />
+						
+						<img class="center"
+								src="images/screenshots/Capella_0.8.3_splash.png" alt="Splashscreen"
+								width="50%"></img>
+
+						<br />
+						<br />
 						<h3>More information</h3>
 						<p>
 							For any further information, please feel free to ask questions in
 							the <b> <a href="//polarsys.org/forums/index.php/f/13/">tooling
 									dedicated section</a>
-							</b> of the forum. Download a draft of <b> <a
-								href="http://download.polarsys.org/capella/core/platform/milestones/0.8RC/juno/Capella-0.8-RC_UserManual.zip">user
-									documentation here</a>
 							</b> of the forum.
 						</p>
 					</div></li>
@@ -325,7 +284,8 @@ p.link a:hover {
 								alt="Quick Reading Guide"></a> <br /> <br /> <a
 								href="http://download.polarsys.org/capella/samples/IFE/Capella_IFE_Sample_Model_1.0_Highlights.pdf"><b><u>Highlights:</u></b></a>
 							A set of 75 slides with tool and method tips and tricks <br /> <br />
-							<a href="http://download.polarsys.org/capella/samples/IFE/Capella_IFE_Sample_Model_1.0_Highlights.pdf"><img
+							<a
+								href="http://download.polarsys.org/capella/samples/IFE/Capella_IFE_Sample_Model_1.0_Highlights.pdf"><img
 								src="images/start/highlights.png" width="50%" alt="Highlights"></a>
 						</p>
 					</div></li>
@@ -345,7 +305,8 @@ p.link a:hover {
 								href="http://download.polarsys.org/capella/samples/ClockRadio/Capella_ClockRadio_Sample_Model_1.0_Highlights_FR.pdf"><img
 								src="images/start/prfc.png" width="50%"
 								alt="Alarm Clock OA SA LA"></a> <br /> <br /> The model is
-							available for download <a href="http://download.polarsys.org/capella/samples/ClockRadio/0.8.x/ClockRadio_samplemodel_FR.zip"><b><u>here
+							available for download <a
+								href="http://download.polarsys.org/capella/samples/ClockRadio/0.8.x/ClockRadio_samplemodel_FR.zip"><b><u>here
 										(FR)</u></b></a>. <br /> <br /> <u>Note:</u> English version of Alarm
 							Clock sample model and associated presentation can be found in
 							the <a href="download.html#addreso"><b><u>download
