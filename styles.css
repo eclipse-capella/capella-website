@@ -89,6 +89,9 @@ a {
 	color: #242A75;
 }
 
+#news-list a {
+  font-weight: bold;
+}
 a:hover {
 	color: #1791AB;
 }
