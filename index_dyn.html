@@ -38,10 +38,8 @@
 	    success: function (data, textStatus, jqXHR) {
         var markup = data.parse.text["*"];
         var i = $('<div></div>').html(markup);
-        
         // remove links as they will not work
         //i.find('a').each(function() { $(this).replaceWith($(this).html()); });
-        alert(markup);
         $('#news-list').html($(i).find('li'));
 	    },
 	    error: function (errorMessage) {
