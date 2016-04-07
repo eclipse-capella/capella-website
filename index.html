@@ -16,8 +16,7 @@
 </noscript>
 
 <!-- Add jQuery library -->
-<script type="text/javascript"
-	src="//code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="js-global/jquery-latest.min.js"></script>
 <script type="text/javascript" src="js-global/fancyzoom_simplified.js"></script>
 <script type="text/javascript">
 	$(document).ready(function() {
@@ -27,6 +26,32 @@
 		});
 	});
 </script>
+<script type="text/javascript">
+  
+  $(document).ready(function(){
+  $.ajax({
+	    type: "GET",
+	    url: "/wiki/api.php?action=parse&page=Capella&format=json&prop=text&section=4",
+	    contentType: "application/json; charset=utf-8",
+	    async: false,
+	    dataType: "json",
+	    success: function (data, textStatus, jqXHR) {
+        var markup = data.parse.text["*"];
+        var i = $('<div></div>').html(markup);
+        // remove links as they will not work
+        //i.find('a').each(function() { $(this).replaceWith($(this).html()); });
+        $('#news-list').html($(i).find('li'));
+	    },
+	    error: function (errorMessage) {
+        $('#news-list').html('<li>Please visit the wiki page for <a href="https://polarsys.org/wiki/Capella#Latest_News">Latest News</a></li>');
+	    }
+	});    
+    });
+    
+	
+</script>
+
+
 <script type="text/javascript">
 	window.twttr = (function(d, s, id) {
 		var t, js, fjs = d.getElementsByTagName(s)[0];
@@ -249,66 +274,12 @@
 			</article>
 		</section>
 
-		<aside class="sidebar">
+		<aside class="sidebar" >
 
 			<ul>
 				<li>
 					<h4>News</h4>
-					<ul>
-						<li>2016/04/05: <b>TransitionSystem SubSystem Addon 1.0.1</b> has been released!
-						</li>
-						<li>2016/02/23: <a
-							href="https://www.embedded-world.de/"><b>Workshop</b></a>,
-							Embedded World, Nuremberg
-						</li>
-						<li>2016/02/19: <b>Capella 1.0.1</b> has been released!
-						</li>
-						<li>2016/02/19: <b>Capella 0.8.4</b> has been released!
-						</li>
-						<li>2016/02/19: <b>Basic Viewpoints</b> for Capella 1.0.x are now available!
-						</li>
-						<li>2016/01/06: <b>Capella Studio 1.0.0</b> is now available!
-						</li>
-						<li>2016/01/04: <b>Capella left Incubation. Capella 1.0.0</b> is now available!
-						</li>
-						<li>2015/10/15: <b>Capella 0.8.3</b> has been released!
-						</li>
-						<li>2015/09/29: <a
-							href="//flux.cs.queensu.ca/oss4mde/files/2015/06/OSS4MDE15_paper_3.pdf"><b>Workshop</b></a>,
-							MODELS'15, Ottawa, "<b>CLARITY: Open-Sourcing the
-								Model-Based Systems Engineering Solution Capella</b>"
-						</li>
-						<li>2015/07/14: <a href="//events.incose.org"><b>Talk</b></a>,
-							INCOSE International Symposium, Seattle, "<b>Implementing the
-								MBSE Cultural Change: Organization, Coaching and Lessons Learned</b>"
-						</li>
-						<li>2015/07/14: <a href="//events.incose.org"><b>Talk</b></a>,
-							INCOSE International Symposium, Seattle, "<b>From initial
-								investigations up to large-scale rollout of an MBSE method and
-								its supporting workbench: the Thales experience</b>"
-						</li>
-						<li>2015/06/30: <b>Capella 0.8.2</b> has been released!
-						</li>
-						<li>2015/06/25: <a href="//gdr-gpl.cnrs.fr/node/174"><b>Conference</b></a>,
-							CNRS Toulouse, "<b>Transferts technologiques gérés par un
-								grand groupe industriel : l’expérience de Thales autour des
-								méthodes d’ingénierie à base de modèles</b>"
-						</li>
-						<li>2015/06/25: <a
-							href="//www.eclipsecon.org/france2015/session/capella-time-lapse-system-architecture-model-30-minutes"><b>Talk</b></a>,
-							EclipseCon France, "<b>Capella time-lapse: A system
-								architecture model in 30 minutes</b>"
-						</li>
-						<li>2015/06/24: <a
-							href="//www.eclipsecon.org/france2015/session/systems-modeling-arcadia-method-and-capella-tool"><b>Tutorial</b></a>,
-							EclipseCon France, "<b>Systems Modeling with the ARCADIA
-								method and the Capella tool</b>"
-						</li>
-						<li>2015/05/18: Capella was <a
-							href="//www.linkedin.com/company/capella-modelling-workbench"><b>introduced
-									to Emmanuel Macron</b></a>, French Minister of Economy, Industry and
-							Digital Affairs!
-						</li>
+					<ul id="news-list">
 					</ul>
 				</li>
 				<li>
