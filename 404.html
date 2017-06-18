@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <!-- Basic Page Needs
+        ================================================== -->
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="icon" type="image/png" href="images/favicon.ico">
+        <title>Capella (Engineering) - 404</title>
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="">
+        <!-- Mobile Specific Metas
+        ================================================== -->
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Template CSS Files
+        ================================================== -->
+        <!-- Twitter Bootstrs CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- animate css -->
+        <link rel="stylesheet" href="css/animate.css">
+        <!-- template main css file -->
+        <link rel="stylesheet" href="css/main.css">
+        <!-- responsive css -->
+        <link rel="stylesheet" href="css/responsive.css">
+        
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
+        <script src="https://use.fontawesome.com/b51f77a16a.js"></script>
+        
+        <!-- Template Javascript Files
+        ================================================== -->
+		<!-- Angular -->
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+		<script src="angular/capella.js"></script>
+
+        <!-- modernizr js -->
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <!-- jquery -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <!-- bootstrap js -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- wow js -->
+        <script src="js/wow.min.js"></script>
+        <!-- template main js -->
+        <script src="js/main.js"></script>
+      
+    </head>
+    <body ng-app="capella" ng-controller="main" class="cloak">
+    	<!--
+        ==================================================
+        Header Section
+        ================================================== -->
+    	<ng-include src="'angular/blocks/header.html'"></ng-include>
+        
+        <section class="moduler wrapper_404">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="text-center">
+                            <h1 class="wow fadeInUp animated cd-headline slide" data-wow-delay=".4s" >404</h1>
+                            <h2 class="wow fadeInUp animated" data-wow-delay=".6s">Opps! You have some problems</h2>
+                            <p class="wow fadeInUp animated" data-wow-delay=".9s">The page you are looking for was moved, removed, renamed or might never existed.</p>
+                            <a href="index.html" class="btn btn-default btn-home wow fadeInUp animated" data-wow-delay="1.1s">Go Home</a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       <!--
+        ==================================================
+        Call To Action Section Start
+        ================================================== -->
+		<ng-include src="'angular/blocks/call2action.html'"></ng-include>
+       
+        <!--
+        ==================================================
+        Footer Section
+        ================================================== -->
+        <ng-include src="'angular/blocks/footer.html'"></ng-include>
+    </body>
+</html>

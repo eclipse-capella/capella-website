@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <!-- Basic Page Needs
+        ================================================== -->
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="icon" type="image/png" href="images/favicon.png">
+        <title>Capella (Engineering)</title>
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="">
+        <!-- Mobile Specific Metas
+        ================================================== -->
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Template CSS Files
+        ================================================== -->
+        <!-- Twitter Bootstrs CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- animate css -->
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/jquery.fancybox.css">
+        <!-- template main css file -->
+        <link rel="stylesheet" href="css/main.css">
+        <!-- responsive css -->
+        <link rel="stylesheet" href="css/responsive.css">
+        
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
+        <script src="https://use.fontawesome.com/b51f77a16a.js"></script>
+        
+        
+        <!-- Template Javascript Files
+        ================================================== -->
+		<!-- Angular -->
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+		<script src="angular/capella.js"></script>
+
+        <!-- modernizr js -->
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <!-- jquery -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <!-- bootstrap js -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- wow js -->
+        <script src="js/wow.min.js"></script>
+        <script src="js/jquery.fancybox.js"></script>
+        <!-- template main js -->
+        <script src="js/main.js"></script>
+        <!-- display videos in fancybox -->
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $(".various").fancybox({
+                    maxWidth    : 800,
+                    maxHeight   : 600,
+                    fitToView   : false,
+                    width       : '70%',
+                    height      : '70%',
+                    autoSize    : false,
+                    closeClick  : false,
+                    openEffect  : 'elastic',
+                    closeEffect : 'none',
+                    beforeLoad  : function(){
+                        var url= $(this.element).attr("href");
+                        url = url.replace(new RegExp("watch\\?v=", "i"), 'v/');
+                        url += '?fs=1&autoplay=1';
+                        this.href = url
+                    }
+                });
+            });
+        </script>
+        <script>
+            $(document).ready(function(){
+                $(".fancypdf").fancybox({
+                    openEffect  : 'none',
+                    closeEffect : 'none',
+                    iframe : {
+                        preload: false
+                    }
+                });
+            });
+        </script>
+    </head>
+    <body ng-app="capella" ng-controller="main" class="cloak">
+    	<!--
+        ==================================================
+        Header Section
+        ================================================== -->
+    	<ng-include src="'angular/blocks/header.html'"></ng-include>
+        <!-- 
+        ================================================== 
+            Global Page Section Start
+        ================================================== -->
+        <section class="hero-area arcadia">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                    	<div class="block wow fadeInUp" data-wow-delay=".3s">
+                            
+                            <!-- Slider -->
+                            <section class="cd-intro">
+                                <h1 class="wow fadeInUp animated" data-wow-delay=".4s" >
+                                	Let yourself be guided with Arcadia
+                                </h1>
+                            </section> <!-- cd-intro -->
+                            <!-- /.slider -->
+                            <h2 class="wow fadeInUp animated" data-wow-delay=".6s" >
+								A Comprehensive Methodological and Tool-Supported<br>Model-based Engineering Guidance<br>
+							</h2>
+							
+                        </div>
+                    </div>
+                </div>
+            </div>   
+        </section><!--/#page-header-->
+          <!--
+        ==================================================
+        Key Points - Features
+        ================================================== -->
+        <section id="key_points" class="bg_lightest_grey text-center">
+            <div class="container">
+              	<h2 class="title wow fadeInDown" data-wow-delay=".3s">Arcadia method at a glance!</h2>
+                <div class="row">
+                	<h3 class="wow fadeInDown" data-wow-delay=".5s">The essentials of the method are summarized in a four pages document</h3><br>
+                    <div class="col-md-6 col-xs-12 block-center">
+                    	<p><a href="/resources/Datasheet_Arcadia.pdf"><img class="center" alt="Arcadia Datasheet" src="/images/thumbs/datasheet_arcadia.png"></a></p>
+                    	<p><a href="/resources/Datasheet_Arcadia.pdf" class="btn btn-default wow fadeInDown animated" data-wow-delay=".7s" data-wow-duration="500ms">Read more</a></p>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- #key_points -->
+        
+         <!--
+        ==================================================
+        Old content
+        ================================================== -->
+
+        <section id="service-page" class="arcadia-content">
+            <div class="container">
+                <div class="row">
+              
+				<p>Modern systems are subjected to increasingly higher
+					constraints regarding safety, security, performance, environment,
+					human factors, etc. Each of these constraints are under the
+					responsibility of different stakeholders which deeply influences
+					the systems architectural design and development process. They are
+					to be integrated and reconciled.</p>
+				<h3>Architecture as prime engineering driver</h3>
+				<p>Architecture is a powerful tool to analyse operational needs,
+					to structure and to break down the system, software, or hardware
+					function in order to:</p>
+				<ul>
+					<li>Provide significant information for decision-makers and
+						managers</li>
+					<li>Ease the mastering of need, complexity, design and
+						development</li>
+					<li>Structure engineering in a well-defined, justified,
+						technical frame</li>
+					<li>Guide designers and developers to respect the product
+						definition drivers</li>
+				</ul>
+
+				<a rel="gallery" class="fancybox" href="images/arcadia/architecture_benefits.png"><img class="center" alt="Architecture benefits" src="images/arcadia/architecture_benefits.png" width="50%"></a><br>
+				<br>
+				<p></p>
+				<h3>Arcadia, a model-based engineering method</h3>
+				<p>
+				</p><p>
+					Arcadia is a <b>model-based engineering method for systems,
+						hardware and software architectural design</b>. It has been developed
+					by Thales between 2005 and 2010 through an iterative process
+					involving operational architects from all the Thales business
+					domains.
+				</p>
+				<p>Arcadia promotes a viewpoint-driven approach (as described in
+					ISO/IEC 42010) and emphasizes a clear distinction between need and
+					solution.</p>
+
+				<a rel="gallery" class="fancybox" href="images/arcadia/triptique.png"><img class="center" alt="Triptique" src="images/arcadia/triptique.png" width="50%"></a> <br> <br>
+
+				<p>Steps and activities of the method have been defined with a
+					few Golden Rules:</p>
+				<ul>
+					<li>Besides requirement engineering, drive an <b>operational
+							need analysis</b>, describing final user expectations, usage
+						conditions, and realistic IVVQ conditions
+					</li>
+					<li>Consider engineering through three mandatory interrelated
+						activities, at the same level of importance:
+						<ul>
+							<li>Need analysis and modelling</li>
+							<li>Architecture building and validation</li>
+							<li>Requirements engineering</li>
+						</ul>
+					</li>
+					<li>Check requirements against an <b>architectural design
+							model</b> (early architecture) for robustness and feasibility
+					</li>
+					<li>Structure the system/hardware/software and build a <b>logical
+							architecture</b>, by searching for the best <b>compromise between
+							design drivers, (non-functional) constraints and viewpoints</b>. Each
+						viewpoint deals with a specific concern such as functional
+						consistency, interfaces, performances, real time, safety,
+						security, integration, reuse, cost, risk, schedule, and the ease
+						of adaptation (e.g. to changing requirements)
+					</li>
+					<li>Secure development and IVVQ through a <b>physical
+							architecture</b> which deals with technical and development issues,
+						favouring separation of concerns, efficient and safe component
+						interaction (e.g. layered architecture, generic behaviour and
+						interaction patterns, component model, etc.)
+					</li>
+				</ul>
+
+				<a rel="gallery" class="fancybox" href="images/arcadia/phases_arcadia.png"><img class="center" alt="Phases" src="images/arcadia/phases_arcadia.png" width="50%"></a><br>
+				<br>
+
+				
+								<h3>Noticeable features of Arcadia</h3> <br>
+
+								<ul>
+									<li>Models supporting enterprise-wide collaboration
+											and co-engineering
+										<ul>
+											<li>A Capella model is built for each Arcadia
+												engineering phase. All of these models are related by
+												justification links and are processed as a whole for impact
+												analysis.</li>
+											<li>Collaboration with engineering specialities is
+												supported by modelled engineering viewpoints to formalise
+												constraints and to evaluate architecture adequacy with each
+												of them</li>
+											<li>Collaboration with customer and subsystems
+												engineering relies on co-engineered models (e.g. physical
+												architecture), automatic initialisation of need model for
+												sub-systems, and impact analysis means between requirements
+												and models of different engineering levels.</li>
+										</ul></li>
+									<li>Tailored for architectural design
+										<ul>
+											<li>A domain-specific language (DSL) was preferred in
+												order to ease appropriation by all stakeholders, usually not
+												familiar with general-purpose, generic languages such as UML
+												or SysML.</li>
+										</ul></li>
+									<li>Dealing with complexity and size
+										<ul>
+											<li>Abstraction levels are in the DNA of Arcadia.
+												Capella advanced mechanisms have been developed to mask and
+												confine complexity, deal with model maintenance, large-scale
+												modelling, model evolution and reuse.</li>
+										</ul></li>
+									<li>Field-proven in real industrial situations
+										<ul>
+											<li>Arcadia is currently applied in most Thales business
+												units, in many countries, on very large or small projects,
+												by hundreds of users. A continuous challenging, improvement
+												and adaptation of both the method and its supporting
+												workbench has favoured a very fast dissemination.</li>
+										</ul></li>
+									<li>Open to domain-specific added value</li>
+									<li>Adapted to several lifecycles and work sharing
+											schemes</li>
+								</ul>
+
+
+				<br>
+
+				<h3>Definition of the Problem - Customer Operational Need
+					Analysis</h3>
+				<p>
+					The first step focuses on analysing the customer needs and goals,
+					expected missions and activities, far beyond system requirements.
+					This analysis aims at ensuring <b>adequate system definition
+						with regard to its real operational use and IVVQ conditions</b>.
+				</p>
+				<p>Outputs of this engineering phase mainly consist of an
+					“operational architecture” which describes and structures the need
+					in terms of actors/users, their operational capabilities and
+					activities (including operational use scenarios with dimensioning
+					parameters, and operational constraints such as safety, security,
+					lifecycle, etc.).</p>
+				<h3>Formalization of system requirements - System Need Analysis</h3>
+				<p>
+					The second step focuses on the <b>system itself</b>, in order to
+					define <b>how it can satisfy the former operational need</b>, along
+					with its expected behaviour and qualities. The following elements
+					are created during this step: Functions to be supported and related
+					exchanges, non-functional constraints (safety, security, etc.),
+					performance allocated to system boundary, role sharing and
+					interactions between system and operators, etc.
+				</p>
+				<p>
+					The main goal at this stage is to <b>check the feasibility of
+						customer requirements</b> (cost, schedule, technology readiness, etc.)
+					and if necessary, to provide means to renegotiate their content.
+					The functional need analysis can be completed by an initial system
+					architectural design model in order to examine requirements against
+					this architecture and evaluate their cost and consistency.
+				</p>
+				<p>Outputs of this engineering phase mainly consist of system
+					functional need descriptions (functions, functional chains,
+					scenarios), interoperability and interaction with the users and
+					external systems (functions, exchanges plus non-functional
+					constraints), and system requirements.</p>
+				<p>
+					Note that these two phases, which constitute the first part of
+					architecture building, <b>"specify" the subsequent design</b>, and
+					therefore should be approved/validated with the Customer.
+				</p>
+				<h3>Development of System Architectural Design - Logical
+					Architecture (Notional Solution)</h3>
+				<p>
+					This third step aims at building a <b>coarse-grained component
+						breakdown of the system</b> which is unlikely to be challenged later
+					in the development process. Starting from previous functional and
+					non-functional analysis refined results (functions, interfaces,
+					data flows, behaviours…), build one or several decompositions of
+					the system into logical components. These logical components will
+					later tend to be the basic decomposition for
+					development/sub-contracting, integration, reuse, product and
+					configuration management item definitions (but other criteria will
+					be taken into account to define the boundaries for these items)
+				</p>
+
+				<a rel="gallery" class="fancybox" href="images/arcadia/composant-functions.png"><img class="center" alt="Functions" src="images/arcadia/composant-functions.png" width="50%"></a> <br>
+				<br>
+
+				<p>
+					The building process has to take into account <b>architectural
+						drivers and priorities, viewpoints and associated design rules</b>,
+					etc. For te component breakdown to be stable in further engineering
+					phases, all major (non-functional) constraints (safety, security,
+					performance, IVV, cost, non-technical, Etc.) are taken into account
+					and compared to each other so as to find the best trade-off. This
+					method is described as "viewpoint-driven", where viewpoints
+					formalise the way these constraints impact the system architecture.
+				</p>
+				<p>Outputs of this engineering phase consist of the selected
+					logical architecture which is described by components and justified
+					interfaces definition, scenarios, modes and states, formalisation
+					of all viewpoints and the way they are taken into account in the
+					components design.</p>
+				<p>Since the architecture has to be validated against the need
+					analysis, links with requirements and operational scenarios are
+					also to be produced.</p>
+
+				<a rel="gallery" class="fancybox" href="images/arcadia/arcadia_viewpoints.png"><img class="center" alt="Viewpoints" src="images/arcadia/arcadia_viewpoints.png" width="50%"></a> <br>
+				<br>
+
+				<h3>Development of System Architecture - Physical Architecture</h3>
+				<p>
+					The fourth step has the same intent as the logical architecture
+					building, except that it defines the “final” architecture of the
+					system at this level of engineering. Once this is done the model is
+					considered <b>ready to develop</b> (by "lower" engineering levels).
+					Therefore, it introduces rationalisation, architectural patterns,
+					new technical services and components, and makes the logical
+					architecture evolve according to implementation, technical and
+					technological constraints and choices. The same viewpoint-driven
+					approach as for logical architecture building is used.
+				</p>
+				<p>Outputs of this engineering phase consist of the selected
+					physical architecture which includes components to be produced,
+					formalisation of all viewpoints and the way they are taken into
+					account in the components design. Links with requirements and
+					operational scenarios are also produced.</p>
+				<h3>Formalize Components Requirements - Contracts for
+					Development and IVVQ</h3>
+				<p>The fifth and last step is a contribution to an EPBS
+					(End-Product Breakdown Structure), taking benefits from the former
+					architectural work, to formalise the component requirements
+					definition and prepare a secured IVVQ.</p>
+				<p>All previous hypotheses and imposed constraints associated to
+					the system architecture and components are summarised and checked
+					here.</p>
+				<p>
+					Outputs from this engineering phase are mainly <b>component
+						integration contracts</b> collecting all necessary expected properties
+					for each component to be developed.
+				</p>
+				<h3>Co-Engineering, Sub-Contracting and Multi-Level Engineering</h3>
+				<p>
+					The physical architecture is the preferred place for <b>co-engineering
+						between systems, software, and hardware stakeholders</b>.
+				</p>
+
+				<a rel="gallery" class="fancybox" href="images/arcadia/coengineering-and-subcontracting.png"><img class="center" alt="Coengineering" src="images/arcadia/coengineering-and-subcontracting.png" width="50%"></a> <br> <br>
+
+				<p>
+					Arcadia can be applied in a <b>recursive way at each level of
+						system breakdown</b>, so that a subsystem of the current system of
+					interest becomes the system at the next level of interest, until
+					single discipline subsystems or procurement items or COTS are
+					identified.
+				</p>
+				<p>The physical architecture at a given level of interest
+					defines the components to be developed at the level above,
+					according to the corresponding component integration contract.
+					Level "n" need analysis is restricted to each component scope, in
+					order to define its IVVQ context.</p>
+
+
+				<a rel="gallery" class="fancybox" href="images/arcadia/multi-level.png"><img class="center" alt="Multi-level" src="images/arcadia/multi-level.png" width="50%" /></a> <br> <br>
+
+
+				<h3>Adaptation of Arcadia to Dedicated Domains, Contexts, Etc.</h3>
+				<p>
+					Beyond the transverse, common architectural design work, each
+					organization, in the field of its own business, constraints and
+					know-how, should <b>tailor the method steps by adapting them to
+						their own domains, products and programs</b>. This includes:
+				</p>
+				<ul>
+					<li>Definition of a reference architecture (including
+						architecture drivers) for each key product and software element</li>
+					<li>Definition of appropriate viewpoints adapted to the
+						domain, product and architecture</li>
+					<li>Definition of complementary dedicated engineering rules</li>
+					<li>Selection of relevant architectural patterns for the
+						domain, product, and technologies considered</li>
+					<li>Setting up of models, based on the reference architecture
+						and viewpoints, and basis for simulation, early validation,
+						automation of the design process (key for productivity gains)</li>
+					<li>Definition of adjustment rules for each of its contexts</li>
+					<li>Dissemination in the engineering teams (training,
+						coaching)...</li>
+				</ul>
+				<p>
+					The recommended method described in this document takes best
+					benefit from a <b>top-down approach</b>:
+				</p>
+				<ul>
+					<li>Starting from operational need to define and validate
+						requirements</li>
+					<li>Building a "technology neutral" logical architecture
+						dealing with non-functional constraints</li>
+					<li>Then specifying technical functions and services of a
+						physical architecture to implement it in the best way</li>
+				</ul>
+				<p>Yet many constraints which need to be taken into account
+					arise from the industrial context:</p>
+				<ul>
+					<li>Technical or technological limits</li>
+					<li>Available technology, COTS</li>
+					<li>Existing legacy to be reused</li>
+					<li>Product policy imposing the use of given hardware boards,
+						software components...</li>
+					<li>Industrial constraints such as available skills, the
+						necessity to sub-contract, and export control...</li>
+				</ul>
+				<p>
+					This is the reason why Arcadia can be applied according to several
+					lifecycles and work sharing schemes. Great care has been taken in
+					the method, language and the Capella workbench to not impose one
+					single engineering path (e.g. top-down) but to be adaptable to many
+					lifecycles: <b>Incremental, iterative, top-down, bottom-up,
+						middle-out</b>, Etc.. The method is inherently <b>iterative</b>.
+				</p>
+				<p>Examples of iterations or non-linear courses are:</p>
+				<ul>
+					<li>Need analysis starting from requirements, due to a lack of
+						operational knowledge (a kind of reverse engineering of
+						operational need)</li>
+					<li>Requirements analysis anticipating logical or even
+						physical architecture, to check for feasibility by
+						defining/confronting to an early architecture</li>
+					<li>Logical architecture anticipating (part of) physical
+						architecture, e.g. to check for performance issues</li>
+					<li>Physical architecture adapting to subcontracting
+						constraints</li>
+					<li>Components contract definition iterating on physical
+						architecture to secure integration and refine contract parameters</li>
+				</ul>
+			
+                </div>
+            </div>
+        </section>
+        
+         <!--
+        ==================================================
+        Call To Action Section Start
+        ================================================== -->
+		<ng-include src="'angular/blocks/call2action.html'"></ng-include>
+       
+        <!--
+        ==================================================
+        Footer Section
+        ================================================== -->
+        <ng-include src="'angular/blocks/footer.html'"></ng-include>
+        <script async src="js/googleAnalytics.js" ></script>
+    </body>
+</html>
