@@ -309,28 +309,26 @@
 					}
 
 					// Split url into two pieces with source url and content selector, e.g,
-					/* "/mypage.html #my_id" will load "/mypage.html" and display element having id "my_id"
+					// "/mypage.html #my_id" will load "/mypage.html" and display element having id "my_id"
 					if (type === 'ajax') {
 						hrefParts = href.split(/\s+/, 2);
 						href      = hrefParts.shift();
 						selector  = hrefParts.shift();
-					}*/
+					}
 				}
 
 				if (!content) {
 					//if (type === 'inline') {
-						//if (href) {
-						//content = $( isString(href) ? href.replace(/.*(?=#[^\s]+$)/, '') : href ); //strip for ie7
+						if (href) {
+						content = $( isString(href) ? href.replace(/.*(?=#[^\s]+$)/, '') : href ); //strip for ie7
 
-							//content = $( isString(href) ? href.replace(/.*(?=[^\s]+$)/, '') : href ); //strip for ie7
+						}
+						else if (obj.isDom) {
+						if (obj.isDom) {
+							content = element;
+						}
 
-						//}
-						//else if (obj.isDom) {
-						//if (obj.isDom) {
-							//content = element;
-						//}
-
-					//} else if (type === 'html') {
+					} else if (type === 'html') {
 						if (type === 'html') {
 
 						content = href;
@@ -771,9 +769,8 @@
 		},
 
 		isImage: function (str) {
-			//			return isString(str) && str.match(/(^data:image\/.*,)|(\.(jp(e|g|eg)|gif|png|bmp|webp|svg)((\?|).*)?$)/i);
+			return isString(str) && str.match(/(^data:image\/.*,)|(\.(jp(e|g|eg)|gif|png|bmp|webp|svg)((\?|).*)?$)/i);
 
-			return isString(str) && str.match(/(^data:image\/.*,)|(\.(jp(e|g|eg)|gif|png|bmp|webp|svg)((\?|#).*)?$)/i);
 		},
 
 		isSWF: function (str) {

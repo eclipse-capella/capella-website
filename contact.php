@@ -6,7 +6,7 @@
         <meta charset="utf-8">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <link rel="icon" type="image/png" href="images/favicon.ico">
-        <title>Capella (Engineering) - Contact</title>
+        <title>Capella - Contact</title>
         <meta name="description" content="">
         <meta name="keywords" content="">
         <meta name="author" content="">
@@ -34,13 +34,14 @@
         <!-- Template Javascript Files
         ================================================== -->
 		<!-- Angular -->
+		<base href="/capella/">
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
 		<script src="angular/capella.js"></script>
 	
         <!-- modernizr js -->
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
         <!-- jquery -->
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>  
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>  
         <!-- bootstrap js -->
 		 <script src="js/bootstrap.min.js"></script>
         <!-- wow js -->
@@ -91,7 +92,14 @@
 	<?php
     	if($_GET["campaign_id"] == "9d696d6e-9214-7c34-b502-5915dd4cd4cc") {   
    		header('Location: ?thanksforinquiring');
-     }
+     
+      ?>
+<div class="col-md-12">
+<h3>Thank you for your inquiry!</h3>
+<p>A Capella team member will be in touch with you shortly.</p>
+<br />
+</div>
+<?php }
     elseif($_SERVER['REQUEST_URI'] == "/capella/contact.php?thanksforinquiring") {   
     ?>
 <div class="col-md-12">
