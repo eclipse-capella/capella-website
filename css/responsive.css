@@ -141,3 +141,9 @@ px      68    160    252    */
 ------------------------------------------------------------
 cols    1     2      3      4      5
 px      68    160    252    344    436    */
+@media only screen and (max-width: 479px) {
+.title, h1, .h1, .hero-area h1 { font-size: 25px; }
+.hero-area h2 {font-size: 20px;}
+p { font-size: 12px; }
+.btn { font-size: 10px;}
+}
