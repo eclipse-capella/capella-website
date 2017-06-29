@@ -1,13 +1,20 @@
 (function () {
 	'use strict';
 	var app = angular.module('capella', []);
-
-	app.controller('main', ['$rootScope', function ($rootScope) {
-		
-		$rootScope.$on('$includeContentLoaded', function() {
-		    $('.cloak').removeClass('cloak');
-		});
-		
-		$rootScope.date = new Date();
+	app.config(['$locationProvider', function ($locationProvider) {
+		$locationProvider.html5Mode({
+	        enabled: true,
+	        rewriteLinks: false
+	    });
 	}]);
+	
+	app.directive("deferredCloak", function () {
+	    return {
+	        restrict: 'A',
+	        link: function (scope, element, attrs) {        
+	            attrs.$set("deferredCloak", undefined);
+	            element.removeClass("deferred-cloak");
+	        }
+	    };
+	});
 })();

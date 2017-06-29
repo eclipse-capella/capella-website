@@ -34,6 +34,7 @@
         <!-- Template Javascript Files
         ================================================== -->
 		<!-- Angular -->
+		<base href="/capella/">
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
 		<script src="angular/capella.js"></script>
 	
@@ -49,8 +50,8 @@
         <!-- template main js -->
         <script src="js/main.js"></script>
     </head>
-    <body ng-app="capella" ng-controller="main" class="cloak">
-    	<!--
+    <body ng-app="capella" data-deferred-cloak>
+       	<!--
         ==================================================
         Header Section
         ================================================== -->

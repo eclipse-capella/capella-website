@@ -20,6 +20,12 @@ p {
 ul li {
   list-style: square;
 }
+[deferred-cloak], [data-deferred-cloak], [x-deferred-cloak], .deferred-cloak {
+    display: none;
+}
+[cloak], [data-cloak], [x-cloak], .cloak {
+    display: none;
+}
 .nav>li#dwnld {
   background-color: #292253;
 }
@@ -52,6 +58,7 @@ a:hover, a:active, a:focus, #top-bar .main-menu li#dwnld > a:hover, .linked_titl
   outline: 0;
 }
 .bg_indigo a:hover {color:#fff;}
+.bg_indigo a:focus {color:#FBBF52;}
 .row img {
     padding: 20px;}
     
