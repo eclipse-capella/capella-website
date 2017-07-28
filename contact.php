@@ -111,7 +111,8 @@
 else {?>
 <div class="crm_form contact-form" id="contact-form">
 <h4 class="intro_txt">Need to contact Capella team? Please fill-in this form, we will get back to you shortly.</h4><br />
-<div class="col-md-12"><form id="WebToLeadForm" class="contact_form" action="https://crmleadcapture.obeo.fr/index.php?entryPoint=WebToLeadCapture&key=NoncinIm2" method="POST" name="WebToLeadForm">
+<div class="col-md-12">
+<form id="WebToLeadForm" class="contact_form" action="https://crmleadcapture.obeo.fr/index.php?entryPoint=WebToLeadCapture&key=NoncinIm2" method="POST" name="WebToLeadForm">
 <div class="col-md-6 form-group"><input id="last_name" name="last_name" type="text" placeholder="Last Name *" /></div>
 <div class="col-md-6 form-group"><input id="first_name" name="first_name" type="text" placeholder="First Name *" /></div>
 <div class="col-md-6 form-group"><input id="email1" name="email1" type="text" placeholder="Email *" onchange="validateEmailAdd();" /></div>
@@ -119,7 +120,6 @@ else {?>
 <div class="col-md-6 form-group"><input id="primary_address_city" name="primary_address_city" type="text" placeholder="City/State *" /></div>
 <div class="col-md-6 form-group"><select id="primary_address_country" name="primary_address_country">
 <option selected="selected" value="France">France</option>
-<option value="AF">Afghanistan</option>
 <option value="Afganistan">Afghanistan</option>
 <option value="Albania">Albania</option>
 <option value="Algeria">Algeria</option>
@@ -369,18 +369,26 @@ else {?>
 <option value="Zimbabwe">Zimbabwe</option>
 </select></div>
 <div class="col-md-6"><input id="phone_work" name="phone_work" type="text" placeholder="Phone *" /></div>
-<div class="col-md-12"><br /><textarea id="description" name="description" placeholder="Your message"></textarea></div>
+<div class="col-md-12"><br /><textarea id="description" name="description" placeholder="Your message *"></textarea></div>
 
 <div class="col-md-12">
 	<br />
 	<h4>How would you evaluate your knowledge of Model-Based Systems Engineering (MBSE)?</h4>
-	<input type="hidden" id="checkboxes" />
-		<p><input id="little" type="checkbox" name="little" value="little" />  I've heard a little about that methodology</p>
-		<p><input id="notFollowing" type="checkbox" name="notFollowing" value="notFollowing" /> I'm convinced by MBSE but not following it</p>                     
-		<p><input id="useMBSE" type="checkbox" name="useMBSE" value="useMBSE" />I'm convinced by MBSE and use an MBSE tool for my projects (not Capella)</p>
-		<p><input id="useCapella" type="checkbox" name="useCapella" value="useCapella" /> I'm convinced by MBSE and use Capella for my projects</p><br />               
+		<input id="little" type="radio" name="mbse" value="I've heard a little about that methodology" />  I've heard a little about that methodology<br>
+		<input id="notFollowing" type="radio" name="mbse" value="I'm convinced by MBSE but not following it" /> I'm convinced by MBSE but not following it<br>                     
+		<input id="useMBSE" type="radio" name="mbse" value="I'm convinced by MBSE and use an MBSE tool for my projects (not Capella)" /> I'm convinced by MBSE and use an MBSE tool for my projects (not Capella)<br>
+		<input id="useCapella" type="radio" name="mbse" value="I'm convinced by MBSE and use Capella for my projects" /> I'm convinced by MBSE and use Capella for my projects<br>
+		<br>               
+	<h4>I would like to be contacted about:</h4>
+		<input id="training" type="checkbox" name="training" value="training" />  Training & Coaching<br>
+		<input id="integration" type="checkbox" name="integration" value="integration" /> Integration & Customization<br>                     
+		<input id="support" type="checkbox" name="support" value="support" /> Support & Maintenance<br>
+		<input id="t4c" type="checkbox" name="t4c" value="t4c" /> Add-on Team for Capella<br>
+		<input id="other" type="checkbox" name="other" value="otherNeed" /> Other <input type="text" id="description2" name="description2" ></textarea>
+		<p> </p>
 		<p class="txt_lightest_grey"><input id="keepInfo" type="checkbox" name="keepInfo" value="keepInfo" checked />Keep-me informed about Capella’s ecosystem news and events</p>
-</div>
+		<br>	
+	</div>
 
 <select id="offres_c" name="offres_c[]" style="visibility:hidden;"><option label="Capella" value="SystemsEngineering" selected="selected">Capella</option>
 </select>
@@ -391,7 +399,7 @@ else {?>
 <input id="campaign_id" type="hidden" name="campaign_id" value="9d696d6e-9214-7c34-b502-5915dd4cd4cc" />
 <input id="assigned_user_id" type="hidden" name="assigned_user_id" value="e948e44a-e532-c54a-71a7-56029fa97dc3" />
 <input id="redirect_url" name="redirect_url" type="hidden" value="https://www.polarsys.org/capella/contact.php" />
-<input id="req_id" name="req_id" type="hidden" value="last_name;first_name;email1;account_name;primary_address_city;phone_work;primary_address_country;" />
+<input id="req_id" name="req_id" type="hidden" value="last_name;first_name;email1;account_name;primary_address_city;phone_work;primary_address_country;description;" />
 </form></div>
 </div> 
 <?php }?>
@@ -430,11 +438,23 @@ function check_webtolead_fields(){
         var req = true;
 
         var description = document.getElementById('description');
+        
         var little = document.getElementById('little');
         var notFollowing = document.getElementById('notFollowing');
         var useMBSE = document.getElementById('useMBSE');
         var useCapella = document.getElementById('useCapella');
-        var keepInfo = document.getElementById('keepInfo');        
+        var keepInfo = document.getElementById('keepInfo'); 
+
+        var description2 = document.getElementById('description2');
+        var training = document.getElementById('training');
+        var integration = document.getElementById('integration');
+        var support = document.getElementById('support');
+        var t4c = document.getElementById('t4c');
+        var other = document.getElementById('other');    
+
+        var service_arr = new Array("training", "integration", "support", "t4c", "other", "description2");
+        var mbseKnowledge_arr = new Array("little", "notFollowing", "useMBSE", "useCapella");
+		
         
         for(var i=0;i<nbr_fields;i++){
           if(document.getElementById(req_fields[i]).value.length <=0 || document.getElementById(req_fields[i]).value==0){
@@ -444,13 +464,26 @@ function check_webtolead_fields(){
         }
  if(req){
            if(validateEmailAdd()){
-        	   description.value+="\n \n \n \n How would you evaluate your knowledge of Model-Based Systems Engineering (MBSE)? \n - I've heard a little about that methodology: " + little.checked+ 
-        	   ", \n - I'm convinced by MBSE but not following it: " + notFollowing.checked+ 
-        	   ", \n - I'm convinced by MBSE and use an MBSE tool for my projects (not Capella): " + useMBSE.checked+ 
-        	   ", \n - I'm convinced by MBSE and use Capella for my projects: " + useCapella.checked+ 
-        	   ", \n - Keep-me informed about Capella’s ecosystem news and events: " + keepInfo.checked;
-                        document.WebToLeadForm.submit();
-                        return true;
+              	for(var j=0; j<4; j++){
+                   var knowledge = mbseKnowledge_arr[j];
+                   if(document.getElementById(mbseKnowledge_arr[j]).value.length >=0 && document.getElementById(mbseKnowledge_arr[j]).checked)
+                       {
+                         description.value+="\n \n - My knowledge of MBSE: " + document.getElementById(mbseKnowledge_arr[j]).value;
+						}
+         		}   
+               
+               for(var k=0; k<5; k++){
+                   if(document.getElementById(service_arr[k]).value.length >=0 && document.getElementById(service_arr[k]).checked)
+                       {
+                         description2.value+="\n - " + document.getElementById(service_arr[k]).value + "\n \n";
+						}
+         		}   
+               
+        	   description.value+="\n \n - I would like to be contacted about: " +  description2.value +
+        	   					"\n \n - Keep-me informed: " + keepInfo.checked;
+               
+				document.WebToLeadForm.submit();
+                return true;
                      }
                      else {
                         return false;
@@ -460,7 +493,7 @@ function check_webtolead_fields(){
           alert('Please fill in all fields!');
           return false;
          }
-        return false
+        return false;
    }
    else{
     document.WebToLeadForm.submit();
