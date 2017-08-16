@@ -299,8 +299,8 @@
 						} else if (F.isSWF(href)) {
 							type = 'swf';
 
-						//} else if (href.charAt(0) === '#') {
-						//	type = 'inline';
+						} else if (href.charAt(0) === '#') {
+							type = 'inline';
 
 						} else if (isString(element)) {
 							type    = 'html';
@@ -318,19 +318,15 @@
 				}
 
 				if (!content) {
-					//if (type === 'inline') {
+					if (type === 'inline') {
 						if (href) {
-						content = $( isString(href) ? href.replace(/.*(?=#[^\s]+$)/, '') : href ); //strip for ie7
+							content = $( isString(href) ? href.replace(/.*(?=#[^\s]+$)/, '') : href ); //strip for ie7
 
-						}
-						else if (obj.isDom) {
-						if (obj.isDom) {
+						} else if (obj.isDom) {
 							content = element;
 						}
 
 					} else if (type === 'html') {
-						if (type === 'html') {
-
 						content = href;
 
 					} else if (!type && !href && obj.isDom) {
@@ -769,8 +765,7 @@
 		},
 
 		isImage: function (str) {
-			return isString(str) && str.match(/(^data:image\/.*,)|(\.(jp(e|g|eg)|gif|png|bmp|webp|svg)((\?|).*)?$)/i);
-
+			return isString(str) && str.match(/(^data:image\/.*,)|(\.(jp(e|g|eg)|gif|png|bmp|webp|svg)((\?|#).*)?$)/i);
 		},
 
 		isSWF: function (str) {

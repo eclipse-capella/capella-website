@@ -21,6 +21,7 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <!-- animate css -->
         <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/jquery.fancybox.css">
         <!-- template main css file -->
         <link rel="stylesheet" href="css/main.css">
         <!-- responsive css -->
@@ -45,6 +46,7 @@
         <script src="js/bootstrap.min.js"></script>
         <!-- wow js -->
         <script src="js/wow.min.js"></script>
+        <script src="js/jquery.fancybox.js"></script>
         <!-- template main js -->
         <script src="js/main.js"></script>
       
@@ -81,6 +83,49 @@
         
         <!--
         ==================================================
+        Case Studies
+        ================================================== 
+        -->
+        <section id="case-studies" class="bg_lightest_grey text-center">
+            <div class="container">
+            	 <h2 class="title wow fadeInDown" data-wow-delay=".3s">Case-Studies</h2>
+            	
+              	 <div class="row">
+              	 	<div class="col-sm-4 col-xs-12 wow fadeInLeft animated animated" data-wow-duration="500ms" data-wow-delay="0ms" style="visibility: visible; animation-duration: 500ms; animation-delay: 0ms; animation-name: fadeInLeft;">
+     					<p><a href="resources/Case_Study_ArianeGroup.pdf"><img src="images/thumbs/thumbs_casestudies_arianegroup.png" alt="Ariane Group"></a></p>
+                            <div>
+                        		<h6 class="text-uppercase txt_lightest_grey txt_weight_300">Aerospace</h6>
+                        		<h4>ArianeGroup</h4>
+                                <p>Model-Based Systems Engineering must become a team sport!!</p>
+           	     				<p><a class="btn btn-default wow fadeInUp animated animated" data-wow-delay=".6s" href="resources/Case_Study_ArianeGroup.pdf" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">Read More</a></p>
+                            </div>
+                    </div>
+              	 	<div class="col-sm-4 col-xs-12 wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="0ms">
+                            <p><a href="resources/Case_Study_Areva.pdf"><img src="images/thumbs/thumbs_casestudies_arevanp.png" alt="AREVA NP" ></a>
+                            </p>
+                            <div>
+                        		<h6 class="text-uppercase txt_lightest_grey txt_weight_300">Energy</h6><h4>AREVA NP</h4>
+                                <p>Progressive deployment of MBSE methods in French nuclear industry</p>
+           	     				<p><a class="btn btn-default wow fadeInUp animated" data-wow-delay=".6s" href="resources/Case_Study_Areva.pdf">Read More</a></p>
+                            </div>
+                    </div>
+                    <div class="col-sm-4 col-xs-12 wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="0ms">
+                            <p><a href="resources/Case_Study_Continental.pdf"><img src="images/thumbs/thumbs_casestudies_continental.png" alt="Continental"></a>
+                            </p>
+                            <div>
+                        		<h6 class="text-uppercase txt_lightest_grey txt_weight_300">Automotive</h6>                            
+                                <h4>Continental Automotive</h4>
+                                <p>Driving intelligent transportation systems with Capella</p>
+           	     				<p><a class="btn btn-default wow fadeInUp animated" data-wow-delay=".6s" href="resources/Case_Study_Continental.pdf">Read More</a></p>
+                            </div>
+                    </div>
+                    
+                </div>
+             </div>
+        </section>
+
+        <!--
+        ==================================================
         How can Capella help you?
         ================================================== -->
         <section id="benefits" class="text-center">
@@ -99,9 +144,12 @@
 							Early evaluate and justify architectural choices<br>
 	               			<i class="fa fa-check-square-o" aria-hidden="true"></i>	
 							Prepare and master V&V<br>
-	               		</p>
-                	<p><img src="images/home/capella_screenshot.jpg" class="responsive" alt="this is a title" /></p><br>
-                	<a class="wow fadeInUp animated btn btn-default" data-wow-delay=".6s" href="getstarted.html">Get Started</a>
+                           </p>
+                        <div class="col-md-12 text-center">
+                            <p><img src="images/home/capella_screenshot.jpg" alt="Capella exemple" /></p><br>
+                            <a class="wow fadeInUp animated btn btn-default" data-wow-delay=".6s" href="getstarted.html">Get Started</a>
+                        </div>
+                        <div class="clear"></div>
                 </div>
             </div>
         </section> <!-- #how -->
@@ -155,15 +203,15 @@
             <div class="container">
                 <div class="row linked_title ">
 	              	<h2 class="title wow fadeInDown" data-wow-delay=".3s">Capella in action</h2>
-                    <div class="col-sm-4 col-xs-12 wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
+                    <div class="col-sm-4 col-xs-12 wow fadeInLeft animated video_thumbnail" data-wow-duration="500ms" data-wow-delay="0ms">
                             <p>
-                                <a href="https://youtu.be/OGpHMR_j3AM" target="_blank"><img src="images/screenshots/embedded_methodological_guidance.png" alt="Embedded methodological guidance" width="100%"></a>
+                                <a href="https://youtu.be/OGpHMR_j3AM"><img src="images/screenshots/embedded_methodological_guidance.png" alt="Embedded methodological guidance" width="100%"></a>
                             </p>
                             <div>
                                 <h4><a href="https://youtu.be/OGpHMR_j3AM" target="_blank">Embedded methodological guidance</a></h4>                     
                             </div>
                     </div>
-                    <div class="col-sm-4 col-xs-12 wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
+                    <div class="col-sm-4 col-xs-12 wow fadeInLeft animated video_thumbnail" data-wow-duration="500ms" data-wow-delay="0ms">
                     		<p>
                                 <a href="https://youtu.be/WtwAzftHd4A" target="_blank"><img src="images/screenshots/manage_model_complexity.png" alt="Manage model complexity" width="100%"></a>
                             </p>
@@ -171,7 +219,7 @@
                                 <h4><a href="https://youtu.be/WtwAzftHd4A" target="_blank">Manage model complexity</a></h4>                         
                             </div>
                     </div>
-                    <div class="col-sm-4 col-xs-12 wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
+                    <div class="col-sm-4 col-xs-12 wow fadeInLeft animated video_thumbnail" data-wow-duration="500ms" data-wow-delay="0ms">
 						<p>
                                 <a href="https://youtu.be/cT43CmZM2go" target="_blank"><img src="images/screenshots/multiviewpoint_analysis.png" alt="Multi-viewpoint trade-off analysis" width="100%"></a>
                             </p>
