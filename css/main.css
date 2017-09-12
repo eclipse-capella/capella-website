@@ -62,10 +62,6 @@ a:hover, a:active, a:focus, #top-bar .main-menu li#dwnld > a:hover, .linked_titl
 .row img {
     padding: 20px;}
     
-.row img.responsive {    
-    width: 100%;
-    height: 100%;
-}
 .bg_indigo .btn-default:hover {
 background-color: #fff; 
 color: #292253;
@@ -820,3 +816,14 @@ article {
 .slider-display-container:hover .slider-display-hover{display:block}.slider-display-container:hover span.slider-display-hover{display:inline-block}.slider-display-hover{display:none}
 .slider-display-left{position:absolute;top:50%;left:-1%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%);}
 .slider-display-right{position:absolute;top:50%;right:-1%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%);}
+
+/* Responsive
+------------- */
+
+@media only screen and (max-width: 767px) {
+
+.row img.responsive {    
+    width: 100%;
+    height: 100%;
+}
+}
