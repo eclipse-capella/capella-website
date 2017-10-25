@@ -817,6 +817,9 @@ article {
 .slider-display-left{position:absolute;top:50%;left:-1%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%);}
 .slider-display-right{position:absolute;top:50%;right:-1%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%);}
 
+.col-md-3 img {
+	}
+
 /* Responsive
 ------------- */
 
