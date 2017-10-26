@@ -85,7 +85,7 @@ color: #292253;
     background-color: #292253;
 }
 section {
-  padding: 60px;
+  padding: 40px;
 }
 .block-center {
   float: none;
@@ -206,7 +206,7 @@ section {
 .hero-area {
   background-size: cover;
   background-attachment: fixed;
-  padding: 100px 0;
+  padding: 130px 0 60px 0;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
   position: relative;
   color: #fff;
