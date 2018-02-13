@@ -386,7 +386,7 @@ else {?>
 		<input id="t4c" type="checkbox" name="t4c" value="t4c" /> Add-on Team for Capella<br>
 		<input id="other" type="checkbox" name="other" value="otherNeed" /> Other <input type="text" id="description2" name="description2" ></textarea>
 		<p> </p>
-		<p class="txt_lightest_grey"><input id="keepInfo" type="checkbox" name="keepInfo" value="keepInfo" checked />Keep-me informed about Capella’s ecosystem news and events</p>
+		<p class="txt_lightest_grey"><input id="keepInfo" type="checkbox" name="keepInfo" value="keepInfo" />Keep-me informed about Capella’s ecosystem news and events</p>
 		<br>	
 	</div>
 
