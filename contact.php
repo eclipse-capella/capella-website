@@ -6,7 +6,7 @@
         <meta charset="utf-8">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <link rel="icon" type="image/png" href="images/favicon.ico">
-        <title>Capella - Contact</title>
+        <title>Capella MBSE Tool - Contact</title>
         <meta name="description" content="">
         <meta name="keywords" content="">
         <meta name="author" content="">
