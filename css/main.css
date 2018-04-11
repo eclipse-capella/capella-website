@@ -768,6 +768,11 @@ article {
 
 /* Accordion Style
 --------------- */
+
+.dropdown_content {
+	margin-bottom: 20px;
+}
+
 .accordion h3 {
 	color: #FBBF52;
 	margin-bottom: 5px; 
@@ -785,7 +790,6 @@ border-right: 45px solid rgba(0, 0, 0, 0);
 border-left: 45px solid rgba(0, 0, 0, 0);
 text-align: center;
 }
-
 
 .dropdown_content .accordion-group {
     border-bottom: 1px solid #dedede;
