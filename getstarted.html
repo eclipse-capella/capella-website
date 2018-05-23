@@ -180,13 +180,6 @@
         Footer Section
         ================================================== -->
         <ng-include src="'angular/blocks/footer.html'"></ng-include>
-        <?php
-          require_once ($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");
-          $App = new App();
-          $Theme = $App->getThemeClass("quicksilver");
-          if ($Theme->hasCookieConsent()) {
-            <script async src="js/googleAnalytics.js" ></script>
-          }
-        ?>
+        <script async src="js/googleAnalytics.js" ></script>
     </body>
 </html>
