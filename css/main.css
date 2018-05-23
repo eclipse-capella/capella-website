@@ -841,3 +841,26 @@ text-align: center;
     height: 100%;
 }
 }
+
+/* Cookies consent
+-------------------------- */
+.cc-color-override-1434350510.cc-window, .cc-color-override-1434350510.cc-revoke, .cc-color-override-1434350510 .cc-btn {
+	font-family: 'Lato', sans-serif !important;
+	font-size: 12px;
+	}
+
+.cc-color-override-1434350510.cc-window, .cc-color-override-1434350510.cc-revoke {
+background-color: #7667A3 !important;
+}
+.cc-color-override-1434350510 .cc-btn:last-child {
+background-color: #FBBF52 !important;
+}
+
+.cc-color-override-1434350510 .cc-btn:hover, .cc-color-override-1434350510 .cc-btn:focus {
+    background-color: #fff !important; color: #292253;
+}
+
+.cc-banner .cc-message {
+    padding-right: 50px;
+}
+
