@@ -31,6 +31,9 @@
         <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
         <script src="https://use.fontawesome.com/b51f77a16a.js"></script>
         
+        <!-- Cookie content -->
+        <link rel="stylesheet" type="text/css" href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+        <script src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js"></script>
         
         <!-- Template Javascript Files
         ================================================== -->
@@ -129,6 +132,13 @@
         Footer Section
         ================================================== -->
         <ng-include src="'angular/blocks/footer.html'"></ng-include>
-        <script async src="js/googleAnalytics.js" ></script>
+        <?php
+          require_once ($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");
+          $App = new App();
+          $Theme = $App->getThemeClass("quicksilver");
+          if ($Theme->hasCookieConsent()) {
+            <script async src="js/googleAnalytics.js" ></script>
+          }
+        ?>
     </body>
 </html>
