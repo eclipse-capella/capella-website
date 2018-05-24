@@ -1,4 +1,4 @@
-if (document.cookie.indexOf('eclipse_cookieconsent_status=allow') >= 0) {
+/*if (document.cookie.indexOf('eclipse_cookieconsent_status=allow') >= 0) {
   (function(i, s, o, g, r, a, m) {
       i['GoogleAnalyticsObject'] = r;
       i[r] = i[r] || function() {
@@ -12,4 +12,4 @@ if (document.cookie.indexOf('eclipse_cookieconsent_status=allow') >= 0) {
 }
 
 	ga('create', 'UA-57722280-1', 'auto');
-	ga('send', 'pageview');
+	ga('send', 'pageview');*/
