@@ -13,7 +13,7 @@
             var eventVal = e;
             e.preventDefault();
 
-            var $section = $(document).find( $(this).data('section') );
+            var $section = $(document).find( $(this).data('row') );
             if ( $section.length < 1 ) {
                 return false;
             };

@@ -831,6 +831,90 @@ text-align: center;
 .col-md-3 img {
 	}
 
+/* Arcadia and SysML
+-------------------------- */
+#all_diagrams_equivalences .row, #all_diagrams_differences .row{
+	margin-bottom: 60px;
+}
+
+#all_diagrams_equivalences img, #all_diagrams_differences img{
+	width: 550px;
+}
+
+#all_diagrams_equivalences .col-md-6.left-content, #all_diagrams_differences .col-md-6.left-content {
+	padding-right: 20px;
+}
+
+#all_diagrams_equivalences .col-md-6.right-content, #all_diagrams_differences .col-md-6.right-content {
+	padding-left: 50px;
+}
+
+.left-content .separator {
+	border-right: 1px solid #eee;
+	margin-right: -20px;
+	padding-right: 20px;
+	height: 100%;
+	height: -webkit-fill-available;
+    height: -moz-fill-available;	
+    height: fill-available;	
+}
+
+.left-content .separator:before {
+	position: absolute;
+    display: inline-block;
+    border-top: 40px solid transparent;
+    border-left: 30px solid #eee;
+    border-bottom: 40px solid transparent;
+    border-left-color: rgba(238, 238, 238, 1);
+    left: 100%;
+    top: 100px;
+    content: '';
+}
+
+.left-content .separator:after {
+    position: absolute;
+    display: inline-block;
+    border-top: 39px solid transparent;
+    border-left: 29px solid #fff;
+    border-bottom: 39px solid transparent;
+    left: 99.9%;
+    top: 101px;
+    content: '';	
+}
+
+.right-content .separator {
+	border-left: 1px solid #eee;
+    margin-left: -51px;
+    padding-left: 45px;
+}
+
+.right-content .separator:before {
+	position: absolute;
+    display: inline-block;
+    border-top: 40px solid transparent;
+    border-left: 30px solid #eee;
+    border-bottom: 40px solid transparent;
+    border-left-color: rgba(238, 238, 238, 1);
+    right: 95%;
+    top: 100px;
+    content: '';
+}
+
+.right-content .separator:after {
+    position: absolute;
+    display: inline-block;
+    border-top: 39px solid transparent;
+    border-left: 29px solid #fff;
+    border-bottom: 39px solid transparent;
+    right: 95.4%;
+    top: 101px;
+    content: '';
+}
+
+table {
+	margin: 60px 0;
+}
+
 /* Responsive
 ------------- */
 
