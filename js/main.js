@@ -31,7 +31,7 @@
             config.callbackBeforeTransition(eventVal, $section);
 
             $('html, body').animate({
-                'scrollTop' : (scrollPos+'px' )
+                'scrollTop' : ((scrollPos-100)+'px' )
             }, config.animationTime, config.easing, function(){
                 config.callbackAfterTransition(eventVal, $section);
             });
@@ -49,18 +49,6 @@ jQuery(document).ready(function(){
 
 });
 
-$(document).ready(function(){
-    $(window).scroll(function () {
-        if ($(window).scrollTop() > 50) {
-            $(".navbar-brand a").css("color","#fff");
-            $("#top-bar").removeClass("animated-header");
-        } else {
-            $(".navbar-brand a").css("color","inherit");
-            $("#top-bar").addClass("animated-header");
-        }
-    });
-
-});
 
 // fancybox
 $(".fancybox").fancybox({
