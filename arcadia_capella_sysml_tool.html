@@ -161,22 +161,20 @@
 						<tr>
 							<td class="txt_indigo"><strong>Positioning</strong></td>
 							<td>SysML is a standard and a general-purpose modeling
-								language for modeling systems. Its usage can be very broad from
-								architecture modeling to detailed design at the frontier of
-								simulation. SysML provides very rich expression means but can
-								become complex.</td>
-							<td>Inspired by SysML concepts, the Arcadia / Capella
-								solution focuses on the design of systems architectures. For the
-								sake of an easier learning curve and because of the precise
-								scope addressed by Capella, the expression means are sometimes
-								reduced compared to SysML. The ultimate goal is to have systems
-								engineers embracing the cultural change of MBSE rather than
-								having modeling experts sitting beside domain engineers. Arcadia
-								/ Capella are thus strongly driven by the practices and concerns
-								of system architects. This provides a rationale for some of the
-								differences with SysML: functional analysis, “instance first”
-								modeling, and full integration between functions, components and
-								interfaces.</td>
+								language for modeling systems. SysML provides very rich and
+								advanced expression means covering a very broad spectrum of
+								applications, spanning from high-level architecture modeling to
+								detailed design at the frontier of simulation.</td>
+							<td>Inspired by SysML concepts, the Arcadia/Capella solution
+								focuses on the design of systems architectures. For the sake of
+								an easier learning curve and because of the precise scope
+								addressed by Arcadia/Capella, the expression means are sometimes
+								reduced compared to SysML. The ultimate goal of the solution is
+								to have systems engineers embrace the cultural change of MBSE
+								rather than having modeling experts modeling “experts” owning
+								the model on behalf of systems engineers. Arcadia/Capella are
+								thus strongly driven by the current practices and concerns of
+								system engineering practitioners.</td>
 						</tr>
 						<tr>
 							<td class="txt_indigo"><strong>Method</strong></td>
@@ -185,10 +183,10 @@
 								concept or the other, how to organize models, etc.</td>
 							<td>The Arcadia method enforces an approach structured on
 								different engineering perspectives establishing a clear
-								separation between need modeling (Operational need analysis and
-								System need analysis) and solution modeling (Logical and
-								Physical architectures), in accordance with the IEEE 1220
-								standard.</td>
+								separation between system context and need modeling (operational
+								need analysis and system need analysis) and solution modeling
+								(logical and physical architectures), in accordance with the
+								IEEE 1220 standard and covering parts of ISO/IEC/IEEE 15288.</td>
 						</tr>
 						<tr>
 							<td class="txt_indigo"><strong>Language</strong></td>
@@ -198,15 +196,20 @@
 								engineering domains and are relying on software engineering
 								paradigms using types, inheritance, etc.</td>
 							<td>The Arcadia concepts are mostly similar to the UML/SysML
-								standard (about 75%) and the NAF standard (5%). Interoperability
-								with SysML tools are possible using ad-hoc imports/exports.
-								Because of the focus on architectural design, some of the SysML
-								concepts have been simplified or specialised for systems
-								engineering practices (for instance functional analysis).</td>
+								standard (about 75%) and the NATO Architecture Framework (NAF)
+								standard (5%). Interoperability with SysML tools is possible
+								using ad-hoc imports/exports. Because of the focus on
+								architectural design, some of the SysML concepts have been
+								simplified or specialized in order to better match the concepts
+								system engineering practitioners already use in their
+								engineering documents and assets. This is the case of the
+								concepts related to functional analysis for instance.</td>
 						</tr>
 						<tr>
 							<td class="txt_indigo"><strong>Diagrams</strong></td>
-							<td>SysML diagrams represent a subset of UML2:
+							<td>SysML include diagrams inherited from UML2 and adds new
+								diagrams:
+
 								<ul>
 									<li>4 diagrams are the same as UML2 diagrams (Sequence,
 										State Machine, Use Case and Package);</li>
@@ -400,6 +403,10 @@
 					<div class="col-md-6 left-content">
 						<div class="separator">
 							<h4>SysML</h4>
+							<p class="wow fadeInUp" data-wow-delay=".1s">The Internal
+								Block Diagram in SysML captures the internal structure of a
+								block in terms of properties and connectors between properties.
+							</p>
 							<p>
 								<a rel="gallery" class="fancybox"
 									href="images/arcadia_sysml/sysml-internal-block-diagram_1.jpg"><img
@@ -447,19 +454,17 @@
 					<div class="col-md-6 right-content">
 						<div class="separator">
 							<h4>Arcadia/Capella</h4>
-							<p class="wow fadeInUp" data-wow-delay=".1s">Capella
-								functions naturally map to SysML activities/actions and Capella
-								Dataflow Diagrams look similar to a subset of SysML Activity
-								Diagrams. However while SysML Activity Diagrams are primarily
-								intended to specify the control flows between activities,
-								Capella Dataflows Diagrams only present the dependencies between
-								functions with absolutely no semantics of control.</p>
-							<p>
-								<a rel="gallery" class="fancybox"
-									href="images/arcadia_sysml/arcadia-activity-diagram_1.jpg">
-									<img src="images/arcadia_sysml/arcadia-activity-diagram_1.jpg" />
-								</a>
+							<p class="wow fadeInUp" data-wow-delay=".1s">
+								Capella functions naturally map to SysML activities/actions.
+								However, while SysML Activity Diagrams are primarily intended to
+								specify the control flows between activities, Capella Dataflows
+								Diagrams only present the dependencies between functions with
+								absolutely no semantics of control. The rationale for this
+								choice is explained in this <a
+									href="http://download.polarsys.org/capella/publis/INCOSE_Capella_SysML_paper.pdf"
+									target="_blank">dedicated paper</a>.
 							</p>
+
 							<p class="wow fadeInUp" data-wow-delay=".1s">Allocating
 								functions to components in Capella is similar to allocating
 								actions to partitions representing blocks in SysML. Capella
@@ -469,24 +474,16 @@
 								a Capella Architecture Diagram voluntarily made similar to a
 								SysML Activity Diagram where actions would be displayed in
 								vertical partitions.</p>
-							<p>
-								<a rel="gallery" class="fancybox"
-									href="images/arcadia_sysml/arcadia-activity-diagram_2.jpg"><img
-									src="images/arcadia_sysml/arcadia-activity-diagram_2.jpg" /></a>
-							</p>
+
 							<p class="wow fadeInUp" data-wow-delay=".1s">Capella provides
 								mechanisms to display graphical simplifications of Architecture
 								Diagrams by automatically performing grouping at component and
 								function levels.</p>
 							<p>
 								<a rel="gallery" class="fancybox"
-									href="images/arcadia_sysml/arcadia-activity-diagram_2.jpg"><img
-									src="images/arcadia_sysml/arcadia-activity-diagram_2.jpg" /></a>
-							</p>
-							<p>
-								<a rel="gallery" class="fancybox"
-									href="images/arcadia_sysml/arcadia-activity-diagram_3.jpg"><img
-									src="images/arcadia_sysml/arcadia-activity-diagram_3.jpg" /></a>
+									href="images/arcadia_sysml/arcadia-activity-diagram_1.jpg">
+									<img src="images/arcadia_sysml/arcadia-activity-diagram_1.jpg" />
+								</a>
 							</p>
 						</div>
 					</div>
@@ -513,19 +510,19 @@
 							sequence diagrams, and decomposition of lifelines into their
 							constituent parts.</p>
 						<p>
-								<a rel="gallery" class="fancybox"
-									href="images/arcadia_sysml/sysml-sequence-diagram_1.jpg"><img
-									src="images/arcadia_sysml/sysml-sequence-diagram_1.jpg" /></a>
-							</p>
+							<a rel="gallery" class="fancybox"
+								href="images/arcadia_sysml/sysml-sequence-diagram_1.jpg"><img
+								src="images/arcadia_sysml/sysml-sequence-diagram_1.jpg" /></a>
+						</p>
 					</div>
 					<div class="col-md-6 right-content">
 						<div class="separator">
 							<h4>Arcadia/Capella</h4>
 							<p class="wow fadeInUp" data-wow-delay=".1s">The Capella
 								underlying constructs of Sequence Diagrams are strictly mapped
-								onto SysML. The differences reside in the variety of elements
-								that can be referenced in a consistent manner by lifelines and
-								sequence messages.</p>
+								onto SysML ones. The differences reside in the variety of
+								elements that can be referenced in a consistent manner by
+								lifelines and sequence messages.</p>
 							<p class="wow fadeInUp" data-wow-delay=".1s">In the following
 								figure, lifelines represent components (blocks in SysML) and
 								sequence messages represent dependencies existing between the
@@ -607,14 +604,16 @@
 					<div class="col-md-6 left-content">
 						<div class="separator">
 							<h4>SysML</h4>
-							<p class="wow fadeInUp" data-wow-delay=".1s">The Use Case
-								Diagram is a method for describing the usages of a system. It
-								represents a high-level description of functionalities that are
-								achieved through interaction among a system (subject) and its
-								actors (environment) to achieve a goal.</p>
+							<p class="wow fadeInUp" data-wow-delay=".1s">Capabilities in
+								Capella are equivalent to SysML use case and Capabilities
+								Diagrams largely ressemble SysML Use Case diagrams. Capabilities
+								are intensively used in Capella to organize the functional
+								analysis: the involvement of stakeholders in a given capability
+								is enriched by a specification of the stakeholder functions
+								performed in the context of this capability.</p>
 							<p>
 								<a rel="gallery" class="fancybox"
-									href="images/arcadia_sysml/sysml-state-machine-diagram_1.jpg"><img
+									href="images/arcadia_sysml/sysml-use-case-diagram_1.jpg"><img
 									src="images/arcadia_sysml/sysml-use-case-diagram_1.jpg" /></a>
 							</p>
 						</div>
@@ -654,17 +653,20 @@
 							verifies the requirements. The requirement diagram provides a
 							bridge between the typical requirements management tools and the
 							system models.</p>
-							<p><a rel="gallery" class="fancybox" href="images/arcadia_sysml/sysml-requirement-diagram_1.jpg"><img src="images/arcadia_sysml/sysml-requirement-diagram_1.jpg" /></a></p>
+						<p>
+							<a rel="gallery" class="fancybox"
+								href="images/arcadia_sysml/sysml-requirement-diagram_1.jpg"><img
+								src="images/arcadia_sysml/sysml-requirement-diagram_1.jpg" /></a>
+						</p>
 					</div>
 					<div class="col-md-6 right-content">
 						<div class="separator">
 							<h4>Arcadia/Capella</h4>
 							<p class="wow fadeInUp" data-wow-delay=".1s">Textual
-								requirement (possibly imported via the ReqIf standard) can be
-								displayed in any Capella diagram. Relationships between
-								requirements and model elements as well as between requirements
-								can be shown. There is however no dedicated requirement diagram
-								in Capella.</p>
+								requirement can be displayed in any Capella diagram.
+								Relationships between requirements and model elements as well as
+								between requirements can be shown. There is however no dedicated
+								requirement diagram in Capella.</p>
 							<p>
 								<a rel="gallery" class="fancybox"
 									href="images/arcadia_sysml/arcadia-requirement-diagram_1.jpg"><img
@@ -690,10 +692,10 @@
 							restrictions and extensions). However, it is presented here, as
 							it is frequently used in addition to SysML diagrams.</p>
 						<p>
-								<a rel="gallery" class="fancybox"
-									href="images/arcadia_sysml/sysml-class-diagram_1.jpg"><img
-									src="images/arcadia_sysml/sysml-class-diagram_1.jpg" /></a>
-							</p>
+							<a rel="gallery" class="fancybox"
+								href="images/arcadia_sysml/sysml-class-diagram_1.jpg"><img
+								src="images/arcadia_sysml/sysml-class-diagram_1.jpg" /></a>
+						</p>
 					</div>
 					<div class="col-md-6 right-content">
 						<div class="separator">
@@ -720,8 +722,12 @@
 					</div>
 					<div class="col-md-6 left-content">
 						<h4>SysML</h4>
-						<p class="wow fadeInUp" data-wow-delay=".1s">Parametric Diagrams are a restricted form of Internal Block Diagram that shows only the use of constraint blocks along with the properties they constrain within a context. Parametric Diagrams are used to support engineering analysis, such as performance or mass properties analysis.
-						</p>
+						<p class="wow fadeInUp" data-wow-delay=".1s">Parametric
+							Diagrams are a restricted form of Internal Block Diagram that
+							shows only the use of constraint blocks along with the properties
+							they constrain within a context. Parametric Diagrams are used to
+							support engineering analysis, such as performance or mass
+							properties analysis.</p>
 						<p>
 							<a rel="gallery" class="fancybox"
 								href="images/arcadia_sysml/sysml-parametric-diagram_1.jpg"><img
@@ -731,13 +737,25 @@
 					<div class="col-md-6 right-content">
 						<div class="separator">
 							<h4>Arcadia/Capella</h4>
-							<p class="wow fadeInUp" data-wow-delay=".1s">While most of the underlying concepts are present in Capella (constraints, opaque expressions with assisted editing, parseable expressions, properties on elements, physical dimensions, etc.), no diagram is dedicated to their graphical display. </p>
+							<p class="wow fadeInUp" data-wow-delay=".1s">While most of
+								the underlying concepts are present in Capella (constraints,
+								opaque expressions with assisted editing, parseable expressions,
+								properties on elements, physical dimensions, etc.), no diagram
+								is dedicated to their graphical display.</p>
 							<p>
 								<a rel="gallery" class="fancybox"
 									href="images/arcadia_sysml/arcadia-parametric-diagram_1.jpg"><img
 									src="images/arcadia_sysml/arcadia-parametric-diagram_1.jpg" /></a>
 							</p>
-							<p><em>Note: Currently, Capella users typically use dedicated viewpoints (language and analyses extensions + graphical layers on top of existing diagrams) to evaluate their architecture against non-functional constraints. They rarely use the architecture models for simulation purposes. Should the end-user request them, parametric diagrams could be an easy addition to Capella.</em></p>
+							<p>
+								<em>Note: Currently, Capella users typically use dedicated
+									viewpoints (language and analyses extensions + graphical layers
+									on top of existing diagrams) to evaluate their architecture
+									against non-functional constraints. They rarely use the
+									architecture models for simulation purposes. Should the
+									end-user request them, parametric diagrams could be an easy
+									addition to Capella.</em>
+							</p>
 						</div>
 					</div>
 				</div>
@@ -758,7 +776,14 @@
 					<div class="block wow fadeInUp" data-wow-delay=".2s">
 						<h2 class="title wow fadeInUp txt_white" data-wow-delay=".2s">
 							Differences between SysML and Arcadia/Capella</h2>
-						<p class="wow fadeInUp txt_white" data-wow-delay=".3s"></p>
+						<p class="wow fadeInUp txt_white" data-wow-delay=".3s">The
+							purpose of Arcadia and Capella is to have systems engineers
+							embrace the cultural change of MBSE, rather than having modeling
+							“experts” owning the model on behalf of systems engineers. The
+							following differences are motivated by the commitment to reach
+							this goal and result from the integration of the actual practices
+							and concerns of systems engineers who do not necessarily have
+							software engineering background.</p>
 						<br>
 						<p>
 							<a class="wow fadeInUp smooth-scroll" data-wow-delay=".2s"
@@ -807,24 +832,33 @@
 						<p class="wow fadeInUp" data-wow-delay=".3s">Functional
 							analysis is a classical technique broadly used by systems
 							engineers. Arcadia and Capella provide methodological guidance
-							and engineering helpers to support of this technique that has
-							been mostly left out of SysML V1.</p>
-						<p class="wow fadeInUp" data-wow-delay=".3s">The
-							mapping of Capella functions to SysML activity is the most
-							natural one in terms of semantics. Capella functions are verbs
-							specifying the actions expected from the component they are
-							allocated to. This section describes the structural differences
-							between SysML activities/actions and Capella functions.</p>
+							and engineering helpers to support this technique that has been
+							mostly left out of SysML V1.</p>
+						<p class="wow fadeInUp" data-wow-delay=".3s">The mapping of
+							Capella functions to SysML activity is the most natural one in
+							terms of semantics. Capella functions are verbs specifying the
+							actions expected from the component they are allocated to. This
+							section describes the structural differences between SysML
+							activities/actions and Capella functions.</p>
+						<br>
 					</div>
-					<div class="clearfix"><br></div>
+
 					<div class="col-md-6 left-content">
 						<h4>SysML</h4>
-						<p class="wow fadeInUp" data-wow-delay=".1s">Lorem</p>
+						<p class="wow fadeInUp" data-wow-delay=".1s">The articulation
+							between several Activity Diagrams relies on two major concepts:
+							activities are described by different kinds of actions including
+							some that can reference other activities, and the parameters of a
+							given activity are connected (delegated) to the output or input
+							pins of the actions describing it. This strong encapsulation
+							mechanism favors the reuse of activity definitions in multiple
+							contexts but imposes constraints on what can be represented in
+							one single diagram and makes bottom-up workflows more difficult
+							to implement.</p>
 						<p class="text-center">
 							<a rel="gallery" class="fancybox"
 								href="images/arcadia_sysml/sysml-functional-analysis_1.jpg">
-								<img
-								src="images/arcadia_sysml/sysml-functional-analysis_1.jpg" />
+								<img src="images/arcadia_sysml/sysml-functional-analysis_1.jpg" />
 							</a>
 						</p>
 					</div>
@@ -835,13 +869,13 @@
 								major differences between SysML activity diagrams and Capella
 								dataflows:</p>
 							<ol>
-								<li>There is no control flow in Capella dataflow, meaning
-									that there is no semantics of execution and there are no
-									control nodes such as Join, Fork, etc.. The detailed rationale
-									for the absence of control flows in Capella dataflow is
-									explained in <a
-									href="http://download.polarsys.org/capella/publis/INCOSE_Capella_SysML_paper.pdf" target="_blank">this
-										dedicated paper</a>.
+								<li>There is no control flow in Capella dataflow diagrams,
+									meaning that there is no semantics of execution and there are
+									no control nodes such as Join, Fork, etc.. The detailed
+									rationale for the absence of control flows in Capella dataflow
+									is explained in <a
+									href="http://download.polarsys.org/capella/publis/INCOSE_Capella_SysML_paper.pdf"
+									target="_blank">this dedicated paper</a>.
 								</li>
 								<li>There is no delegation mechanism between functions at
 									each level of decomposition in Capella. The rationale is
@@ -864,8 +898,8 @@
 									automatically displayed when intermediate/parent/non-leaf
 									functions are displayed on a diagram.</li>
 							</ul>
-							<p class="wow fadeInUp" data-wow-delay=".3">The rationale for
-								this modeling choice are multiple:</p>
+							<p class="wow fadeInUp" data-wow-delay=".3">The rationales
+								for this modeling choice are multiple:</p>
 							<ul>
 								<li>This helps manage the complexity of functional trees by
 									relieving engineers from the tedious task of maintaining the
@@ -884,14 +918,35 @@
 									src="images/arcadia_sysml/arcadia-functional-analysis_1.jpg" />
 								</a>
 							</p>
-							<p class="wow fadeInUp" data-wow-delay=".12">The follwoing
-								view is automatically computed. Port are displayed on non-leaf
-								functions but still belong to children functions.</p>
+							<p class="wow fadeInUp" data-wow-delay=".12">Capella
+								leverages this implementation choice to provide several kinds of
+								simplified views of the system architecture. The following
+								diagram for example is automatically computed. Port are
+								displayed on non-leaf functions but still belong to children
+								functions.</p>
 							<p class="text-center">
 								<a rel="gallery" class="fancybox"
 									href="images/arcadia_sysml/arcadia-functional-analysis_2.jpg">
 									<img
 									src="images/arcadia_sysml/arcadia-functional-analysis_2.jpg" />
+								</a>
+							</p>
+							<p class="wow fadeInUp" data-wow-delay=".12">Similarly,
+								graphical simplifications of Architecture Diagrams by
+								automatically performing grouping at component and function
+								levels.</p>
+							<p class="text-center">
+								<a rel="gallery" class="fancybox"
+									href="images/arcadia_sysml/arcadia-functional-analysis_3.jpg">
+									<img
+									src="images/arcadia_sysml/arcadia-functional-analysis_3.jpg" />
+								</a>
+							</p>
+							<p class="text-center">
+								<a rel="gallery" class="fancybox"
+									href="images/arcadia_sysml/arcadia-functional-analysis_4.jpg">
+									<img
+									src="images/arcadia_sysml/arcadia-functional-analysis_4.jpg" />
 								</a>
 							</p>
 						</div>
@@ -955,10 +1010,10 @@
 							</a>
 						</p>
 						<p>This integration of the functions / components / interfaces
-							triptych is not straightforward to implement in SysML v1. This
-							global approach promoted in Capella also comes with a set of
-							assistance tooling enforcing the model correctness regarding this
-							integration and providing automation means.</p>
+							triptych is not straightforward to implement and enforce in SysML
+							v1. This global approach promoted in Capella also comes with a
+							set of assistance tooling enforcing the model correctness
+							regarding this integration and providing automation means.</p>
 						<p>
 							<em>Note: The topic of a better integration between
 								structure and behaviour is currently being investigated within
@@ -976,13 +1031,13 @@
 					</div>
 					<div class="col-md-12">
 						<p class="wow fadeInUp" data-wow-delay=".1s">The SysML
-							internal block diagram is dedicated to model the decomposition of
-							a block or its internal structure. SysML relies on a generic
-							block/part paradigm: in an internal block diagram, a block can be
-							decomposed into parts (usages) which are themselves typed by
-							other blocks (definitions). A bicycle “block” has two parts
-							“front wheel” and “rear wheel” which are both typed by the block
-							“wheel”. The wheel definition is captured in one dedicated block and the
+							Internal Block Diagram is dedicated to model the internal
+							structure of a block. SysML relies on a generic block/part
+							paradigm: in an Internal Block Diagram, a block can be decomposed
+							into parts (usages) which are themselves typed by other blocks
+							(definitions). A bicycle “block” has two parts “front wheel” and
+							“rear wheel” which are both typed by the block “wheel”. The
+							“wheel” definition is captured in one dedicated block and the
 							same definition can be reused many times in the system through
 							the part concept.</p>
 						<p class="wow fadeInUp" data-wow-delay=".1s">It is possible in
@@ -1005,7 +1060,7 @@
 								src="images/arcadia_sysml/arcadia-management-instances_2.jpg" />
 							</a>
 						</p>
-						<p class="wow fadeInUp" data-wow-delay=".1s">However, Capalla
+						<p class="wow fadeInUp" data-wow-delay=".1s">However, Capella
 							is configured by default for an instance-driven modeling. Return
 							of experience showed that systems engineers are not necessarily
 							comfortable with the workflow of creating definition elements
@@ -1014,9 +1069,13 @@
 						<p class="wow fadeInUp" data-wow-delay=".1s">In addition,
 							architectural design in Capella also consists in performing non
 							functional analyses where it is critical to be able to
-							distinguish the different occurrences of each elements and to be
-							able to give them different properties.</p>
-						<p class="wow fadeInUp" data-wow-delay=".1s">This means components and functions in Capella are by default considered as instances or usages.</p> 
+							distinguish the different occurrences of each element and to be
+							able to give them different properties or values. For example,
+							safety analyses typically require to distinguish between the
+							execution of a “same” function in two distinct components.</p>
+						<p class="wow fadeInUp" data-wow-delay=".1s">This means
+							components and functions in Capella are by default considered as
+							instances or usages.</p>
 
 						<p class="text-center">
 							<a rel="gallery" class="fancybox"
