@@ -124,17 +124,6 @@ section {
 .moduler {
   padding: 140px 0;
 }
-.navbar-default .navbar-nav > li > a:hover {
-  color: #FBBF52;
-}
-.navbar.navbar-default {
-  border: 0;
-  border-radius: 0;
-  margin-bottom: 0;
-}
-.navbar.navbar-default .navbar-toggle {
-  margin-top: 32px;
-}
 .navbar-header .navbar-brand {
   padding: 5px 0;
 }
@@ -143,10 +132,7 @@ section {
   display: inline-block;
   margin-top: -10px;
 }
-.navbar-inverse .navbar-toggle:focus,
-.navbar-inverse .navbar-toggle {
-  background: #444;
-}
+
 #top-bar {
   background: #fff;
   color: #fff;
@@ -165,9 +151,7 @@ section {
   background: #ffffff;
   box-shadow: none;
 }
-#top-bar .main-menu li > a {
-  color: #444;
-}
+
 #top-bar .main-menu li, #footer ul li  {
   position: relative;
   list-style: none;
@@ -176,6 +160,7 @@ section {
 #top-bar .main-menu li a {
   font-size: 14px;
   font-weight: 500;
+  color: #292253;
   border-bottom: 2px solid transparent;
   -webkit-transition: .3s all;
   -o-transition: .3s all;
@@ -185,20 +170,9 @@ section {
 #top-bar .main-menu li a:hover {
   color: #FBBF52;
 }
-
-.navbar-custom .nav li > a {
-  position: relative;
-  color: #000;
-}
 .navbar-right .dropdown-menu {
   right: auto;
   left: 0;
-}
-.navbar-custom .dropdown-menu {
-  position: absolute;
-  display: block;
-  visibility: hidden;
-  opacity: 0;
 }
 .hero-area {
   background-size: cover;
@@ -782,8 +756,8 @@ article {
   text-transform: uppercase;
   font-size: 14px;
 }
-.tab-content img, .arcadia-content img{
-	margin: 40px 0;
+.tab-content img{
+	margin: 20px 0;
 }
 
 /* Table Style

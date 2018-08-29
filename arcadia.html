@@ -152,7 +152,7 @@
 				<div class="col-md-6 col-xs-12 block-center">
 					<p>
 						<a href="resources/Datasheet_Arcadia.pdf" target="_blank"><img
-							class="center" alt="Arcadia Datasheet"
+							alt="Arcadia Datasheet"
 							src="images/thumbs/datasheet_arcadia.png"></a>
 					</p>
 					<p>
@@ -160,6 +160,10 @@
 							download="Datasheet_Arcadia.pdf"
 							class="btn btn-default wow fadeInDown animated"
 							data-wow-delay=".7s" data-wow-duration="500ms">Download PDF</a>
+					</p>
+					<br>
+					<p><a class="wow fadeInUp" data-wow-delay=".3s" href="community.html#documentation" data-row="#documentation">Discover other resources <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+						</a>
 					</p>
 				</div>
 			</div>
@@ -274,18 +278,18 @@
 		<div class="container">
 			<div class="row">
 
-				<p>Modern systems are subjected to increasingly higher
-					constraints regarding safety, security, performance, environment,
-					human factors, etc. Each of these constraints are under the
-					responsibility of different stakeholders which deeply influences
-					the systems architectural design and development process. They are
-					to be integrated and reconciled.</p>
+				<p>Modern systems are subject to increasingly higher
+					constraints regarding expected behavior and services, safety, security, performance, environment,
+					human factors, etc. All these constraints are under the
+					responsibility of different stakeholders, which need to be reconciled during the solution 
+					architectural design and development process.</p>
 
 				<div id="arcadia-architecture"></div>
 				<h3>Architecture as prime engineering driver</h3>
-				<p>Architecture is a powerful tool to analyse operational needs,
-					to structure and to break down the system, software, or hardware
-					function in order to:</p>
+				<p>Architecture definition is a major part of engineering
+					activities, and notably includes analyzing operational needs,
+					structuring and decomposing the system, software, or hardware
+					assets in order to</p>
 				<ul>
 					<li>Provide significant information for decision-makers and
 						managers</li>
@@ -294,13 +298,13 @@
 					<li>Structure engineering in a well-defined, justified,
 						technical frame</li>
 					<li>Guide designers and developers to respect the product
-						definition drivers</li>
+						definition drivers.</li>
 				</ul>
 
-				<a rel="gallery" class="fancybox"
+				<p class="text-center"><a rel="gallery" class="fancybox"
 					href="images/arcadia/architecture_benefits.png"><img
-					class="center" alt="Architecture benefits"
-					src="images/arcadia/architecture_benefits.png" width="50%"></a><br>
+					alt="Architecture benefits"
+					src="images/arcadia/architecture_benefits.png" width="50%"></a></p><br>
 				<br>
 				<div id="arcadia-mbse-method"></div>
 				<h3>Arcadia, a model-based engineering method</h3>
@@ -316,17 +320,17 @@
 					ISO/IEC 42010) and emphasizes a clear distinction between need and
 					solution.</p>
 
-				<a rel="gallery" class="fancybox"
-					href="images/arcadia/triptique.png"><img class="center"
-					alt="Triptique" src="images/arcadia/triptique.png" width="50%"></a>
+				<p class="text-center"><a rel="gallery" class="fancybox"
+					href="images/arcadia/triptique.png"><img
+					alt="Triptique" src="images/arcadia/triptique.png" width="50%"></a></p>
 				<br> <br>
 
-				<p>Steps and activities of the method have been defined with a
+				<p>Perspectives and activities of the method have been defined in order to comply with a
 					few Golden Rules:</p>
 				<ul>
-					<li>Besides requirement engineering, drive an <b>operational
+					<li>Besides requirement engineering, drive an <b>operational and functional/nonfunctional
 							need analysis</b>, describing final user expectations, usage
-						conditions, and realistic IVVQ conditions
+						conditions, and realistic integration, verification and validation conditions
 					</li>
 					<li>Consider engineering through three mandatory interrelated
 						activities, at the same level of importance:
@@ -349,15 +353,15 @@
 					</li>
 					<li>Secure development and IVVQ through a <b>physical
 							architecture</b> which deals with technical and development issues,
-						favouring separation of concerns, efficient and safe component
-						interaction (e.g. layered architecture, generic behaviour and
+						favoring separation of concerns, efficient and safe component
+						interaction (e.g. layered architecture, generic behavior and
 						interaction patterns, component model, etc.)
 					</li>
 				</ul>
 
-				<a rel="gallery" class="fancybox"
-					href="images/arcadia/phases_arcadia.png"><img class="center"
-					alt="Phases" src="images/arcadia/phases_arcadia.png" width="50%"></a><br>
+				<p class="text-center"><a rel="gallery" class="fancybox"
+					href="images/arcadia/phases_arcadia.png"><img
+					alt="Phases" src="images/arcadia/phases_arcadia.png" width="50%"></a></p><br>
 				<br>
 
 				<div id="arcadia-features"></div>
@@ -369,16 +373,26 @@
 						co-engineering
 						<ul>
 							<li>A Capella model is built for each Arcadia engineering
-								phase. All of these models are related by justification links
-								and are processed as a whole for impact analysis.</li>
-							<li>Collaboration with engineering specialities is supported
-								by modelled engineering viewpoints to formalise constraints and
+								phase. All of these models are articulated through model
+								transformation, and related by justification links; they are
+								processed as a whole for impact analysis, notably in case of
+								required evolutions.</li>
+							<li>Collaboration with engineering specialties is supported
+								by modelled engineering viewpoints to formalize constraints and
 								to evaluate architecture adequacy with each of them</li>
 							<li>Collaboration with customer and subsystems engineering
 								relies on co-engineered models (e.g. physical architecture),
-								automatic initialisation of need model for sub-systems, and
+								automatic initialization of need model for sub-systems, and
 								impact analysis means between requirements and models of
 								different engineering levels.</li>
+							<li>Integration, verification, validation and qualification
+								(IVVQ) are driven by user capabilities, functional chains and
+								scenarios in the model, rather than by textual requirements</li>
+							<li>Elaboration of product line variabilities and
+								configurations is optimized and assisted based on operational
+								market segmentation, commercial portfolio contents and
+								architecture constraints/adaptations to product policy, all
+								described in the model.</li>
 						</ul>
 					</li>
 					<li>Tailored for architectural design
@@ -398,25 +412,25 @@
 					</li>
 					<li>Field-proven in real industrial situations
 						<ul>
-							<li>Arcadia is currently applied in most Thales business
-								units, in many countries, on very large or small projects, by
-								hundreds of users. A continuous challenging, improvement and
+							<li>Arcadia is currently applied in various domains and organizations, in many countries, on very large or small projects, by
+								thousands of users. A continuous challenging, improvement and
 								adaptation of both the method and its supporting workbench has
-								favoured a very fast dissemination.</li>
+								favored a very fast dissemination.</li>
 						</ul>
 					</li>
 					<li>Open to domain-specific added value</li>
 					<li>Adapted to several lifecycles and work sharing schemes</li>
 				</ul>
 
-
+				<p>Next paragraphs give a first description of major arcadia perspectives, for a given engineering level (system, sub-system, software or hardware part…).</p>
+			
 				<br>
 
 				<div id="arcadia-customer-need-analysis"></div>
 				<h3>Definition of the Problem - Customer Operational Need
 					Analysis</h3>
 				<p>
-					The first step focuses on analysing the customer needs and goals,
+					The first perspective focuses on analyzing the customer needs and goals,
 					expected missions and activities, far beyond system requirements.
 					This analysis aims at ensuring <b>adequate system definition
 						with regard to its real operational use and IVVQ conditions</b>.
@@ -427,17 +441,23 @@
 					activities (including operational use scenarios with dimensioning
 					parameters, and operational constraints such as safety, security,
 					lifecycle, etc.).</p>
+				<p>Watch the video below, illustrating this architecture level with a commented example: the level-crossing traffic control.</p>
+				<div class="row">
+	                <div class="col-md-12 text-center">
+						<p><a class="fancybox" href="https://www.youtube.com/embed/aefpyMBxB-4" data-fancybox-type="iframe"><img src="images/arcadia/mockups/arcadia-customer-operational-need-analysis.png" alt="" /></a></p>
+					</div>
+                </div>
 					
 				<div id="arcadia-system-need-analysis"></div>
 				<h3>Formalization of system requirements - System Need Analysis</h3>
 				<p>
-					The second step focuses on the <b>system itself</b>, in order to
+					The second perspective focuses on the <b>system itself</b>, in order to
 					define <b>how it can satisfy the former operational need</b>, along
-					with its expected behaviour and qualities. The following elements
-					are created during this step: Functions to be supported and related
-					exchanges, non-functional constraints (safety, security, etc.),
-					performance allocated to system boundary, role sharing and
-					interactions between system and operators, etc.
+					with its expected behavior and qualities. The following elements
+					are created during this step: Functions (or services) to be supported and related
+					exchanges, non-functional constraints (safety, security, etc.);
+					performance allocated to system boundary; role sharing and
+					interactions between system and operators; scenarios of usage, etc.
 				</p>
 				<p>
 					The main goal at this stage is to <b>check the feasibility of
@@ -457,88 +477,115 @@
 					architecture building, <b>"specify" the subsequent design</b>, and
 					therefore should be approved/validated with the Customer.
 				</p>
+				<p>Watch the video below, illustrating this architecture level with a commented example: the level-crossing traffic control.</p>
 				
+				<div class="row">
+	                <div class="col-md-12 text-center">
+						<p><a class="fancybox" href="https://www.youtube.com/embed/UESXFZFbi5Q" data-fancybox-type="iframe"><img src="images/arcadia/mockups/arcadia-system-need-analysis.png" alt="" /></a></p>
+					</div>
+                </div>
 				
 				<div id="arcadia-logical-architecture"></div>
-				<h3>Development of System Architectural Design - Logical
+				<h3>Definition of solution architecture - Logical
 					Architecture (Notional Solution)</h3>
 				<p>
-					This third step aims at building a <b>coarse-grained component
-						breakdown of the system</b> which is unlikely to be challenged later
-					in the development process. Starting from previous functional and
-					non-functional analysis refined results (functions, interfaces,
-					data flows, behaviours…), build one or several decompositions of
-					the system into logical components. These logical components will
-					later tend to be the basic decomposition for
-					development/sub-contracting, integration, reuse, product and
-					configuration management item definitions (but other criteria will
-					be taken into account to define the boundaries for these items)
+					This third perspective aims at building a
+					<b>coarse-grained component breakdown of the system</b> carrying
+					most important engineering decisions, and which is unlikely to be
+					challenged later in the development process. Starting from previous
+					functional and non-functional need analysis, a first definition of
+					the solution expected behavior is performed (using functions,
+					interfaces, data flows, behaviors…). In order to embed these
+					functions, one or several decompositions of the system into logical
+					components are to be built, each function being allocated to one
+					component. These logical components will later tend to be the basic
+					decomposition for development/sub-contracting, integration, reuse,
+					product and configuration management item definitions (but other
+					criteria will be taken into account to define the boundaries for
+					these items)
 				</p>
 
-				<a rel="gallery" class="fancybox"
+				<p class="text-center"><a rel="gallery" class="fancybox"
 					href="images/arcadia/composant-functions.png"><img
-					class="center" alt="Functions"
-					src="images/arcadia/composant-functions.png" width="50%"></a> <br>
+					alt="Functions"
+					src="images/arcadia/composant-functions.png" width="50%"></a></p> <br>
 				<br>
 
 				<p>
 					The building process has to take into account <b>architectural
 						drivers and priorities, viewpoints and associated design rules</b>,
-					etc. For te component breakdown to be stable in further engineering
+					etc. For the component breakdown to be stable in further engineering
 					phases, all major (non-functional) constraints (safety, security,
 					performance, IVV, cost, non-technical, Etc.) are taken into account
 					and compared to each other so as to find the best trade-off. This
 					method is described as "viewpoint-driven", where viewpoints
-					formalise the way these constraints impact the system architecture.
+					formalize the way these constraints impact the system architecture.
 				</p>
 				<p>Outputs of this engineering phase consist of the selected
-					logical architecture which is described by components and justified
-					interfaces definition, scenarios, modes and states, formalisation
-					of all viewpoints and the way they are taken into account in the
+					logical architecture which is described by a functional
+					description, components and justified interfaces definition,
+					scenarios, modes and states, along with the formalization of all
+					viewpoints and the way they are taken into account in the
 					components design.</p>
 				<p>Since the architecture has to be validated against the need
 					analysis, links with requirements and operational scenarios are
 					also to be produced.</p>
 
-				<a rel="gallery" class="fancybox"
+				<p class="text-center"><a rel="gallery" class="fancybox"
 					href="images/arcadia/arcadia_viewpoints.png"><img
-					class="center" alt="Viewpoints"
-					src="images/arcadia/arcadia_viewpoints.png" width="50%"></a> <br>
+					alt="Viewpoints"
+					src="images/arcadia/arcadia_viewpoints.png" width="50%"></a></p><br>
+				<p>Watch the video below, illustrating this architecture level with a commented example: the level-crossing traffic control.</p>
+				<div class="row">
+	                <div class="col-md-12 text-center">
+						<p><a class="fancybox" href="https://www.youtube.com/embed/4jSoVNb4gaQ" data-fancybox-type="iframe"><img src="images/arcadia/mockups/arcadia-logical-architecture.png" alt="" /></a></p>
+					</div>
+                </div>
 				<br>
 
 				<div id="arcadia-physical-architecture"></div>
-				<h3>Development of System Architecture - Physical Architecture</h3>
+				<h3>Definition of solution architecture - Physical Architecture</h3>
 				<p>
-					The fourth step has the same intent as the logical architecture
+					The fourth perspective has the same intent as the logical architecture
 					building, except that it defines the “final” architecture of the
 					system at this level of engineering. Once this is done the model is
 					considered <b>ready to develop</b> (by "lower" engineering levels).
-					Therefore, it introduces rationalisation, architectural patterns,
-					new technical services and components, and makes the logical
-					architecture evolve according to implementation, technical and
-					technological constraints and choices. The same viewpoint-driven
-					approach as for logical architecture building is used.
+					Therefore, it introduces further details and design decisions,
+					rationalization, architectural patterns, new technical services and
+					behavioral components, and makes the logical architecture vision
+					evolve according to implementation, technical and technological
+					constraints and choices. It notably introduces resource components
+					that will embed former behavioral components. The same
+					viewpoint-driven approach as for logical architecture building is
+					used.
 				</p>
 				<p>Outputs of this engineering phase consist of the selected
 					physical architecture which includes components to be produced,
-					formalisation of all viewpoints and the way they are taken into
+					formalization of all viewpoints and the way they are taken into
 					account in the components design. Links with requirements and
 					operational scenarios are also produced.</p>
+				<p>Watch the video below, illustrating this architecture level with a commented example: the level-crossing traffic control.</p>
+				<div class="row">
+	                <div class="col-md-12 text-center">
+						<p><a class="fancybox" href="https://www.youtube.com/embed/1EEcDtLAiXk" data-fancybox-type="iframe"><img src="images/arcadia/mockups/arcadia-physical-architecture.png" alt="" /></a></p>
+					</div>
+                </div>
 					
 					
 				<div id="arcadia-components-requirements"></div>
-				<h3>Formalize Components Requirements - Contracts for
+				<h3>Building Strategy - Contracts for
 					Development and IVVQ</h3>
-				<p>The fifth and last step is a contribution to an EPBS
-					(End-Product Breakdown Structure), taking benefits from the former
-					architectural work, to formalise the component requirements
-					definition and prepare a secured IVVQ.</p>
+				<p>The fifth and last perspective is a contribution to an EPBS
+					(End-Product Breakdown Structure), and models describing
+					specification of each sub-system, hardware or software component;
+					it takes benefits from the former architectural work, to formalize
+					the component requirements definition and prepare a secured IVVQ.</p>
 				<p>All previous hypotheses and imposed constraints associated to
-					the system architecture and components are summarised and checked
+					the system architecture and components are summarized and checked
 					here.</p>
 				<p>
-					Outputs from this engineering phase are mainly <b>component
-						integration contracts</b> collecting all necessary expected properties
+					Outputs from this engineering phase are mainly new models describing <b>component
+						integration contracts</b>, collecting all necessary expected properties
 					for each component to be developed.
 				</p>
 				
@@ -550,11 +597,11 @@
 						between systems, software, and hardware stakeholders</b>.
 				</p>
 
-				<a rel="gallery" class="fancybox"
+				<p class="text-center"><a rel="gallery" class="fancybox"
 					href="images/arcadia/coengineering-and-subcontracting.png"><img
-					class="center" alt="Coengineering"
+					alt="Coengineering"
 					src="images/arcadia/coengineering-and-subcontracting.png"
-					width="50%"></a> <br> <br>
+					width="50%"></a></p><br> <br>
 
 				<p>
 					Arcadia can be applied in a <b>recursive way at each level of
@@ -566,13 +613,14 @@
 				<p>The physical architecture at a given level of interest
 					defines the components to be developed at the level above,
 					according to the corresponding component integration contract.
-					Level "n" need analysis is restricted to each component scope, in
-					order to define its IVVQ context.</p>
+					Level "n" need analysis is restricted to each component scope and
+					neighborhood, in order to define its IVVQ context while preserving
+					Intellectual Property constraints.</p>
 
 
-				<a rel="gallery" class="fancybox"
-					href="images/arcadia/multi-level.png"><img class="center"
-					alt="Multi-level" src="images/arcadia/multi-level.png" width="50%" /></a>
+				<p class="text-center"><a rel="gallery" class="fancybox"
+					href="images/arcadia/multi-level.png"><img
+					alt="Multi-level" src="images/arcadia/multi-level.png" width="50%" /></a></p>
 				<br> <br>
 
 
@@ -599,12 +647,14 @@
 					<li>Dissemination in the engineering teams (training,
 						coaching)...</li>
 				</ul>
+
+				<h3>Adaptation to different Lifecycles</h3>
 				<p>
 					The recommended method described in this document takes best
 					benefit from a <b>top-down approach</b>:
 				</p>
 				<ul>
-					<li>Starting from operational need to define and validate
+					<li>Starting from operational and system need to define and validate
 						requirements</li>
 					<li>Building a "technology neutral" logical architecture
 						dealing with non-functional constraints</li>
@@ -625,7 +675,7 @@
 				<p>
 					This is the reason why Arcadia can be applied according to several
 					lifecycles and work sharing schemes. Great care has been taken in
-					the method, language and the Capella workbench to not impose one
+					the method, the language and the Capella workbench to not impose one
 					single engineering path (e.g. top-down) but to be adaptable to many
 					lifecycles: <b>Incremental, iterative, top-down, bottom-up,
 						middle-out</b>, Etc.. The method is inherently <b>iterative</b>.
@@ -641,11 +691,35 @@
 					<li>Logical architecture anticipating (part of) physical
 						architecture, e.g. to check for performance issues</li>
 					<li>Physical architecture adapting to subcontracting
-						constraints</li>
+						constraints, or built from assembling reusable, existing
+						components</li>
 					<li>Components contract definition iterating on physical
 						architecture to secure integration and refine contract parameters</li>
 				</ul>
 
+			</div>
+		</div>
+	</section>
+
+ 	<section class="bg_lightest_grey">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9">
+					<h6 class="text-uppercase txt_lightest_grey txt_weight_300 wow fadeInLeft" data-wow-delay=".1s">Jean-Luc Voirin</h6>
+					<h2 class="title wow fadeInDown" data-wow-delay=".1s">Model-based System and Architecture Engineering with the Arcadia Method</h2>
+					<p class="wow fadeInDown" data-wow-delay=".1s">Arcadia is a system engineering method based on the use of
+						models, with a focus on the collaborative definition, evaluation
+						and exploitation of its architecture.</p>
+					<p class="wow fadeInDown" data-wow-delay=".1s">This book describes the fundamentals of the method and its
+						contribution to engineering issues such as requirements
+						management, product line, system supervision, and integration,
+						verification and validation (IVV). It provides a reference for the
+						modeling language defined by Arcadia.</p>
+					<p><a class="btn btn-default wow fadeInUp" data-wow-delay=".2s" href="https://www.elsevier.com/books/model-based-system-and-architecture-engineering-with-the-arcadia-method/voirin/978-1-78548-169-7" target="_blank">Read More</a></p>
+				</div>
+				<div class="col-md-3 wow fadeInLeft" data-wow-delay=".2s">
+					<a href="https://www.elsevier.com/books/model-based-system-and-architecture-engineering-with-the-arcadia-method/voirin/978-1-78548-169-7" target="_blank"><img src="images/thumbs/thumb_book_jlvoirin.png"></a>
+				</div>
 			</div>
 		</div>
 	</section>
