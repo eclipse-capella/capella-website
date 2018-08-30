@@ -44,11 +44,9 @@ jQuery(document).ready(function(){
 	new WOW().init();
 
 (function(){
- jQuery('.smooth-scroll').scrollingTo();
-}());
-
+	jQuery('.smooth-scroll').scrollingTo();
+	}());
 });
-
 
 // fancybox
 $(".fancybox").fancybox({

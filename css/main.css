@@ -514,7 +514,6 @@ border: 1px solid #ccc;
 }
 
 #back-to-top {
-    position: fixed;
     right: 20px;
     top: auto;
     z-index: 10;
