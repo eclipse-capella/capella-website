@@ -36,15 +36,15 @@
 
 <!-- Cookie content -->
 <link rel="stylesheet" type="text/css" href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
-<script src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js"></script>
+<script async src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js"></script>
 
-		<!-- Eclipse Foundation Google Tag Manager -->
-		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-		})(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
-		<!-- End Google Tag Manager -->
+<!-- Eclipse Foundation Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+<!-- End Google Tag Manager -->
 
 <!-- Template Javascript Files
         ================================================== -->
@@ -64,7 +64,7 @@
 <!-- wow js -->
 <script src="js/wow.min.js"></script>
 <!-- template main js -->
-<script src="js/main.js"></script>
+<script async src="js/main.js"></script>
 
 </head>
 <body ng-app="capella" data-deferred-cloak>
@@ -187,7 +187,26 @@
 							</div>
 						</div>
 					</div>
+					<div class="accordion-group">
+						<div class="accordion-heading">
+							<a class="accordion-toggle collapsed" data-toggle="collapse"
+								data-parent="#accordion2" href="#pvmt"><h3>Property Values Management Tool</h3> <span class="descr txt_lightest_grey">Author: Thales | License: EPL</span><span class="fa fa-caret-down txt_yellow">&nbsp;
+							</span></a>
+						</div>
+						<div id="pvmt" class="accordion-body collapse"
+							style="height: 0px;">
+							<div class="accordion-inner">
+								<p>This add-on allows end-users to easily define their own specific properties on Arcadia concepts, value these properties for each elements, and automatically change the graphical aspect of model elements in diagrams.</p>
+								<p>This add-on is developed by a Thales business unit (DMS-FR) and is distributed under the Eclipse Public License. It is not hosted by the Eclipse Foundation and it is not developped under the Eclipse Development Process.</p>
+								<p>
+									<a href="https://s3-eu-west-1.amazonaws.com/obeo-mirror-capella-releases/thales-addons/1.2/neon/PVMT-43.2.0-DS.zip">Download <i
+										class="fa fa-download" aria-hidden="true"></i></a>
+								</p>
 
+							</div>
+						</div>
+					</div>
+				
 					<div class="accordion-group">
 						<div class="accordion-heading">
 							<a class="accordion-toggle" data-toggle="collapse"
