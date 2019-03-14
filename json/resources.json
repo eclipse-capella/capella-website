@@ -14,7 +14,7 @@
                 "icon": "images/icons/icon_business_value.png"
             },
             {
-                "title": "Meeting and Discussing",
+                "title": "Meeting<br>and Discussing",
                 "descr": "Where can I interact with the Capella community?",
                 "anchor": "meeting-discussing",
                 "icon": "images/icons/icon_meeting_discussing.png"
@@ -26,7 +26,7 @@
                 "icon": "images/icons/icon_advanced_usages.png"
             },
             {
-                "title": "Add-ons and Other Tools",
+                "title": "Add-ons<br>and Other Tools",
                 "descr": "Which other tools can I integrate with Capella? ",
                 "anchor": "addons-tools",
                 "icon": "images/icons/icon_addons_tools.png"
@@ -40,7 +40,7 @@
         ],
         "types":[
             {
-                "title": "Videos",
+                "title": "Video",
                 "descr": "Webinars, tutorials and talks",
                 "anchor": "videos",
                 "icon": "images/icons/icon_videos.png"
@@ -52,25 +52,25 @@
                "icon": "images/icons/icon_documentation.png"
             },
             {
-               "title": "Articles",
+               "title": "Article",
                "descr": "Papers, tutorial procedures, ...",
                "anchor": "articles",
                "icon": "images/icons/icon_articles.png"
             },
             {
-               "title": "Fact Sheets",
+               "title": "Fact Sheet",
                "descr": "Concise presentations",
                "anchor": "fact-sheets",
                "icon": "images/icons/icon_fact_sheets.png"
             },
             {
-               "title": "Slideshows",
+               "title": "Slideshow",
                "descr": "Didactic Capella models ",
                "anchor": "slideshows",
                "icon": "images/icons/icon_slideshows.png"
             },
             {
-               "title": "Sample Models",
+               "title": "Sample Model",
                "descr": "Didactic Capella models",
                "anchor": "sample-models",
                "icon": "images/icons/icon_sample_models.png"
@@ -91,7 +91,7 @@
                 "language": "EN",
                 "topic": "Advanced Usages",
                 "topic_order": "99",
-                "type": "Articles",
+                "type": "Article",
                 "type_order": "1",
                 "link": "http://download.polarsys.org/capella/publis/IEEE_Capella_SysML_paper.pdf",
                 "thumb": "images/thumbs/resources/thumb_iee-syscon.jpg"
@@ -104,7 +104,7 @@
                 "language": "EN",
                 "topic": "Advanced Usages",
                 "topic_order": "99",
-                "type": "Articles",
+                "type": "Article",
                 "type_order": "99",
                 "link": "https://www.erts2018.org/uploads/program/ERTS_2018_paper_14.pdf",
                 "thumb": ""
@@ -117,7 +117,7 @@
                 "language": "EN",
                 "topic": "Advanced Usages",
                 "topic_order": "99",
-                "type": "Articles",
+                "type": "Article",
                 "type_order": "99",
                 "link": "https://www.researchgate.net/publication/308507803_Model_Driven_Engineering_with_Capella_and_AADL",
                 "thumb": ""
@@ -195,7 +195,7 @@
                 "language": "EN",
                 "topic": "Advanced Usages",
                 "topic_order": "99",
-                "type": "Slideshows",
+                "type": "Slideshow",
                 "type_order": "99",
                 "link": "http://download.polarsys.org/capella/publis/INCOSE_Capella_SysML_slides.pdf",
                 "thumb": ""
@@ -208,7 +208,7 @@
                 "language": "EN",
                 "topic": "Advanced Usages",
                 "topic_order": "99",
-                "type": "Slideshows",
+                "type": "Slideshow",
                 "type_order": "99",
                 "link": "http://www.clarity-se.org/wp-content/uploads/2017/10/Session_4.6_Stephane_Bonnet.pdf",
                 "thumb": ""
@@ -221,7 +221,7 @@
                 "language": "EN",
                 "topic": "Advanced Usages",
                 "topic_order": "99",
-                "type": "Videos",
+                "type": "Video",
                 "type_order": "99",
                 "link": "https://www.youtube.com/watch?v=zd6ea5p97NM",
                 "thumb": ""
@@ -234,7 +234,7 @@
                 "language": "EN",
                 "topic": "Advanced Usages",
                 "topic_order": "99",
-                "type": "Videos",
+                "type": "Video",
                 "type_order": "99",
                 "link": "https://www.youtube.com/watch?v=74eKWrSs8hI",
                 "thumb": ""
@@ -247,7 +247,7 @@
                 "language": "EN",
                 "topic": "Advanced Usages",
                 "topic_order": "99",
-                "type": "Videos",
+                "type": "Video",
                 "type_order": "99",
                 "link": "https://www.youtube.com/watch?v=ieVmw54YE94",
                 "thumb": ""
@@ -260,7 +260,7 @@
                 "language": "EN",
                 "topic": "Advanced Usages",
                 "topic_order": "99",
-                "type": "Videos",
+                "type": "Video",
                 "type_order": "99",
                 "link": "https://www.youtube.com/watch?v=-YB169e54Sg",
                 "thumb": ""
@@ -273,7 +273,7 @@
                 "language": "EN",
                 "topic": "Advanced Usages",
                 "topic_order": "99",
-                "type": "Videos",
+                "type": "Video",
                 "type_order": "99",
                 "link": "https://www.youtube.com/watch?v=I28EhAXe-i8",
                 "thumb": ""
@@ -286,7 +286,7 @@
                 "language": "EN",
                 "topic": "Business Value",
                 "topic_order": "99",
-                "type": "Articles",
+                "type": "Article",
                 "type_order": "99",
                 "link": "http://www.icas.org/ICAS_ARCHIVE/ICAS2010/PAPERS/172.PDF",
                 "thumb": ""
@@ -299,7 +299,7 @@
                 "language": "EN",
                 "topic": "Business Value",
                 "topic_order": "99",
-                "type": "Articles",
+                "type": "Article",
                 "type_order": "99",
                 "link": "https://www.eclipse.org/community/eclipse_newsletter/2017/december/article1.php",
                 "thumb": ""
@@ -312,7 +312,7 @@
                 "language": "EN",
                 "topic": "Business Value",
                 "topic_order": "99",
-                "type": "Articles",
+                "type": "Article",
                 "type_order": "99",
                 "link": "http://www.eclipse.org/community/eclipse_newsletter/2017/december/article3.php",
                 "thumb": ""
@@ -325,7 +325,7 @@
                 "language": "EN",
                 "topic": "Business Value",
                 "topic_order": "1",
-                "type": "Fact Sheets",
+                "type": "Fact Sheet",
                 "type_order": "2",
                 "link": "https://polarsys.org/capella/resources/pdf/Case_Study_ArianeGroup.pdf",
                 "thumb": "images/thumbs/resources/thumb_case-study-arianegroup.jpg"
@@ -338,7 +338,7 @@
                 "language": "EN",
                 "topic": "Business Value",
                 "topic_order": "2",
-                "type": "Fact Sheets",
+                "type": "Fact Sheet",
                 "type_order": "3",
                 "link": "https://polarsys.org/capella/resources/pdf/Case_Study_Continental.pdf",
                 "thumb": "images/thumbs/resources/thumb_case-study-continental.jpg"
@@ -351,7 +351,7 @@
                 "language": "EN",
                 "topic": "Business Value",
                 "topic_order": "3",
-                "type": "Fact Sheets",
+                "type": "Fact Sheet",
                 "type_order": "99",
                 "link": "https://polarsys.org/capella/resources/pdf/Case_Study_Framatome.pdf",
                 "thumb": "images/thumbs/resources/thumb_case-study-framatome.jpg"
@@ -364,7 +364,7 @@
                 "language": "EN",
                 "topic": "Business Value",
                 "topic_order": "99",
-                "type": "Slideshows",
+                "type": "Slideshow",
                 "type_order": "1",
                 "link": "https://www.obeo.fr/ressources/presentations/What-Makes-Capella-Different-SBonnet-Thales.pdf",
                 "thumb": "images/thumbs/resources/thumb_reasons-capella.jpg"
@@ -377,7 +377,7 @@
                 "language": "EN",
                 "topic": "Business Value",
                 "topic_order": "99",
-                "type": "Slideshows",
+                "type": "Slideshow",
                 "type_order": "99",
                 "link": "https://sesa.org.au/downloads-usermenu-33/doc_download/416-mbse-backbone-of-the-thales-engineering-manifesto",
                 "thumb": ""
@@ -390,7 +390,7 @@
                 "language": "EN",
                 "topic": "Business Value",
                 "topic_order": "99",
-                "type": "Slideshows",
+                "type": "Slideshow",
                 "type_order": "99",
                 "link": "http://download.polarsys.org/capella/publis/MBSE_Canberra-MBSE_Use_Cases.pdf",
                 "thumb": ""
@@ -403,7 +403,7 @@
                 "language": "EN",
                 "topic": "Business Value",
                 "topic_order": "99",
-                "type": "Slideshows",
+                "type": "Slideshow",
                 "type_order": "99",
                 "link": "http://www.clarity-se.org/wp-content/uploads/2015/05/Acquisition-and-Early-Evaluation-of-Architecture-with-Arcadia-and-Capella-Stephane-Bonnet.pdf",
                 "thumb": ""
@@ -416,7 +416,7 @@
                 "language": "EN",
                 "topic": "Business Value",
                 "topic_order": "99",
-                "type": "Slideshows",
+                "type": "Slideshow",
                 "type_order": "99",
                 "link": "https://fr.slideshare.net/Obeo_corp/capella-day-toulouse-atl2-modernization-when-mbse-keeps-its-promises",
                 "thumb": ""
@@ -429,7 +429,7 @@
                 "language": "EN",
                 "topic": "Business Value",
                 "topic_order": "99",
-                "type": "Slideshows",
+                "type": "Slideshow",
                 "type_order": "99",
                 "link": "https://fr.slideshare.net/Obeo_corp/capelladay-toulouse-why-are-arcadia-and-capella-relevant-for-mbse",
                 "thumb": ""
@@ -442,7 +442,7 @@
                 "language": "EN",
                 "topic": "Business Value",
                 "topic_order": "99",
-                "type": "Slideshows",
+                "type": "Slideshow",
                 "type_order": "99",
                 "link": "https://fr.slideshare.net/Obeo_corp/capella-day-toulouse-driving-intelligent-transportation-systems-with-capella",
                 "thumb": ""
@@ -455,7 +455,7 @@
                 "language": "EN",
                 "topic": "Business Value",
                 "topic_order": "99",
-                "type": "Slideshows",
+                "type": "Slideshow",
                 "type_order": "99",
                 "link": "https://docplayer.net/11338395-Large-scale-ds-m-l-deployment-in-thales.html",
                 "thumb": ""
@@ -468,7 +468,7 @@
                 "language": "EN",
                 "topic": "Business Value",
                 "topic_order": "99",
-                "type": "Slideshows",
+                "type": "Slideshow",
                 "type_order": "99",
                 "link": "https://www.obeo.fr/ressources/presentations/Challenges-Multi-disciplinary-Systems-Engineering-CGrise-Ariane-Group.pdf",
                 "thumb": ""
@@ -481,7 +481,7 @@
                 "language": "EN",
                 "topic": "Business Value",
                 "topic_order": "99",
-                "type": "Slideshows",
+                "type": "Slideshow",
                 "type_order": "99",
                 "link": "https://www.obeo.fr/ressources/presentations/Use-Capella-Bid-Phase-Railway-Signalling-Projects-Experiences-Challenges-MSchaefer-Thales.pdf",
                 "thumb": ""
@@ -494,9 +494,22 @@
                 "language": "EN",
                 "topic": "Business Value",
                 "topic_order": "99",
-                "type": "Videos",
+                "type": "Video",
                 "type_order": "99",
-                "link": "https://www.youtube.com/watch?v=7LaUVdvSwR0&t=2s",
+                "link": "https://www.youtube.com/watch?v=7LaUVdvSwR0",
+                "thumb": ""
+            },
+            {
+                "title": "Deploying Model-Based Systems Engineering in Thales Alenia Space Italia",
+                "descr": "",
+                "author": "Elvira Caliò, Fabio Di Giorgio, Mauro Pasquinelli",
+                "year": "2016",
+                "language": "EN",
+                "topic": "Business Value",
+                "topic_order": "99",
+                "type": "Article",
+                "type_order": "99",
+                "link": "http://ceur-ws.org/Vol-1728/paper14.pdf",
                 "thumb": ""
             },
             {
@@ -507,7 +520,7 @@
                 "language": "EN",
                 "topic": "Development",
                 "topic_order": "1",
-                "type": "Articles",
+                "type": "Article",
                 "type_order": "3",
                 "link": "http://www.eclipse.org/community/eclipse_newsletter/2017/december/article4.php",
                 "thumb": "images/thumbs/resources/thumb_capella-extensibility.jpg"
@@ -520,7 +533,7 @@
                 "language": "EN",
                 "topic": "Development",
                 "topic_order": "99",
-                "type": "Articles",
+                "type": "Article",
                 "type_order": "99",
                 "link": "http://www.eclipse.org/community/eclipse_newsletter/2017/december/article2.php",
                 "thumb": ""
@@ -572,7 +585,7 @@
                 "language": "EN",
                 "topic": "Development",
                 "topic_order": "99",
-                "type": "Slideshows",
+                "type": "Slideshow",
                 "type_order": "99",
                 "link": "https://www.slideshare.net/Obeo_corp/siriuscon-2018-building-capella-on-top-of-sirius-a-development-perspective?ref=https://www.siriuscon.org/",
                 "thumb": ""
@@ -585,7 +598,7 @@
                 "language": "EN",
                 "topic": "Getting Started",
                 "topic_order": "3",
-                "type": "Articles",
+                "type": "Article",
                 "type_order": "2",
                 "link": "https://esd.sutd.edu.sg/40014-capella-tutorial/index.html",
                 "thumb": "images/thumbs/resources/thumb_toy-catapult.jpg"
@@ -637,7 +650,7 @@
                 "language": "EN",
                 "topic": "Getting Started",
                 "topic_order": "99",
-                "type": "Fact Sheets",
+                "type": "Fact Sheet",
                 "type_order": "1",
                 "link": "https://www.polarsys.org/capella/resources/Datasheet_Arcadia.pdf",
                 "thumb": "images/thumbs/resources/thumb_arcadia-datasheet.jpg"
@@ -650,7 +663,7 @@
                 "language": "EN",
                 "topic": "Getting Started",
                 "topic_order": "99",
-                "type": "Sample Models",
+                "type": "Sample Model",
                 "type_order": "1",
                 "link": "https://wiki.polarsys.org/Capella/Samples/LCTC",
                 "thumb": "images/thumbs/resources/thumb_level-crossing-traffic-control.jpg"
@@ -663,7 +676,7 @@
                 "language": "EN",
                 "topic": "Getting Started",
                 "topic_order": "99",
-                "type": "Sample Models",
+                "type": "Sample Model",
                 "type_order": "2",
                 "link": "https://wiki.polarsys.org/Capella/Samples/IFE",
                 "thumb": "images/thumbs/resources/thumb_in-flight-entertainment.jpg"
@@ -676,7 +689,7 @@
                 "language": "EN",
                 "topic": "Getting Started",
                 "topic_order": "99",
-                "type": "Sample Models",
+                "type": "Sample Model",
                 "type_order": "3",
                 "link": "https://wiki.polarsys.org/Capella/Samples/ClockRadio",
                 "thumb": "images/thumbs/resources/thumb_capella-clock-radio.jpg"
@@ -689,7 +702,7 @@
                 "language": "FR",
                 "topic": "Getting Started",
                 "topic_order": "99",
-                "type": "Sample Models",
+                "type": "Sample Model",
                 "type_order": "99",
                 "link": "https://wiki.polarsys.org/Capella/Samples/ElectronicBell",
                 "thumb": ""
@@ -702,7 +715,7 @@
                 "language": "EN",
                 "topic": "Getting Started",
                 "topic_order": "1",
-                "type": "Sample Models",
+                "type": "Sample Model",
                 "type_order": "99",
                 "link": "http://download.polarsys.org/capella/publis/An_Introduction_to_Arcadia_20150115.pdf",
                 "thumb": "images/thumbs/resources/thumb_mbse-architectural-design.jpg"
@@ -715,7 +728,7 @@
                 "language": "EN",
                 "topic": "Getting Started",
                 "topic_order": "99",
-                "type": "Slideshows",
+                "type": "Slideshow",
                 "type_order": "99",
                 "link": "https://www.obeo.fr/ressources/presentations/Guide-Arcadia-Capella-Successful-Adoption-PRoques-PRFC.pdf",
                 "thumb": ""
@@ -728,9 +741,9 @@
                 "language": "EN",
                 "topic": "Getting Started",
                 "topic_order": "2",
-                "type": "Videos",
+                "type": "Video",
                 "type_order": "1",
-                "link": "https://www.youtube.com/watch?v=aefpyMBxB-4&t=402s",
+                "link": "https://www.youtube.com/watch?v=aefpyMBxB-4",
                 "thumb": "images/thumbs/resources/thumb_webinar-capella-difference.jpg"
             },
             {
@@ -741,7 +754,7 @@
                 "language": "EN",
                 "topic": "Getting Started",
                 "topic_order": "99",
-                "type": "Videos",
+                "type": "Video",
                 "type_order": "3",
                 "link": "https://youtu.be/qFfj8K3uj3Y",
                 "thumb": "images/thumbs/resources/thumb_webinar-capella-sysml-arcadia.jpg"
@@ -754,7 +767,7 @@
                 "language": "EN",
                 "topic": "Meeting and Discussing",
                 "topic_order": "99",
-                "type": "Articles",
+                "type": "Article",
                 "type_order": "99",
                 "link": "https://en.wikipedia.org/wiki/Capella_(engineering)#Community_and_communication",
                 "thumb": ""
@@ -832,7 +845,7 @@
                 "language": "EN",
                 "topic": "Meeting and Discussing",
                 "topic_order": "99",
-                "type": "Slideshows",
+                "type": "Slideshow",
                 "type_order": "2",
                 "link": "https://fr.slideshare.net/Obeo_corp/eclipsecon-france-2018-unconference-capella-workshop",
                 "thumb": "images/thumbs/resources/thumb_capella-workshop.jpg"
@@ -845,20 +858,20 @@
                 "language": "EN",
                 "topic": "Meeting and Discussing",
                 "topic_order": "99",
-                "type": "Slideshows",
+                "type": "Slideshow",
                 "type_order": "99",
                 "link": "https://www.obeo.fr/ressources/presentations/Capella-Industry-Consortium-GBlondelle-Eclipse.pdf",
                 "thumb": ""
             },
             {
-                "title": "Videos",
+                "title": "Video",
                 "descr": "",
                 "author": "",
                 "year": "",
                 "language": "EN",
                 "topic": "Meeting and Discussing",
                 "topic_order": "99",
-                "type": "Videos",
+                "type": "Video",
                 "type_order": "99",
                 "link": "https://www.youtube.com/channel/UCfgwbb2h10V3tgJ59sbGBnQ",
                 "thumb": ""
@@ -871,7 +884,7 @@
                 "language": "EN",
                 "topic": "Add-ons and Other Tools",
                 "topic_order": "99",
-                "type": "Articles",
+                "type": "Article",
                 "type_order": "99",
                 "link": "http://www.eclipse.org/community/eclipse_newsletter/2017/december/article5.php",
                 "thumb": ""
@@ -897,7 +910,7 @@
                 "language": "EN",
                 "topic": "Add-ons and Other Tools",
                 "topic_order": "1",
-                "type": "Slideshows",
+                "type": "Slideshow",
                 "type_order": "99",
                 "link": "https://www.obeo.fr/ressources/presentations/Team-Collaboration-Document-Generation-LDelaigue-Obeo.pdf",
                 "thumb": "images/thumbs/resources/thumb_capella-m2doc.jpg"
@@ -910,7 +923,7 @@
                 "language": "EN",
                 "topic": "Add-ons and Other Tools",
                 "topic_order": "2",
-                "type": "Slideshows",
+                "type": "Slideshow",
                 "type_order": "99",
                 "link": "https://www.obeo.fr/ressources/presentations/Managing-Capella-Assets-Yuzu-BViaud-Artal.pdf",
                 "thumb": "images/thumbs/resources/thumb_capella-yuzu.jpg"
@@ -923,7 +936,7 @@
                 "language": "EN",
                 "topic": "Add-ons and Other Tools",
                 "topic_order": "3",
-                "type": "Slideshows",
+                "type": "Slideshow",
                 "type_order": "99",
                 "link": "https://fr.slideshare.net/Obeo_corp/capelladay-toulouse-systematic-reuse-of-capella-assets-with-purevariants-how-to-capitalize-on-your-assets",
                 "thumb": "images/thumbs/resources/thumb_systematic-reuse-capella.jpg"
@@ -936,7 +949,7 @@
                 "language": "EN",
                 "topic": "Add-ons and Other Tools",
                 "topic_order": "99",
-                "type": "Slideshows",
+                "type": "Slideshow",
                 "type_order": "99",
                 "link": "https://fr.slideshare.net/Obeo_corp/capelladay-toulouse-designing-a-test-mean-alla-capella",
                 "thumb": ""
@@ -949,7 +962,7 @@
                 "language": "EN",
                 "topic": "Add-ons and Other Tools",
                 "topic_order": "99",
-                "type": "Videos",
+                "type": "Video",
                 "type_order": "99",
                 "link": "https://www.youtube.com/watch?v=_ScqY5CVZoI",
                 "thumb": ""
@@ -962,7 +975,7 @@
                 "language": "EN",
                 "topic": "",
                 "topic_order": "99",
-                "type": "Slideshows",
+                "type": "Slideshow",
                 "type_order": "3",
                 "link": "https://www.obeo.fr/ressources/presentations/Arcadia-Example-Introduction-JLVoirin-Thales.pdf",
                 "thumb": "images/thumbs/resources/thumb_sample-arcadia.jpg"
@@ -975,7 +988,7 @@
                 "language": "EN",
                 "topic": "",
                 "topic_order": "99",
-                "type": "Slideshows",
+                "type": "Slideshow",
                 "type_order": "99",
                 "link": "http://download.polarsys.org/capella/samples/IFE/Capella_IFE_Sample_Model_1.0_Highlights.pdf",
                 "thumb": ""
@@ -988,7 +1001,7 @@
                 "language": "EN",
                 "topic": "",
                 "topic_order": "99",
-                "type": "Slideshows",
+                "type": "Slideshow",
                 "type_order": "99",
                 "link": "https://download.polarsys.org/capella/samples/ClockRadio/ClockRadioExample0216.pdf",
                 "thumb": ""
@@ -1001,7 +1014,7 @@
                 "language": "EN",
                 "topic": "",
                 "topic_order": "99",
-                "type": "Videos",
+                "type": "Video",
                 "type_order": "2",
                 "link": "https://youtu.be/ZsGRHMSGA3U",
                 "thumb": "images/thumbs/resources/thumb_capella-time-lapse.jpg"
@@ -1014,7 +1027,7 @@
                 "language": "EN",
                 "topic": "",
                 "topic_order": "99",
-                "type": "Videos",
+                "type": "Video",
                 "type_order": "99",
                 "link": "https://www.youtube.com/embed/TawT_G9DNNc",
                 "thumb": ""
@@ -1027,7 +1040,7 @@
                 "language": "EN",
                 "topic": "",
                 "topic_order": "99",
-                "type": "Videos",
+                "type": "Video",
                 "type_order": "99",
                 "link": "https://www.youtube.com/embed/UESXFZFbi5Q",
                 "thumb": ""
@@ -1040,7 +1053,7 @@
                 "language": "EN",
                 "topic": "",
                 "topic_order": "99",
-                "type": "Videos",
+                "type": "Video",
                 "type_order": "99",
                 "link": "https://www.youtube.com/embed/4jSoVNb4gaQ",
                 "thumb": ""
@@ -1053,7 +1066,7 @@
                 "language": "EN",
                 "topic": "",
                 "topic_order": "99",
-                "type": "Videos",
+                "type": "Video",
                 "type_order": "99",
                 "link": "https://www.youtube.com/embed/1EEcDtLAiXk",
                 "thumb": ""
@@ -1066,7 +1079,7 @@
                 "language": "FR",
                 "topic": "",
                 "topic_order": "99",
-                "type": "Videos",
+                "type": "Video",
                 "type_order": "99",
                 "link": "https://www.youtube.com/watch?v=6B0AtWEdj9I",
                 "thumb": ""
@@ -1079,7 +1092,7 @@
                 "language": "FR",
                 "topic": "",
                 "topic_order": "99",
-                "type": "Videos",
+                "type": "Video",
                 "type_order": "99",
                 "link": "https://www.youtube.com/watch?v=OHBgrSGVdLY",
                 "thumb": ""

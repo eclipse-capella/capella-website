@@ -237,6 +237,9 @@ section {
 .community{
   background: url('../images/banners/banner_community.jpg') no-repeat 50%;
 }
+.resources{
+  background: url('../images/banners/banner_resources.jpg') no-repeat 50%;
+}
 .solution{
   background: url('../images/banners/banner_solution.jpg') no-repeat 50%;
 }
