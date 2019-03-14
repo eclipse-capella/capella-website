@@ -141,7 +141,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							var title = " ";
 							var descr = " ";
 
-							category_anchor = "<div class='col-md-2'><a class='wow smooth-scroll' href='resources.html#topic-" + data.resources.topics[i].anchor + "' data-row='topic-" + data.resources.topics[i].anchor + "'><img src='" + data.resources.topics[i].icon + "' /><p>" + data.resources.topics[i].title + "</p></a></div>";
+							category_anchor = "<div class='col-md-2 col-xs-12'><a class='wow smooth-scroll' href='resources.html#topic-" + data.resources.topics[i].anchor + "' data-row='#topic-" + data.resources.topics[i].anchor + "'><img src='" + data.resources.topics[i].icon + "' /><p>" + data.resources.topics[i].title + "</p></a></div>";
 
 							title += "<h3>" + data.resources.topics[i].title + "</h3>";
 							descr += "<span class='descr txt_indigo'>" + data.resources.topics[i].descr + "</span><span class='fa fa-caret-down txt_yellow'>&nbsp;</span></a></div>";
@@ -162,11 +162,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 								}
 								if(data.resources.items[j].topic == data.resources.topics[i].title){
 									if(data.resources.items[j].topic_order != "99"){
-										accordion_inner += "<div class='accordion-inner'><div class='col-md-4'><a href='" 
-											+ data.resources.items[j].link + "' target='_blank'><img src='" + data.resources.items[j].thumb + "' alt='" + data.resources.items[j].title + "' /></a></div><div class='col-md-8'><h4 class='linked_title'><a href='" 
+										accordion_inner += "<div class='accordion-inner with_thumb'><div class='col-md-8 col-xs-8'><h4 class='linked_title'><a href='" 
 											+ data.resources.items[j].link + "' target='_blank'>" 
 											+ data.resources.items[j].title + "</a></h4><p class='descr txt_indigo txt_weight_300'>" + data.resources.items[j].type + item_infos + " | " + data.resources.items[j].language + "</p><p>" 
-											+ data.resources.items[j].descr + "</p></div><div class='clearfix'></div></div>";
+											+ data.resources.items[j].descr + "</p></div><div class='col-md-4 col-xs-12'><a href='" 
+											+ data.resources.items[j].link + "' target='_blank'><img src='" + data.resources.items[j].thumb + "' alt='" + data.resources.items[j].title + "' /></a></div><div class='clearfix'></div></div>";
 									}
 									else{
 										accordion_inner += "<div class='accordion-inner'><h4 class='linked_title'><a href='" 
@@ -192,7 +192,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							var title = " ";
 							var descr = " ";
 
-							category_anchor = "<div class='col-md-2'><a class='wow smooth-scroll' href='resources.html#type-" + data.resources.types[k].anchor + "' data-row='type-" + data.resources.types[k].anchor + "'><img src='" + data.resources.types[k].icon + "' /><p>" + data.resources.types[k].title + "</p></a></div>";
+							category_anchor = "<div class='col-md-2 col-xs-12'><a class='wow smooth-scroll' href='resources.html#type-" + data.resources.types[k].anchor + "' data-row='#type-" + data.resources.types[k].anchor + "'><img src='" + data.resources.types[k].icon + "' /><p>" + data.resources.types[k].title + "</p></a></div>";
 
 							title += "<h3>" + data.resources.types[k].title + "</h3>";
 							descr += "<span class='descr txt_indigo'>" + data.resources.types[k].descr + "</span><span class='fa fa-caret-down txt_yellow'>&nbsp;</span></a></div>";
@@ -213,11 +213,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 								}
 								if(data.resources.items[m].type == data.resources.types[k].title){
 									if(data.resources.items[m].type_order != "99"){
-										accordion_inner += "<div class='accordion-inner'><div class='col-md-4'><a href='" 
-											+ data.resources.items[m].link + "' target='_blank'><img src='" + data.resources.items[m].thumb + "' alt='" + data.resources.items[m].title + "' /></div><div class='col-md-8'><h4 class='linked_title'><a href='" 
+										accordion_inner += "<div class='accordion-inner with_thumb'><div class='col-md-8 col-xs-8'><h4 class='linked_title'><a href='" 
 											+ data.resources.items[m].link + "' target='_blank'>" 
 											+ data.resources.items[m].title + "</a></h4><p class='descr txt_indigo txt_weight_300'>" + data.resources.items[m].topic + item_infos + " | " + data.resources.items[m].language + "</p><p>" 
-											+ data.resources.items[m].descr + "</p></div><div class='clearfix'></div></div>";
+											+ data.resources.items[m].descr + "</p></div><div class='col-md-4 col-xs-12'><a href='"
+											+ data.resources.items[m].link + "' target='_blank'><img src='" + data.resources.items[m].thumb + "' alt='" + data.resources.items[m].title + "' /></a></div><div class='clearfix'></div></div>";
 									}
 									else{
 										accordion_inner += "<div class='accordion-inner'><h4 class='linked_title'><a href='" 
@@ -235,6 +235,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							document.getElementById("types_accordion").innerHTML = "<div class='categories_anchors linked_title'>" + types_categories_row + "</div><div class='clearfix'></div>" + types_accordion_group;
 						}
 
+						new WOW().init();
+						jQuery('.smooth-scroll').scrollingTo();
 					});
 				</script>				
 		</div>
