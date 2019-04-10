@@ -125,7 +125,7 @@
             {
                 "title": "Webinar - What's new in Capella 1.3?",
                 "descr": "",
-                "author": "Stéphane Bonnet",
+                "author": "StÃ©phane Bonnet",
                 "year": "2019",
                 "language": "EN",
                 "topic": "Learn More",
@@ -138,7 +138,7 @@
             {
                 "title": "Webinar - Modeling states and modes with Arcadia and Capella: method and tool perspectives",
                 "descr": "",
-                "author": "Stéphane Bonnet",
+                "author": "StÃ©phane Bonnet",
                 "year": "2018",
                 "language": "EN",
                 "topic": "Learn More",
@@ -164,7 +164,7 @@
             {
                 "title": "Webinar - Strategies and tools for model reuse with Capella",
                 "descr": "",
-                "author": "Stéphane Bonnet, Benoit Viaud",
+                "author": "StÃ©phane Bonnet, Benoit Viaud",
                 "year": "2018",
                 "language": "EN",
                 "topic": "Learn More",
@@ -188,9 +188,9 @@
                 "thumb": ""
             },
             {
-                "title": "Introduction aux systèmes embarqués temps réel",
+                "title": "Introduction aux systÃ¨mes embarquÃ©s temps rÃ©el",
                 "descr": "",
-                "author": "Henri Bauer , Emmanuel Grolleau , Jérôme Hugues , Yassine Ouhammou",
+                "author": "Henri Bauer , Emmanuel Grolleau , JÃ©rÃ´me Hugues , Yassine Ouhammou",
                 "year": "2018",
                 "language": "FR",
                 "topic": "Learn More",
@@ -242,7 +242,7 @@
             {
                 "title": "Webinar - What's New in Capella 1.2?",
                 "descr": "",
-                "author": "Stéphane Bonnet",
+                "author": "StÃ©phane Bonnet",
                 "year": "2017",
                 "language": "EN",
                 "topic": "Learn More",
@@ -255,7 +255,7 @@
              {
                 "title": "ERTS - Model Driven Engineering with Capella and AADL",
                 "descr": "",
-                "author": "Bassem Ouni, Pierre Gaufillet, Eric Jenn, Jérôme Hugues",
+                "author": "Bassem Ouni, Pierre Gaufillet, Eric Jenn, JÃ©rÃ´me Hugues",
                 "year": "2016",
                 "language": "EN",
                 "topic": "Learn More",
@@ -307,7 +307,7 @@
             {
                 "title": "Why Capella? Taking on the Challenges of Complex Systems Engineering",
                 "descr": "",
-                "author": "Frédéric Madiot",
+                "author": "FrÃ©dÃ©ric Madiot",
                 "year": "2017",
                 "language": "EN",
                 "topic": "Business Value",
@@ -320,7 +320,7 @@
             {
                 "title": "Coupling Methodology and Tooling for Systems Modeling",
                 "descr": "",
-                "author": "Stéphane Bonnet, Jean-Luc Voirin, Joe Silmon",
+                "author": "StÃ©phane Bonnet, Jean-Luc Voirin, Joe Silmon",
                 "year": "2017",
                 "language": "EN",
                 "topic": "Business Value",
@@ -346,7 +346,7 @@
             {
                 "title": "Case-Study Continental - Driving Intelligent Transportation Systems with Capella",
                 "descr": "Case-study by Continental Automotive",
-                "author": "Jérôme Montigny",
+                "author": "JÃ©rÃ´me Montigny",
                 "year": "2017",
                 "language": "EN",
                 "topic": "Business Value",
@@ -372,7 +372,7 @@
             {
                 "title": "Capella Day - Top 10 reasons why Capella is different",
                 "descr": "The top 10 reasons why Capella is different",
-                "author": "Stéphane Bonnet",
+                "author": "StÃ©phane Bonnet",
                 "year": "2018",
                 "language": "EN",
                 "topic": "Business Value",
@@ -450,7 +450,7 @@
             {
                 "title": "Capella Day - Continental return of experience: Driving Intelligent Transportation Systems with Capella",
                 "descr": "",
-                "author": "Jérôme Montigny",
+                "author": "JÃ©rÃ´me Montigny",
                 "year": "2017",
                 "language": "EN",
                 "topic": "Business Value",
@@ -463,7 +463,7 @@
             {
                 "title": "ITSLE Workshop - Large-Scale DS(M)L Deployment in Thales",
                 "descr": "",
-                "author": "Stéphane Bonnet, Daniel Exertier, Benoit Langlois",
+                "author": "StÃ©phane Bonnet, Daniel Exertier, Benoit Langlois",
                 "year": "2014",
                 "language": "EN",
                 "topic": "Business Value",
@@ -515,7 +515,7 @@
             {
                 "title": "Deploying Model-Based Systems Engineering in Thales Alenia Space Italia",
                 "descr": "",
-                "author": "Elvira Caliò, Fabio Di Giorgio, Mauro Pasquinelli",
+                "author": "Elvira Calio, Fabio Di Giorgio, Mauro Pasquinelli",
                 "year": "2016",
                 "language": "EN",
                 "topic": "Business Value",
@@ -541,7 +541,7 @@
             {
                 "title": "Eclipse Sirius, the technology behind Capella",
                 "descr": "Capella Studio is the IDE (integrated development environment) to develop viewpoints and add-ons for Capella.",
-                "author": "Mélanie Bats",
+                "author": "MÃ©lanie Bats",
                 "year": "2017",
                 "language": "EN",
                 "topic": "Development",
@@ -697,7 +697,7 @@
             {
                 "title": "In-Flight Entertainment",
                 "descr": "A Capella model example describing an in-flight entertainment system",
-                "author": "Stéphane Bonnet",
+                "author": "StÃ©phane Bonnet",
                 "year": "2015",
                 "language": "EN",
                 "topic": "Getting Started",
@@ -723,7 +723,7 @@
             {
                 "title": "Sonnette Electronique",
                 "descr": "",
-                "author": "Alexandre Granier, Frédéric Van Lauwe",
+                "author": "Alexandre Granier, FrÃ©dÃ©ric Van Lauwe",
                 "year": "",
                 "language": "FR",
                 "topic": "Getting Started",
@@ -762,7 +762,7 @@
             {
                 "title": "Webinar - How is Capella different",
                 "descr": "This video explains the main differences and highlights what makes Capella successful : the Arcadia method, its coupling with the Capella tool, its comprehensiveness but also the open community supporting it.",
-                "author": "Stéphane Bonnet",
+                "author": "StÃ©phane Bonnet",
                 "year": "2017",
                 "language": "EN",
                 "topic": "Getting Started",
@@ -775,7 +775,7 @@
             {
                 "title": "Webinar - Equivalences and differences between SysML and Arcadia/Capella",
                 "descr": "This webinar illustrates the main equivalences and differences between SysML and Arcadia/Capella with substantial rationales",
-                "author": "Stéphane Bonnet",
+                "author": "StÃ©phane Bonnet",
                 "year": "2018",
                 "language": "EN",
                 "topic": "Getting Started",
@@ -944,7 +944,7 @@
             {
                 "title": "Capella Day - The Capella Industry Consortium",
                 "descr": "",
-                "author": "Gaël Blondelle",
+                "author": "GaÃ«l Blondelle",
                 "year": "2018",
                 "language": "EN",
                 "topic": "Discussing",
@@ -1008,7 +1008,7 @@
             },
             {
                 "title": "Capella Day - Yuzu, The Capella Assets Manager",
-                "descr": "Yuzu stores and keeps tracks of all your Capella™ projects, libraries and dependencies.",
+                "descr": "Yuzu stores and keeps tracks of all your Capella? projects, libraries and dependencies.",
                 "author": "Benoit Viaud",
                 "year": "2018",
                 "language": "EN",
@@ -1020,7 +1020,7 @@
                 "thumb": "images/thumbs/resources/thumb_capella-yuzu.jpg"
             },
             {
-                "title": "Capella Day - Systematic reuse of Capella assets with pure::variants– how to capitalize on your assets",
+                "title": "Capella Day - Systematic reuse of Capella assets with pure::variants? how to capitalize on your assets",
                 "descr": "pure::variants is a tool for variant management of product line based software development",
                 "author": "Danilo Beuche, Robert Hellebrand",
                 "year": "2017",
@@ -1074,7 +1074,7 @@
             {
                 "title": "In-Flight Entertainment v1.0 - Sample Model Highlights",
                 "descr": "",
-                "author": "Stéphane Bonnet",
+                "author": "StÃ©phane Bonnet",
                 "year": "2014",
                 "language": "EN",
                 "topic": "Getting Started",
@@ -1100,7 +1100,7 @@
             {
                 "title": "EclipseCon EU - Capella time-lapse: A system architecture model in 30 minutes",
                 "descr": "A commented Capella model describing an in-flight entertainment system",
-                "author": "Stéphane Bonnet",
+                "author": "StÃ©phane Bonnet",
                 "year": "2015",
                 "language": "EN",
                 "topic": "Getting Started",
@@ -1165,7 +1165,7 @@
             {
                 "title": "Tutoriel - Sonnette Electronique (1/2)",
                 "descr": "",
-                "author": "Alexandre Granier, Frédéric Van Lauwe",
+                "author": "Alexandre Granier, FrÃ©dÃ©ric Van Lauwe",
                 "year": "201",
                 "language": "FR",
                 "topic": "Getting Started",
@@ -1178,7 +1178,7 @@
             {
                 "title": "Tutoriel - Sonnette Electronique (2/2)",
                 "descr": "",
-                "author": "Alexandre Granier, Frédéric Van Lauwe",
+                "author": "Alexandre Granier, FrÃ©dÃ©ric Van Lauwe",
                 "year": "2016",
                 "language": "FR",
                 "topic": "Getting Started",
