@@ -175,6 +175,19 @@
                 "thumb": ""
             },
             {
+                "title": "Discovering what Capella and Arcadia are about...",
+                "descr": "This article shares really valuable contents to understand Capella and Arcadia.",
+                "author": "Stéphane Lacrampe",
+                "year": "2018",
+                "language": "EN",
+                "topic": "Getting Started",
+                "topic_order": "99",
+                "type": "Article",
+                "type_order": "99",
+                "link": "https://www.linkedin.com/pulse/discovering-what-capella-arcadia-st%C3%A9phane-lacrampe/",
+                "thumb": ""
+            },
+            {
                 "title": "ERTS - Capella to SysML Bridge: A Tooled-up Methodology for MBSE Interoperability",
                 "descr": "",
                 "author": "Pascal Roques, Nesrine Badache",
@@ -274,7 +287,7 @@
                 "topic": "Learn More",
                 "topic_order": "99",
                 "type": "Article",
-                "type_order": "1",
+                "type_order": "3",
                 "link": "http://download.polarsys.org/capella/publis/IEEE_Capella_SysML_paper.pdf",
                 "thumb": "images/thumbs/resources/thumb_iee-syscon.jpg"
             },
@@ -448,6 +461,45 @@
                 "thumb": ""
             },
             {
+                "title": "Eclipse Sirius, the technology behind Capella",
+                "descr": "Capella Studio is the IDE (integrated development environment) to develop viewpoints and add-ons for Capella.",
+                "author": "Mélanie Bats",
+                "year": "2017",
+                "language": "EN",
+                "topic": "Development",
+                "topic_order": "99",
+                "type": "Article",
+                "type_order": "99",
+                "link": "http://www.eclipse.org/community/eclipse_newsletter/2017/december/article2.php",
+                "thumb": ""
+            },
+            {
+                "title": "Capella Add-ons: Collaborate better + Generate Docs",
+                "descr": "",
+                "author": "Laurent Delaigue",
+                "year": "2017",
+                "language": "EN",
+                "topic": "Add-ons",
+                "topic_order": "99",
+                "type": "Article",
+                "type_order": "99",
+                "link": "http://www.eclipse.org/community/eclipse_newsletter/2017/december/article5.php",
+                "thumb": ""
+            },
+            {
+                "title": "ERTS - Model Driven Engineering with Capella and AADL",
+                "descr": "",
+                "author": "Bassem Ouni, Pierre Gaufillet, Eric Jenn, Jérôme Hugues",
+                "year": "2016",
+                "language": "EN",
+                "topic": "Learn More",
+                "topic_order": "99",
+                "type": "Article",
+                "type_order": "99",
+                "link": "https://www.researchgate.net/publication/308507803_Model_Driven_Engineering_with_Capella_and_AADL",
+                "thumb": ""
+            },
+            {
                 "title": "NASA JPL MBSE Symposium - Acquisition and Early Evaluation of Architecture with Arcadia and Capella",
                 "descr": "",
                 "author": "Stephane Bonnet",
@@ -534,22 +586,9 @@
                 "topic": "Development",
                 "topic_order": "1",
                 "type": "Article",
-                "type_order": "3",
+                "type_order": "2",
                 "link": "http://www.eclipse.org/community/eclipse_newsletter/2017/december/article4.php",
                 "thumb": "images/thumbs/resources/thumb_capella-extensibility.jpg"
-            },
-            {
-                "title": "Eclipse Sirius, the technology behind Capella",
-                "descr": "Capella Studio is the IDE (integrated development environment) to develop viewpoints and add-ons for Capella.",
-                "author": "Mélanie Bats",
-                "year": "2017",
-                "language": "EN",
-                "topic": "Development",
-                "topic_order": "99",
-                "type": "Article",
-                "type_order": "99",
-                "link": "http://www.eclipse.org/community/eclipse_newsletter/2017/december/article2.php",
-                "thumb": ""
             },
             {
                 "title": "Capella Wiki - Developers Technical information",
@@ -625,7 +664,7 @@
                 "topic": "Getting Started",
                 "topic_order": "1",
                 "type": "Article",
-                "type_order": "2",
+                "type_order": "1",
                 "link": "https://esd.sutd.edu.sg/40014-capella-tutorial/index.html",
                 "thumb": "images/thumbs/resources/thumb_toy-catapult.jpg"
             },
@@ -641,19 +680,6 @@
                 "type_order": "1",
                 "link": "https://www.polarsys.org/capella/resources/Datasheet_Arcadia.pdf",
                 "thumb": "images/thumbs/resources/thumb_arcadia-datasheet.jpg"
-            },
-            {
-                "title": "Discovering what Capella and Arcadia are about...",
-                "descr": "This article shares really valuable contents to understand Capella and Arcadia.",
-                "author": "Stéphane Lacrampe",
-                "year": "2018",
-                "language": "EN",
-                "topic": "Getting Started",
-                "topic_order": "99",
-                "type": "Article",
-                "type_order": "99",
-                "link": "https://www.linkedin.com/pulse/discovering-what-capella-arcadia-st%C3%A9phane-lacrampe/",
-                "thumb": ""
             },
             {
                 "title": "Webinar - Equivalences and differences between SysML and Arcadia/Capella",
@@ -680,6 +706,58 @@
                 "type_order": "1",
                 "link": "https://wiki.polarsys.org/Capella/Samples/LCTC",
                 "thumb": "images/thumbs/resources/thumb_level-crossing-traffic-control.jpg"
+            },
+            {
+                "title": "Level-crossing Traffic Control - Customer Operational Need Analysis",
+                "descr": "",
+                "author": "Jean-Luc Voirin",
+                "year": "2018",
+                "language": "EN",
+                "topic": "Getting Started",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+                "link": "https://www.youtube.com/embed/TawT_G9DNNc",
+                "thumb": ""
+            },
+            {
+                "title": "Level-crossing Traffic Control - System Need Analysis",
+                "descr": "",
+                "author": "Jean-Luc Voirin",
+                "year": "2018",
+                "language": "EN",
+                "topic": "Getting Started",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+                "link": "https://www.youtube.com/embed/UESXFZFbi5Q",
+                "thumb": ""
+            },
+            {
+                "title": "Level-crossing Traffic Control - Capella model - Logical Architecture",
+                "descr": "",
+                "author": "Jean-Luc Voirin",
+                "year": "2018",
+                "language": "EN",
+                "topic": "Getting Started",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+                "link": "https://www.youtube.com/embed/4jSoVNb4gaQ",
+                "thumb": ""
+            },
+            {
+                "title": "Level-crossing Traffic Control - Customer Operational Need Analysis",
+                "descr": "",
+                "author": "Jean-Luc Voirin",
+                "year": "2018",
+                "language": "EN",
+                "topic": "Getting Started",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+                "link": "https://www.youtube.com/embed/1EEcDtLAiXk",
+                "thumb": ""
             },
             {
                 "title": "Capella Wiki - Installation guide",
@@ -955,7 +1033,7 @@
                 "thumb": "images/thumbs/resources/thumb_capella-workshop.jpg"
             },
             {
-                "title": "Capella's official YouTube channel",
+                "title": "YouTube - Capella's official channel",
                 "descr": "",
                 "author": "",
                 "year": "",
@@ -965,19 +1043,6 @@
                 "type": "Video",
                 "type_order": "99",
                 "link": "https://www.youtube.com/channel/UCfgwbb2h10V3tgJ59sbGBnQ",
-                "thumb": ""
-            },
-            {
-                "title": "Capella Add-ons: Collaborate better + Generate Docs",
-                "descr": "",
-                "author": "Laurent Delaigue",
-                "year": "2017",
-                "language": "EN",
-                "topic": "Add-ons",
-                "topic_order": "99",
-                "type": "Article",
-                "type_order": "99",
-                "link": "http://www.eclipse.org/community/eclipse_newsletter/2017/december/article5.php",
                 "thumb": ""
             },
             {
@@ -1095,58 +1160,6 @@
                 "type": "Slideshow",
                 "type_order": "99",
                 "link": "https://download.polarsys.org/capella/samples/ClockRadio/ClockRadioExample0216.pdf",
-                "thumb": ""
-            },
-            {
-                "title": "Level-crossing Traffic Control - Customer Operational Need Analysis",
-                "descr": "",
-                "author": "Jean-Luc Voirin",
-                "year": "2018",
-                "language": "EN",
-                "topic": "Getting Started",
-                "topic_order": "99",
-                "type": "Video",
-                "type_order": "99",
-                "link": "https://www.youtube.com/embed/TawT_G9DNNc",
-                "thumb": ""
-            },
-            {
-                "title": "Level-crossing Traffic Control - System Need Analysis",
-                "descr": "",
-                "author": "Jean-Luc Voirin",
-                "year": "2018",
-                "language": "EN",
-                "topic": "Getting Started",
-                "topic_order": "99",
-                "type": "Video",
-                "type_order": "99",
-                "link": "https://www.youtube.com/embed/UESXFZFbi5Q",
-                "thumb": ""
-            },
-            {
-                "title": "Level-crossing Traffic Control - Capella model - Logical Architecture",
-                "descr": "",
-                "author": "Jean-Luc Voirin",
-                "year": "2018",
-                "language": "EN",
-                "topic": "Getting Started",
-                "topic_order": "99",
-                "type": "Video",
-                "type_order": "99",
-                "link": "https://www.youtube.com/embed/4jSoVNb4gaQ",
-                "thumb": ""
-            },
-            {
-                "title": "Level-crossing Traffic Control - Customer Operational Need Analysis",
-                "descr": "",
-                "author": "Jean-Luc Voirin",
-                "year": "2018",
-                "language": "EN",
-                "topic": "Getting Started",
-                "topic_order": "99",
-                "type": "Video",
-                "type_order": "99",
-                "link": "https://www.youtube.com/embed/1EEcDtLAiXk",
                 "thumb": ""
             },
             {
