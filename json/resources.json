@@ -181,11 +181,11 @@
                 "year": "2018",
                 "language": "EN",
                 "topic": "Getting Started",
-                "topic_order": "99",
+                "topic_order": "2",
                 "type": "Article",
                 "type_order": "99",
                 "link": "https://www.linkedin.com/pulse/discovering-what-capella-arcadia-st%C3%A9phane-lacrampe/",
-                "thumb": ""
+                "thumb": "images/thumbs/resources/thumb_discover-what.jpg"
             },
             {
                 "title": "ERTS - Capella to SysML Bridge: A Tooled-up Methodology for MBSE Interoperability",
@@ -857,11 +857,11 @@
                 "year": "2015",
                 "language": "EN",
                 "topic": "Getting Started",
-                "topic_order": "3",
+                "topic_order": "99",
                 "type": "Sample Model",
                 "type_order": "99",
                 "link": "http://download.polarsys.org/capella/publis/An_Introduction_to_Arcadia_20150115.pdf",
-                "thumb": "images/thumbs/resources/thumb_mbse-architectural-design.jpg"
+                "thumb": ""
             },
             {
                 "title": "Webinar - How is Capella different",
@@ -870,7 +870,7 @@
                 "year": "2017",
                 "language": "EN",
                 "topic": "Getting Started",
-                "topic_order": "1",
+                "topic_order": "3",
                 "type": "Video",
                 "type_order": "1",
                 "link": "https://www.youtube.com/watch?v=aefpyMBxB-4",
@@ -1213,6 +1213,32 @@
                 "type_order": "3",
                 "link": "https://youtu.be/ZsGRHMSGA3U",
                 "thumb": "images/thumbs/resources/thumb_capella-time-lapse.jpg"
+            },
+            {
+                "title": "AIDA (Aircraft Inspection by Drone Assistant)",
+                "descr": "",
+                "author": "Pierre Virelizier",
+                "year": "2018",
+                "language": "EN",
+                "topic": "Learn More",
+                "topic_order": "99",
+                "type": "sample-models",
+                "type_order": "99",
+                "link": "https://sahara.pf.irt-saintexupery.com/AIDA",
+                "thumb": ""
+            },
+            {
+                "title": "AIDA, Capella Model Description",
+                "descr": "",
+                "author": "Pierre Virelizier, Tatiana Prosvirnova, Estelle Saez",
+                "year": "2018",
+                "language": "EN",
+                "topic": "Learn More",
+                "topic_order": "99",
+                "type": "Slideshow",
+                "type_order": "99",
+                "link": "https://sahara.pf.irt-saintexupery.com/AIDA/AIDAArchitecture/blob/master/AIDA_Model_Description.pdf",
+                "thumb": ""
             }
         ]
     }
