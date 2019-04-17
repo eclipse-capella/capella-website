@@ -1046,17 +1046,17 @@
                 "thumb": ""
             },
             {
-                "title": "Capella Wiki - Basic Viewpoints",
-                "descr": "",
+                "title": "Add-Ons Page - The official list of Capella add-ons",
+                "descr": "Discover the add-ons provided by the Capella ecosystem to extend your MBSE workbench",
                 "author": "",
                 "year": "",
                 "language": "EN",
                 "topic": "Add-ons",
-                "topic_order": "99",
-                "type": "Documentation",
+                "topic_order": "1",
+                "type": "Other",
                 "type_order": "99",
-                "link": "https://wiki.polarsys.org/Capella/Viewpoints/BasicViewpoints",
-                "thumb": ""
+                "link": "https://www.polarsys.org/capella/addons.html",
+                "thumb": "images/thumbs/resources/thumb_add-ons.jpg"
             },
             {
                 "title": "Capella Day - Team Collaboration and Document Generation",
@@ -1065,7 +1065,7 @@
                 "year": "2018",
                 "language": "EN",
                 "topic": "Add-ons",
-                "topic_order": "1",
+                "topic_order": "2",
                 "type": "Slideshow",
                 "type_order": "99",
                 "link": "https://www.obeo.fr/ressources/presentations/Team-Collaboration-Document-Generation-LDelaigue-Obeo.pdf",
@@ -1078,24 +1078,37 @@
                 "year": "2018",
                 "language": "EN",
                 "topic": "Add-ons",
-                "topic_order": "2",
+                "topic_order": "3",
                 "type": "Slideshow",
                 "type_order": "99",
                 "link": "https://www.obeo.fr/ressources/presentations/Managing-Capella-Assets-Yuzu-BViaud-Artal.pdf",
                 "thumb": "images/thumbs/resources/thumb_capella-yuzu.jpg"
             },
+             {
+                "title": "Webinar - Variability management with Capella and pure::variants",
+                "descr": "",
+                "author": "Robert Hellebrand",
+                "year": "2018",
+                "language": "EN",
+                "topic": "Add-ons",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+                "link": "https://www.youtube.com/watch?v=_ScqY5CVZoI",
+                "thumb": ""
+            },
             {
-                "title": "Capella Day - Systematic reuse of Capella assets with pure::variants? how to capitalize on your assets",
-                "descr": "pure::variants is a tool for variant management of product line based software development",
+                "title": "Capella Day - Systematic reuse of Capella assets with pure::variants? How to capitalize on your assets",
+                "descr": "",
                 "author": "Danilo Beuche, Robert Hellebrand",
                 "year": "2017",
                 "language": "EN",
                 "topic": "Add-ons",
-                "topic_order": "3",
+                "topic_order": "99",
                 "type": "Slideshow",
                 "type_order": "99",
                 "link": "https://fr.slideshare.net/Obeo_corp/capelladay-toulouse-systematic-reuse-of-capella-assets-with-purevariants-how-to-capitalize-on-your-assets",
-                "thumb": "images/thumbs/resources/thumb_systematic-reuse-capella.jpg"
+                "thumb": ""
             },
             {
                 "title": "Capella Day - Designing a test mean alla capella with Citrus",
@@ -1111,16 +1124,16 @@
                 "thumb": ""
             },
             {
-                "title": "Webinar - Variability management with Capella and pure::variants",
+                "title": "Capella Wiki - Basic Viewpoints",
                 "descr": "",
-                "author": "Robert Hellebrand",
-                "year": "2018",
+                "author": "",
+                "year": "",
                 "language": "EN",
                 "topic": "Add-ons",
                 "topic_order": "99",
-                "type": "Video",
+                "type": "Documentation",
                 "type_order": "99",
-                "link": "https://www.youtube.com/watch?v=_ScqY5CVZoI",
+                "link": "https://wiki.polarsys.org/Capella/Viewpoints/BasicViewpoints",
                 "thumb": ""
             },
             {
