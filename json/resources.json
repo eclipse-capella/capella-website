@@ -1213,32 +1213,6 @@
                 "type_order": "3",
                 "link": "https://youtu.be/ZsGRHMSGA3U",
                 "thumb": "images/thumbs/resources/thumb_capella-time-lapse.jpg"
-            },
-            {
-                "title": "AIDA (Aircraft Inspection by Drone Assistant)",
-                "descr": "",
-                "author": "Pierre Virelizier",
-                "year": "2018",
-                "language": "EN",
-                "topic": "Learn More",
-                "topic_order": "99",
-                "type": "sample-models",
-                "type_order": "99",
-                "link": "https://sahara.pf.irt-saintexupery.com/AIDA",
-                "thumb": ""
-            },
-            {
-                "title": "AIDA, Capella Model Description",
-                "descr": "",
-                "author": "Pierre Virelizier, Tatiana Prosvirnova, Estelle Saez",
-                "year": "2018",
-                "language": "EN",
-                "topic": "Learn More",
-                "topic_order": "99",
-                "type": "Slideshow",
-                "type_order": "99",
-                "link": "https://sahara.pf.irt-saintexupery.com/AIDA/AIDAArchitecture/blob/master/AIDA_Model_Description.pdf",
-                "thumb": ""
             }
         ]
     }
