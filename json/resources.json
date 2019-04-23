@@ -773,6 +773,32 @@
                 "thumb": ""
             },
             {
+                "title": "AIDA (Aircraft Inspection by Drone Assistant) - Capella source model",
+                "descr": "",
+                "author": "Pierre Virelizier, Pierre Gaufillet, Julien Baclet",
+                "year": "2018",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "99",
+                "type": "Sample Model",
+                "type_order": "99",
+                "link": "https://sahara.irt-saintexupery.com/AIDA/AIDAArchitecture",
+                "thumb": ""
+            },
+            {
+                "title": "AIDA (Aircraft Inspection by Drone Assistant) - Capella model description",
+                "descr": "",
+                "author": "Pierre Virelizier, Tatiana Prosvirnova, Estelle Saez",
+                "year": "2018",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "99",
+                "type": "Slideshow",
+                "type_order": "99",
+                "link": "https://sahara.irt-saintexupery.com/AIDA/AIDAArchitecture/blob/master/AIDA_Model_Description.pdf",
+                "thumb": ""
+            },
+            {
                 "title": "Capella Wiki - Installation guide",
                 "descr": "Procedure to install Capella",
                 "author": "Christophe Gatti",
