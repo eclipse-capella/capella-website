@@ -84,19 +84,6 @@
         ],
         "items":[
             {
-                "title": "Capella User Guide",
-                "descr": "Official user-guide of Capella tool",
-                "author": "",
-                "year": "",
-                "language": "EN",
-                "topic": "Learning More",
-                "topic_order": "3",
-                "type": "Documentation",
-                "type_order": "3",
-                "link": "http://help.polarsys.org/help/index.jsp",
-                "thumb": "images/thumbs/resources/thumb_capella-user-guide.jpg"
-            },
-            {
                 "title": "Project Page",
                 "descr": "",
                 "author": "",
