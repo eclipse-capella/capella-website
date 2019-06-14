@@ -97,7 +97,7 @@
         <section id="ecosystem" class="bg_lightest_grey text-center ecosystem">
             <div class="container">
                 <div class="row">
-                	<div class="col-sm-6 col-xs-12 wow fadeInLeft animated">
+                	<div class="col-sm-4 col-xs-12 wow fadeInLeft animated">
 						<p><img src="images/icons/icon_forum.png" alt="Capella Community" ></a></p>
                             <div>
                                 <h4>Community</h4>
@@ -106,7 +106,7 @@
                                 <p><a href="https://www.linkedin.com/groups/8605600/profile" target="_blank">LinkedIn Group <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a></p>
                             </div>
                     </div>
-                    <div class="col-sm-6 col-xs-12 wow fadeInUp animated animated">
+                    <div class="col-sm-4 col-xs-12 wow fadeInUp animated animated">
                         <p><a href="services.html"><img src="images/icons/icon_training.png" alt="Capella - Services Providers" ></a></p>
                             <div>
                                 <h4>Services Providers</h4>
@@ -115,9 +115,7 @@
                      			<p><a href="services.html">Professional Services <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a></p>
                             </div>
                     </div>
-                </div>
-                <div class="row">
-                	<div class="col-sm-6 col-xs-12 wow fadeInLeft animated">
+                	<div class="col-sm-4 col-xs-12 wow fadeInLeft animated">
 						<p><a href="mailto:capella-dev@polarsys.org?subject=Development Team"><img src="images/icons/icon_adapt.png" alt="Development Team" ></a></p>
                             <div>
                                 <h4>Development Team</h4>
@@ -125,17 +123,7 @@
                                 <p><a href="mailto:capella-dev@polarsys.org?subject=Development Team">capella-dev@polarsys.org <i class="fa fa-enveloppe-circle-right" aria-hidden="true"></i></a></p>
                             </div>
                     </div>
-                    <div class="col-sm-6 col-xs-12 wow fadeInUp animated animated">
-                        <p><a href="mailto:capella-ic-members@polarsys.org?subject=Industrial Working Group"><img src="images/icons/icon_map.png" alt="Industrial Working Group" ></a></p>
-                            <div>
-                                <h4>Industrial Working Group</h4>
-                                <p>To  share best-practices and/or<br>co-develop Capella with other organizations
-                                 
-                                </p>
-                     			<p><a href="mailto:capella-ic-members@polarsys.org?subject=Industrial Working Group">capella-ic-members@polarsys.org <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a></p>
-                            </div>
-                    </div>
-                </div>
+				</div>
             </div>
         </section><!--/#ecosystem-->
   	
