@@ -71,8 +71,7 @@
       "contact":"<a href='industry-consortium/thales.html'>Thales</a>",
       "description": "<p>This addon enables the end-user to generate an HTML website from a Capella project.</p><p>Sharing models with all stakeholders is essential in model-based systems engineering. Publishing and sharing HTML versions of models helps make models THE reference of all engineering activities.</p><p>For more information, please install the addon within Capella and check online help then dedicated section for the addon.</p>",
       "download": { 
-        "dropin": "http://download.polarsys.org/capella/addons/xhtmldocgen/dropins/releases/1.3.0/oxygen/CapellaXHTMLDocGen-1.3.0.201901080957-Capella-1.3.0-dropins.zip", 
-        "updateSite": "http://download.polarsys.org/capella/addons/xhtmldocgen/updates/releases/1.3.0/oxygen/CapellaXHTMLDocGen-1.3.0.201901080957-Capella-1.3.0-updateSite.zip"
+        "dropin": "http://download.eclipse.org/capella/addons/xhtmldocgen/dropins/releases/1.3.1/CapellaXHTMLDocGen-1.3.1.201906140948-Capella-1.3.1-dropins.zip"
       }
     }, 
     { "name":"Requirements Viewpoint",
