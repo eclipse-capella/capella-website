@@ -82,8 +82,8 @@
       "contact":"<a href='industry-consortium/thales.html'>Thales</a>",
       "description": "<p>This add-on allows importing a set of requirements from a ReqIF file (Requirement Interchange Format / OMG Standard).</p><p>The import is iterative (diff/merge based) and a set of tools is provided to link the model elements to the requirements.</p><p>For more information, please install the addon within Capella and check online help then dedicated section for the addon.</p>",
       "download": { 
-        "dropin": "http://download.polarsys.org/capella/addons/requirements/dropins/releases/0.10.0/org.polarsys.capella.vp.requirements-dropins-0.10.0.201901071243.zip", 
-        "updateSite": "http://download.polarsys.org/capella/addons/requirements/updates/releases/0.10.0/org.polarsys.capella.vp.requirements-updateSite-0.10.0.201901071243.zip"
+        "dropin": "http://download.eclipse.org/capella/addons/requirements/dropins/releases/0.10.1/Requirements-dropins-0.10.1.201906241205.zip", 
+        "updateSite": "http://download.eclipse.org/capella/addons/requirements/updates/releases/0.10.1/Requirements-updateSite-0.10.1.201906241205.zip"
       }
     }, 
     { "name":"Filtering",
