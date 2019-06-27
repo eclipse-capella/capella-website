@@ -131,7 +131,7 @@
                 "topic": "Learning More",
                 "topic_order": "99",
                 "type": "Video",
-                "type_order": "5",
+                "type_order": "99",
                 "link": "https://youtu.be/h-ax61eVlxM",
                 "thumb": ""
             },
@@ -319,7 +319,7 @@
             },
             {
                 "title": "Case-Study Rolls Royce - Arcadia and Capella for a large complex mechanical system",
-                "descr": "Case-study by Rolls Royce",
+                "descr": "Rolls-Royce used Arcadia/Capella to define the architecture of a large civil aerospace turbofan engine, to manage system complexity and minimise the associated risk.",
                 "author": "Jim Daly",
                 "year": "2019",
                 "language": "EN",
@@ -327,8 +327,8 @@
                 "topic_order": "1",
                 "type": "Fact Sheet",
                 "type_order": "2",
-                "link": "https://polarsys.org/capella/resources/pdf/Case_Study_ArianeGroup.pdf",
-                "thumb": "images/thumbs/resources/thumb_case-study-arianegroup.jpg"
+                "link": "https://polarsys.org/capella/resources/pdf/Case_Study_Rolls_Royce.pdf",
+                "thumb": "images/thumbs/resources/thumb_case-study-rollsroyce.jpg"
             },
             {
                 "title": "Case-Study ArianeGroup - Model-Based Systems Engineering Must Become a Team Sport!!",
