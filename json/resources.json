@@ -123,6 +123,19 @@
                 "thumb": ""
             },
             {
+                "title": "[HOW TO] Replicate model elements in Capella",
+                "descr": "",
+                "author": "Thales",
+                "year": "2019",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "5",
+                "link": "https://youtu.be/h-ax61eVlxM",
+                "thumb": ""
+            },
+            {
                 "title": "Webinar - What's new in Capella 1.3?",
                 "descr": "",
                 "author": "Stéphane Bonnet",
@@ -305,15 +318,28 @@
                 "thumb": ""
             },
             {
+                "title": "Case-Study Rolls Royce - Arcadia and Capella for a large complex mechanical system",
+                "descr": "Case-study by Rolls Royce",
+                "author": "Jim Daly",
+                "year": "2019",
+                "language": "EN",
+                "topic": "Business Value",
+                "topic_order": "1",
+                "type": "Fact Sheet",
+                "type_order": "2",
+                "link": "https://polarsys.org/capella/resources/pdf/Case_Study_ArianeGroup.pdf",
+                "thumb": "images/thumbs/resources/thumb_case-study-arianegroup.jpg"
+            },
+            {
                 "title": "Case-Study ArianeGroup - Model-Based Systems Engineering Must Become a Team Sport!!",
                 "descr": "Case-study by ArianeGroup",
                 "author": "Alain Huet",
                 "year": "2017",
                 "language": "EN",
                 "topic": "Business Value",
-                "topic_order": "1",
+                "topic_order": "2",
                 "type": "Fact Sheet",
-                "type_order": "2",
+                "type_order": "3",
                 "link": "https://polarsys.org/capella/resources/pdf/Case_Study_ArianeGroup.pdf",
                 "thumb": "images/thumbs/resources/thumb_case-study-arianegroup.jpg"
             },
@@ -324,9 +350,9 @@
                 "year": "2017",
                 "language": "EN",
                 "topic": "Business Value",
-                "topic_order": "2",
+                "topic_order": "3",
                 "type": "Fact Sheet",
-                "type_order": "3",
+                "type_order": "4",
                 "link": "https://polarsys.org/capella/resources/pdf/Case_Study_Continental.pdf",
                 "thumb": "images/thumbs/resources/thumb_case-study-continental.jpg"
             },
@@ -337,7 +363,7 @@
                 "year": "2017",
                 "language": "EN",
                 "topic": "Business Value",
-                "topic_order": "3",
+                "topic_order": "4",
                 "type": "Fact Sheet",
                 "type_order": "99",
                 "link": "https://polarsys.org/capella/resources/pdf/Case_Study_Framatome.pdf",
@@ -578,7 +604,7 @@
                 "thumb": ""
             },
             {
-                "title": "ICAS - Method & Tools to Secure and Support Collaborative Architecting of Constrained Systems",
+                "title": "ICAS - Method &amp; Tools to Secure and Support Collaborative Architecting of Constrained Systems",
                 "descr": "Using the Arcadia/Capella solution as an example, this paper explores why standard UML/SysML languages are not necessarily the unique or best alternatives for implementation of a model-based systems engineering solution (MBSE).",
                 "author": "Jean-Luc Voirin",
                 "year": "2010",
@@ -1176,7 +1202,7 @@
                 "thumb": ""
             },
             {
-                "title": "Capella Day - Sample Arcadia / Capella Model: Railway Level-crossing Command & Control",
+                "title": "Capella Day - Sample Arcadia / Capella Model: Railway Level-crossing Command &amp; Control",
                 "descr": "A commented Capella model describing a level-crossing traffic control system",
                 "author": "Jean-Luc Voirin",
                 "year": "2018",
