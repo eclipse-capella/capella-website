@@ -75,7 +75,6 @@
       }
     }, 
     { "name":"Requirements Viewpoint",
-      "showOnMainPage": true,
       "key":"REQ",
       "fragment":"requirements",
       "licence":"EPL",
@@ -113,7 +112,7 @@
     { "name":"Team for Capella",
       "key":"T4C",
       "fragment":"t4c",
-      "licence":"EPL",
+      "licence":"Commercial",
       "contact":"<a href='industry-consortium/thales.html'>Thales</a> &amp; <a href='industry-consortium/obeo.html'>Obeo</a>",
       "description": "<p>This add-on allows users to collaborate on remotely shared models and representations</p><ul><li>All changes on the models and representations are automatically propagated across all users’ views.</li><li>Only the necessary objects are automatically locked and released. On-demand locks can also be created.</li><li>Data is stored in a shared server hosting the whole models with their representations.</li></ul>",
       "download": { 
@@ -130,6 +129,16 @@
       "download": { 
         "dandi": "http://www.m2doc.org/capella/", 
         "learnMore": "http://www.m2doc.org/"
+      }
+    },
+    { "name":"Safety Viewpoint & MBSE-MBSA bridge for Safety Architect",
+      "key":"SafetyArchitect",
+      "fragment": "safetyarchitect",
+      "licence":"Commercial",
+      "contact":"<a href='mailto:safetyarchitect@all4tec.net?subject=Safety Architect'>All4tec</a>",
+      "description": "<p>This add-on provides to Capella a new viewpoint dedicated to safety analysis. Thus, the user can locate the feared events in the model, define the safety scope of the analysis and build critical chains. User can consider the whole model or focus on any architecture level: physical, logical or functional. You can even go further with a efficient bridge with Safety Architect, to perform a complete safety analysis from the Capella model, using the standard methods such as FMEA or FTA and generate the corresponding fault trees. Finally, user can export its safety data to dedicated tools like FaultTree+, or reimport them into Capella to enrich the original model.</p>",
+      "download": { 
+        "learnMore": "https://www.riskoversee.com/en/safety-architect-en/"
       }
     },
     { "name":"System Modeling Workbench (SMW) for Teamcenter",
@@ -156,6 +165,18 @@
     
     
     
+     { "name":"Requirements",
+       "showOnMainPage": true,
+       "isBasic": true,
+       "key":"REQ",
+      "licence":"EPL",
+      "contact":"<a href='industry-consortium/thales.html'>Thales</a>",
+      "description": "<p>This add-on allows importing a set of requirements from a ReqIF file (Requirement Interchange Format / OMG Standard).</p><p>The import is iterative (diff/merge based) and a set of tools is provided to link the model elements to the requirements.</p><p>For more information, please install the addon within Capella and check online help then dedicated section for the addon.</p>",
+      "download": { 
+        "dropin": "http://download.eclipse.org/capella/addons/requirements/dropins/releases/0.10.1/Requirements-dropins-0.10.1.201906241205.zip", 
+        "updateSite": "http://download.eclipse.org/capella/addons/requirements/updates/releases/0.10.1/Requirements-updateSite-0.10.1.201906241205.zip"
+      }
+    }, 
     { "name":"Basic Mass",
       "showOnMainPage": true,
       "isBasic": true,

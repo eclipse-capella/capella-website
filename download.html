@@ -153,11 +153,11 @@
             </div>
 		</section> <!-- #capellaResources -->
 
-      	
-		<!-- Capella Extensions -->
+
+		<!-- Capella Add-Ons -->
         <section id="capellaExtensions" class="bg_lightest_grey text-center">
             <div class="container">
-                <h2 class="title wow fadeInDown" data-wow-delay=".3s">Capella Extensions</h2>
+                <h2 class="title wow fadeInDown" data-wow-delay=".3s">Capella Add-ons</h2>
                 <div class="row">
                     <p class="wow fadeInDown" data-wow-delay=".5s">To install Capella extensions have a look to the <a href="https://wiki.polarsys.org/Capella/Extensions/Installation_Guide#Installation_Procedures" target="_blank">installation procedure</a></p>
                     <br>
@@ -166,7 +166,7 @@
                 	<div class="col-sm-6 col-xs-12 wow fadeInLeft animated">
                         <figure class="wow fadeInLeft animated" data-wow-duration="300ms" data-wow-delay="300ms">
                             <div>
-                                <h4>Add-ons</h4><br>
+                                <h4>Extensions</h4><br>
                                 <div id="capella-addons"></div>
                                 <p class="wow fadeInUp animated" data-wow-delay=".3s">
                                     <a href="addons.html">More add-ons <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
@@ -177,15 +177,15 @@
                     <div class="col-sm-6 col-xs-12 wow fadeInLeft animated">
                         <figure class="wow fadeInLeft animated" data-wow-duration="300ms" data-wow-delay="300ms">
                             <div>
-                                <h4>Basic Viewpoints</h4><br>
+                                <h4>Viewpoints</h4><br>
                                 <div id="capella-basic"></div>
                             </div>
                         </figure>
                     </div>
                 </div>
         </div>
-			
-                              
+
+
 		</section> <!-- #capellaExtensions -->
 
 		<!-- Capella Studio -->
@@ -231,7 +231,7 @@
             </div>
 		</section> <!-- #capellaResources -->
 
-        
+
 			<script>
 
                     function updateMainLink(mainLinkId, data, product) {
@@ -240,7 +240,7 @@
                                 <i class="fa fa-download" aria-hidden="true"></i> Get ${product.name} ${product.version} for ${data.lang[mainId].text} ${data.lang["main"].text}</a></p>`;
                         document.getElementById(mainLinkId).innerHTML += mainLink;
                     }
-        
+
                     function updatePlatformLinks(platformLinksId, data, product) {
                         let lis = Object.keys(product.links).map(function (k) {
                             let link = product.links[k];
@@ -273,13 +273,13 @@
                     }
 
                    $.getJSON('json/downloads.json', function(data) {
-        
+
                         updateMainLink("capellaMainLink", data, data.capella);
                         updatePlatformLinks("capellaPlatformLinks", data, data.capella);
 
                         updateMainLink("capellaStudioMainLink", data, data.capellaStudio);
                         updatePlatformLinks("capellaStudioPlatformLinks", data, data.capellaStudio);
-                    
+
                         updateAddonLinks(data);
 
                   });
