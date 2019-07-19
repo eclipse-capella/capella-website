@@ -261,8 +261,15 @@
                                 let icon = ""; //data.lang[k].icon ? `<i class="pl-2 ${data.lang[k].icon}" aria-hidden="true"></i>` : "";
                                 return `<a href=${addon.download[k]} onClick="ga('send', 'event', 'Capella', '${data.versionBranch}', '${addon.key}');">${data.lang[k].text}${icon}</a>`;
                             }).join(" | ");
-                            let result = `<p class="wow fadeInUp animated" data-wow-delay=".3s">${addon.name} <span class="pl-2">${links}</span></p>`;
-                            if (!addon.isBasic) {
+                            let result = `<p class="wow fadeInUp animated" data-wow-delay=".3s">${addon.name} `;
+                            
+                            //Append viewpoint to name of add-on
+                            if (addon.isViewpoint) {
+                                result += "Viewpoint ";
+                            }
+                            result += `<span class="pl-2">${links}</span></p>`;
+
+                            if (!addon.isViewpoint) {
                                 addons += result;
                             } else {
                                 basic += result;

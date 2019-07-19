@@ -103,58 +103,83 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         ==================================================
         Secure your industrial Capella deployment
         ================================================== -->
-	<section id="services" class="">
-		<div class="container">
-			<div class="row">
-
-				<div id="accordion2" class="accordion dropdown_content">
-				</div>
-				
+		<section id="services" class="">
+				<div class="container">
+					<div class="row">
+						<div id="accordion-opensource-addons" class="accordion dropdown_content">
+						</div>
+						<div id="accordion-commercial-addons" class="accordion dropdown_content">
+						</div>
 				<script>
-           $.getJSON('json/downloads.json', function(data) {
-              for (i in data.addons.filter(a => !a.isBasic)) {
-                 let addon = data.addons[i];
-                 let keys = Object.keys(addon.download);
-                 let fragment = addon.fragment != undefined ? addon.fragment : addon.key;
-                 let links = keys.map(function(k) {
-				 	let icon = data.lang[k].icon ? `<i class="pl-2 ${data.lang[k].icon}" aria-hidden="true"></i>` : "";
-					return `<a href=${addon.download[k]} onClick="ga('send', 'event', 'Capella', '${data.versionBranch}', '${addon.key}');">${data.lang[k].text}${icon}</a>`;
-				 }).join(" | ");
-                 let header = [];
-                 if (addon.contact) {
-                    header.push(`Contact: ${addon.contact}`);
-                 }
-                 if (addon.licence) {
-                    header.push(`License: ${addon.licence}`);
-                 }
-                 header=header.join(" | ");
-                 
-                 let result = `<div class="accordion-group">
-						<div class="accordion-heading">
-							<a class="accordion-toggle collapsed" data-toggle="collapse"
-								data-parent="#accordion2" href="#${fragment}"><h3>${addon.name}</h3><span class="descr txt_lightest_grey">${header}</span><span class="fa fa-caret-down txt_yellow">&nbsp;
-							</span></a>
-						</div>
-						<div id="${fragment}" class="accordion-body collapse"
-							style="height: 0px;">
-							<div class="accordion-inner">
-								${addon.description}
-								<p>${links}</p>
-							</div>
-						</div>
-					</div>`;
-                document.getElementById("accordion2").innerHTML += result;
-              }
-          });
-      </script>
-      
-			
-			<p class="underline"><b><u>Compatibility and integration</u></b></p>
-			<p><i>Each author is responsible for the compatibility of his add-ons with different versions of Capella. See the Add-on <a href="https://wiki.polarsys.org/Capella/Roadmap#Add-ons" target="_blank">Compatibility Matrix</a></i><br><i>Additional integration may be needed between two add-ons provided by different authors.</i></p>
-			
-			</div>
-		</div>
-	</section>
+				   $.getJSON('json/downloads.json', function(data) {
+					  let eplAddons = data.addons.filter(a => a.licence == 'EPL'); //Open-source add-ons
+					  let commercialAddons = data.addons.filter(a => a.licence == 'Commercial'); //Commercial add-ons
+					  
+					  if (eplAddons.length != 0) {
+						addTitleToDiv("accordion-opensource-addons", "Open-Source Add-ons")
+						for (addon in eplAddons) {
+							addAddonSection(data, eplAddons[addon], "accordion-opensource-addons");
+						}
+					  }
+					  
+					  if (commercialAddons.length != 0) {
+						addTitleToDiv("accordion-commercial-addons", "Commercial Add-ons")
+						for (addon in commercialAddons) {
+							addAddonSection(data, commercialAddons[addon], "accordion-commercial-addons");
+						}
+					  }
+				   });
+
+				  function addTitleToDiv(divId, title) {
+					document.getElementById(divId).innerHTML += "<div><h1>" + title + "</h1></div>";
+				  }
+
+				  function addAddonSection(data, addon, divId) {
+						let keys = Object.keys(addon.download);
+						 let fragment = addon.fragment != undefined ? addon.fragment : addon.key;
+						 let links = keys.map(function(k) {
+							 let icon = data.lang[k].icon ? `<i class="pl-2 ${data.lang[k].icon}" aria-hidden="true"></i>` : "";
+							return `<a href=${addon.download[k]} onClick="ga('send', 'event', 'Capella', '${data.versionBranch}', '${addon.key}');">${data.lang[k].text}${icon}</a>`;
+						 }).join(" | ");
+						 let header = [];
+						 if (addon.contact) {
+							header.push(`Contact: ${addon.contact}`);
+						 }
+						 if (addon.licence) {
+							header.push(`License: ${addon.licence}`);
+						 }
+						 header=header.join(" | ");
+						 
+						 let result = `<div class="accordion-group">
+								<div class="accordion-heading">
+									<a class="accordion-toggle collapsed" data-toggle="collapse"
+										data-parent="#accordion2" href="#${fragment}"><h3>${addon.name}`;
+
+						if (addon.isViewpoint) {
+							result += " Viewpoint";
+						}
+						result += `</h3><span class="descr txt_lightest_grey">${header}</span><span class="fa fa-caret-down txt_yellow">&nbsp;
+									</span></a>
+								</div>
+								<div id="${fragment}" class="accordion-body collapse"
+									style="height: 0px;">
+									<div class="accordion-inner">
+										${addon.description}
+										<p>${links}</p>
+									</div>
+								</div>
+							</div>`;
+						 document.getElementById(divId).innerHTML += result;
+					}
+			  </script>
+			  
+					
+					<p class="underline"><b><u>Compatibility and integration</u></b></p>
+					<p><i>Each author is responsible for the compatibility of his add-ons with different versions of Capella. See the Add-on <a href="https://wiki.polarsys.org/Capella/Roadmap#Add-ons" target="_blank">Compatibility Matrix</a></i><br><i>Additional integration may be needed between two add-ons provided by different authors.</i></p>
+					
+					</div>
+				</div>
+		</section>
 	<!-- #services -->
 
 	<div id="back-to-top" data-spy="affix" data-offset-top="100"

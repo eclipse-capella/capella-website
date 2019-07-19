@@ -31,7 +31,7 @@
             "properties": {
                 "name": { "type": "string" },
                 "showOnMainPage": { "type": "boolean", "default": false },
-                "isBasic": { "type": "boolean", "default": false },
+                "isViewpoint": { "type": "boolean", "default": false },
                 "key": { "type": "string" },
                 "fragment": { "type": "string", "default": "@key" },
                 "licence": { "type": "string" },
