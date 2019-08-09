@@ -768,6 +768,7 @@ article {
 /* Table Style
 --------------- */
 .table>tbody>tr>td {text-align: left;} 
+td.vertical_align_top {vertical-align:top;}
 
 /* Accordion Style
 --------------- */
