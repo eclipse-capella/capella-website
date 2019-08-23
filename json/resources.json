@@ -1,4 +1,6 @@
-{"resources":
+{
+"_comment": "Les ressources sont affichées par ordre croissante selon la valeur du type_order et topic_order jusqu'à 10. Les 4 premières doivent avoir une image. Audelà de 10 les ressources sont affichées par ordre décroissante selon l'année Il faut donc mettre un chiffre qui correspond à la position à laquelle vous voulez que la ressource soit affichée ou l'année lui correspondant.",
+"resources":
     {
         "topics":[
             {
@@ -844,7 +846,7 @@
                 "year": "2018",
                 "language": "EN",
                 "topic": "Getting Started",
-                "topic_order": "10",
+                "topic_order": "99",
                 "type": "Video",
                 "type_order": "99",
                 "link": "https://www.youtube.com/embed/1EEcDtLAiXk",
@@ -975,7 +977,7 @@
                 "language": "EN",
                 "topic": "Getting Started",
                 "topic_order": "99",
-                "type": "Sample Model",
+                "type": "Slideshow",
                 "type_order": "99",
                 "link": "http://download.polarsys.org/capella/publis/An_Introduction_to_Arcadia_20150115.pdf",
                 "thumb": ""
