@@ -722,6 +722,19 @@
                 "link": "http://git.polarsys.org/c/capella/capella.git/",
                 "thumb": "images/thumbs/resources/thumb_capella-source-code.jpg"
             },
+             {
+                "title": "About this project",
+                "descr": "",
+                "author": "",
+                "year": "",
+                "language": "EN",
+                "topic": "Development",
+                "topic_order": "5",
+                "type": "Other",
+                "type_order": "5",
+                "link": "https://www.polarsys.org/projects/polarsys.capella",
+                "thumb": ""
+            },
             {
                 "title": "SiriusCon - Building Capella on Top of Sirius: a Development Perspective",
                 "descr": "",
