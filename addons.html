@@ -139,7 +139,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						 let fragment = addon.fragment != undefined ? addon.fragment : addon.key;
 						 let links = keys.map(function(k) {
 							 let icon = data.lang[k].icon ? `<i class="pl-2 ${data.lang[k].icon}" aria-hidden="true"></i>` : "";
-							return `<a href=${addon.download[k]} onClick="ga('send', 'event', 'Capella', '${data.versionBranch}', '${addon.key}');">${data.lang[k].text}${icon}</a>`;
+							return `<a href=${addon.download[k]} target="${data.lang[k].target}" onClick="ga('send', 'event', 'Capella', '${data.versionBranch}', '${addon.key}');">${data.lang[k].text}${icon}</a>`;
 						 }).join(" | ");
 						 let header = [];
 						 if (addon.contact) {
@@ -158,8 +158,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						if (addon.isViewpoint) {
 							result += " Viewpoint";
 						}
-						result += `</h3><span class="descr txt_lightest_grey">${header}</span><span class="fa fa-caret-down txt_yellow">&nbsp;
-									</span></a>
+						result += `</h3><span class="fa fa-caret-down txt_yellow">&nbsp;</span><span class="descr txt_lightest_grey">${header}</span></a>
 								</div>
 								<div id="${fragment}" class="accordion-body collapse"
 									style="height: 0px;">
