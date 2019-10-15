@@ -9,8 +9,16 @@ body {
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Lato', sans-serif;
   color: #292253;
-  font-weight: 700;
+  font-weight: 700; 
 }
+h3{
+  margin-top: 40px;
+}
+
+.accordion h3 {
+  margin-top: 20px !important;
+}
+
 p {
   font-family: 'Lato', sans-serif;
   line-height: 22px;
