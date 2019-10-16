@@ -1,15 +1,13 @@
 html {
 }
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'LatoWeb', sans-serif;
   font-size: 16px;
   color: #777;
-  font-weight: 400;
 }
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'LatoWebBold', sans-serif;
   color: #292253;
-  font-weight: 700; 
 }
 h3{
   margin-top: 40px;
@@ -20,10 +18,9 @@ h3{
 }
 
 p {
-  font-family: 'Lato', sans-serif;
+  font-family: 'LatoWeb', sans-serif;
   line-height: 22px;
   font-size: 16px;
-  font-weight: 400;
 }
 ul li {
   list-style: square;
@@ -50,7 +47,7 @@ h2 {
   font-size: 26px;
 }
 .txt_weight_300 {
-  font-weight: 300;
+  font-family: 'LatoWebLight', sans-serif;
 }
 .text-uppercase {
   letter-spacing: 2px;
@@ -76,7 +73,7 @@ color: #292253;
 }
 .btn {
   font-size: 13px;
-  font-weight: 700;
+  font-family: 'LatoWebBold', sans-serif;
   padding: 16px 35px;
   text-transform: uppercase;
   margin-top: 30px;
@@ -111,21 +108,21 @@ section {
 }
 .section-heading p {
   font-size: 14px;
-  font-weight: 400;
+  font-family: 'LatoWeb', sans-serif;
   color: #727272;
   line-height: 20px;
 }
 .title {
   font-size: 30px;
   line-height: 1.1;
-  font-weight: 300;
+  font-family: 'LatoWebLight', sans-serif;
   color: #292253;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
 .subtitle {
   font-size: 24px;
-  font-weight: 600;
+  font-family: 'LatoWebMedium', sans-serif;
   margin-bottom: 18px;
   text-transform: uppercase;
 }
@@ -167,7 +164,7 @@ section {
 }
 #top-bar .main-menu li a {
   font-size: 14px;
-  font-weight: 500;
+  font-family: 'LatoWeb', sans-serif;
   color: #292253;
   border-bottom: 2px solid transparent;
   -webkit-transition: .3s all;
@@ -208,12 +205,12 @@ section {
   font-size: 40px;
   color:#fff;
   line-height: 50px;
-  font-weight: 700;
+  font-family: 'LatoWebBold', sans-serif;
   margin-bottom: 15px;
   text-transform: uppercase;
 }
 .hero-area h2 {
-  font-weight: 300;
+  font-family: 'LatoWebLight', sans-serif;
   color:#fff;
   margin-bottom: 38px;
   line-height: 35px;
@@ -330,7 +327,7 @@ color: #fff !important;
 }
 #about .block h2 {
   font-size: 24px;
-  font-weight: 600;
+  font-family: 'LatoWebMedium', sans-serif;
   margin-bottom: 30px;
   text-transform: uppercase;
 }
@@ -438,7 +435,7 @@ figure figcaption p {
   text-align: center;
   margin-bottom: 20px;
   margin: 0px 0px 15px;
-  font-weight: 400;
+  font-family: 'LatoWeb', sans-serif;
 }
 #feature p {
   line-height: 25px;
@@ -577,7 +574,7 @@ ul.social-icons li{
 }
 .global-page-header h2 {
   font-size: 42px;
-  font-weight: bold;
+  font-family: 'LatoWebBold', sans-serif;
   color: #fff;
   text-transform: uppercase;
 }
@@ -651,7 +648,7 @@ ul.social-icons li{
   float: left;
 }
 .about-feature .block p {
-  font-weight: 300;
+  font-family: 'LatoWebLight', sans-serif;
 }
 .about-feature .about-feature-1 {
   background: #FBBF52;
@@ -736,7 +733,7 @@ article {
 #top-bar .dropdown-menu > ul > li > a {
   display: block;
   font-size: 13px;
-  font-weight: 400;
+  font-family: 'LatoWeb', sans-serif;
   line-height: normal;
   text-decoration: none;
   padding: 8px 0;
@@ -969,7 +966,7 @@ table {
 /* Cookies consent
 -------------------------- */
 .cc-color-override-1434350510.cc-window, .cc-color-override-1434350510.cc-revoke, .cc-color-override-1434350510 .cc-btn {
-	font-family: 'Lato', sans-serif !important;
+	font-family: 'LatoWeb', sans-serif !important;
 	font-size: 12px;
 	}
 .cc-color-override-1434350510.cc-window, .cc-color-override-1434350510.cc-revoke {
