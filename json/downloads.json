@@ -169,12 +169,21 @@
       "fragment":"scade4capella",
       "licence":"Commercial",
       "contact":"<a href='mailto:thierry.lesergent@ansys.com?subject=SCADE Architect importer for Capella'>ANSYS</a>",
-      "description": "<p>SCADE Architect is a SysML based tool that supports several gateways to eg. medini analyze for system functional safety, SCADE Suite for certified embedded software development, FACE or AUTOSAR modeling, etc.</p><p>This add-on , still in beta version for SCADE 2019Rx, allows for importing Capella Logical and Physical Architecture of a model, including the graphical block diagrams, as a SCADE Architect model, thus offering a path to medini analyze or SCADE Suite tools.",
+      "description": "<p>SCADE Architect is a SysML based tool that supports several gateways to eg. medini analyze for system functional safety, SCADE Suite for certified embedded software development, FACE or AUTOSAR modeling, etc.</p><p>This add-on , still in beta version for SCADE 2019Rx, allows for importing Capella Logical and Physical Architecture of a model, including the graphical block diagrams, as a SCADE Architect model, thus offering a path to medini analyze or SCADE Suite tools.</p>",
       "download": { 
         "learnMore": "https://www.ansys.com/en-in/products/embedded-software"
       }
     },    
-    
+    { "name":"RAT – Authoring Tools",
+      "key":"RAT",
+      "fragment":"rat",
+      "licence":"Commercial",
+      "contact":"<a href='https://www.reusecompany.com/company/contact-reuse-company'>The Reuse Company</a>",
+      "description": "<p>This add-on assists users when writing requirements statements, hence improving the overall quality of the requirements or even the model elements, diagrams etc of the projects.</p><p>RAT – Authoring Tools supports AI and Natural Language Processing to provide the following functionalities:</p><ul><li>Real-time Quality Analysis</li><li>Smart Authoring</li><li>Patterns based Authoring</li><li>On-the-fly Requirements-Models consistency checking and traceability</li><li>RMS Synchronization</li><li>Requirements aggregation in a SMART Grid</li></ul>",
+      "download": { 
+        "learnMore": "https://www.reusecompany.com/rat-authoring-tools"
+      }
+    },
     
     
      { "name":"Requirements",
