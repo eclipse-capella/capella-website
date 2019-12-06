@@ -71,9 +71,10 @@
       "fragment":"doc_generation",
       "licence":"EPL",
       "contact":"<a href='industry-consortium/thales.html'>Thales</a>",
-      "description": "<p>This addon enables the end-user to generate an HTML website from a Capella project.</p><p>Sharing models with all stakeholders is essential in model-based systems engineering. Publishing and sharing HTML versions of models helps make models THE reference of all engineering activities.</p><p>For more information, please install the addon within Capella and check online help then dedicated section for the addon.</p>",
+      "description": "<p>This addon enables the end-user to generate an HTML website from a Capella project (e.g: <a href='resources/doc/IFE_XHTML_DocGen_1.3.2_for_capella_1.3.1/output/index.html' target='_blank'>In-Flight Entertainment (IFE)</a>).</p><p>Sharing models with all stakeholders is essential in model-based systems engineering. Publishing and sharing HTML versions of models helps make models THE reference of all engineering activities.</p><p>For more information, please install the addon within Capella and check online help then dedicated section for the addon.</p>",
       "download": { 
-        "dropin": "http://download.eclipse.org/capella/addons/xhtmldocgen/dropins/release/1.3.1/CapellaXHTMLDocGen-1.3.1.201906140948-Capella-1.3.1-dropins.zip",
+        "dropin": "http://download.eclipse.org/capella/addons/xhtmldocgen/dropins/release/1.3.2/CapellaXHTMLDocGen-1.3.2.201912021712-Capella-1.3.1-dropins.zip",
+        "updateSite": "https://download.eclipse.org/capella/addons/xhtmldocgen/updates/release/1.3.2/",
         "installAddon": "https://wiki.polarsys.org/Capella/Extensions/Installation_Guide#Installation_Procedures"        
       }
     }, 
