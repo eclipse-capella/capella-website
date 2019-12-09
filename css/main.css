@@ -52,11 +52,11 @@ h2 {
 .text-uppercase {
   letter-spacing: 2px;
 }
-a, .linked_title a:hover{
+a, .btn-link, .linked_title a:hover{
 	color: #FBBF52;
 	text-decoration: none;
 }
-a:hover, a:active, a:focus, #top-bar .main-menu li#dwnld > a:hover, .linked_title a,
+a:hover, .btn-link:hover, a:active, a:focus, #top-bar .main-menu li#dwnld > a:hover, .linked_title a,
 #top-bar .main-menu li#dwnld > a:focus {
   text-decoration: none;
   color: #292253;
@@ -985,3 +985,11 @@ background-color: #FBBF52 !important;
 .pl-2 {
   padding-left: 6px;
 }
+.mr-2 {
+  margin-right: 6px;
+}
+
+.alert-compatibility {
+color: #a94442;
+}
+

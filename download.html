@@ -53,6 +53,7 @@
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
         <!-- jquery -->
         <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/popper-1.14.3.min.js"></script>
         <!-- bootstrap js -->
         <script src="js/bootstrap.min.js"></script>
         <!-- wow js -->
@@ -120,12 +121,12 @@
                         <figure class="wow fadeInLeft animated" data-wow-duration="300ms" data-wow-delay="300ms">
                             <div>
                                 <h4 class="txt_white">Resources</h4><br>
-           	     				<p><a class="wow fadeInUp animated" data-wow-delay=".2s" href="https://wiki.polarsys.org/Capella/Installation_Guide#Capella_Installation" target="_blank">Installation <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+           	     				<p><a class="wow fadeInUp animated" data-wow-delay=".2s" href="https://wiki.eclipse.org/Capella/Installation_Guide#Capella_Installation" target="_blank">Installation <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
            	     				<p><a class="wow fadeInUp animated" data-wow-delay=".3s" href="getstarted.html" target="_blank">Getting Started <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
            	     				<p><a class="wow fadeInUp animated" data-wow-delay=".4s" href="http://git.polarsys.org/c/capella/capella.git/" target="_blank">Source Code <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
 								<p><a class="wow fadeInUp animated" data-wow-delay=".5s" href="support.html" target="_self">Documentation <i class="fa fa-fexternal-link" aria-hidden="true"></i></a></p>
-								<p><a class="wow fadeInUp animated" data-wow-delay=".6s" href="https://hudson.polarsys.org/capella/" target="_blank">Nightly Versions** <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
-								<p><a class="wow fadeInUp animated" data-wow-delay=".7s" href="http://download.polarsys.org/capella/core/products/releases/?d" target="_blank">Previous Versions <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+								<p><a class="wow fadeInUp animated" data-wow-delay=".6s" href="https://download.eclipse.org/capella/core/products/nightly/?d" target="_blank">Nightly Versions** <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+								<p><a class="wow fadeInUp animated" data-wow-delay=".7s" href="http://download.eclipse.org/capella/core/products/releases/?d" target="_blank">Previous Versions <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
                             </div>
                         </figure>
                     </div>
@@ -180,7 +181,7 @@
                         </figure>
                     </div>                    
                 </div>
-                                    <p><a class="wow fadeInDown btn btn-default" data-wow-delay=".6s" href="addons.html">More add-ons</a></p>
+                <p><a class="wow fadeInDown btn btn-default" data-wow-delay=".6s" href="addons.html">More add-ons</a></p>
                 
         </div>
 
@@ -215,36 +216,36 @@
                         <figure class="wow fadeInLeft animated" data-wow-duration="300ms" data-wow-delay="300ms">
                             <div>
                                 <h4 class="txt_white">Resources</h4><br>
-           	     				<p><a class="wow fadeInUp animated" data-wow-delay=".6s" href="https://wiki.polarsys.org/Capella/Studio" target="_blank">Documentation <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+           	     				<p><a class="wow fadeInUp animated" data-wow-delay=".6s" href="https://wiki.eclipse.org/Capella/Studio" target="_blank">Documentation <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
 								<p><a class="wow fadeInUp animated" data-wow-delay=".6s" href="http://git.polarsys.org/c/capella/capella-studio.git/" target="_blank">Source Code <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
-								<p><a class="wow fadeInUp animated" data-wow-delay=".6s" href="https://hudson.polarsys.org/capella/view/Capella%20Studio/" target="_blank">Nightly Versions** <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
-								<p><a class="wow fadeInUp animated" data-wow-delay=".6s" href="http://download.polarsys.org/capella/studio/platform/releases/?d" target="_blank">Previous Versions <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+								<p><a class="wow fadeInUp animated" data-wow-delay=".6s" href="https://download.eclipse.org/capella/capellastudio/products/nightly/?d" target="_blank">Nightly Versions** <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+								<p><a class="wow fadeInUp animated" data-wow-delay=".6s" href="https://download.eclipse.org/capella/capellastudio/products/releases/?d" target="_blank">Previous Versions <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
                             </div>
                         </figure>
                     </div>
                     <div class="clearfix"> </div>
                     <br>
-                    <p class="txt_white wow fadeInUp animated" data-wow-delay=".6s"><em>(*) Mac and Linux versions have not been field-tested. Do not hesitate to provide your feedback on the forum.</em></p>
-                    <p class="txt_white wow fadeInUp animated" data-wow-delay=".7s"><em>(**) Nightly version integrates the latest developments and is downloaded directly from the continuous integration system.</em></p>
+                    <p class="small txt_white wow fadeInUp animated" data-wow-delay=".6s"><em>(*) Mac and Linux versions have not been field-tested.</em></p>
+                    <p class="small txt_white wow fadeInUp animated" data-wow-delay=".7s"><em>(**) Nightly versions integrate the latest developments to test before official releases.</em></p>
+                    <p class="small txt_white wow fadeInUp animated" data-wow-delay=".7s"><em>Do not hesitate to provide your feedback on the forum.</em></p>
                 </div>
             </div>
 		</section> <!-- #capellaResources -->
-
 
 			<script>
 
                     function updateMainLink(mainLinkId, data, product) {
                         let mainId = "windows";
-                        let mainLink = `<p><a class="wow fadeInUp animated btn btn-default animated" data-wow-delay=".6s" href="${product.links[mainId].main}" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;" onClick="ga('send', 'event', '${product.key}', '${data.versionBranch}', '${data.lang[mainId].key}');">
-                                <i class="fa fa-download" aria-hidden="true"></i> Get ${product.name} ${product.version} for ${data.lang[mainId].text} ${data.lang["main"].text}</a></p>`;
+						let title = "Get {0} {1} for {2} {3}".format(product.name, product.version, data.lang[mainId].text, data.lang["main"].text);
+                        let mainLink = '<p><a class="wow fadeInUp animated btn btn-default animated" data-wow-delay=".6s" href="{0}" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;" onClick="ga(\'send\', \'event\', \'{1}\', \'{2}\', \'{3}\');"><i class="fa fa-download" aria-hidden="true"></i> {4}</a></p>'.format(product.links[mainId].main, product.key, data.versionBranch, data.lang[mainId].key, title);
                         document.getElementById(mainLinkId).innerHTML += mainLink;
                     }
 
                     function updatePlatformLinks(platformLinksId, data, product) {
                         let lis = Object.keys(product.links).map(function (k) {
                             let link = product.links[k];
-                            let linkss = Object.keys(link).map(key => `<a href="${link[key]}" onClick="ga('send', 'event', '${product.key}', '${data.versionBranch}', '${data.lang[k].key}');">${data.lang[key].text}</a>`).join(" - ");
-                            return `<p class="txt_white wow fadeInUp animated" data-wow-delay=".4s"><i class="${data.lang[k].icon}" aria-hidden="true"></i> ${data.lang[k].text} ${linkss}</p>`;
+                            let linkss = Object.keys(link).map(function (key) { return '<a href="{0}" onClick="ga(\'send\', \'event\', \'{1}\', \'{2}\', \'{3}\');">{4}</a>'.format(link[key], product.key, data.versionBranch, data.lang[k].key, data.lang[key].text);  }).join(" - ");
+                            return '<p class="txt_white wow fadeInUp animated" data-wow-delay=".4s"><i class="{0}" aria-hidden="true"></i> {1}<br/>{2}</p>'.format(data.lang[k].icon, data.lang[k].text, linkss);
                         }).join("");
                         document.getElementById(platformLinksId).innerHTML += lis;
                     }
@@ -252,21 +253,29 @@
                     function updateAddonLinks(data) {
                         let addons = "";
                         let basic = "";
-                        let filteredAddons = data.addons.filter(a => a.showOnMainPage);
+                        let filteredAddons = data.addons.filter(function (a) { return a.showOnMainPage; });
                         for (i in filteredAddons) {
                             let addon = filteredAddons[i];
                             let keys = Object.keys(addon.download);
                             let links = keys.map(function(k) {
                                 let icon = ""; //data.lang[k].icon ? `<i class="pl-2 ${data.lang[k].icon}" aria-hidden="true"></i>` : "";
-                                return `<a href=${addon.download[k]} onClick="ga('send', 'event', 'Capella', '${data.versionBranch}', '${addon.key}');">${data.lang[k].text}${icon}</a>`;
-                            }).join(" | ");
-                            let result = `<p class="wow fadeInUp animated" data-wow-delay=".3s">${addon.name} `;
+                                return '<a href="{0}" onClick="ga(\'send\', \'event\', \'Capella\', \'{1}\', \'{2}\');">{3}{4}</a>'.format(addon.download[k], data.versionBranch, addon.key, data.lang[k].text, icon);
+                            }).join(" - ");
                             
-                            //Append viewpoint to name of add-on
-                            if (addon.isViewpoint) {
-                                result += "Viewpoint ";
-                            }
-                            result += `<span class="pl-2">${links}</span></p>`;
+							let header = [];
+							if (addon.contact) {
+								header.push('Contact: '+addon.contact);
+							}
+							if (addon.licence) {
+								header.push('License: '+addon.licence);
+							}
+							header=header.join(" - ");
+							let information = '<p><i>{0}</i></p><p>{1}</p>'.format(header, addon.description);
+							
+							let compatible = addon.compatibleWithCurrentVersion === false ? '<button role="button" class="fa fa-exclamation-triangle btn-link btn-xs alert-compatibility" data-toggle="tooltip" data-placement="bottom" title="{0}" ></button>'.format(data.lang.compatibility.text) : "";
+							let information2 = '<button role="button" class="fa fa-info-circle btn-link btn-xs " data-toggle="popover" data-trigger="focus" data-placement="bottom" title="{0}" data-content="{1}"></button>'.format(addon.name, information);
+							
+							let result = '<p class="wow fadeInUp animated" data-wow-delay=".3s">{0} {1}<br/><span class="small pl-2">{2}{3}</span></p><br/>'.format(addon.name, information2, compatible, links);
 
                             if (!addon.isViewpoint) {
                                 addons += result;
@@ -276,6 +285,9 @@
                       }
                       document.getElementById("capella-addons").innerHTML = addons;
                       document.getElementById("capella-basic").innerHTML = basic;
+					  
+					  $('[data-toggle="popover"]').popover( { html: true, container: 'body' });
+					  $('[data-toggle="tooltip"]').tooltip();
                     }
 
                    $.getJSON('json/downloads.json', function(data) {

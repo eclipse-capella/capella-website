@@ -31,6 +31,7 @@
             "properties": {
                 "name": { "type": "string" },
                 "showOnMainPage": { "type": "boolean", "default": false },
+                "compatibleWithCurrentVersion": { "type": "boolean", "default": true },
                 "isViewpoint": { "type": "boolean", "default": false },
                 "key": { "type": "string" },
                 "fragment": { "type": "string", "default": "@key" },

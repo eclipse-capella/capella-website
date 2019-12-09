@@ -11,7 +11,8 @@
       "linux": { "text": "Linux*", "icon": "fa fa-linux", "key":"LINUX" },
       "mac": { "text": "Mac Cocoa*", "icon": "fa fa-apple", "key":"MAC" },
       "main": { "text": "64-bit" },
-      "mirror": { "text": "Mirror" }
+      "mirror": { "text": "Mirror" },
+      "compatibility": { "text": "This addon is not yet compatible with the new Capella version." }
     },
 
   "capella": {
@@ -62,7 +63,7 @@
       "download": { 
         "dropin": "http://download.polarsys.org/capella/addons/subsystemtransition/dropins/releases/1.3.1/SubsystemTransition-dropins-1.3.1.201905291436.zip", 
         "updateSite": "http://download.polarsys.org/capella/addons/subsystemtransition/updates/releases/1.3.1/SubsystemTransition-updateSite-1.3.1.201905291436.zip",
-        "installAddon": "https://wiki.polarsys.org/Capella/Extensions/Installation_Guide#Installation_Procedures"
+        "installAddon": "https://wiki.eclipse.org/Capella/Extensions/Installation_Guide#Installation_Procedures"
       }
     },
     { "name":"XHTML Documentation Generation",
@@ -75,7 +76,7 @@
       "download": { 
         "dropin": "http://download.eclipse.org/capella/addons/xhtmldocgen/dropins/release/1.3.2/CapellaXHTMLDocGen-1.3.2.201912021712-Capella-1.3.1-dropins.zip",
         "updateSite": "https://download.eclipse.org/capella/addons/xhtmldocgen/updates/release/1.3.2/",
-        "installAddon": "https://wiki.polarsys.org/Capella/Extensions/Installation_Guide#Installation_Procedures"        
+        "installAddon": "https://wiki.eclipse.org/Capella/Extensions/Installation_Guide#Installation_Procedures"        
       }
     }, 
     { "name":"Filtering",
@@ -88,7 +89,7 @@
       "download": { 
         "dropin": "http://download.eclipse.org/capella/addons/filtering/dropins/releases/1.3.0/Filtering-dropins-1.3.0.201906210910.zip", 
         "updateSite": "http://download.eclipse.org/capella/addons/filtering/updates/releases/1.3.0/Filtering-updateSite-1.3.0.201906210910.zip",
-        "installAddon": "https://wiki.polarsys.org/Capella/Extensions/Installation_Guide#Installation_Procedures"
+        "installAddon": "https://wiki.eclipse.org/Capella/Extensions/Installation_Guide#Installation_Procedures"
       }
     }, 
     { "name":"Property Values Management Tools (PVMT)",
@@ -197,7 +198,7 @@
        "download": { 
         "dropin": "http://download.eclipse.org/capella/addons/requirements/dropins/releases/0.10.2/Requirements-dropins-0.10.2.201907090959.zip", 
         "updateSite": "http://download.eclipse.org/capella/addons/requirements/updates/releases/0.10.2/Requirements-updateSite-0.10.2.201907090959.zip",
-        "installAddon": "https://wiki.polarsys.org/Capella/Extensions/Installation_Guide#Installation_Procedures"
+        "installAddon": "https://wiki.eclipse.org/Capella/Extensions/Installation_Guide#Installation_Procedures"
       }
     }, 
     { "name":"Basic Mass",
@@ -206,11 +207,11 @@
       "key":"BASICMASS",
       "licence":"EPL",
       "contact":"<a href='industry-consortium/thales.html'>Thales</a>",
-      "description": "<p>This addon enables the end-user to generate an HTML website from a Capella project.</p><p>Sharing models with all stakeholders is essential in model-based systems engineering. Publishing and sharing HTML versions of models helps make models THE reference of all engineering activities.</p><p>For more information, please install the addon within Capella and check online help then dedicated section for the addon.</p>",
+      "description": "<p>The Mass viewpoint enables to simply describe the non-functional aspect of mass in Capella. </p><p>For more information, please visit <a href='https://wiki.eclipse.org/Capella/Viewpoints/BasicMass'>wiki page</a>.</p>",
       "download": { 
         "dropin": "http://download.polarsys.org/capella/addons/basicmass/dropins/releases/1.3.0/oxygen/BasicMass-dropins-1.3.0.201811121102.zip", 
         "updateSite": "http://download.polarsys.org/capella/addons/basicmass/updates/releases/1.3.0/oxygen/BasicMass-updateSite-1.3.0.201811121102.zip",
-        "installAddon": "https://wiki.polarsys.org/Capella/Extensions/Installation_Guide#Installation_Procedures"
+        "installAddon": "https://wiki.eclipse.org/Capella/Extensions/Installation_Guide#Installation_Procedures"
       }
     },
     { "name":"Basic Price",
@@ -219,11 +220,11 @@
       "key":"BASICPRICE",
       "licence":"EPL",
       "contact":"<a href='industry-consortium/thales.html'>Thales</a>",
-      "description": "<p>This addon enables the end-user to generate an HTML website from a Capella project.</p><p>Sharing models with all stakeholders is essential in model-based systems engineering. Publishing and sharing HTML versions of models helps make models THE reference of all engineering activities.</p><p>For more information, please install the addon within Capella and check online help then dedicated section for the addon.</p>",
+      "description": "<p>The Price viewpoint enables to simply describe the non-functional aspect of price in Capella.</p><p>For more information, please visit <a href='https://wiki.eclipse.org/Capella/Viewpoints/BasicPrice'>wiki page</a>.</p>",
       "download": { 
         "dropin": "http://download.polarsys.org/capella/addons/basicprice/dropins/releases/1.3.0/oxygen/BasicPrice-dropins-1.3.0.201811121102.zip",
         "updateSite": "http://download.polarsys.org/capella/addons/basicprice/updates/releases/1.3.0/oxygen/BasicPrice-updateSite-1.3.0.201811121102.zip",
-        "installAddon": "https://wiki.polarsys.org/Capella/Extensions/Installation_Guide#Installation_Procedures"
+        "installAddon": "https://wiki.eclipse.org/Capella/Extensions/Installation_Guide#Installation_Procedures"
       }
     },
     { "name":"Basic Performance",
@@ -232,11 +233,11 @@
       "key":"BASICPERFO",
       "licence":"EPL",
       "contact":"<a href='industry-consortium/thales.html'>Thales</a>",
-      "description": "<p>This addon enables the end-user to generate an HTML website from a Capella project.</p><p>Sharing models with all stakeholders is essential in model-based systems engineering. Publishing and sharing HTML versions of models helps make models THE reference of all engineering activities.</p><p>For more information, please install the addon within Capella and check online help then dedicated section for the addon.</p>",
+      "description": "<p>The Performance viewpoint enables to simply describe the non-functional aspect of performance in Capella.</p><p>For more information, please visit <a href='https://wiki.eclipse.org/Capella/Viewpoints/BasicPerformance'>wiki page</a>.</p>",
       "download": { 
         "dropin": "http://download.polarsys.org/capella/addons/basicperformance/dropins/releases/1.3.0/oxygen/BasicPerfo-dropins-1.3.0.201811121102.zip", 
         "updateSite": "http://download.polarsys.org/capella/addons/basicperformance/updates/releases/1.3.0/oxygen/BasicPerfo-updateSite-1.3.0.201811121102.zip",
-        "installAddon": "https://wiki.polarsys.org/Capella/Extensions/Installation_Guide#Installation_Procedures"
+        "installAddon": "https://wiki.eclipse.org/Capella/Extensions/Installation_Guide#Installation_Procedures"
       }
     }
     
