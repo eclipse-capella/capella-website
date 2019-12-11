@@ -18,19 +18,16 @@
   "capella": {
     "name": "Capella",
     "key": "Capella",
-    "version": "1.3.1",
+    "version": "1.4.0",
     "links": {
       "windows": {
-        "main": "https://download.eclipse.org/capella/core/products/releases/1.3.1-R20190520-182008/capella-1.3.1.201905201820-win32-win32-x86_64.zip",
-        "mirror": "https://obeo-mirror-capella-releases.s3-eu-west-1.amazonaws.com/core/platform/releases/1.3.1/oxygen/capella-1.3.1.201905201820-win32-win32-x86_64.zip"
+        "main": "https://download.eclipse.org/capella/core/products/releases/1.4.0-R20191121-173601/capella-1.4.0.201911211736-win32-win32-x86_64.zip"
       },
       "linux": { 
-        "main": "https://download.eclipse.org/capella/core/products/releases/1.3.1-R20190520-182008/capella-1.3.1.201905201820-linux-gtk-x86_64.zip",
-        "mirror": "https://obeo-mirror-capella-releases.s3-eu-west-1.amazonaws.com/core/platform/releases/1.3.1/oxygen/capella-1.3.1.201905201820-linux-gtk-x86_64.zip"
+        "main": "https://download.eclipse.org/capella/core/products/releases/1.4.0-R20191121-173601/capella-1.4.0.201911211736-linux-gtk-x86_64.zip"
       },
       "mac": { 
-        "main": "https://download.eclipse.org/capella/core/products/releases/1.3.1-R20190520-182008/capella-1.3.1.201905201820-macosx-cocoa-x86_64.zip",
-        "mirror": "https://obeo-mirror-capella-releases.s3-eu-west-1.amazonaws.com/core/platform/releases/1.3.1/oxygen/capella-1.3.1.201905201820-macosx-cocoa-x86_64.zip"
+        "main": "https://download.eclipse.org/capella/core/products/releases/1.4.0-R20191121-173601/capella-1.4.0.201911211736-macosx-cocoa-x86_64.zip"
       }
     }
   },
@@ -41,13 +38,13 @@
     "version": "1.3.1",
     "links": {
       "windows": { 
-        "main": "http://download.eclipse.org/capella/capellastudio/products/release/1.3.1/capella-studio-1.3.1.201905211416-win32.win32.x86_64.zip"
+        "main": "https://download.eclipse.org/capella/capellastudio/products/release/1.3.1/capella-studio-1.3.1.201905211416-win32.win32.x86_64.zip"
       },
       "linux": { 
-        "main": "http://download.eclipse.org/capella/capellastudio/products/release/1.3.1/capella-studio-1.3.1.201905211416-linux.gtk.x86_64.zip"
+        "main": "https://download.eclipse.org/capella/capellastudio/products/release/1.3.1/capella-studio-1.3.1.201905211416-linux.gtk.x86_64.zip"
       },
       "mac": { 
-        "main": "http://download.eclipse.org/capella/capellastudio/products/release/1.3.1/capella-studio-1.3.1.201905211416-macosx.cocoa.x86_64.zip"
+        "main": "https://download.eclipse.org/capella/capellastudio/products/release/1.3.1/capella-studio-1.3.1.201905211416-macosx.cocoa.x86_64.zip"
       }
     }
   },
@@ -58,11 +55,12 @@
       "key":"TSSS",
       "fragment":"s2stransition",
       "licence":"EPL",
+      "compatibleWithCurrentVersion": false,
       "contact":"<a href='industry-consortium/thales.html'>Thales</a>",
       "description": "<p>This addon is a System to SubSystem Transition. It initializes a new Capella project from existing model. This transition extracts suitable model information from a selected Capella Component and manage top/down update propagation.</p><p>The automated and iterative transition between system and subsystems is a great help for managing several levels of engineering. The contract and model of the subsystems are computed from the system. Ideally, subsystems stakeholders are involved in co-engineering activities at system level before the transition occurs.</p><p>For more information, please install the addon within Capella and check online help then dedicated section for the addon.</p>",
       "download": { 
-        "dropin": "http://download.polarsys.org/capella/addons/subsystemtransition/dropins/releases/1.3.1/SubsystemTransition-dropins-1.3.1.201905291436.zip", 
-        "updateSite": "http://download.polarsys.org/capella/addons/subsystemtransition/updates/releases/1.3.1/SubsystemTransition-updateSite-1.3.1.201905291436.zip",
+        "dropin": "https://download.eclipse.org/capella/addons/subsystemtransition/dropins/releases/1.3.1/SubsystemTransition-dropins-1.3.1.201905291436.zip", 
+        "updateSite": "https://download.eclipse.org/capella/addons/subsystemtransition/updates/releases/1.3.1/SubsystemTransition-updateSite-1.3.1.201905291436.zip",
         "installAddon": "https://wiki.eclipse.org/Capella/Extensions/Installation_Guide#Installation_Procedures"
       }
     },
@@ -71,10 +69,11 @@
       "key":"XHTML",
       "fragment":"doc_generation",
       "licence":"EPL",
+      "compatibleWithCurrentVersion": false,
       "contact":"<a href='industry-consortium/thales.html'>Thales</a>",
       "description": "<p>This addon enables the end-user to generate an HTML website from a Capella project (e.g: <a href='resources/doc/IFE_XHTML_DocGen_1.3.2_for_capella_1.3.1/output/index.html' target='_blank'>In-Flight Entertainment (IFE)</a>).</p><p>Sharing models with all stakeholders is essential in model-based systems engineering. Publishing and sharing HTML versions of models helps make models THE reference of all engineering activities.</p><p>For more information, please install the addon within Capella and check online help then dedicated section for the addon.</p>",
       "download": { 
-        "dropin": "http://download.eclipse.org/capella/addons/xhtmldocgen/dropins/release/1.3.2/CapellaXHTMLDocGen-1.3.2.201912021712-Capella-1.3.1-dropins.zip",
+        "dropin": "https://download.eclipse.org/capella/addons/xhtmldocgen/dropins/release/1.3.2/CapellaXHTMLDocGen-1.3.2.201912021712-Capella-1.3.1-dropins.zip",
         "updateSite": "https://download.eclipse.org/capella/addons/xhtmldocgen/updates/release/1.3.2/",
         "installAddon": "https://wiki.eclipse.org/Capella/Extensions/Installation_Guide#Installation_Procedures"        
       }
@@ -84,11 +83,12 @@
       "key":"FILTERING",
       "fragment":"filtering",
       "licence":"EPL",
+      "compatibleWithCurrentVersion": false,
       "contact":"<a href='industry-consortium/thales.html'>Thales</a>",
       "description": "<p>Filtering is an addon to filter capella models. It provides several capabilities:</p><ul><li>Definition of filtering criteria to be associated with model elements</li><li>Definition of results containing criteria</li><li>Visualization of criteria and results in diagrams</li><li>Creation of filtered models</li></ul><p>For more information, please install the addon within Capella and check online help then dedicated section for the addon.</p>",
       "download": { 
-        "dropin": "http://download.eclipse.org/capella/addons/filtering/dropins/releases/1.3.0/Filtering-dropins-1.3.0.201906210910.zip", 
-        "updateSite": "http://download.eclipse.org/capella/addons/filtering/updates/releases/1.3.0/Filtering-updateSite-1.3.0.201906210910.zip",
+        "dropin": "https://download.eclipse.org/capella/addons/filtering/dropins/releases/1.3.0/Filtering-dropins-1.3.0.201906210910.zip", 
+        "updateSite": "https://download.eclipse.org/capella/addons/filtering/updates/releases/1.3.0/Filtering-updateSite-1.3.0.201906210910.zip",
         "installAddon": "https://wiki.eclipse.org/Capella/Extensions/Installation_Guide#Installation_Procedures"
       }
     }, 
@@ -97,6 +97,7 @@
       "key":"PVMT",
       "fragment":"pvmt",
       "licence":"EPL",
+      "compatibleWithCurrentVersion": false,
       "contact":"<a href='industry-consortium/thales.html'>Thales</a>",
       "description": "<p>This add-on allows end-users to easily define their own specific properties on Arcadia concepts, value these properties for each elements, and automatically change the graphical aspect of model elements in diagrams.</p><p>This add-on is developed by a Thales business unit (DMS-FR) and is distributed under the Eclipse Public License. It is not hosted by the Eclipse Foundation and it is not developped under the Eclipse Development Process.</p>",
       "download": {
@@ -119,6 +120,7 @@
       "key":"M2DOC",
       "fragment":"m2doc",
       "licence":"EPL",
+      "compatibleWithCurrentVersion": false,
       "contact":"<a href='industry-consortium/obeo.html'>Obeo</a>",
       "description": "<p>M2Doc generates MS-Word documents from Capella models. M2Doc uses wysiwyg and customable Word templates to extract data and diagrams from your models and display them in a docx file.</p>",
       "download": { 
@@ -193,11 +195,12 @@
        "isViewpoint": true,
        "key":"REQ",
        "licence":"EPL",
+      "compatibleWithCurrentVersion": false,
        "contact":"<a href='industry-consortium/thales.html'>Thales</a>",
        "description": "<p>This add-on allows importing a set of requirements from a ReqIF file (Requirement Interchange Format / OMG Standard).</p><p>The import is iterative (diff/merge based) and a set of tools is provided to link the model elements to the requirements.</p><p>For more information, please install the addon within Capella and check online help then dedicated section for the addon.</p>",
        "download": { 
-        "dropin": "http://download.eclipse.org/capella/addons/requirements/dropins/releases/0.10.2/Requirements-dropins-0.10.2.201907090959.zip", 
-        "updateSite": "http://download.eclipse.org/capella/addons/requirements/updates/releases/0.10.2/Requirements-updateSite-0.10.2.201907090959.zip",
+        "dropin": "https://download.eclipse.org/capella/addons/requirements/dropins/releases/0.10.3/Requirements-dropins-0.10.3.201908051951.zip", 
+        "updateSite": "https://download.eclipse.org/capella/addons/requirements/updates/releases/0.10.3/Requirements-updateSite-0.10.3.201908051951.zip",
         "installAddon": "https://wiki.eclipse.org/Capella/Extensions/Installation_Guide#Installation_Procedures"
       }
     }, 
@@ -206,11 +209,12 @@
       "isViewpoint": true,
       "key":"BASICMASS",
       "licence":"EPL",
+      "compatibleWithCurrentVersion": false,
       "contact":"<a href='industry-consortium/thales.html'>Thales</a>",
       "description": "<p>The Mass viewpoint enables to simply describe the non-functional aspect of mass in Capella. </p><p>For more information, please visit <a href='https://wiki.eclipse.org/Capella/Viewpoints/BasicMass'>wiki page</a>.</p>",
       "download": { 
-        "dropin": "http://download.polarsys.org/capella/addons/basicmass/dropins/releases/1.3.0/oxygen/BasicMass-dropins-1.3.0.201811121102.zip", 
-        "updateSite": "http://download.polarsys.org/capella/addons/basicmass/updates/releases/1.3.0/oxygen/BasicMass-updateSite-1.3.0.201811121102.zip",
+        "dropin": "https://download.eclipse.org/capella/addons/basicmass/dropins/releases/1.3.0/oxygen/BasicMass-dropins-1.3.0.201811121102.zip", 
+        "updateSite": "https://download.eclipse.org/capella/addons/basicmass/updates/releases/1.3.0/oxygen/BasicMass-updateSite-1.3.0.201811121102.zip",
         "installAddon": "https://wiki.eclipse.org/Capella/Extensions/Installation_Guide#Installation_Procedures"
       }
     },
@@ -219,11 +223,12 @@
       "isViewpoint": true,
       "key":"BASICPRICE",
       "licence":"EPL",
+      "compatibleWithCurrentVersion": false,
       "contact":"<a href='industry-consortium/thales.html'>Thales</a>",
       "description": "<p>The Price viewpoint enables to simply describe the non-functional aspect of price in Capella.</p><p>For more information, please visit <a href='https://wiki.eclipse.org/Capella/Viewpoints/BasicPrice'>wiki page</a>.</p>",
       "download": { 
-        "dropin": "http://download.polarsys.org/capella/addons/basicprice/dropins/releases/1.3.0/oxygen/BasicPrice-dropins-1.3.0.201811121102.zip",
-        "updateSite": "http://download.polarsys.org/capella/addons/basicprice/updates/releases/1.3.0/oxygen/BasicPrice-updateSite-1.3.0.201811121102.zip",
+        "dropin": "https://download.eclipse.org/capella/addons/basicprice/dropins/releases/1.3.0/oxygen/BasicPrice-dropins-1.3.0.201811121102.zip",
+        "updateSite": "https://download.eclipse.org/capella/addons/basicprice/updates/releases/1.3.0/oxygen/BasicPrice-updateSite-1.3.0.201811121102.zip",
         "installAddon": "https://wiki.eclipse.org/Capella/Extensions/Installation_Guide#Installation_Procedures"
       }
     },
@@ -232,11 +237,12 @@
       "isViewpoint": true,
       "key":"BASICPERFO",
       "licence":"EPL",
+      "compatibleWithCurrentVersion": false,
       "contact":"<a href='industry-consortium/thales.html'>Thales</a>",
       "description": "<p>The Performance viewpoint enables to simply describe the non-functional aspect of performance in Capella.</p><p>For more information, please visit <a href='https://wiki.eclipse.org/Capella/Viewpoints/BasicPerformance'>wiki page</a>.</p>",
       "download": { 
-        "dropin": "http://download.polarsys.org/capella/addons/basicperformance/dropins/releases/1.3.0/oxygen/BasicPerfo-dropins-1.3.0.201811121102.zip", 
-        "updateSite": "http://download.polarsys.org/capella/addons/basicperformance/updates/releases/1.3.0/oxygen/BasicPerfo-updateSite-1.3.0.201811121102.zip",
+        "dropin": "https://download.eclipse.org/capella/addons/basicperformance/dropins/releases/1.3.0/oxygen/BasicPerfo-dropins-1.3.0.201811121102.zip", 
+        "updateSite": "https://download.eclipse.org/capella/addons/basicperformance/updates/releases/1.3.0/oxygen/BasicPerfo-updateSite-1.3.0.201811121102.zip",
         "installAddon": "https://wiki.eclipse.org/Capella/Extensions/Installation_Guide#Installation_Procedures"
       }
     }
