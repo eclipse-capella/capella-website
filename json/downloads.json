@@ -35,16 +35,16 @@
   "capellaStudio": {
     "name": "Capella Studio",
     "key": "CapellaStudio",
-    "version": "1.3.1",
+    "version": "1.4.0",
     "links": {
       "windows": { 
-        "main": "https://download.eclipse.org/capella/capellastudio/products/release/1.3.1/capella-studio-1.3.1.201905211416-win32.win32.x86_64.zip"
+        "main": "https://download.eclipse.org/capella/capellastudio/products/release/1.4.0/capella-studio-1.4.0.201911060756-win32.win32.x86_64.zip"
       },
       "linux": { 
-        "main": "https://download.eclipse.org/capella/capellastudio/products/release/1.3.1/capella-studio-1.3.1.201905211416-linux.gtk.x86_64.zip"
+        "main": "https://download.eclipse.org/capella/capellastudio/products/release/1.4.0/capella-studio-1.4.0.201911060756-linux.gtk.x86_64.zip"
       },
       "mac": { 
-        "main": "https://download.eclipse.org/capella/capellastudio/products/release/1.3.1/capella-studio-1.3.1.201905211416-macosx.cocoa.x86_64.zip"
+        "main": "https://download.eclipse.org/capella/capellastudio/products/release/1.4.0/capella-studio-1.4.0.201911060756-macosx.cocoa.x86_64.zip"
       }
     }
   },
@@ -209,12 +209,12 @@
       "isViewpoint": true,
       "key":"BASICMASS",
       "licence":"EPL",
-      "compatibleWithCurrentVersion": false,
+      "compatibleWithCurrentVersion": true,
       "contact":"<a href='industry-consortium/thales.html'>Thales</a>",
       "description": "<p>The Mass viewpoint enables to simply describe the non-functional aspect of mass in Capella. </p><p>For more information, please visit <a href='https://wiki.eclipse.org/Capella/Viewpoints/BasicMass'>wiki page</a>.</p>",
       "download": { 
-        "dropin": "https://download.eclipse.org/capella/addons/basicmass/dropins/releases/1.3.0/oxygen/BasicMass-dropins-1.3.0.201811121102.zip", 
-        "updateSite": "https://download.eclipse.org/capella/addons/basicmass/updates/releases/1.3.0/oxygen/BasicMass-updateSite-1.3.0.201811121102.zip",
+        "dropin": "https://download.eclipse.org/capella/addons/basicmass/dropins/release/1.4.0/BasicMass-dropins-1.4.0.201912090815.zip", 
+        "updateSite": "https://download.eclipse.org/capella/addons/basicmass/updates/release/1.4.0/",
         "installAddon": "https://wiki.eclipse.org/Capella/Extensions/Installation_Guide#Installation_Procedures"
       }
     },
@@ -223,12 +223,12 @@
       "isViewpoint": true,
       "key":"BASICPRICE",
       "licence":"EPL",
-      "compatibleWithCurrentVersion": false,
+      "compatibleWithCurrentVersion": true,
       "contact":"<a href='industry-consortium/thales.html'>Thales</a>",
       "description": "<p>The Price viewpoint enables to simply describe the non-functional aspect of price in Capella.</p><p>For more information, please visit <a href='https://wiki.eclipse.org/Capella/Viewpoints/BasicPrice'>wiki page</a>.</p>",
       "download": { 
-        "dropin": "https://download.eclipse.org/capella/addons/basicprice/dropins/releases/1.3.0/oxygen/BasicPrice-dropins-1.3.0.201811121102.zip",
-        "updateSite": "https://download.eclipse.org/capella/addons/basicprice/updates/releases/1.3.0/oxygen/BasicPrice-updateSite-1.3.0.201811121102.zip",
+        "dropin": "https://download.eclipse.org/capella/addons/basicprice/dropins/release/1.4.0/BasicPrice-dropins-1.4.0.201912090815.zip",
+        "updateSite": "https://download.eclipse.org/capella/addons/basicprice/updates/release/1.4.0/",
         "installAddon": "https://wiki.eclipse.org/Capella/Extensions/Installation_Guide#Installation_Procedures"
       }
     },
@@ -237,12 +237,12 @@
       "isViewpoint": true,
       "key":"BASICPERFO",
       "licence":"EPL",
-      "compatibleWithCurrentVersion": false,
+      "compatibleWithCurrentVersion": true,
       "contact":"<a href='industry-consortium/thales.html'>Thales</a>",
       "description": "<p>The Performance viewpoint enables to simply describe the non-functional aspect of performance in Capella.</p><p>For more information, please visit <a href='https://wiki.eclipse.org/Capella/Viewpoints/BasicPerformance'>wiki page</a>.</p>",
       "download": { 
-        "dropin": "https://download.eclipse.org/capella/addons/basicperformance/dropins/releases/1.3.0/oxygen/BasicPerfo-dropins-1.3.0.201811121102.zip", 
-        "updateSite": "https://download.eclipse.org/capella/addons/basicperformance/updates/releases/1.3.0/oxygen/BasicPerfo-updateSite-1.3.0.201811121102.zip",
+        "dropin": "https://download.eclipse.org/capella/addons/basicperfo/dropins/release/1.4.0/BasicPerfo-dropins-1.4.0.201912090815.zip", 
+        "updateSite": "https://download.eclipse.org/capella/addons/basicperfo/updates/release/1.4.0/",
         "installAddon": "https://wiki.eclipse.org/Capella/Extensions/Installation_Guide#Installation_Procedures"
       }
     }
