@@ -21,14 +21,17 @@
     "version": "1.4.0",
     "links": {
       "windows": {
-        "main": "https://download.eclipse.org/capella/core/products/releases/1.4.0-R20191121-173601/capella-1.4.0.201911211736-win32-win32-x86_64.zip"
-      },
+        "main": "https://download.eclipse.org/capella/core/products/releases/1.4.0-R20191121-173601/capella-1.4.0.201911211736-win32-win32-x86_64.zip",
+        "mirror": "https://obeo-mirror-capella-releases.s3-eu-west-1.amazonaws.com/core/platform/releases/1.4.0/2019-06/capella-1.4.0.201911211736-win32-win32-x86_64.zip"
+       },
       "linux": { 
-        "main": "https://download.eclipse.org/capella/core/products/releases/1.4.0-R20191121-173601/capella-1.4.0.201911211736-linux-gtk-x86_64.zip"
-      },
+        "main": "https://download.eclipse.org/capella/core/products/releases/1.4.0-R20191121-173601/capella-1.4.0.201911211736-linux-gtk-x86_64.zip",
+        "mirror": "https://obeo-mirror-capella-releases.s3-eu-west-1.amazonaws.com/core/platform/releases/1.4.0/2019-06/capella-1.4.0.201911211736-linux-gtk-x86_64.zip"
+       },
       "mac": { 
-        "main": "https://download.eclipse.org/capella/core/products/releases/1.4.0-R20191121-173601/capella-1.4.0.201911211736-macosx-cocoa-x86_64.zip"
-      }
+        "main": "https://download.eclipse.org/capella/core/products/releases/1.4.0-R20191121-173601/capella-1.4.0.201911211736-macosx-cocoa-x86_64.zip",
+        "mirror": "https://obeo-mirror-capella-releases.s3-eu-west-1.amazonaws.com/core/platform/releases/1.4.0/2019-06/capella-1.4.0.201911211736-macosx-cocoa-x86_64.zip"
+       }
     }
   },
 
