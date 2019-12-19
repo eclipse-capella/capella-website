@@ -58,12 +58,12 @@
       "key":"TSSS",
       "fragment":"s2stransition",
       "licence":"EPL",
-      "compatibleWithCurrentVersion": false,
+      "compatibleWithCurrentVersion": true,
       "contact":"<a href='industry-consortium/thales.html'>Thales</a>",
       "description": "<p>This addon is a System to SubSystem Transition. It initializes a new Capella project from existing model. This transition extracts suitable model information from a selected Capella Component and manage top/down update propagation.</p><p>The automated and iterative transition between system and subsystems is a great help for managing several levels of engineering. The contract and model of the subsystems are computed from the system. Ideally, subsystems stakeholders are involved in co-engineering activities at system level before the transition occurs.</p><p>For more information, please install the addon within Capella and check online help then dedicated section for the addon.</p>",
       "download": { 
-        "dropin": "https://download.eclipse.org/capella/addons/subsystemtransition/dropins/releases/1.3.1/SubsystemTransition-dropins-1.3.1.201905291436.zip", 
-        "updateSite": "https://download.eclipse.org/capella/addons/subsystemtransition/updates/releases/1.3.1/SubsystemTransition-updateSite-1.3.1.201905291436.zip",
+        "dropin": "https://download.eclipse.org/capella/addons/subsystemtransition/dropins/releases/1.4.0/SubsystemTransition-dropins-1.4.0.201912122247.zip", 
+        "updateSite": "https://download.eclipse.org/capella/addons/subsystemtransition/updates/releases/1.4.0/SubsystemTransition-updateSite-1.4.0.201912122247.zip",
         "installAddon": "https://wiki.eclipse.org/Capella/Extensions/Installation_Guide#Installation_Procedures"
       }
     },
@@ -86,12 +86,12 @@
       "key":"FILTERING",
       "fragment":"filtering",
       "licence":"EPL",
-      "compatibleWithCurrentVersion": false,
+      "compatibleWithCurrentVersion": true,
       "contact":"<a href='industry-consortium/thales.html'>Thales</a>",
       "description": "<p>Filtering is an addon to filter capella models. It provides several capabilities:</p><ul><li>Definition of filtering criteria to be associated with model elements</li><li>Definition of results containing criteria</li><li>Visualization of criteria and results in diagrams</li><li>Creation of filtered models</li></ul><p>For more information, please install the addon within Capella and check online help then dedicated section for the addon.</p>",
       "download": { 
-        "dropin": "https://download.eclipse.org/capella/addons/filtering/dropins/releases/1.3.0/Filtering-dropins-1.3.0.201906210910.zip", 
-        "updateSite": "https://download.eclipse.org/capella/addons/filtering/updates/releases/1.3.0/Filtering-updateSite-1.3.0.201906210910.zip",
+        "dropin": "https://download.eclipse.org/capella/addons/filtering/dropins/releases/1.4.0/Filtering-dropins-1.4.0.201912061544.zip", 
+        "updateSite": "https://download.eclipse.org/capella/addons/filtering/updates/releases/1.4.0/Filtering-updateSite-1.4.0.201912061544.zip",
         "installAddon": "https://wiki.eclipse.org/Capella/Extensions/Installation_Guide#Installation_Procedures"
       }
     }, 
@@ -198,12 +198,12 @@
        "isViewpoint": true,
        "key":"REQ",
        "licence":"EPL",
-      "compatibleWithCurrentVersion": false,
+      "compatibleWithCurrentVersion": true,
        "contact":"<a href='industry-consortium/thales.html'>Thales</a>",
        "description": "<p>This add-on allows importing a set of requirements from a ReqIF file (Requirement Interchange Format / OMG Standard).</p><p>The import is iterative (diff/merge based) and a set of tools is provided to link the model elements to the requirements.</p><p>For more information, please install the addon within Capella and check online help then dedicated section for the addon.</p>",
        "download": { 
-        "dropin": "https://download.eclipse.org/capella/addons/requirements/dropins/releases/0.10.3/Requirements-dropins-0.10.3.201908051951.zip", 
-        "updateSite": "https://download.eclipse.org/capella/addons/requirements/updates/releases/0.10.3/Requirements-updateSite-0.10.3.201908051951.zip",
+        "dropin": "https://download.eclipse.org/capella/addons/requirements/dropins/releases/0.11.0/Requirements-dropins-0.11.0.201911131733.zip", 
+        "updateSite": "https://download.eclipse.org/capella/addons/requirements/updates/releases/0.11.0/Requirements-updateSite-0.11.0.201911131733.zip",
         "installAddon": "https://wiki.eclipse.org/Capella/Extensions/Installation_Guide#Installation_Procedures"
       }
     }, 
