@@ -123,7 +123,6 @@
       "key":"M2DOC",
       "fragment":"m2doc",
       "licence":"EPL",
-      "compatibleWithCurrentVersion": false,
       "contact":"<a href='industry-consortium/obeo.html'>Obeo</a>",
       "description": "<p>M2Doc generates MS-Word documents from Capella models. M2Doc uses wysiwyg and customable Word templates to extract data and diagrams from your models and display them in a docx file.</p>",
       "download": { 
@@ -145,7 +144,7 @@
       "key":"SMW",
       "fragment": "smw",
       "licence":"Commercial",
-      "contact":"Siemens PLM Software &amp; <a href='industry-consortium/obeo.html'>Obeo</a>",
+      "contact":"<a href='https://www.plm.automation.siemens.com/global/en/contact-us.html'>Siemens Digital Industries Software</a> &amp; <a href='industry-consortium/obeo.html'>Obeo</a>",
       "description": "<p>System Modeling Workbench is a supported and complete integration of best of breed Model-Based Systems Engineering (MBSE) tools based on Capella.</p><p>Integrated with Teamcenter this solution allows to link systems models with requirements in a multi-domain product integrated environment.</p>",
       "download": { 
         "learnMore": "https://www.obeo.fr/en/products/smw"
