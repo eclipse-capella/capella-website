@@ -123,6 +123,7 @@
       "key":"M2DOC",
       "fragment":"m2doc",
       "licence":"EPL",
+      "compatibleWithCurrentVersion": true,
       "contact":"<a href='industry-consortium/obeo.html'>Obeo</a>",
       "description": "<p>M2Doc generates MS-Word documents from Capella models. M2Doc uses wysiwyg and customable Word templates to extract data and diagrams from your models and display them in a docx file.</p>",
       "download": { 
