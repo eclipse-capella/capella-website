@@ -4,6 +4,7 @@
   "lang": { 
       "dropin": { "text": "Drop-in", "icon": "fa fa-download" }, 
       "updateSite": { "text": "Update Site", "icon": "fa fa-download" },
+      "product": { "text": "Product", "icon": "fa fa-download" },
       "installAddon": { "text": "Install the Addon", "icon": "fa fa-external-link-square", "target":"_blank" },
       "dandi": { "text": "Download and Installation", "icon": "fa fa-download" },
       "learnMore": { "text": "Learn More", "icon": "fa fa-arrow-circle-right", "target":"_blank" },
@@ -95,6 +96,21 @@
         "installAddon": "https://wiki.eclipse.org/Capella/Extensions/Installation_Guide#Installation_Procedures"
       }
     }, 
+    { "name":"Cybersecurity",
+      "showOnMainPage": true,
+      "key":"FILTERING",
+      "fragment":"cybersecurity",
+      "licence":"EPL",
+      "compatibleWithCurrentVersion": true,
+      "contact":"<a href='industry-consortium/thales.html'>Thales</a>",
+      "description": "<p>Cybersecurity add-on is to support effective co-engineering between systems and cybersecurity engineers teams:</p><ul><li>Identify assets & trust boundaries</li><li>Identify threats</li><li>Characterize security needs</li><li>Creation of Cybersecurity models</li></ul><p>For more information, please install the addon within Capella and check online help then dedicated section for the addon.</p>",
+      "download": { 
+        "dropin": "http://download.eclipse.org/capella/addons/cybersecurity/dropins/releases/0.9.1/Cybersecurity-dropins-0.9.1.202001141550.zip", 
+        "updateSite": "http://download.eclipse.org/capella/addons/cybersecurity/updates/releases/0.9.1/Cybersecurity-updateSite-0.9.1.202001141550.zip",
+        "installAddon": "https://wiki.eclipse.org/Capella/Extensions/Installation_Guide#Installation_Procedures"
+        "product" : "http://download.eclipse.org/capella/addons/cybersecurity/products/releases/0.9.1/capella-darc-0.9.1.202001141550-win32-win32-x86_64.zip"
+      }
+    },
     { "name":"Property Values Management Tools (PVMT)",
       "showOnMainPage": true,
       "key":"PVMT",
