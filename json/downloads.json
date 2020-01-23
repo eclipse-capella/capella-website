@@ -208,21 +208,6 @@
         "installAddon": "https://wiki.eclipse.org/Capella/Extensions/Installation_Guide#Installation_Procedures"
       }
     }, 
-    { "name":"Cybersecurity",
-      "showOnMainPage": true,
-      "isViewpoint": true,
-      "key":"FILTERING",
-      "fragment":"cybersecurity",
-      "licence":"EPL",
-      "compatibleWithCurrentVersion": true,
-      "contact":"<a href='industry-consortium/thales.html'>Thales</a>",
-      "description": "<p>Cybersecurity add-on is to support effective co-engineering between systems and cybersecurity engineers teams:</p><ul><li>Identify assets & trust boundaries</li><li>Identify threats</li><li>Characterize security needs</li><li>Creation of Cybersecurity models</li></ul><p>For more information, please install the addon within Capella and check dedicated section for the addon in Help Content or access to the <a href='https://github.com/eclipse/capella-cybersecurity/wiki'>online version of the documentation</a>.</p>",
-      "download": { 
-        "dropin": "http://download.eclipse.org/capella/addons/cybersecurity/dropins/releases/0.9.1/Cybersecurity-dropins-0.9.1.202001141550.zip", 
-        "updateSite": "http://download.eclipse.org/capella/addons/cybersecurity/updates/releases/0.9.1/Cybersecurity-updateSite-0.9.1.202001141550.zip",
-        "installAddon": "https://wiki.eclipse.org/Capella/Extensions/Installation_Guide#Installation_Procedures"
-      }
-    },
     { "name":"Basic Mass",
       "showOnMainPage": true,
       "isViewpoint": true,
