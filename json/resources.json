@@ -85,6 +85,98 @@
             }
         ],
         "items":[
+        		{
+                "title": "Capella Short Demo",
+                "descr": "",
+                "author": "Obeo",
+                "year": "2020",
+                "language": "EN",
+                "topic": "Getting Started",
+                "topic_order": "6",
+                "type": "Video",
+                "type_order": "6",
+                "link": "https://youtu.be/v5SxNNwcnGA",
+                "thumb": ""
+            },
+            {
+                "title": "Autonomous Train Project",
+                "descr": "Case-study by a consortium composed of Bombardier, Robert Bosch, Railenum, SNCF, Sirops and Thales<br><br><a href='resources/pdf/Case_Study_AutonomousTrain_ZH.pdf' target='_blank'>Read the Chinese Version <i class='fa fa-arrow-circle-right' aria-hidden='true'></i></a>",
+                "author": "Thales",
+                "year": "2020",
+                "language": "EN",
+                "topic": "Business Value",
+                "topic_order": "1",
+                "type": "Fact Sheet",
+                "type_order": "2",
+                "link": "https://www.eclipse.org/capella/resources/pdf/Case_Study_AutonomousTrain.pdf",
+                "thumb": "images/thumbs/resources/thumb_case-study-train-autonomous.jpg"
+            },
+            {
+                "title": "Webinar - What's new in Capella 1.4",
+                "descr": "",
+                "author": "Stephane Bonnet & Juan Navas",
+                "year": "2020",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "8",
+                "type": "Video",
+                "type_order": "6",
+                "link": "https://youtu.be/AhRpOjfyPbk",
+                "thumb": ""
+            },
+
+            {
+                "title": "Multi-domain product architecture: start integrated, stay integrated",
+                "descr": "",
+                "author": "Pascal Vera",
+                "year": "2020",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "9",
+                "type": "Video",
+                "type_order": "7",
+                "link": "https://youtu.be/UXbeECKU38A",
+                "thumb": ""
+            },
+            {
+                "title": "Model Execution and System Simulation in Capella",
+                "descr": "",
+                "author": "Renfei Xu",
+                "year": "2019",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "9",
+                "type": "Video",
+                "type_order": "7",
+                "link": "https://youtu.be/pS0VMtmwa5M",
+                "thumb": ""
+            },
+           {
+                "title": "Functional chains with Arcadia and Capella: Concepts and exploitation",
+                "descr": "",
+                "author": "Stéphane Bonnet",
+                "year": "2019",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "9",
+                "type": "Video",
+                "type_order": "8",
+                "link": "https://youtu.be/ZqvfSURUpIY",
+                "thumb": ""
+            },
+           {
+                "title": "The spirit of Arcadia and Capella in 7 minutes",
+                "descr": "Very short introduction to Arcadia and Capella: main concepts and example.",
+                "author": "Stéphane Bonnet",
+                "year": "2019",
+                "language": "EN",
+                "topic": "Getting Started",
+                "topic_order": "1",
+                "type": "Video",
+                "type_order": "1",
+                "link": "https://youtu.be/BtzhlZUaWA8",
+                "thumb": "images/thumbs/resources/thumb_webinar-spirit-capella-arcadia.jpg"
+            },
             {
                 "title": "Webinar - Introduction to Arcadia Capella with a toy catapult project",
                 "descr": "Learn how to build a toy catapult system thanks to the Arcadia method and the Capella open MBSE.",
@@ -107,7 +199,7 @@
                 "topic": "Business Value",
                 "topic_order": "6",
                 "type": "Video",
-                "type_order": "7",
+                "type_order": "9",
                 "link": "https://youtu.be/nv8IOg_xVMs",
                 "thumb": ""
             },
@@ -185,7 +277,7 @@
                 "topic": "Learning More",
                 "topic_order": "99",
                 "type": "Video",
-                "type_order": "5",
+                "type_order": "7",
                 "link": "https://youtu.be/h-ax61eVlxM",
                 "thumb": ""
             },
