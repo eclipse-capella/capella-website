@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+<!-- Basic Page Needs
+        ================================================== -->
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="icon" type="image/png" href="images/favicon.ico">
+<title>Capella MBSE Tool - Adopters</title>
+<meta name="description" content="Find the answers to your questions about Capella, an Open Source MBSE tool that implements the Arcadia method.">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<!-- Mobile Specific Metas
+        ================================================== -->
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Template CSS Files
+        ================================================== -->
+<!-- Twitter Bootstrs CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- animate css -->
+<link rel="stylesheet" href="css/animate.css">
+<!-- template main css file -->
+<link rel="stylesheet" href="css/main.css">
+<!-- responsive css -->
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/latofonts.css">
+
+<script src="https://use.fontawesome.com/b51f77a16a.js"></script>
+
+<!-- Cookie content -->
+<link rel="stylesheet" type="text/css" href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+<script async src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js"></script>
+
+<!-- Eclipse Foundation Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Template Javascript Files
+        ================================================== -->
+<!-- Angular -->
+<base href="/capella/">
+<script src="js/angular-1.7.8.min.js"></script>
+<script src="angular/capella.js"></script>
+
+<!-- modernizr js -->
+<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+<!-- jquery -->
+<script src="js/jquery-3.4.1.min.js"></script>
+<!-- bootstrap js -->
+<script src="js/bootstrap.min.js"></script>
+<!-- wow js -->
+<script src="js/wow.min.js"></script>
+<!-- template main js -->
+<script src="js/main.js"></script>
+
+</head>
+<body ng-app="capella" data-deferred-cloak>
+	<!--
+     ==================================================
+     Header Section
+     ================================================== -->
+	<ng-include src="'angular/blocks/header.html'"></ng-include>
+	<!--
+    ==================================================
+    Intro Section
+    ================================================== -->
+	<section class="hero-area adopters">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<div class="block wow fadeInUp" data-wow-delay=".3s">
+
+						<section class="cd-intro">
+							<h1 class="wow fadeInUp animated" data-wow-delay=".4s">Adopters</h1>
+						</section>
+						<h2 class="wow fadeInUp animated" data-wow-delay=".6s">
+								Capella is a MBSE solution adopted worldwide in various industrial domains.<br>Discover some of the many organizations that use Capella.
+						</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--/#intro_banner-->
+
+	<section id="adopters" class="">
+		<script type="text/javascript">
+  			jQuery.getJSON('json/adopters.json', function(data) {
+
+  			var output = " " ;
+	        	var items = " ";
+
+	        for (var i in data.adopters) {
+	        	var logoSrc = " ";
+	        	var company = " ";
+	        	var item = " ";
+     
+          	logoSrc ="<img src='" + data.adopters[i].logoSrc + "' alt='" + data.adopters[i].company + "' />";
+          	company = "<h4 class='text-center'>" + data.adopters[i].company +"</h4>";
+          	item = logoSrc + company;
+          	
+          	items += "<li>" + item + "</li>";			
+  			
+	        }
+
+	        output += "<div class='container'><div class='row'><ul class='list-inline'>" + items + "</ul></div></div>";
+
+	        
+	        document.getElementById("adopters").innerHTML=output;
+ 		 });
+   		</script>
+	</section>
+
+	<div id="back-to-top" data-spy="affix" data-offset-top="100"
+		class="back-to-top hidden-xs hidden-sm affix-top">
+		<button class="btn btn-default" title="Back to Top">
+			<i class="fa fa-caret-up"></i>
+		</button>
+	</div>
+	<script type="text/javascript">
+	// Back to top
+		jQuery('#back-to-top').on('click', function() {
+			jQuery("html, body").animate({
+				scrollTop : 0
+			}, 500);
+			return false;
+		});
+	</script>
+
+	<!--
+        ==================================================
+        Call To Action Section Start
+        ================================================== -->
+	<ng-include src="'angular/blocks/call2action.html'"></ng-include>
+
+	<!--
+        ==================================================
+        Footer Section
+        ================================================== -->
+	<ng-include src="'angular/blocks/footer.html'"></ng-include>
+	<script async src="js/googleAnalytics.js" ></script>
+</body>
+</html>

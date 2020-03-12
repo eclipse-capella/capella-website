@@ -257,6 +257,9 @@ section {
 .munich{
   background: url('../images/banners/banner_munich.jpg') no-repeat 50%;
 }
+.adopters{
+  background: url('../images/banners/banner_adopters.jpg') no-repeat 50%;
+}
 .bg_indigo {
 	background: #292253;
 }
@@ -992,4 +995,12 @@ background-color: #FBBF52 !important;
 .alert-compatibility {
 color: #a94442;
 }
-
+/* Adopters page
+-------------------------- */
+.list-inline {
+    list-style: none;
+}
+.list-inline li > img {
+    max-width: 280px;
+    padding: 45px 45px 15px 45px;
+}

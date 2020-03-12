@@ -1,0 +1,54 @@
+{"adopters":[
+		{
+			"logoSrc": "images/logos/adopters/logo_all4tec.png",
+            "company": "All4Tec"
+        },
+        {
+			"logoSrc": "images/logos/adopters/logo_cnx-motion.png",
+            "company": "CNXMotion"
+        },
+        {
+			"logoSrc": "images/logos/adopters/logo_isae-ensma.png",
+            "company": "ISAE-ENSMA"
+        }, 
+        {
+			"logoSrc": "images/logos/adopters/logo_ita.png",
+            "company": "ITA"
+        },
+        {
+			"logoSrc": "images/logos/adopters/logo_maplesoft.png",
+            "company": "Maplesoft"
+        },
+        {
+			"logoSrc": "images/logos/adopters/logo_obeo.png",
+            "company": "Obeo"
+        },
+        {
+			"logoSrc": "images/logos/adopters/logo_prfc.png",
+            "company": "PRFC"
+        },
+        {
+			"logoSrc": "images/logos/adopters/logo_solutions-thinking.png",
+            "company": "Solutions Thinking"
+        }, 
+        {
+			"logoSrc": "images/logos/adopters/logo_sutd-esd.png",
+            "company": "SUTD-ESD"
+        },
+        {
+			"logoSrc": "images/logos/adopters/logo_thales.png",
+            "company": "Thales"
+        }, 
+        {
+			"logoSrc": "images/logos/adopters/logo_university-of-indianapolis.png",
+            "company": "University of Indianapolis"
+        },
+        {
+			"logoSrc": "images/logos/adopters/logo_virgin-hyperloop-one.png",
+            "company": "Virgin Hyperloop One"
+        },
+        {
+			"logoSrc": "images/logos/adopters/logo_wsp.png",
+            "company": "WSP"
+        }               
+]}
