@@ -80,7 +80,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							<h1 class="wow fadeInUp animated" data-wow-delay=".4s">Adopters</h1>
 						</section>
 						<h2 class="wow fadeInUp animated" data-wow-delay=".6s">
-								Capella is a MBSE solution adopted worldwide in various industrial domains.<br>Discover some of the many organizations using Capella.
+								Capella is a MBSE solution adopted worldwide in various industrial domains.<br>Discover some of the many organizations using Eclipse Capella.
 						</h2>
 					</div>
 				</div>
@@ -97,13 +97,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	        	var items = " ";
 
 	        for (var i in data.adopters) {
-	        	var logoSrc = " ";
-	        	var company = " ";
 	        	var item = " ";
      
-          	logoSrc ="<img src='" + data.adopters[i].logoSrc + "' alt='" + data.adopters[i].company + "' />";
-          	company = "<h4 class='text-center'>" + data.adopters[i].company +"</h4>";
-          	item = logoSrc + company;
+          	item ="<img src='" + data.adopters[i].logoSrc + "' alt='Capella Adopters - " + data.adopters[i].company +"' title='" + data.adopters[i].company + "' />";
           	
           	items += "<li>" + item + "</li>";			
   			
@@ -137,7 +133,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         ==================================================
         Call To Action Section Start
         ================================================== -->
-	<ng-include src="'angular/blocks/call2action.html'"></ng-include>
+	<ng-include src="'angular/blocks/call2action_adopters.html'"></ng-include>
 
 	<!--
         ==================================================
