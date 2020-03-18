@@ -28,6 +28,10 @@
             "company": "PRFC"
         },
         {
+			"logoSrc": "images/logos/adopters/logo_siemens.jpg",
+            "company": "Siemens"
+        },
+        {
 			"logoSrc": "images/logos/adopters/logo_solutions-thinking.png",
             "company": "Solutions Thinking"
         }, 
