@@ -105,8 +105,8 @@
       "contact":"<a href='industry-consortium/thales.html'>Thales</a>",
       "description": "<p>This add-on allows end-users to easily define their own specific properties on Arcadia concepts, value these properties for each elements, and automatically change the graphical aspect of model elements in diagrams.</p><p>This add-on is developed by a Thales business unit (DMS-FR) and is distributed under the Eclipse Public License. It is not hosted by the Eclipse Foundation and it is not developped under the Eclipse Development Process.</p>",
       "download": {
-        "dropin": "https://s3-eu-west-1.amazonaws.com/obeo-mirror-capella-releases/thales-addons/1.3/oxygen/PVMT-44.4.2-DS.zip", 
-        "updateSite": "https://s3-eu-west-1.amazonaws.com/obeo-mirror-capella-releases/thales-addons/1.3/oxygen/PVMT-44.4.2-DS-updatesite.zip"
+        "dropin": "https://obeo-mirror-capella-releases.s3-eu-west-1.amazonaws.com/thales-addons/1.4/2019-06/PVMT-45.5-DS.zip", 
+        "updateSite": "https://obeo-mirror-capella-releases.s3-eu-west-1.amazonaws.com/thales-addons/1.4/2019-06/PVMT-45.5-DS-updatesite.zip"
       }
     }, 
     { "name":"Team for Capella",
