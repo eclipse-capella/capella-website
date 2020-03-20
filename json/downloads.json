@@ -101,7 +101,7 @@
       "key":"PVMT",
       "fragment":"pvmt",
       "licence":"EPL",
-      "compatibleWithCurrentVersion": false,
+      "compatibleWithCurrentVersion": true,
       "contact":"<a href='industry-consortium/thales.html'>Thales</a>",
       "description": "<p>This add-on allows end-users to easily define their own specific properties on Arcadia concepts, value these properties for each elements, and automatically change the graphical aspect of model elements in diagrams.</p><p>This add-on is developed by a Thales business unit (DMS-FR) and is distributed under the Eclipse Public License. It is not hosted by the Eclipse Foundation and it is not developped under the Eclipse Development Process.</p>",
       "download": {
