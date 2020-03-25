@@ -28,6 +28,10 @@
             "company": "PRFC"
         },
         {
+			"logoSrc": "images/logos/adopters/logo_thereusecompany.png",
+            "company": "The Reuse Company"
+        },
+        {
 			"logoSrc": "images/logos/adopters/logo_siemens.jpg",
             "company": "Siemens"
         },
