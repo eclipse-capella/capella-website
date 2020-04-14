@@ -86,6 +86,32 @@
         ],
         "items":[
         		{
+                "title": "Webinar - CNXMotion case-study: Collaborative Model Based System Architecture Development",
+                "descr": "",
+                "author": "Scott Millsap",
+                "year": "2020",
+                "language": "EN",
+                "topic": "Business Value",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+                "link": "https://youtu.be/2vYEp7JLtx8",
+                "thumb": ""
+            },
+            {
+                "title": "Webinar - CNXMotion case-study: Collaborative Model Based System Architecture Development",
+                "descr": "",
+                "author": "Scott Millsap",
+                "year": "2020",
+                "language": "EN",
+                "topic": "Business Value",
+                "topic_order": "99",
+                "type": "Slideshow",
+                "type_order": "99",
+                "link": "https://fr.slideshare.net/Obeo_corp/capella-webinar-experiences-with-collaborative-system-architecture-development-within-a-joint-venture-organization",
+                "thumb": ""
+            },
+            {
                 "title": "Webinar - Fostering MBSE in Engineering culture (by Thales)",
                 "descr": "",
                 "author": "Juan Navas",
