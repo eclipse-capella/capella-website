@@ -12,6 +12,10 @@
             "company": "CNXMotion"
         },
         {
+			"logoSrc": "images/logos/adopters/logo_ctengineering.jpg",
+            "company": "CT Engineering"
+        },
+        {
 			"logoSrc": "images/logos/adopters/logo_isae-ensma.png",
             "company": "ISAE-ENSMA"
         }, 
