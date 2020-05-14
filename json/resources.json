@@ -252,7 +252,7 @@
                 "topic_order": "3",
                 "type": "Article",
                 "type_order": "4",
-                "link": "https://polarsys.org/capella/resources/pdf/IS_2019_Augmenting_Requirements_With_Models_Article.pdf",
+                "link": "https://www.eclipse.org/capella/resources/pdf/IS_2019_Augmenting_Requirements_With_Models_Article.pdf",
                 "thumb": "images/thumbs/resources/thumb_article-capella-is-2019.jpg"
             },
             {
@@ -265,7 +265,7 @@
                 "topic_order": "4",
                 "type": "Slideshow",
                 "type_order": "4",
-                "link": "https://polarsys.org/capella/resources/pdf/IS_2019_Augmenting_Requirements_With_Models_Presentation.pdf",
+                "link": "https://www.eclipse.org/capella/resources/pdf/IS_2019_Augmenting_Requirements_With_Models_Presentation.pdf",
                 "thumb": "images/thumbs/resources/thumb_capella-is-2019.jpg"
             },
             {
@@ -486,7 +486,7 @@
                 "topic_order": "99",
                 "type": "Article",
                 "type_order": "3",
-                "link": "http://download.polarsys.org/capella/publis/IEEE_Capella_SysML_paper.pdf",
+                "link": "http://download.eclipse.org/capella/publis/IEEE_Capella_SysML_paper.pdf",
                 "thumb": "images/thumbs/resources/thumb_iee-syscon.jpg"
             },
             {
@@ -499,7 +499,7 @@
                 "topic_order": "99",
                 "type": "Slideshow",
                 "type_order": "99",
-                "link": "http://download.polarsys.org/capella/publis/INCOSE_Capella_SysML_slides.pdf",
+                "link": "http://download.eclipse.org/capella/publis/INCOSE_Capella_SysML_slides.pdf",
                 "thumb": ""
             },
             {
@@ -772,7 +772,7 @@
                 "topic_order": "99",
                 "type": "Slideshow",
                 "type_order": "99",
-                "link": "http://download.polarsys.org/capella/publis/MBSE_Canberra-MBSE_Use_Cases.pdf",
+                "link": "http://download.eclipse.org/capella/publis/MBSE_Canberra-MBSE_Use_Cases.pdf",
                 "thumb": ""
             },
             {
@@ -824,7 +824,7 @@
                 "topic_order": "2",
                 "type": "Documentation",
                 "type_order": "99",
-                "link": "https://wiki.eclipse.org/Capella/Technical_Information",
+                "link": "https://github.com/eclipse/capella/wiki#factory-capella-development",
                 "thumb": "images/thumbs/resources/thumb_developers-technical-information.jpg"
             },
             {
@@ -1123,7 +1123,7 @@
                 "topic_order": "99",
                 "type": "Slideshow",
                 "type_order": "99",
-                "link": "http://download.polarsys.org/capella/publis/An_Introduction_to_Arcadia_20150115.pdf",
+                "link": "http://download.eclipse.org/capella/publis/An_Introduction_to_Arcadia_20150115.pdf",
                 "thumb": ""
             },
             {
@@ -1227,7 +1227,7 @@
                 "topic_order": "1",
                 "type": "Other",
                 "type_order": "1",
-                "link": "http://polarsys.org/forums/index.php/i/4/",
+                "link": "https://www.eclipse.org/forums/index.php/i/11/",
                 "thumb": "images/thumbs/resources/thumb_capella-forum.jpg"
             },
             {
@@ -1253,7 +1253,7 @@
                 "topic_order": "3",
                 "type": "Other",
                 "type_order": "99",
-                "link": "http://polarsys.org/bugs/describecomponents.cgi?product=Capella",
+                "link": "https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Capella",
                 "thumb": "images/thumbs/resources/thumb_capella-bugzilla.jpg"
             },
             {
@@ -1266,7 +1266,7 @@
                 "topic_order": "99",
                 "type": "Other",
                 "type_order": "99",
-                "link": "https://www.polarsys.org/capella/index.html#event",
+                "link": "https://www.eclipse.org/capella/index.html#event",
                 "thumb": ""
             },
             {
@@ -1318,7 +1318,7 @@
                 "topic_order": "1",
                 "type": "Other",
                 "type_order": "99",
-                "link": "https://www.polarsys.org/capella/addons.html",
+                "link": "https://www.eclipse.org/capella/addons.html",
                 "thumb": "images/thumbs/resources/thumb_add-ons.jpg"
             },
             {
@@ -1422,7 +1422,7 @@
                 "topic_order": "99",
                 "type": "Slideshow",
                 "type_order": "99",
-                "link": "http://download.polarsys.org/capella/samples/IFE/Capella_IFE_Sample_Model_1.0_Highlights.pdf",
+                "link": "https://download.eclipse.org/capella/samples/IFE/Capella_IFE_Sample_Model_1.0_Highlights.pdf",
                 "thumb": ""
             },
             {
@@ -1435,7 +1435,7 @@
                 "topic_order": "99",
                 "type": "Slideshow",
                 "type_order": "99",
-                "link": "https://download.polarsys.org/capella/samples/ClockRadio/ClockRadioExample0216.pdf",
+                "link": "https://download.eclipse.org/capella/samples/ClockRadio/ClockRadioExample0216.pdf",
                 "thumb": ""
             },
             {
