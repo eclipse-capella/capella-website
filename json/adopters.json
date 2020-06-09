@@ -16,6 +16,10 @@
             "company": "CT Engineering"
         },
         {
+			"logoSrc": "images/logos/adopters/logo_gmv.jpg",
+            "company": "GMV"
+        },
+        {
 			"logoSrc": "images/logos/adopters/logo_isae-ensma.png",
             "company": "ISAE-ENSMA"
         }, 
@@ -66,6 +70,10 @@
         {
 			"logoSrc": "images/logos/adopters/logo_virgin-hyperloop-one.png",
             "company": "Virgin Hyperloop One"
+        },
+        {
+			"logoSrc": "images/logos/adopters/logo_vitesco.jpg",
+            "company": "Vitesco Technologies"
         },
         {
 			"logoSrc": "images/logos/adopters/logo_wsp.png",
