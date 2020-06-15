@@ -44,8 +44,8 @@
             "company": "PRFC"
         },
         {
-			"logoSrc": "images/logos/adopters/logo_thereusecompany.png",
-            "company": "The Reuse Company"
+			"logoSrc": "images/logos/adopters/logo_samares.png",
+            "company": "Samares Engineering"
         },
         {
 			"logoSrc": "images/logos/adopters/logo_siemens.jpg",
@@ -63,6 +63,10 @@
 			"logoSrc": "images/logos/adopters/logo_thales.png",
             "company": "Thales"
         }, 
+        {
+			"logoSrc": "images/logos/adopters/logo_thereusecompany.png",
+            "company": "The Reuse Company"
+        },
         {
 			"logoSrc": "images/logos/adopters/logo_university-of-indianapolis.png",
             "company": "University of Indianapolis"
