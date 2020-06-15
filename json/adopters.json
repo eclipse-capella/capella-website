@@ -68,8 +68,16 @@
             "company": "University of Indianapolis"
         },
         {
+			"logoSrc": "images/logos/adopters/logo_university-of-toulouse.png",
+            "company": "University of Toulouse Jean Jaurès"
+        },
+        {
 			"logoSrc": "images/logos/adopters/logo_virgin-hyperloop-one.png",
             "company": "Virgin Hyperloop One"
+        },
+        {
+			"logoSrc": "images/logos/adopters/logo_visioneer.png",
+            "company": "Visioneer"
         },
         {
 			"logoSrc": "images/logos/adopters/logo_vitesco.jpg",
