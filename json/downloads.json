@@ -110,7 +110,7 @@
       "key":"T4C",
       "fragment":"t4c",
       "licence":"Commercial",
-      "contact":"<a href='industry-consortium/thales.html'>Thales</a> &amp; <a href='mailto:https://www.obeo.fr/contact'>Obeo</a>",
+      "contact":"<a href='industry-consortium/thales.html'>Thales</a> &amp; <a href='https://www.obeo.fr/contact'>Obeo</a>",
       "description": "<p>This add-on allows users to collaborate on remotely shared models and representations</p><ul><li>All changes on the models and representations are automatically propagated across all users� views.</li><li>Only the necessary objects are automatically locked and released. On-demand locks can also be created.</li><li>Data is stored in a shared server hosting the whole models with their representations.</li></ul>",
       "download": { 
         "learnMore": "https://www.obeo.fr/en/team-for-capella"
@@ -120,7 +120,7 @@
       "key":"P4C",
       "fragment":"p4c",
       "licence":"Commercial",
-      "contact":"<a href='mailto:https://www.obeo.fr/contact'>Obeo</a>",
+      "contact":"<a href='https://www.obeo.fr/contact'>Obeo</a>",
       "description": "<p>Publication for Capella provides a tight integration between OSLC-compliant ALM tools (Polarion, Doors Next, ...) and the Capella MBSE Workbench.</p><p>It enables a fined grained traceability between your requirements and your system design: drag &amp; drop requirements directly from your ALM tool into Capella.</p>",
       "download": { 
         "learnMore": "https://www.obeo.fr/en/products/publication-for-capella"
