@@ -16,6 +16,10 @@
             "company": "CT Engineering"
         },
         {
+			"logoSrc": "images/logos/adopters/logo_embraer.png",
+            "company": "Embraer"
+        },
+        {
 			"logoSrc": "images/logos/adopters/logo_gmv.jpg",
             "company": "GMV"
         },
