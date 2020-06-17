@@ -12,11 +12,9 @@ h1,h2,h3,h4,h5,h6 {
 h3{
   margin-top: 40px;
 }
-
 .accordion h3 {
   margin-top: 20px !important;
 }
-
 p {
   font-family: 'LatoWeb', sans-serif;
   line-height: 22px;
@@ -137,7 +135,6 @@ section {
   display: inline-block;
   margin-top: -10px;
 }
-
 #top-bar {
   background: #fff;
   color: #fff;
@@ -156,7 +153,6 @@ section {
   background: #ffffff;
   box-shadow: none;
 }
-
 #top-bar .main-menu li, #footer ul li  {
   position: relative;
   list-style: none;
@@ -216,7 +212,6 @@ section {
   line-height: 35px;
   margin-top: 25px;
 }
-
 /* Banners
 -----------*/
 .home{
@@ -256,6 +251,9 @@ section {
 }
 .munich{
   background: url('../images/banners/banner_munich.jpg') no-repeat 50%;
+}
+.online{
+  background: url('../images/banners/banner_contact.jpg') no-repeat 50%;
 }
 .adopters{
   background: url('../images/banners/banner_adopters.jpg') no-repeat 50%;
@@ -469,11 +467,9 @@ figure figcaption p {
   outline: none;
   background: #FBBF52;
 }
-
 #contact-section input.submit {
   border: 1px solid #FBBF52;
 }
-
 #contact-section input[type="text"] , #contact-section textarea, #contact-section select {
 color: #bdbdbd;
 height: 40px;
@@ -505,16 +501,13 @@ border: 1px solid #ccc;
 :-moz-placeholder { /* Firefox 18- */
   color: #bdbdbd;
 }
-
 #map-canvas {
   width: 100%;
   height: 350px;
   background-color: #CCC;
 }
-
 /* Footer 
 ----------*/
-
 #footer {
   background: #fff;
   padding: 25px 0;
@@ -526,28 +519,23 @@ border: 1px solid #ccc;
   margin-bottom: 0;
   margin-top: 10px;
 }
-
 #back-to-top {
     right: 20px;
     top: auto;
     z-index: 10;
     bottom: 65px;
 }
-
 #back-to-top .btn {
     padding: 10px 20px;
 }
-
 #back-to-top .btn-default:focus{
     color: #fff;
     background-color: #FBBF52;
     outline: none;
 }
-
 #back-to-top i {
     font-size: 28px;
 }
-
 ul.social-icons {
   height: auto;
   overflow: hidden;
@@ -695,12 +683,10 @@ article {
     left: 43%;
     z-index: 4;
 }
-
 #videos .video_thumbnail p a:hover::before {
     color: #FBBF52;
     opacity: 1;
 }
-
 .social-share li {
   display: inline-block;
   margin: 3px 1px;
@@ -772,19 +758,15 @@ article {
 .tab-content img{
 	margin: 20px 0;
 }
-
 /* Table Style
 --------------- */
 .table>tbody>tr>td {text-align: left;} 
 td.vertical_align_top {vertical-align:top;}
-
 /* Accordion Style
 --------------- */
-
 .dropdown_content {
 	margin-bottom: 20px;
 }
-
 .accordion h3 {
 	color: #FBBF52;
 	margin-bottom: 5px; 
@@ -794,7 +776,6 @@ td.vertical_align_top {vertical-align:top;}
     font-size: 25px;
     font-weight: initial;
 }
-
 .next-section .caret {
 margin-top: -87px;
 border-top: 20px solid;
@@ -802,7 +783,6 @@ border-right: 45px solid rgba(0, 0, 0, 0);
 border-left: 45px solid rgba(0, 0, 0, 0);
 text-align: center;
 }
-
 .dropdown_content .accordion-group {
     border-bottom: 1px solid #dedede;
     padding: 20px 0;
@@ -810,7 +790,6 @@ text-align: center;
 .dropdown_content .accordion-inner {
     padding-top: 20px;
 }
-
 /* Slider Style
 --------------- */
 .slider-button {
@@ -842,38 +821,30 @@ text-align: center;
 .slider-display-container:hover .slider-display-hover{display:block}.slider-display-container:hover span.slider-display-hover{display:inline-block}.slider-display-hover{display:none}
 .slider-display-left{position:absolute;top:50%;left:-1%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%);}
 .slider-display-right{position:absolute;top:50%;right:-1%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%);}
-
 .col-md-3 img {
 	}
-
 /* Arcadia and SysML
 -------------------------- */
 #all_diagrams_equivalences .row, #all_diagrams_differences .row{
 	margin-bottom: 60px;
 }
-
 #all_diagrams_equivalences img, #all_diagrams_differences img{
 	width: 550px;
 }
-
 #all_diagrams_equivalences .col-md-6.left-content, #all_diagrams_differences .col-md-6.left-content {
 	padding-right: 20px;
 }
-
 #all_diagrams_equivalences .col-md-6.right-content, #all_diagrams_differences .col-md-6.right-content {
 	padding-left: 50px;
 }
-
 #all_diagrams_equivalences p img, #all_diagrams_differences p img {
     text-align: center;
 }
-
 .left-content .separator {
 	border-right: 1px solid #eee;
 	margin-right: -20px;
 	padding-right: 20px;
 }
-
 .left-content .separator:before {
 	position: absolute;
     display: inline-block;
@@ -885,7 +856,6 @@ text-align: center;
     top: 100px;
     content: '';
 }
-
 .left-content .separator:after {
     position: absolute;
     display: inline-block;
@@ -896,13 +866,11 @@ text-align: center;
     top: 101px;
     content: '';	
 }
-
 .right-content .separator {
 	border-left: 1px solid #eee;
     margin-left: -51px;
     padding-left: 45px;
 }
-
 .right-content .separator:before {
 	position: absolute;
     display: inline-block;
@@ -914,7 +882,6 @@ text-align: center;
     top: 100px;
     content: '';
 }
-
 .right-content .separator:after {
     position: absolute;
     display: inline-block;
@@ -925,7 +892,6 @@ text-align: center;
     top: 101px;
     content: '';
 }
-
 table {
 	margin: 60px 0;
 }
@@ -933,14 +899,11 @@ table {
 ----------------- */
 #resources .categories_anchors {height: 270px;}
 #resources .col-md-2, #resources #types .col-md-2  {text-align: center;}
-
-
 #resources .row .accordion-inner img {margin: 0 !important; padding: 0 !important; border: 1px solid #ddd;}
 #resources .col-md-4, #resources .col-xs-8 {padding: unset;}
 #resources .col-md-8 {padding: 0 20px 0 0 ;}
 #resources .dropdown_content .accordion-inner.with_thumb {padding-bottom: 20px; padding-top: 20px;}
 #resources .dropdown_content .accordion-inner {padding-top: 2px;}
-
 /* Responsive
 ------------- */
 @media only screen and (max-width: 1200px) {
@@ -952,20 +915,16 @@ table {
 {
 #resources #types .col-md-2 {width: 13.666% !important;}
 }
-
 @media only screen and (max-width: 768px) {
 .row img.responsive {    
     width: 100%;
     height: 100%;
 }
-
 #all_diagrams_equivalences img, #all_diagrams_differences img {
     width: 250px;
 }
-
 /*#resources #types .col-md-2 {width: initial;}*/
 }
-
 /* Cookies consent
 -------------------------- */
 .cc-color-override-1434350510.cc-window, .cc-color-override-1434350510.cc-revoke, .cc-color-override-1434350510 .cc-btn {
@@ -984,14 +943,12 @@ background-color: #FBBF52 !important;
 .cc-banner .cc-message {
     padding-right: 50px;
 }
-
 .pl-2 {
   padding-left: 6px;
 }
 .mr-2 {
   margin-right: 6px;
 }
-
 .alert-compatibility {
 color: #a94442;
 }
