@@ -36,6 +36,10 @@
             "company": "Maplesoft"
         },
         {
+			"logoSrc": "images/logos/adopters/logo_marquette-university.jpg",
+            "company": "Marquette University"
+        },
+        {
 			"logoSrc": "images/logos/adopters/logo_nextrail.jpg",
             "company": "Nextrail"
         },
@@ -80,7 +84,7 @@
             "company": "University of Toulouse Jean Jaurès"
         },
         {
-			"logoSrc": "images/logos/adopters/logo_virgin-hyperloop-one.png",
+			"logoSrc": "images/logos/adopters/logo_virgin-hyperloop-one.jpg",
             "company": "Virgin Hyperloop One"
         },
         {
