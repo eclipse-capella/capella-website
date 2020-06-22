@@ -24,6 +24,10 @@
             "company": "GMV"
         },
         {
+			"logoSrc": "images/logos/adopters/logo_grus.png",
+            "company": "Grus BV"
+        },
+        {
 			"logoSrc": "images/logos/adopters/logo_isae-ensma.png",
             "company": "ISAE-ENSMA"
         }, 
