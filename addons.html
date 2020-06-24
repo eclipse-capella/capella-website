@@ -104,18 +104,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						<div id="accordion-commercial-addons" class="accordion dropdown_content">
 						</div>
 				<script>
-				
+
 				   $.getJSON('json/downloads.json', function(data) {
 					  let eplAddons = data.addons.filter(function(a) { return a.licence == 'EPL' }); //Open-source add-ons
 					  let commercialAddons = data.addons.filter(function(a) { return a.licence == 'Commercial' }); //Commercial add-ons
-					  
+
 					  if (eplAddons.length != 0) {
 						addTitleToDiv("accordion-opensource-addons", "Open-Source Add-ons")
 						for (addon in eplAddons) {
 							addAddonSection(data, eplAddons[addon], "accordion-opensource-addons");
 						}
 					  }
-					  
+
 					  if (commercialAddons.length != 0) {
 						addTitleToDiv("accordion-commercial-addons", "Commercial Add-ons")
 						for (addon in commercialAddons) {
@@ -143,26 +143,26 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							header.push("License: "+addon.licence);
 						 }
 						 header=header.join(" - ");
-						 
-						 let compatible = addon.compatibleWithCurrentVersion === false ? '<button role="button" class="fa fa-exclamation-triangle btn-link btn-xs alert-compatibility" data-toggle="tooltip" data-placement="bottom" title="{0}" ></button>'.format(data.lang.compatibility.text) : "";				 
+
+						 let compatible = addon.compatibleWithCurrentVersion === false ? '<button role="button" class="fa fa-exclamation-triangle btn-link btn-xs alert-compatibility" data-toggle="tooltip" data-placement="bottom" title="{0}" ></button>'.format(data.lang.compatibility.text) : "";
 						 let addonName = addon.isViewpoint ? addon.name + " Viewpoint" : addon.name;
-						 
+
 						 let dropdown = '<div class="accordion-heading"><a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#{0}"><h3>{1}</h3><span class="fa fa-caret-down txt_yellow">&nbsp;</span><span class="descr txt_lightest_grey">{2}</span></a></div>'.format(fragment, addonName, header);
-						 
+
 						 let content = '<div id="{0}" class="accordion-body collapse" style="height: 0px;"><div class="accordion-inner">{1}<p>{2}{3}</p></div></div>'.format(fragment, addon.description, compatible, links);
 						 let result = '<div class="accordion-group">{0}{1}</div>'.format(dropdown, content);
-						 
+
 						 document.getElementById(divId).innerHTML += result;
-						 
+
 					  $('[data-toggle="popover"]').popover( { html: true, container: 'body' });
 					  $('[data-toggle="tooltip"]').tooltip();
 					}
 			  </script>
-			  
-					
+
+
 					<p class="underline"><b><u>Compatibility and integration</u></b></p>
-					<p><i>Each author is responsible for the compatibility of his add-ons with different versions of Capella. See the Add-on <a href="https://wiki.eclipse.org/Capella/Roadmap#Add-ons" target="_blank">Compatibility Matrix</a></i><br><i>Additional integration may be needed between two add-ons provided by different authors.</i></p>
-					
+					<p><i>Each author is responsible for the compatibility of his add-ons with different versions of Capella. See the Add-ons <a href="https://wiki.eclipse.org/Capella/Roadmap#Add-ons" target="_blank">releases and compatibility matrix</a></i><br><i>Additional integration may be needed between two add-ons provided by different authors.</i></p>
+
 					</div>
 				</div>
 		</section>
@@ -189,8 +189,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         Call To Action Section Start
         ================================================== -->
         		<ng-include src="'angular/blocks/call2action_services.html'"></ng-include>
-        
-	
+
+
 
 	<!--
         ==================================================
