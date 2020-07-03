@@ -44,6 +44,10 @@
             "company": "Marquette University"
         },
         {
+			"logoSrc": "images/logos/adopters/logo_mentor.png",
+            "company": "Mentor"
+        },
+        {
 			"logoSrc": "images/logos/adopters/logo_nextrail.jpg",
             "company": "Nextrail"
         },
@@ -85,7 +89,7 @@
         },
         {
 			"logoSrc": "images/logos/adopters/logo_university-of-toulouse.png",
-            "company": "University of Toulouse Jean Jaurès"
+            "company": "University of Toulouse Jean JaurÃ¨s"
         },
         {
 			"logoSrc": "images/logos/adopters/logo_virgin-hyperloop-one.jpg",
