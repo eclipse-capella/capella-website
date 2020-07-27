@@ -12,6 +12,10 @@
             "company": "CNXMotion"
         },
         {
+			"logoSrc": "images/logos/adopters/logo_comac.png",
+            "company": "COMAC"
+        },
+        {
 			"logoSrc": "images/logos/adopters/logo_ctengineering.jpg",
             "company": "CT Engineering"
         },
@@ -89,7 +93,7 @@
         },
         {
 			"logoSrc": "images/logos/adopters/logo_university-of-toulouse.png",
-            "company": "University of Toulouse Jean JaurÃ¨s"
+            "company": "University of Toulouse Jean Jaurès"
         },
         {
 			"logoSrc": "images/logos/adopters/logo_virgin-hyperloop-one.jpg",
