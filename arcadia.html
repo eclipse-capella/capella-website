@@ -102,8 +102,8 @@
         Header Section
         ================================================== -->
 	<ng-include src="'angular/blocks/header.html'"></ng-include>
-	<!-- 
-        ================================================== 
+	<!--
+        ==================================================
             Global Page Section Start
         ================================================== -->
 	<section class="hero-area arcadia">
@@ -132,36 +132,9 @@
 	<!--/#page-header-->
 	<!--
         ==================================================
-        Key Points - Features
+        Arcadia sheet
         ================================================== -->
-	<section id="overview" class="bg_lightest_grey text-center">
-		<div class="container">
-			<h2 class="title wow fadeInDown" data-wow-delay=".3s">Arcadia
-				method at a glance!</h2>
-			<div class="row">
-				<h3 class="wow fadeInDown" data-wow-delay=".5s">The essentials
-					of the method are summarized in a four pages document</h3>
-				<br>
-				<div class="col-md-6 col-xs-12 block-center">
-					<p>
-						<a href="resources/Datasheet_Arcadia.pdf" target="_blank"><img
-							alt="Arcadia Datasheet"
-							src="images/thumbs/datasheet_arcadia.png"></a>
-					</p>
-					<p>
-						<a href="resources/Datasheet_Arcadia.pdf"
-							download="Datasheet_Arcadia.pdf"
-							class="btn btn-default wow fadeInDown animated"
-							data-wow-delay=".7s" data-wow-duration="500ms">Download PDF</a>
-					</p>
-					<br>
-					<p><a class="wow fadeInUp" data-wow-delay=".3s" href="resources.html">Discover other resources <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
-						</a>
-					</p>
-				</div>
-			</div>
-		</div>
-	</section>
+		<ng-include src="'angular/blocks/arcadia_sheet.html'"></ng-include>
 	<!-- #overview -->
 
 
@@ -298,7 +271,7 @@
 				<p>Modern systems are subject to increasingly higher
 					constraints regarding expected behavior and services, safety, security, performance, environment,
 					human factors, etc. All these constraints are under the
-					responsibility of different stakeholders, which need to be reconciled during the solution 
+					responsibility of different stakeholders, which need to be reconciled during the solution
 					architectural design and development process.</p>
 
 				<div id="arcadia-architecture"></div>
@@ -440,7 +413,7 @@
 				</ul>
 
 				<p>Next paragraphs give a first description of major arcadia perspectives, for a given engineering level (system, sub-system, software or hardware part…).</p>
-			
+
 				<br>
 
 				<div id="arcadia-customer-need-analysis"></div>
@@ -464,7 +437,7 @@
 						<p><a class="fancybox" href="https://www.youtube.com/embed/TawT_G9DNNc" data-fancybox-type="iframe"><img src="images/arcadia/mockups/arcadia-customer-operational-need-analysis.png" alt="" /></a></p>
 					</div>
                 </div>
-					
+
 				<div id="arcadia-system-need-analysis"></div>
 				<h3>Formalization of system requirements - System Need Analysis</h3>
 				<p>
@@ -495,13 +468,13 @@
 					therefore should be approved/validated with the Customer.
 				</p>
 				<p>Watch the video below, illustrating this architecture level with a commented example: the level-crossing traffic control.</p>
-				
+
 				<div class="row">
 	                <div class="col-md-12 text-center">
 						<p><a class="fancybox" href="https://www.youtube.com/embed/UESXFZFbi5Q" data-fancybox-type="iframe"><img src="images/arcadia/mockups/arcadia-system-need-analysis.png" alt="" /></a></p>
 					</div>
                 </div>
-				
+
 				<div id="arcadia-logical-architecture"></div>
 				<h3>Definition of solution architecture - Logical
 					Architecture (Notional Solution)</h3>
@@ -587,8 +560,8 @@
 						<p><a class="fancybox" href="https://www.youtube.com/embed/1EEcDtLAiXk" data-fancybox-type="iframe"><img src="images/arcadia/mockups/arcadia-physical-architecture.png" alt="" /></a></p>
 					</div>
                 </div>
-					
-					
+
+
 				<div id="arcadia-components-requirements"></div>
 				<h3>Building Strategy - Contracts for
 					Development and IVVQ</h3>
@@ -605,8 +578,8 @@
 						integration contracts</b>, collecting all necessary expected properties
 					for each component to be developed.
 				</p>
-				
-				
+
+
 				<div id="arcadia-engineering"></div>
 				<h3>Co-Engineering, Sub-Contracting and Multi-Level Engineering</h3>
 				<p>
