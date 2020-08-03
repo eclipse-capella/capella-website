@@ -424,7 +424,7 @@
                 "thumb": ""
             },
             {
-                "title": "Multi-domain product architecture: start integrated, stay integrated",
+                "title": "Webinar - Multi-domain product architecture: start integrated, stay integrated (by Siemens)",
                 "descr": "",
                 "author": "Pascal Vera",
                 "year": "2020",
@@ -434,6 +434,84 @@
                 "type": "Video",
                 "type_order": "7",
                 "link": "https://youtu.be/UXbeECKU38A",
+                "thumb": ""
+            },
+            {
+                "title": "Webinar - Effective Communication Network Development through a Model-Based Systems Approach",
+                "descr": "",
+                "author": "John Risson, Fabrice Lestideau",
+                "year": "2020",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "9",
+                "type": "Video",
+                "type_order": "7",
+                "link": "https://youtu.be/QGzpp0zC6m0",
+                "thumb": ""
+            },
+            {
+                "title": "Webinar - Collaborative Model Based System Architecture Development (by CNXMotion)",
+                "descr": "",
+                "author": "Scott Millsap",
+                "year": "2020",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "9",
+                "type": "Video",
+                "type_order": "7",
+                "link": "https://youtu.be/2vYEp7JLtx8",
+                "thumb": ""
+            },
+            {
+                "title": "Webinar - Definition of project profiles to streamline MBSE deployment efforts (by Assystem)",
+                "descr": "",
+                "author": "Victor Richet, Benjamin Baudouin",
+                "year": "2020",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "9",
+                "type": "Video",
+                "type_order": "7",
+                "link": "https://youtu.be/6ooZ6I0uEDs",
+                "thumb": ""
+            },
+            {
+                "title": "Webinar - Academic research case of a lunar lander mission modelled with Capella (by ITA)",
+                "descr": "",
+                "author": "Mateus Venturini",
+                "year": "2020",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "9",
+                "type": "Video",
+                "type_order": "7",
+                "link": "https://youtu.be/gHUUM0py7uk",
+                "thumb": ""
+            },
+            {
+                "title": "Introduction to MBSE with Arcadia and Capella",
+                "descr": "",
+                "author": "Pascal Roques",
+                "year": "2020",
+                "language": "EN",
+                "topic": "Getting Started",
+                "topic_order": "6",
+                "type": "Video",
+                "type_order": "8",
+                "link": "https://youtu.be/Na0izOzHhKc",
+                "thumb": ""
+            },
+            {
+                "title": "Writing perfect textual requirements in Capella MBSE Tool",
+                "descr": "",
+                "author": "José Fuentes",
+                "year": "2020",
+                "language": "EN",
+                "topic": "Add-ons",
+                "topic_order": "9",
+                "type": "Video",
+                "type_order": "8",
+                "link": "https://youtu.be/eUzQYqP7ZDc",
                 "thumb": ""
             },
             {
