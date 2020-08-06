@@ -24,6 +24,10 @@
             "company": "CT Engineering"
         },
         {
+			"logoSrc": "images/logos/adopters/logo_daronmont.png",
+            "company": "Daronmont Technologies"
+        },
+        {
 			"logoSrc": "images/logos/adopters/logo_embraer.png",
             "company": "Embraer"
         },
