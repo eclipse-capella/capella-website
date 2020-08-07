@@ -1,122 +1,152 @@
 {"adopters":[
-		{
-			"logoSrc": "images/logos/adopters/logo_all4tec.png",
-            "company": "All4Tec"
+	{
+		"logoSrc": "images/logos/adopters/logo_all4tec.png",
+		"company": "All4Tec",
+		"link": "https://www.all4tec.com/"
         },
         {
-			"logoSrc": "images/logos/adopters/logo_assystem.png",
-            "company": "Assystem"
+		"logoSrc": "images/logos/adopters/logo_assystem.png",
+		"company": "Assystem",
+		"link": "https://www.assystem.com/"
         },
         {
-			"logoSrc": "images/logos/adopters/logo_axone.png",
-            "company": "Axone"
+		"logoSrc": "images/logos/adopters/logo_axone.png",
+		"company": "Axone",
+		"link": "https://www.axonegroup.com/"
         },
         {
-			"logoSrc": "images/logos/adopters/logo_cnx-motion.png",
-            "company": "CNXMotion"
+		"logoSrc": "images/logos/adopters/logo_cnx-motion.png",
+		"company": "CNXMotion",
+		"link": "https://cnxmotion.com/"
         },
         {
-			"logoSrc": "images/logos/adopters/logo_comac.png",
-            "company": "COMAC"
+		"logoSrc": "images/logos/adopters/logo_comac.png",
+		"company": "COMAC",
+		"link": "http://english.comac.cc/"
         },
         {
-			"logoSrc": "images/logos/adopters/logo_ctengineering.jpg",
-            "company": "CT Engineering"
+		"logoSrc": "images/logos/adopters/logo_ctengineering.jpg",
+		"company": "CT Engineering",
+		"link": "http://www.ctingenierie.com/"
         },
         {
-			"logoSrc": "images/logos/adopters/logo_daronmont.png",
-            "company": "Daronmont Technologies"
+		"logoSrc": "images/logos/adopters/logo_daronmont.png",
+		"company": "Daronmont Technologies",
+		"link": "https://daronmont.com.au/"
         },
         {
-			"logoSrc": "images/logos/adopters/logo_embraer.png",
-            "company": "Embraer"
+		"logoSrc": "images/logos/adopters/logo_embraer.png",
+		"company": "Embraer",
+		"link": "https://embraer.com/"
         },
         {
-			"logoSrc": "images/logos/adopters/logo_gmv.jpg",
-            "company": "GMV"
+		"logoSrc": "images/logos/adopters/logo_gmv.jpg",
+		"company": "GMV",
+		"link": "https://www.gmv.com/"
         },
         {
-			"logoSrc": "images/logos/adopters/logo_grus.png",
-            "company": "Grus BV"
+		"logoSrc": "images/logos/adopters/logo_grus.png",
+		"company": "Grus BV",
+		"link": "https://grusbv.com/"
         },
         {
-			"logoSrc": "images/logos/adopters/logo_isae-ensma.png",
-            "company": "ISAE-ENSMA"
+		"logoSrc": "images/logos/adopters/logo_isae-ensma.png",
+		"company": "ISAE-ENSMA",
+		"link": "https://www.ensma.fr/"
         }, 
         {
-			"logoSrc": "images/logos/adopters/logo_ita.png",
-            "company": "ITA"
+		"logoSrc": "images/logos/adopters/logo_ita.png",
+		"company": "Instituto Tecnológico de Aeronáutica",
+		"link": "http://www.ita.br/"
         },
         {
-			"logoSrc": "images/logos/adopters/logo_maplesoft.png",
-            "company": "Maplesoft"
+		"logoSrc": "images/logos/adopters/logo_maplesoft.png",
+		"company": "Maplesoft",
+		"link": "https://www.maplesoft.com/"
         },
         {
-			"logoSrc": "images/logos/adopters/logo_marquette-university.jpg",
-            "company": "Marquette University"
+		"logoSrc": "images/logos/adopters/logo_marquette-university.jpg",
+		"company": "Marquette University",
+		"link": "https://www.marquette.edu/"
         },
         {
-			"logoSrc": "images/logos/adopters/logo_mentor.png",
-            "company": "Mentor"
+		"logoSrc": "images/logos/adopters/logo_mentor.png",
+		"company": "Mentor Graphics",
+		"link": "https://www.mentor.com/"
         },
         {
-			"logoSrc": "images/logos/adopters/logo_nextrail.jpg",
-            "company": "Nextrail"
+		"logoSrc": "images/logos/adopters/logo_nextrail.jpg",
+		"company": "Nextrail",
+		"link": "https://nextrail.com/"
         },
         {
-			"logoSrc": "images/logos/adopters/logo_obeo.png",
-            "company": "Obeo"
+		"logoSrc": "images/logos/adopters/logo_obeo.png",
+		"company": "Obeo",
+		"link": "https://www.obeosoft.com/"
         },
         {
-			"logoSrc": "images/logos/adopters/logo_prfc.png",
-            "company": "PRFC"
+		"logoSrc": "images/logos/adopters/logo_prfc.png",
+		"company": "PRFC",
+		"link": "https://www.prfc.fr/"
         },
         {
-			"logoSrc": "images/logos/adopters/logo_samares.png",
-            "company": "Samares Engineering"
+		"logoSrc": "images/logos/adopters/logo_samares.png",
+		"company": "Samares Engineering",
+		"link": "https://www.samares-engineering.com"
         },
         {
-			"logoSrc": "images/logos/adopters/logo_siemens.jpg",
-            "company": "Siemens"
+		"logoSrc": "images/logos/adopters/logo_siemens.jpg",
+		"company": "Siemens Digital Industries Software",
+		"link": "https://www.sw.siemens.com/"
         },
         {
-			"logoSrc": "images/logos/adopters/logo_solutions-thinking.png",
-            "company": "Solutions Thinking"
+		"logoSrc": "images/logos/adopters/logo_solutions-thinking.png",
+		"company": "Solutions Thinking",
+		"link": "https://solutionsthinking.co.uk/"
         }, 
         {
-			"logoSrc": "images/logos/adopters/logo_sutd-esd.png",
-            "company": "SUTD-ESD"
+		"logoSrc": "images/logos/adopters/logo_sutd-esd.png",
+		"company": "SUTD-ESD",
+		"link": "https://esd.sutd.edu.sg/"
         },
         {
-			"logoSrc": "images/logos/adopters/logo_thales.png",
-            "company": "Thales"
+		"logoSrc": "images/logos/adopters/logo_thales.png",
+		"company": "Thales",
+		"link": "https://www.thalesgroup.com/fr"
         }, 
         {
-			"logoSrc": "images/logos/adopters/logo_thereusecompany.png",
-            "company": "The Reuse Company"
+		"logoSrc": "images/logos/adopters/logo_thereusecompany.png",
+		"company": "The Reuse Company",
+		"link": "https://www.reusecompany.com/"
         },
         {
-			"logoSrc": "images/logos/adopters/logo_university-of-indianapolis.png",
-            "company": "University of Indianapolis"
+		"logoSrc": "images/logos/adopters/logo_university-of-indianapolis.png",
+		"company": "University of Indianapolis",
+		"link": "https://uindy.edu/"
         },
         {
-			"logoSrc": "images/logos/adopters/logo_university-of-toulouse.png",
-            "company": "University of Toulouse Jean Jaur�s"
+		"logoSrc": "images/logos/adopters/logo_university-of-toulouse.png",
+		"company": "University of Toulouse Jean Jaurès",
+		"link": "https://www.univ-tlse2.fr/"
         },
         {
-			"logoSrc": "images/logos/adopters/logo_virgin-hyperloop-one.jpg",
-            "company": "Virgin Hyperloop One"
+		"logoSrc": "images/logos/adopters/logo_virgin-hyperloop-one.jpg",
+  		"company": "Virgin Hyperloop",
+		"link": "https://virginhyperloop.com/"
         },
         {
-			"logoSrc": "images/logos/adopters/logo_visioneer.png",
-            "company": "Visioneer"
+		"logoSrc": "images/logos/adopters/logo_visioneer.png",
+		"company": "Visioneer",
+		"link": "https://visioneer.info/"
         },
         {
-			"logoSrc": "images/logos/adopters/logo_vitesco.png",
-            "company": "Vitesco Technologies"
+		"logoSrc": "images/logos/adopters/logo_vitesco.png",
+		"company": "Vitesco Technologies",
+		"link": "https://vitesco-technologies.com/"
         },
         {
-			"logoSrc": "images/logos/adopters/logo_wsp.png",
-            "company": "WSP"
+		"logoSrc": "images/logos/adopters/logo_wsp.png",
+		"company": "WSP",
+		"link": "https://www.wsp.com/"
         }               
 ]}

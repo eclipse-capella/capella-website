@@ -98,16 +98,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 	        for (var i in data.adopters) {
 	        	var item = " ";
-     
-          	item ="<img src='" + data.adopters[i].logoSrc + "' alt='Capella Adopters - " + data.adopters[i].company +"' title='" + data.adopters[i].company + "' />";
-          	
-          	items += "<li>" + item + "</li>";			
-  			
-	        }
+
+				item ="<img src='" + data.adopters[i].logoSrc + "' alt='Capella Adopters - " + data.adopters[i].company +"' title='" + data.adopters[i].company + "' />";
+
+				link = data.adopters[i].link;
+
+				if (link!=null && link!="") {
+					items += "<li><a href='" + link + "' target='_blank'>" + item + "</a></li>";
+				}
+				else {
+					items += "<li>" + item + "</li>";
+				}
+			}
 
 	        output += "<div class='container'><div class='row'><ul class='list-inline'>" + items + "</ul></div></div>";
 
-	        
+
 	        document.getElementById("adopters").innerHTML=output;
  		 });
    		</script>

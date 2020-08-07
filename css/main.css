@@ -957,7 +957,7 @@ color: #a94442;
 .list-inline {
     list-style: none;
 }
-.list-inline li > img {
+.list-inline li img {
     max-width: 280px;
     padding: 45px 45px 15px 45px;
 }
