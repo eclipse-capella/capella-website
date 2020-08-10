@@ -898,7 +898,7 @@ table {
 /* Resources page
 ----------------- */
 #resources .categories_anchors {height: 270px;}
-#resources .col-md-2, #resources #types .col-md-2  {text-align: center;}
+#resources .col-md-2, #resources .col-md-2  {text-align: center;}
 #resources .row .accordion-inner img {margin: 0 !important; padding: 0 !important; border: 1px solid #ddd;}
 #resources .col-md-4, #resources .col-xs-8 {padding: unset;}
 #resources .col-md-8 {padding: 0 20px 0 0 ;}
@@ -914,6 +914,10 @@ table {
 @media (min-width: 992px)
 {
 #resources #types .col-md-2 {width: 13.666% !important;}
+}
+@media (min-width: 992px)
+{
+#resources #domains .col-md-2 {width: 13.666% !important;}
 }
 @media only screen and (max-width: 768px) {
 .row img.responsive {    

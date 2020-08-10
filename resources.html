@@ -96,6 +96,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					<ul class="nav nav-tabs">
 						<li class="active"><a href="#topics" data-toggle="tab">Discover by Topics</a></li>
 						<li><a href="#types" data-toggle="tab">Discover by Types</a></li>
+						<li><a href="#domains" data-toggle="tab">Discover by Domains</a></li>
 					</ul>
 					<div id="myTabContent" class="tab-content">
 						<div id="topics" class="tab-pane fade active in">
@@ -104,38 +105,43 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						<div id="types" class="tab-pane">
 								<div id="types_accordion" class="accordion dropdown_content"></div>
 						</div>
+						<div id="domains" class="tab-pane">
+								<div id="domains_accordion" class="accordion dropdown_content"></div>
+						</div>
 					</div>
 
 				<script>
 					// Sort items by ascending order
-					function GetSortOrder(prop) {  
-						return function(a, b) {  
-							if (a[prop] > b[prop]) {  
-								return 1;  
-							} else if (a[prop] < b[prop]) {  
-								return -1;  
-							}  
-							return 0;  
-						}  
+					function GetSortOrder(prop) {
+						return function(a, b) {
+							if (a[prop] > b[prop]) {
+								return 1;
+							} else if (a[prop] < b[prop]) {
+								return -1;
+							}
+							return 0;
+						}
 					}
-					
+
 					// Sort items by descending order
-					function GetSortOrder_des(prop) {  
-						return function(a, b) {  
-							if (a[prop] < b[prop]) {  
-								return 1;  
-							} else if (a[prop] > b[prop]) {  
-								return -1;  
-							}  
-							return 0;  
-						}  
+					function GetSortOrder_des(prop) {
+						return function(a, b) {
+							if (a[prop] < b[prop]) {
+								return 1;
+							} else if (a[prop] > b[prop]) {
+								return -1;
+							}
+							return 0;
+						}
 					}
 
 					$.getJSON('json/resources.json', function(data) {
 						var topics_accordion_group = " ";
 						var types_accordion_group = " ";
+						var domains_accordion_group = " ";
 						var topics_categories_row = " ";
 						var types_categories_row = " ";
+						var domains_categories_row = " ";
 
 						for (var i in data.resources.topics) {
 							var accordion_heading = " ";
@@ -149,7 +155,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 							title += "<h3>" + data.resources.topics[i].title + "</h3>";
 							descr += "<span class='descr txt_indigo'>" + data.resources.topics[i].descr + "</span><span class='fa fa-caret-down txt_yellow'>&nbsp;</span></a></div>";
-							
+
 							accordion_heading += "<div class='accordion-heading'><a class='accordion-toggle collapsed' data-toggle='collapse' data-parent='#types_accordion' href='#"
 							+ data.resources.topics[i].anchor + "'>" + title + descr;
 
@@ -159,24 +165,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 								data.resources.items.sort(GetSortOrder("topic_order"));
 
 								if(data.resources.items[j].author != ""){
-									item_infos += " | " + data.resources.items[j].author; 
+									item_infos += " | " + data.resources.items[j].author;
 								}
 								if(data.resources.items[j].year != ""){
-									item_infos += " | " + data.resources.items[j].year; 
+									item_infos += " | " + data.resources.items[j].year;
 								}
 								if(data.resources.items[j].topic == data.resources.topics[i].title){
 									if(data.resources.items[j].topic_order < 5){
-										accordion_inner += "<div class='accordion-inner with_thumb'><div class='col-md-8 col-xs-8'><h4 class='linked_title'><a href='" 
-											+ data.resources.items[j].link + "' target='_blank'>" 
-											+ data.resources.items[j].title + "</a></h4><p class='descr txt_indigo txt_weight_300'>" + data.resources.items[j].type + item_infos + " | " + data.resources.items[j].language + "</p><p>" 
-											+ data.resources.items[j].descr + "</p></div><div class='col-md-4 col-xs-12'><a href='" 
+										accordion_inner += "<div class='accordion-inner with_thumb'><div class='col-md-8 col-xs-8'><h4 class='linked_title'><a href='"
+											+ data.resources.items[j].link + "' target='_blank'>"
+											+ data.resources.items[j].title + "</a></h4><p class='descr txt_indigo txt_weight_300'>" + data.resources.items[j].type + item_infos + " | " + data.resources.items[j].language + "</p><p>"
+											+ data.resources.items[j].descr + "</p></div><div class='col-md-4 col-xs-12'><a href='"
 											+ data.resources.items[j].link + "' target='_blank'><img src='" + data.resources.items[j].thumb + "' alt='" + data.resources.items[j].title + "' /></a></div><div class='clearfix'></div></div>";
 									}
 									else{
-										accordion_inner += "<div class='accordion-inner'><h4 class='linked_title'><a href='" 
-											+ data.resources.items[j].link + "' target='_blank'>" 
+										accordion_inner += "<div class='accordion-inner'><h4 class='linked_title'><a href='"
+											+ data.resources.items[j].link + "' target='_blank'>"
 											+ data.resources.items[j].title + "</a></h4><p class='descr txt_indigo txt_weight_300'>" + data.resources.items[j].type + item_infos + " | " + data.resources.items[j].language + "</p></div>";
-									}	
+									}
 								}
 							}
 
@@ -184,7 +190,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 							accordion_body += "<div id='" + data.resources.topics[i].anchor + "' class='accordion-body collapse' style='height: 0px;'>" + accordion_inner + "</div>";
 							topics_accordion_group += "<div class='accordion-group' id='topic-" + data.resources.topics[i].anchor + "'>" + accordion_heading + accordion_body + "</div>";
-							
+
 							document.getElementById("topics_accordion").innerHTML = "<div class='categories_anchors linked_title'>" + topics_categories_row + "</div><div class='clearfix'></div>" + topics_accordion_group;
 						}
 
@@ -200,7 +206,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 							title += "<h3>" + data.resources.types[k].title + "</h3>";
 							descr += "<span class='descr txt_indigo'>" + data.resources.types[k].descr + "</span><span class='fa fa-caret-down txt_yellow'>&nbsp;</span></a></div>";
-							
+
 							accordion_heading += "<div class='accordion-heading'><a class='accordion-toggle collapsed' data-toggle='collapse' data-parent='#topics_accordion' href='#"
 							+ data.resources.types[k].anchor + "'>" + title + descr;
 
@@ -210,24 +216,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 								data.resources.items.sort(GetSortOrder("type_order"));
 
 								if(data.resources.items[m].author != ""){
-									item_infos += " | " + data.resources.items[m].author; 
+									item_infos += " | " + data.resources.items[m].author;
 								}
 								if(data.resources.items[m].year != ""){
-									item_infos += " | " + data.resources.items[m].year; 
+									item_infos += " | " + data.resources.items[m].year;
 								}
 								if(data.resources.items[m].type == data.resources.types[k].title){
 									if(data.resources.items[m].type_order < 5){
-										accordion_inner += "<div class='accordion-inner with_thumb'><div class='col-md-8 col-xs-8'><h4 class='linked_title'><a href='" 
-											+ data.resources.items[m].link + "' target='_blank'>" 
-											+ data.resources.items[m].title + "</a></h4><p class='descr txt_indigo txt_weight_300'>" + data.resources.items[m].topic + item_infos + " | " + data.resources.items[m].language + "</p><p>" 
+										accordion_inner += "<div class='accordion-inner with_thumb'><div class='col-md-8 col-xs-8'><h4 class='linked_title'><a href='"
+											+ data.resources.items[m].link + "' target='_blank'>"
+											+ data.resources.items[m].title + "</a></h4><p class='descr txt_indigo txt_weight_300'>" + data.resources.items[m].topic + item_infos + " | " + data.resources.items[m].language + "</p><p>"
 											+ data.resources.items[m].descr + "</p></div><div class='col-md-4 col-xs-12'><a href='"
 											+ data.resources.items[m].link + "' target='_blank'><img src='" + data.resources.items[m].thumb + "' alt='" + data.resources.items[m].title + "' /></a></div><div class='clearfix'></div></div>";
 									}
 									else{
-										accordion_inner += "<div class='accordion-inner'><h4 class='linked_title'><a href='" 
-											+ data.resources.items[m].link + "' target='_blank'>" 
+										accordion_inner += "<div class='accordion-inner'><h4 class='linked_title'><a href='"
+											+ data.resources.items[m].link + "' target='_blank'>"
 											+ data.resources.items[m].title + "</a></h4><p class='descr txt_indigo txt_weight_300'>" + data.resources.items[m].topic + item_infos + " | " + data.resources.items[m].language + "</p></div>";
-									}	
+									}
 								}
 							}
 
@@ -235,14 +241,65 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 							accordion_body += "<div id='" + data.resources.types[k].anchor + "' class='accordion-body collapse' style='height: 0px;'>" + accordion_inner + "</div>";
 							types_accordion_group += "<div class='accordion-group' id='type-" + data.resources.types[k].anchor + "'>" + accordion_heading + accordion_body + "</div>";
-							
+
 							document.getElementById("types_accordion").innerHTML = "<div class='categories_anchors linked_title'>" + types_categories_row + "</div><div class='clearfix'></div>" + types_accordion_group;
+						}
+
+						for (var i in data.resources.types) {
+							var accordion_heading = " ";
+							var accordion_body = " ";
+							var accordion_inner = " ";
+							var category_anchor = " ";
+							var title = " ";
+							var descr = " ";
+
+							category_anchor = "<div class='col-md-2 col-xs-12'><a class='wow smooth-scroll' href='resources.html#domain-" + data.resources.domains[i].anchor + "' data-row='#domain-" + data.resources.domains[i].anchor + "'><img src='" + data.resources.domains[i].icon + "' /><p>" + data.resources.domains[i].title + "</p></a></div>";
+
+							title += "<h3>" + data.resources.domains[i].title + "</h3>";
+							descr += "<span class='descr txt_indigo'>" + data.resources.domains[i].descr + "</span><span class='fa fa-caret-down txt_yellow'>&nbsp;</span></a></div>";
+
+							accordion_heading += "<div class='accordion-heading'><a class='accordion-toggle collapsed' data-toggle='collapse' data-parent='#types_accordion' href='#"
+							+ data.resources.domains[i].anchor + "'>" + title + descr;
+
+							for (var j in data.resources.items) {
+								var item_infos = " ";
+
+								data.resources.items.sort(GetSortOrder("domain_order"));
+
+								if(data.resources.items[j].author != ""){
+									item_infos += " | " + data.resources.items[j].author;
+								}
+								if(data.resources.items[j].year != ""){
+									item_infos += " | " + data.resources.items[j].year;
+								}
+								if(data.resources.items[j].domain == data.resources.domains[i].title){
+									if(data.resources.items[j].domain_order < 5){
+										accordion_inner += "<div class='accordion-inner with_thumb'><div class='col-md-8 col-xs-8'><h4 class='linked_title'><a href='"
+											+ data.resources.items[j].link + "' target='_blank'>"
+											+ data.resources.items[j].title + "</a></h4><p class='descr txt_indigo txt_weight_300'>" + data.resources.items[j].type + item_infos + " | " + data.resources.items[j].language + "</p><p>"
+											+ data.resources.items[j].descr + "</p></div><div class='col-md-4 col-xs-12'><a href='"
+											+ data.resources.items[j].link + "' target='_blank'><img src='" + data.resources.items[j].thumb + "' alt='" + data.resources.items[j].title + "' /></a></div><div class='clearfix'></div></div>";
+									}
+									else{
+										accordion_inner += "<div class='accordion-inner'><h4 class='linked_title'><a href='"
+											+ data.resources.items[j].link + "' target='_blank'>"
+											+ data.resources.items[j].title + "</a></h4><p class='descr txt_indigo txt_weight_300'>" + data.resources.items[j].type + item_infos + " | " + data.resources.items[j].language + "</p></div>";
+									}
+								}
+							}
+
+							domains_categories_row += category_anchor;
+
+							accordion_body += "<div id='" + data.resources.domains[i].anchor + "' class='accordion-body collapse' style='height: 0px;'>" + accordion_inner + "</div>";
+							domains_accordion_group += "<div class='accordion-group' id='domain-" + data.resources.domains[i].anchor + "'>" + accordion_heading + accordion_body + "</div>";
+
+							document.getElementById("domains_accordion").innerHTML = "<div class='categories_anchors linked_title'>" + domains_categories_row + "</div><div class='clearfix'></div>" + domains_accordion_group;
 						}
 
 						new WOW().init();
 						jQuery('.smooth-scroll').scrollingTo();
 					});
-				</script>				
+				</script>
 		</div>
 	</section>
 
