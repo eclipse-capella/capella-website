@@ -110,6 +110,11 @@
 		"link": "https://esd.sutd.edu.sg/"
         },
         {
+		"logoSrc": "images/logos/adopters/logo_tern-systems.png",
+		"company": "Tern Systems",
+		"link": "https://www.tern.is/"
+        }, 
+        {
 		"logoSrc": "images/logos/adopters/logo_thales.png",
 		"company": "Thales",
 		"link": "https://www.thalesgroup.com/fr"
