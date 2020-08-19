@@ -103,7 +103,7 @@
         "updateSite": "https://obeo-mirror-capella-releases.s3-eu-west-1.amazonaws.com/thales-addons/1.4/2019-06/PVMT-45.5-DS-updatesite.zip"
       }
     }, 
-    { "name":"MaplesoftMBSE for Capella",
+    { "name":"MapleMBSE for Capella",
       "key":"MAPLESOFT",
       "fragment":"maplesoft",
       "licence":"Commercial",
