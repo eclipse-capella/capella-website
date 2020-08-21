@@ -90,6 +90,11 @@
 		"link": "https://www.prfc.fr/"
         },
         {
+		"logoSrc": "images/logos/adopters/logo_pure-systems.png",
+		"company": "pure-systems",
+		"link": "https://www.pure-systems.com/"
+        },
+        {
 		"logoSrc": "images/logos/adopters/logo_samares.png",
 		"company": "Samares Engineering",
 		"link": "https://www.samares-engineering.com"
@@ -104,6 +109,11 @@
 		"company": "Solutions Thinking",
 		"link": "https://solutionsthinking.co.uk/"
         }, 
+        {
+		"logoSrc": "images/logos/adopters/logo_stille.png",
+		"company": "Stille",
+		"link": "https://www.stille.se/"
+        },
         {
 		"logoSrc": "images/logos/adopters/logo_sutd-esd.png",
 		"company": "SUTD-ESD",
