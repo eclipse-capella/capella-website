@@ -111,7 +111,8 @@
       "description": "<p>MapleMBSE provides an intuitive, Excel®-based interface to the systems model with optimized, task-specific views for editing the model directly, all while keeping the central model updated for use by all stakeholders.</p><p>Organizations using Capella can now edit models within MapleMBSE, allowing them to simplify tasks and increase engagement with MBSE processes by non-SE stakeholders across the organization.</p>",
       "download": { 
         "learnMore": "https://fr.maplesoft.com/products/maplembse/index.aspx"
-      }
+      },
+      "tags":["excel","bridge"]
     },
     { "name":"Publication for Capella",
       "key":"P4C",
@@ -121,7 +122,8 @@
       "description": "<p>Publication for Capella provides a tight integration between OSLC-compliant ALM tools (Polarion, Doors Next, ...) and the Capella MBSE Workbench.</p><p>It enables a fined grained traceability between your requirements and your system design: drag &amp; drop requirements directly from your ALM tool into Capella.</p>",
       "download": { 
         "learnMore": "https://www.obeo.fr/en/products/publication-for-capella"
-      }
+      },
+      "tags":["requirements","bridge"]
     },
     { "name":"M2Doc",
       "showOnMainPage": true,
@@ -144,7 +146,8 @@
       "description": "<p>Variant management is required in all stages of product line development. However, traditional software development tools are often focused on single system development. pure::variants closes this gap by providing a model-based infrastructure for variability modelling and variant definition in all phases of system and software development.</p><p>The pure::variants connector for Capella enables engineers to systematically reuse their Capella models across multiple product variants and projects based on the mature technologies of feature modeling and feature model-based variant configuration",
       "download": { 
         "learnMore": "http://www.pure-systems.com/products/pure-variants-9.html"
-      }
+      },
+      "tags":["variability","bridge"]
     },
     { "name":"RAT – Authoring Tools",
       "key":"RAT",
@@ -154,7 +157,8 @@
       "description": "<p>This add-on assists users when writing requirements statements, hence improving the overall quality of the requirements or even the model elements, diagrams etc of the projects.</p><p>RAT – Authoring Tools supports AI and Natural Language Processing to provide the following functionalities:</p><ul><li>Real-time Quality Analysis</li><li>Smart Authoring</li><li>Patterns based Authoring</li><li>On-the-fly Requirements-Models consistency checking and traceability</li><li>RMS Synchronization</li><li>Requirements aggregation in a SMART Grid</li></ul>",
       "download": { 
         "learnMore": "https://www.reusecompany.com/rat-authoring-tools"
-      }
+      },
+      "tags":["requirements","bridge"]
     },
     { "name":"Safety Viewpoint & MBSE-MBSA bridge for Safety Architect",
       "key":"SafetyArchitect",
@@ -164,7 +168,8 @@
       "description": "<p>This add-on provides to Capella a new viewpoint dedicated to safety analysis. Thus, the user can locate the feared events in the model, define the safety scope of the analysis and build critical chains. User can consider the whole model or focus on any architecture level: physical, logical or functional. You can even go further with a efficient bridge with Safety Architect, to perform a complete safety analysis from the Capella model, using the standard methods such as FMEA or FTA and generate the corresponding fault trees. Finally, user can export its safety data to dedicated tools like FaultTree+, or reimport them into Capella to enrich the original model.</p>",
       "download": { 
         "learnMore": "https://www.riskoversee.com/en/safety-architect-en/"
-      }
+      },
+      "tags":["safety","bridge"]
     },
     { "name":"SCADE Architect importer for Capella",
       "key":"SCADE",
@@ -174,7 +179,8 @@
       "description": "<p>SCADE Architect is a SysML based tool that supports several gateways to eg. medini analyze for system functional safety, SCADE Suite for certified embedded software development, FACE or AUTOSAR modeling, etc.</p><p>This add-on , still in beta version for SCADE 2019Rx, allows for importing Capella Logical and Physical Architecture of a model, including the graphical block diagrams, as a SCADE Architect model, thus offering a path to medini analyze or SCADE Suite tools.</p>",
       "download": { 
         "learnMore": "https://www.ansys.com/en-in/products/embedded-software"
-      }
+      },
+      "tags":["bridge"]
     },    
     { "name":"System Modeling Workbench (SMW) for Teamcenter",
       "key":"SMW",
@@ -184,7 +190,8 @@
       "description": "<p>System Modeling Workbench is a supported and complete integration of best of breed Model-Based Systems Engineering (MBSE) tools based on Capella.</p><p>Integrated with Teamcenter this solution allows to link systems models with requirements in a multi-domain product integrated environment.</p>",
       "download": { 
         "learnMore": "https://www.obeo.fr/en/products/smw"
-      }
+      },
+      "tags":["PLM", "Requirements", "bridge"]
     },
     { "name":"Team for Capella",
       "key":"T4C",
@@ -194,7 +201,8 @@
       "description": "<p>This add-on allows users to collaborate on remotely shared models and representations</p><ul><li>All changes on the models and representations are automatically propagated across all users’ views.</li><li>Only the necessary objects are automatically locked and released. On-demand locks can also be created.</li><li>Data is stored in a shared server hosting the whole models with their representations.</li></ul>",
       "download": { 
         "learnMore": "https://www.obeo.fr/en/team-for-capella"
-      }
+      },
+      "tags":["collaboration"]
     },
     { "name":"VISIONEER",
       "key":"VISIONEER",
@@ -204,7 +212,8 @@
       "description": "<p>VISIONEER has developed a tool for object-oriented requirement engineering as part of a tool chain with Polarion and Capella. Any Capella System Model can be imported and extended with System Kit Elements for Embedded Systems to generate complete textual specifications, SW code and test cases.</p>",
       "download": { 
         "learnMore": "https://visioneer.info"
-      }
+      },
+      "tags":["requirements","bridge"]
     },
     { "name":"Yuzu for Capella",
       "key":"YUZU",
@@ -214,7 +223,8 @@
       "description": "<p>Built on top of proven big-data technologies, Yuzu stores and keeps tracks of all your Capella projects, libraries and dependencies.</p>",
       "download": { 
         "learnMore": "http://capella.artal-group.com/yuzu/"
-      }
+      },
+      "tags":["assets management"]
     },
     
      { "name":"Requirements",

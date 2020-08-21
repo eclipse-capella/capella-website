@@ -142,6 +142,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						 if (addon.licence) {
 							header.push("License: "+addon.licence);
 						 }
+						 if (addon.tags) {
+						 	let tags='';
+						 	for (tag in addon.tags) {
+						 		tags+=' <button class="tag">'+addon.tags[tag]+'</button>';
+							}
+							header.push(tags);
+						 }
 						 header=header.join(" - ");
 
 						 let compatible = addon.compatibleWithCurrentVersion === false ? '<button role="button" class="fa fa-exclamation-triangle btn-link btn-xs alert-compatibility" data-toggle="tooltip" data-placement="bottom" title="{0}" ></button>'.format(data.lang.compatibility.text) : "";

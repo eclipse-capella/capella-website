@@ -60,6 +60,22 @@ a:hover, .btn-link:hover, a:active, a:focus, #top-bar .main-menu li#dwnld > a:ho
   color: #292253;
   outline: 0;
 }
+
+.tag {
+	border: none;
+ 	color: #FFFFFF;
+ 	cursor: text;
+ 	background: #292253;
+	text-decoration: none;
+  	font-size: 10px;
+   	letter-spacing: 1px;
+	text-align: center;
+  	text-transform: uppercase;
+  	font-family: 'LatoWebBold', sans-serif;
+  	padding: 2px 5px 0px 5px;
+ }
+
+
 .bg_indigo a:hover {color:#fff;}
 .bg_indigo a:focus {color:#FBBF52;}
 .row img {
