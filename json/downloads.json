@@ -145,7 +145,7 @@
       "contact":"<a href='mailto:sales@pure-systems.com?subject=pure::variants Connector for Capella' target='_blank'>pure-systems</a>",
       "description": "<p>Variant management is required in all stages of product line development. However, traditional software development tools are often focused on single system development. pure::variants closes this gap by providing a model-based infrastructure for variability modelling and variant definition in all phases of system and software development.</p><p>The pure::variants connector for Capella enables engineers to systematically reuse their Capella models across multiple product variants and projects based on the mature technologies of feature modeling and feature model-based variant configuration",
       "download": { 
-        "learnMore": "http://www.pure-systems.com/products/pure-variants-9.html"
+        "learnMore": "https://www.pure-systems.eu/modellbasierte-softwareentwicklung"
       },
       "tags":["variability","bridge"]
     },
