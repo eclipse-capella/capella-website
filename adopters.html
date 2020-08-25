@@ -41,6 +41,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
 <!-- End Google Tag Manager -->
 
+
+<!-- shuffle function -->
+<script>
+function shuffle(array) {
+  var currentIndex = array.length, temporaryValue, randomIndex;
+
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+
+    // And swap it with the current element.
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+
+  return array;
+}
+</script>
+<!-- End shuffle function -->
+
+
 <!-- Template Javascript Files
         ================================================== -->
 <!-- Angular -->
@@ -96,12 +121,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   			var output = " " ;
 	        	var items = " ";
 
-	        for (var i in data.adopters) {
+	        let adopters=shuffle(data.adopters);
+
+	        for (var i in adopters) {
 	        	var item = " ";
 
-				item ="<img src='" + data.adopters[i].logoSrc + "' alt='Capella Adopters - " + data.adopters[i].company +"' title='" + data.adopters[i].company + "' />";
+				item ="<img src='" + adopters[i].logoSrc + "' alt='Capella Adopters - " + adopters[i].company +"' title='" + adopters[i].company + "' />";
 
-				link = data.adopters[i].link;
+				link = adopters[i].link;
 
 				if (link!=null && link!="") {
 					items += "<li><a href='" + link + "' target='_blank'>" + item + "</a></li>";
