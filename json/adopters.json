@@ -115,6 +115,11 @@
 		"link": "https://solutionsthinking.co.uk/"
         }, 
         {
+		"logoSrc": "images/logos/adopters/logo_spherea.jpg",
+		"company": "Spherea",
+		"link": "https://spherea.com/"
+        }, 
+        {
 		"logoSrc": "images/logos/adopters/logo_stille.png",
 		"company": "Stille",
 		"link": "https://www.stille.se/"
