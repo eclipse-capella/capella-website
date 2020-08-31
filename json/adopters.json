@@ -40,6 +40,11 @@
 		"link": "https://embraer.com/"
         },
         {
+		"logoSrc": "images/logos/adopters/logo_framatome.png",
+		"company": "Framatome",
+		"link": "https://www.framatome.com/"
+        },
+        {
 		"logoSrc": "images/logos/adopters/logo_gmv.jpg",
 		"company": "GMV",
 		"link": "https://www.gmv.com/"
