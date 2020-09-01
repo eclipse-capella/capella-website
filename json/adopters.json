@@ -90,6 +90,11 @@
 		"link": "https://www.obeosoft.com/"
         },
         {
+		"logoSrc": "images/logos/adopters/logo_pgm.png",
+		"company": "PGM",
+		"link": ""
+        },
+        {
 		"logoSrc": "images/logos/adopters/logo_prfc.png",
 		"company": "PRFC",
 		"link": "https://www.prfc.fr/"
