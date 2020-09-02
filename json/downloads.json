@@ -103,6 +103,17 @@
         "updateSite": "https://obeo-mirror-capella-releases.s3-eu-west-1.amazonaws.com/thales-addons/1.4/2019-06/PVMT-45.5-DS-updatesite.zip"
       }
     }, 
+    { "name":"DESS (Dynamic Execution and System Simulation)",
+      "key":"DESS",
+      "fragment":"dess",
+      "licence":"Commercial",
+      "contact":"<a href='http://www.pgmse.com/index' target='_blank'>PGM</a>",
+      "description": "<p>Dynamic Execution and System Simulation (DESS) Add-On can make mode and state machines executable. A control panel can be used to interact with the state machine, and the execution process can be automatically recorded as a scenario. During state machine execution, M code embedded in functions can be directly invoked to simulate the operation effect of the architecture.</p>",
+      "download": { 
+        "learnMore": "http://www.pgmse.com/dess"
+      },
+      "tags":["simulation","modes & states"]
+    },
     { "name":"MapleMBSE for Capella",
       "key":"MAPLESOFT",
       "fragment":"maplesoft",
