@@ -135,6 +135,11 @@
 		"link": "https://esd.sutd.edu.sg/"
         },
         {
+		"logoSrc": "images/logos/adopters/logo_technicatome.jpg",
+		"company": "TechnicAtome",
+		"link": "https://www.technicatome.com/"
+        }, 
+        {
 		"logoSrc": "images/logos/adopters/logo_tern-systems.png",
 		"company": "Tern Systems",
 		"link": "https://www.tern.is/"
