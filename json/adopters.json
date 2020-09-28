@@ -40,6 +40,11 @@
 		"link": "https://www.c-s.fr/"
         },
         {
+		"logoSrc": "images/logos/adopters/logo_csut.png",
+		"company": "Centre Spatial Universitaire de Toulouse",
+		"link": "https://www.csut.eu/"
+        },
+        {
 		"logoSrc": "images/logos/adopters/logo_ctengineering.jpg",
 		"company": "CT Engineering",
 		"link": "http://www.ctingenierie.com/"
