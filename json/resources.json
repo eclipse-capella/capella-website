@@ -131,13 +131,117 @@
         "items":[
         
         
+
+	{
+                "title": "Webinar - Simplifying MBSE Tasks with Capella and MapleMBSE",
+                "descr": "",
+                "author": "Paul Goossens, Bharani Mohan (Maplesoft)",
+                "year": "2020",
+                "language": "EN",
+                "topic": "Add-ons",
+                "topic_order": "99",
+                "type": "Slideshow",
+                "type_order": "99",
+                "link": "https://youtu.be/nnqdgxSObk0",
+                "thumb": ""
+            },
+	{
+                "title": "Modelling Avionics Interfaces and Generating ICDs for the Propulsion Subsystem of the MPCV-ESM",
+                "descr": "",
+                "author": "Délia Cellarier (ESA)",
+                "year": "2020",
+                "language": "EN",
+                "topic": "Business Value",
+                "topic_order": "99",
+                "type": "Slideshow",
+                "type_order": "99",
+                "domain": "Aerospace & Defense",
+                "domain_order": "99",
+                "link": "https://indico.esa.int/event/329/contributions/5516/attachments/3874/5601/0945_-_Presentation_-_Modelling_Avionics_Interfaces_and_Generating_Interface_Control_Documents_for_the_Propulsion_Subsystem_of_the_MPCV_European_Service_Module.pdf",
+                "thumb": ""
+            },
+       
+	{
+                "title": "Stepwise adoption of model-based solution for a full MBSE transition, an Industrial perspective",
+                "descr": "",
+                "author": "David Perillo (ESA/ESTEC)",
+                "year": "2020",
+                "language": "EN",
+                "topic": "Business Value",
+                "topic_order": "99",
+                "type": "Slideshow",
+                "type_order": "99",
+                "domain": "Aerospace & Defense",
+                "domain_order": "99",
+                "link": "https://indico.esa.int/event/329/contributions/5519/attachments/3877/5604/1130_-_Presentation_-_Stepwise_adoption_of_model-based_solution_for_a_full_MBSE_transition_an_Industrial_perspective.pdf",
+                "thumb": ""
+            },
         
-        
-        
-            		{
+	{
+                "title": "Lessons learned on the use of MBSE in the preliminary design of space systems at CT Paris",
+                "descr": "",
+                "author": "Julien Morane (CT-Ingénierie)",
+                "year": "2020",
+                "language": "EN",
+                "topic": "Business Value",
+                "topic_order": "99",
+                "type": "Slideshow",
+                "type_order": "99",
+                "domain": "Aerospace & Defense",
+                "domain_order": "99",
+                "link": "https://indico.esa.int/event/329/contributions/5520/attachments/3878/5605/1200_-_Presentation_-_Lessons_learned_on_the_use_of_MBSE_in_the_preliminary_design_of_space_systems_at_CT_Paris.pdf",
+                "thumb": ""
+            },
+    
+ 	{
+                "title": "Successful MBSE landing on a CNES operational use-case",
+                "descr": "",
+                "author": "Jonathan Lasalle (ARTAL Technologies)",
+                "year": "2020",
+                "language": "EN",
+                "topic": "Business Value",
+                "topic_order": "99",
+                "type": "Slideshow",
+                "type_order": "99",
+                "domain": "Aerospace & Defense",
+                "domain_order": "99",
+                "link": "https://indico.esa.int/event/329/contributions/5523/attachments/3881/5608/1430_-_Presentation_-_Successful_MBSE_landing_on_a_CNES_operational_use_case.pdf",
+                "thumb": ""
+            },
+   
+ 	{
+                "title": "Capella to TASTE MBSE bridge",
+                "descr": "",
+                "author": "Michał Kurowski (N7 Space)",
+                "year": "2020",
+                "language": "EN",
+                "topic": "Add-ons",
+                "topic_order": "99",
+                "type": "Slideshow",
+                "type_order": "99",
+                "link": "https://indico.esa.int/event/329/contributions/5532/attachments/3888/5619/1000_-_Presentation_-_Capella_to_TASTE_MBSE_bridge.pdf",
+                "thumb": ""
+            },
+    
+  	{
+                "title": "Application of co-simulation to support tests and operations",
+                "descr": "",
+                "author": "Georgia Soulioti (MTech)",
+                "year": "2020",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "99",
+                "type": "Slideshow",
+                "type_order": "99",
+                "link": "https://indico.esa.int/event/329/contributions/5539/attachments/3895/5626/1500_-_Presentation_-_ENABLING_COMBINING_MODELS_AND_TOOLS_IN_AN_ONLINE_MBSE_COLLABORATION_PLATFORM.pdf",
+                "thumb": ""
+            },
+    
+    
+	{
                 "title": "Master Class: Design Excellence for Medical Devices, MBSE",
                 "descr": "",
-                "author": "Tony Komar, Mark Sampson",
+                "author": "Tony Komar, Mark Sampson (Siemens Digital Engineering Software)",
                 "year": "2020",
                 "language": "EN",
                 "topic": "Business Value",
@@ -152,7 +256,7 @@
 	{
                 "title": "Webinar - Assystem case-study: Definition of project profiles to streamline MBSE deployment efforts",
                 "descr": "",
-                "author": "Victor Richet, Benjamin Baudouin",
+                "author": "Victor Richet, Benjamin Baudouin (Assystem)",
                 "year": "2020",
                 "language": "EN",
                 "topic": "Business Value",
@@ -165,7 +269,7 @@
         		{
                 "title": "Webinar - Simultaneously edit Capella models with Team for Capella",
                 "descr": "",
-                "author": "Stéphane Lacrampe",
+                "author": "Stéphane Lacrampe (Obeo)",
                 "year": "2020",
                 "language": "EN",
                 "topic": "Add-ons",
@@ -178,7 +282,7 @@
             {
                 "title": "Webinar - CNXMotion case-study: Collaborative Model Based System Architecture Development",
                 "descr": "",
-                "author": "Scott Millsap",
+                "author": "Scott Millsap (CNXMotion)",
                 "year": "2020",
                 "language": "EN",
                 "topic": "Business Value",
@@ -193,7 +297,7 @@
             {
                 "title": "Webinar - Fostering MBSE in Engineering culture (by Thales)",
                 "descr": "",
-                "author": "Juan Navas",
+                "author": "Juan Navas (Thales)",
                 "year": "2020",
                 "language": "EN",
                 "topic": "Business Value",
@@ -292,7 +396,7 @@
         		{
                 "title": "ADCSS - Model Based Systems Engineering for Ariane 6",
                 "descr": "",
-                "author": "Clément Grise",
+                "author": "Clément Grise (ArianeGroup)",
                 "year": "2019",
                 "language": "EN",
                 "topic": "Business Value",
@@ -322,7 +426,7 @@
         		{
                 "title": "Evaluating ARCADIA/Capella vs. OOSEM/SysML for System Architecture Development",
                 "descr": "",
-                "author": "Shashank P. Alai",
+                "author": "Shashank P. Alai (Purdue University)",
                 "year": "2019",
                 "language": "EN",
                 "topic": "Learning More",
@@ -378,7 +482,7 @@
         		{
                 "title": "MBSE Methodology for Implementing Networked Aircraft Control System on Integrated Modular Avionics - Environmental Control System Case Study",
                 "descr": "",
-                "author": "Prince George Mathew",
+                "author": "Prince George Mathew (Concordia University)",
                 "year": "2019",
                 "language": "EN",
                 "topic": "Business Value",
@@ -408,7 +512,7 @@
         		{
                 "title": "Capella and Arcadia - Open source and governance",
                 "descr": "",
-                "author": "Samuel Rochet",
+                "author": "Samuel Rochet (Obeo)",
                 "year": "2019",
                 "language": "EN",
                 "topic": "Business Value",
@@ -447,7 +551,7 @@
         		{
                 "title": "ITA Course - Model Based Systems Engineering",
                 "descr": "",
-                "author": "Christopher Shneider Cerqueira",
+                "author": "Christopher Shneider Cerqueira (ITA)",
                 "year": "2019",
                 "language": "EN",
                 "topic": "Getting Started",
@@ -488,7 +592,7 @@
             {
                 "title": "Webinar - What's new in Capella 1.4",
                 "descr": "",
-                "author": "Stephane Bonnet, Juan Navas",
+                "author": "Stephane Bonnet & Juan Navas (Thales)",
                 "year": "2020",
                 "language": "EN",
                 "topic": "Learning More",
@@ -499,9 +603,9 @@
                 "thumb": ""
             },
             {
-                "title": "Webinar - Multi-domain product architecture: start integrated, stay integrated (by Siemens)",
+                "title": "Webinar - Multi-domain product architecture: start integrated, stay integrated",
                 "descr": "",
-                "author": "Pascal Vera",
+                "author": "Pascal Vera (Siemens)",
                 "year": "2020",
                 "language": "EN",
                 "topic": "Learning More",
@@ -514,7 +618,7 @@
             {
                 "title": "Webinar - Effective Communication Network Development through a Model-Based Systems Approach",
                 "descr": "",
-                "author": "John Risson, Fabrice Lestideau",
+                "author": "John Risson (Anacom), Fabrice Lestideau (Thinksystems)",
                 "year": "2020",
                 "language": "EN",
                 "topic": "Learning More",
@@ -527,9 +631,9 @@
                 "thumb": ""
             },
             {
-                "title": "Webinar - Collaborative Model Based System Architecture Development (by CNXMotion)",
+                "title": "Webinar - Collaborative Model Based System Architecture Development",
                 "descr": "",
-                "author": "Scott Millsap",
+                "author": "Scott Millsap (CNXMotion)",
                 "year": "2020",
                 "language": "EN",
                 "topic": "Learning More",
@@ -542,9 +646,9 @@
                 "thumb": ""
             },
             {
-                "title": "Webinar - Definition of project profiles to streamline MBSE deployment efforts (by Assystem)",
+                "title": "Webinar - Definition of project profiles to streamline MBSE deployment efforts",
                 "descr": "",
-                "author": "Victor Richet, Benjamin Baudouin",
+                "author": "Victor Richet & Benjamin Baudouin (Assystem)",
                 "year": "2020",
                 "language": "EN",
                 "topic": "Learning More",
@@ -555,9 +659,9 @@
                 "thumb": ""
             },
             {
-                "title": "Webinar - Academic research case of a lunar lander mission modelled with Capella (by ITA)",
+                "title": "Webinar - Academic research case of a lunar lander mission modelled with Capella",
                 "descr": "",
-                "author": "Mateus Venturini",
+                "author": "Mateus Venturini (ITA)",
                 "year": "2020",
                 "language": "EN",
                 "topic": "Learning More",
@@ -572,7 +676,7 @@
             {
                 "title": "Introduction to MBSE with Arcadia and Capella",
                 "descr": "",
-                "author": "Pascal Roques",
+                "author": "Pascal Roques (PRFC)",
                 "year": "2020",
                 "language": "EN",
                 "topic": "Getting Started",
@@ -585,7 +689,7 @@
             {
                 "title": "Writing perfect textual requirements in Capella MBSE Tool",
                 "descr": "",
-                "author": "José Fuentes",
+                "author": "José Fuentes (The Resue Company)",
                 "year": "2020",
                 "language": "EN",
                 "topic": "Add-ons",
@@ -598,7 +702,7 @@
             {
                 "title": "Model Execution and System Simulation in Capella",
                 "descr": "",
-                "author": "Renfei Xu",
+                "author": "Renfei Xu (Glaway)",
                 "year": "2019",
                 "language": "EN",
                 "topic": "Learning More",
@@ -611,7 +715,7 @@
            {
                 "title": "Functional chains with Arcadia and Capella: Concepts and exploitation",
                 "descr": "",
-                "author": "Stéphane Bonnet",
+                "author": "Stéphane Bonnet (Thales)",
                 "year": "2019",
                 "language": "EN",
                 "topic": "Learning More",
@@ -624,7 +728,7 @@
            {
                 "title": "The spirit of Arcadia and Capella in 7 minutes",
                 "descr": "Very short introduction to Arcadia and Capella: main concepts and example.",
-                "author": "Stéphane Bonnet",
+                "author": "Stéphane Bonnet (Thales)",
                 "year": "2019",
                 "language": "EN",
                 "topic": "Getting Started",
@@ -637,7 +741,7 @@
             {
                 "title": "Webinar - Introduction to Arcadia Capella with a toy catapult project",
                 "descr": "Learn how to build a toy catapult system thanks to the Arcadia method and the Capella open MBSE.",
-                "author": "Peter Jackson",
+                "author": "Peter Jackson (Singapore University)",
                 "year": "2019",
                 "language": "EN",
                 "topic": "Getting Started",
@@ -663,7 +767,7 @@
 			{
                 "title": "Augmenting requirements with models to improve the articulation between system engineering levels and optimize V&V",
                 "descr": "This paper describes one vision of the articulation between requirement engineering and MBSE where textual and model requirements actually complete each other. The results are improved contracts across engineering levels and more formalized V&V practices.",
-                "author": "Stéphane Bonnet",
+                "author": "Stéphane Bonnet (Thales)",
                 "year": "2019",
                 "language": "EN",
                 "topic": "Learning More",
@@ -676,7 +780,7 @@
             {
                 "title": "Augmenting requirements with models",
                 "descr": "",
-                "author": "Stéphane Bonnet",
+                "author": "Stéphane Bonnet (Thales)",
                 "year": "2019",
                 "language": "EN",
                 "topic": "Learning More",
@@ -715,7 +819,7 @@
             {
                 "title": "Webinar - Rolls-Royce Case-Study: Arcadia / Capella for a large complex mechanical system",
                 "descr": "",
-                "author": "Jim Daly",
+                "author": "Jim Daly (Rolls-Royce)",
                 "year": "2019",
                 "language": "EN",
                 "topic": "Business Value",
@@ -743,7 +847,7 @@
             {
                 "title": "Webinar - What's new in Capella 1.3?",
                 "descr": "",
-                "author": "Stéphane Bonnet",
+                "author": "Stéphane Bonnet (Thales)",
                 "year": "2019",
                 "language": "EN",
                 "topic": "Learning More",
@@ -756,7 +860,7 @@
             {
                 "title": "Webinar - Modeling states and modes with Arcadia and Capella: method and tool perspectives",
                 "descr": "",
-                "author": "Stéphane Bonnet",
+                "author": "Stéphane Bonnet (Thales)",
                 "year": "2018",
                 "language": "EN",
                 "topic": "Learning More",
@@ -769,7 +873,7 @@
             {
                 "title": "Webinar - Easily enrich Capella models with your domain extensions",
                 "descr": "",
-                "author": "Juan Navas",
+                "author": "Juan Navas (Thales)",
                 "year": "2018",
                 "language": "EN",
                 "topic": "Learning More",
@@ -782,7 +886,7 @@
             {
                 "title": "Webinar - Strategies and tools for model reuse with Capella",
                 "descr": "",
-                "author": "Stéphane Bonnet, Benoit Viaud",
+                "author": "Stéphane Bonnet (Thales), Benoit Viaud (Artal)",
                 "year": "2018",
                 "language": "EN",
                 "topic": "Learning More",
@@ -795,7 +899,7 @@
             {
                 "title": "Discovering what Capella and Arcadia are about...",
                 "descr": "This article shares really valuable contents to understand Capella and Arcadia.",
-                "author": "Stéphane Lacrampe",
+                "author": "Stéphane Lacrampe (Obeo)",
                 "year": "2018",
                 "language": "EN",
                 "topic": "Getting Started",
@@ -808,7 +912,7 @@
             {
                 "title": "ERTS - Capella to SysML Bridge: A Tooled-up Methodology for MBSE Interoperability",
                 "descr": "",
-                "author": "Pascal Roques, Nesrine Badache",
+                "author": "Pascal Roques (PRFC), Nesrine Badache (Artal)",
                 "year": "2018",
                 "language": "EN",
                 "topic": "Learning More",
@@ -834,7 +938,7 @@
             {
                 "title": "Systems Architecture Modeling with the Arcadia Method - A Practical Guide to Capella",
                 "descr": "This book is an illustrative guide for the understanding and implementation of model-based systems and architecture engineering with the Arcadia method, using Capella.",
-                "author": "Pascal Roques",
+                "author": "Pascal Roques (PRFC)",
                 "year": "2017",
                 "language": "EN",
                 "topic": "Learning More",
@@ -847,7 +951,7 @@
             {
                 "title": "Model-based System and Architecture Engineering with the Arcadia Method",
                 "descr": "This book describes the fundamentals of the method and its contribution to engineering issues such as requirements management, product line, system supervision, and integration, verification and validation (IVV).",
-                "author": "Jean-Luc Voirin",
+                "author": "Jean-Luc Voirin (Thales)",
                 "year": "2017",
                 "language": "EN",
                 "topic": "Learning More",
@@ -860,7 +964,7 @@
             {
                 "title": "Incose Symposium - Analyzing system variability according to modes and states",
                 "descr": "",
-                "author": "J-L Voirin, S. Bonnet",
+                "author": "J-L Voirin, S. Bonnet (Thales)",
                 "year": "2017",
                 "language": "EN",
                 "topic": "Learning More",
@@ -873,7 +977,7 @@
             {
                 "title": "Webinar - What's New in Capella 1.2?",
                 "descr": "",
-                "author": "Stéphane Bonnet",
+                "author": "Stéphane Bonnet (Thales)",
                 "year": "2017",
                 "language": "EN",
                 "topic": "Learning More",
@@ -899,7 +1003,7 @@
             {
                 "title": "IEEE Syscon - Not (strictly) relying on SysML for MBSE: language, tooling and development perspectives",
                 "descr": "Using the Arcadia/Capella solution as an example, this paper explores why standard UML/SysML languages are not necessarily the unique or best alternatives for implementation of a model-based systems engineering solution (MBSE).",
-                "author": "J-L Voirin, S. Bonnet, D. Exertier, V. Normand",
+                "author": "J-L Voirin, S. Bonnet, D. Exertier, V. Normand (Thales)",
                 "year": "2016",
                 "language": "EN",
                 "topic": "Learning More",
@@ -912,7 +1016,7 @@
             {
                 "title": "Incose Symposium - Simplifying (and enriching) SysML to perform functional analysis and model instances",
                 "descr": "",
-                "author": "J-L Voirin, S. Bonnet, D. Exertier, V. Normand",
+                "author": "J-L Voirin, S. Bonnet, D. Exertier, V. Normand (Thales)",
                 "year": "2016",
                 "language": "EN",
                 "topic": "Learning More",
@@ -925,7 +1029,7 @@
             {
                 "title": "Case-Study Rolls Royce - Arcadia and Capella for a large complex mechanical system",
                 "descr": "Rolls-Royce used Arcadia/Capella to define the architecture of a large civil aerospace turbofan engine, to manage system complexity and minimise the associated risk.<br><br><a href='resources/pdf/Case_Study_Rolls_Royce_ZH.pdf' target='_blank'>Read the Chinese Version <i class='fa fa-arrow-circle-right' aria-hidden='true'></i></a>",
-                "author": "Jim Daly",
+                "author": "Jim Daly (Rolls-Royce)",
                 "year": "2019",
                 "language": "EN",
                 "topic": "Business Value",
@@ -940,7 +1044,7 @@
             {
                 "title": "Case-Study ArianeGroup - Model-Based Systems Engineering Must Become a Team Sport!!",
                 "descr": "Case-study by ArianeGroup. <br><br><a href='resources/pdf/Case_Study_ArianeGroup_ZH.pdf' target='_blank'>Read the Chinese Version <i class='fa fa-arrow-circle-right' aria-hidden='true'></i></a>",
-                "author": "Alain Huet",
+                "author": "Alain Huet (ArianeGroup)",
                 "year": "2017",
                 "language": "EN",
                 "topic": "Business Value",
@@ -955,7 +1059,7 @@
             {
                 "title": "Case-Study Continental - Driving Intelligent Transportation Systems with Capella",
                 "descr": "Case-study by Continental Automotive. <br><br><a href='resources/pdf/Case_Study_Continental_ZH.pdf' target='_blank'>Read the Chinese Version <i class='fa fa-arrow-circle-right' aria-hidden='true'></i></a>",
-                "author": "Jérôme Montigny",
+                "author": "Jérôme Montigny (Continental)",
                 "year": "2017",
                 "language": "EN",
                 "topic": "Business Value",
@@ -970,7 +1074,7 @@
             {
                 "title": "Case-Study Framatome - Progressive Deployment of MBSE Methods in French Nuclear Industry",
                 "descr": "Case-study by Framatome. <br><br><a href='resources/pdf/Case_Study_Framatome_ZH.pdf' target='_blank'>Read the Chinese Version <i class='fa fa-arrow-circle-right' aria-hidden='true'></i></a>",
-                "author": "Philippe Tannery",
+                "author": "Philippe Tannery (Framatome)",
                 "year": "2017",
                 "language": "EN",
                 "topic": "Business Value",
@@ -985,7 +1089,7 @@
             {
                 "title": "Capella Day - Top 10 reasons why Capella is different",
                 "descr": "The top 10 reasons why Capella is different",
-                "author": "Stéphane Bonnet",
+                "author": "Stéphane Bonnet (Thales)",
                 "year": "2018",
                 "language": "EN",
                 "topic": "Business Value",
@@ -998,7 +1102,7 @@
             {
                 "title": "Why Capella? Taking on the Challenges of Complex Systems Engineering",
                 "descr": "",
-                "author": "Frédéric Madiot",
+                "author": "Frédéric Madiot (Obeo)",
                 "year": "2017",
                 "language": "EN",
                 "topic": "Business Value",
@@ -1026,7 +1130,7 @@
             {
                 "title": "Capella Day - Thales Germany: Use of Capella in bid phase of railway signalling projects, experiences and challenges",
                 "descr": "",
-                "author": "Michael Schaefer",
+                "author": "Michael Schaefer (Thales)",
                 "year": "2018",
                 "language": "EN",
                 "topic": "Business Value",
@@ -1041,7 +1145,7 @@
             {
                 "title": "Webinar - Thales return on experience: usage of Capella in bid phase of railway signalling projects",
                 "descr": "",
-                "author": "Michael Schaefer",
+                "author": "Michael Schaefer (Thales)",
                 "year": "2018",
                 "language": "EN",
                 "topic": "Business Value",
@@ -1056,7 +1160,7 @@
             {
                 "title": "Capella Day - ATL2 modernization: when MBSE keeps its promises",
                 "descr": "",
-                "author": "Guillaume Journaux, Tony Soquet",
+                "author": "Guillaume Journaux, Tony Soquet (Thales)",
                 "year": "2017",
                 "language": "EN",
                 "topic": "Business Value",
@@ -1071,7 +1175,7 @@
             {
                 "title": "Capella Day - Why are Arcadia and Capella relevant for MBSE?",
                 "descr": "",
-                "author": "Pascal Roques",
+                "author": "Pascal Roques (PRFC)",
                 "year": "2017",
                 "language": "EN",
                 "topic": "Business Value",
@@ -1084,7 +1188,7 @@
             {
                 "title": "Capella Day - Continental return of experience: Driving Intelligent Transportation Systems with Capella",
                 "descr": "",
-                "author": "Jérôme Montigny",
+                "author": "Jérôme Montigny (Continental)",
                 "year": "2017",
                 "language": "EN",
                 "topic": "Business Value",
@@ -1099,7 +1203,7 @@
             {
                 "title": "Coupling Methodology and Tooling for Systems Modeling",
                 "descr": "",
-                "author": "Stéphane Bonnet, Jean-Luc Voirin, Joe Silmon",
+                "author": "Stéphane Bonnet, Jean-Luc Voirin, Joe Silmon (Thales)",
                 "year": "2017",
                 "language": "EN",
                 "topic": "Business Value",
@@ -1112,7 +1216,7 @@
             {
                 "title": "Eclipse Sirius, the technology behind Capella",
                 "descr": "Capella Studio is the IDE (integrated development environment) to develop viewpoints and add-ons for Capella.",
-                "author": "Mélanie Bats",
+                "author": "Mélanie Bats (Obeo)",
                 "year": "2017",
                 "language": "EN",
                 "topic": "Development",
@@ -1125,7 +1229,7 @@
             {
                 "title": "How MBSE can make real the Digital Thread through System Modeling Workbench",
                 "descr": "",
-                "author": "Etienne Juliot",
+                "author": "Etienne Juliot (Obeo)",
                 "year": "2018",
                 "language": "EN",
                 "topic": "Add-ons",
@@ -1138,7 +1242,7 @@
             {
                 "title": "Capella Add-ons: Collaborate better + Generate Docs",
                 "descr": "",
-                "author": "Laurent Delaigue",
+                "author": "Laurent Delaigue (Obeo)",
                 "year": "2017",
                 "language": "EN",
                 "topic": "Add-ons",
@@ -1164,7 +1268,7 @@
             {
                 "title": "NASA JPL MBSE Symposium - Acquisition and Early Evaluation of Architecture with Arcadia and Capella",
                 "descr": "",
-                "author": "Stephane Bonnet",
+                "author": "Stephane Bonnet (Thales)",
                 "year": "2016",
                 "language": "EN",
                 "topic": "Business Value",
@@ -1177,7 +1281,7 @@
             {
                 "title": "Deploying Model-Based Systems Engineering in Thales Alenia Space Italia",
                 "descr": "",
-                "author": "Elvira Calio, Fabio Di Giorgio, Mauro Pasquinelli",
+                "author": "Elvira Calio, Fabio Di Giorgio, Mauro Pasquinelli (Thales Alenia Space)",
                 "year": "2016",
                 "language": "EN",
                 "topic": "Business Value",
@@ -1192,7 +1296,7 @@
             {
                 "title": "SESA MBSE Symposium - MBSE Backbone of the Thales Engineering Manifesto",
                 "descr": "",
-                "author": "Olivier Flous",
+                "author": "Olivier Flous (Thales)",
                 "year": "2014",
                 "language": "EN",
                 "topic": "Business Value",
@@ -1205,7 +1309,7 @@
             {
                 "title": "SESA MBSE Symposium - Arcadia and capella on the field: real world mbse examples",
                 "descr": "",
-                "author": "Stephane Bonnet, Fabrice Lestideau, Jean-Luc Voirin",
+                "author": "Stephane Bonnet, Fabrice Lestideau, Jean-Luc Voirin (Thales)",
                 "year": "2014",
                 "language": "EN",
                 "topic": "Business Value",
@@ -1218,7 +1322,7 @@
             {
                 "title": "ITSLE Workshop - Large-Scale DS(M)L Deployment in Thales",
                 "descr": "",
-                "author": "Stéphane Bonnet, Daniel Exertier, Benoit Langlois",
+                "author": "Stéphane Bonnet, Daniel Exertier, Benoit Langlois (Thales)",
                 "year": "2014",
                 "language": "EN",
                 "topic": "Business Value",
@@ -1231,7 +1335,7 @@
             {
                 "title": "ICAS - Method &amp; Tools to Secure and Support Collaborative Architecting of Constrained Systems",
                 "descr": "Using the Arcadia/Capella solution as an example, this paper explores why standard UML/SysML languages are not necessarily the unique or best alternatives for implementation of a model-based systems engineering solution (MBSE).",
-                "author": "Jean-Luc Voirin",
+                "author": "Jean-Luc Voirin (Thales)",
                 "year": "2010",
                 "language": "EN",
                 "topic": "Business Value",
@@ -1244,7 +1348,7 @@
             {
                 "title": "Extensibility of Capella with Capella Studio",
                 "descr": "Capella Studio is the IDE (integrated development environment) to develop viewpoints and add-ons for Capella.",
-                "author": "Benoit Langlois",
+                "author": "Benoit Langlois (Thales)",
                 "year": "2017",
                 "language": "EN",
                 "topic": "Development",
@@ -1309,7 +1413,7 @@
             {
                 "title": "SiriusCon - Building Capella on Top of Sirius: a Development Perspective",
                 "descr": "",
-                "author": "Michel Bispo",
+                "author": "Michel Bispo (Thales)",
                 "year": "2018",
                 "language": "EN",
                 "topic": "Development",
@@ -1322,7 +1426,7 @@
             {
                 "title": "Creation of viewpoint with Capella Studio 1.1.0",
                 "descr": "",
-                "author": "Benoit Langlois",
+                "author": "Benoit Langlois (Thales)",
                 "year": "2017",
                 "language": "EN",
                 "topic": "Development",
@@ -1335,7 +1439,7 @@
             {
                 "title": "Tutorial - Toy Catapult Project",
                 "descr": "In this tutorial, we will work on a project related to building a Toy Catapult. The project is initiated by the grandparent of a child. The objective is to design a toy that allows the child's parent and the child to play together and have fun.",
-                "author": "Ugur Arikan, Peter Jackson",
+                "author": "Ugur Arikan, Peter Jackson (Singapore University)",
                 "year": "2018",
                 "language": "EN",
                 "topic": "Getting Started",
@@ -1361,7 +1465,7 @@
             {
                 "title": "Webinar - Equivalences and differences between SysML and Arcadia/Capella",
                 "descr": "This webinar illustrates the main equivalences and differences between SysML and Arcadia/Capella with substantial rationales",
-                "author": "Stéphane Bonnet",
+                "author": "Stéphane Bonnet (Thales)",
                 "year": "2018",
                 "language": "EN",
                 "topic": "Getting Started",
@@ -1374,7 +1478,7 @@
             {
                 "title": "Level-crossing Traffic Control",
                 "descr": "Four commented videos and the corresponding sample model describing a level-crossing traffic control system",
-                "author": "Jean-Luc Voirin",
+                "author": "Jean-Luc Voirin (Thales)",
                 "year": "2018",
                 "language": "EN",
                 "topic": "Getting Started",
@@ -1389,7 +1493,7 @@
             {
                 "title": "Level-crossing Traffic Control - Customer Operational Need Analysis",
                 "descr": "",
-                "author": "Jean-Luc Voirin",
+                "author": "Jean-Luc Voirin (Thales)",
                 "year": "2018",
                 "language": "EN",
                 "topic": "Getting Started",
@@ -1404,7 +1508,7 @@
             {
                 "title": "Level-crossing Traffic Control - System Need Analysis",
                 "descr": "",
-                "author": "Jean-Luc Voirin",
+                "author": "Jean-Luc Voirin (Thales)",
                 "year": "2018",
                 "language": "EN",
                 "topic": "Getting Started",
@@ -1419,7 +1523,7 @@
             {
                 "title": "Level-crossing Traffic Control - Capella model - Logical Architecture",
                 "descr": "",
-                "author": "Jean-Luc Voirin",
+                "author": "Jean-Luc Voirin (Thales)",
                 "year": "2018",
                 "language": "EN",
                 "topic": "Getting Started",
@@ -1434,7 +1538,7 @@
             {
                 "title": "Level-crossing Traffic Control - Physical Architecture",
                 "descr": "",
-                "author": "Jean-Luc Voirin",
+                "author": "Jean-Luc Voirin (Thales)",
                 "year": "2018",
                 "language": "EN",
                 "topic": "Getting Started",
@@ -1449,7 +1553,7 @@
             {
                 "title": "AIDA (Aircraft Inspection by Drone Assistant) - Capella source model",
                 "descr": "",
-                "author": "Pierre Virelizier, Pierre Gaufillet, Julien Baclet",
+                "author": "Pierre Virelizier, Pierre Gaufillet, Julien Baclet (IRT Saint-Exupery)",
                 "year": "2018",
                 "language": "EN",
                 "topic": "Learning More",
@@ -1464,7 +1568,7 @@
             {
                 "title": "AIDA (Aircraft Inspection by Drone Assistant) - Capella model description",
                 "descr": "",
-                "author": "Pierre Virelizier, Tatiana Prosvirnova, Estelle Saez",
+                "author": "Pierre Virelizier, Tatiana Prosvirnova, Estelle Saez (IRT Saint-Exupery)",
                 "year": "2018",
                 "language": "EN",
                 "topic": "Learning More",
@@ -1479,7 +1583,7 @@
             {
                 "title": "Capella Wiki - Installation guide",
                 "descr": "Procedure to install Capella",
-                "author": "Christophe Gatti",
+                "author": "Christophe Gatti (Thales)",
                 "year": "2016",
                 "language": "EN",
                 "topic": "Getting Started",
@@ -1518,7 +1622,7 @@
             {
                 "title": "In-Flight Entertainment",
                 "descr": "A Capella model example describing an in-flight entertainment system",
-                "author": "Stéphane Bonnet",
+                "author": "Stéphane Bonnet (Thales)",
                 "year": "2015",
                 "language": "EN",
                 "topic": "Getting Started",
@@ -1533,7 +1637,7 @@
             {
                 "title": "Clock Radio",
                 "descr": "A Capella model example describing a clock radio",
-                "author": "Pascal Roques",
+                "author": "Pascal Roques (PRFC)",
                 "year": "2016",
                 "language": "EN",
                 "topic": "Getting Started",
@@ -1546,7 +1650,7 @@
             {
                 "title": "Sonnette Electronique",
                 "descr": "",
-                "author": "Alexandre Granier, Frédéric Van Lauwe",
+                "author": "Alexandre Granier & Frédéric Van Lauwe (Thales)",
                 "year": "",
                 "language": "FR",
                 "topic": "Getting Started",
@@ -1559,7 +1663,7 @@
             {
                 "title": "Capella Day - Guide to Arcadia and Capella Successful Adoption",
                 "descr": "",
-                "author": "Pascal Roques",
+                "author": "Pascal Roques (PRFC)",
                 "year": "2018",
                 "language": "EN",
                 "topic": "Getting Started",
@@ -1585,7 +1689,7 @@
             {
                 "title": "Webinar - How is Capella different",
                 "descr": "This video explains the main differences and highlights what makes Capella successful : the Arcadia method, its coupling with the Capella tool, its comprehensiveness but also the open community supporting it.",
-                "author": "Stéphane Bonnet",
+                "author": "Stéphane Bonnet (Thales)",
                 "year": "2017",
                 "language": "EN",
                 "topic": "Getting Started",
@@ -1741,7 +1845,7 @@
             {
                 "title": "EclipseCon France - Capella Workshop",
                 "descr": "An overview of Capella and its ecosystem",
-                "author": "Samuel Rochet",
+                "author": "Samuel Rochet (Obeo)",
                 "year": "2018",
                 "language": "EN",
                 "topic": "Discussing",
@@ -1780,7 +1884,7 @@
             {
                 "title": "Capella Day - Team Collaboration and Document Generation",
                 "descr": "A presentation of two Capella add-ons: Team for Capella for live collaboration and M2Doc for document generation",
-                "author": "Laurent Delaigue",
+                "author": "Laurent Delaigue (Obeo)",
                 "year": "2018",
                 "language": "EN",
                 "topic": "Add-ons",
@@ -1793,7 +1897,7 @@
             {
                 "title": "Capella Day - Yuzu, The Capella Assets Manager",
                 "descr": "Yuzu stores and keeps tracks of all your Capella projects, libraries and dependencies.",
-                "author": "Benoit Viaud",
+                "author": "Benoit Viaud (Artal)",
                 "year": "2018",
                 "language": "EN",
                 "topic": "Add-ons",
@@ -1806,7 +1910,7 @@
              {
                 "title": "Webinar - Variability management with Capella and pure::variants",
                 "descr": "",
-                "author": "Robert Hellebrand",
+                "author": "Robert Hellebrand (pure-systems)",
                 "year": "2018",
                 "language": "EN",
                 "topic": "Add-ons",
@@ -1819,7 +1923,7 @@
             {
                 "title": "Capella Day - Systematic reuse of Capella assets with pure::variants? How to capitalize on your assets",
                 "descr": "",
-                "author": "Danilo Beuche, Robert Hellebrand",
+                "author": "Danilo Beuche & Robert Hellebrand (pure-systems)",
                 "year": "2017",
                 "language": "EN",
                 "topic": "Add-ons",
@@ -1832,7 +1936,7 @@
             {
                 "title": "Capella Day - Designing a test mean alla capella with Citrus",
                 "descr": "",
-                "author": "Benoit Viaud",
+                "author": "Benoit Viaud (Artal)",
                 "year": "2017",
                 "language": "EN",
                 "topic": "Add-ons",
@@ -1858,7 +1962,7 @@
             {
                 "title": "Capella Day - Sample Arcadia / Capella Model: Railway Level-crossing Command &amp; Control",
                 "descr": "A commented Capella model describing a level-crossing traffic control system",
-                "author": "Jean-Luc Voirin",
+                "author": "Jean-Luc Voirin (Thales)",
                 "year": "2018",
                 "language": "EN",
                 "topic": "Getting Started",
@@ -1873,7 +1977,7 @@
             {
                 "title": "In-Flight Entertainment v1.0 - Sample Model Highlights",
                 "descr": "",
-                "author": "Stéphane Bonnet",
+                "author": "Stéphane Bonnet (Thales)",
                 "year": "2014",
                 "language": "EN",
                 "topic": "Getting Started",
@@ -1886,7 +1990,7 @@
             {
                 "title": "Clock Radio Example",
                 "descr": "",
-                "author": "Pascal Roques",
+                "author": "Pascal Roques (PRFC)",
                 "year": "2016",
                 "language": "EN",
                 "topic": "Getting Started",
@@ -1925,7 +2029,7 @@
             {
                 "title": "EclipseCon EU - Capella time-lapse: A system architecture model in 30 minutes",
                 "descr": "A commented Capella model describing an in-flight entertainment system",
-                "author": "Stéphane Bonnet",
+                "author": "Stéphane Bonnet (Thales)",
                 "year": "2015",
                 "language": "EN",
                 "topic": "Getting Started",
