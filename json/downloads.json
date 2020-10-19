@@ -130,7 +130,7 @@
       "fragment":"p4c",
       "licence":"Commercial",
       "contact":"<a href='https://www.obeo.fr/contact' target='_blank'>Obeo</a>",
-      "description": "<p>Publication for Capella provides a tight integration between OSLC-compliant ALM tools (Polarion, Doors Next, ...) and the Capella MBSE Workbench.</p><p>It enables a fined grained traceability between your requirements and your system design: drag &amp; drop requirements directly from your ALM tool into Capella.</p>",
+      "description": "<p>Publication for Capella provides a tight integration between OSLC-compliant ALM tools (Polarion, Doors Next, ...) and the Capella MBSE Workbench.</p><p>It enables fine-grained traceability between your requirements and your system design: drag &amp; drop requirements directly from your ALM tool into Capella.</p>",
       "download": { 
         "learnMore": "https://www.obeo.fr/en/products/publication-for-capella"
       },
