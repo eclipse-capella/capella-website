@@ -235,6 +235,7 @@ section {
 }
 .event{
   background: url('../images/banners/banner_event.jpg') no-repeat 50%;
+  z-index:2;
 }
 .getstarted{
   background: url('../images/banners/banner_getstarted.jpg') no-repeat 50%;
@@ -302,6 +303,7 @@ color: #fff !important;
   text-align: center;
   position: relative;
   color: #fff;
+  z-index:2;
 }
 .call-to-action .block {
   position: relative;
@@ -980,4 +982,24 @@ color: #a94442;
 .list-inline li img {
     max-width: 280px;
     padding: 45px 45px 15px 45px;
+}
+
+    
+/* Bottom bar
+-------------------------- */
+    
+.bottom-bar {
+	text-align:center; background-color: #7667A3; color:#fff; overflow:hidden; position:fixed; bottom:0; height:60px; width:100%; z-index:20;
+}
+    
+.bottom-bar p {
+	margin:20px;
+}
+
+.bottom-bar a, button {
+	color:#fff;
+}
+
+.bottom-bar a:hover {
+	color:#292253;
 }
