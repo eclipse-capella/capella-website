@@ -989,17 +989,31 @@ color: #a94442;
 -------------------------- */
     
 .bottom-bar {
-	text-align:center; background-color: #7667A3; color:#fff; overflow:hidden; position:fixed; bottom:0; height:60px; width:100%; z-index:20;
+	text-align:center; 
+	background-color: #7667A3; 
+	color:#fff; 
+	overflow:hidden; 
+	position:fixed; bottom:0; 
+	height:60px; 
+	width:100%; 
+	z-index:20;
 }
     
 .bottom-bar p {
 	margin:20px;
 }
 
-.bottom-bar a, button {
-	color:#fff;
+
+.bottom-bar a {
+	background-color:#292253;
+	color:#FBBF52;
+	padding: 10px 20px;
+	border-radius: 4px;
+	text-transform: uppercase;
+	font-size: 14px;
 }
 
 .bottom-bar a:hover {
+	background-color:#FBBF52; 
 	color:#292253;
 }
