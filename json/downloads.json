@@ -18,35 +18,32 @@
   "capella": {
     "name": "Capella",
     "key": "Capella",
-    "version": "1.4.2",
+    "version": "1.4.1",
     "links": {
       "windows": {
-        "main": "https://download.eclipse.org/capella/core/products/releases/1.4.2-R20201014-090868/capella-1.4.2.202010140908-win32-win32-x86_64.zip",
-        "mirror": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/1.4.2-R20201014-090868/capella-1.4.2.202010140908-win32-win32-x86_64.zip"
+        "main": "https://download.eclipse.org/capella/core/products/releases/1.4.1-R20200630-160305/capella-1.4.1.202006301603-win32-win32-x86_64.zip"
        },
       "linux": { 
-        "main": "https://download.eclipse.org/capella/core/products/releases/1.4.2-R20201014-090868/capella-1.4.2.202010140908-linux-gtk-x86_64.zip",
-        "mirror": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/1.4.2-R20201014-090868/capella-1.4.2.202010140908-linux-gtk-x86_64.zip"
+        "main": "https://download.eclipse.org/capella/core/products/releases/1.4.1-R20200630-160305/capella-1.4.1.202006301603-linux-gtk-x86_64.zip"
        },
       "mac": { 
-        "main": "https://download.eclipse.org/capella/core/products/releases/1.4.2-R20201014-090868/capella-1.4.2.202010140908-macosx-cocoa-x86_64.zip",
-        "mirror": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/1.4.2-R20201014-090868/capella-1.4.2.202010140908-macosx-cocoa-x86_64.zip"
+        "main": "https://download.eclipse.org/capella/core/products/releases/1.4.1-R20200630-160305/capella-1.4.1.202006301603-macosx-cocoa-x86_64.zip"
        }
     }
   },
   "capellaStudio": {
     "name": "Capella Studio",
     "key": "CapellaStudio",
-    "version": "1.4.2",
+    "version": "1.4.0",
     "links": {
       "windows": { 
-        "main": "https://download.eclipse.org/capella/capellastudio/products/release/1.4.2/capella-studio-1.4.2.202010151248-win32.win32.x86_64.zip"
+        "main": "https://download.eclipse.org/capella/capellastudio/products/release/1.4.0/capella-studio-1.4.0.201911060756-win32.win32.x86_64.zip"
       },
       "linux": { 
-        "main": "https://download.eclipse.org/capella/capellastudio/products/release/1.4.2/capella-studio-1.4.2.202010151248-linux.gtk.x86_64.zip"
+        "main": "https://download.eclipse.org/capella/capellastudio/products/release/1.4.0/capella-studio-1.4.0.201911060756-linux.gtk.x86_64.zip"
       },
       "mac": { 
-        "main": "https://download.eclipse.org/capella/capellastudio/products/release/1.4.2/capella-studio-1.4.2.202010151248-macosx.cocoa.x86_64.zip"
+        "main": "https://download.eclipse.org/capella/capellastudio/products/release/1.4.0/capella-studio-1.4.0.201911060756-macosx.cocoa.x86_64.zip"
       }
     }
   },
@@ -145,7 +142,7 @@
       "fragment":"m2doc",
       "licence":"EPL",
       "compatibleWithCurrentVersion": true,
-      "contact":"<a href='industry-consortium/obeo.html' target='_blank'>Obeo</a>",
+      "contact":"<a href='https://www.obeo.fr/en/capella-professional-offer' target='_blank'>Obeo</a>",
       "description": "<p>M2Doc generates MS-Word documents from Capella models. M2Doc uses wysiwyg and customable Word templates to extract data and diagrams from your models and display them in a docx file.</p>",
       "download": { 
         "dandi": "http://www.m2doc.org/capella/", 
@@ -200,7 +197,7 @@
       "key":"SMW",
       "fragment": "smw",
       "licence":"Commercial",
-      "contact":"<a href='https://www.plm.automation.siemens.com/global/en/contact-us.html' target='_blank'>Siemens Digital Industries Software</a> &amp; <a href='industry-consortium/obeo.html' target='_blank'>Obeo</a>",
+      "contact":"<a href='https://www.plm.automation.siemens.com/global/en/contact-us.html' target='_blank'>Siemens Digital Industries Software</a> &amp; <a href='https://www.obeo.fr/contact' target='_blank'>Obeo</a>",
       "description": "<p>System Modeling Workbench is a supported and complete integration of best of breed Model-Based Systems Engineering (MBSE) tools based on Capella.</p><p>Integrated with Teamcenter this solution allows to link systems models with requirements in a multi-domain product integrated environment.</p>",
       "download": { 
         "learnMore": "https://www.obeo.fr/en/products/smw"
@@ -264,8 +261,8 @@
       "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a>",
       "description": "<p>The Mass viewpoint enables to simply describe the non-functional aspect of mass in Capella. </p><p>For more information, please visit <a href='https://wiki.eclipse.org/Capella/Viewpoints/BasicMass'>wiki page</a>.</p>",
       "download": { 
-        "dropin": "https://download.eclipse.org/capella/addons/basicmass/dropins/releases/1.4.2/BasicMass-dropins-1.4.2.202010201442.zip", 
-        "updateSite": "https://download.eclipse.org/capella/addons/basicmass/updates/releases/1.4.2/",
+        "dropin": "https://download.eclipse.org/capella/addons/basicmass/dropins/releases/1.4.0/BasicMass-dropins-1.4.0.201912090815.zip", 
+        "updateSite": "https://download.eclipse.org/capella/addons/basicmass/updates/releases/1.4.0/",
         "installAddon": "https://wiki.eclipse.org/Capella/Extensions/Installation_Guide#Installation_Procedures"
       }
     },
@@ -278,8 +275,8 @@
       "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a>",
       "description": "<p>The Price viewpoint enables to simply describe the non-functional aspect of price in Capella.</p><p>For more information, please visit <a href='https://wiki.eclipse.org/Capella/Viewpoints/BasicPrice'>wiki page</a>.</p>",
       "download": { 
-        "dropin": "https://download.eclipse.org/capella/addons/basicprice/dropins/releases/1.4.2/BasicPrice-dropins-1.4.2.202010201442.zip",
-        "updateSite": "https://download.eclipse.org/capella/addons/basicprice/updates/releases/1.4.2/",
+        "dropin": "https://download.eclipse.org/capella/addons/basicprice/dropins/releases/1.4.0/BasicPrice-dropins-1.4.0.201912090815.zip",
+        "updateSite": "https://download.eclipse.org/capella/addons/basicprice/updates/releases/1.4.0/",
         "installAddon": "https://wiki.eclipse.org/Capella/Extensions/Installation_Guide#Installation_Procedures"
       }
     },
@@ -292,9 +289,19 @@
       "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a>",
       "description": "<p>The Performance viewpoint enables to simply describe the non-functional aspect of performance in Capella.</p><p>For more information, please visit <a href='https://wiki.eclipse.org/Capella/Viewpoints/BasicPerformance'>wiki page</a>.</p>",
       "download": { 
-        "dropin": "https://download.eclipse.org/capella/addons/basicperfo/dropins/releases/1.4.2/BasicPerfo-dropins-1.4.2.202010201442.zip", 
-        "updateSite": "https://download.eclipse.org/capella/addons/basicperfo/updates/releases/1.4.2/",
+        "dropin": "https://download.eclipse.org/capella/addons/basicperformance/dropins/releases/1.4.0/BasicPerfo-dropins-1.4.0.201912090815.zip", 
+        "updateSite": "https://download.eclipse.org/capella/addons/basicperformance/updates/releases/1.4.0/",
         "installAddon": "https://wiki.eclipse.org/Capella/Extensions/Installation_Guide#Installation_Procedures"
+      }
+    },
+    { "name":"Capella-TASTE-Plugin",
+      "key":"TASTE",
+      "licence":"EPL",
+      "compatibleWithCurrentVersion": true,
+      "contact":"<a href='http://n7space.com/' target='_blank'>N7 Space</a>",
+      "description": "<p>The plugin allows to export Capella data and physical architecture models into ASN.1 and AADL models compatible with the TASTE toolchain maintained by the European Space Agency, making it possible to further concretize the model and generate executable code that can be compiled and deployed onto an embedded target platform. Data packages, classes, enumerations, collections, numeric types and similar are transformed into the corresponding ASN.1 constructs. Architecture models are transformed into TASTE Interface and Deployment Views. Additionally, on a Linux platform (e.g. within TASTE Virtual Machine), the plugin provides several convenience actions enabling to partially replace TASTE GUI and facilitate model refinement and compilation directly from Capella.</p><p>The plugin was developed under a programme of, and funded by, the European Space Agency. Any views expressed within the plugin or its documentation can in no way be taken to reflect the official opinion of the European Space Agency.</p>",
+      "download": { 
+        "installAddon": "https://github.com/n7space/Capella-TASTE-Plugin"
       }
     }
     

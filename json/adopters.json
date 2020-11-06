@@ -4,7 +4,7 @@
 		"company": "All4Tec",
 		"link": "https://www.all4tec.com/"
         },
-	{
+		{
 		"logoSrc": "images/logos/adopters/logo_altair.png",
 		"company": "Altair – Dr. Agostino Leonori",
 		"link": "http://www.altairesearch.it/"
@@ -98,6 +98,11 @@
 		"logoSrc": "images/logos/adopters/logo_mentor.png",
 		"company": "Mentor Graphics",
 		"link": "https://www.mentor.com/"
+        },
+        {
+		"logoSrc": "images/logos/adopters/logo_n7s.jpg",
+		"company": "N7 Space",
+		"link": "http://n7space.com/"
         },
         {
 		"logoSrc": "images/logos/adopters/logo_nextrail.jpg",
