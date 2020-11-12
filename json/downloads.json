@@ -246,12 +246,12 @@
        "isViewpoint": true,
        "key":"REQ",
        "licence":"EPL",
-      "compatibleWithCurrentVersion": true,
+       "compatibleWithCurrentVersion": true,
        "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a>",
        "description": "<p>This add-on allows importing a set of requirements from a ReqIF file (Requirement Interchange Format / OMG Standard).</p><p>The import is iterative (diff/merge based) and a set of tools is provided to link the model elements to the requirements.</p><p>For more information, please install the addon within Capella and check online help then dedicated section for the addon.</p>",
        "download": { 
-        "dropin": "https://download.eclipse.org/capella/addons/requirements/dropins/releases/0.11.0/Requirements-dropins-0.11.0.201911131733.zip", 
-        "updateSite": "https://download.eclipse.org/capella/addons/requirements/updates/releases/0.11.0/Requirements-updateSite-0.11.0.201911131733.zip",
+        "dropin": "https://download.eclipse.org/capella/addons/requirements/dropins/releases/0.11.1/Requirements-dropins-0.11.1.202011041032.zip", 
+        "updateSite": "https://download.eclipse.org/capella/addons/requirements/updates/releases/0.11.1/Requirements-updateSite-0.11.1.202011041032.zip",
         "installAddon": "https://wiki.eclipse.org/Capella/Extensions/Installation_Guide#Installation_Procedures"
       }
     }, 
