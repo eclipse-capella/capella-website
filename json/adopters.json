@@ -4,7 +4,7 @@
 		"company": "All4Tec",
 		"link": "https://www.all4tec.com/"
         },
-		{
+	{
 		"logoSrc": "images/logos/adopters/logo_altair.png",
 		"company": "Altair – Dr. Agostino Leonori",
 		"link": "http://www.altairesearch.it/"
@@ -83,6 +83,11 @@
 		"logoSrc": "images/logos/adopters/logo_ita.png",
 		"company": "Instituto Tecnológico de Aeronáutica",
 		"link": "http://www.ita.br/"
+        },
+        {
+		"logoSrc": "images/logos/adopters/logo_lgm.png",
+		"company": "LGM Group",
+		"link": "http://lgm.fr/"
         },
         {
 		"logoSrc": "images/logos/adopters/logo_maplesoft.png",
