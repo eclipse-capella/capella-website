@@ -88,8 +88,8 @@
       "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a>",
       "description": "<p>Filtering is an addon to filter capella models. It provides several capabilities:</p><ul><li>Definition of filtering criteria to be associated with model elements</li><li>Definition of results containing criteria</li><li>Visualization of criteria and results in diagrams</li><li>Creation of filtered models</li></ul><p>For more information, please install the addon within Capella and check dedicated section for the addon in Help Content or access to the <a href='https://github.com/eclipse/capella-filtering/wiki'>online version of the documentation</a>.</p>",
       "download": { 
-        "dropin": "https://download.eclipse.org/capella/addons/filtering/dropins/releases/1.4.0/Filtering-dropins-1.4.0.201912061544.zip", 
-        "updateSite": "https://download.eclipse.org/capella/addons/filtering/updates/releases/1.4.0/Filtering-updateSite-1.4.0.201912061544.zip",
+        "dropin": "https://download.eclipse.org/capella/addons/filtering/dropins/releases/1.4.1/Filtering-dropins-1.4.1.202008061400.zip", 
+        "updateSite": "https://download.eclipse.org/capella/addons/filtering/updates/releases/1.4.1/Filtering-updateSite-1.4.1.202008061400.zip",
         "installAddon": "https://wiki.eclipse.org/Capella/Extensions/Installation_Guide#Installation_Procedures"
       }
     }, 
