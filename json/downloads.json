@@ -60,8 +60,8 @@
       "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a>",
       "description": "<p>This addon is a System to SubSystem Transition. It initializes a new Capella project from existing model. This transition extracts suitable model information from a selected Capella Component and manage top/down update propagation.</p><p>The automated and iterative transition between system and subsystems is a great help for managing several levels of engineering. The contract and model of the subsystems are computed from the system. Ideally, subsystems stakeholders are involved in co-engineering activities at system level before the transition occurs.</p><p>For more information, please install the addon within Capella and check dedicated section for the addon in Help Content or access to the <a href='https://github.com/eclipse/capella-sss-transition/wiki'>online version of the documentation</a>.</p>",
       "download": { 
-        "dropin": "https://download.eclipse.org/capella/addons/subsystemtransition/dropins/releases/1.4.0/SubsystemTransition-dropins-1.4.0.201912122247.zip", 
-        "updateSite": "https://download.eclipse.org/capella/addons/subsystemtransition/updates/releases/1.4.0/SubsystemTransition-updateSite-1.4.0.201912122247.zip",
+        "dropin": "https://download.eclipse.org/capella/addons/subsystemtransition/dropins/releases/1.4.1/SubsystemTransition-dropins-1.4.1.202011200859.zip", 
+        "updateSite": "https://download.eclipse.org/capella/addons/subsystemtransition/updates/releases/1.4.1/SubsystemTransition-updateSite-1.4.1.202011200859.zip",
         "installAddon": "https://wiki.eclipse.org/Capella/Extensions/Installation_Guide#Installation_Procedures"
       }
     },
