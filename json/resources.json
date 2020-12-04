@@ -131,7 +131,6 @@
         "items":[
         
         
-
 	{
                 "title": "Webinar - Simplifying MBSE Tasks with Capella and MapleMBSE",
                 "descr": "",
@@ -176,6 +175,176 @@
                 "link": "https://indico.esa.int/event/329/contributions/5519/attachments/3877/5604/1130_-_Presentation_-_Stepwise_adoption_of_model-based_solution_for_a_full_MBSE_transition_an_Industrial_perspective.pdf",
                 "thumb": ""
             },
+            
+	{
+		    "title": "Capella Days - MBSE with Arcadia and Capella - Reconciling with the past and moving towards the future",
+		    "descr": "",
+		    "author": "Juan Navas (Thales)",
+		    "year": "2020",
+		    "language": "EN",
+		    "topic": "Business Value",
+		    "topic_order": "99",
+		    "type": "Video",
+		    "type_order": "99",
+		    "domain": "",
+		    "domain_order": "99",
+		    "link": "https://www.youtube.com/watch?v=6jpihA9bpts&list=PLfrEYVpSGVLyr1VFTWN8uhM_S30qgZy05&index=1",
+		    "thumb": ""
+		},
+	{
+		    "title": "Capella Days - Innovating with MBSE – Medical Device Example",
+		    "descr": "",
+		    "author": "Tony Komar (Siemens)",
+		    "year": "2020",
+		    "language": "EN",
+		    "topic": "Business Value",
+		    "topic_order": "99",
+		    "type": "Video",
+		    "type_order": "99",
+		    "domain": "Healthcare",
+		    "domain_order": "99",
+		    "link": "https://www.youtube.com/watch?v=B4MR3UQ2rnU&list=PLfrEYVpSGVLyr1VFTWN8uhM_S30qgZy05",
+		    "thumb": ""
+		},
+	{
+		    "title": "Capella Days - Successful Capella Landing on a CNES Operational Use-Case",
+		    "descr": "",
+		    "author": "Jonathan Lasalle (Artal/Magellium)",
+		    "year": "2020",
+		    "language": "EN",
+		    "topic": "Business Value",
+		    "topic_order": "99",
+		    "type": "Video",
+		    "type_order": "99",
+		    "domain": "Aerospace & Defense",
+		    "domain_order": "99",
+		    "link": "https://www.youtube.com/watch?v=xPmURyGYTa8&list=PLfrEYVpSGVLyr1VFTWN8uhM_S30qgZy05",
+		    "thumb": ""
+		},
+	{
+		    "title": "Capella Days - MBSE and the High-Tech Equipment Industry, how do they match up?",
+		    "descr": "",
+		    "author": "Teun Hendriks (ESI-TNO)",
+		    "year": "2020",
+		    "language": "EN",
+		    "topic": "Business Value",
+		    "topic_order": "99",
+		    "type": "Video",
+		    "type_order": "99",
+		    "domain": "",
+		    "domain_order": "99",
+		    "link": "https://www.youtube.com/watch?v=9lKKhCu1mlQ&list=PLfrEYVpSGVLyr1VFTWN8uhM_S30qgZy05",
+		    "thumb": ""
+		},
+	{
+		    "title": "Capella Days - Capella Development Status & Future Work",
+		    "descr": "",
+		    "author": "Aurélien Pinsonneau, Minh Tu Ton That, Sandu Postaru (Thales)",
+		    "year": "2020",
+		    "language": "EN",
+		    "topic": "Learning More",
+		    "topic_order": "99",
+		    "type": "Video",
+		    "type_order": "99",
+		    "domain": "",
+		    "domain_order": "99",
+		    "link": "https://www.youtube.com/watch?v=rXU6s_BxWVs&list=PLfrEYVpSGVLyr1VFTWN8uhM_S30qgZy05",
+		    "thumb": ""
+		},
+	{
+		    "title": "Capella Days - Integrating MBSE and Life Cycle Assessment for Removing Plastics from the Oceans with The SeaCleaners",
+		    "descr": "",
+		    "author": "Arnaud Dieumegard, Raphaël Pagé (Obeo)",
+		    "year": "2020",
+		    "language": "EN",
+		    "topic": "Business Value",
+		    "topic_order": "99",
+		    "type": "Video",
+		    "type_order": "99",
+		    "domain": "",
+		    "domain_order": "99",
+		    "link": "https://www.youtube.com/watch?v=MJfk4QQjSkE&list=PLfrEYVpSGVLyr1VFTWN8uhM_S30qgZy05",
+		    "thumb": ""
+		},
+	{
+		    "title": "Capella Days - Specification and Architecture of a System Factory for Space Systems using Capella",
+		    "descr": "",
+		    "author": "Elena Alaña Salazar, Tiago Manuel Da Silva Jorge (GMV)",
+		    "year": "2020",
+		    "language": "EN",
+		    "topic": "Business Value",
+		    "topic_order": "99",
+		    "type": "Video",
+		    "type_order": "99",
+		    "domain": "Aerospace & Defense",
+		    "domain_order": "99",
+		    "link": "https://www.youtube.com/watch?v=G-XvdLoHQQw&list=PLfrEYVpSGVLyr1VFTWN8uhM_S30qgZy05",
+		    "thumb": ""
+		},
+	{
+		    "title": "Capella Days - An Adventure with Capella - A study from NEXTRAIL",
+		    "descr": "",
+		    "author": "Harish Narayanan (NEXTRAIL)",
+		    "year": "2020",
+		    "language": "EN",
+		    "topic": "Business Value",
+		    "topic_order": "99",
+		    "type": "Video",
+		    "type_order": "99",
+		    "domain": "Railway",
+		    "domain_order": "99",
+		    "link": "https://www.youtube.com/watch?v=qbGG8KF_j3E&list=PLfrEYVpSGVLyr1VFTWN8uhM_S30qgZy05",
+		    "thumb": ""
+		},
+	{
+		    "title": "Capella Days - High-Speed Transportation Case-Study, by Virgin Hyperloop",
+		    "descr": "",
+		    "author": "Brandon Blau (Virgin Hyperloop)",
+		    "year": "2020",
+		    "language": "EN",
+		    "topic": "Business Value",
+		    "topic_order": "99",
+		    "type": "Video",
+		    "type_order": "99",
+		    "domain": "Railway",
+		    "domain_order": "99",
+		    "link": "https://www.youtube.com/watch?v=4HSYXPVpUnw&list=PLfrEYVpSGVLyr1VFTWN8uhM_S30qgZy05",
+		    "thumb": ""
+		},
+	{
+		    "title": "Capella Days - Modelling in a regulatory centric domain",
+		    "descr": "",
+		    "author": "John Andersson (Stille AB)",
+		    "year": "2020",
+		    "language": "EN",
+		    "topic": "Business Value",
+		    "topic_order": "99",
+		    "type": "Video",
+		    "type_order": "99",
+		    "domain": "Healthcare",
+		    "domain_order": "99",
+		    "link": "https://www.youtube.com/watch?v=9dErPsOqoKM&list=PLfrEYVpSGVLyr1VFTWN8uhM_S30qgZy05",
+		    "thumb": ""
+		},
+
+
+	{
+		    "title": "Evaluating ARCADIA using the FEMMP Framework",
+		    "descr": "",
+		    "author": "Irfan Javid (University of Applied Sciences Ingolstadt)",
+		    "year": "2020",
+		    "language": "EN",
+		    "topic": "Learning More",
+		    "topic_order": "99",
+		    "type": "Article",
+		    "type_order": "99",
+		    "domain": "",
+		    "domain_order": "99",
+		    "link": "https://www.researchgate.net/profile/Irfan_Javid2/publication/346061442_Evaluating_ARCADIA_using_the_FEMMP_Framework_Evaluating_and_comparing_MBSE_methodologies/links/5fb98b2da6fdcc6cc659bb77/Evaluating-ARCADIA-using-the-FEMMP-Framework-Evaluating-and-comparing-MBSE-methodologies.pdf",
+		    "thumb": ""
+		},
+
+           
         
 	{
                 "title": "Lessons learned on the use of MBSE in the preliminary design of space systems at CT Paris",
@@ -708,7 +877,7 @@
                 "topic": "Learning More",
                 "topic_order": "9",
                 "type": "Video",
-                "type_order": "7",
+                "type_order": "99",
                 "link": "https://youtu.be/pS0VMtmwa5M",
                 "thumb": ""
             },
@@ -823,7 +992,7 @@
                 "year": "2019",
                 "language": "EN",
                 "topic": "Business Value",
-                "topic_order": "6",
+                "topic_order": "99",
                 "type": "Video",
                 "type_order": "3",
                 "domain": "Avionics",
