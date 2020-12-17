@@ -1,6 +1,6 @@
 {
   "$schema": "./download.schema.json",
-  "versionBranch": "1.3.x",
+  "versionBranch": "5.0.x",
   "lang": { 
       "dropin": { "text": "Drop-in", "icon": "fa fa-download" }, 
       "updateSite": { "text": "Update Site", "icon": "fa fa-download" },
@@ -18,19 +18,19 @@
   "capella": {
     "name": "Capella",
     "key": "Capella",
-    "version": "1.4.2",
+    "version": "5.0.0",
     "links": {
       "windows": {
-        "main": "https://download.eclipse.org/capella/core/products/releases/1.4.2-R20201014-090868/capella-1.4.2.202010140908-win32-win32-x86_64.zip",
-        "mirror": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/1.4.2-R20201014-090868/capella-1.4.2.202010140908-win32-win32-x86_64.zip"
+        "main": "https://download.eclipse.org/capella/core/products/releases/5.0.0-R20201202-123401/capella-5.0.0.202012021234-win32-win32-x86_64.zip",
+        "mirror": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/5.0.0-R20201202-123401/capella-5.0.0.202012021234-win32-win32-x86_64.zip"
        },
       "linux": { 
-        "main": "https://download.eclipse.org/capella/core/products/releases/1.4.2-R20201014-090868/capella-1.4.2.202010140908-linux-gtk-x86_64.zip",
-        "mirror": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/1.4.2-R20201014-090868/capella-1.4.2.202010140908-linux-gtk-x86_64.zip"
+        "main": "https://download.eclipse.org/capella/core/products/releases/5.0.0-R20201202-123401/capella-5.0.0.202012021234-linux-gtk-x86_64.zip",
+        "mirror": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/5.0.0-R20201202-123401/capella-5.0.0.202012021234-linux-gtk-x86_64.zip"
        },
       "mac": { 
-        "main": "https://download.eclipse.org/capella/core/products/releases/1.4.2-R20201014-090868/capella-1.4.2.202010140908-macosx-cocoa-x86_64.zip",
-        "mirror": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/1.4.2-R20201014-090868/capella-1.4.2.202010140908-macosx-cocoa-x86_64.zip"
+        "main": "https://download.eclipse.org/capella/core/products/releases/5.0.0-R20201202-123401/capella-5.0.0.202012021234-macosx-cocoa-x86_64.zip",
+        "mirror": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/5.0.0-R20201202-123401/capella-5.0.0.202012021234-macosx-cocoa-x86_64.zip"
        }
     }
   },
@@ -56,7 +56,7 @@
       "key":"TSSS",
       "fragment":"s2stransition",
       "licence":"EPL",
-      "compatibleWithCurrentVersion": true,
+      "compatibleWithCurrentVersion": false,
       "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a>",
       "description": "<p>This addon is a System to SubSystem Transition. It initializes a new Capella project from existing model. This transition extracts suitable model information from a selected Capella Component and manage top/down update propagation.</p><p>The automated and iterative transition between system and subsystems is a great help for managing several levels of engineering. The contract and model of the subsystems are computed from the system. Ideally, subsystems stakeholders are involved in co-engineering activities at system level before the transition occurs.</p><p>For more information, please install the addon within Capella and check dedicated section for the addon in Help Content or access to the <a href='https://github.com/eclipse/capella-sss-transition/wiki'>online version of the documentation</a>.</p>",
       "download": { 
@@ -70,7 +70,7 @@
       "key":"XHTML",
       "fragment":"doc_generation",
       "licence":"EPL",
-      "compatibleWithCurrentVersion": true,
+      "compatibleWithCurrentVersion": false,
       "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a>",
       "description": "<p>This addon enables the end-user to generate an HTML website from a Capella project (e.g: <a href='resources/doc/IFE_XHTML_DocGen_1.4.3_for_capella_1.4.2/output/index.html' target='_blank'>In-Flight Entertainment (IFE)</a>).</p><p>Sharing models with all stakeholders is essential in model-based systems engineering. Publishing and sharing HTML versions of models helps make models THE reference of all engineering activities.</p><p>For more information, please install the addon within Capella and check online help then dedicated section for the addon.</p>",
       "download": { 
@@ -84,7 +84,7 @@
       "key":"FILTERING",
       "fragment":"filtering",
       "licence":"EPL",
-      "compatibleWithCurrentVersion": true,
+      "compatibleWithCurrentVersion": false,
       "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a>",
       "description": "<p>Filtering is an addon to filter capella models. It provides several capabilities:</p><ul><li>Definition of filtering criteria to be associated with model elements</li><li>Definition of results containing criteria</li><li>Visualization of criteria and results in diagrams</li><li>Creation of filtered models</li></ul><p>For more information, please install the addon within Capella and check dedicated section for the addon in Help Content or access to the <a href='https://github.com/eclipse/capella-filtering/wiki'>online version of the documentation</a>.</p>",
       "download": { 
@@ -98,7 +98,7 @@
       "key":"PVMT",
       "fragment":"pvmt",
       "licence":"EPL",
-      "compatibleWithCurrentVersion": true,
+      "compatibleWithCurrentVersion": false,
       "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a>",
       "description": "<p>This add-on allows end-users to easily define their own specific properties on Arcadia concepts, value these properties for each elements, and automatically change the graphical aspect of model elements in diagrams.</p><p>This add-on is developed by a Thales business unit (DMS-FR) and is distributed under the Eclipse Public License. It is not hosted by the Eclipse Foundation and it is not developped under the Eclipse Development Process.</p>",
       "download": {
@@ -246,7 +246,7 @@
        "isViewpoint": true,
        "key":"REQ",
        "licence":"EPL",
-       "compatibleWithCurrentVersion": true,
+       "compatibleWithCurrentVersion": false,
        "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a>",
        "description": "<p>This add-on allows importing a set of requirements from a ReqIF file (Requirement Interchange Format / OMG Standard).</p><p>The import is iterative (diff/merge based) and a set of tools is provided to link the model elements to the requirements.</p><p>For more information, please install the addon within Capella and check online help then dedicated section for the addon.</p>",
        "download": { 
@@ -260,7 +260,7 @@
       "isViewpoint": true,
       "key":"BASICMASS",
       "licence":"EPL",
-      "compatibleWithCurrentVersion": true,
+      "compatibleWithCurrentVersion": false,
       "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a>",
       "description": "<p>The Mass viewpoint enables to simply describe the non-functional aspect of mass in Capella. </p><p>For more information, please visit <a href='https://wiki.eclipse.org/Capella/Viewpoints/BasicMass'>wiki page</a>.</p>",
       "download": { 
@@ -274,7 +274,7 @@
       "isViewpoint": true,
       "key":"BASICPRICE",
       "licence":"EPL",
-      "compatibleWithCurrentVersion": true,
+      "compatibleWithCurrentVersion": false,
       "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a>",
       "description": "<p>The Price viewpoint enables to simply describe the non-functional aspect of price in Capella.</p><p>For more information, please visit <a href='https://wiki.eclipse.org/Capella/Viewpoints/BasicPrice'>wiki page</a>.</p>",
       "download": { 
@@ -288,7 +288,7 @@
       "isViewpoint": true,
       "key":"BASICPERFO",
       "licence":"EPL",
-      "compatibleWithCurrentVersion": true,
+      "compatibleWithCurrentVersion": false,
       "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a>",
       "description": "<p>The Performance viewpoint enables to simply describe the non-functional aspect of performance in Capella.</p><p>For more information, please visit <a href='https://wiki.eclipse.org/Capella/Viewpoints/BasicPerformance'>wiki page</a>.</p>",
       "download": { 
