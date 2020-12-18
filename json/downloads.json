@@ -70,12 +70,12 @@
       "key":"XHTML",
       "fragment":"doc_generation",
       "licence":"EPL",
-      "compatibleWithCurrentVersion": false,
+      "compatibleWithCurrentVersion": true,
       "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a>",
-      "description": "<p>This addon enables the end-user to generate an HTML website from a Capella project (e.g: <a href='resources/doc/IFE_XHTML_DocGen_1.4.3_for_capella_1.4.2/output/index.html' target='_blank'>In-Flight Entertainment (IFE)</a>).</p><p>Sharing models with all stakeholders is essential in model-based systems engineering. Publishing and sharing HTML versions of models helps make models THE reference of all engineering activities.</p><p>For more information, please install the addon within Capella and check online help then dedicated section for the addon.</p>",
+      "description": "<p>This addon enables the end-user to generate an HTML website from a Capella project (e.g: <a href='resources/doc/IFE_XHTML_DocGen_5.0.0_for_capella_5.0.0/output/index.html' target='_blank'>In-Flight Entertainment (IFE)</a>).</p><p>Sharing models with all stakeholders is essential in model-based systems engineering. Publishing and sharing HTML versions of models helps make models THE reference of all engineering activities.</p><p>For more information, please install the addon within Capella and check online help then dedicated section for the addon.</p>",
       "download": { 
-        "dropin": "https://download.eclipse.org/capella/addons/xhtmldocgen/dropins/release/1.4.3/CapellaXHTMLDocGen-1.4.3.202011061621-Capella-1.4.2-dropins.zip",
-        "updateSite": "https://download.eclipse.org/capella/addons/xhtmldocgen/updates/release/1.4.3/",
+        "dropin": "https://download.eclipse.org/capella/addons/xhtmldocgen/dropins/release/5.0.0/CapellaXHTMLDocGen-5.0.0.202012170838-Capella-5.0.0-dropins.zip",
+        "updateSite": "https://download.eclipse.org/capella/addons/xhtmldocgen/updates/release/5.0.0/",
         "installAddon": "https://wiki.eclipse.org/Capella/Extensions/Installation_Guide#Installation_Procedures"        
       }
     }, 
