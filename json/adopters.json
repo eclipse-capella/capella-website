@@ -135,6 +135,11 @@
 		"link": "https://www.pure-systems.com/"
         },
         {
+		"logoSrc": "images/logos/adopters/logo_razorblunt.png",
+		"company": "Razor Blunt",
+		"link": "https://www.razorblunt.com/"
+        },
+        {
 		"logoSrc": "images/logos/adopters/logo_samares.png",
 		"company": "Samares Engineering",
 		"link": "https://www.samares-engineering.com"
