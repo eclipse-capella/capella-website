@@ -1973,8 +1973,8 @@
                 "thumb": "images/thumbs/resources/thumb_capella-linkedin.jpg"
             },
             {
-                "title": "Bugzilla",
-                "descr": "Official buck-tracking system of Capella project",
+                "title": "Bug tracker",
+                "descr": "Bug-tracking system of Capella project",
                 "author": "",
                 "year": "",
                 "language": "EN",
@@ -1982,7 +1982,7 @@
                 "topic_order": "3",
                 "type": "Other",
                 "type_order": "99",
-                "link": "https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Capella",
+                "link": "https://github.com/eclipse/capella/wiki/Repositories",
                 "thumb": "images/thumbs/resources/thumb_capella-bugzilla.jpg"
             },
             {
