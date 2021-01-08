@@ -25,12 +25,12 @@
         "mirror": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/5.0.0-R20201202-123401/capella-5.0.0.202012021234-win32-win32-x86_64.zip"
        },
       "linux": { 
-        "main": "https://download.eclipse.org/capella/core/products/releases/5.0.0-R20201202-123401/capella-5.0.0.202012021234-linux-gtk-x86_64.zip",
-        "mirror": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/5.0.0-R20201202-123401/capella-5.0.0.202012021234-linux-gtk-x86_64.zip"
+        "main": "https://download.eclipse.org/capella/core/products/releases/5.0.0-R20201202-123401/capella-5.0.0.202101071610-linux-gtk-x86_64.tar.gz",
+        "mirror": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/5.0.0-R20201202-123401/capella-5.0.0.202101071610-linux-gtk-x86_64.tar.gz"
        },
       "mac": { 
-        "main": "https://download.eclipse.org/capella/core/products/releases/5.0.0-R20201202-123401/capella-5.0.0.202012021234-macosx-cocoa-x86_64.zip",
-        "mirror": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/5.0.0-R20201202-123401/capella-5.0.0.202012021234-macosx-cocoa-x86_64.zip"
+        "main": "https://download.eclipse.org/capella/core/products/releases/5.0.0-R20201202-123401/capella-5.0.0.202101071610-macosx-cocoa-x86_64.tar.gz",
+        "mirror": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/5.0.0-R20201202-123401/capella-5.0.0.202101071610-macosx-cocoa-x86_64.tar.gz"
        }
     }
   },
