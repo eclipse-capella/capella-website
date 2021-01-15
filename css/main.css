@@ -989,31 +989,44 @@ color: #a94442;
 -------------------------- */
     
 .bottom-bar {
-	text-align:center; 
+	text-align: center; 
 	background-color: #7667A3; 
-	color:#fff; 
-	overflow:hidden; 
-	position:fixed; bottom:0; 
-	height:60px; 
-	width:100%; 
-	z-index:20;
+	color: #fff; 
+	overflow: hidden; 
+	position: fixed; 
+	bottom:0; 
+	height: 75px; 
+	width: 100%; 
+	z-index: 20;
 }
     
 .bottom-bar p {
 	margin:20px;
 }
-
-
 .bottom-bar a {
-	background-color:#292253;
-	color:#FBBF52;
+	margin-top: 0;
 	padding: 10px 20px;
-	border-radius: 4px;
-	text-transform: uppercase;
-	font-size: 14px;
+	margin-left: 20px;
 }
 
-.bottom-bar a:hover {
-	background-color:#FBBF52; 
+.btn-indigo, .btn-indigo:active, .btn-indigo:visited:focus {
+	background-color:#292253;
+	color:#FBBF52;
+}
+
+.btn-indigo:hover {
+	background-color: #FBBF52;
 	color:#292253;
+}
+
+.btn-outline, .btn-outline:active, .btn-outline:visited:focus {
+	border: 1px solid #FBBF52;
+	background-color: transparent;
+	color: #FBBF52;
+}
+
+.btn-outline:hover {
+	border: 1px solid #292253;
+	background-color: #292253;
+	color:#FBBF52;
 }
