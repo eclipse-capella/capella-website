@@ -41,12 +41,15 @@
     "links": {
       "windows": { 
         "main": "https://download.eclipse.org/capella/capellastudio/products/release/5.0.0/capella-studio-5.0.0.202012171648-win32.win32.x86_64.zip"
+        "mirror": "https://www.eclipse.org/downloads/download.php?file=/capella/capellastudio/products/release/5.0.0/capella-studio-5.0.0.202012171648-win32.win32.x86_64.zip"
       },
       "linux": { 
-        "main": "https://download.eclipse.org/capella/capellastudio/products/release/5.0.0/capella-studio-5.0.0.202012171648-linux.gtk.x86_64.zip"
+        "main": "https://download.eclipse.org/capella/capellastudio/products/release/5.0.0/capella-studio-5.0.0.202012171648-linux.gtk.x86_64.zip",
+        "mirror": "https://www.eclipse.org/downloads/download.php?file=/capella/capellastudio/products/release/5.0.0/capella-studio-5.0.0.202012171648-linux.gtk.x86_64.zip"
       },
       "mac": { 
-        "main": "https://download.eclipse.org/capella/capellastudio/products/release/5.0.0/capella-studio-5.0.0.202012171648-macosx.cocoa.x86_64.zip"
+        "main": "https://download.eclipse.org/capella/capellastudio/products/release/5.0.0/capella-studio-5.0.0.202012171648-macosx.cocoa.x86_64.zip",
+        "mirror": "https://www.eclipse.org/downloads/download.php?file=/capella/capellastudio/products/release/5.0.0/capella-studio-5.0.0.202012171648-macosx.cocoa.x86_64.zip"
       }
     }
   },
@@ -56,7 +59,7 @@
       "key":"TSSS",
       "fragment":"s2stransition",
       "licence":"EPL",
-      "compatibleWithCurrentVersion": false,
+      "compatibleWithCurrentVersion": true,
       "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a>",
       "description": "<p>This addon is a System to SubSystem Transition. It initializes a new Capella project from existing model. This transition extracts suitable model information from a selected Capella Component and manage top/down update propagation.</p><p>The automated and iterative transition between system and subsystems is a great help for managing several levels of engineering. The contract and model of the subsystems are computed from the system. Ideally, subsystems stakeholders are involved in co-engineering activities at system level before the transition occurs.</p><p>For more information, please install the addon within Capella and check dedicated section for the addon in Help Content or access to the <a href='https://github.com/eclipse/capella-sss-transition/wiki'>online version of the documentation</a>.</p>",
       "download": { 
@@ -84,7 +87,7 @@
       "key":"FILTERING",
       "fragment":"filtering",
       "licence":"EPL",
-      "compatibleWithCurrentVersion": false,
+      "compatibleWithCurrentVersion": true,
       "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a>",
       "description": "<p>Filtering is an addon to filter capella models. It provides several capabilities:</p><ul><li>Definition of filtering criteria to be associated with model elements</li><li>Definition of results containing criteria</li><li>Visualization of criteria and results in diagrams</li><li>Creation of filtered models</li></ul><p>For more information, please install the addon within Capella and check dedicated section for the addon in Help Content or access to the <a href='https://github.com/eclipse/capella-filtering/wiki'>online version of the documentation</a>.</p>",
       "download": { 
