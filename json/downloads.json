@@ -249,7 +249,7 @@
        "isViewpoint": true,
        "key":"REQ",
        "licence":"EPL",
-       "compatibleWithCurrentVersion": false,
+       "compatibleWithCurrentVersion": true,
        "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a>",
        "description": "<p>This add-on allows importing a set of requirements from a ReqIF file (Requirement Interchange Format / OMG Standard).</p><p>The import is iterative (diff/merge based) and a set of tools is provided to link the model elements to the requirements.</p><p>For more information, please install the addon within Capella and check online help then dedicated section for the addon.</p>",
        "download": { 
