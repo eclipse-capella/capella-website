@@ -33,12 +33,14 @@
                 "showOnMainPage": { "type": "boolean", "default": false },
                 "compatibleWithCurrentVersion": { "type": "boolean", "default": true },
                 "isViewpoint": { "type": "boolean", "default": false },
+                "isSample": { "type": "boolean", "default": false },
                 "key": { "type": "string" },
                 "fragment": { "type": "string", "default": "@key" },
                 "licence": { "type": "string" },
                 "contact": { "type": "string" },
                 "description": { "type": "string" },
-                "download": { "$ref" : "#/definitions/download" }
+                "download": { "$ref" : "#/definitions/download" },
+                "tags": { "type": "array", "items": { "type": "string" } }
             }, 
             "required": ["name", "key", "licence", "contact", "description", "download"]
         }, 
