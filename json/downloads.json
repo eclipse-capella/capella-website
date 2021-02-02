@@ -5,8 +5,9 @@
       "release": { "text": "Download", "icon": "fa fa-download" }, 
       "dropin": { "text": "Drop-in", "icon": "fa fa-download" }, 
       "updateSite": { "text": "Update Site", "icon": "fa fa-download" },
+      "userManual": { "text": "User manual", "icon": "fa fa-book" },
       "product": { "text": "Product", "icon": "fa fa-download" },
-      "installAddon": { "text": "Install the Addon", "icon": "fa fa-external-link-square", "target":"_blank" },
+      "installAddon": { "text": "Installation procedure", "icon": "fa fa-external-link-square", "target":"_blank" },
       "dandi": { "text": "Download and Installation", "icon": "fa fa-download" },
       "learnMore": { "text": "Learn More", "icon": "fa fa-arrow-circle-right", "target":"_blank" },
       "windows": { "text": "Windows", "icon": "fa fa-windows", "key":"WIN" },
@@ -62,10 +63,11 @@
       "licence":"EPL",
       "compatibleWithCurrentVersion": true,
       "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a>",
-      "description": "<p>This addon is a System to SubSystem Transition. It initializes a new Capella project from existing model. This transition extracts suitable model information from a selected Capella Component and manage top/down update propagation.</p><p>The automated and iterative transition between system and subsystems is a great help for managing several levels of engineering. The contract and model of the subsystems are computed from the system. Ideally, subsystems stakeholders are involved in co-engineering activities at system level before the transition occurs.</p><p>For more information, please install the addon within Capella and check dedicated section for the addon in Help Content or access to the <a href='https://github.com/eclipse/capella-sss-transition/wiki'>online version of the documentation</a>.</p>",
+      "description": "<p>This addon is a System to SubSystem Transition. It initializes a new Capella project from existing model. This transition extracts suitable model information from a selected Capella Component and manage top/down update propagation.</p><p>The automated and iterative transition between system and subsystems is a great help for managing several levels of engineering. The contract and model of the subsystems are computed from the system. Ideally, subsystems stakeholders are involved in co-engineering activities at system level before the transition occurs.</p>",
       "download": { 
-        "release": "https://github.com/eclipse/capella-sss-transition/releases/tag/v1.5.0", 
-        "installAddon": "https://wiki.eclipse.org/Capella/Extensions/Installation_Guide#Installation_Procedures"
+        "release": "https://github.com/eclipse/capella-sss-transition/releases", 
+        "userManual": "https://github.com/eclipse/capella-sss-transition/wiki",
+        "installAddon": "https://github.com/eclipse/capella/blob/master/doc/plugins/org.polarsys.capella.ui.doc/html/Installation%20Guide/How%20to%20install%20Capella%20and%20Addons.mediawiki#Configuration_and_Extensibility"
       }
     },
     { "name":"XHTML Documentation Generation",
@@ -79,7 +81,7 @@
       "download": { 
         "dropin": "https://download.eclipse.org/capella/addons/xhtmldocgen/dropins/release/5.0.0/CapellaXHTMLDocGen-5.0.0.202012170838-Capella-5.0.0-dropins.zip",
         "updateSite": "https://download.eclipse.org/capella/addons/xhtmldocgen/updates/release/5.0.0/",
-        "installAddon": "https://wiki.eclipse.org/Capella/Extensions/Installation_Guide#Installation_Procedures"        
+        "installAddon": "https://github.com/eclipse/capella/blob/master/doc/plugins/org.polarsys.capella.ui.doc/html/Installation%20Guide/How%20to%20install%20Capella%20and%20Addons.mediawiki#Configuration_and_Extensibility"
       }
     }, 
     { "name":"Filtering",
@@ -89,10 +91,11 @@
       "licence":"EPL",
       "compatibleWithCurrentVersion": true,
       "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a>",
-      "description": "<p>Filtering is an addon to filter capella models. It provides several capabilities:</p><ul><li>Definition of filtering criteria to be associated with model elements</li><li>Definition of results containing criteria</li><li>Visualization of criteria and results in diagrams</li><li>Creation of filtered models</li></ul><p>For more information, please install the addon within Capella and check dedicated section for the addon in Help Content or access to the <a href='https://github.com/eclipse/capella-filtering/wiki'>online version of the documentation</a>.</p>",
+      "description": "<p>Filtering is an addon to filter capella models. It provides several capabilities:</p><ul><li>Definition of filtering criteria to be associated with model elements</li><li>Definition of results containing criteria</li><li>Visualization of criteria and results in diagrams</li><li>Creation of filtered models</li></ul>",
       "download": { 
-        "release": "https://github.com/eclipse/capella-filtering/releases/tag/v1.5.0", 
-        "installAddon": "https://wiki.eclipse.org/Capella/Extensions/Installation_Guide#Installation_Procedures"
+        "release": "https://github.com/eclipse/capella-filtering/releases", 
+        "userManual": "https://github.com/eclipse/capella-filtering/wiki",
+        "installAddon": "https://github.com/eclipse/capella/blob/master/doc/plugins/org.polarsys.capella.ui.doc/html/Installation%20Guide/How%20to%20install%20Capella%20and%20Addons.mediawiki#Configuration_and_Extensibility"
       }
     }, 
     { "name":"Property Values Management Tools (PVMT)",
@@ -252,8 +255,9 @@
        "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a>",
        "description": "<p>This add-on allows importing a set of requirements from a ReqIF file (Requirement Interchange Format / OMG Standard).</p><p>The import is iterative (diff/merge based) and a set of tools is provided to link the model elements to the requirements.</p><p>For more information, please install the addon within Capella and check online help then dedicated section for the addon.</p>",
        "download": { 
-        "release": "https://github.com/eclipse/capella-requirements-vp/releases/tag/v0.12.0", 
-        "installAddon": "https://wiki.eclipse.org/Capella/Extensions/Installation_Guide#Installation_Procedures"
+        "release": "https://github.com/eclipse/capella-requirements-vp/releases", 
+        "userManual": "https://github.com/eclipse/capella-requirements-vp/wiki",
+        "installAddon": "https://github.com/eclipse/capella/blob/master/doc/plugins/org.polarsys.capella.ui.doc/html/Installation%20Guide/How%20to%20install%20Capella%20and%20Addons.mediawiki#Configuration_and_Extensibility"
        },
        "tags":["requirements"]
     }, 
@@ -269,7 +273,7 @@
       "download": { 
         "dropin": "https://download.eclipse.org/capella/addons/basicmass/dropins/releases/5.0.0/BasicMass-dropins-5.0.0.202012150812.zip", 
         "updateSite": "https://download.eclipse.org/capella/addons/basicmass/updates/releases/5.0.0/",
-        "installAddon": "https://wiki.eclipse.org/Capella/Extensions/Installation_Guide#Installation_Procedures"
+        "installAddon": "https://github.com/eclipse/capella/blob/master/doc/plugins/org.polarsys.capella.ui.doc/html/Installation%20Guide/How%20to%20install%20Capella%20and%20Addons.mediawiki#Configuration_and_Extensibility"
       }
     },
     { "name":"Basic Price",
@@ -284,7 +288,7 @@
       "download": { 
         "dropin": "https://download.eclipse.org/capella/addons/basicprice/dropins/releases/5.0.0/BasicPrice-dropins-5.0.0.202012150812.zip",
         "updateSite": "https://download.eclipse.org/capella/addons/basicprice/updates/releases/5.0.0/",
-        "installAddon": "https://wiki.eclipse.org/Capella/Extensions/Installation_Guide#Installation_Procedures"
+        "installAddon": "https://github.com/eclipse/capella/blob/master/doc/plugins/org.polarsys.capella.ui.doc/html/Installation%20Guide/How%20to%20install%20Capella%20and%20Addons.mediawiki#Configuration_and_Extensibility"
       }
     },
     { "name":"Basic Performance",
@@ -299,7 +303,7 @@
       "download": { 
         "dropin": "https://download.eclipse.org/capella/addons/basicperfo/dropins/releases/5.0.0/BasicPerfo-dropins-5.0.0.202012150812.zip", 
         "updateSite": "https://download.eclipse.org/capella/addons/basicperfo/updates/releases/5.0.0/",
-        "installAddon": "https://wiki.eclipse.org/Capella/Extensions/Installation_Guide#Installation_Procedures"
+        "installAddon": "https://github.com/eclipse/capella/blob/master/doc/plugins/org.polarsys.capella.ui.doc/html/Installation%20Guide/How%20to%20install%20Capella%20and%20Addons.mediawiki#Configuration_and_Extensibility"
       }
     },
     { "name":"Capella-TASTE-Plugin",

@@ -51,7 +51,9 @@
                 "updateSite": { "type": "string" },
                 "installAddon": { "type": "string" },
                 "dandi": { "type": "string" },
-                "learnMore": { "type": "string" }
+                "learnMore": { "type": "string" },
+                "release": { "type": "string" },
+                "userManual": { "type": "string" }
             }
         }, 
         "lang": {
@@ -64,7 +66,11 @@
                 "learnMore": { "$ref" : "#/definitions/langitem" },
                 "main": { "$ref" : "#/definitions/langitem" },
                 "mirror": { "$ref" : "#/definitions/langitem" },
-
+                "release": { "$ref" : "#/definitions/langitem" },
+                "userManual": { "$ref" : "#/definitions/langitem" },
+                "product": { "$ref" : "#/definitions/langitem" },
+                "compatibility": { "$ref" : "#/definitions/langitem" },
+                
                 "windows": { "$ref" : "#/definitions/langplatform" },
                 "linux": { "$ref" : "#/definitions/langplatform" },
                 "mac": { "$ref" : "#/definitions/langplatform" }

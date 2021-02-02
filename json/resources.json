@@ -1759,7 +1759,7 @@
                 "topic_order": "99",
                 "type": "Documentation",
                 "type_order": "99",
-                "link": "https://wiki.eclipse.org/Capella/Installation_Guide#Capella_Installation",
+                "link": "https://github.com/eclipse/capella/blob/master/doc/plugins/org.polarsys.capella.ui.doc/html/Installation Guide/How to install Capella and Addons.mediawiki#table-of-contents",
                 "thumb": ""
             },
             {
