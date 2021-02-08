@@ -326,8 +326,6 @@
 		    "link": "https://www.youtube.com/watch?v=9dErPsOqoKM&list=PLfrEYVpSGVLyr1VFTWN8uhM_S30qgZy05",
 		    "thumb": ""
 		},
-
-
 	{
 		    "title": "Evaluating ARCADIA using the FEMMP Framework",
 		    "descr": "",
@@ -343,7 +341,6 @@
 		    "link": "https://www.researchgate.net/profile/Irfan_Javid2/publication/346061442_Evaluating_ARCADIA_using_the_FEMMP_Framework_Evaluating_and_comparing_MBSE_methodologies/links/5fb98b2da6fdcc6cc659bb77/Evaluating-ARCADIA-using-the-FEMMP-Framework-Evaluating-and-comparing-MBSE-methodologies.pdf",
 		    "thumb": ""
 		},
-
            
         
 	{
@@ -958,6 +955,19 @@
                 "type_order": "4",
                 "link": "https://www.eclipse.org/capella/resources/pdf/IS_2019_Augmenting_Requirements_With_Models_Presentation.pdf",
                 "thumb": "images/thumbs/resources/thumb_capella-is-2019.jpg"
+            },
+            {
+                "title": "Online User Manual",
+                "descr": "",
+                "author": "",
+                "year": "",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "5",
+                "type": "Documentation",
+                "type_order": "5",
+                "link": "https://github.com/eclipse/capella/wiki/User-manual",
+                "thumb": ""
             },
             {
                 "title": "Project Page",
@@ -1759,7 +1769,7 @@
                 "topic_order": "99",
                 "type": "Documentation",
                 "type_order": "99",
-                "link": "https://github.com/eclipse/capella/blob/master/doc/plugins/org.polarsys.capella.ui.doc/html/Installation Guide/How to install Capella and Addons.mediawiki#table-of-contents",
+                "link": "https://wiki.eclipse.org/Capella/Installation_Guide#Capella_Installation",
                 "thumb": ""
             },
             {
