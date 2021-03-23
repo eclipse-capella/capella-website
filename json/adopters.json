@@ -1,5 +1,10 @@
 {"adopters":[
 	{
+		"logoSrc": "images/logos/adopters/logo_centrale_casablanca.jpg",
+		"company": "Ecole Centrale Casablanca",
+		"link": "http://www.centrale-casablanca.ma"
+        },
+	{
 		"logoSrc": "images/logos/adopters/logo_all4tec.png",
 		"company": "All4Tec",
 		"link": "https://www.all4tec.com/"
