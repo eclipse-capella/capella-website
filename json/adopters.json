@@ -1,15 +1,20 @@
 {"adopters":[
-	{
+		{
+		"logoSrc": "images/logos/adopters/logo_etikksoft.png",
+		"company": "Ettiksoft",
+		"link": "http://ettiksoft.com/"
+		},
+     	{
 		"logoSrc": "images/logos/adopters/logo_centrale_casablanca.jpg",
 		"company": "Ecole Centrale Casablanca",
 		"link": "http://www.centrale-casablanca.ma"
         },
-	{
+		{
 		"logoSrc": "images/logos/adopters/logo_all4tec.png",
 		"company": "All4Tec",
 		"link": "https://www.all4tec.com/"
         },
-	{
+		{
 		"logoSrc": "images/logos/adopters/logo_altair.png",
 		"company": "Altair – Dr. Agostino Leonori",
 		"link": "http://www.altairesearch.it/"
