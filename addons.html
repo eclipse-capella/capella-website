@@ -169,13 +169,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					document.getElementById(divId).innerHTML += "<div><h1>" + title + "</h1>" + desc + "</div>";
 				  }
 
-				  function addAddonSection(data, addon, divId) {
-						let keys = Object.keys(addon.download);
-						 let fragment = addon.fragment != undefined ? addon.fragment : addon.key;
-						 let links = keys.map(function(k) {
-							let icon = data.lang[k].icon ? '<i class="pl-2 {0}" aria-hidden="true"></i>'.format(data.lang[k].icon) : "";
-							return '<a href="{0}" target="{1}" onClick="ga("send", "event", "Capella", "{2}", "{3}");">{4}{5}</a>'.format(addon.download[k], data.lang[k].target, data.versionBranch, addon.key, data.lang[k].text, icon);
+				  function createKeysLinks(data, addon, download, icons) {
+							let keys = Object.keys(download).filter(x => x != "notes");
+							let links = keys.map(function(k) {
+							let icon = icons == undefined && data.lang[k].icon ? '<i class="pl-2 {0}" aria-hidden="true"></i>'.format(data.lang[k].icon) : "";
+							if (data.lang[k].target == "_expand") {
+								return '<a data-toggle="collapse" data-target="#collapse-notes-{3}">{4}{5}</a>'.format(download[k], data.lang[k].target, data.versionBranch, addon.key, data.lang[k].text, icon);
+							} else if (Array.isArray(download[k])) {
+								let value = download[k];
+								return data.lang[k].text + "s"+ icon + " (" + value.map(x => '<a href="{0}" onClick="ga(\'send\', \'event\', \'Capella\', \'{1}\', \'{2}\');">{3}</a>'.format(x.url, data.versionBranch, addon.key, x.name)).join(" + ")+")";
+							}
+							return '<a href="{0}" {1} onClick="ga(\'send\', \'event\', \'Capella\', \'{2}\', \'{3}\');">{4}{5}</a>'.format(download[k], data.lang[k].target == undefined ? "" : 'target="'+data.lang[k].target+'}"', data.versionBranch, addon.key, data.lang[k].text, icon);
 						 }).join(" - ");
+						 return links;
+				  }
+
+				  function addAddonSection(data, addon, divId) {
+					let keys = Object.keys(addon.download);
+					let links = createKeysLinks(data, addon, addon.download);
 						 let header = [];
 						 if (addon.contact) {
 							header.push("Contact: "+addon.contact);
@@ -194,12 +205,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 						 let compatible = addon.compatibleWithCurrentVersion === false ? '<button role="button" class="fa fa-exclamation-triangle btn-link btn-xs alert-compatibility" data-toggle="tooltip" data-placement="bottom" title="{0}" ></button>'.format(data.lang.compatibility.text) : "";
 						 let addonName = addon.isViewpoint ? addon.name + " Viewpoint" : addon.name;
-
+						 let fragment = addon.fragment != undefined ? addon.fragment : addon.key;
+						 
 						 let dropdown = '<div class="accordion-heading"><a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#{0}"><h3>{1}</h3><span class="fa fa-caret-down txt_yellow">&nbsp;</span><span class="descr txt_lightest_grey">{2}</span></a></div>'.format(fragment, addonName, header);
 
-						 let content = '<div id="{0}" class="accordion-body collapse" style="height: 0px;"><div class="accordion-inner">{1}<p>{2}{3}</p></div></div>'.format(fragment, addon.description, compatible, links);
-						 let result = '<div class="accordion-group">{0}{1}</div>'.format(dropdown, content);
+						 let sections = keys.filter(k => data.lang[k].target == "_expand").map(function(k) {
+							let div = '<div class="collapse notes-section" id="collapse-notes-'+addon.key+'"><h3>'+data.lang[k].text+'</h3>'+createKeysLinks(data, addon, addon.download[k])+addon.download[k]["notes"]+'</div>';
+							return div;
+						 }).join("");
 
+						 let content = '<div id="{0}" class="accordion-body collapse" style="height: 0px;"><div class="accordion-inner">{1}<p>{2}{3}</p>{4}</div></div>'.format(fragment, addon.description, compatible, links, sections);
+						 let result = '<div class="accordion-group">{0}{1}</div>'.format(dropdown, content);
+						 
 						 document.getElementById(divId).innerHTML += result;
 
 					  $('[data-toggle="popover"]').popover( { html: true, container: 'body' });

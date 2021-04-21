@@ -1030,3 +1030,28 @@ color: #a94442;
 	background-color: #292253;
 	color:#FBBF52;
 }
+
+
+.notes-section {
+  text-align: left;
+  padding: 12px;
+	border: 1px solid #CCCCCC;
+  border-radius: 6px;
+	background-color: #FFFFFF;
+}
+.notes-section p, .notes-section a, .notes-section li {
+  font-size: 12px;
+}
+.notes-section h3 {
+  font-size: 16px;
+}
+.notes-section ul {
+  padding-left: 14px;
+}
+.notes-section h4 {
+  font-size: 14px;
+}
+.notes-section h1, .notes-section h2, .notes-section h3, .notes-section h4, .notes-section h5, .notes-section h6 {
+  margin-top: 6px !important;
+  color: #292253;
+}

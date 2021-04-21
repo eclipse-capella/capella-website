@@ -47,21 +47,36 @@
         "download": {
             "additionalProperties": false,
             "properties": {
-                "dropin": { "type": "string" },
-                "updateSite": { "type": "string" },
+                "dropin": { "anyOf": [
+                    { "type": "string" },
+                    { "type": "array", "items": { "$ref" : "#/definitions/download-item" } }
+                 ] },
+                "updateSite": { "anyOf": [
+                    { "type": "string" },
+                    { "type": "array", "items": { "$ref" : "#/definitions/download-item" } }
+                 ] },
                 "installAddon": { "type": "string" },
+                "installNotes": { "type": "string" },
                 "dandi": { "type": "string" },
                 "learnMore": { "type": "string" },
                 "release": { "type": "string" },
                 "userManual": { "type": "string" }
             }
         }, 
+        "download-item": {
+            "additionalProperties": false,
+            "properties": {
+                "name": { "type": "string" },
+                "url": { "type": "string" }
+            }
+        },
         "lang": {
             "additionalProperties": false,
             "properties": {
                 "dropin": { "$ref" : "#/definitions/langitem" },
                 "updateSite": { "$ref" : "#/definitions/langitem" },
                 "installAddon": { "$ref" : "#/definitions/langitem" },
+                "installNotes": { "$ref" : "#/definitions/langitem" },
                 "dandi": { "$ref" : "#/definitions/langitem" },
                 "learnMore": { "$ref" : "#/definitions/langitem" },
                 "main": { "$ref" : "#/definitions/langitem" },
