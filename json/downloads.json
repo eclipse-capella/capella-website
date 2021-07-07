@@ -190,6 +190,17 @@
       },
       "tags":["requirements","bridge"]
     },
+    { "name":"Reqtify for Capella",
+      "key":"REQTIFY",
+      "fragment":"reqtify",
+      "licence":"Commercial",
+      "contact":"<a href='https://3ds.com' target='_blank'>Dassault Systèmes</a>",
+      "description": "<p>This add-on enables user to trace objects from a Capella Project (e.g. In-Flight Entertainment) in Reqtify tool which provides Requirements Traceability capabilities to a wide range of connectors. Once traced in Reqtify user can create traceability links with High & Low Level Requirements defined in variety of other applications which are also connected with Reqtify.</p><p>Reqtify add-on can also export High-Level Requirements to a Capella project to enable user to create cover links in Capella itself. This add-on will be able to work with only basic Capella requirements not with Requirements add-on. It is also possible to navigate from Reqtify to Capella and vice-versa.</p><p>This add-on works with Capella 5.0 and Reqtify 2021x Refresh1 and upper versions.</p><p>For more information, please refer to the documentation.</p>",
+      "download": { 
+        "learnMore": "https://3ds.com/reqtify"
+      },
+      "tags":["requirements","bridge"]
+    },
     { "name":"Safety Viewpoint & MBSE-MBSA bridge for Safety Architect",
       "key":"SafetyArchitect",
       "fragment": "safetyarchitect",
@@ -327,7 +338,6 @@
         "installAddon": "https://github.com/n7space/Capella-TASTE-Plugin"
       }
     }
-
     
   ] 
 }
