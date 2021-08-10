@@ -228,6 +228,13 @@ section {
   line-height: 35px;
   margin-top: 25px;
 }
+.hero-area .videos a {
+	color: #fff !important;
+}
+h2.icon{
+    font-size: 65px;
+}
+
 /* Banners
 -----------*/
 .home{
@@ -553,17 +560,6 @@ border: 1px solid #ccc;
 }
 #back-to-top i {
     font-size: 28px;
-}
-ul.social-icons {
-  height: auto;
-  overflow: hidden;
-  list-style: none !important;
-  margin-bottom: 10px;
-}
-ul.social-icons li{
-  float: none;
-  display: inline-block;
-  height: 36px;
 }
 #copyright a:hover,
 #copyright nav .menu li a:hover {
