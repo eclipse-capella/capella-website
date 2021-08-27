@@ -14,7 +14,6 @@
         ================================================== -->
 <meta name="format-detection" content="telephone=no">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
 <!-- Template CSS Files
         ================================================== -->
 <!-- Twitter Bootstrs CSS -->
@@ -26,13 +25,10 @@
 <!-- responsive css -->
 <link rel="stylesheet" href="css/responsive.css">
 <link rel="stylesheet" href="css/latofonts.css">
-
 <script src="https://use.fontawesome.com/b51f77a16a.js"></script>
-
 <!-- Cookie content -->
 <link rel="stylesheet" type="text/css" href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
 <script async src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js"></script>
-
 <!-- Eclipse Foundation Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -40,14 +36,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
 <!-- End Google Tag Manager -->
-
 <!-- Template Javascript Files
         ================================================== -->
 <!-- Angular -->
 <base href="/capella/">
 <script src="js/angular-1.7.8.min.js"></script>
 <script src="angular/capella.js"></script>
-
 <!-- modernizr js -->
 <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 <!-- jquery -->
@@ -58,7 +52,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="js/wow.min.js"></script>
 <!-- template main js -->
 <script src="js/main.js"></script>
-
 </head>
 <body ng-app="capella" data-deferred-cloak>
 	<!--
@@ -75,7 +68,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<div class="row">
 				<div class="col-md-12 text-center">
 					<div class="block wow fadeInUp" data-wow-delay=".3s">
-
 						<section class="cd-intro">
 							<h1 class="wow fadeInUp animated" data-wow-delay=".4s">Resources</h1>
 						</section>
@@ -89,7 +81,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		</div>
 	</section>
 	<!--/#intro_banner-->
-
 	<section id="resources" class="">
 		<div class="container">
 			<div class="row">
@@ -109,9 +100,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 								<div id="domains_accordion" class="accordion dropdown_content"></div>
 						</div>
 					</div>
-
 				<script>
-					// Sort items by ascending order
+					// Sort items by ascending order, and descending year
 					function GetSortOrder(prop) {
 						return function(a, b) {
 							if (a[prop] > b[prop]) {
@@ -119,10 +109,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							} else if (a[prop] < b[prop]) {
 								return -1;
 							}
+							if (a["year"] < b["year"]) {
+								return 1;
+							} else if (a["year"] > b["year"]) {
+								return -1;
+							}
 							return 0;
 						}
 					}
-
 					// Sort items by descending order
 					function GetSortOrder_des(prop) {
 						return function(a, b) {
@@ -134,7 +128,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							return 0;
 						}
 					}
-
 					$.getJSON('json/resources.json', function(data) {
 						var topics_accordion_group = " ";
 						var types_accordion_group = " ";
@@ -142,7 +135,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						var topics_categories_row = " ";
 						var types_categories_row = " ";
 						var domains_categories_row = " ";
-
 						for (var i in data.resources.topics) {
 							var accordion_heading = " ";
 							var accordion_body = " ";
@@ -150,20 +142,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							var category_anchor = " ";
 							var title = " ";
 							var descr = " ";
-
 							category_anchor = "<div class='col-md-2 col-xs-12'><a class='wow smooth-scroll' href='resources.html#topic-" + data.resources.topics[i].anchor + "' data-row='#topic-" + data.resources.topics[i].anchor + "'><img src='" + data.resources.topics[i].icon + "' /><p>" + data.resources.topics[i].title + "</p></a></div>";
-
 							title += "<h3>" + data.resources.topics[i].title + "</h3>";
 							descr += "<span class='descr txt_indigo'>" + data.resources.topics[i].descr + "</span><span class='fa fa-caret-down txt_yellow'>&nbsp;</span></a></div>";
-
 							accordion_heading += "<div class='accordion-heading'><a class='accordion-toggle collapsed' data-toggle='collapse' data-parent='#types_accordion' href='#"
 							+ data.resources.topics[i].anchor + "'>" + title + descr;
-
+							data.resources.items.sort(GetSortOrder("topic_order"));
 							for (var j in data.resources.items) {
 								var item_infos = " ";
-
-								data.resources.items.sort(GetSortOrder("topic_order"));
-
 								if(data.resources.items[j].author != ""){
 									item_infos += " | " + data.resources.items[j].author;
 								}
@@ -185,15 +171,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 									}
 								}
 							}
-
 							topics_categories_row += category_anchor;
-
 							accordion_body += "<div id='" + data.resources.topics[i].anchor + "' class='accordion-body collapse' style='height: 0px;'>" + accordion_inner + "</div>";
 							topics_accordion_group += "<div class='accordion-group' id='topic-" + data.resources.topics[i].anchor + "'>" + accordion_heading + accordion_body + "</div>";
-
 							document.getElementById("topics_accordion").innerHTML = "<div class='categories_anchors linked_title'>" + topics_categories_row + "</div><div class='clearfix'></div>" + topics_accordion_group;
 						}
-
 						for (var k in data.resources.types) {
 							var accordion_heading = " ";
 							var accordion_body = " ";
@@ -201,20 +183,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							var category_anchor = " ";
 							var title = " ";
 							var descr = " ";
-
 							category_anchor = "<div class='col-md-2 col-xs-12'><a class='wow smooth-scroll' href='resources.html#type-" + data.resources.types[k].anchor + "' data-row='#type-" + data.resources.types[k].anchor + "'><img src='" + data.resources.types[k].icon + "' /><p>" + data.resources.types[k].title + "</p></a></div>";
-
 							title += "<h3>" + data.resources.types[k].title + "</h3>";
 							descr += "<span class='descr txt_indigo'>" + data.resources.types[k].descr + "</span><span class='fa fa-caret-down txt_yellow'>&nbsp;</span></a></div>";
-
 							accordion_heading += "<div class='accordion-heading'><a class='accordion-toggle collapsed' data-toggle='collapse' data-parent='#topics_accordion' href='#"
 							+ data.resources.types[k].anchor + "'>" + title + descr;
-
+							data.resources.items.sort(GetSortOrder("type_order"));
 							for (var m in data.resources.items) {
 								var item_infos = " ";
-
-								data.resources.items.sort(GetSortOrder("type_order"));
-
 								if(data.resources.items[m].author != ""){
 									item_infos += " | " + data.resources.items[m].author;
 								}
@@ -236,73 +212,58 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 									}
 								}
 							}
-
 							types_categories_row += category_anchor;
-
 							accordion_body += "<div id='" + data.resources.types[k].anchor + "' class='accordion-body collapse' style='height: 0px;'>" + accordion_inner + "</div>";
 							types_accordion_group += "<div class='accordion-group' id='type-" + data.resources.types[k].anchor + "'>" + accordion_heading + accordion_body + "</div>";
-
 							document.getElementById("types_accordion").innerHTML = "<div class='categories_anchors linked_title'>" + types_categories_row + "</div><div class='clearfix'></div>" + types_accordion_group;
 						}
-
-						for (var i in data.resources.types) {
+						for (var d in data.resources.domains) {
 							var accordion_heading = " ";
 							var accordion_body = " ";
 							var accordion_inner = " ";
 							var category_anchor = " ";
 							var title = " ";
 							var descr = " ";
-
-							category_anchor = "<div class='col-md-2 col-xs-12'><a class='wow smooth-scroll' href='resources.html#domain-" + data.resources.domains[i].anchor + "' data-row='#domain-" + data.resources.domains[i].anchor + "'><img src='" + data.resources.domains[i].icon + "' /><p>" + data.resources.domains[i].title + "</p></a></div>";
-
-							title += "<h3>" + data.resources.domains[i].title + "</h3>";
-							descr += "<span class='descr txt_indigo'>" + data.resources.domains[i].descr + "</span><span class='fa fa-caret-down txt_yellow'>&nbsp;</span></a></div>";
-
+							category_anchor = "<div class='col-md-2 col-xs-12'><a class='wow smooth-scroll' href='resources.html#domain-" + data.resources.domains[d].anchor + "' data-row='#domain-" + data.resources.domains[d].anchor + "'><img src='" + data.resources.domains[d].icon + "' /><p>" + data.resources.domains[d].title + "</p></a></div>";
+							title += "<h3>" + data.resources.domains[d].title + "</h3>";
+							descr += "<span class='descr txt_indigo'>" + data.resources.domains[d].descr + "</span><span class='fa fa-caret-down txt_yellow'>&nbsp;</span></a></div>";
 							accordion_heading += "<div class='accordion-heading'><a class='accordion-toggle collapsed' data-toggle='collapse' data-parent='#types_accordion' href='#"
-							+ data.resources.domains[i].anchor + "'>" + title + descr;
-
-							for (var j in data.resources.items) {
+							+ data.resources.domains[d].anchor + "'>" + title + descr;
+							for (var e in data.resources.items) {
+						<!--		data.resources.items.sort(GetSortOrder("domain_order")); -->
 								var item_infos = " ";
-
-								data.resources.items.sort(GetSortOrder("domain_order"));
-
-								if(data.resources.items[j].author != ""){
-									item_infos += " | " + data.resources.items[j].author;
+								if(data.resources.items[e].author != ""){
+									item_infos += " | " + data.resources.items[e].author;
 								}
-								if(data.resources.items[j].year != ""){
-									item_infos += " | " + data.resources.items[j].year;
+								if(data.resources.items[e].year != ""){
+									item_infos += " | " + data.resources.items[e].year;
 								}
-								if(data.resources.items[j].domain == data.resources.domains[i].title){
-									if(data.resources.items[j].domain_order < 5){
+								if(data.resources.items[e].domain == data.resources.domains[d].title){
+									if(data.resources.items[e].domain_order < 5){
 										accordion_inner += "<div class='accordion-inner with_thumb'><div class='col-md-8 col-xs-8'><h4 class='linked_title'><a href='"
-											+ data.resources.items[j].link + "' target='_blank'>"
-											+ data.resources.items[j].title + "</a></h4><p class='descr txt_indigo txt_weight_300'>" + data.resources.items[j].type + item_infos + " | " + data.resources.items[j].language + "</p><p>"
-											+ data.resources.items[j].descr + "</p></div><div class='col-md-4 col-xs-12'><a href='"
-											+ data.resources.items[j].link + "' target='_blank'><img src='" + data.resources.items[j].thumb + "' alt='" + data.resources.items[j].title + "' /></a></div><div class='clearfix'></div></div>";
+											+ data.resources.items[e].link + "' target='_blank'>"
+											+ data.resources.items[e].title + "</a></h4><p class='descr txt_indigo txt_weight_300'>" + data.resources.items[e].type + item_infos + " | " + data.resources.items[e].language + "</p><p>"
+											+ data.resources.items[e].descr + "</p></div><div class='col-md-4 col-xs-12'><a href='"
+											+ data.resources.items[e].link + "' target='_blank'><img src='" + data.resources.items[e].thumb + "' alt='" + data.resources.items[e].title + "' /></a></div><div class='clearfix'></div></div>";
 									}
 									else{
 										accordion_inner += "<div class='accordion-inner'><h4 class='linked_title'><a href='"
-											+ data.resources.items[j].link + "' target='_blank'>"
-											+ data.resources.items[j].title + "</a></h4><p class='descr txt_indigo txt_weight_300'>" + data.resources.items[j].type + item_infos + " | " + data.resources.items[j].language + "</p></div>";
+											+ data.resources.items[e].link + "' target='_blank'>"
+											+ data.resources.items[e].title + "</a></h4><p class='descr txt_indigo txt_weight_300'>" + data.resources.items[e].type + item_infos + " | " + data.resources.items[e].language + "</p></div>";
 									}
 								}
 							}
-
 							domains_categories_row += category_anchor;
-
-							accordion_body += "<div id='" + data.resources.domains[i].anchor + "' class='accordion-body collapse' style='height: 0px;'>" + accordion_inner + "</div>";
-							domains_accordion_group += "<div class='accordion-group' id='domain-" + data.resources.domains[i].anchor + "'>" + accordion_heading + accordion_body + "</div>";
-
+							accordion_body += "<div id='" + data.resources.domains[d].anchor + "' class='accordion-body collapse' style='height: 0px;'>" + accordion_inner + "</div>";
+							domains_accordion_group += "<div class='accordion-group' id='domain-" + data.resources.domains[d].anchor + "'>" + accordion_heading + accordion_body + "</div>";
 							document.getElementById("domains_accordion").innerHTML = "<div class='categories_anchors linked_title'>" + domains_categories_row + "</div><div class='clearfix'></div>" + domains_accordion_group;
 						}
-
 						new WOW().init();
 						jQuery('.smooth-scroll').scrollingTo();
 					});
 				</script>
 		</div>
 	</section>
-
 	<div id="back-to-top" data-spy="affix" data-offset-top="100"
 		class="back-to-top hidden-xs hidden-sm affix-top">
 		<button class="btn btn-default" title="Back to Top">
@@ -318,13 +279,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			return false;
 		});
 	</script>
-
 	<!--
         ==================================================
         Call To Action Section Start
         ================================================== -->
 	<ng-include src="'angular/blocks/call2action.html'"></ng-include>
-
 	<!--
         ==================================================
         Footer Section
@@ -333,3 +292,5 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<script async src="js/googleAnalytics.js" ></script>
 </body>
 </html>
+
+
