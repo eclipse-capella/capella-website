@@ -211,7 +211,7 @@ section {
 }
 .hero-area .block {
   position: relative;
-  z-index: 999;
+  z-index: 99;
 }
 .hero-area h1 {
   font-size: 40px;
@@ -993,7 +993,7 @@ color: #a94442;
 	bottom:0; 
 	height: 75px; 
 	width: 100%; 
-	z-index: 20;
+	z-index: 200;
 }
     
 .bottom-bar p {
