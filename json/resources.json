@@ -132,6 +132,120 @@
         
         
 	{
+                "title": "A value-driven, integrated approach to Model-Based Product Line Engineering",
+                "descr": "",
+                "author": "Juan Navas, Stéphane Bonnet, Jean-Luc Voirin, Hugo Guillermo Chalé Gongora",
+                "year": "2021",
+                "language": "EN",
+                "topic": "Business Value",
+                "topic_order": "99",
+                "type": "Article",
+                "type_order": "99",
+                "link": "https://onlinelibrary.wiley.com/doi/abs/10.1002/j.2334-5837.2021.00828.x",
+                "thumb": ""
+            },
+	{
+                "title": "Models as enablers of agility in complex systems engineering",
+                "descr": "",
+                "author": "Juan Navas, Stéphane Bonnet, Jean-Luc Voirin",
+                "year": "2020",
+                "language": "EN",
+                "topic": "Business Value",
+                "topic_order": "99",
+                "type": "Article",
+                "type_order": "99",
+                "link": "https://www.researchgate.net/publication/345173676_Models_as_enablers_of_agility_in_complex_systems_engineering",
+                "thumb": ""
+            },
+	{
+                "title": "Towards a model-based approach to Systems and Cybersecurity co-engineering",
+                "descr": "",
+                "author": "Juan Navas, Stéphane Paul, Stéphane Bonnet",
+                "year": "2019",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "99",
+                "type": "Article",
+                "type_order": "99",
+                "link": "https://www.researchgate.net/publication/335856030_Towards_a_model-based_approach_to_Systems_and_Cybersecurity_co-engineering",
+                "thumb": ""
+            },
+	{
+                "title": "Architecture Design of Nuclear Power Plants Systems through Viewpoints-based Systems Analysis",
+                "descr": "",
+                "author": "Juan Navas, Stéphane Bonnet, Philippe Tannery, Jean-Luc Voirin",
+                "year": "2018",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "99",
+                "type": "Article",
+                "type_order": "99",
+                "domain": "Energy",
+                "domain_order": "99",
+		"link": "https://www.researchgate.net/publication/327071460_Architecture_Design_of_Nuclear_Power_Plants_Systems_through_Viewpoints-based_Systems_Analysis",
+                "thumb": ""
+            },
+	{
+                "title": "Specification and Architecture of a System Factory for Space Systems",
+                "descr": "",
+                "author": "Elena Alaña & Tiago Jorge (GMV)",
+                "year": "2021",
+                "language": "EN",
+                "topic": "Business Value",
+                "topic_order": "99",
+                "type": "Slideshow",
+                "type_order": "99",
+                "domain": "Aerospace & Defense",
+                "domain_order": "99",
+                "link": "https://indico.esa.int/event/386/contributions/6289/attachments/4285/6497/1625%20-%20Specification%20and%20Architecture%20of%20a%20System%20Factory%20for%20Space%20Systems.pdf",
+                "thumb": ""
+            },
+	{
+                "title": "Model-Based System Engineering for Avionics Processes",
+                "descr": "",
+                "author": "B. Attanasio, D. Cellarier, R. De Ferluc (Thales Alenia Space)",
+                "year": "2021",
+                "language": "EN",
+                "topic": "Business Value",
+                "topic_order": "99",
+                "type": "Slideshow",
+                "type_order": "99",
+                "domain": "Avionics",
+                "domain_order": "99",
+                "link": "https://indico.esa.int/event/386/contributions/6234/attachments/4274/6465/1635%20-%20Model-Based%20System%20Engineering%20for%20Avionics%20Processes.pdf",
+                "thumb": ""
+            },
+	{
+                "title": "Functional Chain Approach for Avionics Modelling and Simulation",
+                "descr": "",
+                "author": "P. Boan (CNES), B. Attanasio (Thales Alenia Space)",
+                "year": "2021",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "99",
+                "type": "Slideshow",
+                "type_order": "99",
+                "domain": "Avionics",
+                "domain_order": "99",
+                "link": "https://indico.esa.int/event/386/contributions/6298/attachments/4293/6458/1525%20-%20Functional%20Chain%20Approach%20for%20Avionics%20Modelling%20and%20Simulation.pdf",
+                "thumb": ""
+            },
+	{
+                "title": "First lessons learned from adopting a Model-Based System Engineering approach in early phases of complex satellite systems",
+                "descr": "",
+                "author": "Belen Gonzalez (ESA)",
+                "year": "2021",
+                "language": "EN",
+                "topic": "Business Value",
+                "topic_order": "99",
+                "type": "Slideshow",
+                "type_order": "99",
+                "domain": "Aerospace & Defense",
+                "domain_order": "99",
+                "link": "https://indico.esa.int/event/386/contributions/6226/attachments/4268/6447/1125%20-%20First%20lessons%20learned%20from%20adopting%20a%20Model-Based%20System%20Engineering%20approach%20in%20early%20phases%20of%20complex%20satellite%20systems.pdf",
+                "thumb": ""
+            },
+	{
                 "title": "Capella Community Survey 2020, the Results",
                 "descr": "",
                 "author": "Frédéric Madiot (Obeo)",
@@ -2438,7 +2552,6 @@
 		    "domain_order": "99",
 		    "link": "https://doi.org/10.21278/idc.2018.0448"
 		}
-
             
             
             
