@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:Capella Days - Day 3\nDate and Time - Nov 17\, 2021 4:00 PM to 6:10 PM\nVenue - https://www.crowdcast.io/e/m6mmslfr/3\n[4:00 pm CET] Welcome and Introduction	\n[4:05 pm CET] Exploring the various roles of MBSE in the digital thread - Dr Jonnro Erasmus (ASML)\n[4:45 pm CET] Enhancing CubeSat design through ARCADIA and Capella: a concrete application - Paolo Minacapilli (Politecnico di Milano)\n[5:25 pm CET] Where to start with MBSE when thousands of system requirements are already defined - Peter Havenga (Thales Australia) & Laura Mallon (Thales Australia)\n[6:05 pm CET] Closing\n
+DTSTART:20211117T150000Z
+DTEND:20211117T171000Z
+LOCATION:https://www.crowdcast.io/e/m6mmslfr/3
+SUMMARY;LANGUAGE=en-us:Capella Days - Day 3
+END:VEVENT
+END:VCALENDAR
