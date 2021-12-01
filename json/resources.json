@@ -132,6 +132,71 @@
         
         
 	{
+                "title": "Architecture Models as Enablers of Agility - Episode 1",
+                "descr": "",
+                "author": "Juan Navas",
+                "year": "2021",
+                "language": "EN",
+                "topic": "Business Value",
+                "topic_order": "99",
+                "type": "Article",
+                "type_order": "99",
+                "link": "https://www.ppi-int.com/wp-content/uploads/2021/09/PPI-SyEN-104.pdf",
+                "thumb": ""
+            },
+       {
+                "title": "Architecture Models as Enablers of Agility - Episode 2",
+                "descr": "",
+                "author": "Juan Navas",
+                "year": "2021",
+                "language": "EN",
+                "topic": "Business Value",
+                "topic_order": "99",
+                "type": "Article",
+                "type_order": "99",
+                "link": "https://www.ppi-int.com/wp-content/uploads/2021/10/PPI-SyEN-105-October.pdf",
+                "thumb": ""
+            },
+       {
+                "title": "MBSE and Digital Thread, Exposing Capella Models to OSLC Consumers",
+                "descr": "",
+                "author": "Laurent Delaigue (Obeo)",
+                "year": "2021",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+                "link": "https://www.youtube.com/watch?v=JPiGgNoD8Xo",
+                "thumb": ""
+            },
+       {
+                "title": "What if you could simulate your Capella model ? Bridging Capella with Simulink",
+                "descr": "",
+                "author": "Pierre Nowodzienski (Thales)",
+                "year": "2021",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+                "link": "https://youtu.be/PXnMfgEoTGM",
+                "thumb": ""
+            },
+	{
+                "title": "A value-driven, integrated approach to Model-Based Product Line Engineering",
+                "descr": "",
+                "author": "Juan Navas, Stéphane Bonnet, Jean-Luc Voirin, Hugo Guillermo Chalé Gongora",
+                "year": "2021",
+                "language": "EN",
+                "topic": "Business Value",
+                "topic_order": "99",
+                "type": "Article",
+                "type_order": "99",
+                "link": "resources/pdf/ID54_A-value-driven-integrated-approach-to-Model-Based-Product-Line-Engineering_v2.3.pdf",
+                "thumb": ""
+            },
+	{
                 "title": "A value-driven, integrated approach to Model-Based Product Line Engineering",
                 "descr": "",
                 "author": "Juan Navas, Stéphane Bonnet, Jean-Luc Voirin, Hugo Guillermo Chalé Gongora",
