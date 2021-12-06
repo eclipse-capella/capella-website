@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html lang="en" class="no-js">
     <head>
     	<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -35,36 +35,26 @@
         <link rel="stylesheet" href="css/responsive.css">
 		<link rel="stylesheet" href="css/latofonts.css">
 
-        <script src="https://use.fontawesome.com/b51f77a16a.js"></script>
-
         <!-- Cookie content -->
         <link rel="stylesheet" type="text/css" href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
-        <script src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js"></script>
-
-        <!-- Eclipse Foundation Google Tag Manager -->
-		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-		})(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
-		<!-- End Google Tag Manager -->
-
+    	<!-- Eclipse Foundation Google Tag Manager -->		
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+        <!-- End Google Tag Manager -->
+      
         <!-- Template Javascript Files
         ================================================== -->
 		<!-- Angular -->
 		<base href="/capella/">
 		<script src="js/angular-1.7.8.min.js"></script>
 		<script src="angular/capella.js"></script>
-        <!-- modernizr js -->
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        
         <!-- jquery -->
         <script src="js/jquery-3.4.1.min.js"></script>
-        <!-- bootstrap js -->
-        <script src="js/bootstrap.min.js"></script>
-        <!-- wow js -->
-        <script src="js/wow.min.js"></script>
-        <!-- template main js -->
-        <script src="js/main.js"></script>
+		<script defer src="https://kit.fontawesome.com/16cf99803e.js" crossorigin="anonymous"></script>    
     </head>
     <body ng-app="capella" data-deferred-cloak>
     	<!-- Google Tag Manager (noscript) -->
@@ -138,7 +128,7 @@ reuse material that can help you to build your courses.
 				<h2 class="title wow fadeInDown text-center" data-wow-delay=".1s">Resources</h2>
                 <div class="row">
                 	<div class="col-sm-4 col-xs-12 wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="0ms">
-                        	 <p><img src="images/icons/icon_slideshows.png" alt="" ></p>
+                        	 <p><img src="images/icons/icon_slideshows.png" alt="Capella - Course esamples" class="lazyload" width="131" height="131"></p>
                             <div>
                                 <h4>Course examples</h4>
                                 <p><a href="https://download.polarsys.org/capella/publis/An_Introduction_to_Arcadia_20150115.pdf" target="_blank">Introduction to Arcadia (by Thales) <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a></p>
@@ -147,7 +137,7 @@ reuse material that can help you to build your courses.
                             </div>
                     </div>
                     <div class="col-sm-4 col-xs-12 wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="100ms">
-                            <p><img src="images/icons/icon_sample_models.png" alt="" ></p>
+                            <p><img src="images/icons/icon_sample_models.png" alt="Capella - Sample models" class="lazyload" width="131" height="131"></p>
                            <div>
                                 <h4>Sample models</h4>
                                 <p><a href="https://wiki.eclipse.org/Capella/Samples/IFE" target="_blank">In-Flight Entertainment <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a></p>
@@ -155,7 +145,7 @@ reuse material that can help you to build your courses.
                             </div>
                     </div>
                     <div class="col-sm-4 col-xs-12 wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="200ms">
-                            <p><img src="images/icons/icon_getting_started.png" alt="" ></p>
+                            <p><img src="images/icons/icon_getting_started.png" alt="Capella - Guides" class="lazyload" width="131" height="131"></p>
                             <div>
                                 <h4>Guides</h4>
                                 <p><a href="https://github.com/eclipse/capella/blob/master/doc/plugins/org.polarsys.capella.ui.doc/html/Installation Guide/How to install Capella and Addons.mediawiki#table-of-contents" target="_blank">Capella installation <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a></p>
@@ -177,8 +167,34 @@ reuse material that can help you to build your courses.
         ==================================================
         Books
         ================================================== -->
-		<ng-include src="'angular/blocks/books.html'"></ng-include>
-
+<section id="books" class="text-center">
+			<div class="container">
+				<div class="section-heading">
+					<h2 class="title wow fadeInDown" data-wow-delay=".3s">Books</h2>
+					<p>Two books thoroughly describe respectively the method and the tool.<br>
+					The Arcadia book describes and illustrates the fundamentals of the method and its contribution to engineering activities.<br>
+					The Capella book is a practical guide to using the workbench. </p>
+				</div>
+				<div class="row">
+					<div class="col-sm-4 col-sm-offset-2 col-xs-12 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="0ms">
+						<p><a href="https://www.elsevier.com/books/model-based-system-and-architecture-engineering-with-the-arcadia-method/voirin/978-1-78548-169-7" target="_blank"><img src="images/thumbs/thumb_book_jlvoirin.png" alt="Model-based System<br>and Architecture Engineering with the Arcadia Method" class="lazyload" width="311" height="350"></a></p>
+						<div>
+							<h6 class="text-uppercase txt_lightest_grey txt_weight_300">Jean-Luc Voirin</h6>
+							<h4>Model-based System<br>and Architecture Engineering<br>with the Arcadia Method</h4>
+							<p><a class="btn btn-default wow fadeInUp" data-wow-delay=".6s" href="https://www.elsevier.com/books/model-based-system-and-architecture-engineering-with-the-arcadia-method/voirin/978-1-78548-169-7">Read More</a></p>
+						</div>
+					</div>
+					<div class="col-sm-4 col-xs-12 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+					   <p><a href="https://www.elsevier.com/books/systems-architecture-modeling-with-the-arcadia-method/roques/978-1-78548-168-0" target="_blank"><img src="images/thumbs/thumb_book_proques.png" alt="Systems Architecture Modeling with the Arcadia Method - A Practical Guide to Capella Modeling Tool" class="lazyload" width="311" height="350"></a></p>
+					   <div>
+							<h6 class="text-uppercase txt_lightest_grey txt_weight_300">Pascal Roques</h6>
+							<h4>Systems Architecture Modeling with the Arcadia Method - A Practical Guide to Capella Modeling Tool</h4>
+							<p><a class="btn btn-default wow fadeInUp" data-wow-delay=".6s" href="https://www.elsevier.com/books/systems-architecture-modeling-with-the-arcadia-method/roques/978-1-78548-168-0">Read More</a></p>
+					   </div>
+					</div>
+				</div>
+			</div>
+		</section>
 	<!-- #books -->
 
 
@@ -221,6 +237,20 @@ reuse material that can help you to build your courses.
         Footer Section
         ================================================== -->
         <ng-include src="'angular/blocks/footer.html'"></ng-include>
-        <script async src="js/googleAnalytics.js" ></script>
+        
+        <!-- bootstrap js -->
+        <script defer src="js/bootstrap.min.js"></script>
+        <!-- wow js -->
+        <script defer src="js/wow.min.js"></script>
+        <script defer src="js/jquery.fancybox.js"></script>
+        <!-- template main js -->
+        <script defer src="js/main.js"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-57722280-1"></script>
+		<script async src="js/googleAnalytics.js"></script>
+       
+        <script async src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js"></script>
+        <!-- modernizr js -->
+        <script defer src="js/vendor/modernizr-2.6.2.min.js"></script>
     </body>
 </html>

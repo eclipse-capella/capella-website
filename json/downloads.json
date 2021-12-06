@@ -11,7 +11,7 @@
       "product": { "text": "Product", "icon": "fa fa-download" },
       "installAddon": { "text": "Installation procedure", "icon": "fa fa-external-link-square", "target":"_blank" },
       "dandi": { "text": "Download and Installation", "icon": "fa fa-download" },
-      "learnMore": { "text": "Learn More", "icon": "fa fa-arrow-circle-right", "target":"_blank" },
+      "learnMore": { "text": "Read more about this add-on", "icon": "fa fa-arrow-circle-right" },
       "windows": { "text": "Windows", "icon": "fa fa-windows", "key":"WIN" },
       "linux": { "text": "Linux*", "icon": "fa fa-linux", "key":"LINUX" },
       "mac": { "text": "Mac Cocoa*", "icon": "fa fa-apple", "key":"MAC" },

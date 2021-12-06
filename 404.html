@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html lang="en" class="no-js">
     <head>
     	<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -38,15 +38,6 @@
         
         <!-- Cookie content -->
         <link rel="stylesheet" type="text/css" href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
-        <script src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js"></script>
-        
-        <!-- Eclipse Foundation Google Tag Manager -->
-		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-		})(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
-		<!-- End Google Tag Manager -->
         
         <!-- Template Javascript Files
         ================================================== -->
@@ -54,18 +45,8 @@
 		<base href="/capella/">
 		<script src="js/angular-1.7.8.min.js"></script>
 		<script src="angular/capella.js"></script>
-
-        <!-- modernizr js -->
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
         <!-- jquery -->
         <script src="js/jquery-3.4.1.min.js"></script>
-        <!-- bootstrap js -->
-        <script src="js/bootstrap.min.js"></script>
-        <!-- wow js -->
-        <script src="js/wow.min.js"></script>
-        <!-- template main js -->
-        <script src="js/main.js"></script>
-      
     </head>
     <body ng-app="capella" data-deferred-cloak>
     	<!-- Google Tag Manager (noscript) -->
@@ -105,5 +86,24 @@
         Footer Section
         ================================================== -->
         <ng-include src="'angular/blocks/footer.html'"></ng-include>
+        
+         <!-- bootstrap js -->
+        <script defer src="js/bootstrap.min.js"></script>
+        <!-- wow js -->
+        <script defer src="js/wow.min.js"></script>
+        <script defer src="js/jquery.fancybox.js"></script>
+        <!-- template main js -->
+        <script defer src="js/main.js"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-57722280-1"></script>
+		<script async src="js/googleAnalytics.js"></script>
+        <!-- Eclipse Foundation Google Tag Manager -->		
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+        <!-- End Google Tag Manager -->
+       <script src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js"></script>
     </body>
 </html>

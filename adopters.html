@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html lang="en" class="no-js">
 <head>
 		<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -33,22 +33,15 @@
 <!-- responsive css -->
 <link rel="stylesheet" href="css/responsive.css">
 <link rel="stylesheet" href="css/latofonts.css">
-
-<script src="https://use.fontawesome.com/b51f77a16a.js"></script>
-
 <!-- Cookie content -->
 <link rel="stylesheet" type="text/css" href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
-<script async src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js"></script>
-
-<!-- Eclipse Foundation Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
-<!-- End Google Tag Manager -->
-
-
+<!-- Eclipse Foundation Google Tag Manager -->		
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
+        <!-- End Google Tag Manager -->
 <!-- shuffle function -->
 <script>
 function shuffle(array) {
@@ -80,17 +73,9 @@ function shuffle(array) {
 <script src="js/angular-1.7.8.min.js"></script>
 <script src="angular/capella.js"></script>
 
-<!-- modernizr js -->
-<script src="js/vendor/modernizr-2.6.2.min.js"></script>
 <!-- jquery -->
 <script src="js/jquery-3.4.1.min.js"></script>
-<!-- bootstrap js -->
-<script src="js/bootstrap.min.js"></script>
-<!-- wow js -->
-<script src="js/wow.min.js"></script>
-<!-- template main js -->
-<script src="js/main.js"></script>
-
+<script defer src="https://kit.fontawesome.com/16cf99803e.js" crossorigin="anonymous"></script>
 </head>
 <body ng-app="capella" data-deferred-cloak>
 	<!-- Google Tag Manager (noscript) -->
@@ -137,12 +122,12 @@ function shuffle(array) {
 	        for (var i in adopters) {
 	        	var item = " ";
 
-				item ="<img src='" + adopters[i].logoSrc + "' alt='Capella Adopters - " + adopters[i].company +"' title='" + adopters[i].company + "' />";
+				item ="<img src='" + adopters[i].logoSrc + "' alt='Capella Adopters - " + adopters[i].company +"' title='" + adopters[i].company + "' width='280'/>";
 
 				link = adopters[i].link;
 
 				if (link!=null && link!="") {
-					items += "<li><a href='" + link + "' target='_blank'>" + item + "</a></li>";
+					items += "<li><a href='" + link + "'>" + item + "</a></li>";
 				}
 				else {
 					items += "<li>" + item + "</li>";
@@ -173,17 +158,28 @@ function shuffle(array) {
 		});
 	</script>
 
-	<!--
-        ==================================================
-        Call To Action Section Start
-        ================================================== -->
+	   <!--
+       ==================================================
+       Call To Action Section Start
+       ================================================== -->
 	<ng-include src="'angular/blocks/call2action_adopters.html'"></ng-include>
 
-	<!--
+		<!--
         ==================================================
         Footer Section
         ================================================== -->
 	<ng-include src="'angular/blocks/footer.html'"></ng-include>
-	<script async src="js/googleAnalytics.js" ></script>
-</body>
+		<!-- bootstrap js -->
+        <script defer src="js/bootstrap.min.js"></script>
+        <!-- wow js -->
+        <script defer src="js/wow.min.js"></script>
+        <script defer src="js/jquery.fancybox.js"></script>
+        <!-- template main js -->
+        <script defer src="js/main.js"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-57722280-1"></script>
+		<script async src="js/googleAnalytics.js"></script>
+    
+       <script src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js"></script>
+     </body>
 </html>

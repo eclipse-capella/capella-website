@@ -33,7 +33,7 @@
         <!-- responsive css -->
         <link rel="stylesheet" href="css/responsive.css">
         <link rel="stylesheet" href="css/latofonts.css">
-		<script src="https://kit.fontawesome.com/16cf99803e.js" crossorigin="anonymous"></script>
+        
         <!-- Cookie content -->
         <link rel="stylesheet" type="text/css" href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
         
@@ -46,6 +46,7 @@
         <base href="/capella/">
         <script src="js/angular-1.7.8.min.js"></script>
         <script src="angular/capella.js"></script>
+		<script defer src="https://kit.fontawesome.com/16cf99803e.js" crossorigin="anonymous"></script>
     </head>
     <body ng-app="capella" data-deferred-cloak>
 	    <!-- Google Tag Manager (noscript) -->
@@ -99,7 +100,7 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-4 col-xs-12 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".2s">
-                        <p><img data-src="images/icons/icon_safeguard.png" alt="Safeguard Your Deployment" class="lazyload"></p>
+                        <p><img data-src="images/icons/icon_safeguard.png" alt="Safeguard Your Deployment" class="lazyload" width="131" height="131"></p>
                             <div>
                                 <h4>Safeguard Your Deployment</h4>
                                 <p>Benefit from Thales cutting-edge technical & expertise</p>
@@ -107,7 +108,7 @@
                             </div>
                     </div>
                     <div class="col-sm-4 col-xs-12 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".3s">
-                        <p><img data-src="images/icons/icon_addons.png" alt="Get Your Complete MBSE Workbench" class="lazyload"></p>
+                        <p><img data-src="images/icons/icon_addons.png" alt="Get Your Complete MBSE Workbench" class="lazyload" width="131" height="131"></p>
                             <div>
                                 <h4>Get Your Complete MBSE Workbench</h4>
                                 <p>Manage requirements, collaboration, documents generation, ...</p>
@@ -115,7 +116,7 @@
                             </div>
                     </div>
                     <div class="col-sm-4 col-xs-12 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".4s">
-                       <p><img data-src="images/icons/icon_adapt.png" alt="Adapt to Your Specifics" class="lazyload"></p>
+                       <p><img data-src="images/icons/icon_adapt.png" alt="Adapt to Your Specifics" class="lazyload" width="131" height="131"></p>
                        <div>
                            <h4>Adapt to Your Specifics</h4>
                            <p>Obeo helps you extend Capella to fit your own specific needs</p>
@@ -164,7 +165,7 @@
                     <h3 class="wow fadeInDown" data-wow-delay=".5s">Capella provides methodological guidance, intuitive model editing,<br>and viewing capabilities for Systems, Software and Hardware Architects
                     </h3><br>
                     <div class="col-sm-4 col-xs-12 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
-                            <p><img data-src="images/icons/icon_gear.png" alt="Model-Based Systems Engineering Method" class="lazyload"></p>
+                            <p><img data-src="images/icons/icon_gear.png" alt="Model-Based Systems Engineering Method" class="lazyload" width="131" height="131"></p>
                             <div>
                                 <h4>Model-Based Systems Engineering Method</h4>
                                 <p>Capella relies on Arcadia a field-proven model-based methodology that covers each engineering phase</p>
@@ -173,7 +174,7 @@
                             </div>
                     </div>
                     <div class="col-sm-4 col-xs-12 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
-                            <p><img data-src="images/icons/icon_custom.png" alt="Customizable, Open and Scalable MBSE Tool" class="lazyload"></p>
+                            <p><img data-src="images/icons/icon_custom.png" alt="Customizable, Open and Scalable MBSE Tool" class="lazyload" width="131" height="131"></p>
                             <div>
                                 <h4>Customizable, Open and Scalable MBSE Tool</h4>
                                 <p>Your process, your viewpoints: Capella can be adaptable to your own engineering approach and integrated with your tools</p>
@@ -182,7 +183,7 @@
                             </div>
                     </div>
                     <div class="col-sm-4 col-xs-12 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
-                            <p><img data-src="images/icons/icon_field_proven.png" alt="Successfully Deployed Solution" class="lazyload"></p>
+                            <p><img data-src="images/icons/icon_field_proven.png" alt="Successfully Deployed Solution" class="lazyload" width="131" height="131"></p>
                             <div>
                                 <h4>Successfully Deployed Solution</h4>
                                 <p>Capella is already used on concrete projects in numerous industrial sectors (aerospace, energy, transportation…)</p>
@@ -197,7 +198,34 @@
         ==================================================
         Books
         ================================================== -->
-		<ng-include src="'angular/blocks/books.html'"></ng-include>
+		<section id="books" class="text-center">
+			<div class="container">
+				<div class="section-heading">
+					<h2 class="title wow fadeInDown" data-wow-delay=".3s">Books</h2>
+					<p>Two books thoroughly describe respectively the method and the tool.<br>
+					The Arcadia book describes and illustrates the fundamentals of the method and its contribution to engineering activities.<br>
+					The Capella book is a practical guide to using the workbench. </p>
+				</div>
+				<div class="row">
+					<div class="col-sm-4 col-sm-offset-2 col-xs-12 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="0ms">
+						<p><a href="https://www.elsevier.com/books/model-based-system-and-architecture-engineering-with-the-arcadia-method/voirin/978-1-78548-169-7" target="_blank"><img src="images/thumbs/thumb_book_jlvoirin.png" alt="Model-based System<br>and Architecture Engineering with the Arcadia Method" class="lazyload" width="311" height="350"></a></p>
+						<div>
+							<h6 class="text-uppercase txt_lightest_grey txt_weight_300">Jean-Luc Voirin</h6>
+							<h4>Model-based System<br>and Architecture Engineering<br>with the Arcadia Method</h4>
+							<p><a class="btn btn-default wow fadeInUp" data-wow-delay=".6s" href="https://www.elsevier.com/books/model-based-system-and-architecture-engineering-with-the-arcadia-method/voirin/978-1-78548-169-7">Read More</a></p>
+						</div>
+					</div>
+					<div class="col-sm-4 col-xs-12 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+					   <p><a href="https://www.elsevier.com/books/systems-architecture-modeling-with-the-arcadia-method/roques/978-1-78548-168-0" target="_blank"><img src="images/thumbs/thumb_book_proques.png" alt="Systems Architecture Modeling with the Arcadia Method - A Practical Guide to Capella Modeling Tool" class="lazyload" width="311" height="350"></a></p>
+					   <div>
+							<h6 class="text-uppercase txt_lightest_grey txt_weight_300">Pascal Roques</h6>
+							<h4>Systems Architecture Modeling with the Arcadia Method - A Practical Guide to Capella Modeling Tool</h4>
+							<p><a class="btn btn-default wow fadeInUp" data-wow-delay=".6s" href="https://www.elsevier.com/books/systems-architecture-modeling-with-the-arcadia-method/roques/978-1-78548-168-0">Read More</a></p>
+					   </div>
+					</div>
+				</div>
+			</div>
+		</section>
 		<!-- #books -->
         <!--
         ==================================================
@@ -209,7 +237,7 @@
                  <h2 class="title wow fadeInDown" data-wow-delay=".3s">Case-Studies</h2>
                    <div class="row">
                        <div class="col-sm-4 col-xs-12 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="0ms">
-                         <p><a href="resources/pdf/Case_Study_Rolls_Royce.pdf"><img data-src="images/thumbs/thumb_casestudy_rollsroyce.png" alt="Rolls Royce" class="lazyload"></a></p>
+                         <p><a href="resources/pdf/Case_Study_Rolls_Royce.pdf"><img data-src="images/thumbs/thumb_casestudy_rollsroyce.png" alt="Rolls Royce" class="lazyload" width="297" height="281"></a></p>
                             <div>
                                 <h6 class="text-uppercase txt_lightest_grey txt_weight_300">Aviation</h6>
                                 <h4>Rolls Royce</h4>
@@ -219,7 +247,7 @@
                             </div>
                     	  </div>
                       <div class="col-sm-4 col-xs-12 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="0ms" >
-                         <p><a href="resources/pdf/Case_Study_ArianeGroup.pdf"><img data-src="images/thumbs/thumb_casestudy_arianegroup.png" alt="Ariane Group" class="lazyload"></a></p>
+                         <p><a href="resources/pdf/Case_Study_ArianeGroup.pdf"><img data-src="images/thumbs/thumb_casestudy_arianegroup.png" alt="Ariane Group" class="lazyload" width="297" height="281"></a></p>
                             <div>
                                 <h6 class="text-uppercase txt_lightest_grey txt_weight_300">Aerospace</h6>
                                 <h4>ArianeGroup</h4>
@@ -229,7 +257,7 @@
                             </div>
                     	</div>
                     	<div class="col-sm-4 col-xs-12 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="0ms" >
-                         <p><a href="resources/pdf/Case_Study_AutonomousTrain.pdf"><img data-src="images/thumbs/thumb_casestudy_autonomoustrain.png" alt="Railway" width="337" class="lazyload"></a></p>
+                         <p><a href="resources/pdf/Case_Study_AutonomousTrain.pdf"><img data-src="images/thumbs/thumb_casestudy_autonomoustrain.png" alt="Railway" width="337" class="lazyload" width="297" height="281"></a></p>
                             <div>
                                 <h6 class="text-uppercase txt_lightest_grey txt_weight_300">Railway</h6>
                                 <h4>Autonomous Train Project</h4>
@@ -242,7 +270,7 @@
                 <p>&nbsp;</p><p>&nbsp;</p>
                 <div>
                     <div class="col-sm-4 col-xs-12 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="0ms">
-	                    <p><a href="resources/pdf/Case_Study_Framatome.pdf"><img data-src="images/thumbs/thumb_casestudy_framatome.png" alt="Framatome" class="lazyload"></a>
+	                    <p><a href="resources/pdf/Case_Study_Framatome.pdf"><img data-src="images/thumbs/thumb_casestudy_framatome.png" alt="Framatome" class="lazyload" width="297" height="281"></a>
 	                    </p>
 	                    <div>
 	                        <h6 class="text-uppercase txt_lightest_grey txt_weight_300">Energy</h6><h4>Framatome</h4>
@@ -252,7 +280,7 @@
 	                    </div>
                     </div>
                     <div class="col-sm-4 col-xs-12 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="0ms">
-	                    <p><a href="resources/pdf/Case_Study_Continental.pdf"><img data-src="images/thumbs/thumb_casestudy_continental.png" alt="Continental" class="lazyload"></a>
+	                    <p><a href="resources/pdf/Case_Study_Continental.pdf"><img data-src="images/thumbs/thumb_casestudy_continental.png" alt="Continental" class="lazyload" width="297" height="281"></a>
 	                    </p>
 	                    <div>
 	                        <h6 class="text-uppercase txt_lightest_grey txt_weight_300">Automotive</h6>
@@ -263,7 +291,7 @@
 	                    </div>
                     </div>
                     <div class="col-sm-4 col-xs-12 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="0ms">
-	                    <p><a href="resources/pdf/Case_Study_CNES.pdf"><img data-src="images/thumbs/thumb_casestudy_cnes.png" alt="CNES" class="lazyload"></a>
+	                    <p><a href="resources/pdf/Case_Study_CNES.pdf"><img data-src="images/thumbs/thumb_casestudy_cnes.png" alt="CNES" class="lazyload" width="297" height="281"></a>
 	                    </p>
 	                    <div>
 	                        <h6 class="text-uppercase txt_lightest_grey txt_weight_300">Space</h6>
@@ -285,7 +313,7 @@
                       <h2 class="title wow fadeInDown" data-wow-delay=".3s">Capella in action</h2>
                     <div class="col-sm-4 col-xs-12 wow fadeInLeft video_thumbnail" data-wow-duration="500ms" data-wow-delay="0ms">
                             <p>
-                                <a href="https://youtu.be/OGpHMR_j3AM"><img data-src="images/screenshots/embedded_methodological_guidance.png" alt="Embedded methodological guidance" width="100%" class="lazyload"></a>
+                                <a href="https://youtu.be/OGpHMR_j3AM"><img data-src="images/screenshots/embedded_methodological_guidance.png" alt="Embedded methodological guidance" class="lazyload" width="360" height="220"></a>
                             </p>
                             <div>
                                 <h4><a href="https://youtu.be/OGpHMR_j3AM" target="_blank">Embedded methodological guidance</a></h4>
@@ -293,7 +321,7 @@
                     </div>
                     <div class="col-sm-4 col-xs-12 wow fadeInLeft video_thumbnail" data-wow-duration="500ms" data-wow-delay="0ms">
                             <p>
-                                <a href="https://youtu.be/WtwAzftHd4A" target="_blank"><img data-src="images/screenshots/manage_model_complexity.png" alt="Manage model complexity" width="100%" class="lazyload"></a>
+                                <a href="https://youtu.be/WtwAzftHd4A" target="_blank"><img data-src="images/screenshots/manage_model_complexity.png" alt="Manage model complexity" class="lazyload" width="360" height="220"></a>
                             </p>
                             <div>
                                 <h4><a href="https://youtu.be/WtwAzftHd4A" target="_blank">Manage model complexity</a></h4>
@@ -301,7 +329,7 @@
                     </div>
                     <div class="col-sm-4 col-xs-12 wow fadeInLeft video_thumbnail" data-wow-duration="500ms" data-wow-delay="0ms">
                         <p>
-                                <a href="https://youtu.be/cT43CmZM2go" target="_blank"><img data-src="images/screenshots/multiviewpoint_analysis.png" alt="Multi-viewpoint trade-off analysis" width="100%" class="lazyload"></a>
+                                <a href="https://youtu.be/cT43CmZM2go" target="_blank"><img data-src="images/screenshots/multiviewpoint_analysis.png" alt="Multi-viewpoint trade-off analysis" class="lazyload" width="360" height="220"></a>
                             </p>
                             <div>
                                 <h4><a href="https://youtu.be/cT43CmZM2go" target="_blank">Multi-viewpoint trade-off analysis</a></h4>
@@ -361,22 +389,18 @@
         ================================================== -->
         <ng-include src="'angular/blocks/footer.html'"></ng-include>
         
-         <!-- bootstrap js -->
+        <!-- bootstrap js -->
         <script defer src="js/bootstrap.min.js"></script>
         <!-- wow js -->
         <script defer src="js/wow.min.js"></script>
         <script defer src="js/jquery.fancybox.js"></script>
         <!-- template main js -->
         <script defer src="js/main.js"></script>
-        <script defer src="js/googleAnalytics.js" ></script>
-        <script src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js"></script>
-        <!-- Eclipse Foundation Google Tag Manager -->
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-5WLCZXC');</script>
-        <!-- End Google Tag Manager -->
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-57722280-1"></script>
+		<script async src="js/googleAnalytics.js"></script>
+        
+        <script async src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js"></script>
         <!-- modernizr js -->
         <script defer src="js/vendor/modernizr-2.6.2.min.js"></script>
     </body>

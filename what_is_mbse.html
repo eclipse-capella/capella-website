@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html lang="en" class="no-js">
     <head>
     	<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -34,13 +34,9 @@
         <!-- responsive css -->
         <link rel="stylesheet" href="css/responsive.css">
         <link rel="stylesheet" href="css/latofonts.css">
-        
-        <script src="https://use.fontawesome.com/b51f77a16a.js"></script>
-        
+                
         <!-- Cookie content -->
         <link rel="stylesheet" type="text/css" href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
-        <script src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js"></script>
-        
         <!-- Eclipse Foundation Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -56,17 +52,10 @@
 		<script src="js/angular-1.7.8.min.js"></script>
 		<script src="angular/capella.js"></script>
 
-        <!-- modernizr js -->
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
         <!-- jquery -->
         <script src="js/jquery-3.4.1.min.js"></script>
-        <!-- bootstrap js -->
-        <script src="js/bootstrap.min.js"></script>
-        <!-- wow js -->
-        <script src="js/wow.min.js"></script>
-        <script src="js/jquery.fancybox.js"></script>
-        <!-- template main js -->
-        <script src="js/main.js"></script>
+        <script defer src="https://kit.fontawesome.com/16cf99803e.js" crossorigin="anonymous"></script>
+        
     </head>
     <body ng-app="capella" data-deferred-cloak>
 		<!-- Google Tag Manager (noscript) -->
@@ -176,7 +165,20 @@
         Footer Section
         ================================================== -->
         <ng-include src="'angular/blocks/footer.html'"></ng-include>
-        <script async src="js/googleAnalytics.js" ></script>
+		
+		 <!-- bootstrap js -->
+        <script defer src="js/bootstrap.min.js"></script>
+        <!-- wow js -->
+        <script defer src="js/wow.min.js"></script>
+        <script defer src="js/jquery.fancybox.js"></script>
+        <!-- template main js -->
+        <script defer src="js/main.js"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-57722280-1"></script>
+		<script async src="js/googleAnalytics.js"></script>
         
+        <script async src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js"></script>
+        <!-- modernizr js -->
+        <script defer src="js/vendor/modernizr-2.6.2.min.js"></script>        
     </body>
 </html>
