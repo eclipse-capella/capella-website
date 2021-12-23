@@ -131,6 +131,11 @@
         "items":[
         
         
+        
+        
+        
+        
+        
 	{
                 "title": "Introduction to CAPELLA/ARCADIA and NASA Systems Engineering Handbook: Modeling overview with the HUBBLE Space Telescope.",
                 "descr": "",
@@ -144,6 +149,19 @@
  		"domain": "Aerospace & Defense",
                 "domain_order": "99",
  		"link": "https://youtu.be/pU5LPXCv9J4",
+                "thumb": ""
+            },
+	{
+                "title": "PME + Grand Groupe, retex d'une collaboration réussie sur Capella",
+                "descr": "",
+                "author": "Etienne Juliot (Obeo), Juan Navas (Thales)",
+                "year": "2021",
+                "language": "FR",
+                "topic": "Development",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+ 		"link": "https://youtu.be/6t2Iyvpibhs",
                 "thumb": ""
             },
 	{
