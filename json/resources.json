@@ -67,7 +67,7 @@
             },
             {
                "title": "Slideshow",
-               "descr": "Didactic Capella models ",
+               "descr": "Presentations at events",
                "anchor": "slideshows",
                "icon": "images/icons/icon_slideshows.png"
             },
@@ -131,11 +131,32 @@
         "items":[
         
         
-        
-        
-        
-        
-        
+	{
+                "title": "Connecting Capella to IBM ELM platform (IBM Jazz)",
+                "descr": "",
+                "author": "Laurent Delaigue (Obeo), Philippe Leblanc (Persistent)",
+                "year": "2021",
+                "language": "EN",
+                "topic": "Add-ons",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+ 		"link": "https://youtu.be/rGQ6xFmUiOA",
+                "thumb": ""
+            },
+	{
+                "title": "Connecter Capella à la plateforme IBM ELM (IBM Jazz)",
+                "descr": "",
+                "author": "Laurent Delaigue (Obeo), Philippe Leblanc (Persistent)",
+                "year": "2021",
+                "language": "FR",
+                "topic": "Add-ons",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+ 		"link": "https://youtu.be/Ckiqhk7WplY",
+                "thumb": ""
+            },
 	{
                 "title": "Introduction to CAPELLA/ARCADIA and NASA Systems Engineering Handbook: Modeling overview with the HUBBLE Space Telescope.",
                 "descr": "",
@@ -503,21 +524,6 @@
                 "thumb": ""
             },
 	{
-                "title": "Modeling & Simulation of CubeSat-based Missions' Concept of Operations",
-                "descr": "",
-                "author": "Danilo Pallamin de Almeida",
-                "year": "2021",
-                "language": "EN",
-                "topic": "Business Value",
-                "topic_order": "99",
-                "type": "Slideshow",
-                "type_order": "99",
-                "domain": "Aerospace & Defense",
-                "domain_order": "99",
-                "link": "https://fr.slideshare.net/Obeo_corp/webinar-modeling-simulation-of-cubesatbased-missionsconcept-of-operations",
-                "thumb": ""
-            },
-	{
                 "title": "Using Capella on a Brazilian Nanosat Project",
                 "descr": "",
                 "author": "Giulia Herdres",
@@ -533,21 +539,6 @@
                 "thumb": ""
             },
 	{
-                "title": "Using Capella on a Brazilian Nanosat Project",
-                "descr": "",
-                "author": "Giulia Herdres",
-                "year": "2021",
-                "language": "EN",
-                "topic": "Business Value",
-                "topic_order": "99",
-                "type": "Slideshow",
-                "type_order": "99",
-                "domain": "Aerospace & Defense",
-                "domain_order": "99",
-                "link": "https://fr.slideshare.net/Obeo_corp/capella-webinar-using-capella-on-a-brazilian-nanosat-project",
-                "thumb": ""
-            },
-	{
                 "title": "Towards the single source of truth with Publication for Capella & Cloud for Capella",
                 "descr": "",
                 "author": "Stéphane Lacrampe (Obeo)",
@@ -558,19 +549,6 @@
                 "type": "Video",
                 "type_order": "99",
                 "link": "https://youtu.be/teja1DXXy-0",
-                "thumb": ""
-            },
-	{
-                "title": "Towards the single source of truth with Publication for Capella & Cloud for Capella",
-                "descr": "",
-                "author": "Stéphane Lacrampe (Obeo)",
-                "year": "2021",
-                "language": "EN",
-                "topic": "Add-ons",
-                "topic_order": "99",
-                "type": "Slideshow",
-                "type_order": "99",
-                "link": "https://www.slideshare.net/Obeo_corp/capella-webinar-to-the-single-source-of-truth-with-publication-for-capella-cloud-for-capella",
                 "thumb": ""
             },
 	{
@@ -589,21 +567,6 @@
                 "thumb": ""
             },
 	{
-                "title": "Capella in the preliminary design of the micro launcher ENVOL",
-                "descr": "",
-                "author": "Julien Morane (CT-Ingénierie)",
-                "year": "2021",
-                "language": "EN",
-                "topic": "Business Value",
-                "topic_order": "99",
-                "type": "Slideshow",
-                "type_order": "99",
-                "domain": "Aerospace & Defense",
-                "domain_order": "99",
-                "link": "https://fr.slideshare.net/Obeo_corp/capella-webinar-casestudy-by-ctingnierie-capella-in-the-preliminary-design-of-the-micro-launcher-envol",
-                "thumb": ""
-            },
-	{
                 "title": "What's New: Capella 2021 Annual Message",
                 "descr": "",
                 "author": "Juan Navas (Thales)",
@@ -614,19 +577,6 @@
                 "type": "Video",
                 "type_order": "99",
                 "link": "https://youtu.be/aIBVZtY_Wnw",
-                "thumb": ""
-            },
-	{
-                "title": "What's New: Capella 2021 Annual Message",
-                "descr": "",
-                "author": "Juan Navas (Thales)",
-                "year": "2021",
-                "language": "EN",
-                "topic": "Learning More",
-                "topic_order": "99",
-                "type": "Slideshare",
-                "type_order": "99",
-                "link": "https://fr.slideshare.net/Obeo_corp/capella-webinar-capella-annual-meeting-2021",
                 "thumb": ""
             },
 	{
@@ -977,11 +927,11 @@
                 "language": "EN",
                 "topic": "Business Value",
                 "topic_order": "99",
-                "type": "Slideshow",
+                "type": "Video",
                 "type_order": "99",
                 "domain": "Automotive",
                 "domain_order": "99",
-                "link": "https://fr.slideshare.net/Obeo_corp/capella-webinar-experiences-with-collaborative-system-architecture-development-within-a-joint-venture-organization",
+                "link": "https://youtu.be/2vYEp7JLtx8",
                 "thumb": ""
             },
             {
@@ -1387,19 +1337,6 @@
                 "type": "Video",
                 "type_order": "99",
                 "link": "https://youtu.be/eUzQYqP7ZDc",
-                "thumb": ""
-            },
-            {
-                "title": "Writing perfect textual requirements in Capella MBSE Tool",
-                "descr": "",
-                "author": "José Fuentes (The Reuse Company)",
-                "year": "2020",
-                "language": "EN",
-                "topic": "Add-ons",
-                "topic_order": "99",
-                "type": "Slideshow",
-                "type_order": "99",
-                "link": "https://fr.slideshare.net/Obeo_corp/capella-webinar-writing-perfect-textual-requirements",
                 "thumb": ""
             },
             {
