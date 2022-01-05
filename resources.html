@@ -147,7 +147,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							var descr = " ";
 							category_anchor = "<div class='col-md-2 col-xs-12'><a class='wow smooth-scroll' href='resources.html#topic-" + data.resources.topics[i].anchor + "' data-row='#topic-" + data.resources.topics[i].anchor + "'><img src='" + data.resources.topics[i].icon + "' /><p>" + data.resources.topics[i].title + "</p></a></div>";
 							title += "<h3>" + data.resources.topics[i].title + "</h3>";
-							descr += "<span class='descr txt_indigo'>" + data.resources.topics[i].descr + "</span><span class='fa fa-caret-down txt_yellow'>&nbsp;</span></a></div>";
+							descr += "<span class='descr txt_indigo'>" + data.resources.topics[i].descr + "</span><span class='fas fa-caret-down txt_yellow'>&nbsp;</span></a></div>";
 							accordion_heading += "<div class='accordion-heading'><a class='accordion-toggle collapsed' data-toggle='collapse' data-parent='#types_accordion' href='#"
 							+ data.resources.topics[i].anchor + "'>" + title + descr;
 							data.resources.items.sort(GetSortOrder("topic_order"));
@@ -188,7 +188,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							var descr = " ";
 							category_anchor = "<div class='col-md-2 col-xs-12'><a class='wow smooth-scroll' href='resources.html#type-" + data.resources.types[k].anchor + "' data-row='#type-" + data.resources.types[k].anchor + "'><img src='" + data.resources.types[k].icon + "' /><p>" + data.resources.types[k].title + "</p></a></div>";
 							title += "<h3>" + data.resources.types[k].title + "</h3>";
-							descr += "<span class='descr txt_indigo'>" + data.resources.types[k].descr + "</span><span class='fa fa-caret-down txt_yellow'>&nbsp;</span></a></div>";
+							descr += "<span class='descr txt_indigo'>" + data.resources.types[k].descr + "</span><span class='fas fa-caret-down txt_yellow'>&nbsp;</span></a></div>";
 							accordion_heading += "<div class='accordion-heading'><a class='accordion-toggle collapsed' data-toggle='collapse' data-parent='#topics_accordion' href='#"
 							+ data.resources.types[k].anchor + "'>" + title + descr;
 							data.resources.items.sort(GetSortOrder("type_order"));
@@ -229,7 +229,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							var descr = " ";
 							category_anchor = "<div class='col-md-2 col-xs-12'><a class='wow smooth-scroll' href='resources.html#domain-" + data.resources.domains[d].anchor + "' data-row='#domain-" + data.resources.domains[d].anchor + "'><img src='" + data.resources.domains[d].icon + "' /><p>" + data.resources.domains[d].title + "</p></a></div>";
 							title += "<h3>" + data.resources.domains[d].title + "</h3>";
-							descr += "<span class='descr txt_indigo'>" + data.resources.domains[d].descr + "</span><span class='fa fa-caret-down txt_yellow'>&nbsp;</span></a></div>";
+							descr += "<span class='descr txt_indigo'>" + data.resources.domains[d].descr + "</span><span class='fas fa-caret-down txt_yellow'>&nbsp;</span></a></div>";
 							accordion_heading += "<div class='accordion-heading'><a class='accordion-toggle collapsed' data-toggle='collapse' data-parent='#types_accordion' href='#"
 							+ data.resources.domains[d].anchor + "'>" + title + descr;
 							for (var e in data.resources.items) {

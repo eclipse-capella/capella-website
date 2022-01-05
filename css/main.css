@@ -785,7 +785,7 @@ td.vertical_align_top {vertical-align:top;}
 	color: #FBBF52;
 	margin-bottom: 5px; 
 }
-.dropdown_content .fa-plus, .dropdown_content .fa-caret-down {
+.fa-caret-down {
     float: right;
     font-size: 25px;
     font-weight: initial;

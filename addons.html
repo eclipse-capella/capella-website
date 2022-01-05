@@ -205,7 +205,7 @@
 						 let addonName = addon.isViewpoint ? addon.name + " Viewpoint" : addon.name;
 						 let fragment = addon.fragment != undefined ? addon.fragment : addon.key;
 						 
-						 let dropdown = '<div class="accordion-heading"><a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#{0}"><h3>{1}</h3><span class="fa fa-caret-down txt_yellow">&nbsp;</span><span class="descr txt_lightest_grey">{2}</span></a></div>'.format(fragment, addonName, header);
+						 let dropdown = '<div class="accordion-heading"><a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#{0}"><h3>{1}</h3><i class="fas fa-caret-down txt_yellow" aria-hidden="true">&nbsp;</i><span class="descr txt_lightest_grey">{2}</span></a></div>'.format(fragment, addonName, header);
 
 						 let sections = keys.filter(function(k) { return data.lang[k].target == "_expand" }).map(function(k) {
 							let div = '<div class="collapse notes-section" id="collapse-notes-'+addon.key+'"><h3>'+data.lang[k].text+'</h3>'+createKeysLinks(data, addon, addon.download[k])+addon.download[k]["notes"]+'</div>';
