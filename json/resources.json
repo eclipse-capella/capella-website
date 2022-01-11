@@ -129,7 +129,19 @@
 	    }
         ],
         "items":[
-        
+	    {
+			"title": "Scripting with Python to interact with Capella model",
+			"descr": "",
+			"author": "Sophie Plazanet (Thales Group), Arnaud Dieumegard (Obeo)",
+			"year": "2021",
+			"language": "EN",
+			"topic": "Add-ons",
+			"topic_order": "99",
+			"type": "Video",
+			"type_order": "99",
+			"link": "https://youtu.be/-LEx-stcAHA",
+			"thumb": ""
+		},    
         
 	{
                 "title": "Connecting Capella to IBM ELM platform (IBM Jazz)",
