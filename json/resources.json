@@ -129,6 +129,36 @@
 	    }
         ],
         "items":[
+		{
+            "title": "Hubble Space Telescope - Sample Model",
+            "descr": "",
+            "author": "Rémy Drouin",
+            "year": "2022",
+            "language": "EN",
+            "topic": "Getting Started",
+            "topic_order": "99",
+            "type": "Sample Model",
+            "type_order": "99",
+     		"domain": "Aerospace & Defense",
+            "domain_order": "99",
+            "link": "https://github.com/DROUINRemy/hubble-capella-sample",
+            "thumb": ""
+        },
+		{
+            "title": "Capella (once again) in space, meeting nanosatellites",
+            "descr": "",
+            "author": "Jonathan Lasalle (Artal / Magellium)",
+            "year": "2022",
+            "language": "EN",
+            "topic": "Business Value",
+            "topic_order": "99",
+            "type": "Video",
+            "type_order": "99",
+     		"domain": "Aerospace & Defense",
+            "domain_order": "99",
+            "link": "https://youtu.be/_KemiYQ7w70",
+            "thumb": ""
+        },
 	    {
 			"title": "Scripting with Python to interact with Capella model",
 			"descr": "",
@@ -142,8 +172,7 @@
 			"link": "https://youtu.be/-LEx-stcAHA",
 			"thumb": ""
 		},    
-        
-	{
+		{
                 "title": "Connecting Capella to IBM ELM platform (IBM Jazz)",
                 "descr": "",
                 "author": "Laurent Delaigue (Obeo), Philippe Leblanc (Persistent)",
@@ -153,7 +182,7 @@
                 "topic_order": "99",
                 "type": "Video",
                 "type_order": "99",
- 		"link": "https://youtu.be/rGQ6xFmUiOA",
+ 				"link": "https://youtu.be/rGQ6xFmUiOA",
                 "thumb": ""
             },
 	{
@@ -220,7 +249,7 @@
                 "topic_order": "99",
                 "type": "Video",
                 "type_order": "99",
- 		"domain": "Railway",
+ 				"domain": "Railway",
                 "domain_order": "99",
                 "link": "https://youtu.be/chPcHLk-iHw",
                 "thumb": ""
@@ -235,7 +264,7 @@
                 "topic_order": "99",
                 "type": "Video",
                 "type_order": "99",
- 		"domain": "Energy",
+ 				"domain": "Energy",
                 "domain_order": "99",
                 "link": "https://youtu.be/-tRun6er-N4",
                 "thumb": ""
