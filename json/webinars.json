@@ -1,0 +1,105 @@
+{
+"_comment": "Les ressources sont affichées par ordre d'ajout dans le fichier qui doit être par l'importance qu'on veut afficher'",
+"webinars":
+    {
+        "items":[		
+		{
+            "title": "Capella (once again) in space, meeting nano-satellites",
+			"date": "January 2022",
+			"anchor": "2022_01_20",
+            "author": "Jonathan Lasalle (Artal / Magellium)",
+            "language": "EN",
+            "descr": "<p>Previously, Capella models (slightly extended by new features dedicated to system test specification) was used by the French Space Agency (CNES) to demonstrate that the current document-centric process could be improved. Applied on the “Space Variable Objects Monitor (SVOM)” operational use case, it helped the CNES in the definition and the validation of its future space system dedicated to the gamma ray detection and study.</p><p>Proof being made, Kineis, created by the CNES and the CLS, reiterates the experience and continues to make it a strategic technology for science. Its current challenge is to add 25 state-of-the-art nano-satellites to the existing system to enhance IoT capabilities and address new markets. In line with the CNES Capella experience, Kineis decided to build its “System Test” process on Capella.</p> <p>The extendibility and the flexibility of Capella nevertheless allowed them to carry on the previously initiated toolchain in order to cover the full process and support more use cases</p>",
+            "bio": "Jonathan Lasalle is in charge of MBSE-related activities at Artal / Magellium and he is architect of the Citrus framework dedicated to model-based test mean engineering.",
+     		"utube_link": "https://www.youtube.com/watch?v=_KemiYQ7w70&list=PLfrEYVpSGVLxEFRODSWUTP8N5i3NTG4o-&index=1",
+			"slides_link": "https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbHl0R0dWVFhKMHdxbDEwLUlmaVFNVVQ1a1J4UXxBQ3Jtc0tsdmhfcEdhaTE5ZEtIWDh1b3NieVM2ZF9pUTJ0YXBfWTl2WDg5MTBFSFFTY21jNFYwZjNXU1VwMEc1QXRVTFBvMGxnc1dabnFFM3luX3VDcldfVmw4SWpwRnRmQ0MyMFduTkJjbHVNUHZtVXotendNYw&q=https%3A%2F%2Fwww.slideshare.net%2FObeo_corp%2Fcapella-webinar-capella-once-again-in-space-meeting-nanosatellites",
+            "tag": "how-to"
+        },
+		{
+            "title": "Python for Capella",
+			"date": "December, 2021",
+			"anchor": "2021_12_16",
+            "author": "Sophie Plazanet (Thales Group) and Arnaud Dieumegard (Obeo)",
+            "language": "EN",
+            "descr": "2022, here we are! It's the perfect time to take a look back at 2021 and make plans for 2022! In this webinar, Juan Navas will present the major events of 2021, the roadmap for 2022, and the main features included in the latest version of Capella.",
+            "bio": "Sophie Plazanet: <ul><li>MBSE Specialist at Thales</li><li>Master of Engineering & Master of Research in Advanced Systems & Robotics – Arts & Métiers ParisTech</li></ul>.<br> Arnaud Dieumegard:<ul><li>Eclipse Modeling Consultant at Obeo</li><li>Ph.D. in Reliability for Systems and Software - INP Toulouse</li></ul>",
+     		"utube_link": "https://www.youtube.com/watch?v=-LEx-stcAHA&list=PLfrEYVpSGVLxEFRODSWUTP8N5i3NTG4o-&index=2",
+			"slides_link": "https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbU1SaHo2OWJrX3ZFb1FDdEFubW5jQnU3VFFZUXxBQ3Jtc0ttYlQtc3lSOEFIbDFZdk9YemZuVTV1UXpJMWJ2c1JRejlBSlFoeGxqaFJQYUhBc3VSVTNjM1BacldXVllUZ09KeVEwaG1sOVVmQ2JwN1NIS0o2ektEdFNjczM1R1B5Q0E3alpEX01ZY3EwelFCNHhHbw&q=https%3A%2F%2Fwww.slideshare.net%2FObeo_corp%2Fcapella-webinar-pyhton4capella",
+            "tag": "Add-on"
+        },
+		{
+            "title": "What if you could simulate your Capella model ?",
+			"date": "September, 2021",
+			"anchor": "2021_09_02",
+            "author": "Pierre Nowodzienski (Thales Group)",
+            "language": "EN",
+            "descr": "<p>When designing increasingly complex systems, engineers need to master the behavior of the solution they will deliver, throughout the engineering life-cycle.</p><p>Arcadia and Capella MBSE practices allow them to share a common understanding of the foreseen solution and to secure the solution definition. In some cases, engineers need to execute their architecture models to early validate the specified behavior, to perform architecture tradeoffs and to provide a reference for further implementation.</p><p>This webinar presented how we address these needs by coupling the best-in-class architectural design practices provided by Capella with the powerful simulation capabilities provided by Matlab & Simulink.</p>",
+            "bio": "Pierre Nowodzienski: <ul><li>MBSE, Simulation & Digital Twin Expert - Thales</li><li>Master of Engineering - ENSEA</li></ul>",
+     		"utube_link": "https://www.youtube.com/watch?v=-LEx-stcAHA&list=PLfrEYVpSGVLxEFRODSWUTP8N5i3NTG4o-&index=3",
+			"slides_link": "https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbWdzRVlIMzBGY1JhRG11X3JXa0tVWVQ0bmZld3xBQ3Jtc0tta21XVWNZNmpLT3lZLTJRYnNib1k2Z1h2bHg0YmNpQjF2QW9KVU9sSENYeVU5NVVUOFZ6YXJWNHNrSDVYYlJSY2wwSk9LaEtQMVhPRTUzSUlYbkJoQlRrS0dQRmxWUThfSkhEZ2plcVhZekh1VTVXZw&q=https%3A%2F%2Fwww.slideshare.net%2Fsecret%2FMco3xiApmnornJ",
+            "tag": "Add-on & Simulation"
+        },
+		{
+            "title": "Modeling & Simulation of CubeSat-based Missions'Concept of Operations",
+			"date": "July, 2021",
+			"anchor": "2021_07_01",
+            "author": "Danilo Pallamin de Almeida",
+            "language": "EN",
+            "descr": "<p>Discover how Arcadia/Capella is used to model and simulate concept of operations scenarios for CubeSat-based missions. During this webinar, Danilo Pallamin de Almeida, who worked as a Space Systems Engineer for the NanosatC-BR2 mission at INPE, the Brazilian Institute for Space Research, will present how CubeSat-based missions have been modeled with Capella.</p><p>The model describing an initial architecture mission and concept of operations (CONOPS) is used to generate a script that configures a satellite simulator with the corresponding mission parameters.</p><p>You will see how it allows the INPE to:</p><ul><li>run concept of operations scenarios simulations,</li><li>use the results for power/data-budget analyses and trade studies</li></ul>",
+            "bio": "Danilo Pallamin de Almeida: <ul><li>MSc. Space Systems Engineering and Management - INPE</li><li>Mechatronics Engineer - EESC/USP</li><li>Systems Engineer - EnduroSat</li></ul>",
+     		"utube_link": "https://www.youtube.com/watch?v=-LEx-stcAHA&list=PLfrEYVpSGVLxEFRODSWUTP8N5i3NTG4o-&index=4",
+			"slides_link": "https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbXRzS2tGOGk3NXlQZEtvUmhwZVAyQ09kcFNkUXxBQ3Jtc0trM29FN2R3bnpJOWhnZWxXS2dYUUN6WU1LdzlwU0NhaHNiMUZUMFFIUkJFN2t6T0x4LWVpSHc3NXNPSlFQUWVLX293MndqRXF2MnJBV2loekFQUzZacFM2OExjNEFYSnZfUTg5YlZXaldSSmZlSjB5SQ&q=https%3A%2F%2Fwww.slideshare.net%2FObeo_corp%2Fwebinar-modeling-simulation-of-cubesatbased-missionsconcept-of-operations",
+            "tag": "Space, Simulation & Case-study"
+        },    
+		{
+            "title": "Using Capella on a Brazilian Nanosat Project",
+			"date": "Juin, 2021",
+			"anchor": "2021_06_10",
+            "author": "Giulia Herdies",
+            "language": "EN",
+            "descr": "<p>With two nano satellites already in operation (NANOSATC-BR1 and NANOSATC-BR2), the Brazilian National Institute for Space Research (INPE-MCTI) is currently in the conceptual phase of a third mission (NANOSATC-BR3).</p><p>Giulia Herdies from the Federal University of Santa Maria in Brazil, will present how the Capella tool and the Arcadia method are used in the second phase of the project, to develop the concept of this mission.</p><p>During this webinar, she explains:</p><ul><li>Why the use of MBSE is vital for development of the conceptual phase, by allowing a global understanding of the mission by all involved.</li><li>How stakeholders' needs and project restrictions were broken down within the operational, functional and physical aspects, which resulted in a preliminary definition of a viable concept solution.</li></ul>",
+            "bio": "Giulia Herdies is Aerospace Engineer Student at the Federal University of Santa Maria in Brazil",
+     		"utube_link": "https://www.youtube.com/watch?v=-LEx-stcAHA&list=PLfrEYVpSGVLxEFRODSWUTP8N5i3NTG4o-&index=5",
+			"slides_link": "https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbmtqSkxJNXpDZG9LeEJkcGxwZVBPVDBqYkJtd3xBQ3Jtc0tuRng5QnVIWFVGTG5STk1rRlZsTFZEUUdzMnpFV19fM2w0ZFd3WWNKTTJva1ZSRkdOb2ZlOTJVaFYyblZ4NXFfaVVoUDd3ZTdDM3dSTHMxaUpDNE45MTBTRTJodU42MWh1SnFRMXBEejRFV2VvalNWYw&q=https%3A%2F%2Fwww.slideshare.net%2FObeo_corp%2Fcapella-webinar-using-capella-on-a-brazilian-nanosat-project",
+            "tag": "Space & Case-study"
+        }, 
+		{
+            "title": "Towards the single source of truth with Publication & Cloud for Capella",
+			"date": "May, 2021",
+			"anchor": "2021_05_27",
+            "author": "Stéphane Lacrampe (Obeo)",
+            "language": "EN",
+            "descr": "<p>The Capella tool, through multiple feedbacks and its rapid adoption by the systems engineers community, constitutes a major enabler for the success of this journey. The Arcadia method plays a significant role, by offering a pragmatic vision of MBSE, centered on the practices and concerns of systems engineers.</p><p>The holy grail of the single source of truth is at hand. But a tool like Capella is part of a larger ecosystem of engineering tools. The next challenge is now to make this repository of system data available to all stakeholders and to break down the silos between our engineering activities.</p><p>This webinar, after having introduced the problem, will illustrate how Publication for Capella and Cloud for Capella contribute to making the single source of truth a dream come true.</p>",
+            "bio": "Co-founder of Obeo, Stéphane Lacrampe is the director of the North American subsidiary of Obeo in Vancouver, Canada.<br>MBSE enthusiast Arcadia/Capella evangelist, and Open Source advocate, Stéphane is also an active INCOSE member.",
+     		"utube_link": "https://www.youtube.com/watch?v=-LEx-stcAHA&list=PLfrEYVpSGVLxEFRODSWUTP8N5i3NTG4o-&index=6",
+			"slides_link": "https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbnBkSFAyR1Z4bkxXZWpHWUpocm14R0FWeEVLQXxBQ3Jtc0tselEwYnBIYzlBeXNPWDVyQW03YjZqd3BJMF9OVUxJalpkaS1ocEwwbVk5dHp0Nk5tUXliUldPLTRuWm1tbUxrdEx1TjBaRVdBRzJTQ2xqWHdtOFVaTGNoZXV5THhPWmpaRi1xMXVTUnU2WVZCS0N5aw&q=https%3A%2F%2Fwww.slideshare.net%2FObeo_corp%2Fcapella-webinar-to-the-single-source-of-truth-with-publication-for-capella-cloud-for-capella",
+            "tag": "Add-on"
+        },
+		{
+            "title": "Capella in the preliminary design of the micro launcher ENVOL ",
+			"date": "March, 2021",
+			"anchor": "2021_03_25",
+            "author": "Julien Morane (CT Ingenierie)",
+            "language": "EN",
+            "descr": "<p>Discover why Capella has been chosen by CT Ingenierie and its partners, and how it has been deployed for guaranteeing the correct coordination between teams, requirement following, and for a rigorous description of the sub-systems developed by their partners.</p><p>CT Ingenierie is involved in the ENVOL project (European Newspace Vertical Orbital Launcher). Developing a small launch vehicle enabling cheap, frequent, and flexible access to the Low Earth Orbit.</p> <p>What is project ENVOL? The EU-funded ENVOL project intends to establish the first European commercial, competitive and green launch service.</p> <p>The project will designate an innovative and industrial low-cost launch system, then demonstrate and advance crucial launcher technologies to guarantee market preparedness and competitiveness, then prepare a business plan and identify the institutions able to attract investments.</p>",
+            "bio": "Julien Morane is a system engineer in charge of the deployment of the MBSE activities in support of the CT Paris innovation projects for the space sector.",
+     		"utube_link": "https://www.youtube.com/watch?v=-LEx-stcAHA&list=PLfrEYVpSGVLxEFRODSWUTP8N5i3NTG4o-&index=7",
+			"slides_link": "https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbWFKU1N2UlJmWl9Gb05GVHpYRjlMQXcyTlo5UXxBQ3Jtc0tra1FNQzNZTnF6MmUweFY3d3NuQkc3aGdWXzdOQXdVR0RXM1R0b0NoeGw5X0NxQWhTSVZLUXg1SlVZQVpxUWZSYjV1VHZaYVZNOERYdWRKTXpZdDV2bDJDUlBKZWNacEh4a2pXMld3ZEdUc09fcjgzOA&q=https%3A%2F%2Fwww.slideshare.net%2FObeo_corp%2Fcapella-webinar-casestudy-by-ctingnierie-capella-in-the-preliminary-design-of-the-micro-launcher-envol",
+            "tag": "Space & Case-study"
+        }, 
+		{
+            "title": "What's New: Capella 2021 Annual Message",
+			"date": "February, 2021",
+			"anchor": "2021_02_25",
+            "author": "Juan Navas, Modelling & Simulation Lead Expert (Thales)",
+            "language": "EN",
+            "descr": "<p>Looking back at 2020 and forward into 2021.</p><p>In this webinar, Juan Navas will present the major milestones of 2020, the main features included in the brand new Capella 5.0, and the perspectives on the Capella ecosystem.</p><p>Juan Navas is MBSE Expert in Thales Corporate Engineering. He leads the team that accompanies managers and architects implement MBSE practices on operational projects to improve their engineering performance.<br>He is a System Architect with +10 years’ experience, he holds a PhD in Computer Science, an MSc in control and computer science, and Electronics and Electrical Engineering Degrees.</p>",
+            "bio": "<a href='https://www.linkedin.com/in/junavas/'>Juan Navas</a> is MBSE Expert in Thales Corporate Engineering. He leads the team that accompanies managers and architects implement MBSE practices on operational projects to improve their engineering performance.<br>He is a System Architect with +10 years’ experience, he holds a PhD in Computer Science, an MSc in control and computer science, and Electronics and Electrical Engineering Degrees.",
+     		"utube_link": "https://www.youtube.com/watch?v=-LEx-stcAHA&list=PLfrEYVpSGVLxEFRODSWUTP8N5i3NTG4o-&index=8",
+			"slides_link": "https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbGJ0VHlRTmpoMkpZdkV2Y2pqM1FtOUpzaEhnZ3xBQ3Jtc0trcjMydmo1ZDZzU2h2Nk1SUm1CVmZLejJMUlNkV3l0UmI1Rlc1dlZ5MzRrR0JValIwMC03d3RUWmthN2dnblpZbUJ0djVkS3poTTl1U21EZ18xYVc0ZmRmMUFoT1BLOVY4YVg2V3FDOEJxTWtubUU3VQ&q=https%3A%2F%2Fwww.slideshare.net%2FObeo_corp%2Fcapella-webinar-capella-annual-meeting-2021",
+            "tag": "Roadmap"
+        }
+        ]
+    }
+}
+

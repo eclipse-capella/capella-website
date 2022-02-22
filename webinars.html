@@ -108,21 +108,6 @@
 					<h1 class="title wow fadeInDown" data-wow-delay=".3s">Upcoming Webinars</h1>
 				</div>
 				<div class="accordion-group">
-					<div class="accordion-heading"><a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#2022_02_17">
-						<h3>System of Systems Modeling with Capella</h3>
-						<span class="fas fa-caret-down txt_yellow" aria-hidden="true">&nbsp;</span>
-						<span class="descr txt_lightest_grey"><i class="far fa-calendar-alt"></i>&nbsp;February 17th, 2022 | 5PM CET | <i class="fa fa-user-alt"></i>&nbsp; Tony Komar (Siemens)&nbsp;</span></a>
-						<button class="tag">HOW-TO</button>
-					</div>
-					<div id="2022_02_17" class="accordion-body collapse" style="height: 0px;">
-						<div class="accordion-inner">
-							<p>System of Systems modeling comes with a tough decision for practitioners using traditional SysML V1 tools. Do I go with SysML V1, or do I look at Unified Architecture Framework? Capella eliminates that challenge with one notation that can be used for both. </p>
-							<p><i><b><a href="https://www.linkedin.com/in/tony-komar/">Tony Komar</a></b> has been practicing and supporting systems engineering for over 35 years. He is a key contributor to the development and deployment of model-based system engineering products for Siemens Digital Industries Software.</i></p>
-							<a class="btn btn-default" href="https://bit.ly/capella_webinar_220217_register2">Register now&nbsp;<i class="fa fa-external-link"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="accordion-group">
 					<div class="accordion-heading"><a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#2022_03_15">
 						<h3>Capella Annual Message</h3>
 						<span class="fas fa-caret-down txt_yellow" aria-hidden="true">&nbsp;</span>
@@ -143,31 +128,84 @@
 		</div>
 </section>
 
-<section class="bg_lightest_grey text-center">
+<section class="bg_lightest_grey">
     <div class="container">
         <div class="section-heading">
             <h1 class="title wow fadeInDown" data-wow-delay=".3s">Previous webinars</h1>
         </div>
         <div class="row">
-            <div class="col-sm-4 col-sm-offset-2 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="0ms">
-                <p><img src="images/icons/icon_youtube.png" ></p>
-                    <div>
-                        <h4>Youtube playlist</h4>
-                        <p>Watch all the Capella webinars</p>
-                        <p><a href="https://www.youtube.com/watch?v=Aqz0vaOo_VM&list=PLfrEYVpSGVLxEFRODSWUTP8N5i3NTG4o-" target="_blank">Discover All <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a></p>
-                    </div>
-            </div>
-            <div class="col-sm-4 col-xs-12 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+        	<div id="webinars_accordion" class="accordion dropdown_content"></div>
+      		<script>
+				$.getJSON('json/webinars.json', function(data) {
+					var webinar_accordion_group = " ";
+					var items_categories_row = " ";
+					
+					for (var i in data.webinars.items) {
+						var accordion_body = " ";
+						var accordion_heading = " ";
+						var accordion_inner = " ";
+						var bio = " ";  
+						var title = " ";
+						var descr = " ";
+						var item_infos = " ";
+						var links = " ";
+					 
+					
+						title += "<h3>" + data.webinars.items[i].title + "</h3><span class='descr txt_lightest_grey'></span><span class='fas fa-caret-down txt_yellow'>&nbsp;</span></a></div>";
+			
+						if(data.webinars.items[i].date != ""){
+							item_infos += "<i class='far fa-calendar-alt' aria-hidden='true'></i> " + data.webinars.items[i].date;
+						}
+						if(data.webinars.items[i].author != ""){
+							item_infos += " | <i class='fa fa-user-alt' aria-hidden='true'></i>&nbsp;" + data.webinars.items[i].author;
+						}
+						if(data.webinars.items[i].language != ""){
+							item_infos += " | " + data.webinars.items[i].language;
+						}
+						if(data.webinars.items[i].tag != ""){
+							item_infos += " <button class='tag'>" + data.webinars.items[i].tag + "</button>";
+						}
+				
+						links += "<p><a href='" + data.webinars.items[i].utube_link + "'>Watch the Webinar <i class='pl-2 fa fa-external-link-square' aria-hidden='true'></i></a>&nbsp; &nbsp; &nbsp;<a href='" + data.webinars.items[i].slides_link + "'>Slideshare presentation <i class='pl-2 fa fa-external-link-square' aria-hidden='true'></i></a></p>";
+						
+						accordion_heading += "<div class='accordion-heading'><a class='accordion-toggle collapsed' data-toggle='collapse' data-parent='#webinars_accordion' href='#"
+						+ data.webinars.items[i].anchor + "'>" + title + item_infos;
+						
+						
+						accordion_inner += "<div class='accordion-inner'><p>"
+						+ data.webinars.items[i].descr +  "</p><p><i>" + data.webinars.items[i].bio + "</i></p></div>";
+						
+						
+						accordion_body += "<div id='" + data.webinars.items[i].anchor + "' class='accordion-body collapse'>" + accordion_inner + links + "</div>";
+						webinar_accordion_group += "<div class='accordion-group'>" + accordion_heading + accordion_body + "</div>";
+						}
+						document.getElementById("webinars_accordion").innerHTML = webinar_accordion_group;
+					
+					});
+				</script>
+			<p class="text-center"><a class="btn btn-default" href="https://www.youtube.com/watch?v=-LEx-stcAHA&list=PLfrEYVpSGVLxEFRODSWUTP8N5i3NTG4o-">Discover all the webinars <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+       </div>
+	</div>
+</section>
+       
+
+<section class="text-center">
+    <div class="container">
+        <div class="section-heading">
+            <h1 class="title wow fadeInDown" data-wow-delay=".3s">Previous Webinars presentations</h1>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-xs-12 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
                <p><img src="images/icons/icon_slideshare.png" alt="Capella - Slideshares" ></p>
                <div>
                    <h4>Slideshare clipboard</h4>
                    <p>Check the Capella webinars' slides</p>
-                   <p><a href="https://www.slideshare.net/Obeo_corp/clipboards/capella-webinars" target="_blank">Discover All <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a></p>
+                   <p><a href="https://www.slideshare.net/Obeo_corp/clipboards/capella-webinars">Discover All <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a></p>
                </div>
             </div>
         </div>
     </div>
-</section> <!-- #services -->
+</section>
 	<div id="back-to-top" data-spy="affix" data-offset-top="100" class="back-to-top hidden-xs hidden-sm affix-top">
 		<button class="btn btn-default" title="Back to Top">
 			<i class="fa fa-caret-up"></i>
