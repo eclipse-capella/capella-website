@@ -2,7 +2,19 @@
 "_comment": "Les ressources sont affichées par ordre d'ajout dans le fichier qui doit être par l'importance qu'on veut afficher'",
 "webinars":
     {
-        "items":[		
+        "items":[	
+		{
+            "title": "System of Systems Modeling with Capella",
+			"date": "February 2022",
+			"anchor": "2022_02_17",
+            "author": "Tony Komar (Siemens)",
+            "language": "EN",
+            "descr": "System of Systems modeling comes with a tough decision for practitioners using traditional SysML V1 tools. Do I go with SysML V1, or do I look at Unified Architecture Framework? Capella eliminates that challenge with one notation that can be used for both.",
+            "bio": "Tony Komar has been practicing and supporting systems engineering for over 35 years. He is a key contributor to the development and deployment of model-based system engineering products for Siemens Digital Industries Software.",
+     		"utube_link": "",
+			"slides_link": "https://bit.ly/capella_webinar_220217_slides",
+            "tag": "how-to"
+        },	
 		{
             "title": "Capella (once again) in space, meeting nano-satellites",
 			"date": "January 2022",
@@ -22,7 +34,7 @@
             "author": "Sophie Plazanet (Thales Group) and Arnaud Dieumegard (Obeo)",
             "language": "EN",
             "descr": "2022, here we are! It's the perfect time to take a look back at 2021 and make plans for 2022! In this webinar, Juan Navas will present the major events of 2021, the roadmap for 2022, and the main features included in the latest version of Capella.",
-            "bio": "Sophie Plazanet: <ul><li>MBSE Specialist at Thales</li><li>Master of Engineering & Master of Research in Advanced Systems & Robotics – Arts & Métiers ParisTech</li></ul>.<br> Arnaud Dieumegard:<ul><li>Eclipse Modeling Consultant at Obeo</li><li>Ph.D. in Reliability for Systems and Software - INP Toulouse</li></ul>",
+            "bio": "Sophie Plazanet: <ul><li>MBSE Specialist at Thales</li><li>Master of Engineering & Master of Research in Advanced Systems & Robotics – Arts & Métiers ParisTech.</li></ul> Arnaud Dieumegard:<ul><li>Eclipse Modeling Consultant at Obeo</li><li>Ph.D. in Reliability for Systems and Software - INP Toulouse</li></ul>",
      		"utube_link": "https://www.youtube.com/watch?v=-LEx-stcAHA&list=PLfrEYVpSGVLxEFRODSWUTP8N5i3NTG4o-&index=2",
 			"slides_link": "https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbU1SaHo2OWJrX3ZFb1FDdEFubW5jQnU3VFFZUXxBQ3Jtc0ttYlQtc3lSOEFIbDFZdk9YemZuVTV1UXpJMWJ2c1JRejlBSlFoeGxqaFJQYUhBc3VSVTNjM1BacldXVllUZ09KeVEwaG1sOVVmQ2JwN1NIS0o2ektEdFNjczM1R1B5Q0E3alpEX01ZY3EwelFCNHhHbw&q=https%3A%2F%2Fwww.slideshare.net%2FObeo_corp%2Fcapella-webinar-pyhton4capella",
             "tag": "Add-on"
