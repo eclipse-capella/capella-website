@@ -151,6 +151,7 @@
 						var link_u = " ";
 						var link_s = " ";
 						var links = " ";
+						var tags = " ";
 					 
 					
 						title += "<h3>" + data.webinars.items[i].title + "</h3><span class='descr txt_lightest_grey'></span><span class='fas fa-caret-down txt_yellow'>&nbsp;</span></a></div>";
@@ -165,8 +166,11 @@
 							item_infos += " | " + data.webinars.items[i].language;
 						}
 						if(data.webinars.items[i].tag != ""){
-							item_infos += " <button class='tag'>" + data.webinars.items[i].tag + "</button>";
+							for (var j in data.webinars.items[i].tag) {
+								tags += " <button class='tag'>" + data.webinars.items[i].tag[j] + "</button>";
+							}
 						}
+						item_infos += tags;
 				
 						if(data.webinars.items[i].utube_link != ""){
 						link_u += "<a href='" + data.webinars.items[i].utube_link + "'>Watch the Webinar <i class='pl-2 fa fa-external-link-square' aria-hidden='true'></i></a>&nbsp; &nbsp; &nbsp;";
