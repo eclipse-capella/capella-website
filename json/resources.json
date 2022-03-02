@@ -130,6 +130,20 @@
         ],
         "items":[
 		{
+            "title": "System of Systems Modeling with Capella",
+            "descr": "",
+            "author": "Tony Komar (Siemens)",
+            "year": "2022",
+            "language": "EN",
+            "topic": "Learning More",
+            "topic_order": "99",
+            "type": "Video",
+            "type_order": "99",
+     		"domain": "",
+            "domain_order": "99",
+     		"link": "https://youtu.be/WCC_iHyChKQ",
+            "thumb": ""
+        },{
             "title": "Capella (once again) in space, meeting nano-satellites",
             "descr": "",
             "author": "Jonathan Lasalle (Artal)",
