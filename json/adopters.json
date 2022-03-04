@@ -224,7 +224,17 @@
 		"company": "The Signalling Company",
 		"link": "https://www.thesignallingcompany.com/"
         },
-        {
+	{
+		"logoSrc": "images/logos/adopters/logo_ufsm.png",
+		"company": "Universidade Federal de Santa Maria",
+		"link": "https://www.ufsm.br/pro-reitorias/prpgp/grupo-de-pesquisa/gpesc-grupo-de-pesquisa-em-engenharia-de-sistemas-e-complexidade-2/"
+	},
+	{
+		"logoSrc": "images/logos/adopters/logo_trmotor.jpg",
+		"company": "TR Motor Güç Sistemleri",
+		"link": "https://www.trmotor.com.tr/"
+	},
+    	{
 		"logoSrc": "images/logos/adopters/logo_university-of-indianapolis.png",
 		"company": "University of Indianapolis",
 		"link": "https://uindy.edu/"
