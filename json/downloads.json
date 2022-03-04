@@ -351,6 +351,7 @@
       "tags":["export", "bridge"]
     },
     { "name":"Python4Capella",
+      "isLabs": true,
       "key":"PYTHON",
       "licence":"EPL",
       "compatibleWithCurrentVersion": true,
