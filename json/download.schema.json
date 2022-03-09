@@ -34,6 +34,7 @@
                 "compatibleWithCurrentVersion": { "type": "boolean", "default": true },
                 "isViewpoint": { "type": "boolean", "default": false },
                 "isSample": { "type": "boolean", "default": false },
+                "isLabs": { "type": "boolean", "default": false },
                 "key": { "type": "string" },
                 "fragment": { "type": "string", "default": "@key" },
                 "licence": { "type": "string" },
@@ -77,6 +78,7 @@
             "additionalProperties": false,
             "properties": {
                 "dropin": { "$ref" : "#/definitions/langitem" },
+                "notes": { "$ref" : "#/definitions/langitem" },
                 "updateSite": { "$ref" : "#/definitions/langitem" },
                 "installAddon": { "$ref" : "#/definitions/langitem" },
                 "installNotes": { "$ref" : "#/definitions/langitem" },

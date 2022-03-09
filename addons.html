@@ -170,6 +170,8 @@
 							addAddonSection(data, sampleAddons[addon], "accordion-sample-addons");
 						}
 					  }
+
+					  $('[data-toggle="tooltip"]').tooltip();
 				   });
 
 				  function addTitleToDiv(divId, title, description) {
@@ -226,9 +228,6 @@
 						 let result = '<div class="accordion-group">{0}{1}</div>'.format(dropdown, content);
 
 						 document.getElementById(divId).innerHTML += result;
-
-					  $('[data-toggle="popover"]').popover( { html: true, container: 'body' });
-					  $('[data-toggle="tooltip"]').tooltip();
 					}
 			  </script>
 
