@@ -130,6 +130,21 @@
         ],
         "items":[
 		{
+            "title": "Thermo Fisher Scientific develops an appetite for modeling.",
+            "descr": "",
+            "author": "Nieke Roos (Bits&Chips)",
+            "year": "2022",
+            "language": "EN",
+            "topic": "Business Value",
+            "topic_order": "99",
+            "type": "Article",
+            "type_order": "99",
+            "domain": "Healthcare",
+            "domain_order": "99",
+            "link": "https://bits-chips.nl/artikel/thermo-fisher-scientific-develops-an-appetite-for-modeling/",
+            "thumb": ""
+        },
+		{
             "title": "System of Systems Modeling with Capella",
             "descr": "",
             "author": "Tony Komar (Siemens)",
