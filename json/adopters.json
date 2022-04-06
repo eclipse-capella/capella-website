@@ -1,5 +1,10 @@
 {"adopters":[
 		{
+		"logoSrc": "images/logos/adopters/logo_ThermoFisherScientific.jpg",
+		"company": "Thermo Fisher Scientific",
+		"link": "http://www.thermofisher.com/"
+		},
+		{
 		"logoSrc": "images/logos/adopters/logo_artal.png",
 		"company": "ARTAL Technologies",
 		"link": "https://capella.artal-group.com/"
