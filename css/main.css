@@ -5,7 +5,7 @@ body {
   font-size: 16px;
   color: #777;
 }
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6,h4 a {
   font-family: 'LatoWebBold', sans-serif;
   color: #292253;
 }
@@ -74,12 +74,17 @@ a:hover, .btn-link:hover, a:active, a:focus, #top-bar .main-menu li#dwnld > a:ho
   	font-family: 'LatoWebBold', sans-serif;
   	padding: 2px 5px 0px 5px;
  }
-
-
+ 
 .bg_indigo a:hover {color:#fff;}
 .bg_indigo a:focus {color:#FBBF52;}
 .row img {
     padding: 20px;}
+ 
+.circular-square { border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%; }
+.circular-landscape { display: inline-block; position: relative; width: 130px; height: 130px; overflow: hidden; border-radius: 50%; }
+.circular-landscape img { width: auto; height: 100%; margin-left: -50px; }
+.circular-portrait { position: relative; width: 200px; height: 200px; overflow: hidden; border-radius: 50%; } 
+.circular-portrait img { width: 100%; height: auto; }
     
 .bg_indigo .btn-default:hover {
 background-color: #fff; 

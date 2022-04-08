@@ -3,3 +3,4 @@ Sitemap: https://www.eclipse.org/capella/capella_sitemap.xml
 User-agent: *
 Disallow: /industry-consortium.html
 Disallow: /industry-consortium/
+Disallow: /br.html
