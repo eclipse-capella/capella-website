@@ -78,7 +78,7 @@ a:hover, .btn-link:hover, a:active, a:focus, #top-bar .main-menu li#dwnld > a:ho
 .bg_indigo a:hover {color:#fff;}
 .bg_indigo a:focus {color:#FBBF52;}
 .row img {
-    padding: 20px;}
+    margin: 20px;}
  
 .circular-square { border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%; }
 img.circular-square  {padding: 0 !important;}
@@ -88,8 +88,8 @@ img.circular-square  {padding: 0 !important;}
 .circular-portrait img { width: 100%; height: auto;  padding: 0;}
 
 .box-shadow{
--webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.15);
-  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.15);
+-webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.30);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.30);
   }
     
 .bg_indigo .btn-default:hover {
