@@ -83,9 +83,10 @@ a:hover, .btn-link:hover, a:active, a:focus, #top-bar .main-menu li#dwnld > a:ho
 .circular-square { border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%; }
 img.circular-square  {padding: 0 !important;}
 .circular-landscape { display: inline-block; position: relative; width: 130px; height: 130px; overflow: hidden; border-radius: 50%; }
-.circular-landscape img { width: auto; height: 100%; margin-left: -50px; padding: 0;}
+.circular-landscape img { width: auto; height: 100%; margin-left: -70px; margin-top: 0; padding: 0;}
 .circular-portrait { position: relative; width: 130px; height: 130px; overflow: hidden; border-radius: 50%; } 
 .circular-portrait img { width: 100%; height: auto;  padding: 0;}
+.br_circular_landscape_margin {margin: 19px 0 15px 0;}
 
 .box-shadow{
 -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.30);
