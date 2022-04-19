@@ -4,7 +4,13 @@
   <loc>https://www.eclipse.org/capella/index.html</loc>
   <priority>1.0</priority>
   <changefreq>monthly</changefreq>
-  <lastmod>2022-01-05</lastmod>
+  <lastmod>2022-04-19</lastmod>
+</url>
+<url>
+  <loc>https://www.eclipse.org/capella/capella_mbse_br.html</loc>
+  <priority>1.0</priority>
+  <changefreq>monthly</changefreq>
+  <lastmod>2022-04-19</lastmod>
 </url>
 <url>
   <loc>https://www.eclipse.org/capella/training_material.html</loc>
@@ -16,13 +22,13 @@
   <loc>https://www.eclipse.org/capella/addons.html</loc>
   <priority>1.0</priority>
   <changefreq>monthly</changefreq>
-  <lastmod>2022-01-05</lastmod>
+  <lastmod>2022-04-01</lastmod>
 </url>
 <url>
   <loc>https://www.eclipse.org/capella/adopters.html</loc>
   <priority>0.8</priority>
   <changefreq>monthly</changefreq>
-  <lastmod>2022-01-05</lastmod>
+  <lastmod>2022-04-15</lastmod>
 </url>
 <url>
   <loc>https://www.eclipse.org/capella/arcadia.html</loc>
@@ -88,7 +94,7 @@
   <loc>https://www.eclipse.org/capella/resources.html</loc>
   <priority>1.0</priority>
   <changefreq>monthly</changefreq>
-  <lastmod>2022-01-05</lastmod>
+  <lastmod>2022-04-15</lastmod>
 </url>
 <url>
   <loc>https://www.eclipse.org/capella/services.html</loc>
@@ -106,7 +112,7 @@
   <loc>https://www.eclipse.org/capella/webinars.html</loc>
   <priority>0.5</priority>
   <changefreq>monthly</changefreq>
-  <lastmod>2022-01-05</lastmod>
+  <lastmod>2022-04-15</lastmod>
 </url>
 <url>
   <loc>https://www.eclipse.org/capella/what_is_mbse.html</loc>
