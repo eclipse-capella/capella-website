@@ -1452,7 +1452,7 @@
             },
            {
                 "title": "The spirit of Arcadia and Capella in 7 minutes",
-                "descr": "Very short introduction to Arcadia and Capella: main concepts and example.",
+                "descr": "Very short introduction to Arcadia and Capella: main concepts and example.<br><br><a href='https://www.youtube.com/watch?v=2fveJ7nwiuU'>Watch the Portuguese Version <i class='fa fa-arrow-circle-right'></i></a>",
                 "author": "Stéphane Bonnet (Thales)",
                 "year": "2019",
                 "language": "EN",
@@ -2189,7 +2189,7 @@
             },
             {
                 "title": "Arcadia datasheet",
-                "descr": "The essentials of the method summarized in a four pages document.",
+                "descr": "The essentials of the method summarized in a four pages document.<br><br><a href='resources/pdf/Datasheet_Arcadia_br.pdf'>Read the Portuguese Version <i class='fa fa-arrow-circle-right'></i></a>",
                 "author": "",
                 "year": "2017",
                 "language": "EN",
