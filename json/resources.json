@@ -130,6 +130,36 @@
         ],
         "items":[
 		{
+            "title": "MBSE and Model-Based Testing with Capella",
+            "descr": "",
+            "author": "Benjamin Bossa (Spherea) & Yann Fusero (Spherea)",
+            "year": "2022",
+            "language": "EN",
+            "topic": "Learning More",
+            "topic_order": "99",
+            "type": "Video",
+            "type_order": "99",
+            "domain": "Aerospace & Defense",
+            "domain_order": "99",
+            "link": "https://bit.ly/capella_webinar_220421_video",
+            "thumb": ""
+        },
+		{
+            "title": "What's New: Capella 2022 Annual Message",
+            "descr": "",
+            "author": "Juan Navas (Thales)",
+            "year": "2022",
+            "language": "EN",
+            "topic": "Learning More",
+            "topic_order": "99",
+            "type": "Video",
+            "type_order": "99",
+            "domain": "Roadmap",
+            "domain_order": "99",
+            "link": "https://bit.ly/capella_webinar_220407_video",
+            "thumb": ""
+        },
+		{
             "title": "Thermo Fisher Scientific develops an appetite for modeling.",
             "descr": "",
             "author": "Nieke Roos (Bits&Chips)",

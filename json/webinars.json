@@ -11,19 +11,19 @@
             "language": "EN",
             "descr": "Nowadays, we are surrounded by system of systems, autonomous systems, interconnected systems or distributed heterogeneous systems with an increase in architecture complexity.<br>Keeping these systems operational is a challenge as the number of potential failures which may affect their availability also increases drastically. In order to optimize availability, maintenance activities have to be designed within the design phase of the system.<br>Whatever the implementation choice, detection, diagnostic or prevention of failures require tests.<br>The goal for autonomous systems also pushes towards embedded detection and prevention capabilities and thus arguing and decision making between system engineers and maintenance engineers to share solutions in their respective activities.<br>In this presentation, we will talk about the ability of a system designed with Capella to be tested, including in the maintenance phase. This means to interconnect several kinds of models representing different perspectives: System Design (MBSE), RAMS Analysis (Reliability, Availability, Maintainability and Safety) and Testability.<br>We will present how a MBSE approach with Capella can be used to initiate a testability study performed with the eXpress tool from DSI International.",
             "bio": "<p><i><span class='txt_indigo'>Benjamin Bossa</span> is a System Architect with +10 years’ experience on simulation and virtual testing. He is currently in charge of model based related activities at SPHEREA, implementing MBSE approach and studying cross engineering domain between System Engineering,  Safety Assessment and Testing. He holds a PhD on Fluid dynamics and a Master’s Degree in Physics.</i><br><i><span class='txt_indigo'>Yann Fusero</span> is a System Architect with +15 years’ experience on performing and implementing Systems Engineering practices in industrial organizations. He currently leads the Systems Engineering team with architects implementing MBSE approaches on operational projects. His team is in charge of Testability activities which allow definition of optimized test strategy for SPHEREA customers. He holds a PhD on Computer Science, a MSc on Electronics and Signal Processing and Master’s Degree in Engineering in Physics from ESPCI Paris.</i>",
-     		"utube_link": "",
-			"slides_link": "",
+     		"utube_link": "https://bit.ly/capella_webinar_220421_video",
+			"slides_link": "https://bit.ly/capella_webinar_220421_slides",
             "tag": ["how-to","testing"]
         },	
 		{
             "title": "Capella Annual Message",
 			"date": "April 2022",
-			"anchor": "2022_04_07",
+			"anchor": "2022_04_23",
             "author": "Juan Navas (Thales)",
             "language": "EN",
             "descr": "2022, here we are! It's the perfect time to take a look back at 2021 and make plans for 2022!<br>In this webinar, Juan Navas presented the major events of 2021, the roadmap for 2022, and the main features included in the latest version of Capella.",
             "bio": "<i><span class='txt_indigo'>Juan Navas</span> is MBSE Expert in Thales Corporate Engineering. He leads the team that accompanies managers and architects implement MBSE practices on operational projects to improve their engineering performance. He is a System Architect with +10 years’ experience, he holds a PhD in Computer Science, an MSc in control and computer science, and Electronics and Electrical Engineering Degrees.</i>",
-     		"utube_link": "",
+     		"utube_link": "https://bit.ly/capella_webinar_220407_video",
 			"slides_link": "",
             "tag": ["roadmap"]
         },
