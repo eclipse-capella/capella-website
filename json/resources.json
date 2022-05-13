@@ -130,6 +130,21 @@
         ],
         "items":[
 		{
+            "title": "Case-Study UK Atomic Energy Authority - Conceptual Design of the STEP Fusion Power Plant",
+            "descr": "Case-study by UK Atomic Energy Authority.",
+            "author": "Jason Joannou (UKAEA) and Yitong Chen (UKAEA)",
+            "year": "2022",
+            "language": "EN",
+            "topic": "Business Value",
+            "topic_order": "4",
+            "type": "Fact Sheet",
+            "type_order": "99",
+            "domain": "Energy",
+            "domain_order": "9",
+            "link": "resources/pdf/Case_Study_UKAEA.pdf",
+            "thumb": ""
+        },
+		{
             "title": "MBSE and Model-Based Testing with Capella",
             "descr": "",
             "author": "Benjamin Bossa (Spherea) & Yann Fusero (Spherea)",
@@ -259,7 +274,7 @@
  				"link": "https://youtu.be/rGQ6xFmUiOA",
                 "thumb": ""
             },
-	{
+			{
                 "title": "Connecter Capella à la plateforme IBM ELM (IBM Jazz)",
                 "descr": "",
                 "author": "Laurent Delaigue (Obeo), Philippe Leblanc (Persistent)",
@@ -272,7 +287,7 @@
  		"link": "https://youtu.be/Ckiqhk7WplY",
                 "thumb": ""
             },
-	{
+			{
                 "title": "Introduction to CAPELLA/ARCADIA and NASA Systems Engineering Handbook: Modeling overview with the HUBBLE Space Telescope.",
                 "descr": "",
                 "author": "Rémy Drouin",
@@ -282,9 +297,9 @@
                 "topic_order": "99",
                 "type": "Video",
                 "type_order": "99",
- 		"domain": "Aerospace & Defense",
+ 				"domain": "Aerospace & Defense",
                 "domain_order": "99",
- 		"link": "https://youtu.be/pU5LPXCv9J4",
+ 				"link": "https://youtu.be/pU5LPXCv9J4",
                 "thumb": ""
             },
 	{
@@ -610,7 +625,7 @@
                 "link": "https://blog.obeosoft.com/capella-community-survey-2020-the-results",
                 "thumb": ""
             },
-	{
+			{
                 "title": "Challenges and Practical Solutions for MBSE",
                 "descr": "",
                 "author": "Samuel Rochet (Obeo)",
@@ -623,7 +638,7 @@
                 "link": "https://blog.obeosoft.com/challenges-and-practical-solutions-for-mbse",
                 "thumb": ""
             },
-	{
+			{
                 "title": "Modeling & Simulation of CubeSat-based Missions' Concept of Operations",
                 "descr": "",
                 "author": "Danilo Pallamin de Almeida",
@@ -1836,7 +1851,7 @@
                 "type_order": "4",
                 "domain": "Automotive",
                 "domain_order": "2",
-                "link": "https://polarsys.org/capella/resources/pdf/Case_Study_Continental.pdf",
+                "link": "resources/pdf/Case_Study_Continental.pdf",
                 "thumb": "images/thumbs/resources/thumb_case-study-continental.jpg"
             },
             {
@@ -1851,8 +1866,23 @@
                 "type_order": "99",
                 "domain": "Energy",
                 "domain_order": "1",
-                "link": "https://polarsys.org/capella/resources/pdf/Case_Study_Framatome.pdf",
+                "link": "resources/pdf/Case_Study_Framatome.pdf",
                 "thumb": "images/thumbs/resources/thumb_case-study-framatome.jpg"
+            },
+			{
+                "title": "Case-Study CNES - Successful Capella Landing on a CNES Operational Use Case",
+                "descr": "Case-study by CNES.",
+                "author": "Julien REY (CNES)",
+                "year": "2021",
+                "language": "EN",
+                "topic": "Business Value",
+                "topic_order": "4",
+                "type": "Fact Sheet",
+                "type_order": "99",
+                "domain": "Space",
+                "domain_order": "4",
+                "link": "resources/pdf/Case_Study_Framatome.pdf",
+                "thumb": ""
             },
             {
                 "title": "Top 10 reasons why Capella is different",
