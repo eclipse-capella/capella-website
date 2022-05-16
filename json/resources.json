@@ -302,7 +302,7 @@
  				"link": "https://youtu.be/pU5LPXCv9J4",
                 "thumb": ""
             },
-	{
+			{
                 "title": "PME + Grand Groupe, retex d'une collaboration réussie sur Capella",
                 "descr": "",
                 "author": "Etienne Juliot (Obeo), Juan Navas (Thales)",
@@ -312,10 +312,10 @@
                 "topic_order": "99",
                 "type": "Video",
                 "type_order": "99",
- 		"link": "https://youtu.be/6t2Iyvpibhs",
+ 				"link": "https://youtu.be/6t2Iyvpibhs",
                 "thumb": ""
             },
-	{
+			{
                 "title": "How I pack my suitcase",
                 "descr": "",
                 "author": "Susan Faust, Chantal Sinnwell (Siemens)",
@@ -328,7 +328,7 @@
                 "link": "https://youtu.be/Z2lwu1JGc1g",
                 "thumb": ""
             },
-	{
+			{
                 "title": "The long way from Bid to project... supported by Capella",
                 "descr": "",
                 "author": "Michael Schaefer (Thales Germany",
@@ -343,7 +343,7 @@
                 "link": "https://youtu.be/chPcHLk-iHw",
                 "thumb": ""
             },
-	{
+			{
                 "title": "A STEP towards Model-based: Case Study covering Conceptual Design of a Fusion Power Plant",
                 "descr": "",
                 "author": "Yitong Chen, Jason Joannou (UKAEA)",
