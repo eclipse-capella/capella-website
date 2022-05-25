@@ -130,7 +130,37 @@
         ],
         "items":[
 		{
-            "title": "Case-Study UK Atomic Energy Authority - Conceptual Design of the STEP Fusion Power Plant",
+            "title": "Case-Study Thales Australia - The Transformation of a Complex Air Traffic Management System",
+            "descr": "Case-study by Thales Australia.",
+            "author": "Peter Havenga (Thales Australia) and Laura Mallon (Thales Australia)",
+            "year": "2022",
+            "language": "EN",
+            "topic": "Business Value",
+            "topic_order": "4",
+            "type": "Fact Sheet",
+            "type_order": "4",
+            "domain": "Avionics",
+            "domain_order": "9",
+            "link": "resources/pdf/Case_Study_Thales_AUS.pdf",
+            "thumb": "images/thumbs/resources/thumb_case-study-thales-aus.jpg"
+        },
+		{
+            "title": "Case-Study DB Netz - Model-centric Engineering Environment to Design the Future Railway System",
+            "descr": "Case-study by DB Netz / Digitale Schiene Deutschland.",
+            "author": "Viktor Kravchenko (DB Netz)",
+            "year": "2022",
+            "language": "EN",
+            "topic": "Business Value",
+            "topic_order": "4",
+            "type": "Fact Sheet",
+            "type_order": "7",
+            "domain": "Railway",
+            "domain_order": "9",
+            "link": "resources/pdf/Case_Study_DB.pdf",
+            "thumb": "images/thumbs/resources/thumb_case-study-db.jpg"
+        },
+		{
+            "title": "Case-Study UKAEA - Conceptual Design of the STEP Fusion Power Plant",
             "descr": "Case-study by UK Atomic Energy Authority.",
             "author": "Jason Joannou (UKAEA) and Yitong Chen (UKAEA)",
             "year": "2022",
@@ -138,11 +168,11 @@
             "topic": "Business Value",
             "topic_order": "4",
             "type": "Fact Sheet",
-            "type_order": "99",
+            "type_order": "6",
             "domain": "Energy",
             "domain_order": "9",
             "link": "resources/pdf/Case_Study_UKAEA.pdf",
-            "thumb": ""
+            "thumb": "images/thumbs/resources/thumb_case-study-ukaea.jpg"
         },
 		{
             "title": "MBSE and Model-Based Testing with Capella",
@@ -158,6 +188,21 @@
             "domain_order": "99",
             "link": "https://bit.ly/capella_webinar_220421_video",
             "thumb": ""
+        },
+		{
+            "title": "Case-Study CNES - Successful Capella Landing on a CNES Operational Use Case",
+            "descr": "Case-study by CNES",
+            "author": "Julien Rey (CNES) & Jonathan Lasalle (CNES)",
+            "year": "2021",
+            "language": "EN",
+            "topic": "Business Value",
+            "topic_order": "99",
+            "type": "Fact Sheet",
+            "type_order": "4",
+            "domain": "Aerospace & Defense",
+            "domain_order": "2",
+            "link": "resources/pdf/Case_Study_CNES.pdf",
+            "thumb": "images/thumbs/resources/thumb_case-study-cnes.jpg"
         },
 		{
             "title": "What's New: Capella 2022 Annual Message",
@@ -1345,7 +1390,7 @@
                 "thumb": ""
             },
             {
-                "title": "Autonomous Train Project",
+                "title": "Case-Study Thales - Autonomous Train Project",
                 "descr": "Case-study by a consortium composed of Bombardier, Robert Bosch, Railenum, SNCF, Sirops and Thales<br><br><a href='resources/pdf/Case_Study_AutonomousTrain_ZH.pdf' target='_blank'>Read the Chinese Version <i class='fa fa-arrow-circle-right' aria-hidden='true'></i></a>",
                 "author": "Thales",
                 "year": "2020",
@@ -1353,7 +1398,7 @@
                 "topic": "Business Value",
                 "topic_order": "1",
                 "type": "Fact Sheet",
-                "type_order": "2",
+                "type_order": "99",
                 "domain": "Railway",
                 "domain_order": "1",
                "link": "https://www.eclipse.org/capella/resources/pdf/Case_Study_AutonomousTrain.pdf",
@@ -1810,7 +1855,7 @@
                 "thumb": ""
             },
             {
-                "title": "Arcadia and Capella for a large complex mechanical system",
+                "title": "Case-Study Rolls-Royce - Arcadia and Capella for a large complex mechanical system",
                 "descr": "Rolls-Royce used Arcadia/Capella to define the architecture of a large civil aerospace turbofan engine, to manage system complexity and minimise the associated risk.<br><br><a href='resources/pdf/Case_Study_Rolls_Royce_ZH.pdf' target='_blank'>Read the Chinese Version <i class='fa fa-arrow-circle-right' aria-hidden='true'></i></a>",
                 "author": "Jim Daly (Rolls-Royce)",
                 "year": "2019",
@@ -1848,7 +1893,7 @@
                 "topic": "Business Value",
                 "topic_order": "3",
                 "type": "Fact Sheet",
-                "type_order": "4",
+                "type_order": "8",
                 "domain": "Automotive",
                 "domain_order": "2",
                 "link": "resources/pdf/Case_Study_Continental.pdf",
@@ -1868,21 +1913,6 @@
                 "domain_order": "1",
                 "link": "resources/pdf/Case_Study_Framatome.pdf",
                 "thumb": "images/thumbs/resources/thumb_case-study-framatome.jpg"
-            },
-			{
-                "title": "Case-Study CNES - Successful Capella Landing on a CNES Operational Use Case",
-                "descr": "Case-study by CNES.",
-                "author": "Julien REY (CNES)",
-                "year": "2021",
-                "language": "EN",
-                "topic": "Business Value",
-                "topic_order": "4",
-                "type": "Fact Sheet",
-                "type_order": "99",
-                "domain": "Space",
-                "domain_order": "4",
-                "link": "resources/pdf/Case_Study_Framatome.pdf",
-                "thumb": ""
             },
             {
                 "title": "Top 10 reasons why Capella is different",
