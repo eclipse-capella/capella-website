@@ -155,7 +155,7 @@
             "type": "Fact Sheet",
             "type_order": "7",
             "domain": "Railway",
-            "domain_order": "9",
+            "domain_order": "2",
             "link": "resources/pdf/Case_Study_DB.pdf",
             "thumb": "images/thumbs/resources/thumb_case-study-db.jpg"
         },
@@ -170,7 +170,7 @@
             "type": "Fact Sheet",
             "type_order": "6",
             "domain": "Energy",
-            "domain_order": "9",
+            "domain_order": "1",
             "link": "resources/pdf/Case_Study_UKAEA.pdf",
             "thumb": "images/thumbs/resources/thumb_case-study-ukaea.jpg"
         },
@@ -399,7 +399,7 @@
                 "type": "Video",
                 "type_order": "99",
  				"domain": "Energy",
-                "domain_order": "99",
+                "domain_order": "8",
                 "link": "https://youtu.be/-tRun6er-N4",
                 "thumb": ""
             },
@@ -593,7 +593,7 @@
                 "type": "Article",
                 "type_order": "99",
                 "domain": "Energy",
-                "domain_order": "99",
+                "domain_order": "7",
 				"link": "resources/pdf/IS2018_Architecture-Design-of-NPP-systems-through-viewpoints-analysis_v1.8.pdf",
                 "thumb": ""
             },
@@ -1400,7 +1400,7 @@
                 "type": "Fact Sheet",
                 "type_order": "99",
                 "domain": "Railway",
-                "domain_order": "1",
+                "domain_order": "3",
                "link": "https://www.eclipse.org/capella/resources/pdf/Case_Study_AutonomousTrain.pdf",
                 "thumb": "images/thumbs/resources/thumb_case-study-train-autonomous.jpg"
             },
@@ -1910,7 +1910,7 @@
                 "type": "Fact Sheet",
                 "type_order": "99",
                 "domain": "Energy",
-                "domain_order": "1",
+                "domain_order": "2",
                 "link": "resources/pdf/Case_Study_Framatome.pdf",
                 "thumb": "images/thumbs/resources/thumb_case-study-framatome.jpg"
             },
@@ -1966,7 +1966,7 @@
                 "type": "Slideshow",
                 "type_order": "99",
                 "domain": "Railway",
-                "domain_order": "99",
+                "domain_order": "5",
                 "link": "https://www.obeosoft.com/ressources/presentations/Use-Capella-Bid-Phase-Railway-Signalling-Projects-Experiences-Challenges-MSchaefer-Thales.pdf",
                 "thumb": ""
             },
@@ -1981,7 +1981,7 @@
                 "type": "Video",
                 "type_order": "99",
                 "domain": "Railway",
-                "domain_order": "99",
+                "domain_order": "6",
                 "link": "https://www.youtube.com/watch?v=7LaUVdvSwR0",
                 "thumb": ""
             },
@@ -2798,7 +2798,7 @@
                 "type": "Slideshow",
                 "type_order": "3",
                 "domain": "Railway",
-                "domain_order": "99",
+                "domain_order": "4",
                 "link": "https://www.obeosoft.com/ressources/presentations/Arcadia-Example-Introduction-JLVoirin-Thales.pdf",
                 "thumb": "images/thumbs/resources/thumb_sample-arcadia.jpg"
             },
