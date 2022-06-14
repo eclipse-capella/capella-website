@@ -60,7 +60,6 @@
 	<base href="/capella/">
 	<script src="js/angular-1.7.8.min.js"></script>
 	<script src="angular/capella.js"></script>
-
 	<!-- jquery -->
 	<script src="js/jquery-3.4.1.min.js"></script>
 	<script src="js/helpers.js"></script>
@@ -100,7 +99,6 @@
 		</div>
 	</section>
 	<!--/#intro_banner-->
-
 <section>
 	<div class="container">
 		<div class="row">
@@ -112,7 +110,7 @@
 					<div class="accordion-heading"><a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#2022_06_23">
 						<h3>Connecting textual requirements and Capella models</h3>
 						<span class="fas fa-caret-down txt_yellow" aria-hidden="true">&nbsp;</span>
-						<span class="descr txt_lightest_grey"><i class="far fa-calendar-alt"></i>&nbsp;Juin 23th, 2022 | 5PM CET | <i class="fa fa-user-alt"></i>&nbsp;by José Pereira (The Reuse Company) & José Fuentes (The Reuse Company)&nbsp;</span></a>
+						<span class="descr txt_lightest_grey"><i class="far fa-calendar-alt"></i>&nbsp;June 23th, 2022 | 5PM CET | <i class="fa fa-user-alt"></i>&nbsp;by José Pereira (The Reuse Company) & José Fuentes (The Reuse Company)&nbsp;</span></a>
 						<button class="tag mr-2">Requirements</button><button class="tag">Add-on</button>
 					</div>
 					<div id="2022_06_23" class="accordion-body collapse" style="height: 0px;">
@@ -153,11 +151,33 @@
 						</div>
 					</div>
 				</div>
+
+				<div class="accordion-group">
+					<div class="accordion-heading"><a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#2022_09_01">
+						<h3>Simulation with Python and Matlab in Capella</h3>
+						<span class="fas fa-caret-down txt_yellow" aria-hidden="true">&nbsp;</span>
+						<span class="descr txt_lightest_grey"><i class="far fa-calendar-alt"></i>&nbsp;September 1st, 2022 | <i class="fa fa-user-alt"></i>&nbsp;by Renfei Xu (PGM)&nbsp;</span></a>
+						<button class="tag mr-2">Simulation</button><button class="tag">Add-on</button>
+					</div>
+					<div id="2022_06_23" class="accordion-body collapse" style="height: 0px;">
+						<div class="accordion-inner">
+							<p>A common need in system architecture design is to verify that if the architect is correct and can satisfy its requirements.</p>
+							<p>Execution of system architect model means to interact with state machines to test system’s control logic. It can verify if the logical sequences of functions and interfaces in different scenarios are desired.</p>
+							<p>However, only sequence itself is not enough to verify its consequence or output. So we need each function to do what it is supposed to do during model execution to verify its output, and that is what we called “simulation”.</p>
+							<p>This presentation introduces how to embed Python or Matlab codes inside functions to do “simulation” within Capella.</p>
+							<p><i><span class="txt_indigo">Renfei Xu (PGM)</span>
+								<p>
+									Renfei Xu is the Technical Director of MBSE from PGM. He has participated in many implementation projects of MBSE in areas like Engine Control, Avionics, Mechatronics, RADAR and so on. In recent years, he is dedicated to the promotion of Capella and ARCADIA in China.
+								</p>
+							</i></p>
+						</div>
+					</div>
+				</div>
+
 			</div>
 			</div>
 		</div>
 </section>
-
 <section class="bg_lightest_grey">
     <div class="container">
         <div class="section-heading">
@@ -169,12 +189,12 @@
 				$.getJSON('json/webinars.json', function(data) {
 					var webinar_accordion_group = " ";
 					var items_categories_row = " ";
-					
+
 					for (var i in data.webinars.items) {
 						var accordion_body = " ";
 						var accordion_heading = " ";
 						var accordion_inner = " ";
-						var bio = " ";  
+						var bio = " ";
 						var title = " ";
 						var descr = " ";
 						var item_infos = " ";
@@ -182,10 +202,10 @@
 						var link_s = " ";
 						var links = " ";
 						var tags = " ";
-					 
-					
+
+
 						title += "<h3>" + data.webinars.items[i].title + "</h3><span class='descr txt_lightest_grey'></span><span class='fas fa-caret-down txt_yellow'>&nbsp;</span></a></div>";
-			
+
 						if(data.webinars.items[i].date != ""){
 							item_infos += "<i class='far fa-calendar-alt' aria-hidden='true'></i> " + data.webinars.items[i].date;
 						}
@@ -201,37 +221,36 @@
 							}
 						}
 						item_infos += tags;
-				
+
 						if(data.webinars.items[i].utube_link != ""){
 						link_u += "<a href='" + data.webinars.items[i].utube_link + "'>Watch the Webinar <i class='pl-2 fa fa-external-link-square' aria-hidden='true'></i></a>&nbsp; &nbsp; &nbsp;";
 						}
-						
+
 						if(data.webinars.items[i].slides_link != ""){
 						link_s += "<a href='" + data.webinars.items[i].slides_link + "'>Slideshare presentation <i class='pl-2 fa fa-external-link-square' aria-hidden='true'></i></a>";
 						}
-						
+
 						links += "<p>" + link_u + link_s + "</p>";
-						
+
 						accordion_heading += "<div class='accordion-heading'><a class='accordion-toggle collapsed' data-toggle='collapse' data-parent='#webinars_accordion' href='#"
 						+ data.webinars.items[i].anchor + "'>" + title + item_infos;
-						
-						
+
+
 						accordion_inner += "<div class='accordion-inner'><p>"
 						+ data.webinars.items[i].descr +  "</p><p><i>" + data.webinars.items[i].bio + "</i></p></div>";
-						
-						
+
+
 						accordion_body += "<div id='" + data.webinars.items[i].anchor + "' class='accordion-body collapse'>" + accordion_inner + links + "</div>";
 						webinar_accordion_group += "<div class='accordion-group'>" + accordion_heading + accordion_body + "</div>";
 						}
 						document.getElementById("webinars_accordion").innerHTML = webinar_accordion_group;
-					
+
 					});
 				</script>
 			<p class="text-center"><a class="btn btn-default" href="https://www.youtube.com/watch?v=-LEx-stcAHA&list=PLfrEYVpSGVLxEFRODSWUTP8N5i3NTG4o-">Discover all the webinars <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
        </div>
 	</div>
 </section>
-       
 
 <section class="text-center">
     <div class="container">
@@ -284,7 +303,6 @@
         <!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-57722280-1"></script>
 		<script async src="js/googleAnalytics.js"></script>
-
         <script async src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js"></script>
         <!-- modernizr js -->
         <script defer src="js/vendor/modernizr-2.6.2.min.js"></script>

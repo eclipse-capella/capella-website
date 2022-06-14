@@ -11,8 +11,8 @@
             "language": "EN",
             "descr": "<p>E/E systems and cyber-physical systems are carrying out more and more advanced and safety critical features in many domains such as transport, energy, industry, farming, medical, etc. Therefore, during last few years, to manage the development of those complex systems, companies have moved from a document-based approach to a model-based approach associated with very specific tools.</p><p>However, system and safety engineering, and some other related engineering domains like cybersecurity for instance, are still too often conducted independently, whereas safety and system attributes are largely interdependent. There is a need to foster greater collaboration between these disciplines to avoid errors and also to maintain time-to-market.</p><p>That's why since several years, ALL4TEC, with its safety analysis tool Safety Architect, has been working to connect its tool with system solutions to couple MBSE and MBSA. The goal is to better ensure consistency between system design and safety analysis.</p><p>During this talk, ALL4TEC presented its Capella add-on that allows annotation of Capella models with basic safety information, smart export and dynamic connection to share data between Capella and Safety Architect to support MBSE-MBSA.</p>",
             "bio": "<p><i><span class='txt_indigo'>Jean Godot</span> joined ALL4TEC in 2018 as a R&D engineer to manage research projects and to participate in the development of Safety Architect. Jean holds a PhD in computer science from Paris-Saclay University in France and his areas of interests are system safety and cybersecurity.</i></p><p><i><span class='txt_indigo''>Jonathan Dumont</span> started working for ALL4TEC in 2010 to develop the model-based safety analysis tool Safety Architect. It was the opportunity for him to discover the graphical modeling approach and to start working with the first versions of Obeo Designer. As a technical lead for the ALL4TEC development team, he followed the technological evolutions of Eclipse Sirius and deployed them into several tools developed by his company.</i></p>",
-     		"utube_link": "",
-			"slides_link": "",
+     		"utube_link": "https://bit.ly/capella_webinar_20220519_video",
+			"slides_link": "https://bit.ly/capella_webinar_220519_slides",
             "tag": ["safety","add-on"]
         },	
 		{
@@ -150,4 +150,3 @@
         ]
     }
 }
-
