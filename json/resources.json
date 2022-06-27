@@ -175,6 +175,20 @@
             "thumb": "images/thumbs/resources/thumb_case-study-ukaea.jpg"
         },
 		{
+            "title": "Get into MBSE-MBSA process with a dedicated toolchain",
+            "descr": "",
+            "author": "Jean Godot (ALL4TEC) & Jonathan Dumont (ALL4TEC)",
+            "year": "2022",
+            "language": "EN",
+            "topic": "Add-ons",
+            "topic_order": "99",
+            "type": "Video",
+            "type_order": "99",
+            "domain_order": "99",
+            "link": "https://youtu.be/fpF-Jat9GJ4",
+            "thumb": ""
+        },
+		{
             "title": "MBSE and Model-Based Testing with Capella",
             "descr": "",
             "author": "Benjamin Bossa (Spherea) & Yann Fusero (Spherea)",
@@ -248,20 +262,6 @@
             "domain_order": "99",
      		"link": "https://youtu.be/WCC_iHyChKQ",
             "thumb": ""
-        },{
-            "title": "Capella (once again) in space, meeting nano-satellites",
-            "descr": "",
-            "author": "Jonathan Lasalle (Artal)",
-            "year": "2022",
-            "language": "EN",
-            "topic": "Business Value",
-            "topic_order": "99",
-            "type": "Video",
-            "type_order": "99",
-     		"domain": "Aerospace & Defense",
-            "domain_order": "99",
-     		"link": "https://youtu.be/_KemiYQ7w70",
-            "thumb": ""
         },
 		{
             "title": "Hubble Space Telescope - Sample Model",
@@ -278,8 +278,8 @@
             "link": "https://github.com/DROUINRemy/hubble-capella-sample",
             "thumb": ""
         },
-		{
-            "title": "Capella (once again) in space, meeting nanosatellites",
+        {
+            "title": "Capella (once again) in space, meeting nano-satellites",
             "descr": "",
             "author": "Jonathan Lasalle (Artal / Magellium)",
             "year": "2022",
@@ -290,7 +290,7 @@
             "type_order": "99",
      		"domain": "Aerospace & Defense",
             "domain_order": "99",
-            "link": "https://youtu.be/_KemiYQ7w70",
+     		"link": "https://youtu.be/_KemiYQ7w70",
             "thumb": ""
         },
 	    {
@@ -1536,7 +1536,7 @@
                 "topic": "Learning More",
                 "topic_order": "9",
                 "type": "Video",
-                "type_order": "8",
+                "type_order": "99",
                 "link": "https://youtu.be/ZqvfSURUpIY",
                 "thumb": ""
             },
@@ -1668,7 +1668,7 @@
                 "topic": "Learning More",
                 "topic_order": "99",
                 "type": "Video",
-                "type_order": "7",
+                "type_order": "99",
                 "link": "https://youtu.be/h-ax61eVlxM",
                 "thumb": ""
             },
