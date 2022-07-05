@@ -129,184 +129,35 @@
 	    }
         ],
         "items":[
-		{
-            "title": "Case-Study Thales Australia - The Transformation of a Complex Air Traffic Management System",
-            "descr": "Case-study by Thales Australia.",
-            "author": "Peter Havenga (Thales Australia) and Laura Mallon (Thales Australia)",
-            "year": "2022",
-            "language": "EN",
-            "topic": "Business Value",
-            "topic_order": "4",
-            "type": "Fact Sheet",
-            "type_order": "4",
-            "domain": "Avionics",
-            "domain_order": "9",
-            "link": "resources/pdf/Case_Study_Thales_AUS.pdf",
-            "thumb": "images/thumbs/resources/thumb_case-study-thales-aus.jpg"
-        },
-		{
-            "title": "Case-Study DB Netz - Model-centric Engineering Environment to Design the Future Railway System",
-            "descr": "Case-study by DB Netz / Digitale Schiene Deutschland.",
-            "author": "Viktor Kravchenko (DB Netz)",
-            "year": "2022",
-            "language": "EN",
-            "topic": "Business Value",
-            "topic_order": "4",
-            "type": "Fact Sheet",
-            "type_order": "7",
-            "domain": "Railway",
-            "domain_order": "2",
-            "link": "resources/pdf/Case_Study_DB.pdf",
-            "thumb": "images/thumbs/resources/thumb_case-study-db.jpg"
-        },
-		{
-            "title": "Case-Study UKAEA - Conceptual Design of the STEP Fusion Power Plant",
-            "descr": "Case-study by UK Atomic Energy Authority.",
-            "author": "Jason Joannou (UKAEA) and Yitong Chen (UKAEA)",
-            "year": "2022",
-            "language": "EN",
-            "topic": "Business Value",
-            "topic_order": "4",
-            "type": "Fact Sheet",
-            "type_order": "6",
-            "domain": "Energy",
-            "domain_order": "1",
-            "link": "resources/pdf/Case_Study_UKAEA.pdf",
-            "thumb": "images/thumbs/resources/thumb_case-study-ukaea.jpg"
-        },
-		{
-            "title": "Get into MBSE-MBSA process with a dedicated toolchain",
-            "descr": "",
-            "author": "Jean Godot (ALL4TEC) & Jonathan Dumont (ALL4TEC)",
-            "year": "2022",
-            "language": "EN",
-            "topic": "Add-ons",
-            "topic_order": "99",
-            "type": "Video",
-            "type_order": "99",
-            "domain_order": "99",
-            "link": "https://youtu.be/fpF-Jat9GJ4",
-            "thumb": ""
-        },
-		{
-            "title": "MBSE and Model-Based Testing with Capella",
-            "descr": "",
-            "author": "Benjamin Bossa (Spherea) & Yann Fusero (Spherea)",
-            "year": "2022",
-            "language": "EN",
-            "topic": "Learning More",
-            "topic_order": "99",
-            "type": "Video",
-            "type_order": "99",
-            "domain": "",
-            "domain_order": "99",
-            "link": "https://bit.ly/capella_webinar_220421_video",
-            "thumb": ""
-        },
-		{
-            "title": "Case-Study CNES - Successful Capella Landing on a CNES Operational Use Case",
-            "descr": "Case-study by CNES",
-            "author": "Julien Rey (CNES) & Jonathan Lasalle (CNES)",
-            "year": "2021",
-            "language": "EN",
-            "topic": "Business Value",
-            "topic_order": "99",
-            "type": "Fact Sheet",
-            "type_order": "4",
-            "domain": "Aerospace & Defense",
-            "domain_order": "2",
-            "link": "resources/pdf/Case_Study_CNES.pdf",
-            "thumb": "images/thumbs/resources/thumb_case-study-cnes.jpg"
-        },
-		{
-            "title": "What's New: Capella 2022 Annual Message",
-            "descr": "",
-            "author": "Juan Navas (Thales)",
-            "year": "2022",
-            "language": "EN",
-            "topic": "Learning More",
-            "topic_order": "99",
-            "type": "Video",
-            "type_order": "99",
-            "domain": "Roadmap",
-            "domain_order": "99",
-            "link": "https://bit.ly/capella_webinar_220407_video",
-            "thumb": ""
-        },
-		{
-            "title": "Thermo Fisher Scientific develops an appetite for modeling.",
-            "descr": "",
-            "author": "Nieke Roos (Bits&Chips)",
-            "year": "2022",
-            "language": "EN",
-            "topic": "Business Value",
-            "topic_order": "99",
-            "type": "Article",
-            "type_order": "99",
-            "domain": "Healthcare",
-            "domain_order": "99",
-            "link": "https://bits-chips.nl/artikel/thermo-fisher-scientific-develops-an-appetite-for-modeling/",
-            "thumb": ""
-        },
-		{
-            "title": "System of Systems Modeling with Capella",
-            "descr": "",
-            "author": "Tony Komar (Siemens)",
-            "year": "2022",
-            "language": "EN",
-            "topic": "Learning More",
-            "topic_order": "99",
-            "type": "Video",
-            "type_order": "99",
-     		"domain": "",
-            "domain_order": "99",
-     		"link": "https://youtu.be/WCC_iHyChKQ",
-            "thumb": ""
-        },
-		{
-            "title": "Hubble Space Telescope - Sample Model",
-            "descr": "",
-            "author": "Rémy Drouin",
-            "year": "2022",
-            "language": "EN",
-            "topic": "Getting Started",
-            "topic_order": "99",
-            "type": "Sample Model",
-            "type_order": "99",
-     		"domain": "Aerospace & Defense",
-            "domain_order": "99",
-            "link": "https://github.com/DROUINRemy/hubble-capella-sample",
-            "thumb": ""
-        },
-        {
-            "title": "Capella (once again) in space, meeting nano-satellites",
-            "descr": "",
-            "author": "Jonathan Lasalle (Artal / Magellium)",
-            "year": "2022",
-            "language": "EN",
-            "topic": "Business Value",
-            "topic_order": "99",
-            "type": "Video",
-            "type_order": "99",
-     		"domain": "Aerospace & Defense",
-            "domain_order": "99",
-     		"link": "https://youtu.be/_KemiYQ7w70",
-            "thumb": ""
-        },
-	    {
-			"title": "Scripting with Python to interact with Capella model",
-			"descr": "",
-			"author": "Sophie Plazanet (Thales Group), Arnaud Dieumegard (Obeo)",
-			"year": "2021",
-			"language": "EN",
-			"topic": "Add-ons",
-			"topic_order": "99",
-			"type": "Video",
-			"type_order": "99",
-			"link": "https://youtu.be/-LEx-stcAHA",
-			"thumb": ""
-		},    
-		{
+        
+        
+	{
+                "title": "From Model based to Model and Simulation based Systems Architectures",
+                "descr": "",
+                "author": "Pierre Nowodzienski (Thales), Juan Navas (Thales)",
+                "year": "2022",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "99",
+                "type": "Presentation",
+                "type_order": "99",
+ 		"link": "resources/pdf/IS_2022_Paper_128_Presentation.pdf",
+                "thumb": ""
+            },
+	{
+                "title": "From Model based to Model and Simulation based Systems Architectures",
+                "descr": "",
+                "author": "Pierre Nowodzienski (Thales), Juan Navas (Thales)",
+                "year": "2022",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "99",
+                "type": "Article",
+                "type_order": "99",
+ 		"link": "resources/pdf/IS_2022_Paper_128_Article.pdf",
+                "thumb": ""
+            },
+	{
                 "title": "Connecting Capella to IBM ELM platform (IBM Jazz)",
                 "descr": "",
                 "author": "Laurent Delaigue (Obeo), Philippe Leblanc (Persistent)",
@@ -316,10 +167,10 @@
                 "topic_order": "99",
                 "type": "Video",
                 "type_order": "99",
- 				"link": "https://youtu.be/rGQ6xFmUiOA",
+ 		"link": "https://youtu.be/rGQ6xFmUiOA",
                 "thumb": ""
             },
-			{
+	{
                 "title": "Connecter Capella à la plateforme IBM ELM (IBM Jazz)",
                 "descr": "",
                 "author": "Laurent Delaigue (Obeo), Philippe Leblanc (Persistent)",
@@ -332,7 +183,7 @@
  		"link": "https://youtu.be/Ckiqhk7WplY",
                 "thumb": ""
             },
-			{
+	{
                 "title": "Introduction to CAPELLA/ARCADIA and NASA Systems Engineering Handbook: Modeling overview with the HUBBLE Space Telescope.",
                 "descr": "",
                 "author": "Rémy Drouin",
@@ -342,12 +193,12 @@
                 "topic_order": "99",
                 "type": "Video",
                 "type_order": "99",
- 				"domain": "Aerospace & Defense",
+ 		"domain": "Aerospace & Defense",
                 "domain_order": "99",
- 				"link": "https://youtu.be/pU5LPXCv9J4",
+ 		"link": "https://youtu.be/pU5LPXCv9J4",
                 "thumb": ""
             },
-			{
+	{
                 "title": "PME + Grand Groupe, retex d'une collaboration réussie sur Capella",
                 "descr": "",
                 "author": "Etienne Juliot (Obeo), Juan Navas (Thales)",
@@ -357,10 +208,10 @@
                 "topic_order": "99",
                 "type": "Video",
                 "type_order": "99",
- 				"link": "https://youtu.be/6t2Iyvpibhs",
+ 		"link": "https://youtu.be/6t2Iyvpibhs",
                 "thumb": ""
             },
-			{
+	{
                 "title": "How I pack my suitcase",
                 "descr": "",
                 "author": "Susan Faust, Chantal Sinnwell (Siemens)",
@@ -373,7 +224,7 @@
                 "link": "https://youtu.be/Z2lwu1JGc1g",
                 "thumb": ""
             },
-			{
+	{
                 "title": "The long way from Bid to project... supported by Capella",
                 "descr": "",
                 "author": "Michael Schaefer (Thales Germany",
@@ -383,12 +234,12 @@
                 "topic_order": "99",
                 "type": "Video",
                 "type_order": "99",
- 				"domain": "Railway",
+ 		"domain": "Railway",
                 "domain_order": "99",
                 "link": "https://youtu.be/chPcHLk-iHw",
                 "thumb": ""
             },
-			{
+	{
                 "title": "A STEP towards Model-based: Case Study covering Conceptual Design of a Fusion Power Plant",
                 "descr": "",
                 "author": "Yitong Chen, Jason Joannou (UKAEA)",
@@ -398,8 +249,8 @@
                 "topic_order": "99",
                 "type": "Video",
                 "type_order": "99",
- 				"domain": "Energy",
-                "domain_order": "8",
+ 		"domain": "Energy",
+                "domain_order": "99",
                 "link": "https://youtu.be/-tRun6er-N4",
                 "thumb": ""
             },
@@ -593,7 +444,7 @@
                 "type": "Article",
                 "type_order": "99",
                 "domain": "Energy",
-                "domain_order": "7",
+                "domain_order": "99",
 				"link": "resources/pdf/IS2018_Architecture-Design-of-NPP-systems-through-viewpoints-analysis_v1.8.pdf",
                 "thumb": ""
             },
@@ -670,7 +521,7 @@
                 "link": "https://blog.obeosoft.com/capella-community-survey-2020-the-results",
                 "thumb": ""
             },
-			{
+	{
                 "title": "Challenges and Practical Solutions for MBSE",
                 "descr": "",
                 "author": "Samuel Rochet (Obeo)",
@@ -683,7 +534,7 @@
                 "link": "https://blog.obeosoft.com/challenges-and-practical-solutions-for-mbse",
                 "thumb": ""
             },
-			{
+	{
                 "title": "Modeling & Simulation of CubeSat-based Missions' Concept of Operations",
                 "descr": "",
                 "author": "Danilo Pallamin de Almeida",
@@ -1390,7 +1241,7 @@
                 "thumb": ""
             },
             {
-                "title": "Case-Study Thales - Autonomous Train Project",
+                "title": "Autonomous Train Project",
                 "descr": "Case-study by a consortium composed of Bombardier, Robert Bosch, Railenum, SNCF, Sirops and Thales<br><br><a href='resources/pdf/Case_Study_AutonomousTrain_ZH.pdf' target='_blank'>Read the Chinese Version <i class='fa fa-arrow-circle-right' aria-hidden='true'></i></a>",
                 "author": "Thales",
                 "year": "2020",
@@ -1398,9 +1249,9 @@
                 "topic": "Business Value",
                 "topic_order": "1",
                 "type": "Fact Sheet",
-                "type_order": "99",
+                "type_order": "2",
                 "domain": "Railway",
-                "domain_order": "3",
+                "domain_order": "1",
                "link": "https://www.eclipse.org/capella/resources/pdf/Case_Study_AutonomousTrain.pdf",
                 "thumb": "images/thumbs/resources/thumb_case-study-train-autonomous.jpg"
             },
@@ -1536,13 +1387,13 @@
                 "topic": "Learning More",
                 "topic_order": "9",
                 "type": "Video",
-                "type_order": "99",
+                "type_order": "8",
                 "link": "https://youtu.be/ZqvfSURUpIY",
                 "thumb": ""
             },
            {
                 "title": "The spirit of Arcadia and Capella in 7 minutes",
-                "descr": "Very short introduction to Arcadia and Capella: main concepts and example.<br><br><a href='https://www.youtube.com/watch?v=2fveJ7nwiuU'>Watch the Portuguese Version <i class='fa fa-arrow-circle-right'></i></a>",
+                "descr": "Very short introduction to Arcadia and Capella: main concepts and example.",
                 "author": "Stéphane Bonnet (Thales)",
                 "year": "2019",
                 "language": "EN",
@@ -1668,7 +1519,7 @@
                 "topic": "Learning More",
                 "topic_order": "99",
                 "type": "Video",
-                "type_order": "99",
+                "type_order": "7",
                 "link": "https://youtu.be/h-ax61eVlxM",
                 "thumb": ""
             },
@@ -1855,7 +1706,7 @@
                 "thumb": ""
             },
             {
-                "title": "Case-Study Rolls-Royce - Arcadia and Capella for a large complex mechanical system",
+                "title": "Arcadia and Capella for a large complex mechanical system",
                 "descr": "Rolls-Royce used Arcadia/Capella to define the architecture of a large civil aerospace turbofan engine, to manage system complexity and minimise the associated risk.<br><br><a href='resources/pdf/Case_Study_Rolls_Royce_ZH.pdf' target='_blank'>Read the Chinese Version <i class='fa fa-arrow-circle-right' aria-hidden='true'></i></a>",
                 "author": "Jim Daly (Rolls-Royce)",
                 "year": "2019",
@@ -1893,10 +1744,10 @@
                 "topic": "Business Value",
                 "topic_order": "3",
                 "type": "Fact Sheet",
-                "type_order": "8",
+                "type_order": "4",
                 "domain": "Automotive",
                 "domain_order": "2",
-                "link": "resources/pdf/Case_Study_Continental.pdf",
+                "link": "https://polarsys.org/capella/resources/pdf/Case_Study_Continental.pdf",
                 "thumb": "images/thumbs/resources/thumb_case-study-continental.jpg"
             },
             {
@@ -1910,8 +1761,8 @@
                 "type": "Fact Sheet",
                 "type_order": "99",
                 "domain": "Energy",
-                "domain_order": "2",
-                "link": "resources/pdf/Case_Study_Framatome.pdf",
+                "domain_order": "1",
+                "link": "https://polarsys.org/capella/resources/pdf/Case_Study_Framatome.pdf",
                 "thumb": "images/thumbs/resources/thumb_case-study-framatome.jpg"
             },
             {
@@ -1966,7 +1817,7 @@
                 "type": "Slideshow",
                 "type_order": "99",
                 "domain": "Railway",
-                "domain_order": "5",
+                "domain_order": "99",
                 "link": "https://www.obeosoft.com/ressources/presentations/Use-Capella-Bid-Phase-Railway-Signalling-Projects-Experiences-Challenges-MSchaefer-Thales.pdf",
                 "thumb": ""
             },
@@ -1981,7 +1832,7 @@
                 "type": "Video",
                 "type_order": "99",
                 "domain": "Railway",
-                "domain_order": "6",
+                "domain_order": "99",
                 "link": "https://www.youtube.com/watch?v=7LaUVdvSwR0",
                 "thumb": ""
             },
@@ -2279,7 +2130,7 @@
             },
             {
                 "title": "Arcadia datasheet",
-                "descr": "The essentials of the method summarized in a four pages document.<br><br><a href='resources/pdf/Datasheet_Arcadia_br.pdf'>Read the Portuguese Version <i class='fa fa-arrow-circle-right'></i></a>",
+                "descr": "The essentials of the method summarized in a four pages document.",
                 "author": "",
                 "year": "2017",
                 "language": "EN",
@@ -2798,7 +2649,7 @@
                 "type": "Slideshow",
                 "type_order": "3",
                 "domain": "Railway",
-                "domain_order": "4",
+                "domain_order": "99",
                 "link": "https://www.obeosoft.com/ressources/presentations/Arcadia-Example-Introduction-JLVoirin-Thales.pdf",
                 "thumb": "images/thumbs/resources/thumb_sample-arcadia.jpg"
             },
