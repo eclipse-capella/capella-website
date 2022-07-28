@@ -41,13 +41,13 @@
     "version": "5.2.0",
     "links": {
       "windows": { 
-        "main": "https://www.eclipse.org/downloads/download.php?file=/capella/capellastudio/products/release/5.2.0/capella-studio-5.2.0.202112151234-win32.win32.x86_64.zip"
+        "main": "https://www.eclipse.org/downloads/download.php?file=/capella/capellastudio/products/releases/5.2.0/capella-studio-5.2.0.202112151234-win32.win32.x86_64.zip"
       },
       "linux": { 
-        "main": "https://www.eclipse.org/downloads/download.php?file=/capella/capellastudio/products/release/5.2.0/capella-studio-5.2.0.202112151234-linux.gtk.x86_64.zip"
+        "main": "https://www.eclipse.org/downloads/download.php?file=/capella/capellastudio/products/releases/5.2.0/capella-studio-5.2.0.202112151234-linux.gtk.x86_64.zip"
       },
       "mac": { 
-        "main": "https://www.eclipse.org/downloads/download.php?file=/capella/capellastudio/products/release/5.2.0/capella-studio-5.2.0.202112151234-macosx.cocoa.x86_64.zip"
+        "main": "https://www.eclipse.org/downloads/download.php?file=/capella/capellastudio/products/releases/5.2.0/capella-studio-5.2.0.202112151234-macosx.cocoa.x86_64.zip"
       }
     }
   },
