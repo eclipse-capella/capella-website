@@ -132,6 +132,19 @@
         
         
 	{
+                "title": "A Practitioners Approach to Model-Based Systems Engineering (MBSE)",
+                "descr": "",
+                "author": "Michael Ali (Saratech)",
+                "year": "2022",
+                "language": "EN",
+                "topic": "Getting Started",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+ 		"link": "https://youtu.be/qphhWuh_LrA",
+                "thumb": ""
+            },
+	{
                 "title": "Connecting textual requirements and Capella models",
                 "descr": "",
                 "author": "José Pereira & José Fuentes (The Reuse Company)",
@@ -2719,7 +2732,7 @@
                 "thumb": ""
             },
             {
-                "title": "EclipseCon EU - Capella time-lapse: A system architecture model in 30 minutes",
+                "title": "Capella time-lapse: A system architecture model in 30 minutes",
                 "descr": "A commented Capella model describing an in-flight entertainment system",
                 "author": "Stéphane Bonnet (Thales)",
                 "year": "2015",
