@@ -74,7 +74,7 @@
       "licence":"EPL",
       "compatibleWithCurrentVersion": true,
       "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a>",
-      "description": "<p>This addon enables the end-user to generate an HTML website from a Capella project (e.g: <a href='resources/doc/IFE_XHTML_DocGen_5.1.1_for_capella_5.2.0/output/index.html' target='_blank'>In-Flight Entertainment (IFE)</a>).</p><p>Sharing models with all stakeholders is essential in model-based systems engineering. Publishing and sharing HTML versions of models helps make models The reference of all engineering activities.</p><p>For more information, please install the addon within Capella and check online help then dedicated section for the addon.</p>",
+      "description": "<p>This addon enables the end-user to generate an HTML website from a Capella project (e.g: <a href='resources/doc/IFE_docgen/output/index.html' target='_blank'>In-Flight Entertainment (IFE)</a>).</p><p>Sharing models with all stakeholders is essential in model-based systems engineering. Publishing and sharing HTML versions of models helps make models The reference of all engineering activities.</p><p>For more information, please install the addon within Capella and check online help then dedicated section for the addon.</p>",
       "download": { 
         "release": "https://github.com/eclipse/capella-xhtml-docgen/releases",
         "userManual": "https://github.com/eclipse/capella-xhtml-docgen/wiki",
