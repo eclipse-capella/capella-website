@@ -1,6 +1,6 @@
 {
   "$schema": "./download.schema.json",
-  "versionBranch": "5.2.x",
+  "versionBranch": "6.0",
   "lang": { 
       "release": { "text": "Download", "icon": "fa fa-download" }, 
       "dropin": { "text": "Drop-in", "icon": "fa fa-download" }, 
@@ -22,32 +22,32 @@
   "capella": {
     "name": "Capella",
     "key": "Capella",
-    "version": "5.2.0",
+    "version": "6.0",
     "links": {
       "windows": {
-        "main": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/5.2.0-R20211130-125709/capella-5.2.0.202111301257-win32-win32-x86_64.zip"
+        "main": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/6.0.0/capella-6.0.0.202209090800-win32-win32-x86_64.zip"
        },
       "linux": { 
-        "main": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/5.2.0-R20211130-125709/capella-5.2.0.202111301257-linux-gtk-x86_64.tar.gz"
+        "main": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/6.0.0/capella-6.0.0.202209090800-linux-gtk-x86_64.tar.gz"
        },
       "mac": { 
-        "main": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/5.2.0-R20211130-125709/capella-5.2.0.202111301257-macosx-cocoa-x86_64.tar.gz"
+        "main": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/6.0.0/capella-6.0.0.202209090800-macosx-cocoa-x86_64.tar.gz"
        }
     }
   },
   "capellaStudio": {
     "name": "Capella Studio",
     "key": "CapellaStudio",
-    "version": "5.2.0",
+    "version": "6.0",
     "links": {
-      "windows": { 
-        "main": "https://www.eclipse.org/downloads/download.php?file=/capella/capellastudio/products/releases/5.2.0/capella-studio-5.2.0.202112151234-win32.win32.x86_64.zip"
+      "windows": {
+        "main": "https://www.eclipse.org/downloads/download.php?file=/capella/studio/products/releases/6.0.0/capella-studio-6.0.0.202209121340-win32.win32.x86_64.zip"
       },
       "linux": { 
-        "main": "https://www.eclipse.org/downloads/download.php?file=/capella/capellastudio/products/releases/5.2.0/capella-studio-5.2.0.202112151234-linux.gtk.x86_64.zip"
+        "main": "https://www.eclipse.org/downloads/download.php?file=/capella/studio/products/releases/6.0.0/capella-studio-6.0.0.202209121340-linux.gtk.x86_64.zip"
       },
       "mac": { 
-        "main": "https://www.eclipse.org/downloads/download.php?file=/capella/capellastudio/products/releases/5.2.0/capella-studio-5.2.0.202112151234-macosx.cocoa.x86_64.zip"
+        "main": "https://www.eclipse.org/downloads/download.php?file=/capella/studio/products/releases/6.0.0/capella-studio-6.0.0.202209121340-macosx.cocoa.x86_64.zip"
       }
     }
   },
@@ -101,7 +101,7 @@
       "key":"PVMT",
       "fragment":"pvmt",
       "licence":"EPL",
-      "compatibleWithCurrentVersion": true,
+      "compatibleWithCurrentVersion": false,
       "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a>",
       "description": "<p>This add-on allows end-users to easily define their own specific properties on Arcadia concepts, value these properties for each elements, and automatically change the graphical aspect of model elements in diagrams.</p><p>This add-on is developed by a Thales business unit (DMS-FR) and is distributed under the Eclipse Public License. It is not hosted by the Eclipse Foundation and it is not developped under the Eclipse Development Process.</p>",
       "download": {
@@ -167,7 +167,7 @@
       "key":"M2DOC",
       "fragment":"m2doc",
       "licence":"EPL",
-      "compatibleWithCurrentVersion": true,
+      "compatibleWithCurrentVersion": false,
       "contact":"<a href='industry-consortium/obeo.html' target='_blank'>Obeo</a>",
       "description": "<p>M2Doc generates MS-Word documents from Capella models. M2Doc uses wysiwyg and customable Word templates to extract data and diagrams from your models and display them in a docx file.</p>",
       "download": { 
@@ -301,8 +301,8 @@
       "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a>",
       "description": "<p>The Mass viewpoint enables to simply describe the non-functional aspect of mass in Capella. </p><p>For more information, please visit <a href='https://wiki.eclipse.org/Capella/Viewpoints/BasicMass'>wiki page</a>.</p>",
       "download": { 
-        "dropin": "https://download.eclipse.org/capella/addons/basicmass/dropins/releases/5.0.0/BasicMass-dropins-5.0.0.202012150812.zip", 
-        "updateSite": "https://download.eclipse.org/capella/addons/basicmass/updates/releases/5.0.0/",
+        "release": "https://github.com/eclipse/capella-basic-vp/releases",
+        "userManual": "https://github.com/eclipse/capella-basic-vp/wiki/Basic-Mass-Viewpoint",
         "installAddon": "https://github.com/eclipse/capella/blob/master/doc/plugins/org.polarsys.capella.ui.doc/html/Installation%20Guide/How%20to%20install%20Capella%20and%20Addons.mediawiki#Configuration_and_Extensibility"
       },
       "tags":["viewpoint"]
@@ -317,8 +317,8 @@
       "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a>",
       "description": "<p>The Price viewpoint enables to simply describe the non-functional aspect of price in Capella.</p><p>For more information, please visit <a href='https://wiki.eclipse.org/Capella/Viewpoints/BasicPrice'>wiki page</a>.</p>",
       "download": { 
-        "dropin": "https://download.eclipse.org/capella/addons/basicprice/dropins/releases/5.0.0/BasicPrice-dropins-5.0.0.202012150812.zip",
-        "updateSite": "https://download.eclipse.org/capella/addons/basicprice/updates/releases/5.0.0/",
+        "release": "https://github.com/eclipse/capella-basic-vp/releases",
+        "userManual": "https://github.com/eclipse/capella-basic-vp/wiki/Basic-Price-Viewpoint",
         "installAddon": "https://github.com/eclipse/capella/blob/master/doc/plugins/org.polarsys.capella.ui.doc/html/Installation%20Guide/How%20to%20install%20Capella%20and%20Addons.mediawiki#Configuration_and_Extensibility"
       },
       "tags":["viewpoint"]
@@ -333,8 +333,8 @@
       "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a>",
       "description": "<p>The Performance viewpoint enables to simply describe the non-functional aspect of performance in Capella.</p><p>For more information, please visit <a href='https://wiki.eclipse.org/Capella/Viewpoints/BasicPerformance'>wiki page</a>.</p>",
       "download": { 
-        "dropin": "https://download.eclipse.org/capella/addons/basicperfo/dropins/releases/5.0.0/BasicPerfo-dropins-5.0.0.202012150812.zip", 
-        "updateSite": "https://download.eclipse.org/capella/addons/basicperfo/updates/releases/5.0.0/",
+        "release": "https://github.com/eclipse/capella-basic-vp/releases",
+        "userManual": "https://github.com/eclipse/capella-basic-vp/wiki/Basic-Performance-Viewpoint",
         "installAddon": "https://github.com/eclipse/capella/blob/master/doc/plugins/org.polarsys.capella.ui.doc/html/Installation%20Guide/How%20to%20install%20Capella%20and%20Addons.mediawiki#Configuration_and_Extensibility"
       },
       "tags":["viewpoint"]
