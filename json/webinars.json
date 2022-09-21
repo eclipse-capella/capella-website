@@ -11,8 +11,8 @@
             "language": "EN",
             "descr": "<p>A common need in system architecture design is to verify that if the architect is correct and can satisfy its requirements.</p><p>Execution of system architect model means to interact with state machines to test system’s control logic. It can verify if the logical sequences of functions and interfaces in different scenarios are desired.</p><p>However, only sequence itself is not enough to verify its consequence or output. So we need each function to do what it is supposed to do during model execution to verify its output, and that is what we called “simulation”.</p><p>This presentation introduces how to embed Python or MATLAB® codes inside functions to do “simulation” within Capella.</p>",
             "bio": "<p><i><span class='txt_indigo'>Renfei Xu</span><ul><li> is the Technical Director of MBSE from PGM. He has participated in many implementation projects of MBSE in areas like Engine Control, Avionics, Mechatronics, RADAR and so on. In recent years, he is dedicated to the promotion of Capella and ARCADIA in China.</i></p>",
-            "utube_link": "",
-	    "slides_link": "",
+            "utube_link": "https://youtu.be/UiE0l-zdabY",
+	    "slides_link": "https://bit.ly/capella_webinar_220901_slides",
 	    "tag": ["simulation","add-on"]
         },	
 		{
