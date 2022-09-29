@@ -29,6 +29,12 @@ ul li {
 [cloak], [data-cloak], [x-cloak], .cloak {
     display: none;
 }
+.anchor{
+  display: block;
+  height: 92px; /*same height as header*/
+  margin-top: -92px; /*same height as header*/
+  visibility: hidden;
+}
 .nav>li#dwnld {
   background-color: #292253;
 }
@@ -60,7 +66,6 @@ a:hover, .btn-link:hover, a:active, a:focus, #top-bar .main-menu li#dwnld > a:ho
   color: #292253;
   outline: 0;
 }
-
 .tag {
 	border: none;
  	color: #FFFFFF;
@@ -87,7 +92,6 @@ img.circular-square  {padding: 0 !important;}
 .circular-portrait { position: relative; width: 130px; height: 130px; overflow: hidden; border-radius: 50%; } 
 .circular-portrait img { width: 100%; height: auto;  padding: 0;}
 .br_circular_landscape_margin {margin: 19px 0 15px 0;}
-
 .box-shadow{
 -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.30);
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.30);
@@ -246,7 +250,6 @@ section {
 h2.icon{
     font-size: 65px;
 }
-
 /* Banners
 -----------*/
 .home{
@@ -991,7 +994,6 @@ color: #a94442;
     max-width: 280px;
     padding: 45px 45px 15px 45px;
 }
-
     
 /* Bottom bar
 -------------------------- */
@@ -1016,30 +1018,24 @@ color: #a94442;
 	padding: 10px 20px;
 	margin-left: 20px;
 }
-
 .btn-indigo, .btn-indigo:active, .btn-indigo:visited:focus {
 	background-color:#292253;
 	color:#FBBF52;
 }
-
 .btn-indigo:hover {
 	background-color: #FBBF52;
 	color:#292253;
 }
-
 .btn-outline, .btn-outline:active, .btn-outline:visited:focus {
 	border: 1px solid #FBBF52;
 	background-color: transparent;
 	color: #FBBF52;
 }
-
 .btn-outline:hover {
 	border: 1px solid #292253;
 	background-color: #292253;
 	color:#FBBF52;
 }
-
-
 .notes-section {
   text-align: left;
   padding: 12px;
