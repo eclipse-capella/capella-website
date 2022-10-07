@@ -132,6 +132,19 @@
         
         
 	{
+                "title": "Applying MBSE as support for Systems Engineering Standards",
+                "descr": "",
+                "author": "Sébastien Dubé (SAMARES-ENGINEERING)",
+                "year": "2022",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+ 		"link": "https://youtu.be/E-obpCZUcqA",
+                "thumb": ""
+            },
+	{
                 "title": "Case Study: The PuckWave Project",
                 "descr": "",
                 "author": "Uğur Arıkan and Peter Jackson (SUTD-ESD)",
@@ -141,7 +154,6 @@
                 "topic_order": "99",
                 "type": "Sample Model",
                 "type_order": "99",
-                "domain_order": "99",
  		"link": "https://esd.sutd.edu.sg/40014-capella-tutorial/CaseStudies.html",
                 "thumb": ""
             },
