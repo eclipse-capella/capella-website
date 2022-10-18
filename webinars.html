@@ -107,7 +107,12 @@
 				<div class="section-heading">
 					<h1 class="title wow fadeInDown" data-wow-delay=".3s">Upcoming Webinars</h1>
 				</div>
+				<p>Currently, webinars are paused until <b><a href="capella_days_2022.html">Capella Days 2022</a></b>: from the <b>15th to 17th of November</b> you will have the opportunity to follow <b>9 talks</b>!</p>
+				<p>This year again we have selected a program focused on case-studies, with presentations on multiple industrial domains: Healthcare, Shipbuilding, Defense, Avionics, Space, Optronics, Manufacturing, ...</p>
+				<p><a href="https://www.bigmarker.com/series/capella-days-2022.html"><i class="fa fa-calendar-check" aria-hidden="true"></i> <b>Save your spot!</b></a></p>
+				<p>Webinars will come back just after this annual event. Stay tuned!</p>
 
+<!--
 				<div class="accordion-group">
 					<div class="accordion-heading">
 						<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#2022_10_13">
@@ -132,6 +137,7 @@
 						</div>
 					</div>
 				</div>
+-->
 
 			</div>
 			</div>
@@ -181,12 +187,18 @@
 						}
 						item_infos += tags;
 
-						if(data.webinars.items[i].utube_link != ""){
-						link_u += "<a href='" + data.webinars.items[i].utube_link + "'>Watch the Webinar <i class='pl-2 fa fa-external-link-square' aria-hidden='true'></i></a>&nbsp; &nbsp; &nbsp;";
+						if(data.webinars.items[i].utube_link == "soon"){
+						link_u += "Video will be available soon <i class='pl-2 fa fa-brands fa-youtube' aria-hidden='true'></i>&nbsp; &nbsp; &nbsp;"
+						}
+						else if(data.webinars.items[i].utube_link != ""){
+						link_u += "<a href='" + data.webinars.items[i].utube_link + "'>Video <i class='pl-2 fa fa-brands fa-youtube' aria-hidden='true'></i></a>&nbsp; &nbsp; &nbsp;";
 						}
 
-						if(data.webinars.items[i].slides_link != ""){
-						link_s += "<a href='" + data.webinars.items[i].slides_link + "'>Slideshare presentation <i class='pl-2 fa fa-external-link-square' aria-hidden='true'></i></a>";
+						if(data.webinars.items[i].slides_link == "soon"){
+						link_s += "Slides will be available soon <i class='pl-2 fa fa-brands fa-slideshare' aria-hidden='true'></i>&nbsp; &nbsp; &nbsp;"
+						}
+						else if(data.webinars.items[i].slides_link != ""){
+						link_s += "<a href='" + data.webinars.items[i].slides_link + "'>Slides <i class='pl-2 fa fa-brands fa-slideshare' aria-hidden='true'></i></a>";
 						}
 
 						links += "<p>" + link_u + link_s + "</p>";
