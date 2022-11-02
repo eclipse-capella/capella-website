@@ -118,11 +118,22 @@
         }
       }
     }, 
+    { "name":"Ansys ModelCenter – Capella MBSE connector",
+      "key":"ModelCenter",
+      "fragment":"ModelCenter",
+      "licence":"Commercial",
+      "contact":"<a href='https://www.ansys.com/contact-us' target='_blank'>Ansys</a>",
+      "description": "<p>This connector allows Capella users to integrate their models with <i>ModelCenter</i>. This integration allows them to utilize any engineering analysis tool (spreadsheets, scripts, any COTS simulation tool) to verify requirements satisfaction at any point in the development lifecycle. It also allows them to use <i>ModelCenter</i>’s trade study and optimization capability to optimize their system design.</p><p>This connector is available for free to anyone who purchases <i>ModelCenter</i>.</p>",
+      "download": { 
+        "learnMore": "https://www.ansys.com/products/connect/ansys-modelcenter"
+      },
+      "tags":["analysis","bridge"]
+    },
     { "name":"Cloud for Capella",
       "key":"C4C",
       "fragment":"c4c",
       "licence":"Commercial",
-      "contact":"<a href='https://www.obeosoft.com/contact' target='_blank'>Obeo</a>",
+      "contact":"<a href='https://www.obeosoft.com/en/products/cloud-for-capella#form' target='_blank'>Obeo</a>",
       "description": "<p>Cloud for Capella provides a classic Capella bundle hosted in a Cloud environment managed by Obeo. It is complemented with add-ons selected and integrated by Obeo (System Subsystem transition, XHTML export, Requirement, Filtering, PVMT, M2Doc).</p><p>Cloud for Capella can be subscribed with the Team option that comes with a collaborative server hosted in the Cloud.</p><p>Alone, or in addition to the Capella environments hosted by Obeo, we can also provide a publication server to expose your Capella models through the OSLC protocol.</p>",
       "download": { 
         "learnMore": "https://www.obeosoft.com/en/products/cloud-for-capella"
@@ -155,7 +166,7 @@
       "key":"P4C",
       "fragment":"p4c",
       "licence":"Commercial",
-      "contact":"<a href='https://www.obeosoft.com/contact' target='_blank'>Obeo</a>",
+      "contact":"<a href='https://www.obeosoft.com/en/products/publication-for-capella#form' target='_blank'>Obeo</a>",
       "description": "<p>Publication for Capella provides fine-grained integration between the model-based systems engineering workbench Capella and OSLC-compliant repositories (Polarion, Doors Next, Jazz platform, ...).<br>It enables to manage traceability from Requirements, Tasks, Issues, Change Requests, Test Cases, Releases, ...</p>",
       "download": { 
         "learnMore": "https://www.obeosoft.com/en/products/publication-for-capella"
@@ -168,7 +179,7 @@
       "fragment":"m2doc",
       "licence":"EPL",
       "compatibleWithCurrentVersion": true,
-      "contact":"<a href='industry-consortium/obeo.html' target='_blank'>Obeo</a>",
+      "contact":"<a href='https://www.obeosoft.com/contact' target='_blank'>Obeo</a>",
       "description": "<p>M2Doc generates MS-Word documents from Capella models. M2Doc uses wysiwyg and customable Word templates to extract data and diagrams from your models and display them in a docx file.</p>",
       "download": { 
         "dandi": "http://www.m2doc.org/capella/", 
@@ -231,22 +242,33 @@
       },
       "tags":["export","bridge"]
     },    
+    { "name":"SysML Bridge for Capella",
+      "key":"SysMLBridge",
+      "fragment": "SysMLBridge",
+      "licence":"Commercial",
+      "contact":"<a href='https://www.obeosoft.com/en/products/sysml-bridge-for-capella#form' target='_blank'>Obeo</a>",
+      "description": "<p><i>SysML Bridge for Capella</i> automatically transforms Capella models in SysML (and vice versa) according to rules that can be adapted to your context.</p><p>It supports three main use-cases:<ul><li>Exchange between stakeholders.</li><li>Migration between standards.</li><li>Connection between tools.</li></ul></p>",
+      "download": { 
+        "learnMore": "https://www.obeosoft.com/en/products/sysml-bridge-for-capella"
+      },
+      "tags":["SysML", "bridge"]
+    },
     { "name":"System Modeling Workbench (SMW) for Teamcenter",
       "key":"SMW",
       "fragment": "smw",
       "licence":"Commercial",
-      "contact":"<a href='https://www.plm.automation.siemens.com/global/en/contact-us.html' target='_blank'>Siemens Digital Industries Software</a> &amp; <a href='industry-consortium/obeo.html' target='_blank'>Obeo</a>",
+      "contact":"<a href='https://www.plm.automation.siemens.com/global/en/contact-us.html' target='_blank'>Siemens Digital Industries Software</a> &amp; <a href='https://www.obeosoft.com/contact' target='_blank'>Obeo</a>",
       "description": "<p>System Modeling Workbench is a supported and complete integration of best of breed Model-Based Systems Engineering (MBSE) tools based on Capella.</p><p>Integrated with Teamcenter this solution allows to link systems models with requirements in a multi-domain product integrated environment.</p>",
       "download": { 
         "learnMore": "https://www.obeosoft.com/en/products/smw"
       },
-      "tags":["PLM", "Requirements", "bridge"]
+      "tags":["PLM", "requirements", "bridge"]
     },
     { "name":"Team for Capella",
       "key":"T4C",
       "fragment":"t4c",
       "licence":"Commercial",
-      "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a> &amp; <a href='https://www.obeosoft.com/contact' target='_blank'>Obeo</a>",
+      "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a> &amp; <a href='https://www.obeosoft.com/en/team-for-capella#form' target='_blank'>Obeo</a>",
       "description": "<p>This add-on allows users to collaborate on remotely shared models and representations</p><ul><li>All changes on the models and representations are automatically propagated across all users’ views.</li><li>Only the necessary objects are automatically locked and released. On-demand locks can also be created.</li><li>Data is stored in a shared server hosting the whole models with their representations.</li></ul>",
       "download": { 
         "learnMore": "https://www.obeosoft.com/en/team-for-capella"
