@@ -12,8 +12,8 @@
             "language": "EN",
             "descr": "<p>Through a large number of engineering practices in China, we found that customers not only pay attention to how the object product can be modeled more quickly and reasonably, but also pay attention to the correctness of the model itself. Therefore, the simulability and analyzability of the model are very important.</p><p>Users expect Capella to provide value in logic simulation and parametric analysis. According to the needs of customers, improvements have been made in the following aspects:<ol><li>We decided to add the concept and related elements of activity diagrams in Sysml to Capella to make the function flow executable;</li><li>Referring to the state machine specification in Sysml, we assign dynamic execution rules to the elements in the Capella state machine so that they can be simulated and operated;</li><li>Support nested calls and interrupt logic between state machines and activity diagrams to enrich the simulation scenarios.</li><li>Support integration and calling with Matlab to make algorithm verification simpler and more feasible.</li><li>Developed a running interface for simulation, so that engineers can get more information through simulation (for example: simulation animation effect; simulation speed adjustable;</li></ol></p><p>Simulation can be paused; simulation data can be modified in real-time and feedback can be obtained; simulation data can be recorded and related curves generated)",
             "bio": "<p><i><span class='txt_indigo'>Kai Liu (Glaway)</span> is the Technical Director of the MBSE business of Glaway. He has rich experience in engineering design and project practice in many enterprises in the fields of automobile, aviation, radar and so on.</i></p>",
-            "utube_link": "soon",
-	    "slides_link": "soon",
+            "utube_link": "https://bit.ly/capella_webinar_13102022_video",
+	    "slides_link": "https://bit.ly/capella_webinar_13102022_slides",
 	    "tag": ["simulation","add-on"]
         },	
 		{
