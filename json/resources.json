@@ -132,6 +132,19 @@
         
         
 	{
+                "title": "Model Simulation and Analysis in Capella",
+                "descr": "",
+                "author": "Kai Liu (Glaway)",
+                "year": "2022",
+                "language": "EN",
+                "topic": "Add-ons",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+ 		"link": "https://bit.ly/capella_webinar_13102022_video",
+                "thumb": ""
+            },
+	{
                 "title": "Applying MBSE as support for Systems Engineering Standards",
                 "descr": "",
                 "author": "Sébastien Dubé (SAMARES-ENGINEERING)",
