@@ -185,6 +185,11 @@
 		"link": "https://signon-group.com/en"
         }, 
         {
+		"logoSrc": "images/logos/adopters/logo_soprasteria.jpg",
+		"company": "Sopra Steria",
+		"link": "https://www.soprasteria.com/"
+        }, 
+        {
 		"logoSrc": "images/logos/adopters/logo_solutions-thinking.png",
 		"company": "Solutions Thinking",
 		"link": "https://solutionsthinking.co.uk/"
