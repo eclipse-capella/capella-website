@@ -86,7 +86,7 @@
         ],
 	"domains":[
 	    {
-		"title": "Aerospace & Defense",
+		"title": "Space",
 		"descr": "",
 		"anchor": "aerospace",
 		"icon": "images/icons/icon_aerospace.png"
@@ -126,11 +126,152 @@
 	       "descr": "",
 	       "anchor": "telecom",
 	       "icon": "images/icons/icon_telecom.png"
+	    },
+	    {
+	       "title": "Shipbuilding",
+	       "descr": "",
+	       "anchor": "shipbuilding",
+	       "icon": "images/icons/icon_boat.png"
+	    },
+	    {
+	       "title": "Manufacturing",
+	       "descr": "",
+	       "anchor": "manufacturing",
+	       "icon": "images/icons/icon_robot.png"
+	    },
+	    {
+	       "title": "Optronics",
+	       "descr": "",
+	       "anchor": "optronics",
+	       "icon": "images/icons/icon_laser.png"
 	    }
         ],
         "items":[
         
         
+	{
+                "title": "A global engineering process based on MBSE to master complexity",
+                "descr": "",
+                "author": "Guillaume Journaux & Karine Pellen (Thales DMS)",
+                "year": "2022",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+ 		"link": "https://youtu.be/B-GVu5HScKM",
+                "thumb": ""
+            },
+	{
+                "title": "A method for quantitative evaluation of functional chains supported by a Capella add-on",
+                "descr": "",
+                "author": "Joost Dierkse (Thermo Fisher Scientific), Alexandr Vasenev (ESI-TNO)",
+                "year": "2022",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+		"domain":"Optronics",
+ 		"link": "https://youtu.be/BEYfcVq2glo",
+                "thumb": ""
+            },
+	{
+                "title": "Expand MBSE into Model-based Production Engineering (MBPE) to realize a Lego Manufacturing System",
+                "descr": "",
+                "author": "Susan Faust & Chantal Sinnwell (Siemens DISW)",
+                "year": "2022",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+		"domain":"Manufacturing",
+ 		"link": "https://youtu.be/_AOLKk8UmIs",
+                "thumb": ""
+            },
+	{
+                "title": "How We Use Capella for Collaborative Design in COMAC",
+                "descr": "",
+                "author": "Xinyi Tang (COMAC), Renfei Xu (PGM)",
+                "year": "2022",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+		"domain":"Avionics",
+ 		"link": "https://youtu.be/XSpAaC30XAE",
+                "thumb": ""
+            },
+	{
+                "title": "Stairway to heaven: Climbing the very first steps",
+                "descr": "",
+                "author": "Stéphane Bonnet (Thales Avionic Systems)",
+                "year": "2022",
+                "language": "EN",
+                "topic": "Business Value",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+ 		"link": "https://youtu.be/vkB_sGXe91A",
+                "thumb": ""
+            },
+	{
+                "title": "CILAS feedback about Capella use",
+                "descr": "",
+                "author": "Julien Mansion (CILAS - ArianeGroup)",
+                "year": "2022",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+		"domain":"Optronics",
+ 		"link": "https://youtu.be/9twN6-KDoQY",
+                "thumb": ""
+            },
+	{
+                "title": "Interface Control Document Generation and Linkage to PLM EBOM",
+                "descr": "",
+                "author": "Michael Ali (Saratech)",
+                "year": "2022",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+ 		"link": "https://youtu.be/2W4WqGLvkCI",
+                "thumb": ""
+            },
+	{
+                "title": "Towards a Digital-Native Engineering at Naval group",
+                "descr": "",
+                "author": "Guillaume Leleu & Emmanuel de Chateau-Thierry (Naval Group)",
+                "year": "2022",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+		"domain":"Shipbuilding",
+ 		"link": "https://youtu.be/9yLqd4A2EjE",
+                "thumb": ""
+            },
+	{
+                "title": "Interplanetary Space Mission as a reverse-engineering background for the Capella environment",
+                "descr": "",
+                "author": "Emanuele Tomassi, Davide Bellicoso, Riccardo Rambaldi (Politecnico di Milano)",
+                "year": "2022",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+		"domain":"Space",
+ 		"link": "https://youtu.be/UtCW44KZYfM",
+                "thumb": ""
+            },
 	{
                 "title": "Model Simulation and Analysis in Capella",
                 "descr": "",
@@ -271,7 +412,7 @@
                 "topic_order": "99",
                 "type": "Sample Model",
                 "type_order": "99",
- 		"domain": "Aerospace & Defense",
+ 		"domain": "Space",
                 "domain_order": "99",
  		"link": "https://github.com/DROUINRemy/hubble-capella-sample",
                 "thumb": ""
@@ -383,7 +524,7 @@
                 "topic_order": "99",
                 "type": "Video",
                 "type_order": "99",
- 		"domain": "Aerospace & Defense",
+ 		"domain": "Space",
                 "domain_order": "99",
                 "link": "https://youtu.be/OjBdTofp5wQ",
                 "thumb": ""
@@ -536,7 +677,7 @@
                 "topic_order": "99",
                 "type": "Slideshow",
                 "type_order": "99",
-                "domain": "Aerospace & Defense",
+                "domain": "Space",
                 "domain_order": "99",
                 "link": "https://indico.esa.int/event/374/contributions/6640/attachments/4402/6708/1400%20-%20Presentation%20-%20System%20Architecture%20for%20System%20Factory%20%28SaSyF%29.pdf",
                 "thumb": ""
@@ -581,7 +722,7 @@
                 "topic_order": "99",
                 "type": "Slideshow",
                 "type_order": "99",
-                "domain": "Aerospace & Defense",
+                "domain": "Space",
                 "domain_order": "99",
                 "link": "https://indico.esa.int/event/386/contributions/6226/attachments/4268/6447/1125%20-%20First%20lessons%20learned%20from%20adopting%20a%20Model-Based%20System%20Engineering%20approach%20in%20early%20phases%20of%20complex%20satellite%20systems.pdf",
                 "thumb": ""
@@ -622,7 +763,7 @@
                 "topic_order": "99",
                 "type": "Video",
                 "type_order": "99",
-                "domain": "Aerospace & Defense",
+                "domain": "Space",
                 "domain_order": "99",
                 "link": "https://youtu.be/HhB-Ao1tpaY",
                 "thumb": ""
@@ -637,7 +778,7 @@
                 "topic_order": "99",
                 "type": "Video",
                 "type_order": "99",
-                "domain": "Aerospace & Defense",
+                "domain": "Space",
                 "domain_order": "99",
                 "link": "https://youtu.be/wMDfoAQqnWI",
                 "thumb": ""
@@ -665,7 +806,7 @@
                 "topic_order": "99",
                 "type": "Video",
                 "type_order": "99",
-                "domain": "Aerospace & Defense",
+                "domain": "Space",
                 "domain_order": "99",
                 "link": "https://youtu.be/VCJO0n16SQk",
                 "thumb": ""
@@ -732,7 +873,7 @@
                 "topic_order": "99",
                 "type": "Slideshow",
                 "type_order": "99",
-                "domain": "Aerospace & Defense",
+                "domain": "Space",
                 "domain_order": "99",
                 "link": "https://indico.esa.int/event/329/contributions/5516/attachments/3874/5601/0945_-_Presentation_-_Modelling_Avionics_Interfaces_and_Generating_Interface_Control_Documents_for_the_Propulsion_Subsystem_of_the_MPCV_European_Service_Module.pdf",
                 "thumb": ""
@@ -748,7 +889,7 @@
                 "topic_order": "99",
                 "type": "Slideshow",
                 "type_order": "99",
-                "domain": "Aerospace & Defense",
+                "domain": "Space",
                 "domain_order": "99",
                 "link": "https://indico.esa.int/event/329/contributions/5519/attachments/3877/5604/1130_-_Presentation_-_Stepwise_adoption_of_model-based_solution_for_a_full_MBSE_transition_an_Industrial_perspective.pdf",
                 "thumb": ""
@@ -794,7 +935,7 @@
 		    "topic_order": "99",
 		    "type": "Video",
 		    "type_order": "99",
-		    "domain": "Aerospace & Defense",
+		    "domain": "Space",
 		    "domain_order": "99",
 		    "link": "https://www.youtube.com/watch?v=xPmURyGYTa8&list=PLfrEYVpSGVLyr1VFTWN8uhM_S30qgZy05",
 		    "thumb": ""
@@ -854,7 +995,7 @@
 		    "topic_order": "99",
 		    "type": "Video",
 		    "type_order": "99",
-		    "domain": "Aerospace & Defense",
+		    "domain": "Space",
 		    "domain_order": "99",
 		    "link": "https://www.youtube.com/watch?v=G-XvdLoHQQw&list=PLfrEYVpSGVLyr1VFTWN8uhM_S30qgZy05",
 		    "thumb": ""
@@ -931,7 +1072,7 @@
                 "topic_order": "99",
                 "type": "Slideshow",
                 "type_order": "99",
-                "domain": "Aerospace & Defense",
+                "domain": "Space",
                 "domain_order": "99",
                 "link": "https://indico.esa.int/event/329/contributions/5520/attachments/3878/5605/1200_-_Presentation_-_Lessons_learned_on_the_use_of_MBSE_in_the_preliminary_design_of_space_systems_at_CT_Paris.pdf",
                 "thumb": ""
@@ -947,7 +1088,7 @@
                 "topic_order": "99",
                 "type": "Slideshow",
                 "type_order": "99",
-                "domain": "Aerospace & Defense",
+                "domain": "Space",
                 "domain_order": "99",
                 "link": "https://indico.esa.int/event/329/contributions/5523/attachments/3881/5608/1430_-_Presentation_-_Successful_MBSE_landing_on_a_CNES_operational_use_case.pdf",
                 "thumb": ""
@@ -1132,7 +1273,7 @@
                 "topic_order": "99",
                 "type": "Article",
                 "type_order": "99",
-                "domain": "Aerospace & Defense",
+                "domain": "Space",
                 "domain_order": "99",
                 "link": "https://hal.inria.fr/hal-02413867/document",
                 "thumb": ""
@@ -1147,7 +1288,7 @@
                 "topic_order": "99",
                 "type": "Slideshow",
                 "type_order": "99",
-                "domain": "Aerospace & Defense",
+                "domain": "Space",
                 "domain_order": "99",
                 "link": "https://indico.esa.int/event/323/contributions/5054/attachments/3754/5210/10.45_-_Capella_and_Arcadia_-_Ariane_6_experiences.pdf",
                 "thumb": ""
@@ -1162,7 +1303,7 @@
                 "topic_order": "99",
                 "type": "Article",
                 "type_order": "99",
-                "domain": "Aerospace & Defense",
+                "domain": "Space",
                 "domain_order": "99",
                 "link": "https://link.springer.com/chapter/10.1007%2F978-3-030-32872-6_2",
                 "thumb": ""
@@ -1248,7 +1389,7 @@
                 "topic_order": "99",
                 "type": "Article",
                 "type_order": "99",
-                "domain": "Aerospace & Defense",
+                "domain": "Space",
                 "domain_order": "99",
                 "link": "https://hal.archives-ouvertes.fr/hal-02064930/document",
                 "thumb": ""
@@ -1412,7 +1553,7 @@
                 "topic_order": "99",
                 "type": "Video",
                 "type_order": "99",
-                "domain": "Aerospace & Defense",
+                "domain": "Space",
                 "domain_order": "99",
                 "link": "https://youtu.be/gHUUM0py7uk",
                 "thumb": ""
@@ -1808,7 +1949,7 @@
                 "topic_order": "2",
                 "type": "Fact Sheet",
                 "type_order": "3",
-                "domain": "Aerospace & Defense",
+                "domain": "Space",
                 "domain_order": "1",
                 "link": "https://polarsys.org/capella/resources/pdf/Case_Study_ArianeGroup.pdf",
                 "thumb": "images/thumbs/resources/thumb_case-study-arianegroup.jpg"
@@ -1879,7 +2020,7 @@
                 "topic_order": "99",
                 "type": "Slideshow",
                 "type_order": "99",
-                "domain": "Aerospace & Defense",
+                "domain": "Space",
                 "domain_order": "99",
                 "link": "https://www.obeosoft.com/ressources/presentations/Challenges-Multi-disciplinary-Systems-Engineering-CGrise-Ariane-Group.pdf",
                 "thumb": ""
@@ -1924,7 +2065,7 @@
                 "topic_order": "99",
                 "type": "Slideshow",
                 "type_order": "99",
-                "domain": "Aerospace & Defense",
+                "domain": "Avionics",
                 "domain_order": "99",
                 "link": "https://fr.slideshare.net/Obeo_corp/capella-day-toulouse-atl2-modernization-when-mbse-keeps-its-promises",
                 "thumb": ""
@@ -2045,7 +2186,7 @@
                 "topic_order": "99",
                 "type": "Article",
                 "type_order": "99",
-                "domain": "Aerospace & Defense",
+                "domain": "Space",
                 "domain_order": "99",
                 "link": "http://ceur-ws.org/Vol-1728/paper14.pdf",
                 "thumb": ""
