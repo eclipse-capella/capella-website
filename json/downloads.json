@@ -96,6 +96,20 @@
         "installAddon": "https://github.com/eclipse/capella/blob/master/doc/plugins/org.polarsys.capella.ui.doc/html/Installation%20Guide/How%20to%20install%20Capella%20and%20Addons.mediawiki#Configuration_and_Extensibility"
       }
     }, 
+    { "name":"DARC Viewpoint (Cybersecurity Assets & Threats Modeling analysis)",
+      "showOnMainPage": true,
+      "key":"DARC",
+      "fragment":"darc",
+      "licence":"EPL",
+      "compatibleWithCurrentVersion": true,
+      "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a>",
+      "description": "<p>Capella Darc add-on is to support effective co-engineering between systems and cybersecurity engineers teams when performing the following tasks:</p><ul><li>Identify assets and trust boundaries</li><li>Identify threats</li><li>Characterize security needs</li></ul>",
+      "download": { 
+        "release": "https://github.com/eclipse/capella-cybersecurity/releases", 
+        "userManual": "https://github.com/eclipse/capella-cybersecurity/wiki",
+        "installAddon": "https://github.com/eclipse/capella/blob/master/doc/plugins/org.polarsys.capella.ui.doc/html/Installation%20Guide/How%20to%20install%20Capella%20and%20Addons.mediawiki#Configuration_and_Extensibility"
+      }
+    }, 
     { "name":"Property Values Management Tools (PVMT)",
       "showOnMainPage": true,
       "key":"PVMT",
@@ -321,7 +335,7 @@
       "licence":"EPL",
       "compatibleWithCurrentVersion": true,
       "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a>",
-      "description": "<p>The Mass viewpoint enables to simply describe the non-functional aspect of mass in Capella. </p><p>For more information, please visit <a href='https://wiki.eclipse.org/Capella/Viewpoints/BasicMass'>wiki page</a>.</p>",
+      "description": "<p>The Mass viewpoint enables to simply describe the non-functional aspect of mass in Capella. </p><p>For more information, please visit <a href='https://github.com/eclipse/capella-basic-vp/wiki/Basic-Mass-Viewpoint'>wiki page</a>.</p>",
       "download": { 
         "release": "https://github.com/eclipse/capella-basic-vp/releases",
         "userManual": "https://github.com/eclipse/capella-basic-vp/wiki/Basic-Mass-Viewpoint",
@@ -337,7 +351,7 @@
       "licence":"EPL",
       "compatibleWithCurrentVersion": true,
       "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a>",
-      "description": "<p>The Price viewpoint enables to simply describe the non-functional aspect of price in Capella.</p><p>For more information, please visit <a href='https://wiki.eclipse.org/Capella/Viewpoints/BasicPrice'>wiki page</a>.</p>",
+      "description": "<p>The Price viewpoint enables to simply describe the non-functional aspect of price in Capella.</p><p>For more information, please visit <a href='https://github.com/eclipse/capella-basic-vp/wiki/Basic-Price-Viewpoint'>wiki page</a>.</p>",
       "download": { 
         "release": "https://github.com/eclipse/capella-basic-vp/releases",
         "userManual": "https://github.com/eclipse/capella-basic-vp/wiki/Basic-Price-Viewpoint",
@@ -353,7 +367,7 @@
       "licence":"EPL",
       "compatibleWithCurrentVersion": true,
       "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a>",
-      "description": "<p>The Performance viewpoint enables to simply describe the non-functional aspect of performance in Capella.</p><p>For more information, please visit <a href='https://wiki.eclipse.org/Capella/Viewpoints/BasicPerformance'>wiki page</a>.</p>",
+      "description": "<p>The Performance viewpoint enables to simply describe the non-functional aspect of performance in Capella.</p><p>For more information, please visit <a href='https://github.com/eclipse/capella-basic-vp/wiki/Basic-Performance-Viewpoint'>wiki page</a>.</p>",
       "download": { 
         "release": "https://github.com/eclipse/capella-basic-vp/releases",
         "userManual": "https://github.com/eclipse/capella-basic-vp/wiki/Basic-Performance-Viewpoint",
