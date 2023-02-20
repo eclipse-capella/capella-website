@@ -5,6 +5,18 @@
     {
         "items":[
 		{
+            "title": "Making Arcadia work for you - a look at framework tailoring in Thales UK",
+			"date": "January 2023",
+			"anchor": "2023_01_19",
+            "author": "Alex Laing & Andrew Pemberton (Thales UK)",
+            "language": "EN",
+            "descr": "<p>Architecture frameworks provide an approach to describing systems and the presentation of these elements and relationships to deliver the stakeholder needs. Essentially, frameworks provide templates for our engineering artefacts.</p><p>The design of a framework must accommodate a level of freedom in its usage; specific enough to answer the majority of stakeholder concerns, whilst generic enough to allow for differences between projects. This balancing act often results in framework design being more generic to allow for a wider audience. Having an untailored framework, which is more ‘open’, can lead to creating inconsistent viewpoints.</p><p>Arcadia is one such framework as implemented through the Capella tool. The framework provides 4 perspectives/levels for product definition:<ul><li>The Operational Analysis, where the user needs are considered. Note: no concept of the System at this level.</li><li>The System Analysis, where we define the contribution and scope of the System as a ‘black box’, identifying external interfaces, and top-level system functions.</li><li>The Logical Architecture, where we break the System down into logical ‘blocks’ and decompose the functionality.</li><li>The Physical Architecture, in which we define a (candidate) physical architecture, further decompose the functions, and deploy this functionality to the physical sub-systems, hardware, software and/or firmware.</li></ul></p><p>In this talk, we acknowledge the strengths of the Arcadia framework, and the benefits it brings, whilst considering the need to tailor the generic viewpoints. We will provide examples of how we have adopted the generic Arcadia framework and further specified some of the viewpoints to meet the needs of our stakeholders. We will discuss future work looking at how we can translate these specialisations across other areas of the model. Finally, we will provide some suggestions and advice on tailoring views to meet your own needs and ensuring stakeholder engagement with the model.</p>",
+            "bio": "<i><p><span class='txt_indigo'>Alex Laing (Thales UK)</span> is a Senior Principal Systems Engineer. He has a degree in computer science and microprocessor systems from Strathclyde University, 16 years software experience plus 21 years systems engineering experience in defence, designing/developing/integrating and testing ESM/ECM/Radar and UAV systems. He is an MBSE Specialist in Thales UK, currently working in Engineering Support delivering modelling approach definition, training, coaching and mentoring across Thales UK businesses and projects.</p><p><span class='txt_indigo'> Andrew Pemberton (Thales UK)</span> is a Systems Engineering Modelling Referent. Andrew has a degree in electronic systems engineering from Cranfield University, 17 years experience across defence, aerospace and ground transportation delivering and defining systems engineering. He is currently working as Thales UK modelling referent delivering modelling approach definition, training, coaching and mentoring across Thales UK businesses and projects.</p></i>",
+            "utube_link": "https://bit.ly/capella_webinar_19012023_video",
+	    "slides_link": "https://bit.ly/capella_webinar_19012023_slides",
+	    "tag": ["how-to","customization"]
+        },	
+		{
             "title": "Der lange Weg vom Angebot zum Projekt, unterstützt durch Capella",
 			"date": "December 2022",
 			"anchor": "2022_12_01",
