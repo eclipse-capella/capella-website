@@ -150,6 +150,71 @@
         
         
 	{
+                "title": "Making Arcadia work for you - a look at framework tailoring in Thales UK",
+                "descr": "",
+                "author": "Alex Laing & Andrew Pemberton (Thales UK)",
+                "year": "2023",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+ 		"link": "https://bit.ly/capella_webinar_19012023_video",
+                "thumb": ""
+            },
+	{
+                "title": "What is Model-Based Systems Engineering",
+                "descr": "",
+                "author": "Helder Castro",
+                "year": "2023",
+                "language": "EN",
+                "topic": "Getting Started",
+                "topic_order": "99",
+                "type": "Article",
+                "type_order": "99",
+ 		"link": "https://www.linkedin.com/pulse/what-model-based-systems-engineering-helder-castro/",
+                "thumb": ""
+            },
+	{
+                "title": "MBSE Arcadia method ontology elements traceability",
+                "descr": "",
+                "author": "Helder Castro",
+                "year": "2023",
+                "language": "EN",
+                "topic": "Getting Started",
+                "topic_order": "99",
+                "type": "Article",
+                "type_order": "99",
+ 		"link": "https://www.linkedin.com/pulse/mbse-arcadia-method-ontology-elements-traceability-helder-castro/",
+                "thumb": ""
+            },
+	{
+                "title": "Model-Based System Engineering and textual requirements traceability",
+                "descr": "",
+                "author": "Helder Castro",
+                "year": "2023",
+                "language": "EN",
+                "topic": "Getting Started",
+                "topic_order": "99",
+                "type": "Article",
+                "type_order": "99",
+ 		"link": "https://www.linkedin.com/pulse/model-based-system-engineering-textual-requirements-helder-castro/",
+                "thumb": ""
+            },
+	{
+                "title": "MBSE with Arcadia method step-by-step",
+                "descr": "",
+                "author": "Helder Castro",
+                "year": "2023",
+                "language": "EN",
+                "topic": "Getting Started",
+                "topic_order": "6",
+                "type": "Article",
+                "type_order": "99",
+ 		"link": "https://www.linkedin.com/pulse/mbse-arcadia-method-step-by-step-helder-castro/",
+                "thumb": ""
+            },
+	{
                 "title": "A global engineering process based on MBSE to master complexity",
                 "descr": "",
                 "author": "Guillaume Journaux & Karine Pellen (Thales DMS)",
