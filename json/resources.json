@@ -1,5 +1,5 @@
 {
-"_comment": "Les ressources sont affichées par ordre croissante selon la valeur du type_order et topic_order jusqu'à 10. Les 4 premières doivent avoir une image. Audelà de 10 les ressources sont affichées par ordre décroissante selon l'année Il faut donc mettre un chiffre qui correspond à la position à laquelle vous voulez que la ressource soit affichée ou l'année lui correspondant.",
+"_comment": "Resources are displayed ordered by type_order (1-99) or topic_order (1-99), and year",
 "resources":
     {
         "topics":[
@@ -149,6 +149,20 @@
         "items":[
         
         
+	{
+                "title": "AIDA case-study (Aircraft Inspection by Drone Assistant)",
+                "descr": "",
+                "author": "IRT Saint-Exupery",
+                "year": "2023",
+                "language": "EN",
+                "topic": "Getting Started",
+                "topic_order": "99",
+                "type": "Sample Model",
+                "type_order": "99",
+		"domain":"Avionics",
+ 		"link": "https://sahara.irt-saintexupery.com/AIDA/AIDAArchitecture",
+                "thumb": ""
+            },
 	{
                 "title": "Making Arcadia work for you - a look at framework tailoring in Thales UK",
                 "descr": "",
@@ -2450,68 +2464,8 @@
                 "type_order": "1",
                 "domain": "Railway",
                 "domain_order": "1",
-                "link": "https://wiki.eclipse.org/Capella/Samples/LCTC",
+                "link": "https://www.eclipse.org/capella/getstarted.html#level_crossing",
                 "thumb": "images/thumbs/resources/thumb_level-crossing-traffic-control.jpg"
-            },
-            {
-                "title": "Level-crossing Traffic Control - Customer Operational Need Analysis",
-                "descr": "",
-                "author": "Jean-Luc Voirin (Thales)",
-                "year": "2018",
-                "language": "EN",
-                "topic": "Getting Started",
-                "topic_order": "7",
-                "type": "Video",
-                "type_order": "99",
-                "domain": "Railway",
-                "domain_order": "99",
-                "link": "https://www.youtube.com/embed/TawT_G9DNNc",
-                "thumb": ""
-            },
-            {
-                "title": "Level-crossing Traffic Control - System Need Analysis",
-                "descr": "",
-                "author": "Jean-Luc Voirin (Thales)",
-                "year": "2018",
-                "language": "EN",
-                "topic": "Getting Started",
-                "topic_order": "8",
-                "type": "Video",
-                "type_order": "99",
-                "domain": "Railway",
-                "domain_order": "99",
-                "link": "https://www.youtube.com/embed/UESXFZFbi5Q",
-                "thumb": ""
-            },
-            {
-                "title": "Level-crossing Traffic Control - Capella model - Logical Architecture",
-                "descr": "",
-                "author": "Jean-Luc Voirin (Thales)",
-                "year": "2018",
-                "language": "EN",
-                "topic": "Getting Started",
-                "topic_order": "9",
-                "type": "Video",
-                "type_order": "99",
-                "domain": "Railway",
-                "domain_order": "99",
-                "link": "https://www.youtube.com/embed/4jSoVNb4gaQ",
-                "thumb": ""
-            },
-            {
-                "title": "Level-crossing Traffic Control - Physical Architecture",
-                "descr": "",
-                "author": "Jean-Luc Voirin (Thales)",
-                "year": "2018",
-                "language": "EN",
-                "topic": "Getting Started",
-                "topic_order": "99",
-                "type": "Video",
-                "type_order": "99",
-                 "domain": "Railway",
-                "domain_order": "99",
-               "link": "https://www.youtube.com/embed/1EEcDtLAiXk",
-                "thumb": ""
             },
             {
                 "title": "AIDA (Aircraft Inspection by Drone Assistant) - Capella source model",
