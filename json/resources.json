@@ -2468,21 +2468,6 @@
                 "thumb": "images/thumbs/resources/thumb_level-crossing-traffic-control.jpg"
             },
             {
-                "title": "AIDA (Aircraft Inspection by Drone Assistant) - Capella source model",
-                "descr": "",
-                "author": "Pierre Virelizier, Pierre Gaufillet, Julien Baclet (IRT Saint-Exupery)",
-                "year": "2018",
-                "language": "EN",
-                "topic": "Learning More",
-                "topic_order": "99",
-                "type": "Sample Model",
-                "type_order": "99",
-                "domain": "Avionics",
-                "domain_order": "99",
-                "link": "https://sahara.irt-saintexupery.com/AIDA/AIDAArchitecture",
-                "thumb": ""
-            },
-            {
                 "title": "AIDA (Aircraft Inspection by Drone Assistant) - Capella model description",
                 "descr": "",
                 "author": "Pierre Virelizier, Tatiana Prosvirnova, Estelle Saez (IRT Saint-Exupery)",
