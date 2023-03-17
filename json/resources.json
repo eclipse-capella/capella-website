@@ -328,7 +328,7 @@
             },
 	{
                 "title": "MBSE with Arcadia method step-by-step",
-                "descr": "",
+                "descr": "A series of 4 articles to understand the Arcadia methodology.",
                 "author": "Helder Castro",
                 "year": "2023",
                 "language": "EN",
@@ -337,7 +337,7 @@
                 "type": "Article",
                 "type_order": "99",
  		"link": "https://www.linkedin.com/pulse/mbse-arcadia-method-step-by-step-helder-castro/",
-                "thumb": ""
+                "thumb": "images/thumbs/resources/thumb_arcadia_matrix.png"
             },
 	{
                 "title": "A global engineering process based on MBSE to master complexity",
