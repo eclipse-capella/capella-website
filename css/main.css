@@ -1059,3 +1059,9 @@ color: #a94442;
   margin-top: 6px !important;
   color: #292253;
 }
+.case-study {
+  margin-bottom: 40px
+}
+.case-study a {
+  margin-top: 10px
+}
