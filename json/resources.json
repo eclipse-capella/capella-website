@@ -1,5 +1,5 @@
 {
-"_comment": "Resources are displayed ordered by type_order (1-99) or topic_order (1-99), and year",
+"_comment": "Resources are displayed ordered by type_order (1-99) or topic_order (1-99), and year. Thumbs are displayed only if order is under 5",
 "resources":
     {
         "topics":[
