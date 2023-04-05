@@ -1,6 +1,6 @@
 {
   "$schema": "./download.schema.json",
-  "versionBranch": "6.0",
+  "versionBranch": "6.1",
   "lang": { 
       "release": { "text": "Download", "icon": "fa fa-download" }, 
       "dropin": { "text": "Drop-in", "icon": "fa fa-download" }, 
@@ -16,38 +16,41 @@
       "linux": { "text": "Linux*", "icon": "fa fa-linux", "key":"LINUX" },
       "mac": { "text": "Mac Cocoa*", "icon": "fa fa-apple", "key":"MAC" },
       "main": { "text": "64-bit" },
+      "aarch64": { "text": "aarch64" },
       "mirror": { "text": "Mirror" },
       "compatibility": { "text": "This addon is not yet compatible with the new Capella version." }
     },
   "capella": {
     "name": "Capella",
     "key": "Capella",
-    "version": "6.0",
+    "version": "6.1",
     "links": {
       "windows": {
-        "main": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/6.0.0/capella-6.0.0.202209090800-win32-win32-x86_64.zip"
+        "main": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/6.1.0/capella-6.1.0.202303291413-win32-win32-x86_64.zip"
        },
       "linux": { 
-        "main": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/6.0.0/capella-6.0.0.202209090800-linux-gtk-x86_64.tar.gz"
+        "main": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/6.1.0/capella-6.1.0.202303291413-linux-gtk-x86_64.tar.gz",
+        "aarch64": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/6.1.0/capella-6.1.0.202303291413-linux-gtk-aarch64.tar.gz"
        },
       "mac": { 
-        "main": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/6.0.0/capella-6.0.0.202209090800-macosx-cocoa-x86_64.tar.gz"
+        "main": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/6.1.0/capella-6.1.0.202303291413-macosx-cocoa-x86_64.tar.gz",
+        "aarch64": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/6.1.0/capella-6.1.0.202303291413-macosx-cocoa-aarch64.tar.gz"
        }
     }
   },
   "capellaStudio": {
     "name": "Capella Studio",
     "key": "CapellaStudio",
-    "version": "6.0",
+    "version": "6.1",
     "links": {
       "windows": {
-        "main": "https://www.eclipse.org/downloads/download.php?file=/capella/studio/products/releases/6.0.0/capella-studio-6.0.0.202209121340-win32.win32.x86_64.zip"
+        "main": "https://www.eclipse.org/downloads/download.php?file=/capella/studio/products/releases/6.1.0/capella-studio-6.1.0.202303291548-win32.win32.x86_64.zip"
       },
       "linux": { 
-        "main": "https://www.eclipse.org/downloads/download.php?file=/capella/studio/products/releases/6.0.0/capella-studio-6.0.0.202209121340-linux.gtk.x86_64.zip"
+        "main": "https://www.eclipse.org/downloads/download.php?file=/capella/studio/products/releases/6.1.0/capella-studio-6.1.0.202303291548-linux.gtk.x86_64.zip"
       },
       "mac": { 
-        "main": "https://www.eclipse.org/downloads/download.php?file=/capella/studio/products/releases/6.0.0/capella-studio-6.0.0.202209121340-macosx.cocoa.x86_64.zip"
+        "main": "https://www.eclipse.org/downloads/download.php?file=/capella/studio/products/releases/6.1.0/capella-studio-6.1.0.202303291548-macosx.cocoa.x86_64.zip"
       }
     }
   },
