@@ -4,6 +4,18 @@
     {
         "items":[
 		{
+            "title": "Assess the Environmental Impacts of your System Architecture",
+			"date": "April 2023",
+			"anchor": "2023_04_13",
+            "author": "Arnaud Dieumegard (Obeo)",
+            "language": "EN",
+            "descr": "<p>How to make environmentally conscious decisions when designing a system?</p><p>Performing a life cycle assessment (LCA) can help you precisely identify the types of impacts a system has, from the extraction of raw materials to its end-of-life phase. However, this is often a tedious process that involves inputting the system architecture into an LCA tool and mapping it to environmental databases. This makes it difficult to repeat the process multiple times for the same system.</p><p>So why not reuse your Capella models to conduct LCAs?</p><p>Ecodesign for Capella is a new add-on that allows systems architects to enter data on the life expectancy of components, materials utilized, consumptions, and emissions directly in Capella, and automatically generate a life cycle inventory in an LCA tool like OpenLCA.</p><p>In the essential collaboration between systems and environmental engineers to reduce the environmental impacts of a complex system, this add-on enables them to make eco-responsible design choices from the beginning, by conducting reliable life cycle analyses, faster and more frequently.</p>",
+            "bio": "<i><p><span class='txt_indigo'>Arnaud Dieumegard (Obeo)</span><ul><li>Eclipse Modeling Consultant</li><li>Ph.D. in Reliability for Systems and Software - INP Toulouse</li></ul></p></i>",
+            "utube_link": "soon",
+	    "slides_link": "soon",
+	    "tag": ["add-on","life cycle assessment"]
+        },	
+		{
             "title": "Cybersecurity Assets & Threats Modeling with Capella",
 			"date": "March 2023",
 			"anchor": "2023_03_30",
@@ -11,8 +23,8 @@
             "language": "EN",
             "descr": "<p>The increasing risk of cyberattacks on systems poses a significant threat to organizations and individuals worldwide.</p><p>Identifying threats as soon as possible during the engineering process is hence a stake for all of us. To do so, a close collaboration between systems and cybersecurity engineering teams is required.</p><p>Discover Darc, a new Capella add-on that enables systems engineers to address cybersecurity concerns while defining system architectures:<ul><li>Identify assets and trust boundaries.</li><li>Identify threats.</li><li>Characterize security needs.</li></ul></p>",
             "bio": "<i><p><span class='txt_indigo'>Juan Navas (Thales)</span> is MBSE Expert in Thales Corporate Engineering. He leads the team that accompanies managers and architects implement MBSE practices on operational projects to improve their engineering performance. He is a System Architect with +10 years’ experience, he holds a PhD in Computer Science, an MSc in control and computer science, and Electronics and Electrical Engineering Degrees.</p><p><span class='txt_indigo'> Sophie Plazanet (Thales)</span> has been working in System Engineering for several years, especially during the past 5 years in Thales.  Passionate by MBSE, she joined in 2021 Thales Corporate Engineering where she is MBSE Coach, supporting the Thales’ engineering teams to adopt MBSE practices. She holds a Master of Engineering & Master of Research in Advanced Systems & Robotics (from Arts & Métiers ParisTech Engineering School).</p></i>",
-            "utube_link": "soon",
-	    "slides_link": "soon",
+            "utube_link": "https://youtu.be/h1p7CeMbn40",
+	    "slides_link": "https://bit.ly/capella_webinar_230330_slides",
 	    "tag": ["add-on","cybersecurity"]
         },	
 		{
