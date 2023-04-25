@@ -149,6 +149,19 @@
         "items":[
         
 	{
+                "title": "Cybersecurity Assets & Threats Modeling with Capella",
+                "descr": "",
+                "author": "Juan Navas & Sophie Plazanet (Thales)",
+                "year": "2023",
+                "language": "EN",
+                "topic": "Add-ons",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+ 		"link": "https://youtu.be/h1p7CeMbn40",
+                "thumb": ""
+            },
+	{
                 "title": "Company-wide Architecting Assets to Inform Design Decisions",
                 "descr": "A case-study by Thermo Fisher Scientific, a global company with 110,000 employees that supplies scientific instrumentation.",
                 "author": "",
