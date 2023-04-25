@@ -258,6 +258,7 @@ h2.icon{
 .event{
   background: url('../images/banners/banner_event.jpg') no-repeat 50%;
   z-index:2;
+  padding: 60px 0 60px 0;
 }
 .getstarted{
   background: url('../images/banners/banner_getstarted.jpg') no-repeat 50%;
