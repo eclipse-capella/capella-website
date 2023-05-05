@@ -371,6 +371,19 @@
       },
       "tags":["viewpoint"]
     },
+    { "name":"Python4Capella",
+      "key":"PYTHON",
+      "isLabs": false,
+      "licence":"EPL",
+      "compatibleWithCurrentVersion": true,
+      "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a> &amp; <a href='https://www.obeosoft.com/contact' target='_blank'>Obeo</a>",
+      "description": "<p>Python4Capella allows you to interact with your Capella model using Python. You will be able to create Python scripts to read and write from/to your Capella model.</p>",
+      "download": { 
+        "updateSite": "https://github.com/labs4capella/python4capella/releases",
+        "installAddon": "https://github.com/labs4capella/python4capella"
+      },
+      "tags":["scripting","import","export"]
+    },
     { "name":"Capella-TASTE-Plugin",
       "key":"TASTE",
       "licence":"EPL",
@@ -381,19 +394,6 @@
         "installAddon": "https://github.com/n7space/Capella-TASTE-Plugin"
       },
       "tags":["export", "bridge"]
-    },
-    { "name":"Python4Capella",
-      "isLabs": true,
-      "key":"PYTHON",
-      "licence":"EPL",
-      "compatibleWithCurrentVersion": true,
-      "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a> &amp; <a href='https://www.obeosoft.com/contact' target='_blank'>Obeo</a>",
-      "description": "<p>Python4Capella allows you to interact with your Capella model using Python. You will be able to create Python scripts to read and write from/to your Capella model.</p><p>This add-on is still a prototype hosted on <a href='https://labs4capella.github.io/'>Labs for Capella</a>",
-      "download": { 
-        "updateSite": "https://github.com/labs4capella/python4capella/releases",
-        "installAddon": "https://github.com/labs4capella/python4capella"
-      },
-      "tags":["scripting","import","export"]
     }
   ] 
 }
