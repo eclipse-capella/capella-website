@@ -11,8 +11,8 @@
             "language": "EN",
             "descr": "<p>How to make environmentally conscious decisions when designing a system?</p><p>Performing a life cycle assessment (LCA) can help you precisely identify the types of impacts a system has, from the extraction of raw materials to its end-of-life phase. However, this is often a tedious process that involves inputting the system architecture into an LCA tool and mapping it to environmental databases. This makes it difficult to repeat the process multiple times for the same system.</p><p>So why not reuse your Capella models to conduct LCAs?</p><p>Ecodesign for Capella is a new add-on that allows systems architects to enter data on the life expectancy of components, materials utilized, consumptions, and emissions directly in Capella, and automatically generate a life cycle inventory in an LCA tool like OpenLCA.</p><p>In the essential collaboration between systems and environmental engineers to reduce the environmental impacts of a complex system, this add-on enables them to make eco-responsible design choices from the beginning, by conducting reliable life cycle analyses, faster and more frequently.</p>",
             "bio": "<i><p><span class='txt_indigo'>Arnaud Dieumegard (Obeo)</span><ul><li>Eclipse Modeling Consultant</li><li>Ph.D. in Reliability for Systems and Software - INP Toulouse</li></ul></p></i>",
-            "utube_link": "soon",
-	    "slides_link": "soon",
+            "utube_link": "https://bit.ly/capella_webinar_230413_video",
+	    "slides_link": "https://bit.ly/capella_webinar_230413_slides",
 	    "tag": ["add-on","life cycle assessment"]
         },	
 		{
