@@ -149,17 +149,30 @@
         "items":[
         
 	{
+                "title": "Assess the environmental impacts of your system architecture",
+                "descr": "",
+                "author": "Arnaud Dieumegard (Obeo)",
+                "year": "2023",
+                "language": "EN",
+                "topic": "Add-ons",
+                "topic_order": "2",
+                "type": "Video",
+                "type_order": "99",
+ 		"link": "https://bit.ly/capella_webinar_230413_video",
+                "thumb": "images/thumbs/resources/webinar_2023_04_13.png"
+            },
+	{
                 "title": "Cybersecurity Assets & Threats Modeling with Capella",
                 "descr": "",
                 "author": "Juan Navas & Sophie Plazanet (Thales)",
                 "year": "2023",
                 "language": "EN",
                 "topic": "Add-ons",
-                "topic_order": "99",
+                "topic_order": "2",
                 "type": "Video",
                 "type_order": "99",
  		"link": "https://youtu.be/h1p7CeMbn40",
-                "thumb": ""
+                "thumb": "images/thumbs/resources/webinar_2023_03_30.png"
             },
 	{
                 "title": "Company-wide Architecting Assets to Inform Design Decisions",
