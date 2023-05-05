@@ -115,6 +115,7 @@
 
 					<div class="row">
 						<div id="accordion-labs-addons" class="accordion dropdown_content">
+							<div><h1>Labs Add-ons</h1>It is the place where Capella users, as well as tool providers, can collaborate and create synergies to develop Capella add-ons</div>
 						</div>
 						<a class="btn btn-default" href="https://labs4capella.github.io">Discover Labs for Capella&nbsp;<i class="fa fa-external-link"></i></a>
 						<br/><br/>
@@ -156,12 +157,9 @@
 						}
 					  }
 
-					  if (labsAddons.length != 0) {
-						addTitleToDiv("accordion-labs-addons", "Labs Add-ons", "It is the place where Capella users, as well as tool providers, can collaborate and create synergies to develop Capella add-ons");
-
-						for (addon in labsAddons) {
-							addAddonSection(data, labsAddons[addon], "accordion-labs-addons");
-						}
+					  // No test on the existence of at least one add-on in this category: we always display this category
+					  for (addon in labsAddons) {
+						  addAddonSection(data, labsAddons[addon], "accordion-labs-addons");
 					  }
 
 					  if (sampleAddons.length != 0) {
