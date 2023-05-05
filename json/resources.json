@@ -2017,7 +2017,7 @@
                 "topic_order": "99",
                 "type": "Documentation",
                 "type_order": "99",
-                "link": "https://wiki.eclipse.org/Capella",
+                "link": "https://github.com/eclipse/capella/wiki",
                 "thumb": ""
             },
             {
@@ -2585,7 +2585,7 @@
                 "topic_order": "99",
                 "type": "Documentation",
                 "type_order": "99",
-                "link": "https://wiki.eclipse.org/Capella/Tutorials",
+                "link": "https://github.com/eclipse/capella/wiki/Tutorials",
                 "thumb": ""
             },
             {
