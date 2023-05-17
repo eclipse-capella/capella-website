@@ -148,6 +148,32 @@
         ],
         "items":[
         
+            {
+                "title": "Wikipedia - Arcadia (Ingenieurwesen)",
+                "descr": "",
+                "author": "Hans-Guenter Thonemann",
+                "year": "",
+                "language": "GE",
+                "topic": "Getting Started",
+                "topic_order": "99",
+                "type": "Documentation",
+                "type_order": "99",
+                "link": "https://de.wikipedia.org/wiki/Arcadia_%28Ingenieurwesen%29",
+                "thumb": ""
+            },
+            {
+                "title": "Wikipedia - Capella (Ingenieurwesen)",
+                "descr": "",
+                "author": "Hans-Guenter Thonemann",
+                "year": "",
+                "language": "GE",
+                "topic": "Getting Started",
+                "topic_order": "99",
+                "type": "Documentation",
+                "type_order": "99",
+                "link": "https://de.wikipedia.org/wiki/Capella_(Ingenieurwesen)",
+                "thumb": ""
+            },
 	{
                 "title": "Assess the environmental impacts of your system architecture",
                 "descr": "",
@@ -2718,7 +2744,7 @@
                 "topic": "Getting Started",
                 "topic_order": "99",
                 "type": "Documentation",
-                "type_order": "99",
+                "type_order": "7",
                 "link": "https://wiki.eclipse.org/Capella/Installation_Guide#Capella_Installation",
                 "thumb": ""
             },
@@ -2731,7 +2757,7 @@
                 "topic": "Getting Started",
                 "topic_order": "99",
                 "type": "Documentation",
-                "type_order": "99",
+                "type_order": "6",
                 "link": "https://en.wikipedia.org/wiki/Capella_(engineering)",
                 "thumb": ""
             },
@@ -2744,7 +2770,7 @@
                 "topic": "Getting Started",
                 "topic_order": "99",
                 "type": "Documentation",
-                "type_order": "99",
+                "type_order": "6",
                 "link": "https://en.wikipedia.org/wiki/Arcadia_(engineering)",
                 "thumb": ""
             },
