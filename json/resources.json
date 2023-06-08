@@ -148,6 +148,19 @@
         ],
         "items":[
         
+	{
+                "title": "Capella Community Survey 2022, the Results",
+                "descr": "",
+                "author": "Frédéric Madiot (Obeo)",
+                "year": "2023",
+                "language": "EN",
+                "topic": "Business Value",
+                "topic_order": "99",
+                "type": "Article",
+                "type_order": "99",
+                "link": "https://blog.obeosoft.com/capella-community-survey-2022",
+                "thumb": ""
+            },
             {
                 "title": "Wikipedia - Arcadia (Ingenieurwesen)",
                 "descr": "",
