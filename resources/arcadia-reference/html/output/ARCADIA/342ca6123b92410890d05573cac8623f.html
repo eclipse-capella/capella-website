@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta content="Copyright &copy; 2023 Thales. All Rights Reserved." name="copyright"/>
+  <meta content="text/html;charset=utf-8" http-equiv="content-type"/>
+  <meta content="text/css" http-equiv="Content-Style-Type"/>
+  <title>
+   Arcadia Reference - Define finalised functional and non-functional Behavior
+  </title>
+  <link href="../../scripts/jquery-treeview/jquery.treeview.css" rel="stylesheet"/>
+  <script src="../../scripts/jquery-treeview/lib/jquery-1.11.1.js" type="text/javascript">
+  </script>
+  <script src="../../scripts/jquery-treeview/jquery.treeview.js" type="text/javascript">
+  </script>
+  <link href="../../css/simpletree.css" rel="stylesheet" type="text/css"/>
+  <link href="../../css/content.css" media="screen, projection" rel="stylesheet" title="default" type="text/css"/>
+  <style>
+   body {}
+			.treeview {
+				background-color: white ;
+			}
+	
+			.treeview ul{ /*CSS for Simple Tree Menu*/
+				background-color: white;
+				font-size: 12px;
+			}
+	
+			.treeview li{ /*Style for LI elements in general (excludes an LI that contains sub lists)*/
+				background-color: white;
+			}
+  </style>
+ </head>
+ <body>
+  <img src="../icon/logo_arcadia_small.png" style="float:left;width:50px;height:50px;"/>
+  <nav>
+   <a href="1a79525b3b624a7094acd0b580842ce6.html#">
+    ARCADIA
+   </a>
+   <a href="1a79525b3b624a7094acd0b580842ce6.html#landscape">
+    Engineering Landscape
+   </a>
+   <a href="1a79525b3b624a7094acd0b580842ce6.html#userGuide">
+    User Guide
+   </a>
+   <a href="1a79525b3b624a7094acd0b580842ce6.html#reference">
+    Reference Manual
+   </a>
+  </nav>
+  <p>
+   <br/>
+  </p>
+  <div id="content">
+   <img alt="LogicalFunction" src="../icon/LogicalFunction.png" style="float:left; margin-right:10px"/>
+   <h1>
+    <a href="../ARCADIA/342ca6123b92410890d05573cac8623f.html">
+     Define finalised functional and non-functional Behavior
+    </a>
+   </h1>
+   <p style="margin-top:3px; margin-bottom:3px">
+    <span class="elementMetaClass">
+     Engineering activity
+    </span>
+    <p>
+    </p>
+   </p>
+   <em class="elementPath">
+    <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html">
+     Engineering activities
+    </a>
+    &gt;
+    <a href="../ARCADIA/e8747730cd7549f9bc5a6e7fd12fdf1f.html">
+     Arcadia high-level Activities
+    </a>
+    &gt;
+    <a href="../ARCADIA/f6d02f2504764a59b6296e04d5b6a57b.html">
+     Design PHYSICAL ARCHITECTURE
+    </a>
+    &gt;
+    <a href="../ARCADIA/342ca6123b92410890d05573cac8623f.html">
+     Define finalised functional and non-functional Behavior
+    </a>
+   </em>
+   <p>
+    <p>
+     This task is similar to Logical Architecture 'Perform a functional and non-functional Analysis'.
+    </p>
+    <p>
+     Define a detailled functional behaviour that details and concretises former notional functional analysis, addressing:
+    </p>
+    <ul>
+     <li>
+      ready-to-develop description of designed behaviour
+     </li>
+     <li>
+      greater level of detail resolving ambiguities of definition
+     </li>
+     <li>
+      and design decisions choosing among various implementation options
+     </li>
+     <li>
+      enrichment/confrontation with reused assets
+     </li>
+     <li>
+      functions required for technical and technological implementation constraints.
+     </li>
+    </ul>
+    <p>
+     Build and maintain justification and traceability links with Logical Architecture functions, functional chains, scenarios, modes &amp;states, data etc.
+    </p>
+    <p>
+     More precisely,
+    </p>
+    <ul>
+     <li>
+      Identify functions required to satisfy and implement all Logical Architecture notional functions
+     </li>
+     <li>
+      Complement them with necessary functions that were not identified Logical Architecture
+     </li>
+     <li>
+      List and detail information, data flows, managed, exchanged and required by all these functions (internal or external to system); including required standards &amp; interfaces
+     </li>
+     <li>
+      Identify functional chains traversing the system/SW in order to implement&nbsp;need defined&nbsp;functional chains&nbsp;(traversing functions &amp; data flows); similarly define functional scenarios implementing those defined at Logical Architecture level;
+      <br/>
+      enrich them if needed in order to appropriately define and check solution behaviour
+     </li>
+     <li>
+      Identify system/SW modes &amp; states, relate them to functions; enrich them if needed
+     </li>
+     <li>
+      Create and maintain traceability links with Logical Architecture (e.g. between functions, between functional chains, between scenarios).
+     </li>
+    </ul>
+    <p>
+     &nbsp;
+    </p>
+    <p>
+     Identify all major dimensioning needs, and [non-functional] constraints, relating them to the appropriate fonctions, functional chains, actors&hellip; and associated scenarios, and relate them to system scenarios: e.g.
+    </p>
+    <ul>
+     <li>
+      Identify non-functional constraints (performance, safety&hellip;) and relate them to concerned functions, functional chains&hellip;
+     </li>
+     <li>
+      Identify industrial constraints not coming from customer/user: ability to produce, to test, to maintain, to sub-contract&hellip;
+     </li>
+     <li>
+      When intending to reuse existing assets, check this functional/non-functional analysis against these assets for compatibility.
+     </li>
+     <li>
+      Enrich system scenarios with non-functional &amp; industrial constraints
+     </li>
+     <li>
+      Identify and select main (non functional) viewpoints (concerns) (*) susceptible to impact the functional analysis.
+      <br/>
+      Each viewpoint should emphasise a specific set of constraints or expected behaviour, quality, respect of non-functional properties&hellip; At least one viewpoint should be dedicated to Reuse and Product Policy.
+     </li>
+     <li>
+      Try to order them in terms of importance, relative priority.
+     </li>
+    </ul>
+    <p>
+     &nbsp;
+    </p>
+    <p>
+     Ensure traceability/justification links between notional and finalised functional/non-functional analyses, and check consistency/coherency between them.
+    </p>
+    <p>
+     &nbsp;
+    </p>
+    <h2>
+     Input:
+    </h2>
+    <ul>
+     <li>
+      Notional logical functional and non-functional analysis
+     </li>
+     <li>
+      Reusable assets functional &amp; non functional description
+     </li>
+    </ul>
+    <p>
+     &nbsp;
+    </p>
+    <h2>
+     Output:
+    </h2>
+    <ul>
+     <li>
+      Functional &amp; non-functional analysis result (System functional breakdown + dataflow, functional chains, non functional constraints, scenarios&hellip;)
+     </li>
+     <li>
+      Traceability between notional &amp; finalised functional analyses
+     </li>
+     <li>
+      List of relevant /critical viewpoints for the target system architecture
+     </li>
+    </ul>
+    <p>
+     Target documents:
+    </p>
+    <ul>
+     <li>
+      System/Segment Design Document (SSDD)
+     </li>
+    </ul>
+    <p>
+     &nbsp;
+    </p>
+    <h2>
+     Verification and Consistency checks:
+    </h2>
+    <p>
+     <em>
+      External consistency:
+     </em>
+    </p>
+    <ul>
+     <li>
+      Between finalised and notional functional Analysis functions/data&hellip;
+     </li>
+    </ul>
+    <p>
+     <em>
+      Internal consistency:
+     </em>
+    </p>
+    <ul>
+     <li>
+      Between all functional &amp; non-functional elements
+     </li>
+     <li>
+      Verify the functional/non-functional Behaviour Description: coherent, complete, relevant: no contradiction, no gap, no inaccuracy.
+     </li>
+    </ul>
+    <p>
+     &nbsp;
+    </p>
+   </p>
+   <h2>
+    Details of Outputs Contents
+   </h2>
+   <ul>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/eef26111d9fd4442aa69ff2fbb6b5c34.html">
+      Physical functional Analysis
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/3896c760faa44aea8d326919ebd59cc8.html">
+      Physical Data &amp; Interfaces
+     </a>
+    </li>
+   </ul>
+   <h2>
+    Details of Inputs Contents
+   </h2>
+   <ul>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/ef5107845d66485180b15fe487cf5808.html">
+      Logical Data &amp; Interfaces
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/5413ebcb2b3445e5b673ab097203806d.html">
+      System Capability Realisation
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/5ec23ecfc1c74526a080f0945cfa7fa9.html">
+      Logical Components &amp; Exchanges
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/cc4a20cb092f417c9257a408d34ab5af.html">
+      Logical functional Analysis
+     </a>
+    </li>
+   </ul>
+   <h2>
+    Engineering Processes involving "Define finalised functional and non-functional Behavior"
+   </h2>
+   <ul class="generatedList">
+    <li>
+     <img alt="FunctionalChain" src="../icon/FunctionalChain.gif"/>
+     <a href="../ARCADIA/01a3ac9679c8477ab440116d71852b81.html">
+      From Need to Solution
+     </a>
+    </li>
+   </ul>
+   <h2>
+    Diagrams displaying "Define finalised functional and non-functional Behavior"
+   </h2>
+   <ul>
+    <li>
+     <a href="../ARCADIA/1f4f139a708747d4bbd25b0748547b59.html#_oimN8KiREe2typM4YPR9TQ">
+      7 - Product Line Definition
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_-PVogHZPEe2lVaNV4qOrAA">
+      4 - Product Line &amp; Configuration Managers Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_7X41gH-rEe2qMc9GI-nScQ">
+      2.2 - First Level Tasks and Exchanges
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/11823daff480454cb7bb0ccab054ec7c.html#_4QB0UKiKEe2typM4YPR9TQ">
+      4 - From Definition &amp; Design to Validation
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_4PvdkHZPEe2lVaNV4qOrAA">
+      4 - Non functional Specialty Engineering Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/01a3ac9679c8477ab440116d71852b81.html#_ZBCrwKhpEe2typM4YPR9TQ">
+      1 - From Need to Solution
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_fASykHZPEe2lVaNV4qOrAA">
+      4 - Data &amp; Interface Manager Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_9r5fkKhoEe2typM4YPR9TQ">
+      2.3 - Use of Definition Perspectives in Engineering Capabilities
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_H3GM8HZQEe2lVaNV4qOrAA">
+      4 - Sub-contractor Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_sYtmAKbzEe2typM4YPR9TQ">
+      2.1 - First Level Tasks of Architecture Definition Perspectives
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_P_bbcHZPEe2lVaNV4qOrAA">
+      4 - Chief Architect Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_ltMvcHZPEe2lVaNV4qOrAA">
+      4 - IVVQ Manager Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/26860209a4cd41f4ae1aa929c010b336.html#_gcR9MKiIEe2typM4YPR9TQ">
+      3 - The Interface Trip
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_XrLmMHZPEe2lVaNV4qOrAA">
+      4 - Customer Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/0739212ead0c4be4bb1b656f6dcc340d.html#_vKeLkKhqEe2typM4YPR9TQ">
+      2 - Traversing Non-functional Issues
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_l-nVMEouEeCJy6-2bwxnoA">
+      3 - Models Management
+     </a>
+    </li>
+   </ul>
+  </div>
+ </body>
+</html>

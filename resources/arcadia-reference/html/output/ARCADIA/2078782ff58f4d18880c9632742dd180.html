@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta content="Copyright &copy; 2023 Thales. All Rights Reserved." name="copyright"/>
+  <meta content="text/html;charset=utf-8" http-equiv="content-type"/>
+  <meta content="text/css" http-equiv="Content-Style-Type"/>
+  <title>
+   Arcadia Reference - Select best Compromise Architecture
+  </title>
+  <link href="../../scripts/jquery-treeview/jquery.treeview.css" rel="stylesheet"/>
+  <script src="../../scripts/jquery-treeview/lib/jquery-1.11.1.js" type="text/javascript">
+  </script>
+  <script src="../../scripts/jquery-treeview/jquery.treeview.js" type="text/javascript">
+  </script>
+  <link href="../../css/simpletree.css" rel="stylesheet" type="text/css"/>
+  <link href="../../css/content.css" media="screen, projection" rel="stylesheet" title="default" type="text/css"/>
+  <style>
+   body {}
+			.treeview {
+				background-color: white ;
+			}
+	
+			.treeview ul{ /*CSS for Simple Tree Menu*/
+				background-color: white;
+				font-size: 12px;
+			}
+	
+			.treeview li{ /*Style for LI elements in general (excludes an LI that contains sub lists)*/
+				background-color: white;
+			}
+  </style>
+ </head>
+ <body>
+  <img src="../icon/logo_arcadia_small.png" style="float:left;width:50px;height:50px;"/>
+  <nav>
+   <a href="1a79525b3b624a7094acd0b580842ce6.html#">
+    ARCADIA
+   </a>
+   <a href="1a79525b3b624a7094acd0b580842ce6.html#landscape">
+    Engineering Landscape
+   </a>
+   <a href="1a79525b3b624a7094acd0b580842ce6.html#userGuide">
+    User Guide
+   </a>
+   <a href="1a79525b3b624a7094acd0b580842ce6.html#reference">
+    Reference Manual
+   </a>
+  </nav>
+  <p>
+   <br/>
+  </p>
+  <div id="content">
+   <img alt="PhysicalFunction" src="../icon/PhysicalFunction.png" style="float:left; margin-right:10px"/>
+   <h1>
+    <a href="../ARCADIA/2078782ff58f4d18880c9632742dd180.html">
+     Select best Compromise Architecture
+    </a>
+   </h1>
+   <p style="margin-top:3px; margin-bottom:3px">
+    <span class="elementMetaClass">
+     Engineering activity
+    </span>
+    <p>
+    </p>
+   </p>
+   <em class="elementPath">
+    <a href="../ARCADIA/6a3284b8a66748a597631eb95e8e8c55.html">
+     Engineering activities
+    </a>
+    &gt;
+    <a href="../ARCADIA/bd6945b4ae34413581335ae6b6f6f503.html">
+     Engineering Activities &amp; Perspectives
+    </a>
+    &gt;
+    <a href="../ARCADIA/caca5154f8a94592ba0d4513a6141c46.html">
+     DESIGN THE SOLUTION ARCHITECTURE
+    </a>
+    &gt;
+    <a href="../ARCADIA/dd460dc8ee0b4ceba0c0135c7c103ba9.html">
+     Design LOGICAL ARCHITECTURE
+    </a>
+    &gt;
+    <a href="../ARCADIA/2078782ff58f4d18880c9632742dd180.html">
+     Select best Compromise Architecture
+    </a>
+   </em>
+   <p>
+    <p>
+     This tasks consists in finding and justifying the best compromise between constraints driven by each viewpoint, in a process called &ldquo;Viewpoints weaving&rdquo;. This task is to be performed on each architectural alternative.
+    </p>
+    <p>
+     &nbsp;
+    </p>
+    <p>
+     Evaluate candidate architecture(s) against each selected main viewpoint, in order to check how much this architecture impacts each viewpoint, satisfies or infringes the viewpoint design rules, and expected non-functional properties. Validate &amp; justify it by its impact on each Viewpoint.
+    </p>
+    <p>
+     &nbsp;
+    </p>
+    <p>
+     A general approach (to be adapted to each domain) might be:
+    </p>
+    <ol>
+     <li>
+      select most important viewpoint to structure the system/sw (e.g. functional grouping, or safety level&hellip;)
+     </li>
+     <li>
+      check this grouping against most important architecture drivers in order to detect inconsistencies
+     </li>
+     <li>
+      analyse the impact of this grouping on other key viewpoints (e.g. safety, performance), to detect discrepancies and "distortions" between viewpoints
+     </li>
+     <li>
+      correct and iterate as needed.
+     </li>
+    </ol>
+    <p>
+     &nbsp;
+    </p>
+    <p>
+     It is recommended to preliminary define reconciliation criteria &amp; rules between viewpoints, depending on each domain (e.g. &ldquo;first define software partitions according to DO178B safety levels, then privilege functional grouping, then confront with time-critical chains; in case of conflict, privilege the critical chains&rdquo;).
+    </p>
+    <p>
+     &nbsp;
+    </p>
+    <p>
+     Validate architecture against operational and system/SW need :
+    </p>
+    <ul>
+     <li>
+      how it supports operational activities,
+     </li>
+     <li>
+      how it deals with functional behaviour (functional contents of each component, contribution to functional chains), interfaces, data flows &amp; data models&hellip;,
+     </li>
+     <li>
+      how it satisfies expected properties &amp; constraints,
+     </li>
+     <li>
+      how it implements/responds to operational scenarios &amp; capabilities.
+     </li>
+    </ul>
+    <p>
+     Finalise requirements based on this logical architecture.
+    </p>
+    <p>
+     &nbsp;
+    </p>
+    <h2>
+     Input:
+    </h2>
+    <ul>
+     <li>
+      Logical Architecture candidates
+     </li>
+    </ul>
+    <p>
+     &nbsp;
+    </p>
+    <h2>
+     Output:
+    </h2>
+    <ul>
+     <li>
+      Logical Architecture description through viewpoints &amp; reconciliation views
+     </li>
+     <li>
+      Consolidated Requirements
+     </li>
+     <li>
+      Issues and decisions (justifications) statement
+     </li>
+    </ul>
+    <p>
+     Target documents:
+    </p>
+    <ul>
+     <li>
+      System/Segment Design Document (SSDD) (preliminary)
+     </li>
+    </ul>
+    <p>
+     &nbsp;
+    </p>
+    <h2>
+     Verification and Consistency checks:
+    </h2>
+    <p>
+     <em>
+      External consistency:
+     </em>
+    </p>
+    <ul>
+     <li>
+      Between User Requirements and system/SW need analysis, industrial constraints (reuse, product line&hellip;) and final logical architecture
+     </li>
+    </ul>
+    <p>
+     <em>
+      Internal consistency:
+     </em>
+    </p>
+    <ul>
+     <li>
+      Between Architecture drivers and functional behaviour, Logical components and/or interfaces; between these and viewpoints and final logical architecture
+     </li>
+     <li>
+      Verify the logical architecture Description: coherent, complete, relevant: no contradiction, no gap, no inaccuracy.
+     </li>
+    </ul>
+    <p>
+     &nbsp;
+    </p>
+   </p>
+   <h2>
+    Details of Outputs Contents
+   </h2>
+   <ul>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItem.gif"/>
+     <a href="../ARCADIA/521d2bbf74fc402dac0cf3811abbafde.html">
+      Logical Architecture
+     </a>
+    </li>
+   </ul>
+   <h2>
+    Details of Inputs Contents
+   </h2>
+   <ul>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItem.gif"/>
+     <a href="../ARCADIA/02ba60f0d97a422d9cff44b0bdf2a79c.html">
+      Architecture Justification
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItem.gif"/>
+     <a href="../ARCADIA/1b1ee2c0e2554553b37f6f57a347b5a6.html">
+      Features to Engineering Assets Allocation
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItem.gif"/>
+     <a href="../ARCADIA/260312d8063a4ae3bd2cb4aaabfe6e69.html">
+      Solution Architecture Variabilities
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItem.gif"/>
+     <a href="../ARCADIA/521d2bbf74fc402dac0cf3811abbafde.html">
+      Logical Architecture
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItem.gif"/>
+     <a href="../ARCADIA/85562f4db5f348c8b9470b270475b20b.html">
+      System F&amp;NF Need
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItem.gif"/>
+     <a href="../ARCADIA/9d56e81321774274ba421b4598c6f3ee.html">
+      Selected Configuration Features &amp; Options
+     </a>
+    </li>
+   </ul>
+   <h2>
+    Related Diagrams
+   </h2>
+   <div>
+    <p class="diagram-name" id="_Fzn_oHccEe2lVaNV4qOrAA">
+     3Select best Compromise Architecture  Context
+    </p>
+    <p class="diagram">
+     <img alt="3Select best Compromise Architecture  Context" src="2078782ff58f4d18880c9632742dd180/_Fzn_oHccEe2lVaNV4qOrAA.jpg" usemap="#3Select best Compromise Architecture  Context__Fzn_oHccEe2lVaNV4qOrAA_PositionMap"/>
+     <br/>
+     <br/>
+     <map name="3Select best Compromise Architecture  Context__Fzn_oHccEe2lVaNV4qOrAA_PositionMap">
+      <area alt="da81222a7879423ba83e488ffc73e826" coords="414,191,548,207" group="da81222a7879423ba83e488ffc73e826" href="../ARCADIA/da81222a7879423ba83e488ffc73e826.html#idda81222a-7879-423b-a83e-488ffc73e826" shape="rect"/>
+      <area alt="fdf1e80ee701443cabf118f95ed98efa" coords="13,583,195,599" group="fdf1e80ee701443cabf118f95ed98efa" href="../ARCADIA/fdf1e80ee701443cabf118f95ed98efa.html#idfdf1e80e-e701-443c-abf1-18f95ed98efa" shape="rect"/>
+      <area alt="3c702aa623514bb8abc1d0d457bebfd9" coords="573,113,755,129" group="3c702aa623514bb8abc1d0d457bebfd9" href="../ARCADIA/3c702aa623514bb8abc1d0d457bebfd9.html#id3c702aa6-2351-4bb8-abc1-d0d457bebfd9" shape="rect"/>
+      <area alt="6d3ec07bc5e4484fbb2f882bffab50c3" coords="153,419,386,435" group="6d3ec07bc5e4484fbb2f882bffab50c3" href="../ARCADIA/6d3ec07bc5e4484fbb2f882bffab50c3.html#id6d3ec07b-c5e4-484f-bb2f-882bffab50c3" shape="rect"/>
+      <area alt="7ac94cbce86e4896b1fa840f40700d5b" coords="583,423,703,439" group="7ac94cbce86e4896b1fa840f40700d5b" href="../ARCADIA/7ac94cbce86e4896b1fa840f40700d5b.html#id7ac94cbc-e86e-4896-b1fa-840f40700d5b" shape="rect"/>
+      <area alt="c55764a8abc14f2eb7bad6157755656a" coords="171,323,361,339" group="c55764a8abc14f2eb7bad6157755656a" href="../ARCADIA/c55764a8abc14f2eb7bad6157755656a.html#idc55764a8-abc1-4f2e-b7ba-d6157755656a" shape="rect"/>
+      <area alt="6c8f18f572a242fb880217cb153f92a2" coords="133,515,375,531" group="6c8f18f572a242fb880217cb153f92a2" href="../ARCADIA/6c8f18f572a242fb880217cb153f92a2.html#id6c8f18f5-72a2-42fb-8802-17cb153f92a2" shape="rect"/>
+      <area alt="085e48a9db20496a925992c1b0a99ff7" coords="79,113,189,129" group="085e48a9db20496a925992c1b0a99ff7" href="../ARCADIA/085e48a9db20496a925992c1b0a99ff7.html#id085e48a9-db20-496a-9259-92c1b0a99ff7" shape="rect"/>
+      <area alt="415ce95d83134858999a05f24eecd186" coords="193,191,290,226" group="415ce95d83134858999a05f24eecd186" href="../ARCADIA/415ce95d83134858999a05f24eecd186.html#id415ce95d-8313-4858-999a-05f24eecd186" shape="rect"/>
+      <area alt="3f53e620a5a946b3bdd19aa2972522f4" coords="127,13,243,29" group="3f53e620a5a946b3bdd19aa2972522f4" href="../ARCADIA/3f53e620a5a946b3bdd19aa2972522f4.html#id3f53e620-a5a9-46b3-bdd1-9aa2972522f4" shape="rect"/>
+      <area alt="e000e547dc574459b33ab35eb73a02b6" coords="873,303,999,319" group="e000e547dc574459b33ab35eb73a02b6" href="../ARCADIA/e000e547dc574459b33ab35eb73a02b6.html#ide000e547-dc57-4459-b33a-b35eb73a02b6" shape="rect"/>
+      <area alt="6d47324120f248a2bb73e73bb07c5a7c" coords="713,433,833,449" group="6d47324120f248a2bb73e73bb07c5a7c" href="../ARCADIA/6d47324120f248a2bb73e73bb07c5a7c.html#id6d473241-20f2-48a2-bb73-e73bb07c5a7c" shape="rect"/>
+      <area alt="7fe390cb8c3a48b7ae44075d1afb1151" coords="583,513,703,529" group="7fe390cb8c3a48b7ae44075d1afb1151" href="../ARCADIA/7fe390cb8c3a48b7ae44075d1afb1151.html#id7fe390cb-8c3a-48b7-ae44-075d1afb1151" shape="rect"/>
+      <area alt="5aa8369621ac49c48c4e9db6acb29a7a" coords="796,123,924,139" group="5aa8369621ac49c48c4e9db6acb29a7a" href="../ARCADIA/5aa8369621ac49c48c4e9db6acb29a7a.html#id5aa83696-21ac-49c4-8c4e-9db6acb29a7a" shape="rect"/>
+      <area alt="63dda96e6910466292694bb7cb395cf6" coords="273,113,410,129" group="63dda96e6910466292694bb7cb395cf6" href="../ARCADIA/63dda96e6910466292694bb7cb395cf6.html#id63dda96e-6910-4662-9269-4bb7cb395cf6" shape="rect"/>
+      <area alt="25dd1f6a4f194f72945ea65ed8c27542" coords="168,163,305,179" group="25dd1f6a4f194f72945ea65ed8c27542" href="../ARCADIA/25dd1f6a4f194f72945ea65ed8c27542.html#id25dd1f6a-4f19-4f72-945e-a65ed8c27542" shape="rect"/>
+      <area alt="f4dc686725c641039815007c15991a7d" coords="583,343,703,359" group="f4dc686725c641039815007c15991a7d" href="../ARCADIA/f4dc686725c641039815007c15991a7d.html#idf4dc6867-25c6-4103-9815-007c15991a7d" shape="rect"/>
+      <area alt="1e5498182c1747379977f70261733027" coords="676,214,803,230" group="1e5498182c1747379977f70261733027" href="../ARCADIA/1e5498182c1747379977f70261733027.html#id1e549818-2c17-4737-9977-f70261733027" shape="rect"/>
+      <area alt="6c02525fd7114ec68055903bf0bc669c" coords="426,214,536,230" group="6c02525fd7114ec68055903bf0bc669c" href="../ARCADIA/6c02525fd7114ec68055903bf0bc669c.html#id6c02525f-d711-4ec6-8055-903bf0bc669c" shape="rect"/>
+      <area alt="05efb85a8ead4942b6efe142fc3785ee" coords="396,283,506,299" group="05efb85a8ead4942b6efe142fc3785ee" href="../ARCADIA/05efb85a8ead4942b6efe142fc3785ee.html#id05efb85a-8ead-4942-b6ef-e142fc3785ee" shape="rect"/>
+      <area alt="7a9dd9a2657345c791c0d1f7ab3ee3f3" coords="73,601,83,611" group="7a9dd9a2657345c791c0d1f7ab3ee3f3" href="../ARCADIA/7a9dd9a2657345c791c0d1f7ab3ee3f3.html#id7a9dd9a2-6573-45c7-91c0-d1f7ab3ee3f3" shape="rect"/>
+      <area alt="8d2bccdedc3b4bcdb5b26974eeb483ca" coords="25,603,175,673" group="8d2bccdedc3b4bcdb5b26974eeb483ca" href="../ARCADIA/8d2bccdedc3b4bcdb5b26974eeb483ca.html#id8d2bccde-dc3b-4bcd-b5b2-6974eeb483ca" shape="rect"/>
+      <area alt="d5985c7de85b489db1696f9f9456af2d" coords="673,103,683,113" group="d5985c7de85b489db1696f9f9456af2d" href="../ARCADIA/d5985c7de85b489db1696f9f9456af2d.html#idd5985c7d-e85b-489d-b169-6f9f9456af2d" shape="rect"/>
+      <area alt="9fd9df5f4ad04f299433b2a31b984ad1" coords="603,43,753,113" group="9fd9df5f4ad04f299433b2a31b984ad1" href="../ARCADIA/9fd9df5f4ad04f299433b2a31b984ad1.html#id9fd9df5f-4ad0-4f29-9433-b2a31b984ad1" shape="rect"/>
+      <area alt="dc87ca6dface4e2c8fd8e1066cd62e8e" coords="241,466,251,476" group="dc87ca6dface4e2c8fd8e1066cd62e8e" href="../ARCADIA/dc87ca6dface4e2c8fd8e1066cd62e8e.html#iddc87ca6d-face-4e2c-8fd8-e1066cd62e8e" shape="rect"/>
+      <area alt="3bc550c63f304bcf914f5e7a64da9b18" coords="243,436,393,506" group="3bc550c63f304bcf914f5e7a64da9b18" href="../ARCADIA/3bc550c63f304bcf914f5e7a64da9b18.html#id3bc550c6-3f30-4bcf-914f-5e7a64da9b18" shape="rect"/>
+      <area alt="e03f02a3bd0f436e9401ebae19358f09" coords="568,433,578,443" group="e03f02a3bd0f436e9401ebae19358f09" href="../ARCADIA/e03f02a3bd0f436e9401ebae19358f09.html#ide03f02a3-bd0f-436e-9401-ebae19358f09" shape="rect"/>
+      <area alt="cc8e74ce6ea74d8b94cd33f8d5063a20" coords="443,423,578,493" group="cc8e74ce6ea74d8b94cd33f8d5063a20" href="../ARCADIA/cc8e74ce6ea74d8b94cd33f8d5063a20.html#idcc8e74ce-6ea7-4d8b-94cd-33f8d5063a20" shape="rect"/>
+      <area alt="afe6bcb4b5f242a4af8363ed2d364ebd" coords="241,373,251,383" group="afe6bcb4b5f242a4af8363ed2d364ebd" href="../ARCADIA/afe6bcb4b5f242a4af8363ed2d364ebd.html#idafe6bcb4-b5f2-42a4-af83-63ed2d364ebd" shape="rect"/>
+      <area alt="e5e58f7bc69b418cbd3d0d9a325ee053" coords="243,343,393,413" group="e5e58f7bc69b418cbd3d0d9a325ee053" href="../ARCADIA/e5e58f7bc69b418cbd3d0d9a325ee053.html#ide5e58f7b-c69b-418c-bd3d-0d9a325ee053" shape="rect"/>
+      <area alt="913e0630df874961a36dad07e7b561f3" coords="241,563,251,573" group="913e0630df874961a36dad07e7b561f3" href="../ARCADIA/913e0630df874961a36dad07e7b561f3.html#id913e0630-df87-4961-a36d-ad07e7b561f3" shape="rect"/>
+      <area alt="9819c8d0a9774c08b90f5b0337ec7bf2" coords="243,533,393,603" group="9819c8d0a9774c08b90f5b0337ec7bf2" href="../ARCADIA/9819c8d0a9774c08b90f5b0337ec7bf2.html#id9819c8d0-a977-4c08-b90f-5b0337ec7bf2" shape="rect"/>
+      <area alt="3eb1e259e1bb453793a4f2775db82a7c" coords="463,44,473,54" group="3eb1e259e1bb453793a4f2775db82a7c" href="../ARCADIA/3eb1e259e1bb453793a4f2775db82a7c.html#id3eb1e259-e1bb-4537-93a4-f2775db82a7c" shape="rect"/>
+      <area alt="da496cf604c54f669adecd10e4010063" coords="406,46,556,116" group="da496cf604c54f669adecd10e4010063" href="../ARCADIA/da496cf604c54f669adecd10e4010063.html#idda496cf6-04c5-4f66-9ade-cd10e4010063" shape="rect"/>
+      <area alt="68aa195c5b47453e9b09c9d92b965d0e" coords="966,363,976,373" group="68aa195c5b47453e9b09c9d92b965d0e" href="../ARCADIA/68aa195c5b47453e9b09c9d92b965d0e.html#id68aa195c-5b47-453e-9b09-c9d92b965d0e" shape="rect"/>
+      <area alt="0b84afc8d5ac44c4b0a9b4c21730d2bc" coords="841,327,976,397" group="0b84afc8d5ac44c4b0a9b4c21730d2bc" href="../ARCADIA/0b84afc8d5ac44c4b0a9b4c21730d2bc.html#id0b84afc8-d5ac-44c4-b0a9-b4c21730d2bc" shape="rect"/>
+      <area alt="835606fca5a345e290fc929ff31b9ab4" coords="839,443,849,453" group="835606fca5a345e290fc929ff31b9ab4" href="../ARCADIA/835606fca5a345e290fc929ff31b9ab4.html#id835606fc-a5a3-45e2-90fc-929ff31b9ab4" shape="rect"/>
+      <area alt="6b591d952ab34fd8bb5548aa2cae8f1b" coords="841,423,976,506" group="6b591d952ab34fd8bb5548aa2cae8f1b" href="../ARCADIA/6b591d952ab34fd8bb5548aa2cae8f1b.html#id6b591d95-2ab3-4fd8-bb55-48aa2cae8f1b" shape="rect"/>
+      <area alt="00067d95400347bab8d881cbf39fdd06" coords="568,525,578,535" group="00067d95400347bab8d881cbf39fdd06" href="../ARCADIA/00067d95400347bab8d881cbf39fdd06.html#id00067d95-4003-47ba-b8d8-81cbf39fdd06" shape="rect"/>
+      <area alt="a1b8f332fb0c45d48fac7daa9423d347" coords="443,513,578,583" group="a1b8f332fb0c45d48fac7daa9423d347" href="../ARCADIA/a1b8f332fb0c45d48fac7daa9423d347.html#ida1b8f332-fb0c-45d4-8fac-7daa9423d347" shape="rect"/>
+      <area alt="5e4e1286c0634ef99c69b10d3d385475" coords="853,103,863,113" group="5e4e1286c0634ef99c69b10d3d385475" href="../ARCADIA/5e4e1286c0634ef99c69b10d3d385475.html#id5e4e1286-c063-4ef9-9c69-b10d3d385475" shape="rect"/>
+      <area alt="5e3c70efa7864bc7b3ce7ba84b252eed" coords="793,43,928,113" group="5e3c70efa7864bc7b3ce7ba84b252eed" href="../ARCADIA/5e3c70efa7864bc7b3ce7ba84b252eed.html#id5e3c70ef-a786-4bc7-b3ce-7ba84b252eed" shape="rect"/>
+      <area alt="df501274b02148ed854a6be879632cac" coords="123,99,133,109" group="df501274b02148ed854a6be879632cac" href="../ARCADIA/df501274b02148ed854a6be879632cac.html#iddf501274-b021-48ed-854a-6be879632cac" shape="rect"/>
+      <area alt="6850ef08d9e449fba70f42f765dd28fd" coords="69,46,192,109" group="6850ef08d9e449fba70f42f765dd28fd" href="../ARCADIA/6850ef08d9e449fba70f42f765dd28fd.html#id6850ef08-d9e4-49fb-a70f-42f765dd28fd" shape="rect"/>
+      <area alt="6cc6dad5c95241539b501fd243d8eef3" coords="279,99,289,109" group="6cc6dad5c95241539b501fd243d8eef3" href="../ARCADIA/6cc6dad5c95241539b501fd243d8eef3.html#id6cc6dad5-c952-4153-9b50-1fd243d8eef3" shape="rect"/>
+      <area alt="a366b41ac273480d94292df4d430af3d" coords="229,46,372,109" group="a366b41ac273480d94292df4d430af3d" href="../ARCADIA/a366b41ac273480d94292df4d430af3d.html#ida366b41a-c273-480d-9429-2df4d430af3d" shape="rect"/>
+      <area alt="a07704d5a53845c2ab5f789b0fd60349" coords="568,355,578,365" group="a07704d5a53845c2ab5f789b0fd60349" href="../ARCADIA/a07704d5a53845c2ab5f789b0fd60349.html#ida07704d5-a538-45c2-ab5f-789b0fd60349" shape="rect"/>
+      <area alt="e965ee86a88743999430b49c4ecc16de" coords="443,343,578,413" group="e965ee86a88743999430b49c4ecc16de" href="../ARCADIA/e965ee86a88743999430b49c4ecc16de.html#ide965ee86-a887-4399-9430-b49c4ecc16de" shape="rect"/>
+      <area alt="ef343414f1074a5a9eefb5c2e9825e1b" coords="410,204,420,214" group="ef343414f1074a5a9eefb5c2e9825e1b" href="../ARCADIA/ef343414f1074a5a9eefb5c2e9825e1b.html#idef343414-f107-4a5a-9eef-b5c2e9825e1b" shape="rect"/>
+      <area alt="0a89b4ea692a42628c11043b72c643ba" coords="283,217,293,227" group="0a89b4ea692a42628c11043b72c643ba" href="../ARCADIA/0a89b4ea692a42628c11043b72c643ba.html#id0a89b4ea-692a-4262-8c11-043b72c643ba" shape="rect"/>
+      <area alt="70b82e4a6839404e97b62783202688a7" coords="410,227,420,237" group="70b82e4a6839404e97b62783202688a7" href="../ARCADIA/70b82e4a6839404e97b62783202688a7.html#id70b82e4a-6839-404e-97b6-2783202688a7" shape="rect"/>
+      <area alt="ddb18b7a26a44328b62ab42fc3f9272a" coords="283,237,293,247" group="ddb18b7a26a44328b62ab42fc3f9272a" href="../ARCADIA/ddb18b7a26a44328b62ab42fc3f9272a.html#idddb18b7a-26a4-4328-b62a-b42fc3f9272a" shape="rect"/>
+      <area alt="ddbe2330159f476d9b96f9fdb312055d" coords="305,189,315,199" group="ddbe2330159f476d9b96f9fdb312055d" href="../ARCADIA/ddbe2330159f476d9b96f9fdb312055d.html#idddbe2330-159f-476d-9b96-f9fdb312055d" shape="rect"/>
+      <area alt="41f885514a5c4202bd1ff179ddd5f04e" coords="285,191,420,266" group="41f885514a5c4202bd1ff179ddd5f04e" href="../ARCADIA/41f885514a5c4202bd1ff179ddd5f04e.html#id41f88551-4a5c-4202-bd1f-f179ddd5f04e" shape="rect"/>
+      <area alt="412a205ce77a4f8391ed80588703e1f3" coords="543,204,553,214" group="412a205ce77a4f8391ed80588703e1f3" href="../ARCADIA/412a205ce77a4f8391ed80588703e1f3.html#id412a205c-e77a-4f83-91ed-80588703e1f3" shape="rect"/>
+      <area alt="bb3cefd25d15476b8741b3138fa39537" coords="569,189,579,199" group="bb3cefd25d15476b8741b3138fa39537" href="../ARCADIA/bb3cefd25d15476b8741b3138fa39537.html#idbb3cefd2-5d15-476b-8741-b3138fa39537" shape="rect"/>
+      <area alt="e05e1bb824da4d92be611192a522c3b9" coords="670,227,680,237" group="e05e1bb824da4d92be611192a522c3b9" href="../ARCADIA/e05e1bb824da4d92be611192a522c3b9.html#ide05e1bb8-24da-4d92-be61-1192a522c3b9" shape="rect"/>
+      <area alt="8fcd04ec888342c6b3f5767458af2224" coords="543,227,553,237" group="8fcd04ec888342c6b3f5767458af2224" href="../ARCADIA/8fcd04ec888342c6b3f5767458af2224.html#id8fcd04ec-8883-42c6-b3f5-767458af2224" shape="rect"/>
+      <area alt="021323630b494cf59090749383906053" coords="543,247,553,257" group="021323630b494cf59090749383906053" href="../ARCADIA/021323630b494cf59090749383906053.html#id02132363-0b49-4cf5-9090-749383906053" shape="rect"/>
+      <area alt="16725d0b977f43ea980b027c24cffba0" coords="545,191,680,266" group="16725d0b977f43ea980b027c24cffba0" href="../ARCADIA/16725d0b977f43ea980b027c24cffba0.html#id16725d0b-977f-43ea-980b-027c24cffba0" shape="rect"/>
+      <area alt="057d625da1be471ebd3127d3855ae056" coords="73,256,83,266" group="057d625da1be471ebd3127d3855ae056" href="../ARCADIA/057d625da1be471ebd3127d3855ae056.html#id057d625d-a1be-471e-bd31-27d3855ae056" shape="rect"/>
+      <area alt="9222586fcb5d4e9a931a796ef5d45e7f" coords="143,256,153,266" group="9222586fcb5d4e9a931a796ef5d45e7f" href="../ARCADIA/9222586fcb5d4e9a931a796ef5d45e7f.html#id9222586f-cb5d-4e9a-931a-796ef5d45e7f" shape="rect"/>
+      <area alt="fb4b1d48a7384959a395724bb7f1fae4" coords="163,256,173,266" group="fb4b1d48a7384959a395724bb7f1fae4" href="../ARCADIA/fb4b1d48a7384959a395724bb7f1fae4.html#idfb4b1d48-a738-4959-a395-724bb7f1fae4" shape="rect"/>
+      <area alt="2665e34e8a3c4d4894bb48afe16c7670" coords="123,256,133,266" group="2665e34e8a3c4d4894bb48afe16c7670" href="../ARCADIA/2665e34e8a3c4d4894bb48afe16c7670.html#id2665e34e-8a3c-4d48-94bb-48afe16c7670" shape="rect"/>
+      <area alt="f7588bee1bdc482c8e610d7d1624ae3e" coords="95,189,105,199" group="f7588bee1bdc482c8e610d7d1624ae3e" href="../ARCADIA/f7588bee1bdc482c8e610d7d1624ae3e.html#idf7588bee-1bdc-482c-8e61-0d7d1624ae3e" shape="rect"/>
+      <area alt="88b51c89bb3b4b52863afe81bf549f8b" coords="186,217,196,227" group="88b51c89bb3b4b52863afe81bf549f8b" href="../ARCADIA/88b51c89bb3b4b52863afe81bf549f8b.html#id88b51c89-bb3b-4b52-863a-fe81bf549f8b" shape="rect"/>
+      <area alt="0e4eac3a9837417bbb0a901efbd68d2f" coords="155,189,165,199" group="0e4eac3a9837417bbb0a901efbd68d2f" href="../ARCADIA/0e4eac3a9837417bbb0a901efbd68d2f.html#id0e4eac3a-9837-417b-bb0a-901efbd68d2f" shape="rect"/>
+      <area alt="70773c2cd7dc4acea98e9211050e98ad" coords="61,191,196,266" group="70773c2cd7dc4acea98e9211050e98ad" href="../ARCADIA/70773c2cd7dc4acea98e9211050e98ad.html#id70773c2c-d7dc-4ace-a98e-9211050e98ad" shape="rect"/>
+      <area alt="d41c0e541c844137aa140c5bbfbf53f2" coords="930,217,940,227" group="d41c0e541c844137aa140c5bbfbf53f2" href="../ARCADIA/d41c0e541c844137aa140c5bbfbf53f2.html#idd41c0e54-1c84-4137-aa14-0c5bbfbf53f2" shape="rect"/>
+      <area alt="7e4c7698791e442cbff79d94337c634a" coords="853,189,863,199" group="7e4c7698791e442cbff79d94337c634a" href="../ARCADIA/7e4c7698791e442cbff79d94337c634a.html#id7e4c7698-791e-442c-bff7-9d94337c634a" shape="rect"/>
+      <area alt="076e09c008aa4ea6a67a4edae42e97a0" coords="803,227,813,237" group="076e09c008aa4ea6a67a4edae42e97a0" href="../ARCADIA/076e09c008aa4ea6a67a4edae42e97a0.html#id076e09c0-08aa-4ea6-a67a-4edae42e97a0" shape="rect"/>
+      <area alt="e4c26b0b9e3945aba9dc290cc2e97e4e" coords="805,191,940,266" group="e4c26b0b9e3945aba9dc290cc2e97e4e" href="../ARCADIA/e4c26b0b9e3945aba9dc290cc2e97e4e.html#ide4c26b0b-9e39-45ab-a9dc-290cc2e97e4e" shape="rect"/>
+      <area alt="2078782ff58f4d18880c9632742dd180" coords="25,143,976,302" group="2078782ff58f4d18880c9632742dd180" href="../ARCADIA/2078782ff58f4d18880c9632742dd180.html#id2078782f-f58f-4d18-880c-9632742dd180" shape="rect"/>
+     </map>
+    </p>
+    <p class="diagram-description">
+     <p>
+      This figure describes the interactions of the considered task with other engineering activities.
+     </p>
+    </p>
+   </div>
+   <h2>
+    Diagrams displaying "Select best Compromise Architecture"
+   </h2>
+   <ul>
+    <li>
+     <a href="../ARCADIA/2078782ff58f4d18880c9632742dd180.html#_Fzn_oHccEe2lVaNV4qOrAA">
+      3-Select best Compromise Architecture - Context
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/6a3284b8a66748a597631eb95e8e8c55.html#_W8OfUHccEe2lVaNV4qOrAA">
+      4 - Customer Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/6a3284b8a66748a597631eb95e8e8c55.html#_HvCG8HcdEe2lVaNV4qOrAA">
+      4 - Sub-contractor Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/6a3284b8a66748a597631eb95e8e8c55.html#_jOY0gHccEe2lVaNV4qOrAA">
+      4 - IVVQ Manager Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/6a3284b8a66748a597631eb95e8e8c55.html#_ad5Z0HcdEe2lVaNV4qOrAA">
+      5 - Models Management
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/6a3284b8a66748a597631eb95e8e8c55.html#_xlkVcHccEe2lVaNV4qOrAA">
+      4 - Non functional Specialty Engineering Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/6a3284b8a66748a597631eb95e8e8c55.html#_ddwSoHccEe2lVaNV4qOrAA">
+      4 - Data &amp; Interface Manager Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/dd460dc8ee0b4ceba0c0135c7c103ba9.html#_wwpKgHcaEe2lVaNV4qOrAA">
+      2-Design LOGICAL ARCHITECTURE - Contents
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/6a3284b8a66748a597631eb95e8e8c55.html#_VgMJsHcdEe2lVaNV4qOrAA">
+      5 - Document Building
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/6a3284b8a66748a597631eb95e8e8c55.html#_2z-7EHccEe2lVaNV4qOrAA">
+      4 - Product Line &amp; Configuration Managers Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/6a3284b8a66748a597631eb95e8e8c55.html#_PJdGkHccEe2lVaNV4qOrAA">
+      4 - Chief Architect Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/6a3284b8a66748a597631eb95e8e8c55.html#_d5BkQHcaEe2lVaNV4qOrAA">
+      1 - First Level Tasks of Architecture Definition Perspectives
+     </a>
+    </li>
+   </ul>
+  </div>
+ </body>
+</html>

@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta content="Copyright &copy; 2023 Thales. All Rights Reserved." name="copyright"/>
+  <meta content="text/html;charset=utf-8" http-equiv="content-type"/>
+  <meta content="text/css" http-equiv="Content-Style-Type"/>
+  <title>
+   Arcadia Reference - Build candidate architectural breakdowns in Components
+  </title>
+  <link href="../../scripts/jquery-treeview/jquery.treeview.css" rel="stylesheet"/>
+  <script src="../../scripts/jquery-treeview/lib/jquery-1.11.1.js" type="text/javascript">
+  </script>
+  <script src="../../scripts/jquery-treeview/jquery.treeview.js" type="text/javascript">
+  </script>
+  <link href="../../css/simpletree.css" rel="stylesheet" type="text/css"/>
+  <link href="../../css/content.css" media="screen, projection" rel="stylesheet" title="default" type="text/css"/>
+  <style>
+   body {}
+			.treeview {
+				background-color: white ;
+			}
+	
+			.treeview ul{ /*CSS for Simple Tree Menu*/
+				background-color: white;
+				font-size: 12px;
+			}
+	
+			.treeview li{ /*Style for LI elements in general (excludes an LI that contains sub lists)*/
+				background-color: white;
+			}
+  </style>
+ </head>
+ <body>
+  <img src="../icon/logo_arcadia_small.png" style="float:left;width:50px;height:50px;"/>
+  <nav>
+   <a href="1a79525b3b624a7094acd0b580842ce6.html#">
+    ARCADIA
+   </a>
+   <a href="1a79525b3b624a7094acd0b580842ce6.html#landscape">
+    Engineering Landscape
+   </a>
+   <a href="1a79525b3b624a7094acd0b580842ce6.html#userGuide">
+    User Guide
+   </a>
+   <a href="1a79525b3b624a7094acd0b580842ce6.html#reference">
+    Reference Manual
+   </a>
+  </nav>
+  <p>
+   <br/>
+  </p>
+  <div id="content">
+   <img alt="LogicalFunction" src="../icon/LogicalFunction.png" style="float:left; margin-right:10px"/>
+   <h1>
+    <a href="../ARCADIA/fa20afb0541f43528e9ac5dae84e029a.html">
+     Build candidate architectural breakdowns in Components
+    </a>
+   </h1>
+   <p style="margin-top:3px; margin-bottom:3px">
+    <span class="elementMetaClass">
+     Engineering activity
+    </span>
+    <p>
+    </p>
+   </p>
+   <em class="elementPath">
+    <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html">
+     Engineering activities
+    </a>
+    &gt;
+    <a href="../ARCADIA/e8747730cd7549f9bc5a6e7fd12fdf1f.html">
+     Arcadia high-level Activities
+    </a>
+    &gt;
+    <a href="../ARCADIA/e9cc9304274f4650afaecda037922da3.html">
+     Design LOGICAL ARCHITECTURE
+    </a>
+    &gt;
+    <a href="../ARCADIA/fa20afb0541f43528e9ac5dae84e029a.html">
+     Build candidate architectural breakdowns in Components
+    </a>
+   </em>
+   <p>
+    <p>
+     Starting from previous functional &amp; non-functional analysis results (functions, interfaces, data flows, behaviours&hellip;), build one or several decompositions of the system/software into logical components[1]. This may lead to considering several alternatives (functional, structural or both) that should be evaluated and compared to others.
+    </p>
+    <p>
+     Logical components will later tend to be the basic decomposition for development/sub-contracting, integration, reuse, product and configuration management item definitions (but other criteria will be taken into account to define the boundaries for these items).
+    </p>
+    <p>
+     &nbsp;
+    </p>
+    <p>
+     The component building process consists in
+    </p>
+    <ul>
+     <li>
+      Grouping functions together in a consistent way (see viewpoints below) by allocating them to components
+     </li>
+     <li>
+      While &ldquo;inheriting&rdquo; component interfaces and exchange data flows, from functional data flows between functions
+     </li>
+     <li>
+      And deducing requirement and system scenarios allocation to components, based on functions allocation &amp; traceability links
+     </li>
+     <li>
+      Ensuring traceability and justification links with former steps (functions, components, scenarios&hellip;).
+     </li>
+    </ul>
+    <p>
+     This building process has to deal with each Viewpoint &amp; associated design Rules, either by
+    </p>
+    <ul>
+     <li>
+      Grouping functions close to each other in the considered viewpoint (e.g. dealing with the same operational activity, having same hard real-time constraints, sharing complex interfaces&hellip;)
+     </li>
+     <li>
+      Or segregating / separating functions that must not be grouped (e.g. functions of different criticality/certification levels, functions heavily consuming platform resources&hellip;)
+     </li>
+     <li>
+      Or mixed.
+     </li>
+    </ul>
+    <p>
+     &nbsp;
+    </p>
+    <p>
+     Yet all viewpoints will not suggest a given breakdown in components:
+    </p>
+    <ul>
+     <li>
+      functional consistency, modularity, interfaces confinement, resource consumption, safety/dependability, &hellip; favour and allow components outlining in the viewpoint scope: each of them may suggest a breakdown in components from its own constraints
+     </li>
+     <li>
+      maintainability, cost management, human factors, time-critical Paths, system modes &amp; states&hellip;, are more likely to influence other viewpoints components outlining, rather than allowing their own viewpoint components definition.
+     </li>
+    </ul>
+    <p>
+     &nbsp;
+    </p>
+    <p>
+     Therefore, all these viewpoints need to be confronted and reconciled with each others: this can be initiated in this task, in order to reduce the number of candidate architectures, but must anyway be formalised and completed in the next engineering task below.
+    </p>
+    <p>
+     &nbsp;
+    </p>
+    <p>
+     Note that in some cases (e.g. performance viewpoint with limited resources), limited parts of the logical architecture may have to be described as an early physical architecture in order to validate against viewpoints rules (e.g. performance issues according to available computing power hypotheses).
+    </p>
+    <p>
+     &nbsp;
+    </p>
+    <p>
+     &nbsp;
+    </p>
+    <p>
+     During this component building process, the former system need functional analysis may have to be reworked: among others,
+    </p>
+    <ul>
+     <li>
+      To detail / refine some functions in order to fit components breakdown (e.g. split one function into processing, user interaction, data management; or to implement redundant functional paths)
+     </li>
+     <li>
+      To optimise design by defining common use functions, generic ones
+     </li>
+     <li>
+      to deal with non-functional viewpoints constraints (e.g. rearrange functions for a more secure behaviour, or check performance constraints against the use of security methods such as cryptography)
+     </li>
+     <li>
+      To add functions necessary for design description (e.g. technical services, communication support, monitoring, download&hellip;).
+     </li>
+    </ul>
+    <p>
+     &nbsp;
+    </p>
+    <p>
+     [1] Note that the word &lsquo;Component&rsquo; should be understood in a general manner, as a constituent of the system/SW at this level; it will later turn to either a sub-system, an equipment, a piece of software, a hardware board or function&hellip;
+    </p>
+    <h2>
+     &nbsp;
+    </h2>
+    <h2>
+     Input:
+    </h2>
+    <ul>
+     <li>
+      Selection of relevant/critical viewpoints to describe the architecture
+     </li>
+     <li>
+      system/SW functional and non-functional analysis
+     </li>
+    </ul>
+    <p>
+     &nbsp;
+    </p>
+    <h2>
+     Output:
+    </h2>
+    <ul>
+     <li>
+      Logical Architecture candidates including components functional contents, interfaces and dataflows, allocated non-functional constraints
+     </li>
+    </ul>
+    <p>
+     Target documents:
+    </p>
+    <ul>
+     <li>
+      System/Segment Design Document (SSDD) (preliminary)
+     </li>
+    </ul>
+    <p>
+     &nbsp;
+    </p>
+    <h2>
+     Verification and Consistency checks:
+    </h2>
+    <p>
+     <em>
+      External consistency:
+     </em>
+    </p>
+    <ul>
+     <li>
+      Between User Requirements and system/SW need analysis, industrial constraints (reuse, product line&hellip;) and selected viewpoints
+     </li>
+    </ul>
+    <p>
+     <em>
+      Internal consistency:
+     </em>
+    </p>
+    <ul>
+     <li>
+      Between Architecture drivers, viewpoints and Logical components and/or interfaces
+     </li>
+     <li>
+      Between functions to components allocation, and architecture drivers/viewpoints rules
+     </li>
+     <li>
+      Verify each logical architecture Description: coherent, complete, relevant: no contradiction, no gap, no inaccuracy.
+     </li>
+    </ul>
+    <p>
+     &nbsp;
+    </p>
+   </p>
+   <h2>
+    Details of Outputs Contents
+   </h2>
+   <ul>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/ef5107845d66485180b15fe487cf5808.html">
+      Logical Data &amp; Interfaces
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/5ec23ecfc1c74526a080f0945cfa7fa9.html">
+      Logical Components &amp; Exchanges
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/5413ebcb2b3445e5b673ab097203806d.html">
+      System Capability Realisation
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/c146b1af68e6441aa8a62337bfce6bcf.html">
+      Logical requirements
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/cc4a20cb092f417c9257a408d34ab5af.html">
+      Logical functional Analysis
+     </a>
+    </li>
+   </ul>
+   <h2>
+    Details of Inputs Contents
+   </h2>
+   <ul>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/ef5107845d66485180b15fe487cf5808.html">
+      Logical Data &amp; Interfaces
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/cc4a20cb092f417c9257a408d34ab5af.html">
+      Logical functional Analysis
+     </a>
+    </li>
+   </ul>
+   <h2>
+    Engineering Processes involving "Build candidate architectural breakdowns in Components"
+   </h2>
+   <ul class="generatedList">
+    <li>
+     <img alt="FunctionalChain" src="../icon/FunctionalChain.gif"/>
+     <a href="../ARCADIA/01a3ac9679c8477ab440116d71852b81.html">
+      From Need to Solution
+     </a>
+    </li>
+    <li>
+     <img alt="FunctionalChain" src="../icon/FunctionalChain.gif"/>
+     <a href="../ARCADIA/0739212ead0c4be4bb1b656f6dcc340d.html">
+      Traversing Non-functional Issues
+     </a>
+    </li>
+   </ul>
+   <h2>
+    Diagrams displaying "Build candidate architectural breakdowns in Components"
+   </h2>
+   <ul>
+    <li>
+     <a href="../ARCADIA/1f4f139a708747d4bbd25b0748547b59.html#_oimN8KiREe2typM4YPR9TQ">
+      7 - Product Line Definition
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_7X41gH-rEe2qMc9GI-nScQ">
+      2.2 - First Level Tasks and Exchanges
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_-PVogHZPEe2lVaNV4qOrAA">
+      4 - Product Line &amp; Configuration Managers Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/11823daff480454cb7bb0ccab054ec7c.html#_4QB0UKiKEe2typM4YPR9TQ">
+      4 - From Definition &amp; Design to Validation
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_4PvdkHZPEe2lVaNV4qOrAA">
+      4 - Non functional Specialty Engineering Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/01a3ac9679c8477ab440116d71852b81.html#_ZBCrwKhpEe2typM4YPR9TQ">
+      1 - From Need to Solution
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_fASykHZPEe2lVaNV4qOrAA">
+      4 - Data &amp; Interface Manager Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_9r5fkKhoEe2typM4YPR9TQ">
+      2.3 - Use of Definition Perspectives in Engineering Capabilities
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_H3GM8HZQEe2lVaNV4qOrAA">
+      4 - Sub-contractor Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_sYtmAKbzEe2typM4YPR9TQ">
+      2.1 - First Level Tasks of Architecture Definition Perspectives
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_P_bbcHZPEe2lVaNV4qOrAA">
+      4 - Chief Architect Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_ltMvcHZPEe2lVaNV4qOrAA">
+      4 - IVVQ Manager Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/26860209a4cd41f4ae1aa929c010b336.html#_gcR9MKiIEe2typM4YPR9TQ">
+      3 - The Interface Trip
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_XrLmMHZPEe2lVaNV4qOrAA">
+      4 - Customer Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/0739212ead0c4be4bb1b656f6dcc340d.html#_vKeLkKhqEe2typM4YPR9TQ">
+      2 - Traversing Non-functional Issues
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_l-nVMEouEeCJy6-2bwxnoA">
+      3 - Models Management
+     </a>
+    </li>
+   </ul>
+  </div>
+ </body>
+</html>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta content="Copyright &copy; 2023 Thales. All Rights Reserved." name="copyright"/>
+  <meta content="text/html;charset=utf-8" http-equiv="content-type"/>
+  <meta content="text/css" http-equiv="Content-Style-Type"/>
+  <title>
+   Arcadia Reference - Define Architecture Drivers and Viewpoints design Rules
+  </title>
+  <link href="../../scripts/jquery-treeview/jquery.treeview.css" rel="stylesheet"/>
+  <script src="../../scripts/jquery-treeview/lib/jquery-1.11.1.js" type="text/javascript">
+  </script>
+  <script src="../../scripts/jquery-treeview/jquery.treeview.js" type="text/javascript">
+  </script>
+  <link href="../../css/simpletree.css" rel="stylesheet" type="text/css"/>
+  <link href="../../css/content.css" media="screen, projection" rel="stylesheet" title="default" type="text/css"/>
+  <style>
+   body {}
+			.treeview {
+				background-color: white ;
+			}
+	
+			.treeview ul{ /*CSS for Simple Tree Menu*/
+				background-color: white;
+				font-size: 12px;
+			}
+	
+			.treeview li{ /*Style for LI elements in general (excludes an LI that contains sub lists)*/
+				background-color: white;
+			}
+  </style>
+ </head>
+ <body>
+  <img src="../icon/logo_arcadia_small.png" style="float:left;width:50px;height:50px;"/>
+  <nav>
+   <a href="1a79525b3b624a7094acd0b580842ce6.html#">
+    ARCADIA
+   </a>
+   <a href="1a79525b3b624a7094acd0b580842ce6.html#landscape">
+    Engineering Landscape
+   </a>
+   <a href="1a79525b3b624a7094acd0b580842ce6.html#userGuide">
+    User Guide
+   </a>
+   <a href="1a79525b3b624a7094acd0b580842ce6.html#reference">
+    Reference Manual
+   </a>
+  </nav>
+  <p>
+   <br/>
+  </p>
+  <div id="content">
+   <img alt="LogicalFunction" src="../icon/LogicalFunction.png" style="float:left; margin-right:10px"/>
+   <h1>
+    <a href="../ARCADIA/587f9b10ee9c4f78bef5e1ed0ca5d236.html">
+     Define Architecture Drivers and Viewpoints design Rules
+    </a>
+   </h1>
+   <p style="margin-top:3px; margin-bottom:3px">
+    <span class="elementMetaClass">
+     Engineering activity
+    </span>
+    <p>
+    </p>
+   </p>
+   <em class="elementPath">
+    <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html">
+     Engineering activities
+    </a>
+    &gt;
+    <a href="../ARCADIA/e8747730cd7549f9bc5a6e7fd12fdf1f.html">
+     Arcadia high-level Activities
+    </a>
+    &gt;
+    <a href="../ARCADIA/e9cc9304274f4650afaecda037922da3.html">
+     Design LOGICAL ARCHITECTURE
+    </a>
+    &gt;
+    <a href="../ARCADIA/587f9b10ee9c4f78bef5e1ed0ca5d236.html">
+     Define Architecture Drivers and Viewpoints design Rules
+    </a>
+   </em>
+   <p>
+    <p>
+     <strong>
+      Define architecture drivers
+     </strong>
+    </p>
+    <p>
+     Architecture drivers are major Stakes &amp; Properties that architecture should favour, depending on the domain and product policy.
+    </p>
+    <p>
+     e.g. ease of evolution, real-time constraints, ease of separate development &amp; sub-contracting, scalability, portability, certification, 24x7 availability...
+    </p>
+    <p>
+     &nbsp;
+    </p>
+    <p>
+     These are design priorities that will orient and constrain architecture definition, when having to make choices among various possibilities, in order to ease and secure development and / or system behaviour.
+    </p>
+    <p>
+     &nbsp;
+    </p>
+    <p>
+     As an example, favouring real time constraints may hinder modularity, or loose coupling between components; portability may prevent from using advanced features of the underlying platform&hellip;
+    </p>
+    <p>
+     &nbsp;
+    </p>
+    <p>
+     <strong>
+      Define main Viewpoint Rules &amp; Criteria
+     </strong>
+    </p>
+    <p>
+     Define and associate to each viewpoint, viewpoint design rules (constitution and checking rules) in order to express how to build, how to test architecture against each viewpoint.
+    </p>
+    <p>
+     Define also criteria to confront and reconcile all viewpoints (at least, priority between viewpoints).
+    </p>
+    <p>
+     &nbsp;
+    </p>
+    <p>
+     <em>
+      Each architecture design decision should further be checked against architecture drivers compliance.
+     </em>
+    </p>
+    <p>
+     <em>
+      Each design and development choice impacting these drivers should also be justified and checked (e.g. middleware technology threatening modularity or performance&hellip;)
+     </em>
+    </p>
+    <p>
+     &nbsp;
+    </p>
+    <h2>
+     Input:
+    </h2>
+    <ul>
+     <li>
+      output of operational and system/SW need analyses
+     </li>
+     <li>
+      List of predefined viewpoints rules to analyse the architecture
+     </li>
+    </ul>
+    <p>
+     &nbsp;
+    </p>
+    <h2>
+     Output:
+    </h2>
+    <ul>
+     <li>
+      Architecture drivers to be applied to system architecture
+     </li>
+     <li>
+      Checklists to confront design choices to architecture drivers
+     </li>
+     <li>
+      Viewpoint-analysis rules
+     </li>
+    </ul>
+    <p>
+     Target documents:
+    </p>
+    <ul>
+     <li>
+      System/Segment Design Document (SSDD)
+     </li>
+    </ul>
+    <p>
+     &nbsp;
+    </p>
+    <h2>
+     Verification and Consistency checks:
+    </h2>
+    <p>
+     <em>
+      External consistency:
+     </em>
+    </p>
+    <ul>
+     <li>
+      Between User Requirements, industrial constraints (reuse, product line&hellip;) and Architecture Drivers
+     </li>
+    </ul>
+    <p>
+     <em>
+      Internal consistency:
+     </em>
+    </p>
+    <ul>
+     <li>
+      Between Architecture drivers and selected Viewpoints &amp; rules
+     </li>
+    </ul>
+    <p>
+     &nbsp;
+    </p>
+   </p>
+   <h2>
+    Diagrams displaying "Define Architecture Drivers and Viewpoints design Rules"
+   </h2>
+   <ul>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_H3GM8HZQEe2lVaNV4qOrAA">
+      4 - Sub-contractor Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_sYtmAKbzEe2typM4YPR9TQ">
+      2.1 - First Level Tasks of Architecture Definition Perspectives
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_7X41gH-rEe2qMc9GI-nScQ">
+      2.2 - First Level Tasks and Exchanges
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_-PVogHZPEe2lVaNV4qOrAA">
+      4 - Product Line &amp; Configuration Managers Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_ltMvcHZPEe2lVaNV4qOrAA">
+      4 - IVVQ Manager Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_P_bbcHZPEe2lVaNV4qOrAA">
+      4 - Chief Architect Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_4PvdkHZPEe2lVaNV4qOrAA">
+      4 - Non functional Specialty Engineering Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_XrLmMHZPEe2lVaNV4qOrAA">
+      4 - Customer Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_fASykHZPEe2lVaNV4qOrAA">
+      4 - Data &amp; Interface Manager Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_9r5fkKhoEe2typM4YPR9TQ">
+      2.3 - Use of Definition Perspectives in Engineering Capabilities
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_l-nVMEouEeCJy6-2bwxnoA">
+      3 - Models Management
+     </a>
+    </li>
+   </ul>
+  </div>
+ </body>
+</html>

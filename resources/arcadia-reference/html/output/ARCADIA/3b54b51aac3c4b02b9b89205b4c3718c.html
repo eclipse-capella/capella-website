@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta content="Copyright &copy; 2023 Thales. All Rights Reserved." name="copyright"/>
+  <meta content="text/html;charset=utf-8" http-equiv="content-type"/>
+  <meta content="text/css" http-equiv="Content-Style-Type"/>
+  <title>
+   Arcadia Reference - Select and finalise the Physical Reference Architecture
+  </title>
+  <link href="../../scripts/jquery-treeview/jquery.treeview.css" rel="stylesheet"/>
+  <script src="../../scripts/jquery-treeview/lib/jquery-1.11.1.js" type="text/javascript">
+  </script>
+  <script src="../../scripts/jquery-treeview/jquery.treeview.js" type="text/javascript">
+  </script>
+  <link href="../../css/simpletree.css" rel="stylesheet" type="text/css"/>
+  <link href="../../css/content.css" media="screen, projection" rel="stylesheet" title="default" type="text/css"/>
+  <style>
+   body {}
+			.treeview {
+				background-color: white ;
+			}
+	
+			.treeview ul{ /*CSS for Simple Tree Menu*/
+				background-color: white;
+				font-size: 12px;
+			}
+	
+			.treeview li{ /*Style for LI elements in general (excludes an LI that contains sub lists)*/
+				background-color: white;
+			}
+  </style>
+ </head>
+ <body>
+  <img src="../icon/logo_arcadia_small.png" style="float:left;width:50px;height:50px;"/>
+  <nav>
+   <a href="1a79525b3b624a7094acd0b580842ce6.html#">
+    ARCADIA
+   </a>
+   <a href="1a79525b3b624a7094acd0b580842ce6.html#landscape">
+    Engineering Landscape
+   </a>
+   <a href="1a79525b3b624a7094acd0b580842ce6.html#userGuide">
+    User Guide
+   </a>
+   <a href="1a79525b3b624a7094acd0b580842ce6.html#reference">
+    Reference Manual
+   </a>
+  </nav>
+  <p>
+   <br/>
+  </p>
+  <div id="content">
+   <img alt="LogicalFunction" src="../icon/LogicalFunction.png" style="float:left; margin-right:10px"/>
+   <h1>
+    <a href="../ARCADIA/3b54b51aac3c4b02b9b89205b4c3718c.html">
+     Select and finalise the Physical Reference Architecture
+    </a>
+   </h1>
+   <p style="margin-top:3px; margin-bottom:3px">
+    <span class="elementMetaClass">
+     Engineering activity
+    </span>
+    <p>
+    </p>
+   </p>
+   <em class="elementPath">
+    <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html">
+     Engineering activities
+    </a>
+    &gt;
+    <a href="../ARCADIA/e8747730cd7549f9bc5a6e7fd12fdf1f.html">
+     Arcadia high-level Activities
+    </a>
+    &gt;
+    <a href="../ARCADIA/f6d02f2504764a59b6296e04d5b6a57b.html">
+     Design PHYSICAL ARCHITECTURE
+    </a>
+    &gt;
+    <a href="../ARCADIA/3b54b51aac3c4b02b9b89205b4c3718c.html">
+     Select and finalise the Physical Reference Architecture
+    </a>
+   </em>
+   <p>
+    <p>
+     Starting from the candidate architectures identified previously, use the same approach of best compromise selection as in logicial architecture (please refer to logical architecture 'Select best Compromise Architecture'), in order to finalise the reference architecture that will be designed and developped by sub-systems, software, hardware components engineering teams.
+    </p>
+    <p>
+     &nbsp;
+    </p>
+    <p>
+     <strong>
+      Drive an early verification &amp; check
+     </strong>
+    </p>
+    <ul>
+     <li>
+      Define finer-grained and more realistic behaviour models in order to check architecture compromise against finer analyses.
+     </li>
+     <li>
+      Check the correctness of the physical architecture through simulation means, formal check&hellip; of these models, for each major viewpoint to be refined.
+     </li>
+     <li>
+      Then update architectural viewpoints with results of these fine-grain analyses (e.g. estimations of resource consumption, fault propagation equations, more realistic real-time activation &amp; behaviour rules, true hardware metrics&hellip;), and rerun a multi-viewpoint analysis to maintain an acceptable compromise/optimum solution.
+     </li>
+    </ul>
+    <p>
+     &nbsp;
+    </p>
+    <p>
+     <strong>
+      Consolidate against Need &amp; Finalise
+     </strong>
+    </p>
+    <p>
+     Check final reference architecture against operational &amp; System/SW functional/non-functional analyses.
+    </p>
+    <p>
+     Derive, allocate and define requirements for each of the newly defined components of the physical architecture.
+    </p>
+    <p>
+     Check and justify these requirements against physical architecture and former requirements.
+    </p>
+    <p>
+     &nbsp;
+    </p>
+    <h2>
+     Input:
+    </h2>
+    <ul>
+     <li>
+      Logical architecture, architecture drivers
+     </li>
+     <li>
+      Logical architecture Requirements
+     </li>
+     <li>
+      Architectural patterns
+     </li>
+     <li>
+      Detailed functional and non-functional behavior
+     </li>
+     <li>
+      Candidate architectures
+     </li>
+    </ul>
+    <p>
+     &nbsp;
+    </p>
+    <h2>
+     Output:
+    </h2>
+    <ul>
+     <li>
+      Reference physical architecture
+     </li>
+     <li>
+      Physical architecture Requirements
+     </li>
+    </ul>
+    <p>
+     Target documents:
+    </p>
+    <ul>
+     <li>
+      System/Segment Design Document (SSDD)
+     </li>
+    </ul>
+    <p>
+     &nbsp;
+    </p>
+    <h2>
+     Verification and Consistency checks:
+    </h2>
+    <p>
+     <em>
+      External consistency:
+     </em>
+    </p>
+    <ul>
+     <li>
+      Between Physical Architecture and Logical components and Logical interfaces, viewpoints&hellip;
+     </li>
+     <li>
+      Between Physical Architecture components requirements and Logical Architecture requirements
+     </li>
+     <li>
+      Between Operational &amp; System/SW need analyses and Physical Architecture
+     </li>
+    </ul>
+    <p>
+     <em>
+      Internal consistency:
+     </em>
+    </p>
+    <ul>
+     <li>
+      Between Physical components &amp; interfaces and reusable Assets &amp; Architectural patterns and their implementation in physical architecture
+     </li>
+     <li>
+      Verify the reference physical architecture Description: coherent, complete, relevant: no contradiction, no gap, no inaccuracy.
+     </li>
+     <li>
+      Between Physical Architecture components requirements &amp; justifications and Reference physical architecture
+     </li>
+     <li>
+      Verify the requirements Description: coherent, complete, relevant: no contradiction, no gap, no inaccuracy.
+     </li>
+    </ul>
+   </p>
+   <h2>
+    Details of Outputs Contents
+   </h2>
+   <ul>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/eef26111d9fd4442aa69ff2fbb6b5c34.html">
+      Physical functional Analysis
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/5c6e4d3131dc4878a5cba446b74cc4c1.html">
+      Behavioural Components &amp; Exchanges
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/d895416822e7437ab2288c4d5798ed11.html">
+      Components requirements
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/01eed8b7170949469f0b8d447ede00ec.html">
+      Hosting Components &amp; Links
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/3896c760faa44aea8d326919ebd59cc8.html">
+      Physical Data &amp; Interfaces
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/608767c7ba3742e09c022f6cdacd4ca2.html">
+      System Capability Realisation
+     </a>
+    </li>
+   </ul>
+   <h2>
+    Details of Inputs Contents
+   </h2>
+   <ul>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/3492bf3bdbed47bb8512362f073e32e3.html">
+      System &amp; external actors
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/9a1e972e89064347b75e0b8b732e2b89.html">
+      System Need Data
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/0791ed419a47461a8a04dc927b798d19.html">
+      System Capabilities
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/eef26111d9fd4442aa69ff2fbb6b5c34.html">
+      Physical functional Analysis
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/3896c760faa44aea8d326919ebd59cc8.html">
+      Physical Data &amp; Interfaces
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/5c6e4d3131dc4878a5cba446b74cc4c1.html">
+      Behavioural Components &amp; Exchanges
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/01eed8b7170949469f0b8d447ede00ec.html">
+      Hosting Components &amp; Links
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/445a527db4a74857b671f6ff05da8baa.html">
+      System Need functional Analysis
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/6b8c9992db5b4e46aa6aa780d20dc91f.html">
+      System requirements
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/608767c7ba3742e09c022f6cdacd4ca2.html">
+      System Capability Realisation
+     </a>
+    </li>
+   </ul>
+   <h2>
+    Engineering Processes involving "Select and finalise the Physical Reference Architecture"
+   </h2>
+   <ul class="generatedList">
+    <li>
+     <img alt="FunctionalChain" src="../icon/FunctionalChain.gif"/>
+     <a href="../ARCADIA/01a3ac9679c8477ab440116d71852b81.html">
+      From Need to Solution
+     </a>
+    </li>
+    <li>
+     <img alt="FunctionalChain" src="../icon/FunctionalChain.gif"/>
+     <a href="../ARCADIA/74bdcd5a6e804e4cba1923270b3572df.html">
+      From System to Sub-systems, SW, HW
+     </a>
+    </li>
+    <li>
+     <img alt="FunctionalChain" src="../icon/FunctionalChain.gif"/>
+     <a href="../ARCADIA/0b3744c6896f417988f51ab4f75de9b1.html">
+      Agility in Engineering Course
+     </a>
+    </li>
+   </ul>
+   <h2>
+    Diagrams displaying "Select and finalise the Physical Reference Architecture"
+   </h2>
+   <ul>
+    <li>
+     <a href="../ARCADIA/1f4f139a708747d4bbd25b0748547b59.html#_oimN8KiREe2typM4YPR9TQ">
+      7 - Product Line Definition
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_-PVogHZPEe2lVaNV4qOrAA">
+      4 - Product Line &amp; Configuration Managers Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_7X41gH-rEe2qMc9GI-nScQ">
+      2.2 - First Level Tasks and Exchanges
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/11823daff480454cb7bb0ccab054ec7c.html#_4QB0UKiKEe2typM4YPR9TQ">
+      4 - From Definition &amp; Design to Validation
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/74bdcd5a6e804e4cba1923270b3572df.html#_1_Ng4KiNEe2typM4YPR9TQ">
+      5 - From System to Sub-systems, SW, HW
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_4PvdkHZPEe2lVaNV4qOrAA">
+      4 - Non functional Specialty Engineering Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/01a3ac9679c8477ab440116d71852b81.html#_ZBCrwKhpEe2typM4YPR9TQ">
+      1 - From Need to Solution
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/0b3744c6896f417988f51ab4f75de9b1.html#_9OpRIKiPEe2typM4YPR9TQ">
+      6 - Agility in Engineering Course
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_fASykHZPEe2lVaNV4qOrAA">
+      4 - Data &amp; Interface Manager Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_9r5fkKhoEe2typM4YPR9TQ">
+      2.3 - Use of Definition Perspectives in Engineering Capabilities
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_H3GM8HZQEe2lVaNV4qOrAA">
+      4 - Sub-contractor Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_sYtmAKbzEe2typM4YPR9TQ">
+      2.1 - First Level Tasks of Architecture Definition Perspectives
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_ltMvcHZPEe2lVaNV4qOrAA">
+      4 - IVVQ Manager Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_P_bbcHZPEe2lVaNV4qOrAA">
+      4 - Chief Architect Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/26860209a4cd41f4ae1aa929c010b336.html#_gcR9MKiIEe2typM4YPR9TQ">
+      3 - The Interface Trip
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_XrLmMHZPEe2lVaNV4qOrAA">
+      4 - Customer Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/0739212ead0c4be4bb1b656f6dcc340d.html#_vKeLkKhqEe2typM4YPR9TQ">
+      2 - Traversing Non-functional Issues
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_l-nVMEouEeCJy6-2bwxnoA">
+      3 - Models Management
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_APkCUEZyEeCEcMpZ28zOig">
+      3 - Document Building
+     </a>
+    </li>
+   </ul>
+  </div>
+ </body>
+</html>

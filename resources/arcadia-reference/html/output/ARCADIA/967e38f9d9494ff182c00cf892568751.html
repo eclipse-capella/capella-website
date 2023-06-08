@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta content="Copyright &copy; 2023 Thales. All Rights Reserved." name="copyright"/>
+  <meta content="text/html;charset=utf-8" http-equiv="content-type"/>
+  <meta content="text/css" http-equiv="Content-Style-Type"/>
+  <title>
+   Arcadia Reference - Define &amp; enforce a PBS and Component Integration Contract
+  </title>
+  <link href="../../scripts/jquery-treeview/jquery.treeview.css" rel="stylesheet"/>
+  <script src="../../scripts/jquery-treeview/lib/jquery-1.11.1.js" type="text/javascript">
+  </script>
+  <script src="../../scripts/jquery-treeview/jquery.treeview.js" type="text/javascript">
+  </script>
+  <link href="../../css/simpletree.css" rel="stylesheet" type="text/css"/>
+  <link href="../../css/content.css" media="screen, projection" rel="stylesheet" title="default" type="text/css"/>
+  <style>
+   body {}
+			.treeview {
+				background-color: white ;
+			}
+	
+			.treeview ul{ /*CSS for Simple Tree Menu*/
+				background-color: white;
+				font-size: 12px;
+			}
+	
+			.treeview li{ /*Style for LI elements in general (excludes an LI that contains sub lists)*/
+				background-color: white;
+			}
+  </style>
+ </head>
+ <body>
+  <img src="../icon/logo_arcadia_small.png" style="float:left;width:50px;height:50px;"/>
+  <nav>
+   <a href="1a79525b3b624a7094acd0b580842ce6.html#">
+    ARCADIA
+   </a>
+   <a href="1a79525b3b624a7094acd0b580842ce6.html#landscape">
+    Engineering Landscape
+   </a>
+   <a href="1a79525b3b624a7094acd0b580842ce6.html#userGuide">
+    User Guide
+   </a>
+   <a href="1a79525b3b624a7094acd0b580842ce6.html#reference">
+    Reference Manual
+   </a>
+  </nav>
+  <p>
+   <br/>
+  </p>
+  <div id="content">
+   <img alt="LogicalFunction" src="../icon/LogicalFunction.png" style="float:left; margin-right:10px"/>
+   <h1>
+    <a href="../ARCADIA/967e38f9d9494ff182c00cf892568751.html">
+     Define &amp; enforce a PBS and Component Integration Contract
+    </a>
+   </h1>
+   <p style="margin-top:3px; margin-bottom:3px">
+    <span class="elementMetaClass">
+     Engineering activity
+    </span>
+    <p>
+    </p>
+   </p>
+   <em class="elementPath">
+    <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html">
+     Engineering activities
+    </a>
+    &gt;
+    <a href="../ARCADIA/e8747730cd7549f9bc5a6e7fd12fdf1f.html">
+     Arcadia high-level Activities
+    </a>
+    &gt;
+    <a href="../ARCADIA/0257d8b9366c44c8b2b3dabbc847c34c.html">
+     Define BUILDING STRATEGY - contracts for development &amp; IVVQ
+    </a>
+    &gt;
+    <a href="../ARCADIA/967e38f9d9494ff182c00cf892568751.html">
+     Define &amp; enforce a PBS and Component Integration Contract
+    </a>
+   </em>
+   <p>
+    <p>
+     At this step, Configuration Items (CI: either component software CSCI or hardware HWCI) contents are to be defined in order to build a Product Breakdown Structure (PBS) , e.g.
+    </p>
+    <ul>
+     <li>
+      By grouping various former components in a bigger CI easier to manage,
+     </li>
+     <li>
+      Or by federating various similar components in a single implementation CI that will be instantiated multiple times at deployment.
+     </li>
+    </ul>
+    <p>
+     &nbsp;
+    </p>
+    <p>
+     The component integration contract should therefore be based on:
+    </p>
+    <ul>
+     <li>
+      Operational &amp; System/SW Views allocation (scenarios, system functions, properties)
+     </li>
+     <li>
+      Resulting Functional, Interface, Performance Requirements
+     </li>
+     <li>
+      Common system/SW-wide expected behaviour thanks to architectural Patterns &amp; Framework Standards compliance
+     </li>
+     <li>
+      Non-functional Requirements as defined and checked in each main architectural viewpoint
+      <br/>
+      (e.g. incl. Critical paths, resource Consumption, ability to reset/restart, redundancy, safety&hellip;).
+     </li>
+    </ul>
+    <p>
+     It should be built, negociated/validated with component suppliers.
+    </p>
+    <p>
+     &nbsp;
+    </p>
+    <p>
+     This integration contract should mention (same as above)
+    </p>
+    <ul>
+     <li>
+      Expected services, functions
+     </li>
+     <li>
+      Interfaces with other components and outside
+     </li>
+     <li>
+      Contribution to the system/SW-wide information model (or global interchanged data)
+     </li>
+     <li>
+      Dynamic behaviour expectations
+     </li>
+     <li>
+      Requested other services, components&hellip; to be used by it
+     </li>
+     <li>
+      Expected operational performances
+     </li>
+     <li>
+      Non functional performances, expected Quality of Service
+     </li>
+     <li>
+      Internal modes &amp; states expected management
+     </li>
+     <li>
+      Contribution to system management (surveillance, start-up/shutdown, redundancy issues&hellip;)
+     </li>
+     <li>
+      For a software component: allocated &ndash; allowed - resources (CPU, memory, communication bandwidth, real-time tasking &amp; priorities&hellip;)
+     </li>
+     <li>
+      interface with framework, middleware, hardware technical services (e.g. communication API, hardware drivers&hellip;)
+     </li>
+     <li>
+      For a hardware component: environment constraints (temperature, vibration, ambient atmosphere, mechanical constraints&hellip;), allocated &ndash; allowed - resources (power consumption &amp; dissipation, cooling&hellip;)
+     </li>
+    </ul>
+    <p>
+     &nbsp;
+    </p>
+    <p>
+     Define means to early validate or check the respect of components contract:
+    </p>
+    <p>
+     &nbsp;Supplement Requirements for Technical functions, services (middleware, Framework, hardware cores, execution Platform&hellip;) to ensure that check, and secure system behaviour if one component contract is not fulfilled.
+    </p>
+    <p>
+     &nbsp;
+    </p>
+    <h2>
+     Input:
+    </h2>
+    <ul>
+     <li>
+      Physical architecture;
+     </li>
+     <li>
+      Requirements;
+     </li>
+     <li>
+      Operational and system/SW need analyses
+     </li>
+    </ul>
+    <p>
+     &nbsp;
+    </p>
+    <h2>
+     Output:
+    </h2>
+    <ul>
+     <li>
+      Product Breakdown Structure (PBS)
+     </li>
+     <li>
+      Components Integration contracts including Configuration Items (CI) definition
+     </li>
+    </ul>
+    <p>
+     Target documents:
+    </p>
+    <ul>
+     <li>
+      Contract definition documents (e.g. preliminary sub-systems SSS, software SRSs), EPBS
+     </li>
+    </ul>
+    <p>
+     &nbsp;
+    </p>
+    <h2>
+     Verification and Consistency checks:
+    </h2>
+    <p>
+     <em>
+      External consistency:
+     </em>
+    </p>
+    <ul>
+     <li>
+      Between Physical components (including interfaces) and Configuration Items
+     </li>
+     <li>
+      Between EPBS requirements and Physical Architecture requirements
+     </li>
+     <li>
+      Between Operational &amp; system/SW need analyses &amp; physical architecture, and component integration contracts
+     </li>
+    </ul>
+    <p>
+     <em>
+      Internal consistency:
+     </em>
+    </p>
+    <ul>
+     <li>
+      Between EPBS requirements and Configuration Items
+     </li>
+     <li>
+      Verify the EPBS &amp; component integration contracts Description: coherent, complete, relevant: no contradiction, no gap, no inaccuracy.
+     </li>
+    </ul>
+    <p>
+     &nbsp;
+    </p>
+   </p>
+   <h2>
+    Details of Outputs Contents
+   </h2>
+   <ul>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/eef26111d9fd4442aa69ff2fbb6b5c34.html">
+      Physical functional Analysis
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/5c6e4d3131dc4878a5cba446b74cc4c1.html">
+      Behavioural Components &amp; Exchanges
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/d895416822e7437ab2288c4d5798ed11.html">
+      Components requirements
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/01eed8b7170949469f0b8d447ede00ec.html">
+      Hosting Components &amp; Links
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/3896c760faa44aea8d326919ebd59cc8.html">
+      Physical Data &amp; Interfaces
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/9a1e972e89064347b75e0b8b732e2b89.html">
+      System Need Data
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/3492bf3bdbed47bb8512362f073e32e3.html">
+      System &amp; external actors
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/0791ed419a47461a8a04dc927b798d19.html">
+      System Capabilities
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/445a527db4a74857b671f6ff05da8baa.html">
+      System Need functional Analysis
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/6b8c9992db5b4e46aa6aa780d20dc91f.html">
+      System requirements
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/608767c7ba3742e09c022f6cdacd4ca2.html">
+      System Capability Realisation
+     </a>
+    </li>
+   </ul>
+   <h2>
+    Details of Inputs Contents
+   </h2>
+   <ul>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/eef26111d9fd4442aa69ff2fbb6b5c34.html">
+      Physical functional Analysis
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/5c6e4d3131dc4878a5cba446b74cc4c1.html">
+      Behavioural Components &amp; Exchanges
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/d895416822e7437ab2288c4d5798ed11.html">
+      Components requirements
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/01eed8b7170949469f0b8d447ede00ec.html">
+      Hosting Components &amp; Links
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/3896c760faa44aea8d326919ebd59cc8.html">
+      Physical Data &amp; Interfaces
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItemData.gif"/>
+     <a href="../ARCADIA/608767c7ba3742e09c022f6cdacd4ca2.html">
+      System Capability Realisation
+     </a>
+    </li>
+   </ul>
+   <h2>
+    Engineering Processes involving "Define &amp; enforce a PBS and Component Integration Contract"
+   </h2>
+   <ul class="generatedList">
+    <li>
+     <img alt="FunctionalChain" src="../icon/FunctionalChain.gif"/>
+     <a href="../ARCADIA/26860209a4cd41f4ae1aa929c010b336.html">
+      The Interface Trip
+     </a>
+    </li>
+    <li>
+     <img alt="FunctionalChain" src="../icon/FunctionalChain.gif"/>
+     <a href="../ARCADIA/74bdcd5a6e804e4cba1923270b3572df.html">
+      From System to Sub-systems, SW, HW
+     </a>
+    </li>
+    <li>
+     <img alt="FunctionalChain" src="../icon/FunctionalChain.gif"/>
+     <a href="../ARCADIA/0b3744c6896f417988f51ab4f75de9b1.html">
+      Agility in Engineering Course
+     </a>
+    </li>
+   </ul>
+   <h2>
+    Diagrams displaying "Define &amp; enforce a PBS and Component Integration Contract"
+   </h2>
+   <ul>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_7X41gH-rEe2qMc9GI-nScQ">
+      2.2 - First Level Tasks and Exchanges
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_-PVogHZPEe2lVaNV4qOrAA">
+      4 - Product Line &amp; Configuration Managers Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/74bdcd5a6e804e4cba1923270b3572df.html#_1_Ng4KiNEe2typM4YPR9TQ">
+      5 - From System to Sub-systems, SW, HW
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_4PvdkHZPEe2lVaNV4qOrAA">
+      4 - Non functional Specialty Engineering Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/0b3744c6896f417988f51ab4f75de9b1.html#_9OpRIKiPEe2typM4YPR9TQ">
+      6 - Agility in Engineering Course
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_9r5fkKhoEe2typM4YPR9TQ">
+      2.3 - Use of Definition Perspectives in Engineering Capabilities
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_fASykHZPEe2lVaNV4qOrAA">
+      4 - Data &amp; Interface Manager Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_H3GM8HZQEe2lVaNV4qOrAA">
+      4 - Sub-contractor Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_sYtmAKbzEe2typM4YPR9TQ">
+      2.1 - First Level Tasks of Architecture Definition Perspectives
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_ltMvcHZPEe2lVaNV4qOrAA">
+      4 - IVVQ Manager Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_P_bbcHZPEe2lVaNV4qOrAA">
+      4 - Chief Architect Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/26860209a4cd41f4ae1aa929c010b336.html#_gcR9MKiIEe2typM4YPR9TQ">
+      3 - The Interface Trip
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_XrLmMHZPEe2lVaNV4qOrAA">
+      4 - Customer Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_l-nVMEouEeCJy6-2bwxnoA">
+      3 - Models Management
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/75b26b24d42a4962a8d6455734a6aa97.html#_APkCUEZyEeCEcMpZ28zOig">
+      3 - Document Building
+     </a>
+    </li>
+   </ul>
+  </div>
+ </body>
+</html>

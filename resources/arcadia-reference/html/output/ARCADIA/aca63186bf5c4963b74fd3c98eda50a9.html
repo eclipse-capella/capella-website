@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta content="Copyright &copy; 2023 Thales. All Rights Reserved." name="copyright"/>
+  <meta content="text/html;charset=utf-8" http-equiv="content-type"/>
+  <meta content="text/css" http-equiv="Content-Style-Type"/>
+  <title>
+   Arcadia Reference - Define notional functional and non-functional Behavior
+  </title>
+  <link href="../../scripts/jquery-treeview/jquery.treeview.css" rel="stylesheet"/>
+  <script src="../../scripts/jquery-treeview/lib/jquery-1.11.1.js" type="text/javascript">
+  </script>
+  <script src="../../scripts/jquery-treeview/jquery.treeview.js" type="text/javascript">
+  </script>
+  <link href="../../css/simpletree.css" rel="stylesheet" type="text/css"/>
+  <link href="../../css/content.css" media="screen, projection" rel="stylesheet" title="default" type="text/css"/>
+  <style>
+   body {}
+			.treeview {
+				background-color: white ;
+			}
+	
+			.treeview ul{ /*CSS for Simple Tree Menu*/
+				background-color: white;
+				font-size: 12px;
+			}
+	
+			.treeview li{ /*Style for LI elements in general (excludes an LI that contains sub lists)*/
+				background-color: white;
+			}
+  </style>
+ </head>
+ <body>
+  <img src="../icon/logo_arcadia_small.png" style="float:left;width:50px;height:50px;"/>
+  <nav>
+   <a href="1a79525b3b624a7094acd0b580842ce6.html#">
+    ARCADIA
+   </a>
+   <a href="1a79525b3b624a7094acd0b580842ce6.html#landscape">
+    Engineering Landscape
+   </a>
+   <a href="1a79525b3b624a7094acd0b580842ce6.html#userGuide">
+    User Guide
+   </a>
+   <a href="1a79525b3b624a7094acd0b580842ce6.html#reference">
+    Reference Manual
+   </a>
+  </nav>
+  <p>
+   <br/>
+  </p>
+  <div id="content">
+   <img alt="PhysicalFunction" src="../icon/PhysicalFunction.png" style="float:left; margin-right:10px"/>
+   <h1>
+    <a href="../ARCADIA/aca63186bf5c4963b74fd3c98eda50a9.html">
+     Define notional functional and non-functional Behavior
+    </a>
+   </h1>
+   <p style="margin-top:3px; margin-bottom:3px">
+    <span class="elementMetaClass">
+     Engineering activity
+    </span>
+    <p>
+    </p>
+   </p>
+   <em class="elementPath">
+    <a href="../ARCADIA/6a3284b8a66748a597631eb95e8e8c55.html">
+     Engineering activities
+    </a>
+    &gt;
+    <a href="../ARCADIA/bd6945b4ae34413581335ae6b6f6f503.html">
+     Engineering Activities &amp; Perspectives
+    </a>
+    &gt;
+    <a href="../ARCADIA/caca5154f8a94592ba0d4513a6141c46.html">
+     DESIGN THE SOLUTION ARCHITECTURE
+    </a>
+    &gt;
+    <a href="../ARCADIA/dd460dc8ee0b4ceba0c0135c7c103ba9.html">
+     Design LOGICAL ARCHITECTURE
+    </a>
+    &gt;
+    <a href="../ARCADIA/aca63186bf5c4963b74fd3c98eda50a9.html">
+     Define notional functional and non-functional Behavior
+    </a>
+   </em>
+   <p>
+    <p>
+     This task is similar to System Need Analysis 'Define notional functional and non-functional Behavior'.
+    </p>
+    <p>
+     Define a functional behaviour that should fulfil former functional analysis, addressing:
+    </p>
+    <ul>
+     <li>
+      design &amp; description of solution behaviour instead of need expression
+     </li>
+     <li>
+      first design decisions reagrding behaviour
+     </li>
+    </ul>
+    <p>
+     Build and maintain justification and traceability links with System Need Analysis functions, functional chains, scenarios, modes &amp;states, data etc.
+    </p>
+    <p>
+     More precisely,
+    </p>
+    <ul>
+     <li>
+      Identify functions required to satisfy and implement all system need analysis functions
+     </li>
+     <li>
+      Complement them with necessary functions that were not identified in need analysis
+     </li>
+     <li>
+      List and detail information, data flows, managed, exchanged and required by all these functions (internal or external to system); including required standards &amp; interfaces
+     </li>
+     <li>
+      Identify functional chains traversing the system/SW in order to implement&nbsp;need defined&nbsp;functional chains&nbsp;(traversing functions &amp; data flows); similarly define functional scenarios implementing those defined at need level;
+      <br/>
+      enrich them if needed in order to appropriately define and check solution behaviour
+     </li>
+     <li>
+      Identify system/SW modes &amp; states, relate them to functions; enrich them if needed
+     </li>
+     <li>
+      Create and maintain traceability links with system need analysis (e.g. between functions, between functional chains, between scenarios).
+     </li>
+    </ul>
+    <p>
+     &nbsp;
+    </p>
+    <p>
+     Identify all major dimensioning needs, and [non-functional] constraints, relating them to the appropriate fonctions, functional chains, actors&hellip; and associated scenarios, and relate them to system scenarios: e.g.
+    </p>
+    <ul>
+     <li>
+      Identify non-functional constraints (performance, safety&hellip;) and relate them to concerned functions, functional chains&hellip;
+     </li>
+     <li>
+      Identify industrial constraints not coming from customer/user: ability to produce, to test, to maintain, to sub-contract&hellip;
+     </li>
+     <li>
+      When intending to reuse existing assets, check this functional/non-functional analysis against these assets for compatibility.
+     </li>
+     <li>
+      Enrich system scenarios with non-functional &amp; industrial constraints
+     </li>
+     <li>
+      Identify and select main (non functional) viewpoints (concerns) (*) susceptible to impact the functional analysis.
+      <br/>
+      Each viewpoint should emphasise a specific set of constraints or expected behaviour, quality, respect of non-functional properties&hellip; At least one viewpoint should be dedicated to Reuse and Product Policy.
+     </li>
+     <li>
+      Try to order them in terms of importance, relative priority.
+     </li>
+    </ul>
+    <p>
+     &nbsp;
+    </p>
+    <p>
+     Ensure traceability/justification links between system need and notional and functional/non-functional analyses, and check consistency/coherency between them.
+    </p>
+    <p>
+     &nbsp;
+    </p>
+    <h2>
+     Input:
+    </h2>
+    <ul>
+     <li>
+      System Need Analysis outputs
+     </li>
+     <li>
+      Customer Requirements
+     </li>
+    </ul>
+    <p>
+     &nbsp;
+    </p>
+    <h2>
+     Output:
+    </h2>
+    <ul>
+     <li>
+      Functional &amp; non-functional analysis result (System functional breakdown + dataflow, functional chains, non functional constraints, scenarios&hellip;)
+     </li>
+     <li>
+      Traceability between notional &amp; System&nbsp;Need&nbsp;analyses
+     </li>
+     <li>
+      List of relevant /critical viewpoints for the target system architecture
+     </li>
+    </ul>
+    <p>
+     Target documents:
+    </p>
+    <ul>
+     <li>
+      System/Segment Design Document (SSDD) (preliminay)
+     </li>
+    </ul>
+    <p>
+     &nbsp;
+    </p>
+    <h2>
+     Verification and Consistency checks:
+    </h2>
+    <p>
+     <em>
+      External consistency:
+     </em>
+    </p>
+    <ul>
+     <li>
+      Between System Need and notional functional Analysis functions/data&hellip;
+     </li>
+    </ul>
+    <p>
+     <em>
+      Internal consistency:
+     </em>
+    </p>
+    <ul>
+     <li>
+      Between all functional &amp; non-functional elements
+     </li>
+     <li>
+      Verify the functional/non-functional Behaviour Description: coherent, complete, relevant: no contradiction, no gap, no inaccuracy.
+     </li>
+    </ul>
+    <p>
+     &nbsp;
+    </p>
+   </p>
+   <h2>
+    Details of Outputs Contents
+   </h2>
+   <ul>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItem.gif"/>
+     <a href="../ARCADIA/98c717f3e02d4625880dc5a91e886273.html">
+      Functional chains in LA
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItem.gif"/>
+     <a href="../ARCADIA/d38c4a7e05904a5182ea830d2e677485.html">
+      Modes &amp; states in LA
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItem.gif"/>
+     <a href="../ARCADIA/659bd7a10f254e229a282ec98b1834ba.html">
+      Constraints
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItem.gif"/>
+     <a href="../ARCADIA/5d615e33f0c14b0d8fb521849634c385.html">
+      Allocated Data in LA
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItem.gif"/>
+     <a href="../ARCADIA/b6bf363627e845ad8d7aa720abadf6e8.html">
+      Functional Breakdown in LA
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItem.gif"/>
+     <a href="../ARCADIA/79738fa7b072419fa0fa8082201924c0.html">
+      Allocated functions in LA
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItem.gif"/>
+     <a href="../ARCADIA/30618e663f634d73a2fe0d6f0546639c.html">
+      Allocated Exchange Items in LA
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItem.gif"/>
+     <a href="../ARCADIA/1edcae4c1e8f4fca99c1e496431bad0e.html">
+      Scenarios in LA
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItem.gif"/>
+     <a href="../ARCADIA/43fa5185581545ae82e0e742f22d0cf8.html">
+      Users/Actors in LA
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItem.gif"/>
+     <a href="../ARCADIA/ae0fa7be947c471b9ef6c44003f395bc.html">
+      Functional dataflow in LA
+     </a>
+    </li>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItem.gif"/>
+     <a href="../ARCADIA/321d78775f8d4783b548cdb65e8e70c9.html">
+      System Capabilities in LA
+     </a>
+    </li>
+   </ul>
+   <h2>
+    Details of Inputs Contents
+   </h2>
+   <ul>
+    <li>
+     <img alt="ExchangeItem" src="../icon/ExchangeItem.gif"/>
+     <a href="../ARCADIA/85562f4db5f348c8b9470b270475b20b.html">
+      System F&amp;NF Need
+     </a>
+    </li>
+   </ul>
+   <h2>
+    Related Diagrams
+   </h2>
+   <div>
+    <p class="diagram-name" id="_qKNMkHcbEe2lVaNV4qOrAA">
+     3Define notional functional and nonfunctional Behavior  Context
+    </p>
+    <p class="diagram">
+     <img alt="3Define notional functional and nonfunctional Behavior  Context" src="aca63186bf5c4963b74fd3c98eda50a9/_qKNMkHcbEe2lVaNV4qOrAA.jpg" usemap="#3Define notional functional and nonfunctional Behavior  Context__qKNMkHcbEe2lVaNV4qOrAA_PositionMap"/>
+     <br/>
+     <br/>
+     <map name="3Define notional functional and nonfunctional Behavior  Context__qKNMkHcbEe2lVaNV4qOrAA_PositionMap">
+      <area alt="aeee1cb8eb62423282c65c62c2ecebf1" coords="40,79,175,95" group="aeee1cb8eb62423282c65c62c2ecebf1" href="../ARCADIA/aeee1cb8eb62423282c65c62c2ecebf1.html#idaeee1cb8-eb62-4232-82c6-5c62c2ecebf1" shape="rect"/>
+      <area alt="41a0509098da42f982baf7aa18b11276" coords="142,204,142,204" group="41a0509098da42f982baf7aa18b11276" href="../ARCADIA/41a0509098da42f982baf7aa18b11276.html#id4ba77e20-f5b1-4b5c-bb09-727eba06c3a5" shape="rect"/>
+      <area alt="a9cd0fd053c34ceaacb051b3d467357a" coords="109,300,226,316" group="a9cd0fd053c34ceaacb051b3d467357a" href="../ARCADIA/a9cd0fd053c34ceaacb051b3d467357a.html#ida9cd0fd0-53c3-4cea-acb0-51b3d467357a" shape="rect"/>
+      <area alt="e235fe2ab6b548c984072abb470d17f8" coords="270,319,340,335" group="e235fe2ab6b548c984072abb470d17f8" href="../ARCADIA/e235fe2ab6b548c984072abb470d17f8.html#ide235fe2a-b6b5-48c9-8407-2abb470d17f8" shape="rect"/>
+      <area alt="b407d6f005234fb98999a17c6ebf71ec" coords="538,319,655,335" group="b407d6f005234fb98999a17c6ebf71ec" href="../ARCADIA/b407d6f005234fb98999a17c6ebf71ec.html#idb407d6f0-0523-4fb9-8999-a17c6ebf71ec" shape="rect"/>
+      <area alt="ffb32c5e25a84dddb326c0c56dc9e129" coords="220,81,336,97" group="ffb32c5e25a84dddb326c0c56dc9e129" href="../ARCADIA/ffb32c5e25a84dddb326c0c56dc9e129.html#idffb32c5e-25a8-4ddd-b326-c0c56dc9e129" shape="rect"/>
+      <area alt="547601aaf93e4418b1ff41cbef560b9e" coords="379,80,495,96" group="547601aaf93e4418b1ff41cbef560b9e" href="../ARCADIA/547601aaf93e4418b1ff41cbef560b9e.html#id547601aa-f93e-4418-b1ff-41cbef560b9e" shape="rect"/>
+      <area alt="ec03b47beff246119310a04700a9d448" coords="375,236,492,252" group="ec03b47beff246119310a04700a9d448" href="../ARCADIA/ec03b47beff246119310a04700a9d448.html#idec03b47b-eff2-4611-9310-a04700a9d448" shape="rect"/>
+      <area alt="ecd1cdba7c3344aeafde90bed0943df3" coords="124,76,125,77" group="ecd1cdba7c3344aeafde90bed0943df3" href="../ARCADIA/ecd1cdba7c3344aeafde90bed0943df3.html#idecd1cdba-7c33-44ae-afde-90bed0943df3" shape="rect"/>
+      <area alt="4f8b5a2854014b0fac95b1715b6b0469" coords="90,10,243,80" group="4f8b5a2854014b0fac95b1715b6b0469" href="../ARCADIA/4f8b5a2854014b0fac95b1715b6b0469.html#id4f8b5a28-5401-4b0f-ac95-b1715b6b0469" shape="rect"/>
+      <area alt="41a0509098da42f982baf7aa18b11276" coords="10,220,171,281" group="41a0509098da42f982baf7aa18b11276" href="../ARCADIA/41a0509098da42f982baf7aa18b11276.html#id4ba77e20-f5b1-4b5c-bb09-727eba06c3a5" shape="rect"/>
+      <area alt="710c8ae927cd476b9dad8c064b130da5" coords="184,341,185,342" group="710c8ae927cd476b9dad8c064b130da5" href="../ARCADIA/710c8ae927cd476b9dad8c064b130da5.html#id710c8ae9-27cd-476b-9dad-8c064b130da5" shape="rect"/>
+      <area alt="6af72548507a47e8822ce2c0ffd7819c" coords="133,340,246,410" group="6af72548507a47e8822ce2c0ffd7819c" href="../ARCADIA/6af72548507a47e8822ce2c0ffd7819c.html#id6af72548-507a-47e8-822c-e2c0ffd7819c" shape="rect"/>
+      <area alt="c6ff872df0b144aeb4b68ee1e5f1a321" coords="347,341,348,342" group="c6ff872df0b144aeb4b68ee1e5f1a321" href="../ARCADIA/c6ff872df0b144aeb4b68ee1e5f1a321.html#idc6ff872d-f0b1-44ae-b4b6-8ee1e5f1a321" shape="rect"/>
+      <area alt="34cd7ed1d4d0426ebc524f475b8073ad" coords="303,340,416,410" group="34cd7ed1d4d0426ebc524f475b8073ad" href="../ARCADIA/34cd7ed1d4d0426ebc524f475b8073ad.html#id34cd7ed1-d4d0-426e-bc52-4f475b8073ad" shape="rect"/>
+      <area alt="e4b7915fa7c346d5afd687592ddc00d4" coords="524,341,525,342" group="e4b7915fa7c346d5afd687592ddc00d4" href="../ARCADIA/e4b7915fa7c346d5afd687592ddc00d4.html#ide4b7915f-a7c3-46d5-afd6-87592ddc00d4" shape="rect"/>
+      <area alt="a366b41ac273480d94292df4d430af3d" coords="486,340,636,410" group="a366b41ac273480d94292df4d430af3d" href="../ARCADIA/a366b41ac273480d94292df4d430af3d.html#ida366b41a-c273-480d-9429-2df4d430af3d" shape="rect"/>
+      <area alt="3eb1e259e1bb453793a4f2775db82a7c" coords="369,76,370,77" group="3eb1e259e1bb453793a4f2775db82a7c" href="../ARCADIA/3eb1e259e1bb453793a4f2775db82a7c.html#id3eb1e259-e1bb-4537-93a4-f2775db82a7c" shape="rect"/>
+      <area alt="da496cf604c54f669adecd10e4010063" coords="323,10,436,80" group="da496cf604c54f669adecd10e4010063" href="../ARCADIA/da496cf604c54f669adecd10e4010063.html#idda496cf6-04c5-4f66-9ade-cd10e4010063" shape="rect"/>
+      <area alt="44c7c6dc8f054d3183dbdfec6dfd7ad7" coords="404,213,405,214" group="44c7c6dc8f054d3183dbdfec6dfd7ad7" href="../ARCADIA/44c7c6dc8f054d3183dbdfec6dfd7ad7.html#id44c7c6dc-8f05-4d31-83db-dfec6dfd7ad7" shape="rect"/>
+      <area alt="a099da6aa1384a8ea7ac7406f440a285" coords="398,155,399,156" group="a099da6aa1384a8ea7ac7406f440a285" href="../ARCADIA/a099da6aa1384a8ea7ac7406f440a285.html#ida099da6a-a138-4a8e-a7ac-7406f440a285" shape="rect"/>
+      <area alt="fa5549a19fd74b178e9ccbc9a6b09bdc" coords="340,154,483,217" group="fa5549a19fd74b178e9ccbc9a6b09bdc" href="../ARCADIA/fa5549a19fd74b178e9ccbc9a6b09bdc.html#idfa5549a1-9fd7-4b17-8e9c-cbc9a6b09bdc" shape="rect"/>
+      <area alt="3ed03b5957714978b4acd9c7816c6eea" coords="181,155,182,156" group="3ed03b5957714978b4acd9c7816c6eea" href="../ARCADIA/3ed03b5957714978b4acd9c7816c6eea.html#id3ed03b59-5771-4978-b4ac-d9c7816c6eea" shape="rect"/>
+      <area alt="97be78f4629542f487756157c6ed3e97" coords="183,213,184,214" group="97be78f4629542f487756157c6ed3e97" href="../ARCADIA/97be78f4629542f487756157c6ed3e97.html#id97be78f4-6295-42f4-8775-6157c6ed3e97" shape="rect"/>
+      <area alt="55841e0aeb6f4d09a1445655e92fa399" coords="239,213,240,214" group="55841e0aeb6f4d09a1445655e92fa399" href="../ARCADIA/55841e0aeb6f4d09a1445655e92fa399.html#id55841e0a-eb6f-4d09-a144-5655e92fa399" shape="rect"/>
+      <area alt="e36c31e8830f4963b0635a68a2bd0331" coords="219,155,220,156" group="e36c31e8830f4963b0635a68a2bd0331" href="../ARCADIA/e36c31e8830f4963b0635a68a2bd0331.html#ide36c31e8-830f-4963-b063-5a68a2bd0331" shape="rect"/>
+      <area alt="41a0509098da42f982baf7aa18b11276" coords="160,154,283,217" group="41a0509098da42f982baf7aa18b11276" href="../ARCADIA/41a0509098da42f982baf7aa18b11276.html#id41a05090-98da-42f9-82ba-f7aa18b11276" shape="rect"/>
+      <area alt="aca63186bf5c4963b74fd3c98eda50a9" coords="100,110,541,257" group="aca63186bf5c4963b74fd3c98eda50a9" href="../ARCADIA/aca63186bf5c4963b74fd3c98eda50a9.html#idaca63186-bf5c-4963-b74f-d3c98eda50a9" shape="rect"/>
+     </map>
+    </p>
+    <p class="diagram-description">
+     <p>
+      This figure describes the interactions of the considered task with other engineering activities.
+     </p>
+    </p>
+   </div>
+   <h2>
+    Diagrams displaying "Define notional functional and non-functional Behavior"
+   </h2>
+   <ul>
+    <li>
+     <a href="../ARCADIA/6a3284b8a66748a597631eb95e8e8c55.html#_W8OfUHccEe2lVaNV4qOrAA">
+      4 - Customer Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/6a3284b8a66748a597631eb95e8e8c55.html#_ad5Z0HcdEe2lVaNV4qOrAA">
+      5 - Models Management
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/6a3284b8a66748a597631eb95e8e8c55.html#_jOY0gHccEe2lVaNV4qOrAA">
+      4 - IVVQ Manager Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/6a3284b8a66748a597631eb95e8e8c55.html#_HvCG8HcdEe2lVaNV4qOrAA">
+      4 - Sub-contractor Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/aca63186bf5c4963b74fd3c98eda50a9.html#_qKNMkHcbEe2lVaNV4qOrAA">
+      3-Define notional functional and non-functional Behavior - Context
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/6a3284b8a66748a597631eb95e8e8c55.html#_xlkVcHccEe2lVaNV4qOrAA">
+      4 - Non functional Specialty Engineering Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/6a3284b8a66748a597631eb95e8e8c55.html#_ddwSoHccEe2lVaNV4qOrAA">
+      4 - Data &amp; Interface Manager Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/dd460dc8ee0b4ceba0c0135c7c103ba9.html#_wwpKgHcaEe2lVaNV4qOrAA">
+      2-Design LOGICAL ARCHITECTURE - Contents
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/6a3284b8a66748a597631eb95e8e8c55.html#_2z-7EHccEe2lVaNV4qOrAA">
+      4 - Product Line &amp; Configuration Managers Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/6a3284b8a66748a597631eb95e8e8c55.html#_PJdGkHccEe2lVaNV4qOrAA">
+      4 - Chief Architect Work
+     </a>
+    </li>
+    <li>
+     <a href="../ARCADIA/6a3284b8a66748a597631eb95e8e8c55.html#_d5BkQHcaEe2lVaNV4qOrAA">
+      1 - First Level Tasks of Architecture Definition Perspectives
+     </a>
+    </li>
+   </ul>
+  </div>
+ </body>
+</html>
