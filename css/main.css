@@ -766,7 +766,7 @@ article {
     text-align: left;
 }
 .nav-tabs > li > a {
-    background: #dedede;
+    background: #999999b8;
     border: 1px solid transparent;
     border-bottom: none;
     padding: 10px 20px;
@@ -780,6 +780,9 @@ article {
     border: 1px solid #eeeeee;
     border-bottom: none;
     color: #002b3c;
+}
+.nav-tabs > li.active  {
+    font-weight:600;
 }
 .nav-tabs > li > a {
   text-transform: uppercase;
