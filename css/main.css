@@ -21,8 +21,14 @@ p {
   line-height: 22px;
   font-size: 16px;
 }
-ul li {
-  list-style: square;
+ul {
+  list-style-type: disc;
+}
+ul ul { 
+  list-style-type: circle;
+}
+li {
+  margin-bottom:5px;
 }
 [deferred-cloak], [data-deferred-cloak], [x-deferred-cloak], .deferred-cloak {
     display: none;
