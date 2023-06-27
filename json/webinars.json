@@ -13,7 +13,7 @@
             "bio": "<p><i><span class='txt_indigo'>Jean-Luc Voirin (Thales)</span> is Director, Engineering and Modeling, in Thales Defense Missions Systems business unit and Technical Directorate. He has been an architect of real-time and near real-time computing and mission systems on civil and mission aircraft and fighters. He is the principal author of the Arcadia method and an active contributor to the definition of methods and tools. He has been involved in coaching activities across all Thales business units, in particular on flagship and critical projects.</i></p>",
             "utube_link": "https://bit.ly/capella_webinar_230622_video",
 	    "slides_link": "https://bit.ly/capella_webinar_230622_slides",
-	    "tag": ["add-on","life cycle assessment"]
+	    "tag": ["method","documentation"]
         },
 		{
             "title": "Assess the Environmental Impacts of your System Architecture",
