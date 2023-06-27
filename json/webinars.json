@@ -4,13 +4,25 @@
     {
         "items":[
 		{
+            "title": "Mastering Arcadia Method: A Deep Dive into Extensive MBSE Resources",
+			"date": "June 2023",
+			"anchor": "2023_06_22",
+            "author": "Jean-Luc Voirin (Thales)",
+            "language": "EN",
+            "descr": "<p>Arcadia is the model-based systems engineering method at the heart of the open-source Capella modeling tool.</p><p>Promoting a viewpoint-driven approach (as described in ISO/IEC 42010), it emphasizes a clear distinction between need and solution to support enterprise-wide collaboration and co-engineering.</p><p>To help systems engineers master Arcadia, the community continually produces resources in various formats (books, web pages, articles, videos, datasheets, etc.) and for different purposes, ranging from introductions to very precise topics.</p><p>During this webinar, you will embark on a journey through the extensive resources at your disposal. Mainly, you will have the exclusive opportunity to discover brand new documents derived from the experience of Jean-Luc Voirin, the principal author of the method, gained through his involvement in projects over many years.</p><p>Here's the link towards Jean-Luc Voirin <a href='https://www.eclipse.org/capella/arcadia-qna.html'>complete Arcadia Q&A</a></p>",
+            "bio": "<p><i><span class='txt_indigo'>Jean-Luc Voirin (Thales)</span> is Director, Engineering and Modeling, in Thales Defense Missions Systems business unit and Technical Directorate. He has been an architect of real-time and near real-time computing and mission systems on civil and mission aircraft and fighters. He is the principal author of the Arcadia method and an active contributor to the definition of methods and tools. He has been involved in coaching activities across all Thales business units, in particular on flagship and critical projects.</i></p>",
+            "utube_link": "https://bit.ly/capella_webinar_230622_video",
+	    "slides_link": "https://bit.ly/capella_webinar_230622_slides",
+	    "tag": ["add-on","life cycle assessment"]
+        },
+		{
             "title": "Assess the Environmental Impacts of your System Architecture",
 			"date": "April 2023",
 			"anchor": "2023_04_13",
             "author": "Arnaud Dieumegard (Obeo)",
             "language": "EN",
             "descr": "<p>How to make environmentally conscious decisions when designing a system?</p><p>Performing a life cycle assessment (LCA) can help you precisely identify the types of impacts a system has, from the extraction of raw materials to its end-of-life phase. However, this is often a tedious process that involves inputting the system architecture into an LCA tool and mapping it to environmental databases. This makes it difficult to repeat the process multiple times for the same system.</p><p>So why not reuse your Capella models to conduct LCAs?</p><p>Ecodesign for Capella is a new add-on that allows systems architects to enter data on the life expectancy of components, materials utilized, consumptions, and emissions directly in Capella, and automatically generate a life cycle inventory in an LCA tool like OpenLCA.</p><p>In the essential collaboration between systems and environmental engineers to reduce the environmental impacts of a complex system, this add-on enables them to make eco-responsible design choices from the beginning, by conducting reliable life cycle analyses, faster and more frequently.</p>",
-            "bio": "<i><p><span class='txt_indigo'>Arnaud Dieumegard (Obeo)</span><ul><li>Eclipse Modeling Consultant</li><li>Ph.D. in Reliability for Systems and Software - INP Toulouse</li></ul></p></i>",
+            "bio": "<p><i><span class='txt_indigo'>Arnaud Dieumegard (Obeo)</span><ul><li>Eclipse Modeling Consultant</li><li>Ph.D. in Reliability for Systems and Software - INP Toulouse</li></ul></i></p>",
             "utube_link": "https://bit.ly/capella_webinar_230413_video",
 	    "slides_link": "https://bit.ly/capella_webinar_230413_slides",
 	    "tag": ["add-on","life cycle assessment"]
