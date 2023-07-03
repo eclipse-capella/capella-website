@@ -1076,3 +1076,34 @@ color: #a94442;
 .case-study a {
   margin-top: 10px
 }
+
+.flag-icon {
+  margin-right: 6px;
+}
+
+.linksSection h4 {
+  margin-bottom: 20px;
+}
+.mainButtonSection {
+  margin-bottom: 40px;
+}
+.addon-title {
+  display: block;
+}
+.addon-links {
+  display: block;
+}
+.addon-section {
+  margin-bottom: 36px;
+}
+.addons-section {
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+#capella-addons-labs {
+  margin-bottom: 72px;
+}
+.install-section {
+  margin-top: 36px;
+  margin-bottom: 72px;
+}
