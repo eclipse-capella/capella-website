@@ -149,6 +149,45 @@
         "items":[
         
 	{
+                "title": "Creating a Bridge Between Capella and System Composer or Simulink",
+                "descr": "",
+                "author": "Fabian Tutschka (MathWorks)",
+                "year": "2023",
+                "language": "EN",
+                "topic": "Add-ons",
+                "topic_order": "99",
+                "type": "Article",
+                "type_order": "99",
+ 		"link": "https://fr.mathworks.com/company/newsletters/articles/creating-a-bridge-between-capella-and-system-composer-or-simulink.html",
+                "thumb": ""
+            },
+	{
+                "title": "Arcadia Reference Documents",
+                "descr": "",
+                "author": "Jean-Luc Voirin (Thales)",
+                "year": "2023",
+                "language": "EN",
+                "topic": "Getting Started",
+                "topic_order": "5",
+                "type": "Article",
+                "type_order": "99",
+ 		"link": "arcadia-reference.html",
+                "thumb": ""
+            },
+	{
+                "title": "Mastering Arcadia Method: A Deep Dive into Extensive MBSE Resources",
+                "descr": "",
+                "author": "Jean-Luc Voirin (Thales)",
+                "year": "2023",
+                "language": "EN",
+                "topic": "Getting Started",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+ 		"link": "https://bit.ly/capella_webinar_230622_video",
+                "thumb": ""
+            },
+	{
                 "title": "Capella Community Survey 2022, the Results",
                 "descr": "",
                 "author": "Frédéric Madiot (Obeo)",
