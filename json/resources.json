@@ -149,6 +149,32 @@
         "items":[
         
 	{
+                "title": "Connecting Capella and ModelCenter to Analyze System Architecture",
+                "descr": "",
+                "author": "Alexandre Luc & Scott Ragon (Ansys)",
+                "year": "2023",
+                "language": "EN",
+                "topic": "Add-ons",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+ 		"link": "https://youtu.be/z5kvjZDaCWU",
+                "thumb": ""
+            },
+	{
+                "title": "Capella in 4 mins (Thai Language)",
+                "descr": "",
+                "author": "Vorachet Jaroensawas",
+                "year": "2023",
+                "language": "TH",
+                "topic": "Getting Started",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+ 		"link": "https://youtu.be/LljmnctTUHU",
+                "thumb": ""
+            },
+	{
                 "title": "Model-Based Federated Model with Capella",
                 "descr": "",
                 "author": "Helder Castro",
