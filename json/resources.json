@@ -149,6 +149,19 @@
         "items":[
         
 	{
+                "title": "Arcadia & Capella - La importancia de la arquitectura en el diseño de sistemas en un enfoque MBSE",
+                "descr": "",
+                "author": "Juan Navas (Thales)",
+                "year": "2023",
+                "language": "ES",
+                "topic": "Getting Started",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+ 		"link": "https://youtu.be/lSApkBVWXBk",
+                "thumb": ""
+            },
+	{
                 "title": "Connecting Capella and ModelCenter to Analyze System Architecture",
                 "descr": "",
                 "author": "Alexandre Luc & Scott Ragon (Ansys)",
