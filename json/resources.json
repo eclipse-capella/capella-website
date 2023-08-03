@@ -149,6 +149,21 @@
         "items":[
         
 	{
+                "title": "STPA Analysis of Automotive Safety Using Arcadia and Capella",
+                "descr": "",
+                "author": "David Hetherington & Pascal Roques",
+                "year": "2022",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "99",
+                "type": "Slideshow",
+                "type_order": "99",
+		"domain":"Automotive",
+                "domain_order": "99",
+ 		"link": "https://www.slideshare.net/DavidHetherington6/stpa-analysis-of-automotive-safety-using-arcadia-and-capella",
+                "thumb": ""
+            },
+	{
                 "title": "Arcadia & Capella - La importancia de la arquitectura en el diseño de sistemas en un enfoque MBSE",
                 "descr": "",
                 "author": "Juan Navas (Thales)",
