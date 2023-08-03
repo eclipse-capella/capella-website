@@ -234,10 +234,10 @@
       "key":"SafetyArchitect",
       "fragment": "safetyarchitect",
       "licence":"Commercial",
-      "contact":"<a href='mailto:safetyarchitect@all4tec.net?subject=Safety Architect' target='_blank'>All4tec</a>",
+      "contact":"<a href='mailto:safetyarchitect@all4tec.net?subject=Safety Architect' target='_blank'>ALL4TEC</a>",
       "description": "<p>This add-on provides to Capella a new viewpoint dedicated to safety analysis. Thus, the user can locate the feared events in the model, define the safety scope of the analysis and build critical chains. User can consider the whole model or focus on any architecture level: physical, logical or functional. You can even go further with a efficient bridge with Safety Architect, to perform a complete safety analysis from the Capella model, using the standard methods such as FMEA or FTA and generate the corresponding fault trees. Finally, user can export its safety data to dedicated tools like FaultTree+, or reimport them into Capella to enrich the original model.</p>",
       "download": { 
-        "learnMore": "https://www.riskoversee.com/en/safety-architect-en/"
+        "learnMore": "https://www.all4tec.com/en/safety-architect-fmeca-fta-sofware/"
       },
       "tags":["safety","bridge", "viewpoint"]
     },
