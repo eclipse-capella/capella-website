@@ -14,7 +14,7 @@
       "learnMore": { "text": "Read more about this add-on", "icon": "fa fa-arrow-circle-right" },
       "windows": { "text": "Windows", "icon": "fa fa-windows", "key":"WIN" },
       "linux": { "text": "Linux*", "icon": "fa fa-linux", "key":"LINUX" },
-      "mac": { "text": "Mac Cocoa*", "icon": "fa fa-apple", "key":"MAC" },
+      "mac": { "text": "Mac Cocoa**", "icon": "fa fa-apple", "key":"MAC" },
       "main": { "text": "64-bit" },
       "aarch64": { "text": "aarch64" },
       "mirror": { "text": "Mirror" },
