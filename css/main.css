@@ -67,10 +67,15 @@ a, .btn-link, .linked_title a:hover{
 	color: #FBBF52;
 	text-decoration: none;
 }
-a:hover, .btn-link:hover, a:active, a:focus, #top-bar .main-menu li#dwnld > a:hover, .linked_title a,
+a:hover, a:active, .btn-link:hover, a:focus, #top-bar .main-menu li#dwnld > a:hover, .linked_title a,
 #top-bar .main-menu li#dwnld > a:focus {
   text-decoration: none;
   color: #292253;
+  outline: 0;
+}
+.bg_indigo .btn-link:hover {
+  text-decoration: none;
+  color: #fff;
   outline: 0;
 }
 .tag {
