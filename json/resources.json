@@ -2413,7 +2413,7 @@
                 "type_order": "2",
                 "domain": "Avionics",
                 "domain_order": "1",
-                "link": "https://polarsys.org/capella/resources/pdf/Case_Study_Rolls_Royce.pdf",
+                "link": "https://www.eclipse.org/capella/resources/pdf/Case_Study_Rolls_Royce.pdf",
                 "thumb": "images/thumbs/resources/thumb_case-study-rollsroyce.jpg"
             },
             {
@@ -2428,7 +2428,7 @@
                 "type_order": "3",
                 "domain": "Space",
                 "domain_order": "1",
-                "link": "https://polarsys.org/capella/resources/pdf/Case_Study_ArianeGroup.pdf",
+                "link": "https://www.eclipse.org/capella/resources/pdf/Case_Study_ArianeGroup.pdf",
                 "thumb": "images/thumbs/resources/thumb_case-study-arianegroup.jpg"
             },
             {
@@ -2443,7 +2443,7 @@
                 "type_order": "4",
                 "domain": "Automotive",
                 "domain_order": "2",
-                "link": "https://polarsys.org/capella/resources/pdf/Case_Study_Continental.pdf",
+                "link": "https://www.eclipse.org/capella/resources/pdf/Case_Study_Continental.pdf",
                 "thumb": "images/thumbs/resources/thumb_case-study-continental.jpg"
             },
             {
@@ -2458,7 +2458,7 @@
                 "type_order": "99",
                 "domain": "Energy",
                 "domain_order": "1",
-                "link": "https://polarsys.org/capella/resources/pdf/Case_Study_Framatome.pdf",
+                "link": "https://www.eclipse.org/capella/resources/pdf/Case_Study_Framatome.pdf",
                 "thumb": "images/thumbs/resources/thumb_case-study-framatome.jpg"
             },
             {
@@ -2782,7 +2782,7 @@
                 "topic_order": "5",
                 "type": "Other",
                 "type_order": "5",
-                "link": "https://www.polarsys.org/projects/polarsys.capella",
+                "link": "https://www.eclipse.org/projects/polarsys.capella",
                 "thumb": ""
             },
             {
@@ -2834,7 +2834,7 @@
                 "topic_order": "4",
                 "type": "Fact Sheet",
                 "type_order": "1",
-                "link": "https://www.polarsys.org/capella/resources/Datasheet_Arcadia.pdf",
+                "link": "https://www.eclipse.org/capella/resources/Datasheet_Arcadia.pdf",
                 "thumb": "images/thumbs/resources/thumb_arcadia-datasheet.jpg"
             },
             {
@@ -2862,7 +2862,7 @@
                 "type_order": "1",
                 "domain": "Railway",
                 "domain_order": "1",
-                "link": "https://www.eclipse.org/capella/getstarted.html#level_crossing",
+                "link": "https://www.eclipse.org/capella/getstarted.html#getstarted",
                 "thumb": "images/thumbs/resources/thumb_level-crossing-traffic-control.jpg"
             },
             {
@@ -2890,7 +2890,7 @@
                 "topic_order": "99",
                 "type": "Documentation",
                 "type_order": "7",
-                "link": "https://wiki.eclipse.org/Capella/Installation_Guide#Capella_Installation",
+                "link": "https://github.com/eclipse/capella/blob/master/doc/plugins/org.polarsys.capella.ui.doc/html/Installation%20Guide/How%20to%20install%20Capella%20and%20Addons.mediawiki#table-of-contents",
                 "thumb": ""
             },
             {
@@ -2931,7 +2931,7 @@
                 "type_order": "2",
                 "domain": "Avionics",
                 "domain_order": "1",
-                "link": "https://wiki.eclipse.org/Capella/Samples/IFE",
+                "link": "https://www.eclipse.org/capella/getstarted.html#getstarted",
                 "thumb": "images/thumbs/resources/thumb_in-flight-entertainment.jpg"
             },
             {
@@ -2944,7 +2944,7 @@
                 "topic_order": "99",
                 "type": "Sample Model",
                 "type_order": "3",
-                "link": "https://wiki.eclipse.org/Capella/Samples/ClockRadio",
+                "link": "https://www.eclipse.org/capella/getstarted.html#getstarted",
                 "thumb": "images/thumbs/resources/thumb_capella-clock-radio.jpg"
             },
             {
@@ -2957,7 +2957,7 @@
                 "topic_order": "99",
                 "type": "Sample Model",
                 "type_order": "99",
-                "link": "https://wiki.eclipse.org/Capella/Samples/ElectronicBell",
+                "link": "https://www.youtube.com/watch?v=6B0AtWEdj9I",
                 "thumb": ""
             },
             {
@@ -3256,7 +3256,7 @@
                 "topic_order": "99",
                 "type": "Documentation",
                 "type_order": "99",
-                "link": "https://wiki.eclipse.org/Capella/Viewpoints/BasicViewpoints",
+                "link": "https://github.com/eclipse/capella-basic-vp/wiki",
                 "thumb": ""
             },
             {
