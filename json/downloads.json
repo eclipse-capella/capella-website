@@ -139,11 +139,22 @@
       },
       "tags":["analysis","bridge"]
     },
+    { "name":"Atica4Capella",
+      "key":"Atica",
+      "fragment":"atica",
+      "licence":"Commercial",
+      "contact":"<a href='https://www.anzenengineering.com/atica4capella-download' target='_blank'>Anzen</a>",
+      "description": "<p>ATICA is a model-based safety analysis framework that allows to perform safety and reliability analysis directly from the system models. The Atica4Capella plugin incorporates safety analysis artifacts specifically conceived to comply to the Capella/Arcadia methodology that support activities such as Functional Hazard Analysis (FHA) and Failure Modes and Effects Analysis (FMEA).</p>",
+      "download": { 
+        "learnMore": "https://www.anzenengineering.com/anzen-wiki/atica4capella/"
+      },
+      "tags":["Safety Analysis"]
+    },
     { "name":"Cloud for Capella",
       "key":"C4C",
       "fragment":"c4c",
       "licence":"Commercial",
-      "contact":"<a href='https://www.obeosoft.com/en/products/cloud-for-capella#form' target='_blank'>Obeo</a>",
+      "contact":"<a href='https://www.anzenengineering.com/atica4capella-download/' target='_blank'>Obeo</a>",
       "description": "<p>Cloud for Capella provides a classic Capella bundle hosted in a Cloud environment managed by Obeo. It is complemented with add-ons selected and integrated by Obeo (System Subsystem transition, XHTML export, Requirement, Filtering, PVMT, M2Doc).</p><p>Cloud for Capella can be subscribed with the Team option that comes with a collaborative server hosted in the Cloud.</p><p>Alone, or in addition to the Capella environments hosted by Obeo, we can also provide a publication server to expose your Capella models through the OSLC protocol.</p>",
       "download": { 
         "learnMore": "https://www.obeosoft.com/en/products/cloud-for-capella"
@@ -239,7 +250,7 @@
       "download": { 
         "learnMore": "https://www.all4tec.com/en/safety-architect-fmeca-fta-sofware/"
       },
-      "tags":["safety","bridge", "viewpoint"]
+      "tags":["safety analysis","bridge"]
     },
     { "name":"SCADE Architect importer for Capella",
       "key":"SCADE",
