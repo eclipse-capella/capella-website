@@ -67,10 +67,15 @@ a, .btn-link, .linked_title a:hover{
 	color: #FBBF52;
 	text-decoration: none;
 }
-a:hover, .btn-link:hover, a:active, a:focus, #top-bar .main-menu li#dwnld > a:hover, .linked_title a,
+a:hover, a:active, .btn-link:hover, a:focus, #top-bar .main-menu li#dwnld > a:hover, .linked_title a,
 #top-bar .main-menu li#dwnld > a:focus {
   text-decoration: none;
   color: #292253;
+  outline: 0;
+}
+.bg_indigo .btn-link:hover {
+  text-decoration: none;
+  color: #fff;
   outline: 0;
 }
 .tag {
@@ -1075,4 +1080,35 @@ color: #a94442;
 }
 .case-study a {
   margin-top: 10px
+}
+
+.flag-icon {
+  margin-right: 6px;
+}
+
+.linksSection h4 {
+  margin-bottom: 20px;
+}
+.mainButtonSection {
+  margin-bottom: 40px;
+}
+.addon-title {
+  display: block;
+}
+.addon-links {
+  display: block;
+}
+.addon-section {
+  margin-bottom: 36px;
+}
+.addons-section {
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+#capella-addons-labs {
+  margin-bottom: 72px;
+}
+.install-section {
+  margin-top: 36px;
+  margin-bottom: 72px;
 }

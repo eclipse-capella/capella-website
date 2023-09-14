@@ -4,13 +4,49 @@
     {
         "items":[
 		{
+            "title": "PdQSat: Aplicação MBSE em um projeto universitário",
+			"date": "August 2023",
+			"anchor": "2023_08_02",
+            "author": "Bruna Queiroz & Maria Letícia Fraga (UFMG alumni)",
+            "language": "PT",
+            "descr": "<p>Neste webinar, Bruna Queiroz e Maria Letícia Fraga compartilharão sua experiência no uso do Capella para o desenvolvimento e propostas da arquitetura do PdQSat, um CubeSat desenvolvido pela Escola de Engenharia da UFMG e pelo Instituto de Ciências Exatas da UFMG.</p><p>O PdQSat é um projeto multidisciplinar com duas missões, uma de cunho tecnológico para caracterização de uma bateria de Li-S e um micro-supercapacitor, e outra missão voltada para o desenvolvimento educacional de estudantes e professores de diversas áreas da engenharia. Nesse contexto, MBSE foi utilizado para apoiar a análise do sistema e seu contexto, melhorar a comunicação entre os interessados e aumentar a qualidade do sistema final.</p><p>Junte-se a este webinar para descobrir como o MBSE e o Capella ajudaram a equipe a capturar e analisar o contexto operacional e as funções do sistema, além de projetar uma arquitetura que atende às necessidades e requisitos operacionais.</p>",
+            "bio": "<p><i><span class='txt_indigo'>Bruna Queiroz (UFMG alumni)</span> é formada com mérito em Engenharia de Sistemas pela Universidade Federal de Minas Gerais no segundo semestre de 2021, adquirindo a medalha de ouro Oriane Magela Neto. Durante o percurso na UFMG participou em iniciativas como o Grêmio Estudantil, Organização da VIII Semana de Engenharia de Sistema e Iniciação Científica em Otimização Não-Linear pelo Laboratório ORCS (Operations Research and Complex Systems Lab). Ao final da sua graduação foi membra do projeto PdQSat (CubeSat acadêmico da UFMG), no qual executou atividades de Engenharia de Sistemas. Durante o percurso da graduação, fez estágio na Embraer e hoje atua como Engenheira de Desenvolvimento de Produto na Empresa.</i></p><p><i><span class='txt_indigo'>Maria Letícia Fraga (UFMG alumni)</span> é formada em Engenharia Aeroespacial pela Universidade Federal de Minas Gerais em 2022. Durante sua trajetória na UFMG, participou de iniciativas como Grêmio Estudantil, no qual foi presidente, e Organização da Semana de Engenharia Aeroespacial, AeroCB V. Além disso, participou da elaboração da proposta inicial do projeto PdQSat para a Agência Espacial Brasileira, concluindo sua graduação com um trabalho relacionado à definição de arquiteturas e requisitos do projeto. Durante a graduação, fez estágio na Aviação Executiva da Embraer, e hoje atua como Engenheira de Desenvolvimento de Produtos no Sistema de Comandos de Voo para a aviação comercial da Empresa.</i></p>",
+            "utube_link": "https://bit.ly/capella_webinar_230802_video",
+	    "slides_link": "https://bit.ly/capella_webinar_230802_slideS",
+	    "tag": ["add-on","simulation"]
+        },
+		{
+            "title": "Connecting Capella and ModelCenter to Analyze System Architecture",
+			"date": "July 2023",
+			"anchor": "2023_07_11",
+            "author": "Alexandre Luc & Scott Ragon (Ansys)",
+            "language": "EN",
+            "descr": "<p>This webinar showcases the utilization of Capella to create the systems architecture model and the use of ModelCenter to connect Capella to any engineering analysis tool for requirements verification and system optimization throughout the product life cycle. The webinar also provides a forum for providing and garnering feedback on the features of the Capella connector and insights on roadmap initiatives. It is an engaging webinar that fosters collaboration.</p><p>During this session, our expert presenters demonstrate the seamless integration between Capella and ModelCenter, enabling the promise of MBSE. They illustrate how this integrated solution empowers engineers and system architects to effectively design, analyze, and optimize complex systems by leveraging Capella's robust modeling capabilities and ModelCenter's comprehensive analysis and optimization features. During this demonstration, participants engage in polls, and feedback sessions on the Capella connector.</p><p>Key Topics Covered:</p><ul><li>Introduction to Capella: A feature-rich modeling tool for system architecture design</li><li>Overview of ModelCenter: An integrated analysis and optimization platform</li><li>Integrating Capella with ModelCenter: Enabling efficient and collaborative MBSE workflows</li><li>Demonstrating real-world applications of Capella and ModelCenter integration</li><li>Engaging in a feedback session for MBSE implementation and best practices</li></ul><p>Whether you are a systems architect, engineer, or a professional involved in system development, this webinar provides valuable insights into leveraging Capella and ModelCenter to advance your MBSE implementation.</p>",
+            "bio": "<p><i><span class='txt_indigo'>Alexandre Luc (Ansys)</span> is Senior Application Engineer. He works closely with sales engineers on pre-sales initiatives, from product demonstrations to opportunity assessments. He also provides training and post-sales support for Ansys Model-Based Engineering Solutions, supporting customers in their Digital Transformation journey.</i></p><p><i><span class='txt_indigo'>Scott Ragon (Ansys)</span> is MBSE Product Manager at Ansys. He has more than 20 years of engineering, modeling and simulation, and design optimization experience.</i></p>",
+            "utube_link": "https://bit.ly/capella_webinar_230711_video",
+	    "slides_link": "https://bit.ly/capella_webinar_230711_slide",
+	    "tag": ["add-on","simulation"]
+        },
+		{
+            "title": "Mastering Arcadia Method: A Deep Dive into Extensive MBSE Resources",
+			"date": "June 2023",
+			"anchor": "2023_06_22",
+            "author": "Jean-Luc Voirin (Thales)",
+            "language": "EN",
+            "descr": "<p>Arcadia is the model-based systems engineering method at the heart of the open-source Capella modeling tool.</p><p>Promoting a viewpoint-driven approach (as described in ISO/IEC 42010), it emphasizes a clear distinction between need and solution to support enterprise-wide collaboration and co-engineering.</p><p>To help systems engineers master Arcadia, the community continually produces resources in various formats (books, web pages, articles, videos, datasheets, etc.) and for different purposes, ranging from introductions to very precise topics.</p><p>During this webinar, you will embark on a journey through the extensive resources at your disposal. Mainly, you will have the exclusive opportunity to discover brand new documents derived from the experience of Jean-Luc Voirin, the principal author of the method, gained through his involvement in projects over many years.</p><p>Here's the link towards Jean-Luc Voirin <a href='https://www.eclipse.org/capella/arcadia-qna.html'>complete Arcadia Q&A</a></p>",
+            "bio": "<p><i><span class='txt_indigo'>Jean-Luc Voirin (Thales)</span> is Director, Engineering and Modeling, in Thales Defense Missions Systems business unit and Technical Directorate. He has been an architect of real-time and near real-time computing and mission systems on civil and mission aircraft and fighters. He is the principal author of the Arcadia method and an active contributor to the definition of methods and tools. He has been involved in coaching activities across all Thales business units, in particular on flagship and critical projects.</i></p>",
+            "utube_link": "https://bit.ly/capella_webinar_230622_video",
+	    "slides_link": "https://bit.ly/capella_webinar_230622_slides",
+	    "tag": ["method","documentation"]
+        },
+		{
             "title": "Assess the Environmental Impacts of your System Architecture",
 			"date": "April 2023",
 			"anchor": "2023_04_13",
             "author": "Arnaud Dieumegard (Obeo)",
             "language": "EN",
             "descr": "<p>How to make environmentally conscious decisions when designing a system?</p><p>Performing a life cycle assessment (LCA) can help you precisely identify the types of impacts a system has, from the extraction of raw materials to its end-of-life phase. However, this is often a tedious process that involves inputting the system architecture into an LCA tool and mapping it to environmental databases. This makes it difficult to repeat the process multiple times for the same system.</p><p>So why not reuse your Capella models to conduct LCAs?</p><p>Ecodesign for Capella is a new add-on that allows systems architects to enter data on the life expectancy of components, materials utilized, consumptions, and emissions directly in Capella, and automatically generate a life cycle inventory in an LCA tool like OpenLCA.</p><p>In the essential collaboration between systems and environmental engineers to reduce the environmental impacts of a complex system, this add-on enables them to make eco-responsible design choices from the beginning, by conducting reliable life cycle analyses, faster and more frequently.</p>",
-            "bio": "<i><p><span class='txt_indigo'>Arnaud Dieumegard (Obeo)</span><ul><li>Eclipse Modeling Consultant</li><li>Ph.D. in Reliability for Systems and Software - INP Toulouse</li></ul></p></i>",
+            "bio": "<p><i><span class='txt_indigo'>Arnaud Dieumegard (Obeo)</span><ul><li>Eclipse Modeling Consultant</li><li>Ph.D. in Reliability for Systems and Software - INP Toulouse</li></ul></i></p>",
             "utube_link": "https://bit.ly/capella_webinar_230413_video",
 	    "slides_link": "https://bit.ly/capella_webinar_230413_slides",
 	    "tag": ["add-on","life cycle assessment"]

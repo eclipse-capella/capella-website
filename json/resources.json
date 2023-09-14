@@ -149,6 +149,138 @@
         "items":[
         
 	{
+                "title": "STPA Analysis of Automotive Safety Using Arcadia and Capella",
+                "descr": "",
+                "author": "David Hetherington & Pascal Roques",
+                "year": "2022",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "99",
+                "type": "Slideshow",
+                "type_order": "99",
+		"domain":"Automotive",
+                "domain_order": "99",
+ 		"link": "https://www.slideshare.net/DavidHetherington6/stpa-analysis-of-automotive-safety-using-arcadia-and-capella",
+                "thumb": ""
+            },
+	{
+                "title": "Arcadia & Capella - La importancia de la arquitectura en el diseño de sistemas en un enfoque MBSE",
+                "descr": "",
+                "author": "Juan Navas (Thales)",
+                "year": "2023",
+                "language": "ES",
+                "topic": "Getting Started",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+ 		"link": "https://youtu.be/lSApkBVWXBk",
+                "thumb": ""
+            },
+	{
+                "title": "Connecting Capella and ModelCenter to Analyze System Architecture",
+                "descr": "",
+                "author": "Alexandre Luc & Scott Ragon (Ansys)",
+                "year": "2023",
+                "language": "EN",
+                "topic": "Add-ons",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+ 		"link": "https://youtu.be/z5kvjZDaCWU",
+                "thumb": ""
+            },
+	{
+                "title": "Capella in 4 mins (Thai Language)",
+                "descr": "",
+                "author": "Vorachet Jaroensawas",
+                "year": "2023",
+                "language": "TH",
+                "topic": "Getting Started",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+ 		"link": "https://youtu.be/LljmnctTUHU",
+                "thumb": ""
+            },
+	{
+                "title": "Model-Based Federated Model with Capella",
+                "descr": "",
+                "author": "Helder Castro",
+                "year": "2023",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "99",
+                "type": "Article",
+                "type_order": "99",
+ 		"link": "https://www.linkedin.com/pulse/model-based-federated-model-capella-helder-castro/",
+                "thumb": ""
+            },
+	{
+                "title": "Digitalk MBSE - Décloisonner architecture système et exigences",
+                "descr": "",
+                "author": "David Almer (Siemens), Cyril Rodriguez (Siemens/Polarion), Etienne Juliot (Obeo)",
+                "year": "2022",
+                "language": "FR",
+                "topic": "Business Value",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+ 		"link": "https://www.youtube.com/watch?v=XuFU8QakOxU",
+                "thumb": ""
+            },
+	{
+                "title": "MBSE Overview",
+                "descr": "",
+                "author": "Siemens Polarion",
+                "year": "2021",
+                "language": "EN",
+                "topic": "Getting Started",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+ 		"link": "https://youtu.be/jV83nOTYgz0",
+                "thumb": ""
+            },
+	{
+                "title": "Creating a Bridge Between Capella and System Composer or Simulink",
+                "descr": "",
+                "author": "Fabian Tutschka (MathWorks)",
+                "year": "2023",
+                "language": "EN",
+                "topic": "Add-ons",
+                "topic_order": "99",
+                "type": "Article",
+                "type_order": "99",
+ 		"link": "https://fr.mathworks.com/company/newsletters/articles/creating-a-bridge-between-capella-and-system-composer-or-simulink.html",
+                "thumb": ""
+            },
+	{
+                "title": "Arcadia Reference Documents",
+                "descr": "",
+                "author": "Jean-Luc Voirin (Thales)",
+                "year": "2023",
+                "language": "EN",
+                "topic": "Getting Started",
+                "topic_order": "5",
+                "type": "Article",
+                "type_order": "99",
+ 		"link": "arcadia-reference.html",
+                "thumb": ""
+            },
+	{
+                "title": "Mastering Arcadia Method: A Deep Dive into Extensive MBSE Resources",
+                "descr": "",
+                "author": "Jean-Luc Voirin (Thales)",
+                "year": "2023",
+                "language": "EN",
+                "topic": "Getting Started",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+ 		"link": "https://bit.ly/capella_webinar_230622_video",
+                "thumb": ""
+            },
+	{
                 "title": "Capella Community Survey 2022, the Results",
                 "descr": "",
                 "author": "Frédéric Madiot (Obeo)",
@@ -1984,10 +2116,10 @@
             {
                 "title": "Introduction to MBSE",
                 "descr": "",
-                "author": "",
+                "author": "Obeo",
                 "year": "2019",
                 "language": "EN",
-                "topic": "Business Value",
+                "topic": "Getting Started",
                 "topic_order": "6",
                 "type": "Video",
                 "type_order": "9",
@@ -2281,7 +2413,7 @@
                 "type_order": "2",
                 "domain": "Avionics",
                 "domain_order": "1",
-                "link": "https://polarsys.org/capella/resources/pdf/Case_Study_Rolls_Royce.pdf",
+                "link": "https://www.eclipse.org/capella/resources/pdf/Case_Study_Rolls_Royce.pdf",
                 "thumb": "images/thumbs/resources/thumb_case-study-rollsroyce.jpg"
             },
             {
@@ -2296,7 +2428,7 @@
                 "type_order": "3",
                 "domain": "Space",
                 "domain_order": "1",
-                "link": "https://polarsys.org/capella/resources/pdf/Case_Study_ArianeGroup.pdf",
+                "link": "https://www.eclipse.org/capella/resources/pdf/Case_Study_ArianeGroup.pdf",
                 "thumb": "images/thumbs/resources/thumb_case-study-arianegroup.jpg"
             },
             {
@@ -2311,7 +2443,7 @@
                 "type_order": "4",
                 "domain": "Automotive",
                 "domain_order": "2",
-                "link": "https://polarsys.org/capella/resources/pdf/Case_Study_Continental.pdf",
+                "link": "https://www.eclipse.org/capella/resources/pdf/Case_Study_Continental.pdf",
                 "thumb": "images/thumbs/resources/thumb_case-study-continental.jpg"
             },
             {
@@ -2326,7 +2458,7 @@
                 "type_order": "99",
                 "domain": "Energy",
                 "domain_order": "1",
-                "link": "https://polarsys.org/capella/resources/pdf/Case_Study_Framatome.pdf",
+                "link": "https://www.eclipse.org/capella/resources/pdf/Case_Study_Framatome.pdf",
                 "thumb": "images/thumbs/resources/thumb_case-study-framatome.jpg"
             },
             {
@@ -2650,7 +2782,7 @@
                 "topic_order": "5",
                 "type": "Other",
                 "type_order": "5",
-                "link": "https://www.polarsys.org/projects/polarsys.capella",
+                "link": "https://www.eclipse.org/projects/polarsys.capella",
                 "thumb": ""
             },
             {
@@ -2702,7 +2834,7 @@
                 "topic_order": "4",
                 "type": "Fact Sheet",
                 "type_order": "1",
-                "link": "https://www.polarsys.org/capella/resources/Datasheet_Arcadia.pdf",
+                "link": "https://www.eclipse.org/capella/resources/Datasheet_Arcadia.pdf",
                 "thumb": "images/thumbs/resources/thumb_arcadia-datasheet.jpg"
             },
             {
@@ -2730,7 +2862,7 @@
                 "type_order": "1",
                 "domain": "Railway",
                 "domain_order": "1",
-                "link": "https://www.eclipse.org/capella/getstarted.html#level_crossing",
+                "link": "https://www.eclipse.org/capella/getstarted.html#getstarted",
                 "thumb": "images/thumbs/resources/thumb_level-crossing-traffic-control.jpg"
             },
             {
@@ -2758,7 +2890,7 @@
                 "topic_order": "99",
                 "type": "Documentation",
                 "type_order": "7",
-                "link": "https://wiki.eclipse.org/Capella/Installation_Guide#Capella_Installation",
+                "link": "https://github.com/eclipse/capella/blob/master/doc/plugins/org.polarsys.capella.ui.doc/html/Installation%20Guide/How%20to%20install%20Capella%20and%20Addons.mediawiki#table-of-contents",
                 "thumb": ""
             },
             {
@@ -2799,7 +2931,7 @@
                 "type_order": "2",
                 "domain": "Avionics",
                 "domain_order": "1",
-                "link": "https://wiki.eclipse.org/Capella/Samples/IFE",
+                "link": "https://www.eclipse.org/capella/getstarted.html#getstarted",
                 "thumb": "images/thumbs/resources/thumb_in-flight-entertainment.jpg"
             },
             {
@@ -2812,7 +2944,7 @@
                 "topic_order": "99",
                 "type": "Sample Model",
                 "type_order": "3",
-                "link": "https://wiki.eclipse.org/Capella/Samples/ClockRadio",
+                "link": "https://www.eclipse.org/capella/getstarted.html#getstarted",
                 "thumb": "images/thumbs/resources/thumb_capella-clock-radio.jpg"
             },
             {
@@ -2825,7 +2957,7 @@
                 "topic_order": "99",
                 "type": "Sample Model",
                 "type_order": "99",
-                "link": "https://wiki.eclipse.org/Capella/Samples/ElectronicBell",
+                "link": "https://www.youtube.com/watch?v=6B0AtWEdj9I",
                 "thumb": ""
             },
             {
@@ -3124,7 +3256,7 @@
                 "topic_order": "99",
                 "type": "Documentation",
                 "type_order": "99",
-                "link": "https://wiki.eclipse.org/Capella/Viewpoints/BasicViewpoints",
+                "link": "https://github.com/eclipse/capella-basic-vp/wiki",
                 "thumb": ""
             },
             {
@@ -3219,13 +3351,7 @@
 		    "domain": "Automotive",
 		    "domain_order": "99",
 		    "link": "https://doi.org/10.21278/idc.2018.0448"
-		}
-            
-            
-            
-            
-            
-            
+		}           
         ]
     }
 }
