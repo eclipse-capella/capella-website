@@ -4,6 +4,18 @@
     {
         "items":[
 		{
+            "title": "Digitally Assisted Design for Safety",
+			"date": "September 2023",
+			"anchor": "2023_09_14",
+            "author": "Pablo López Negro (Anzen)",
+            "language": "EN",
+            "descr": "<p>Is your system robust to the loss of one or more functions? Does your system require interaction with other systems to operate safely? Does the design and operational concept of the system include contingency means? Do these contingency means correctly mitigate the risks?</p><p>These and other similar considerations are becoming more important with the emergence of autonomous systems and complex systems of systems. The introduction of digital tools and in particular model-based systems engineering allows to capture the complexity of these products starting from the operational analysis and supporting the process throughout the whole product life cycle.</p><p>With ATICA, system architects and designers will be able to analyze safety implications starting from the conceptual needs and mission description; modeling risks associated to the system, assessing the probability of occurrence and severity, and deciding upon the needs of contingency and mitigation means. ATICA enriches the Arcadia framework and provides safety analysis capabilities for each step of the system definition, design, and verification process.</p><p>In this webinar we will address an example with an autonomous vertical take-off and landing (VTOL) vehicle, conceived for operation in urban environments (urban air mobility). We will present the operational description and system architecture, and we will conduct the Functional Hazard Analysis (FHA) directly from Capella and aligned with the normative standards in force in the aeronautic industry (ARP-4761 / ED-135).</p><p>Finally, we will introduce safety analysis covering the logical and physical architecture levels, showcasing the use of Capella, Arcadia and ATICA for Fault Tree Analysis (FTA) and Failure Modes and Effects Analysis (FMEA).</p>",
+            "bio": "<p><i><span class='txt_indigo'>Pablo López Negro</span> is the product owner of ATICA MBSA. He has been involved in the aerospace industry for nearly 10 years. Started as guidance, navigation and control engineer where he first discovered model-based / model-driven approaches and Capella. Then he evolved towards a system engineering position before becoming MBSE specialist and designer/developer of MBSE frameworks in Anzen.</i></p>",
+            "utube_link": "",
+	    "slides_link": "",
+	    "tag": ["add-on","safety"]
+        },
+		{
             "title": "PdQSat: Aplicação MBSE em um projeto universitário",
 			"date": "August 2023",
 			"anchor": "2023_08_02",
@@ -12,7 +24,7 @@
             "descr": "<p>Neste webinar, Bruna Queiroz e Maria Letícia Fraga compartilharão sua experiência no uso do Capella para o desenvolvimento e propostas da arquitetura do PdQSat, um CubeSat desenvolvido pela Escola de Engenharia da UFMG e pelo Instituto de Ciências Exatas da UFMG.</p><p>O PdQSat é um projeto multidisciplinar com duas missões, uma de cunho tecnológico para caracterização de uma bateria de Li-S e um micro-supercapacitor, e outra missão voltada para o desenvolvimento educacional de estudantes e professores de diversas áreas da engenharia. Nesse contexto, MBSE foi utilizado para apoiar a análise do sistema e seu contexto, melhorar a comunicação entre os interessados e aumentar a qualidade do sistema final.</p><p>Junte-se a este webinar para descobrir como o MBSE e o Capella ajudaram a equipe a capturar e analisar o contexto operacional e as funções do sistema, além de projetar uma arquitetura que atende às necessidades e requisitos operacionais.</p>",
             "bio": "<p><i><span class='txt_indigo'>Bruna Queiroz (UFMG alumni)</span> é formada com mérito em Engenharia de Sistemas pela Universidade Federal de Minas Gerais no segundo semestre de 2021, adquirindo a medalha de ouro Oriane Magela Neto. Durante o percurso na UFMG participou em iniciativas como o Grêmio Estudantil, Organização da VIII Semana de Engenharia de Sistema e Iniciação Científica em Otimização Não-Linear pelo Laboratório ORCS (Operations Research and Complex Systems Lab). Ao final da sua graduação foi membra do projeto PdQSat (CubeSat acadêmico da UFMG), no qual executou atividades de Engenharia de Sistemas. Durante o percurso da graduação, fez estágio na Embraer e hoje atua como Engenheira de Desenvolvimento de Produto na Empresa.</i></p><p><i><span class='txt_indigo'>Maria Letícia Fraga (UFMG alumni)</span> é formada em Engenharia Aeroespacial pela Universidade Federal de Minas Gerais em 2022. Durante sua trajetória na UFMG, participou de iniciativas como Grêmio Estudantil, no qual foi presidente, e Organização da Semana de Engenharia Aeroespacial, AeroCB V. Além disso, participou da elaboração da proposta inicial do projeto PdQSat para a Agência Espacial Brasileira, concluindo sua graduação com um trabalho relacionado à definição de arquiteturas e requisitos do projeto. Durante a graduação, fez estágio na Aviação Executiva da Embraer, e hoje atua como Engenheira de Desenvolvimento de Produtos no Sistema de Comandos de Voo para a aviação comercial da Empresa.</i></p>",
             "utube_link": "https://bit.ly/capella_webinar_230802_video",
-	    "slides_link": "https://bit.ly/capella_webinar_230802_slideS",
+	    "slides_link": "https://bit.ly/capella_webinar_230802_slides",
 	    "tag": ["add-on","simulation"]
         },
 		{
