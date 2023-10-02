@@ -161,6 +161,17 @@
       },
       "tags":["collaboration","hosting"]
     },
+    { "name":"Ecodesign for Capella",
+      "key":"E4C",
+      "fragment":"e4c",
+      "licence":"Commercial",
+      "contact":"<a href='https://www.obeosoft.com/en/products/ecodesign-for-capella#form' target='_blank'>Obeo</a>",
+      "description": "<p>Make insightful architectural decisions to reduce the environmental impacts of your systems, by using Capella to enter the life expectancy of components, materials utilized, consumptions, and emissions, .... and automatically initialize an inventory model in your third-party LCA tool.</p>",
+      "download": { 
+        "learnMore": "https://www.obeosoft.com/en/products/ecodesign-for-capella"
+      },
+      "tags":["life cycle assessment","bridge"]
+    },
     { "name":"DESS (Dynamic Execution and System Simulation)",
       "key":"DESS",
       "fragment":"dess",
