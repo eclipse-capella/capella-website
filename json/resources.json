@@ -149,6 +149,36 @@
         "items":[
         
 	{
+                "title": "Digitally Assisted Design for Safety",
+                "descr": "",
+                "author": "Pablo López Negro (Anzen)",
+                "year": "2023",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+		"domain":"Avionics",
+                "domain_order": "99",
+ 		"link": "https://youtu.be/xh7Rvqdo-SE",
+                "thumb": ""
+            },
+	{
+                "title": "PdQSat: Aplicação MBSE em um projeto universitário",
+                "descr": "",
+                "author": "Bruna Queiroz & Maria Letícia Fraga (UFMG alumni)",
+                "year": "2023",
+                "language": "BR",
+                "topic": "Learning More",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+		"domain":"Space",
+                "domain_order": "99",
+ 		"link": "https://bit.ly/capella_webinar_02082023_BR",
+                "thumb": ""
+            },
+	{
                 "title": "STPA Analysis of Automotive Safety Using Arcadia and Capella",
                 "descr": "",
                 "author": "David Hetherington & Pascal Roques",
