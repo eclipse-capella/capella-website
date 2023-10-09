@@ -85,6 +85,11 @@
 		"link": "https://www.framatome.com/"
         },
         {
+		"logoSrc": "images/logos/adopters/logo_glaway.png",
+		"company": "Glaway",
+		"link": "http://www.glaway.com/"
+        },
+        {
 		"logoSrc": "images/logos/adopters/logo_gmv.jpg",
 		"company": "GMV",
 		"link": "https://www.gmv.com/"
