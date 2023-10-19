@@ -1,4 +1,4 @@
-Sitemap: https://www.eclipse.org/capella/capella_sitemap.xml
+Sitemap: https://mbse-capella.org/capella_sitemap.xml
 
 User-agent: *
 Disallow: /industry-consortium.html

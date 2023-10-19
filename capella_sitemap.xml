@@ -1,151 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"> 
 <url>
-  <loc>https://www.eclipse.org/capella/index.html</loc>
+  <loc>https://mbse-capella.org/index.html</loc>
   <priority>1.0</priority>
   <changefreq>monthly</changefreq>
   <lastmod>2022-04-19</lastmod>
 </url>
 <url>
-  <loc>https://www.eclipse.org/capella/capella_mbse_fr.html</loc>
+  <loc>https://mbse-capella.org/capella_mbse_fr.html</loc>
   <priority>1.0</priority>
   <changefreq>monthly</changefreq>
   <lastmod>2022-08-25</lastmod>
 </url>
 <url>
-  <loc>https://www.eclipse.org/capella/capella_mbse_sp.html</loc>
+  <loc>https://mbse-capella.org/capella_mbse_sp.html</loc>
   <priority>1.0</priority>
   <changefreq>monthly</changefreq>
   <lastmod>2022-08-25</lastmod>
 </url>
 <url>
-  <loc>https://www.eclipse.org/capella/capella_mbse_jp.html</loc>
+  <loc>https://mbse-capella.org/capella_mbse_jp.html</loc>
   <priority>1.0</priority>
   <changefreq>monthly</changefreq>
   <lastmod>2022-08-25</lastmod>
 </url>
 <url>
-  <loc>https://www.eclipse.org/capella/capella_mbse_ge.html</loc>
+  <loc>https://mbse-capella.org/capella_mbse_ge.html</loc>
   <priority>1.0</priority>
   <changefreq>monthly</changefreq>
   <lastmod>2022-11-15</lastmod>
 </url>
 <url>
-  <loc>https://www.eclipse.org/capella/capella_mbse_br.html</loc>
+  <loc>https://mbse-capella.org/capella_mbse_br.html</loc>
   <priority>1.0</priority>
   <changefreq>monthly</changefreq>
   <lastmod>2022-04-19</lastmod>
 </url>
 <url>
-  <loc>https://www.eclipse.org/capella/training_material.html</loc>
+  <loc>https://mbse-capella.org/training_material.html</loc>
   <priority>0.7</priority>
   <changefreq>monthly</changefreq>
   <lastmod>2022-01-05</lastmod>
 </url>
 <url>
-  <loc>https://www.eclipse.org/capella/addons.html</loc>
+  <loc>https://mbse-capella.org/addons.html</loc>
   <priority>1.0</priority>
   <changefreq>monthly</changefreq>
   <lastmod>2022-04-01</lastmod>
 </url>
 <url>
-  <loc>https://www.eclipse.org/capella/adopters.html</loc>
+  <loc>https://mbse-capella.org/adopters.html</loc>
   <priority>0.8</priority>
   <changefreq>monthly</changefreq>
   <lastmod>2022-04-15</lastmod>
 </url>
 <url>
-  <loc>https://www.eclipse.org/capella/case_studies.html</loc>
+  <loc>https://mbse-capella.org/case_studies.html</loc>
   <priority>0.8</priority>
   <changefreq>monthly</changefreq>
   <lastmod>2022-04-15</lastmod>
 </url>
 <url>
-  <loc>https://www.eclipse.org/capella/arcadia.html</loc>
+  <loc>https://mbse-capella.org/arcadia.html</loc>
   <priority>0.5</priority>
   <changefreq>monthly</changefreq>
   <lastmod>2022-01-05</lastmod>
 </url>
 <url>
-  <loc>https://www.eclipse.org/capella/arcadia_capella_sysml_tool.html</loc>
+  <loc>https://mbse-capella.org/arcadia_capella_sysml_tool.html</loc>
   <priority>0.5</priority>
   <changefreq>monthly</changefreq>
   <lastmod>2022-01-05</lastmod>
 </url>
 <url>
-  <loc>https://www.eclipse.org/capella/capella_day_munich_2019.html</loc>
+  <loc>https://mbse-capella.org/capella_day_munich_2019.html</loc>
   <priority>0.5</priority>
   <changefreq>monthly</changefreq>
   <lastmod>2022-01-05</lastmod>
 </url>
 <url>
-  <loc>https://www.eclipse.org/capella/capella_days.html</loc>
+  <loc>https://mbse-capella.org/capella_days.html</loc>
   <priority>0.7</priority>
   <changefreq>monthly</changefreq>
   <lastmod>2022-01-05</lastmod>
 </url>
 <url>
-  <loc>https://www.eclipse.org/capella/capella_days_2020.html</loc>
+  <loc>https://mbse-capella.org/capella_days_2020.html</loc>
   <priority>0.5</priority>
   <changefreq>monthly</changefreq>
   <lastmod>2022-01-05</lastmod>
 </url>
 <url>
-  <loc>https://www.eclipse.org/capella/capella_days_2021.html</loc>
+  <loc>https://mbse-capella.org/capella_days_2021.html</loc>
   <priority>0.7</priority>
   <changefreq>monthly</changefreq>
   <lastmod>2022-01-05</lastmod>
 </url>
 <url>
-  <loc>https://www.eclipse.org/capella/contact.html</loc>
+  <loc>https://mbse-capella.org/contact.html</loc>
   <priority>0.5</priority>
   <changefreq>monthly</changefreq>
   <lastmod>2022-01-05</lastmod>
 </url>
 <url>
-  <loc>https://www.eclipse.org/capella/download.html</loc>
+  <loc>https://mbse-capella.org/download.html</loc>
   <priority>1.0</priority>
   <changefreq>monthly</changefreq>
   <lastmod>2022-01-05</lastmod>
 </url>
 <url>
-  <loc>https://www.eclipse.org/capella/features.html</loc>
+  <loc>https://mbse-capella.org/features.html</loc>
   <priority>1.0</priority>
   <changefreq>monthly</changefreq>
   <lastmod>2022-01-05</lastmod>
 </url>
 <url>
-  <loc>https://www.eclipse.org/capella/getstarted.html</loc>
+  <loc>https://mbse-capella.org/getstarted.html</loc>
   <priority>0.9</priority>
   <changefreq>monthly</changefreq>
   <lastmod>2022-01-05</lastmod>
 </url>
 <url>
-  <loc>https://www.eclipse.org/capella/resources.html</loc>
+  <loc>https://mbse-capella.org/resources.html</loc>
   <priority>1.0</priority>
   <changefreq>monthly</changefreq>
   <lastmod>2022-04-15</lastmod>
 </url>
 <url>
-  <loc>https://www.eclipse.org/capella/services.html</loc>
+  <loc>https://mbse-capella.org/services.html</loc>
   <priority>0.5</priority>
   <changefreq>monthly</changefreq>
   <lastmod>2022-01-05</lastmod>
 </url>
 <url>
-  <loc>https://www.eclipse.org/capella/support.html</loc>
+  <loc>https://mbse-capella.org/support.html</loc>
   <priority>0.5</priority>
   <changefreq>monthly</changefreq>
   <lastmod>2022-01-05</lastmod>
 </url>
 <url>
-  <loc>https://www.eclipse.org/capella/webinars.html</loc>
+  <loc>https://mbse-capella.org/webinars.html</loc>
   <priority>0.5</priority>
   <changefreq>monthly</changefreq>
   <lastmod>2022-04-15</lastmod>
 </url>
 <url>
-  <loc>https://www.eclipse.org/capella/what_is_mbse.html</loc>
+  <loc>https://mbse-capella.org/what_is_mbse.html</loc>
   <priority>0.5</priority>
   <changefreq>monthly</changefreq>
   <lastmod>2022-01-05</lastmod>

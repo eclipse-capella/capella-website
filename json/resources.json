@@ -1978,7 +1978,7 @@
                 "type_order": "2",
                 "domain": "Railway",
                 "domain_order": "1",
-               "link": "https://www.eclipse.org/capella/resources/pdf/Case_Study_AutonomousTrain.pdf",
+               "link": "https://mbse-capella.org/resources/pdf/Case_Study_AutonomousTrain.pdf",
                 "thumb": "images/thumbs/resources/thumb_case-study-train-autonomous.jpg"
             },
             {
@@ -2166,7 +2166,7 @@
                 "topic_order": "3",
                 "type": "Article",
                 "type_order": "4",
-                "link": "https://www.eclipse.org/capella/resources/pdf/IS_2019_Augmenting_Requirements_With_Models_Article.pdf",
+                "link": "https://mbse-capella.org/resources/pdf/IS_2019_Augmenting_Requirements_With_Models_Article.pdf",
                 "thumb": "images/thumbs/resources/thumb_article-capella-is-2019.jpg"
             },
             {
@@ -2179,7 +2179,7 @@
                 "topic_order": "4",
                 "type": "Slideshow",
                 "type_order": "4",
-                "link": "https://www.eclipse.org/capella/resources/pdf/IS_2019_Augmenting_Requirements_With_Models_Presentation.pdf",
+                "link": "https://mbse-capella.org/resources/pdf/IS_2019_Augmenting_Requirements_With_Models_Presentation.pdf",
                 "thumb": "images/thumbs/resources/thumb_capella-is-2019.jpg"
             },
             {
@@ -2443,7 +2443,7 @@
                 "type_order": "2",
                 "domain": "Avionics",
                 "domain_order": "1",
-                "link": "https://www.eclipse.org/capella/resources/pdf/Case_Study_Rolls_Royce.pdf",
+                "link": "https://mbse-capella.org/resources/pdf/Case_Study_Rolls_Royce.pdf",
                 "thumb": "images/thumbs/resources/thumb_case-study-rollsroyce.jpg"
             },
             {
@@ -2458,7 +2458,7 @@
                 "type_order": "3",
                 "domain": "Space",
                 "domain_order": "1",
-                "link": "https://www.eclipse.org/capella/resources/pdf/Case_Study_ArianeGroup.pdf",
+                "link": "https://mbse-capella.org/resources/pdf/Case_Study_ArianeGroup.pdf",
                 "thumb": "images/thumbs/resources/thumb_case-study-arianegroup.jpg"
             },
             {
@@ -2473,7 +2473,7 @@
                 "type_order": "4",
                 "domain": "Automotive",
                 "domain_order": "2",
-                "link": "https://www.eclipse.org/capella/resources/pdf/Case_Study_Continental.pdf",
+                "link": "https://mbse-capella.org/resources/pdf/Case_Study_Continental.pdf",
                 "thumb": "images/thumbs/resources/thumb_case-study-continental.jpg"
             },
             {
@@ -2488,7 +2488,7 @@
                 "type_order": "99",
                 "domain": "Energy",
                 "domain_order": "1",
-                "link": "https://www.eclipse.org/capella/resources/pdf/Case_Study_Framatome.pdf",
+                "link": "https://mbse-capella.org/resources/pdf/Case_Study_Framatome.pdf",
                 "thumb": "images/thumbs/resources/thumb_case-study-framatome.jpg"
             },
             {
@@ -2864,7 +2864,7 @@
                 "topic_order": "4",
                 "type": "Fact Sheet",
                 "type_order": "1",
-                "link": "https://www.eclipse.org/capella/resources/Datasheet_Arcadia.pdf",
+                "link": "https://mbse-capella.org/resources/Datasheet_Arcadia.pdf",
                 "thumb": "images/thumbs/resources/thumb_arcadia-datasheet.jpg"
             },
             {
@@ -2892,7 +2892,7 @@
                 "type_order": "1",
                 "domain": "Railway",
                 "domain_order": "1",
-                "link": "https://www.eclipse.org/capella/getstarted.html#getstarted",
+                "link": "https://mbse-capella.org/getstarted.html#getstarted",
                 "thumb": "images/thumbs/resources/thumb_level-crossing-traffic-control.jpg"
             },
             {
@@ -2961,7 +2961,7 @@
                 "type_order": "2",
                 "domain": "Avionics",
                 "domain_order": "1",
-                "link": "https://www.eclipse.org/capella/getstarted.html#getstarted",
+                "link": "https://mbse-capella.org/getstarted.html#getstarted",
                 "thumb": "images/thumbs/resources/thumb_in-flight-entertainment.jpg"
             },
             {
@@ -2974,7 +2974,7 @@
                 "topic_order": "99",
                 "type": "Sample Model",
                 "type_order": "3",
-                "link": "https://www.eclipse.org/capella/getstarted.html#getstarted",
+                "link": "https://mbse-capella.org/getstarted.html#getstarted",
                 "thumb": "images/thumbs/resources/thumb_capella-clock-radio.jpg"
             },
             {
@@ -3156,7 +3156,7 @@
                 "topic_order": "99",
                 "type": "Other",
                 "type_order": "99",
-                "link": "https://www.eclipse.org/capella/index.html#event",
+                "link": "https://mbse-capella.org/index.html#event",
                 "thumb": ""
             },
             {
@@ -3208,7 +3208,7 @@
                 "topic_order": "1",
                 "type": "Other",
                 "type_order": "99",
-                "link": "https://www.eclipse.org/capella/addons.html",
+                "link": "https://mbse-capella.org/addons.html",
                 "thumb": "images/thumbs/resources/thumb_add-ons.jpg"
             },
             {
