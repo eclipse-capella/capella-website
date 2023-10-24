@@ -149,6 +149,21 @@
         "items":[
         
 	{
+                "title": "A Model Based System Architecture Methodology Leveraging the ARCADIA Method",
+                "descr": "",
+                "author": "Dr. Eric Dano (George Washington University)",
+                "year": "2023",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+		"domain":"",
+                "domain_order": "",
+ 		"link": "https://youtu.be/--9Cnj3XJk0",
+                "thumb": ""
+            },
+	{
                 "title": "Digitally Assisted Design for Safety",
                 "descr": "",
                 "author": "Pablo López Negro (Anzen)",
