@@ -393,7 +393,7 @@
 	{
                 "title": "Company-wide Architecting Assets to Inform Design Decisions",
                 "descr": "A case-study by Thermo Fisher Scientific, a global company with 110,000 employees that supplies scientific instrumentation.",
-                "author": "",
+                "author": "Thermo Fisher Scientific",
                 "year": "2023",
                 "language": "EN",
                 "topic": "Business Value",
@@ -408,7 +408,7 @@
 	{
                 "title": "From Document-Driven to Digital-Native Engineering",
                 "descr": "A case-study by Naval Group, a leading international player in the field of naval defense.",
-                "author": "",
+                "author": "Naval Group",
                 "year": "2023",
                 "language": "EN",
                 "topic": "Business Value",
@@ -417,13 +417,13 @@
                 "type_order": "2",
 		"domain":"Shipbuilding",
                 "domain_order": "1",
- 		"link": "resources/pdf/Case_Study_Thermo_Fisher_Scientific.pdf",
+ 		"link": "resources/pdf/Case_Study_NavalGroup.pdf",
                 "thumb": "images/thumbs/resources/thumb_case-study-navalgroup.jpg"
             },
 	{
                 "title": "The Transformation of a Complex Air Traffic Management System",
                 "descr": "A case-study by Thales Australia about OneSKY, the new Australia-wide integrated Civil and Military Air Traffic Management System, known as CMATS",
-                "author": "",
+                "author": "Thales Australia",
                 "year": "2022",
                 "language": "EN",
                 "topic": "Business Value",
@@ -438,7 +438,7 @@
 	{
                 "title": "Model-centric Engineering Environment to Design the Future Railway System",
                 "descr": "A case-study by Deutsche Bahn AG within the railway sector initiative Digitale Schiene Deutschland.",
-                "author": "",
+                "author": "Deutsche Bahn AG",
                 "year": "2022",
                 "language": "EN",
                 "topic": "Business Value",
@@ -453,7 +453,7 @@
 	{
                 "title": "Conceptual Design of the STEP Fusion Power Plant",
                 "descr": "A case-study by UK Atomic Energy Authority about STEP (Spherical Tokamak for Energy Production), a project aiming to deliver a UK fusion energy plant prototype.",
-                "author": "",
+                "author": "UK Atomic Energy Authority",
                 "year": "2022",
                 "language": "EN",
                 "topic": "Business Value",
@@ -468,7 +468,7 @@
 	{
                 "title": "Successful Capella Landing on a CNES Operational Use Case",
                 "descr": "A case-study by CNES, the French space agency about the Space Variable Objects Monitor (SVOM), a space system dedicated to gamma ray detection and study.",
-                "author": "",
+                "author": "CNES",
                 "year": "2022",
                 "language": "EN",
                 "topic": "Business Value",
