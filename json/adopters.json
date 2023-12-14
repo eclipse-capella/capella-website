@@ -150,6 +150,11 @@
 		"link": "https://nextrail.com/"
         },
         {
+		"logoSrc": "images/logos/adopters/logo_nuward.png",
+		"company": "Nuward",
+		"link": "https://www.nuward.com/en"
+        },
+        {
 		"logoSrc": "images/logos/adopters/logo_obeo.png",
 		"company": "Obeo",
 		"link": "https://www.obeosoft.com/"
