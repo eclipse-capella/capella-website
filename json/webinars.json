@@ -11,8 +11,8 @@
             "language": "EN",
             "descr": "<p>In today's complex systems engineering landscape, Capella has emerged as a powerful tool for model-based systems engineering (MBSE). This presentation explores key enablers for Capella champions to ensure the successful adoption and utilization of Capella within an organization.</p><p>Training: Effective training is foundational for developing Capella champions. Tailored programs, from beginner to advanced levels, empower individuals to become proficient in Capella. Strategies for designing training programs aligned with organizational goals are discussed.</p><p>Extensible Authoring: Capella's extensible authoring capabilities allow customization to specific domains and engineering practices. Developing custom viewpoints, libraries, and domain-specific extensions is crucial for a seamless fit with organizational requirements.</p><p>Accessible Model Content: To maximize the impact of Capella models, enabling non-authors to access and utilize model contents is essential. Strategies for visualization, reporting, and data sharing allow stakeholders to extract insights and make informed decisions.</p><p>Fostering Capella champions is crucial for successful MBSE adoption. Through comprehensive training, enhanced authoring capabilities, and enabling non-authors to leverage model contents, organizations can unlock Capella's potential, driving efficiency and innovation in systems engineering. This presentation offers practical guidance for organizations on their journey to becoming Capella champions and realizing the benefits of MBSE.</p>",
             "bio": "<p><i><span class='txt_indigo'>Thony Komar</span> has been practicing and supporting systems engineering for over 35 years. He is a key contributor to the development and deployment of model-based system engineering products for Siemens Digital Industries Software.</i></p>",
-            "utube_link": "soon",
-	    "slides_link": "soon",
+            "utube_link": "https://youtu.be/heqUpxDaz_c",
+	    "slides_link": "https://bit.ly/capella_webinar_231214_slides",
 	    "tag": ["methodology"]
         },
 		{
