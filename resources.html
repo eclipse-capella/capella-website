@@ -155,6 +155,30 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							for (var j in data.resources.items) {
 								var item_infos = " ";
 								var item_descr = "";
+								var item_icon = "";
+								var item_type = data.resources.items[j].type;
+								if (item_type == "Video") {
+									item_icon = "<i class='fa fa-youtube-play' aria-hidden='true'></i>&nbsp;";
+								}
+								else if (item_type == "Article"){
+									item_icon = "<i class='fa fa-newspaper-o' aria-hidden='true'></i>&nbsp;";
+								}
+								else if (item_type == "Documentation"){
+									item_icon = "<i class='fa fa-file-text-o' aria-hidden='true'></i>&nbsp;";
+								}
+								else if (item_type == "Fact Sheet"){
+									item_icon = "<i class='fa fa-file-image-o' aria-hidden='true'></i>&nbsp;";
+								}
+								else if (item_type == "Slideshow"){
+									item_icon = "<i class='fa fa-picture-o' aria-hidden='true'></i>&nbsp;";
+								}
+								else if (item_type == "Sample Model"){
+									item_icon = "<i class='fa fa-cubes' aria-hidden='true'></i>&nbsp;";
+								}
+								else {
+									item_icon = "<i class='fa fa-external-link' aria-hidden='true'></i>&nbsp;";
+								}
+
 								if(data.resources.items[j].author != ""){
 									item_infos += " | " + data.resources.items[j].author;
 								}
@@ -168,13 +192,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 									if(data.resources.items[j].thumb != ""){
 										accordion_inner += "<div class='accordion-inner with_thumb'><div class='col-md-8 col-xs-8'><h4 class='linked_title'><a href='"
 											+ data.resources.items[j].link + "' target='_blank'>"
-											+ data.resources.items[j].title + "</a></h4><p class='descr'>" + data.resources.items[j].type + item_infos + " | " + data.resources.items[j].language + "</p>" + item_descr + "</div><div class='col-md-4 col-xs-12'><a href='"
+											+ data.resources.items[j].title + "</a></h4><p class='descr'>" + item_icon + data.resources.items[j].type + item_infos + " | " + data.resources.items[j].language + "</p>" + item_descr + "</div><div class='col-md-4 col-xs-12'><a href='"
 											+ data.resources.items[j].link + "' target='_blank'><img src='" + data.resources.items[j].thumb + "' alt='" + data.resources.items[j].title + "' /></a></div><div class='clearfix'></div></div>";
 									}
 									else{
 										accordion_inner += "<div class='accordion-inner'><h4 class='linked_title'><a href='"
 											+ data.resources.items[j].link + "' target='_blank'>"
-											+ data.resources.items[j].title + "</a></h4><p class='descr'>" + data.resources.items[j].type + item_infos + " | " + data.resources.items[j].language + "</p>" + item_descr + "</div>";
+											+ data.resources.items[j].title + "</a></h4><p class='descr'>" + item_icon + data.resources.items[j].type + item_infos + " | " + data.resources.items[j].language + "</p>" + item_descr + "</div>";
 									}
 								}
 							}
@@ -243,6 +267,29 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							//data.resources.items.sort(GetSortOrder("domain_order"));
 								var item_infos = " ";
 								var item_descr = "";
+								var item_icon = "";
+								var item_type = data.resources.items[e].type;
+								if (item_type == "Video") {
+									item_icon = "<i class='fa fa-youtube-play' aria-hidden='true'></i>&nbsp;";
+								}
+								else if (item_type == "Article"){
+									item_icon = "<i class='fa fa-newspaper-o' aria-hidden='true'></i>&nbsp;";
+								}
+								else if (item_type == "Documentation"){
+									item_icon = "<i class='fa fa-file-text-o' aria-hidden='true'></i>&nbsp;";
+								}
+								else if (item_type == "Fact Sheet"){
+									item_icon = "<i class='fa fa-file-image-o' aria-hidden='true'></i>&nbsp;";
+								}
+								else if (item_type == "Slideshow"){
+									item_icon = "<i class='fa fa-picture-o' aria-hidden='true'></i>&nbsp;";
+								}
+								else if (item_type == "Sample Model"){
+									item_icon = "<i class='fa fa-cubes' aria-hidden='true'></i>&nbsp;";
+								}
+								else {
+									item_icon = "<i class='fa fa-external-link' aria-hidden='true'></i>&nbsp;";
+								}
 								if(data.resources.items[e].author != ""){
 									item_infos += " | " + data.resources.items[e].author;
 								}
@@ -256,13 +303,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 									if(data.resources.items[e].thumb != ""){
 										accordion_inner += "<div class='accordion-inner with_thumb'><div class='col-md-8 col-xs-8'><h4 class='linked_title'><a href='"
 											+ data.resources.items[e].link + "' target='_blank'>"
-											+ data.resources.items[e].title + "</a></h4><p class='descr'>" + data.resources.items[e].type + item_infos + " | " + data.resources.items[e].language + "</p>" + item_descr + "</div><div class='col-md-4 col-xs-12'><a href='"
+											+ data.resources.items[e].title + "</a></h4><p class='descr'>" + item_icon + data.resources.items[e].type + item_infos + " | " + data.resources.items[e].language + "</p>" + item_descr + "</div><div class='col-md-4 col-xs-12'><a href='"
 											+ data.resources.items[e].link + "' target='_blank'><img src='" + data.resources.items[e].thumb + "' alt='" + data.resources.items[e].title + "' /></a></div><div class='clearfix'></div></div>";
 									}
 									else{
 										accordion_inner += "<div class='accordion-inner'><h4 class='linked_title'><a href='"
 											+ data.resources.items[e].link + "' target='_blank'>"
-											+ data.resources.items[e].title + "</a></h4><p class='descr'>" + data.resources.items[e].type + item_infos + " | " + data.resources.items[e].language + "</p>" + item_descr + "</div>";
+											+ data.resources.items[e].title + "</a></h4><p class='descr'>" + item_icon + data.resources.items[e].type + item_infos + " | " + data.resources.items[e].language + "</p>" + item_descr + "</div>";
 									}
 								}
 							}
