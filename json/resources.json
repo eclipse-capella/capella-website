@@ -149,8 +149,188 @@
         "items":[
         
 	{
+                "title": "Powering Capella Champions: Enablers for Effective Model Authoring and Utilization",
+                "descr": "This presentation explores key enablers for Capella champions to ensure the successful adoption and utilization of Capella within an organization.",
+                "author": "Tony Komar (Siemens DISW)",
+                "year": "2023",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+		"domain":"",
+                "domain_order": "",
+ 		"link": "https://youtu.be/heqUpxDaz_c",
+                "thumb": "images/thumbs/resources/webinar_14122023.jpg"
+            },
+	{
+                "title": "Collaborative Model-Based Engineering and Large Systems Development",
+                "descr": "This presentation reports on the collaborative Model-Based System Engineering (MBSE) approach followed for Galileo Second Generation using <i>Team for Capella</i>",
+                "author": "Catherine Morlet (ESA), Alberto González Fernández (ESA)",
+                "year": "2023",
+                "language": "EN",
+                "topic": "Business Value",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+		"domain":"Space",
+                "domain_order": "",
+ 		"link": "https://youtu.be/feENMW8uB8Q",
+                "thumb": "images/thumbs/resources/capelladays2023_esa.jpg"
+            },
+	{
+                "title": "Introducing MBSE in an Organization Successfully",
+                "descr": "Apparently, introducing MBSE, Arcadia and Capella in an organization requires more than just the manual for Capella and reading Jean-Luc Voirin's great book on Arcadia. This presentation will share the experiences and the lessons we learned, that allowed us to (re)introduce MBSE in our organization successfully.",
+                "author": "Erik Visser (Thales)",
+                "year": "2023",
+                "language": "EN",
+                "topic": "Business Value",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+		"domain":"Telecom",
+                "domain_order": "",
+ 		"link": "https://youtu.be/aUfJkQvWCJQ",
+                "thumb": "images/thumbs/resources/capelladays2023_thales.jpg"
+            },
+	{
+                "title": "Model-Driven Design and Development of an Electromechanical Actuation System",
+                "descr": "The implementation of a model-driven approach to the design and development of an electromechanical actuator conceived to control the aerodynamic surfaces of a conventional aircraft.",
+                "author": "Elena García Llorente (CESA - Heroux Devtek), Luis Cárdenas González (Anzen)",
+                "year": "2023",
+                "language": "EN",
+                "topic": "Business Value",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+		"domain":"Avionics",
+                "domain_order": "",
+ 		"link": "https://youtu.be/InuatecgwwU",
+                "thumb": "images/thumbs/resources/capelladays2023_cesa_anzen.jpg"
+            },
+	{
+                "title": "Practice in COMAC to Conduct MBSA in Avionics System Based on Capella",
+                "descr": "We introduce how we extend Capella in COMAC to support 4761-compliant MBSA work. It includes how to define failure conditions in Capella PA model, how to carry out failure propagation modeling on Capella function, behavioral physical component, and node physical component, how to automatically generate fault trees for failure conditions, and how to carry out safety analysis based on the calculation results of the minimum cut set of each fault tree, and so on",
+                "author": "Wang Ran (COMAC), Yan Weizhen (PGM)",
+                "year": "2023",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+		"domain":"Avionics",
+                "domain_order": "",
+ 		"link": "https://youtu.be/JFJ1F_PN6vY",
+                "thumb": "images/thumbs/resources/capelladays2023_comac_pgm.jpg"
+            },
+	{
+                "title": "Capella for Modelling CubeSat: Tailored SE Process for Leveraging Model-Based Systems Engineering",
+                "descr": "The goal of this presentation is to enable CubeSat developers seamlessly integrate SE practices along with MBSE into their existing workflows.",
+                "author": "Suvigya Gupta, Dhirendra Singh, Stueti Gupta (BlueKei Solutions)",
+                "year": "2023",
+                "language": "EN",
+                "topic": "Business Value",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+		"domain":"Space",
+                "domain_order": "",
+ 		"link": "https://youtu.be/qTqXMTwf_wE",
+                "thumb": "images/thumbs/resources/capelladays2023_bluekei.jpg"
+            },
+	{
+                "title": "Enterprise Modelling for Lifecycle Engineering on the Example of Sustainability",
+                "descr": "This talk explains – based on a comprehensive example on digital farming solutions – how System Engineering can be applied to understand causalities in Enterprise Systems and to come to meaningful strategic business decisions",
+                "author": "Chantal Sinnwell, Michael Bitzer (Siemens DISW)",
+                "year": "2023",
+                "language": "EN",
+                "topic": "Business Value",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+		"domain":"",
+                "domain_order": "",
+ 		"link": "https://youtu.be/DrleE6R5Li8",
+                "thumb": "images/thumbs/resources/capelladays2023_siemens.jpg"
+            },
+	{
+                "title": "Capella MBSE Integration for Robotic Arm Development",
+                "descr": "Redwire Space Europe trialled the Capella Model-Based Systems Engineering tool to capture higher level robotic needs, and task details and their relationship to lower level physical and functional models. Using Capella, we focused on formalizing Concept of Operations (ConOps) development for a robotics architecture that has a general physical architecture.",
+                "author": "Vinayak Vadlamani (Redwire Space Europe)",
+                "year": "2023",
+                "language": "EN",
+                "topic": "Business Value",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+		"domain":"Space",
+                "domain_order": "",
+ 		"link": "https://youtu.be/speha6u-Upo",
+                "thumb": "images/thumbs/resources/capelladays2023_redwire.jpg"
+            },
+	{
+                "title": "Enhance the Efficiency of Systems Engineering with a Tailoring of SE Processes and ARCADIA Method",
+                "descr": "The principle of the tailoring approach is to focus from 'generic' (coming from SE standards or general-purpose ARCADIA description or general-purpose usage of CAPELLA tool) down to a 'specific' (applicable by the project team for the objectives and the context of a real project).",
+                "author": "Bruno Vuillemin (Capgemini Engineering)",
+                "year": "2023",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+		"domain":"",
+                "domain_order": "",
+ 		"link": "https://youtu.be/eGUXapUU58U",
+                "thumb": "images/thumbs/resources/capelladays2023_capgemini.jpg"
+            },
+	{
+                "title": "In Pursuit of Robust Failure Mode Effects Analysis in the Design Phase",
+                "descr": "In this presentation, we describe how we relate three different failure classes to failure effects by relying particularly on the information in Exchange Scenario diagrams and illustrate an example of implementing such an method using a common system model in Capella.",
+                "author": "Steven Huang (ManTech), Alice Cellamare (p2m berlin)",
+                "year": "2023",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+		"domain":"",
+                "domain_order": "",
+ 		"link": "https://youtu.be/JJq9nOoXER8",
+                "thumb": "images/thumbs/resources/capelladays2023_p2m_mantech.jpg"
+            },
+	{
+                "title": "Efficient and Comprehensive FMECAs: Harnessing the Power of MBSE Models in Capella",
+                "descr": "Using a case study from the semiconductor equipment industry, this presentation describes a method of leveraging Capella MBSE models to streamline the generation of FMECAs. Utilizing Python4Capella, we automated the extraction of vital MBSE model objects and relationships, essential for generating an exhaustive FMECA, and seamlessly populated it into an MS Excel based FMECA template that is commonly used by the engineering community.",
+                "author": "Sushim Koshti, Neela Ayalasomayajula (Applied Materials) ",
+                "year": "2023",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+		"domain":"Manufacturing",
+                "domain_order": "",
+ 		"link": "https://youtu.be/WdjleBzWQ4w",
+                "thumb": "images/thumbs/resources/capelladays2023_amat.jpg"
+            },
+	{
+                "title": "Lean Startup with Capella MBSE",
+                "descr": "This presentation focuses on applying some of these Lean Startup techniques within Capella to effectively arrive at system architectures.",
+                "author": "Brent Bailey (StarFish Medical)",
+                "year": "2023",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+		"domain":"Healthcare",
+                "domain_order": "",
+ 		"link": "https://youtu.be/hDh8ulJwVyI",
+                "thumb": "images/thumbs/resources/capelladays2023_starfishmedical.jpg"
+            },
+	{
                 "title": "A Model Based System Architecture Methodology Leveraging the ARCADIA Method",
-                "descr": "",
+                "descr": "Dr Dano presents a methodology based on ARCADIA. He explains how this methodology takes advantage of ARCADIA as a framework to determine which views constitute the architectural model, on alignment with the IEEE 15288:2015 architecture standard.",
                 "author": "Dr. Eric Dano (George Washington University)",
                 "year": "2023",
                 "language": "EN",
@@ -161,7 +341,7 @@
 		"domain":"",
                 "domain_order": "",
  		"link": "https://youtu.be/--9Cnj3XJk0",
-                "thumb": ""
+                "thumb": "images/thumbs/resources/webinar_05102023.png"
             },
 	{
                 "title": "Digitally Assisted Design for Safety",
@@ -327,7 +507,7 @@
             },
 	{
                 "title": "Capella Community Survey 2022, the Results",
-                "descr": "",
+                "descr": "A survey conducted among the Capella community to gain insights into the usage of the workbench and the expectations surrounding Model-Based Systems Engineering (MBSE).",
                 "author": "Frédéric Madiot (Obeo)",
                 "year": "2023",
                 "language": "EN",
@@ -336,7 +516,7 @@
                 "type": "Article",
                 "type_order": "99",
                 "link": "https://blog.obeosoft.com/capella-community-survey-2022",
-                "thumb": ""
+                "thumb": "images/thumbs/resources/capella-community-survey-2022.png"
             },
             {
                 "title": "Wikipedia - Arcadia (Ingenieurwesen)",
@@ -366,7 +546,7 @@
             },
 	{
                 "title": "Assess the environmental impacts of your system architecture",
-                "descr": "",
+                "descr": "Performing a life cycle assessment (LCA) can help you precisely identify the types of impacts a system has, from the extraction of raw materials to its end-of-life phase. However, this is often a tedious process that involves inputting the system architecture into an LCA tool and mapping it to environmental databases. This makes it difficult to repeat the process multiple times for the same system. So why not reuse your Capella models to conduct LCAs?",
                 "author": "Arnaud Dieumegard (Obeo)",
                 "year": "2023",
                 "language": "EN",
@@ -379,7 +559,7 @@
             },
 	{
                 "title": "Cybersecurity Assets & Threats Modeling with Capella",
-                "descr": "",
+                "descr": "Discover Darc, a new Capella add-on that enables systems engineers to address cybersecurity concerns while defining system architectures: identify assets and trust boundaries, identify threats, characterize security needs.",
                 "author": "Juan Navas & Sophie Plazanet (Thales)",
                 "year": "2023",
                 "language": "EN",
@@ -1264,7 +1444,7 @@
             },
 	{
                 "title": "Challenges and Practical Solutions for MBSE",
-                "descr": "",
+                "descr": "With this blog post, my intent is to provide insights to people wishing to implement a Model-Based Systems Engineering (MBSE) approach. Without being a silver bullet, I hope you will find here food for thought to structure your MBSE projects.",
                 "author": "Samuel Rochet (Obeo)",
                 "year": "2021",
                 "language": "EN",
@@ -1273,7 +1453,7 @@
                 "type": "Article",
                 "type_order": "99",
                 "link": "https://blog.obeosoft.com/challenges-and-practical-solutions-for-mbse",
-                "thumb": ""
+                "thumb": "images/thumbs/resources/post-samuel-rochet-2021.png"
             },
 	{
                 "title": "Modeling & Simulation of CubeSat-based Missions' Concept of Operations",
@@ -1979,7 +2159,7 @@
                 "type": "Video",
                 "type_order": "6",
                 "link": "https://youtu.be/v5SxNNwcnGA",
-                "thumb": ""
+                "thumb": "images/thumbs/resources/capella-short-demo.png"
             },
             {
                 "title": "Autonomous Train Project",
@@ -2128,7 +2308,7 @@
                 "topic": "Learning More",
                 "topic_order": "9",
                 "type": "Video",
-                "type_order": "8",
+                "type_order": "99",
                 "link": "https://youtu.be/ZqvfSURUpIY",
                 "thumb": ""
             },
@@ -2156,7 +2336,7 @@
                 "type": "Video",
                 "type_order": "8",
                 "link": "https://youtu.be/K4eU8nj1nok",
-                "thumb": ""
+                "thumb": "images/thumbs/resources/webinar_20190702.png"
             },
             {
                 "title": "Introduction to MBSE",
@@ -2169,7 +2349,7 @@
                 "type": "Video",
                 "type_order": "9",
                 "link": "https://youtu.be/nv8IOg_xVMs",
-                "thumb": ""
+                "thumb": "images/thumbs/resources/introduction-to-mbse.png"
             },
 			{
                 "title": "Augmenting requirements with models to improve the articulation between system engineering levels and optimize V&V",
@@ -2245,7 +2425,7 @@
                 "topic": "Business Value",
                 "topic_order": "99",
                 "type": "Video",
-                "type_order": "3",
+                "type_order": "99",
                 "domain": "Avionics",
                 "domain_order": "99",
                 "link": "https://www.youtube.com/watch?v=njW_zdE_FzI",
@@ -2260,7 +2440,7 @@
                 "topic": "Learning More",
                 "topic_order": "99",
                 "type": "Video",
-                "type_order": "7",
+                "type_order": "99",
                 "link": "https://youtu.be/h-ax61eVlxM",
                 "thumb": ""
             },
@@ -2462,7 +2642,7 @@
                 "thumb": "images/thumbs/resources/thumb_case-study-rollsroyce.jpg"
             },
             {
-                "title": "Case-Study ArianeGroup - Model-Based Systems Engineering Must Become a Team Sport!!",
+                "title": "Model-Based Systems Engineering Must Become a Team Sport!!",
                 "descr": "Case-study by ArianeGroup. <br><br><a href='resources/pdf/Case_Study_ArianeGroup_ZH.pdf' target='_blank'>Read the Chinese Version <i class='fa fa-arrow-circle-right' aria-hidden='true'></i></a>",
                 "author": "Alain Huet (ArianeGroup)",
                 "year": "2017",
@@ -2477,7 +2657,7 @@
                 "thumb": "images/thumbs/resources/thumb_case-study-arianegroup.jpg"
             },
             {
-                "title": "Case-Study Continental - Driving Intelligent Transportation Systems with Capella",
+                "title": "Driving Intelligent Transportation Systems with Capella",
                 "descr": "Case-study by Continental Automotive. <br><br><a href='resources/pdf/Case_Study_Continental_ZH.pdf' target='_blank'>Read the Chinese Version <i class='fa fa-arrow-circle-right' aria-hidden='true'></i></a>",
                 "author": "Jérôme Montigny (Continental)",
                 "year": "2017",
@@ -3386,6 +3566,7 @@
             },
 		{
 		    "title": "Analysis of Safety Requirements Evolution in the Transportation Systems Toward Autonomy",
+		    "descr": "",
 		    "author": "Youssef Damak, Marija Jankovic, Yann Leroy, Bernard Yannou",
 		    "year": "2018",
 		    "language": "EN",
@@ -3395,7 +3576,9 @@
 		    "type_order": "99",
 		    "domain": "Automotive",
 		    "domain_order": "99",
-		    "link": "https://doi.org/10.21278/idc.2018.0448"
+		    "link": "https://doi.org/10.21278/idc.2018.0448",
+		    "thumb": ""
+
 		}           
         ]
     }

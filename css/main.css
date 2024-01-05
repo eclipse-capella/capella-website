@@ -695,6 +695,9 @@ border: 1px solid #ccc;
 article {
   padding: 30px 0;
 }
+p.descr {
+  margin-bottom: 20px;
+}
 .gallery {
   padding: 100px;
 }
