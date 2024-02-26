@@ -345,6 +345,21 @@
        },
        "tags":["requirements", "viewpoint"]
     }, 
+     { "name":"Textual Scenario Editor",
+       "showOnMainPage": true,
+       "isViewpoint": false,
+       "key":"textualeditor",
+       "licence":"EPL",
+       "compatibleWithCurrentVersion": true,
+       "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a>",
+       "description": "<p>Textual Scenario Editor allows to edit Capella Scenarios in textual mode. The addon allows the user to use a simple language to write the scenarios in textual mode and enables two-way synchronization between the textual scenario and the diagram.</p><p>For more information, please install the addon within Capella and check online help then dedicated section for the addon.</p>",
+       "download": { 
+        "release": "https://github.com/eclipse/capella-textual-editor/releases", 
+        "userManual": "https://github.com/eclipse/capella-textual-editor/wiki",
+        "installAddon": "https://github.com/eclipse/capella/blob/master/doc/plugins/org.polarsys.capella.ui.doc/html/Installation%20Guide/How%20to%20install%20Capella%20and%20Addons.mediawiki#Configuration_and_Extensibility"
+       },
+       "tags":["Textual", "Scenario"]
+    }, 
     { "name":"Basic Mass",
       "showOnMainPage": true,
       "isViewpoint": true,
