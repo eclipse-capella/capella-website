@@ -2387,7 +2387,7 @@
                 "topic_order": "5",
                 "type": "Documentation",
                 "type_order": "5",
-                "link": "https://github.com/eclipse/capella/wiki/User-manual",
+                "link": "https://github.com/eclipse-capella/capella/wiki/User-manual",
                 "thumb": ""
             },
             {
@@ -2413,7 +2413,7 @@
                 "topic_order": "99",
                 "type": "Documentation",
                 "type_order": "99",
-                "link": "https://github.com/eclipse/capella/wiki",
+                "link": "https://github.com/eclipse-capella/capella/wiki",
                 "thumb": ""
             },
             {
@@ -2968,7 +2968,7 @@
                 "topic_order": "2",
                 "type": "Documentation",
                 "type_order": "99",
-                "link": "https://github.com/eclipse/capella/wiki#factory-capella-development",
+                "link": "https://github.com/eclipse-capella/capella/wiki#factory-capella-development",
                 "thumb": "images/thumbs/resources/thumb_developers-technical-information.jpg"
             },
             {
@@ -2981,7 +2981,7 @@
                 "topic_order": "99",
                 "type": "Documentation",
                 "type_order": "99",
-                "link": "https://github.com/eclipse/capella/wiki/Tutorials",
+                "link": "https://github.com/eclipse-capella/capella/wiki/Tutorials",
                 "thumb": ""
             },
             {
@@ -2994,7 +2994,7 @@
                 "topic_order": "3",
                 "type": "Other",
                 "type_order": "2",
-                "link": "https://github.com/eclipse/capella.git",
+                "link": "https://github.com/eclipse-capella/capella.git",
                 "thumb": "images/thumbs/resources/thumb_capella-source-code.jpg"
             },
              {
@@ -3115,7 +3115,7 @@
                 "topic_order": "99",
                 "type": "Documentation",
                 "type_order": "7",
-                "link": "https://github.com/eclipse/capella/blob/master/doc/plugins/org.polarsys.capella.ui.doc/html/Installation%20Guide/How%20to%20install%20Capella%20and%20Addons.mediawiki#table-of-contents",
+                "link": "https://github.com/eclipse-capella/capella/blob/master/doc/plugins/org.polarsys.capella.ui.doc/html/Installation%20Guide/How%20to%20install%20Capella%20and%20Addons.mediawiki#table-of-contents",
                 "thumb": ""
             },
             {
@@ -3338,7 +3338,7 @@
                 "topic_order": "3",
                 "type": "Other",
                 "type_order": "99",
-                "link": "https://github.com/eclipse/capella/wiki/Repositories",
+                "link": "https://github.com/eclipse-capella/capella/wiki/Repositories",
                 "thumb": "images/thumbs/resources/thumb_capella-bugzilla.jpg"
             },
             {
@@ -3481,7 +3481,7 @@
                 "topic_order": "99",
                 "type": "Documentation",
                 "type_order": "99",
-                "link": "https://github.com/eclipse/capella-basic-vp/wiki",
+                "link": "https://github.com/eclipse-capella/capella-basic-vp/wiki",
                 "thumb": ""
             },
             {
