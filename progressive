@@ -1042,7 +1042,7 @@
 							<div id="5_13" class="accordion-body collapse" style="height: 0px;">
 								<div class="accordion-inner">
 									<p>In some cases, system and actors can be intricated in a complex manner and system boundaries not so clear, with respect to behavioral components (BC) deployment on implementation components (IC).</p>
-									<img src="images/arcadia/system-and-actor.png" width="800">
+									<img src="images/arcadia/system-and-actor.png" alt="System and Actor - Capella Diagram" width="800">
 									<p>Let us consider 4 use cases (numbered 1 to 4):</p>
 									<ul>
 										<li>UC #1 is traditional: BC (in blue) hosted by IC (in red), both inside the system, and to be integrated/delivered.</li>
@@ -1211,9 +1211,9 @@
 										<li>iterative or incremental processes,</li>
 										<li>...</li>
 									</ul>
-									<p>Furthermore, in real life conditions, iterations and loops are necessary between all engineering activities, yet they are not explicitly represented in Arcadia processes for sake of simplicity.</p>
+									<p>Furthermore, in real-life conditions, iterations and loops are necessary between all engineering activities, yet they are not explicitly represented in Arcadia processes for sake of simplicity.</p>
 									<p>Consequently, although the workflow may appear to be straightforward, activities may be carried out in a different order; however, for best quality of engineering results, <em>each activity should not be fully completed without having checked its outcome against its expected entries and dependencies, for consistency</em>.</p>
-									<img src="images/arcadia/progressive-building.png" width="600">
+									<img src="images/arcadia/progressive-building.png" alt="Progressive building of a system model" width="600">
 									<p>This mainly depends on the process that you want to promote, which itself depends on the specificities of your engineering practices.</p>
 									<p>For example, when modeling is introduced into an existing engineering process (evolutions of an existing product, significant reuse of already developed elements), it is easier to parallelize the construction of perspectives since the information already exists, and the means of justifying the design are not a priority.<br />It is just necessary to ensure overall consistency between perspectives and viewpoints, but the existing know-how explains how to do it, and we are rather in a bottom-up approach, particularly to rebuild levels of abstraction and need from a detailed existing product.</p>
 									<p>Conversely, in the definition of new products or functions or architectures (or parts of them), the construction logic is essential. Here, each perspective must be justified and checked to ensure that it conforms to the expectations of the previous ones, and the dependencies are strong: it is not possible to effectively define the architecture or interfaces without referring to the functional aspects, for example. Furthermore, the verification of needs is essential, and therefore operational analysis is essential, as well as the link with the system need analysis.</p>
