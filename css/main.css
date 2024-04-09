@@ -249,7 +249,7 @@ section {
   margin-bottom: 15px;
   text-transform: uppercase;
 }
-.hero-area h2, h3 {
+.hero-area h2, .hero-area h3 {
   font-family: 'LatoWebLight', sans-serif;
   color:#fff;
   margin-bottom: 38px;
