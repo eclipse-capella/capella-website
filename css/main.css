@@ -1049,6 +1049,7 @@ color: #a94442;
 	border: 1px solid #FBBF52;
 	background-color: transparent;
 	color: #FBBF52;
+	letter-spacing: 2px;
 }
 .btn-outline:hover {
 	border: 1px solid #292253;
