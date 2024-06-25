@@ -4,6 +4,18 @@
     {
         "items":[
 		{
+            "title": "Working in a Multi-user Mode with Team for Capella",
+			"date": "June 2024",
+			"anchor": "2024_06_20",
+            "author": "Maxime Porhel (Obeo)",
+            "language": "EN",
+            "descr": "<p>Working with Capella models traditionally involves managing files, which requires careful coordination among team members to handle concurrent work. This often means having to establish strategies for reserving files or resolving conflicts after changes overlap.</p><p>By switching to multi-user mode in Capella, you can significantly enhance collaboration among your team of systems architects. This mode helps avoid the tedious management of file differences and reduces the risk of data loss.</p><p>Multi-user mode allows team members to work simultaneously and safely on the same model by using:</p><ul><li>A shared repository installed on a server to store the Capella model.</li><li>An add-on in your Capella workbench, activating a fine-grained locking mechanism that reserves model elements being edited.</li></ul><p>These components work in sync to automatically release locks when modifications are saved and make them available to all connected users.</p><p>During this webinar you will discover Team for Capella, an add-on that implements this approach to provide a seamless multi-user experience.</p>",
+            "bio": "<p><i><span class='txt_indigo'>Maxime Porhel</span> is Product Lead of Team for Capella, Cloud for Capella and Obeo Designer Team Edition at Obeo. He has been involved in Sirius Development, Sequence Diagram and is now in charge of the collaborative layer components integrated in Obeo's products. He graduated from ENSTA Bretagne, a French State Engineering School.</i></p>",
+            "utube_link": "soon",
+	    "slides_link": "soon",
+	    "tag": ["add-on","collaboration"]
+        },
+		{
             "title": "Adopting Model-Based Practices with Capella and TASTE for Student-Developed CubeSat Systems",
 			"date": "June 2024",
 			"anchor": "2024_06_06",
@@ -11,7 +23,7 @@
             "language": "EN",
             "descr": "<p>In today's transforming industry, Model-Based approaches are often seen as an add-on, further complicating the already complex work of systems engineering and software development. But what if it did not have to be this way?</p><p>At GU Orbit, we have adopted the Arcadia method exactly to make the process of engineering complex space systems more accessible to undergraduate students. With its multi-level workflow, repetitive activities, and opinionated semantics enforced by the Capella tool, it effectively guides even inexperienced users in the design of rational systems. Additionally, taking advantage of its semantic similarity to the European Space Agency's TASTE toolchain for embedded software development, we have devised an overarching methodology to rigorously bridge the gap between high-level system specifications and low-level component code.</p><p>This Arcadia-based method comprises the entire systems engineering lifecycle in a unified V-shaped model. The design phase is performed in Capella, regularly traversing all main functional decomposition levels. Specific physical-level views are then used to translate the resulting model into TASTE, trivialising the implementation phase down to individual lines of code in the Specification and Description Language (SDL, ITU-T Z.100) and C/C++. Finally, the verification and validation phases are carried out at all levels of abstraction by comparing specific TASTE-generated diagrams, such as State Chart Views and Message Sequence Charts (MSC, ITU-T Z.120), against their Capella-defined counterparts.</p><p>In this webinar, we will illustrate this method in the context of GU Orbit's student-led development of autonomous nanosatellite avionics, which were successfully demonstrated during an early stratospheric balloon flight.</p>",
             "bio": "<p><i><span class='txt_indigo'>Giorgio Ciacchella</span> is Project Manager and Systems Engineer at GU Orbit. He is a Masters' student of Electronic and Software Engineering at the University of Glasgow, where he leads the local nanosatellite club GU Orbit. During his 3 years of involvement, he has been responsible for the adoption of MBSE practices and their application to the design of the avionics architecture, the development of critical flight software, and their deployment on a successful sounding balloon mission. He is interested in research and development on formal, model-based methods and tools for systems and software engineering, particularly targeting the embedded domain; his first publication (An Open-Source Method for Model-Based Development of Embedded Systems: Experience Report from a CubeSat Student Project) was awarded as the best work in its category at the 2023 International Astronautical Congress.</i></p>",
-            "utube_link": "soon",
+            "utube_link": "https://youtu.be/pJ6uNE4Ow38?si=vGDl84uN8jLy_tXE",
 	    "slides_link": "resources/pdf/webinars/20240606_CapellaWebinar_Slides_Speaker.pdf",
 	    "tag": ["cas-study","space","academic"]
         },
