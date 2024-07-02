@@ -25,7 +25,7 @@
             "bio": "<p><i><span class='txt_indigo'>Giorgio Ciacchella</span> is Project Manager and Systems Engineer at GU Orbit. He is a Masters' student of Electronic and Software Engineering at the University of Glasgow, where he leads the local nanosatellite club GU Orbit. During his 3 years of involvement, he has been responsible for the adoption of MBSE practices and their application to the design of the avionics architecture, the development of critical flight software, and their deployment on a successful sounding balloon mission. He is interested in research and development on formal, model-based methods and tools for systems and software engineering, particularly targeting the embedded domain; his first publication (An Open-Source Method for Model-Based Development of Embedded Systems: Experience Report from a CubeSat Student Project) was awarded as the best work in its category at the 2023 International Astronautical Congress.</i></p>",
             "utube_link": "https://youtu.be/pJ6uNE4Ow38?si=vGDl84uN8jLy_tXE",
 	    "slides_link": "resources/pdf/webinars/20240606_CapellaWebinar_Slides_Speaker.pdf",
-	    "tag": ["cas-study","space","academic"]
+	    "tag": ["case-study","space","academic"]
         },
 		{
             "title": "Powering Capella Champions: Enablers for Effective Model Authoring and Utilization",
