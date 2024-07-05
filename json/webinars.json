@@ -11,8 +11,8 @@
             "language": "EN",
             "descr": "<p>Working with Capella models traditionally involves managing files, which requires careful coordination among team members to handle concurrent work. This often means having to establish strategies for reserving files or resolving conflicts after changes overlap.</p><p>By switching to multi-user mode in Capella, you can significantly enhance collaboration among your team of systems architects. This mode helps avoid the tedious management of file differences and reduces the risk of data loss.</p><p>Multi-user mode allows team members to work simultaneously and safely on the same model by using:</p><ul><li>A shared repository installed on a server to store the Capella model.</li><li>An add-on in your Capella workbench, activating a fine-grained locking mechanism that reserves model elements being edited.</li></ul><p>These components work in sync to automatically release locks when modifications are saved and make them available to all connected users.</p><p>During this webinar you will discover Team for Capella, an add-on that implements this approach to provide a seamless multi-user experience.</p>",
             "bio": "<p><i><span class='txt_indigo'>Maxime Porhel</span> is Product Lead of Team for Capella, Cloud for Capella and Obeo Designer Team Edition at Obeo. He has been involved in Sirius Development, Sequence Diagram and is now in charge of the collaborative layer components integrated in Obeo's products. He graduated from ENSTA Bretagne, a French State Engineering School.</i></p>",
-            "utube_link": "soon",
-	    "slides_link": "soon",
+            "utube_link": "https://youtu.be/IFM4nbvC2Pw",
+	    "slides_link": "resources/pdf/webinars/20240620_CapellaWebinar_Slides_Speaker.pdf",
 	    "tag": ["add-on","collaboration"]
         },
 		{
