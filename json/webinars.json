@@ -4,6 +4,18 @@
     {
         "items":[
 		{
+            "title": "Optimize Architecture by Generating N<sup>2</sup> Design Structure Matrices with DSM4Capella",
+			"date": "July 2024",
+			"anchor": "2024_07_11",
+            "author": "Sébastien Dubé & Mirna Ojeda (Samares Engineering)",
+            "language": "EN",
+            "descr": "<p>We propose in this webinar the presentation of our implementation of DSM/N2 matrices applied to Capella Logical Architecture and use it as optimization technique for logical functions to components allocation.</p><p>Our implementation is the DSM4Capella add-on, proposed as open-source in LabsCapella.</p>",
+            "bio": "<p><i><span class='txt_indigo'>Sébastien Dubé</span></i><p><ul><li>24 years experience in Systems and Embedded Software Engineering.</li><li>Chief Technical Officer and Senior Consultant in Systems Engineering.</li><li>Provide Training, Support, Coaching services on MBSE topics for Capella/ARCADIA and SysML language. Manage the Samares Research activities.</li></ul><p><i><span class='txt_indigo'>Mirna Ojeda</span></i><p><ul><li>3 years experience in Systems Engineering and MBSE.</li><li>Systems Engineering Consultant.</li><li>Provide Training and support on MBSE (Capella and SysML), develop internal MBSE extensions using Python language.</li></ul>",
+            "utube_link": "soon",
+	    "slides_link": "resources/pdf/webinars/20240711_CapellaWebinar_Slides_Speaker.pdf",
+	    "tag": ["add-on","optimization"]
+        },
+		{
             "title": "Working in a Multi-user Mode with Team for Capella",
 			"date": "June 2024",
 			"anchor": "2024_06_20",
