@@ -410,6 +410,22 @@
       },
       "tags":["viewpoint"]
     },
+    { "name":"Basic Requirements",
+      "showOnMainPage": true,
+      "isViewpoint": true,
+      "isSample": true,
+      "key":"BASICREQ",
+      "licence":"EPL",
+      "compatibleWithCurrentVersion": true,
+      "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a>",
+      "description": "<p>Basic Requirement is an addon to manage and apply requirements on your capella models. It shall not be confused with requirement-vp and only provides basic requirement capabilities. </p><p>For more information, please visit <a href='https://github.com/eclipse-capella/capella-basic-vp/wiki/Basic-Requirement-Viewpoint'>wiki page</a>.</p>",
+      "download": { 
+        "release": "https://github.com/eclipse-capella/capella-basic-vp/releases",
+        "userManual": "https://github.com/eclipse-capella/capella-basic-vp/wiki/Basic-Requirement-Viewpoint",
+        "installAddon": "https://github.com/eclipse-capella/capella/blob/master/doc/plugins/org.polarsys.capella.ui.doc/html/Installation%20Guide/How%20to%20install%20Capella%20and%20Addons.mediawiki#Configuration_and_Extensibility"
+      },
+      "tags":["viewpoint"]
+    },
     { "name":"Python4Capella",
       "key":"PYTHON",
       "isLabs": false,
