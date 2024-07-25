@@ -149,6 +149,21 @@
         "items":[
         
 	{
+                "title": "Optimize Architecture by Generating N2 Design Structure Matrices with DSM4Capella",
+                "descr": "We propose in this webinar the presentation of our implementation of DSM/N2 matrices applied to Capella Logical Architecture and use it as optimization technique for logical functions to components allocation. Our implementation is the DSM4Capella add-on, proposed as open-source in LabsCapella.",
+                "author": "Sébastien Dubé & Mirna Ojeda (Samares Engineering)",
+                "year": "2024",
+                "language": "EN",
+                "topic": "Add-ons",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+		"domain":"",
+                "domain_order": "",
+ 		"link": "resources/pdf/webinars/20240711_CapellaWebinar_Slides_Speaker.pdf",
+                "thumb": "images/thumbs/resources/webinar_20240711.jpg"
+            },
+	{
                 "title": "Implementation of Model Based Systems Engineering in the Design of Production System Operations",
                 "descr": "",
                 "author": "Kirtan Premprakash Patel (a KTH Royal Institute of Technology), Brendan P. Sullivan (Politecnico di Milano)",
