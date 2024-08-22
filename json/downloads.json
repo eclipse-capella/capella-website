@@ -24,6 +24,7 @@
     "name": "Capella",
     "key": "Capella",
     "version": "7.0",
+    "releaseNotes": "https://github.com/eclipse/capella/wiki/Release-Notes-7.0.0",
     "links": {
       "windows": {
         "main": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/7.0.0/capella-7.0.0.202407091438-win32-win32-x86_64.zip"

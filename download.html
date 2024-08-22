@@ -122,12 +122,11 @@
                         <figure class="wow fadeInLeft animated" data-wow-duration="300ms" data-wow-delay="300ms">
                             <div class="linksSection">
                                 <h4 class="txt_white">Resources</h4>
-           	     				<p class="wow fadeInUp animated" data-wow-delay=".2s" ><a href="https://github.com/eclipse-capella/capella/blob/master/doc/plugins/org.polarsys.capella.ui.doc/html/Installation Guide/How to install Capella and Addons.mediawiki#table-of-contents">Installation <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
-           	     				<p class="wow fadeInUp animated" data-wow-delay=".3s"><a href="getstarted.html">Getting Started <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
-           	     				<p class="wow fadeInUp animated" data-wow-delay=".4s"><a href="https://github.com/eclipse-capella/capella">Source Code <i class="fa fa-github" aria-hidden="true"></i></a></p>
-								<p class="wow fadeInUp animated" data-wow-delay=".5s"><a href="support.html" target="_self">Documentation <i class="fa fa-fexternal-link" aria-hidden="true"></i></a></p>
-								<p class="wow fadeInUp animated" data-wow-delay=".6s"><a href="https://github.com/eclipse-capella/capella/wiki">Nightly Versions <i class="fa fa-external-link" aria-hidden="true"></i></a> <button class="fa fa-info-circle btn-link btn-xs" role="button"  data-toggle="popover" data-trigger="focus" data-placement="bottom" data-content="Nightly versions integrate the latest developments to test before official releases."></button></p>
-								<p class="wow fadeInUp animated" data-wow-delay=".7s"><a href="https://github.com/eclipse-capella/capella/releases">Previous Versions <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+           	     				<p class="wow fadeInUp animated" data-wow-delay=".2s"><a href="getstarted.html">Getting Started</a></p>
+           	     				<p class="wow fadeInUp animated" data-wow-delay=".3s" ><a href="https://github.com/eclipse-capella/capella/blob/master/doc/plugins/org.polarsys.capella.ui.doc/html/Installation Guide/How to install Capella and Addons.mediawiki#table-of-contents">Installation <i class="fa fa-file-text" aria-hidden="true"></i></a></p>
+								<p class="wow fadeInUp animated" data-wow-delay=".4s"><a href="support.html" target="_self">Help & Support</i></a></p>
+           	     				<p class="wow fadeInUp animated" data-wow-delay=".5s"><a href="https://github.com/eclipse-capella/capella">Source Code <i class="fa fa-github" aria-hidden="true"></i></a></p>
+								<p class="wow fadeInUp animated" data-wow-delay=".6s"><a href="https://github.com/eclipse-capella/capella/releases">All Versions <i class="fa fa fa-github" aria-hidden="true"></i></a></p>
                             </div>
                         </figure>
                     </div>
@@ -245,6 +244,10 @@
 						let title = "Get {0} {1} for {2} {3}".format(product.name, product.version, data.lang[mainId].text, data.lang["main"].text);
                         let mainLink = '<p><a class="wow fadeInUp animated btn btn-default animated" data-wow-delay=".6s" href="{0}" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;" onClick="ga(\'send\', \'event\', \'{1}\', \'{2}\', \'{3}\');"><i class="fa fa-download" aria-hidden="true"></i> {4}</a></p>'.format(product.links[mainId].main, product.key, data.versionBranch, data.lang[mainId].key, title);
                         document.getElementById(mainLinkId).innerHTML += mainLink;
+                        let releaseNotes = product.releaseNotes;
+                        if (releaseNotes != "") {
+	                        document.getElementById(mainLinkId).innerHTML += '<p class="wow fadeInUp animated download-section" data-wow-delay=".6s"><a href="' + releaseNotes + '">Release Notes&nbsp;<i class="fa fa-github" aria-hidden="true"></i></a></p>';
+	                    }
                     }
 
                     function updatePlatformLinks(platformLinksId, data, product) {
