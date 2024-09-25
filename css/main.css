@@ -128,7 +128,7 @@ color: #292253;
 }
 .btn-default.active, .btn-default.focus, .btn-default:active, .btn-default:focus, .btn-default:hover, .open>.dropdown-toggle.btn-default
 {
-	color: #FBBF52;
+    color: #FBBF52;
     background-color: #292253;
 }
 section {
@@ -747,7 +747,7 @@ p.descr {
   background: #fff;
 }
 .navbar-toggle {
-  background: #000;
+  background: #292253;
 }
 .dropdown-menu > ul {
   list-style: none;
@@ -1155,16 +1155,10 @@ margin-top: 90px;
     text-align: center;
 }
 #event_c2a_banner .logo img {
-    max-width: 100%;
-    height: auto;
+    width: 220px;
 }
-#event_c2a_banner .phrase p {
-    font-size: 1.2em;
+#event_c2a_banner .column p {
+    font-size: 18px;
     margin: 0;
 }
-#event_c2a_banner .links p {
-    margin: 0;
-}
-
-
 
