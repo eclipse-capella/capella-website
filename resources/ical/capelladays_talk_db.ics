@@ -384,19 +384,19 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-CREATED:20241011T132158Z
-LAST-MODIFIED:20241011T132439Z
-DTSTAMP:20241011T132439Z
-UID:936c5326-068e-436c-86ab-28680b4aae48
-SUMMARY:Capella Days - Adoption of ARCADIA and Capella to Develop an Elimin
- ation Process of Radioactive Waste by Melting
-DTSTART;TZID=Europe/Paris:20241119T153500
-DTEND;TZID=Europe/Paris:20241119T162500
+CREATED:20240926T144518Z
+LAST-MODIFIED:20240926T144630Z
+DTSTAMP:20240926T144630Z
+UID:5f5f6360-69b7-4f01-b375-86062d0e58a4
+SUMMARY:Capella Days - Accelerating Railway Digitization: Scaling Up MBSE i
+ n a High-Paced Organization
+DTSTART;TZID=Europe/Paris:20241121T153500
+DTEND;TZID=Europe/Paris:20241121T162500
 TRANSP:OPAQUE
-LOCATION:https://www.bigmarker.com/obeo/Capella-Days-2024-Session-1
+LOCATION:https://www.bigmarker.com/obeo/Capella-Days-2024-Session-4
 DESCRIPTION;ALTREP="data:text/html,https%3A%2F%2Fmbse-capella.org%2Fcapella
- _days_2024.html%23talk_cern":https://mbse-capella.org/capella_days_2024.htm
- l#talk_cern
+ _days_2024.html%23talk_db":https://mbse-capella.org/capella_days_2024.html#
+ talk_db
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M

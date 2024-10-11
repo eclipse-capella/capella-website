@@ -384,19 +384,19 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-CREATED:20241011T132158Z
-LAST-MODIFIED:20241011T132439Z
-DTSTAMP:20241011T132439Z
-UID:936c5326-068e-436c-86ab-28680b4aae48
-SUMMARY:Capella Days - Adoption of ARCADIA and Capella to Develop an Elimin
- ation Process of Radioactive Waste by Melting
-DTSTART;TZID=Europe/Paris:20241119T153500
-DTEND;TZID=Europe/Paris:20241119T162500
+CREATED:20240926T140136Z
+LAST-MODIFIED:20240926T140309Z
+DTSTAMP:20240926T140309Z
+UID:f735864d-8d4d-4f15-8952-f45b53dd255b
+SUMMARY:Capella Days - Implementing Systems Engineering in Brazilian Synchr
+ otron: A Workflow for Enhanced Beamline Design
+DTSTART;TZID=Europe/Paris:20241119T171500
+DTEND;TZID=Europe/Paris:20241119T180500
 TRANSP:OPAQUE
 LOCATION:https://www.bigmarker.com/obeo/Capella-Days-2024-Session-1
 DESCRIPTION;ALTREP="data:text/html,https%3A%2F%2Fmbse-capella.org%2Fcapella
- _days_2024.html%23talk_cern":https://mbse-capella.org/capella_days_2024.htm
- l#talk_cern
+ _days_2024.html%23talk_cnpem":https://mbse-capella.org/capella_days_2024.ht
+ ml#talk_cnpem
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT10M
