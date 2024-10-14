@@ -11,7 +11,7 @@
             "language": "EN",
             "descr": "<p>With the Arcadia method implemented by Capella, engineering is considered through three interrelated activities of equal importance:</p><ul><li>Requirements engineering</li><li>Need analysis and modelling</li><li>Architecture building and validation</li></ul><p>The first is generally conducted with a Requirements Management tool (such as Doors or Polarion), while the last two are conducted with Capella.</p><p>Using different tools raises questions about efficiently maintaining consistency and alignment between the architecture models and the requirements, and exposing a consistent integrated view of this interrelated data.</p><p>During this webinar, you will see how the Publication for Capella add-on enables publishing Capella models on a web server and connecting them with requirements, change requests, test cases, releases, and more, defined in third-party repositories.</p><p>This solution breaks down silos between teams by providing online access to an integrated view of your system architecture. It facilitates your engineering teams' ability to reuse work items and system elements in a consistent and aligned process.</p>",
             "bio": "<p><i><span class='txt_indigo'>Laurent Delaigue</span></i> si Product Lead at Obeo</p>",
-            "utube_link": "soon",
+            "utube_link": "https://youtu.be/LFW6uToCWTI",
 	    "slides_link": "resources/pdf/webinars/20240926_CapellaWebinar_Slides_Obeo.pdf",
 	    "tag": ["add-on","collaboration","requirements"]
         },
