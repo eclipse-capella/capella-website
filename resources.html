@@ -146,7 +146,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							var category_anchor = " ";
 							var title = " ";
 							var descr = " ";
-							category_anchor = "<div class='col-md-2 col-xs-12'><a class='wow smooth-scroll' href='resources.html#topic-" + data.resources.topics[i].anchor + "' data-row='#topic-" + data.resources.topics[i].anchor + "'><img src='" + data.resources.topics[i].icon + "' /><p>" + data.resources.topics[i].title + "</p></a></div>";
+							category_anchor = "<div class='col-md-2 col-xs-12'><a class='wow smooth-scroll' href='resources.html#topic-" + data.resources.topics[i].anchor + "' data-row='#topic-" + data.resources.topics[i].anchor + "'><img src='" + data.resources.topics[i].icon + "'  width='80'/><p>" + data.resources.topics[i].title + "</p></a></div>";
 							title += "<h3>" + data.resources.topics[i].title + "</h3>";
 							descr += "<span class='descr txt_indigo'>" + data.resources.topics[i].descr + "</span><span class='fas fa-caret-down txt_yellow'>&nbsp;</span></a></div>";
 							accordion_heading += "<div class='accordion-heading'><a class='accordion-toggle collapsed' data-toggle='collapse' data-parent='#types_accordion' href='#"
@@ -193,7 +193,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 										accordion_inner += "<div class='accordion-inner with_thumb'><div class='col-md-8 col-xs-8'><h4 class='linked_title'><a href='"
 											+ data.resources.items[j].link + "' target='_blank'>"
 											+ data.resources.items[j].title + "</a></h4><p class='descr'>" + item_icon + data.resources.items[j].type + item_infos + " | " + data.resources.items[j].language + "</p>" + item_descr + "</div><div class='col-md-4 col-xs-12'><a href='"
-											+ data.resources.items[j].link + "' target='_blank'><img src='" + data.resources.items[j].thumb + "' alt='" + data.resources.items[j].title + "' /></a></div><div class='clearfix'></div></div>";
+											+ data.resources.items[j].link + "' target='_blank'><img src='" + data.resources.items[j].thumb + "' alt='" + data.resources.items[j].title + " /></a></div><div class='clearfix'></div></div>";
 									}
 									else{
 										accordion_inner += "<div class='accordion-inner'><h4 class='linked_title'><a href='"
@@ -214,7 +214,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							var category_anchor = " ";
 							var title = " ";
 							var descr = " ";
-							category_anchor = "<div class='col-md-2 col-xs-12'><a class='wow smooth-scroll' href='resources.html#type-" + data.resources.types[k].anchor + "' data-row='#type-" + data.resources.types[k].anchor + "'><img src='" + data.resources.types[k].icon + "' /><p>" + data.resources.types[k].title + "</p></a></div>";
+							category_anchor = "<div class='col-md-2 col-xs-12'><a class='wow smooth-scroll' href='resources.html#type-" + data.resources.types[k].anchor + "' data-row='#type-" + data.resources.types[k].anchor + "'><img src='" + data.resources.types[k].icon + "'  width='80'/><p>" + data.resources.types[k].title + "</p></a></div>";
 							title += "<h3>" + data.resources.types[k].title + "</h3>";
 							descr += "<span class='descr txt_indigo'>" + data.resources.types[k].descr + "</span><span class='fas fa-caret-down txt_yellow'>&nbsp;</span></a></div>";
 							accordion_heading += "<div class='accordion-heading'><a class='accordion-toggle collapsed' data-toggle='collapse' data-parent='#topics_accordion' href='#"

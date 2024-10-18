@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Hat" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 300 300">
+  <!-- Generator: Adobe Illustrator 29.0.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 186)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #292357;
+      }
+
+      .st1 {
+        stroke: #fbb809;
+      }
+
+      .st1, .st2 {
+        fill: none;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+      .st2 {
+        stroke: #292357;
+      }
+
+      .st3 {
+        fill: #fbb809;
+      }
+    </style>
+  </defs>
+  <path class="st2" d="M17,122.6c-9.3-5.5-9.3-14.6,0-20.1l10.7-6.5,17.7-10.7,56.3-34,31.8-19.2c8.9-5.5,23.8-5.5,33.2,0l116.4,70.5c9.3,5.5,9.3,14.6-.5,20.6l-21.5,13.1"/>
+  <path class="st2" d="M47.5,141l86,52c9.3,5.5,24.3,5.5,33.2,0l60.3-36.3"/>
+  <path class="st1" d="M151.5,117.4c44.2,6.9,81.1,20.4,90.4,30.4,21.7,23.3,16.8,56.3,12.9,95.3"/>
+  <rect class="st3" x="244.1" y="213.9" width="28.1" height="58.2" rx="1.1" ry="1.1"/>
+  <path id="path4837" class="st0" d="M57.3,177.8c6.5,28.2,15,40.8,42.5,53.8,27.6,13.1,40.7,27.2,51.4,27.2s16.5-6.7,31.4-15.3c5.5-3.1,11.7-6.5,19.1-9.9,27.6-13.1,20.1-17.1,26.6-45.3l-77.6,40.8-93.5-51.3"/>
+</svg>

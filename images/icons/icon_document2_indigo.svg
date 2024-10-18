@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="graphic_x5F_doc" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 300 300">
+  <!-- Generator: Adobe Illustrator 29.0.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 186)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #fbb800;
+      }
+
+      .st1 {
+        fill: #261e58;
+      }
+
+      .st2 {
+        fill: none;
+        stroke: #261e58;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+  <path class="st2" d="M256.2,240.2V95.7h-90V10H43.8v39.5"/>
+  <path class="st2" d="M43.8,75v215h212.5v-21.7"/>
+  <g id="g4624">
+    <polyline class="st2" points="111.9 57.7 166.2 57.7 166.2 83.1 68.1 83.1 68.1 57.7 92.4 57.7"/>
+  </g>
+  <polygon class="st0" points="182.1 10 256.2 79.7 182.1 79.7 182.1 10"/>
+  <path class="st1" d="M144.8,221.8v-41.4c-22.9,0-41.4,18.5-41.4,41.4s18.5,41.4,41.4,41.4,41.4-18.5,41.4-41.4h-41.4Z"/>
+  <path class="st2" d="M200.1,207.6c0-22.9-18.5-41.4-41.4-41.4v41.4h41.4Z"/>
+  <polyline class="st2" points="68.1 119.4 68.1 112.2 89.9 112.2 235.7 112.2 235.7 138.1"/>
+  <polyline class="st2" points="202.3 138.1 68.1 138.1 68.1 132.3"/>
+</svg>

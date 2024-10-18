@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="linkedin" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 300 300">
+  <!-- Generator: Adobe Illustrator 29.0.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 186)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #fbb800;
+      }
+
+      .st1 {
+        fill: #261e58;
+      }
+
+      .st2 {
+        fill: none;
+        stroke: #261e58;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+  <polyline class="st2" points="64.2 290 10 290 10 108.8"/>
+  <polyline class="st2" points="290 261.6 290 290 101.8 290"/>
+  <polyline class="st2" points="10 70.3 10 10 290 10 290 223.5"/>
+  <rect class="st2" x="68.3" y="103.3" width="35" height="128.3"/>
+  <path class="st1" d="M161.7,124.5v-20.6h-35v128.3h35v-65.4c0-36.3,46.7-39.3,46.7,0v65.4h35v-78.9c0-61.3-65.4-59.1-81.7-28.9h0Z"/>
+  <circle class="st0" cx="85.8" cy="69.2" r="20.6"/>
+</svg>

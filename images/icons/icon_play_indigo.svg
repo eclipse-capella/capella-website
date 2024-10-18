@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Play" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 300 300">
+  <!-- Generator: Adobe Illustrator 29.0.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 186)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #292357;
+      }
+
+      .st1 {
+        fill: none;
+        stroke: #292357;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+      .st2 {
+        fill: #fbb809;
+      }
+    </style>
+  </defs>
+  <rect class="st2" x="60.9" y="167.9" width="29.8" height="73.2" rx="1.1" ry="1.1"/>
+  <path class="st1" d="M92.1,23C43.9,45.8,10.2,93.1,10,149.5c-.3,77.4,61.6,139.5,139,140.1,52,.4,97.5-27.6,121.9-69.3"/>
+  <path class="st1" d="M285.4,185.4c3-11.3,4.6-23.2,4.6-35.4,0-77.2-58.6-139.7-139.8-139.6-3.4,0-12.4.5-20.2,1.4"/>
+  <path id="path5140" class="st0" d="M236.4,143.3l-112.8-69.8c-8.3-5.5-15-1.6-15,8.7v135.3c0,10.3,6.7,14.2,15,8.7l112.8-69.8s3.9-2.8,3.9-6.7-3.9-6.3-3.9-6.3"/>
+</svg>

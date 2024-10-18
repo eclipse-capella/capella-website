@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="house" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 300 300">
+  <!-- Generator: Adobe Illustrator 29.0.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 186)  -->
+  <defs>
+    <style>
+      .st0, .st1 {
+        fill: none;
+      }
+
+      .st2 {
+        fill: #fbb800;
+      }
+
+      .st3 {
+        fill: #261e58;
+      }
+
+      .st1 {
+        stroke: #261e58;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+  <polygon class="st2" points="243.3 92.8 208.3 57.8 208.3 33.4 243.3 33.4 243.3 92.8"/>
+  <polyline class="st1" points="196.3 278.3 45 278.3 45 161.7"/>
+  <polyline class="st1" points="255 161.7 255 278.3 233.5 278.3"/>
+  <polyline class="st1" points="82.4 89.4 150 21.7 290 161.7"/>
+  <line class="st1" x1="10" y1="161.7" x2="56.6" y2="115.1"/>
+  <rect class="st0" x="126.7" y="185.1" width="46.7" height="70"/>
+  <rect class="st3" x="126.7" y="185.1" width="46.7" height="70"/>
+</svg>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Wifi" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 300 300">
+  <!-- Generator: Adobe Illustrator 29.0.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 186)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #292357;
+      }
+
+      .st1 {
+        fill: none;
+        stroke: #292357;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+      .st2 {
+        fill: #fbb809;
+      }
+    </style>
+  </defs>
+  <path class="st0" d="M35.2,74.7c32.1-24.1,71.4-38.6,114.1-39.1,54.7-.7,104.4,21.5,140.7,57.9l-23.5,24.8c-30.1-30.2-71.4-48.7-116.8-48.1-45.4.6-86.2,20.1-115.6,51.1l-24.1-24.2"/>
+  <path class="st1" d="M224.1,163.1l24.1-25.5c-25.3-25.4-60-40.9-98.2-40.4-38.2.5-72.5,16.9-97.2,43l24.7,24.8c18.5-19.6,44.3-31.9,72.9-32.2,14.8-.2,29,2.8,41.8,8.4"/>
+  <path class="st1" d="M156.1,195.3c10,1,19,5.6,25.8,12.4l23.7-25.1c-14.1-14.2-33.5-22.9-54.8-22.6s-40.5,9.5-54.3,24l24.3,24.4"/>
+  <circle class="st2" cx="151.7" cy="242.1" r="22.4"/>
+</svg>
