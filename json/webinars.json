@@ -4,13 +4,25 @@
     {
         "items":[
 		{
+            "title": "Drone-Based Solution for Efficient Search and Rescue Missions",
+			"date": "Feb 2025",
+			"anchor": "2024_02_06",
+            "author": "Gerardo de Jesus Ramirez & Juan Felipe Rios (University of Antioquia)",
+            "language": "EN",
+            "descr": "The use of Unmanned Aerial Vehicles (UAVs), specifically VTOLs, in search and rescue missions is key for quickly locating victims in emergencies. This presentation will focus on designing and validating an integrated system, composed of search and rescue drones, utilizing Model-Based Systems Engineering (MBSE) with Capella to ensure coordination between mission components. Capella ensures all elements work together efficiently, optimizing response in critical situations.</p><p>Search drones, equipped with high-resolution cameras, thermal sensors, and GPS, detect, track, and map difficult-to-reach areas, facilitating precise identification of victims in complex environments. Capella ensures the correct integration of these drones with other mission systems, such as rescue drones and ground teams, ensuring smooth transfer of critical data like victims' location and terrain conditions. This optimizes decision-making and real-time coordination, maximizing mission effectiveness.</p><p>The rescue drone, in addition to transporting medical supplies, can carry two rescuers directly to the victim for necessary rescue and evacuation tasks. Capella facilitates traceability of requirements for both systems (search and rescue), addressing critical aspects for mission success.</p><p>Integrating advanced technologies like AI and machine learning enhances real-time decision-making, improving victim detection. Using MBSE and Capella ensures that each system component is validated and effectively integrated into the mission, which is crucial for increasing rescue mission effectiveness.</p>",
+            "bio": "<p><i><span class='txt_indigo'>Gerardo de Jesus Ramirez</span></i>  is a passionate Aerospace Engineering student and firefighter from Marinilla, Colombia. With a focus on programming and Model-Based Systems Engineering (MBSE), Gerardo combines his interest in physics with his commitment to innovation in the aerospace industry.</p><p><i><span class='txt_indigo'>Juan Felipe Rios</span></i>  is a final-year Aerospace Engineering student at the University of Antioquia in Colombia. He is passionate about systems engineering and its implementation through Model-Based Systems Engineering (MBSE), having developed skills in the design, modeling, and optimization of complex systems. His focus is on applying MBSE principles to enhance coordination and effectiveness in aerospace projects.</p>",
+            "utube_link": "https://youtu.be/ZlXByRxvkeo",
+	    "slides_link": "resources/pdf/webinars/20250206_CapellaWebinar_Slides_Speaker.pdf",
+	    "tag": ["case-study","unmanned aerial vehicles"]
+        },
+		{
             "title": "Integration of Capella with Requirements Management Tools",
 			"date": "Sept 2024",
 			"anchor": "2024_09_26",
             "author": "Laurent Delaigue (Obeo)",
             "language": "EN",
             "descr": "<p>With the Arcadia method implemented by Capella, engineering is considered through three interrelated activities of equal importance:</p><ul><li>Requirements engineering</li><li>Need analysis and modelling</li><li>Architecture building and validation</li></ul><p>The first is generally conducted with a Requirements Management tool (such as Doors or Polarion), while the last two are conducted with Capella.</p><p>Using different tools raises questions about efficiently maintaining consistency and alignment between the architecture models and the requirements, and exposing a consistent integrated view of this interrelated data.</p><p>During this webinar, you will see how the Publication for Capella add-on enables publishing Capella models on a web server and connecting them with requirements, change requests, test cases, releases, and more, defined in third-party repositories.</p><p>This solution breaks down silos between teams by providing online access to an integrated view of your system architecture. It facilitates your engineering teams' ability to reuse work items and system elements in a consistent and aligned process.</p>",
-            "bio": "<p><i><span class='txt_indigo'>Laurent Delaigue</span></i> si Product Lead at Obeo</p>",
+            "bio": "<p><i><span class='txt_indigo'>Laurent Delaigue</span></i> is Product Lead at Obeo</p>",
             "utube_link": "https://youtu.be/LFW6uToCWTI",
 	    "slides_link": "resources/pdf/webinars/20240926_CapellaWebinar_Slides_Obeo.pdf",
 	    "tag": ["add-on","collaboration","requirements"]
