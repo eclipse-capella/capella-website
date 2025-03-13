@@ -202,7 +202,7 @@
       "fragment":"p4c",
       "licence":"Commercial",
       "contact":"<a href='https://www.obeosoft.com/en/products/publication-for-capella#form' target='_blank'>Obeo</a>",
-      "description": "<p>Publication for Capella provides a seamlessly integrated view between your system architecture and related engineering activities (IVVQ, Requirements, etc...).</p><p>Publish Capella models on a web server, connect them with requirements, change requests, test cases, releases, etc... defined in third-party repositories, and expose them to authorized stakeholders.</p><p>The supported repositories include Siemens Polarion®, IBM® DOORS Next, and PTC Codebeamer®.</p>",
+      "description": "<p>Publication for Capella provides a seamlessly integrated view between your system architecture and related engineering activities (IVVQ, Requirements, etc...).</p><p>Publish Capella models on a web server, connect them with requirements, change requests, test cases, releases, etc... defined in third-party repositories, and expose them to authorized stakeholders.</p><p>The supported repositories include Siemens Polarion®, IBM® DOORS Next, PTC Codebeamer®, and Atlassian Jira.</p>",
       "download": { 
         "learnMore": "https://www.obeosoft.com/en/products/publication-for-capella"
       },
