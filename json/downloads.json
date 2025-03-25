@@ -23,19 +23,19 @@
   "capella": {
     "name": "Capella",
     "key": "Capella",
-    "version": "7.0",
-    "releaseNotes": "https://github.com/eclipse/capella/wiki/Release-Notes-7.0.0",
+    "version": "7.0.1",
+    "releaseNotes": "https://github.com/eclipse/capella/wiki/Release-Notes-7.0.1",
     "links": {
       "windows": {
-        "main": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/7.0.0/capella-7.0.0.202407091438-win32-win32-x86_64.zip"
+        "main": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/7.0.1/capella-7.0.1.202503211540-win32-win32-x86_64.zip"
        },
       "linux": { 
-        "main": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/7.0.0/capella-7.0.0.202407091438-linux-gtk-x86_64.tar.gz",
-        "aarch64": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/7.0.0/capella-7.0.0.202407091438-linux-gtk-aarch64.tar.gz"
+        "main": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/7.0.1/capella-7.0.1.202503211540-linux-gtk-x86_64.tar.gz",
+        "aarch64": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/7.0.1/capella-7.0.1.202503211540-linux-gtk-aarch64.tar.gz"
        },
       "mac": { 
-        "main": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/7.0.0/capella-7.0.0.202407091438-macosx-cocoa-x86_64.tar.gz",
-        "aarch64": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/7.0.0/capella-7.0.0.202407091438-macosx-cocoa-aarch64.tar.gz"
+        "main": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/7.0.1/capella-7.0.1.202503211540-macosx-cocoa-x86_64.tar.gz",
+        "aarch64": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/7.0.1/capella-7.0.1.202503211540-macosx-cocoa-aarch64.tar.gz"
        }
     }
   },
