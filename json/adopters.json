@@ -1,5 +1,10 @@
 {"adopters":[
 		{
+		"logoSrc": "images/logos/adopters/logo_anzen.png",
+		"company": "Anzen Engineering",
+		"link": "https://www.anzenengineering.com/mbse-mbsa/"
+		},
+		{
 		"logoSrc": "images/logos/adopters/logo_artal.png",
 		"company": "ARTAL Technologies",
 		"link": "https://capella.artal-group.com/"
@@ -12,7 +17,7 @@
 		{
 		"logoSrc": "images/logos/adopters/logo_etikksoft.png",
 		"company": "Ettiksoft Technologies Private Limited",
-		"link": "http://ettiksoft.com/"
+		"link": "https://www.ettiksoft.com/"
 		},
      	{
 		"logoSrc": "images/logos/adopters/logo_centrale_casablanca.jpg",
@@ -45,11 +50,6 @@
 		"link": "https://www.linkedin.com/company/cientive-group-inc./"
         },
         {
-		"logoSrc": "images/logos/adopters/logo_cnx-motion.png",
-		"company": "CNXMotion",
-		"link": "https://cnxmotion.com/"
-        },
-        {
 		"logoSrc": "images/logos/adopters/logo_comac.jpg",
 		"company": "COMAC",
 		"link": "http://english.comac.cc/"
@@ -62,12 +62,12 @@
         {
 		"logoSrc": "images/logos/adopters/logo_csut.jpg",
 		"company": "Centre Spatial Universitaire de Toulouse",
-		"link": "https://www.csut.eu/"
+		"link": "https://www.csut.cnrs.fr/"
         },
         {
 		"logoSrc": "images/logos/adopters/logo_ctengineering.jpg",
 		"company": "CT Engineering",
-		"link": "http://www.ctingenierie.com/"
+		"link": "https://www.ctengineeringgroup.com/"
         },
         {
 		"logoSrc": "images/logos/adopters/logo_daronmont.png",
@@ -113,11 +113,6 @@
 		"logoSrc": "images/logos/adopters/logo_ita.png",
 		"company": "Instituto Tecnológico de Aeronáutica",
 		"link": "http://www.ita.br/"
-        },
-        {
-		"logoSrc": "images/logos/adopters/logo_jarmyn-enterprise-space.png",
-		"company": "Jarmyn Enterprise Space",
-		"link": "https://www.jarmynenteprisespace.com.au/"
         },
         {
 		"logoSrc": "images/logos/adopters/logo_lgm.png",
@@ -200,11 +195,6 @@
 		"link": "https://www.soprasteria.com/"
         }, 
         {
-		"logoSrc": "images/logos/adopters/logo_solutions-thinking.png",
-		"company": "Solutions Thinking",
-		"link": "https://solutionsthinking.co.uk/"
-        }, 
-        {
 		"logoSrc": "images/logos/adopters/logo_spherea.jpg",
 		"company": "Spherea",
 		"link": "https://spherea.com/"
@@ -216,8 +206,8 @@
         },
         {
 		"logoSrc": "images/logos/adopters/logo_sutd-esd.png",
-		"company": "SUTD-ESD",
-		"link": "https://esd.sutd.edu.sg/"
+		"company": "SUTD",
+		"link": "https://sutd.edu.sg/"
         },
         {
 		"logoSrc": "images/logos/adopters/logo_technicatome.jpg",
@@ -263,11 +253,6 @@
 		"logoSrc": "images/logos/adopters/logo_university-of-toulouse.png",
 		"company": "University of Toulouse Jean Jaurès",
 		"link": "https://www.univ-tlse2.fr/"
-        },
-        {
-		"logoSrc": "images/logos/adopters/logo_virgin-hyperloop-one.jpg",
-  		"company": "Virgin Hyperloop",
-		"link": "https://virginhyperloop.com/"
         },
         {
 		"logoSrc": "images/logos/adopters/logo_visioneer.png",
