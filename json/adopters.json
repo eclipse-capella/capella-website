@@ -49,7 +49,11 @@
 		"company": "Cientive Group",
 		"link": "https://www.linkedin.com/company/cientive-group-inc./"
         },
-        {
+	{
+		"logoSrc": "images/logos/adopters/logo_cnx-motion.png",
+		"company": "CNXMotion",
+		"link": ""
+        },        {
 		"logoSrc": "images/logos/adopters/logo_comac.jpg",
 		"company": "COMAC",
 		"link": "http://english.comac.cc/"
@@ -113,6 +117,11 @@
 		"logoSrc": "images/logos/adopters/logo_ita.png",
 		"company": "Instituto Tecnológico de Aeronáutica",
 		"link": "http://www.ita.br/"
+        },
+   	{
+		"logoSrc": "images/logos/adopters/logo_jarmyn-enterprise-space.png",
+		"company": "Jarmyn Enterprise Space",
+		"link": ""
         },
         {
 		"logoSrc": "images/logos/adopters/logo_lgm.png",
@@ -190,6 +199,11 @@
 		"link": "https://signon-group.com/"
         }, 
         {
+		"logoSrc": "images/logos/adopters/logo_solutions-thinking.png",
+		"company": "Solutions Thinking",
+		"link": ""
+        }, 
+        {
 		"logoSrc": "images/logos/adopters/logo_soprasteria.jpg",
 		"company": "Sopra Steria",
 		"link": "https://www.soprasteria.com/"
@@ -230,6 +244,11 @@
 		"link": "https://www.reusecompany.com/"
         },
         {
+		"logoSrc": "images/logos/adopters/logo_tugraz.png",
+		"company": "Graz University of technology ",
+		"link": "https://www.tugraz.at"
+        },
+        {
 		"logoSrc": "images/logos/adopters/logo_the-signalling-company.png",
 		"company": "The Signalling Company",
 		"link": "https://www.thesignallingcompany.com/"
@@ -253,6 +272,11 @@
 		"logoSrc": "images/logos/adopters/logo_university-of-toulouse.png",
 		"company": "University of Toulouse Jean Jaurès",
 		"link": "https://www.univ-tlse2.fr/"
+        },
+        {
+		"logoSrc": "images/logos/adopters/logo_virgin-hyperloop-one.jpg",
+  		"company": "Virgin Hyperloop",
+		"link": ""
         },
         {
 		"logoSrc": "images/logos/adopters/logo_visioneer.png",
