@@ -28,6 +28,18 @@
 	    "tag": ["integration","multi-domain"]
         },
 		{
+            "title": "Introduction to MBSE with Arcadia & Capella: from Fundamentals to Benefits",
+			"date": "Feb 2025",
+			"anchor": "2025_02_27",
+            "author": "Thibault France (Obeo)",
+            "language": "KR/EN",
+            "descr": "<p>In this Webinar, we present and introduce Arcadia methodology for MBSE, as well as live demonstration of Capella modeling tool.</p><p>The introduction and conclusion are in Korean, the presentation is in English.</p>",
+            "bio": "<p><i><span class='txt_indigo'>Thibault France</span> (Obeo)</i></p>",
+            "utube_link": "https://youtu.be/wp-WKMM_20U",
+	    "slides_link": "",
+	    "tag": ["introduction"]
+        },
+		{
             "title": "Drone-Based Solution for Efficient Search and Rescue Missions",
 			"date": "Feb 2025",
 			"anchor": "2025_02_06",
