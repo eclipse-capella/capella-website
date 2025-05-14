@@ -147,3 +147,52 @@ px      68    160    252    344    436    */
 p { font-size: 12px; }
 .btn { font-size: 10px;}
 }
+
+@media only screen and (max-width: 1200px) {
+  #all_diagrams_equivalences img, #all_diagrams_differences img {
+      width: 450px;
+  }
+  }
+  @media (min-width: 992px)
+  {
+  #resources #types .col-md-2 {width: 13.666% !important;}
+  #resources #domains .col-md-2 {width: 13.666% !important;}
+  
+  }
+  @media (max-width: 900px)
+  {
+    .home, .event, .getstarted, .services, .capella_days_25, .community, .resources, .solution, .arcadia, .dwnld, .munich, .online, .adopters, .contact{
+      background-image: none;
+      background-color: #292253;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+  img {    
+      width: 100%;
+      height: auto;
+  }
+  #talks img
+  {
+    margin: 0;
+  }
+  #talks h4{
+ margin-left: 10px;
+  }
+  #all_diagrams_equivalences img, #all_diagrams_differences img {
+      width: 250px;
+  }
+  /* Styles responsives for the event banner */
+  #event_c2a_banner .container {
+  flex-direction: column;
+  }
+  #event_c2a_banner .column {
+  flex: none;
+  width: 100%;
+  }
+  #event_c2a_banner .phrase p {
+  font-size: 1.1em;
+  }
+  #event_c2a_banner .links p {
+  margin-top: 10px;
+  }
+  }

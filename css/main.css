@@ -286,6 +286,10 @@ h2.icon{
   background: url('../images/banners/banner_contact.jpg') no-repeat 0% 40%;
   background-size: 100%;
 }
+.capella_days_25{
+  background: url('../images/banners/banner_capella-days-2025.jpg') no-repeat 0% 40%;
+  background-size: 100%;
+}
 .community{
   background: url('../images/banners/banner_community.jpg') no-repeat 50%;
 }
@@ -952,44 +956,7 @@ table {
 #resources .col-md-8 {padding: 0 20px 0 0 ;}
 #resources .dropdown_content .accordion-inner.with_thumb {padding-bottom: 20px; padding-top: 20px;}
 #resources .dropdown_content .accordion-inner {padding-top: 2px;}
-/* Responsive
-------------- */
-@media only screen and (max-width: 1200px) {
-#all_diagrams_equivalences img, #all_diagrams_differences img {
-    width: 450px;
-}
-}
-@media (min-width: 992px)
-{
-#resources #types .col-md-2 {width: 13.666% !important;}
-}
-@media (min-width: 992px)
-{
-#resources #domains .col-md-2 {width: 13.666% !important;}
-}
-@media only screen and (max-width: 768px) {
-.row img.responsive {    
-    width: 100%;
-    height: 100%;
-}
-#all_diagrams_equivalences img, #all_diagrams_differences img {
-    width: 250px;
-}
-/* Styles responsives for the event banner */
-#event_c2a_banner .container {
-flex-direction: column;
-}
-#event_c2a_banner .column {
-flex: none;
-width: 100%;
-}
-#event_c2a_banner .phrase p {
-font-size: 1.1em;
-}
-#event_c2a_banner .links p {
-margin-top: 10px;
-}
-}
+
 /* Cookies consent
 -------------------------- */
 .cc-color-override-1434350510.cc-window, .cc-color-override-1434350510.cc-revoke, .cc-color-override-1434350510 .cc-btn {
