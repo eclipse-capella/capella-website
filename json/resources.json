@@ -144,8 +144,23 @@
         
 
 	{
+                "title": "A System Definition Process for the Construction Industry",
+                "descr": "This presentation is based on a building construction project where the business needs where pre-defined, and the challenges focused on defining requirements at an abstract opportunity/problem space domain level for an automated renovation advice tool.",
+                "author": "Alan Martin Redmond (Numerique Tech)",
+                "year": "2025",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+		"domain":"",
+                "domain_order": "99",
+ 		"link": "https://youtu.be/o64pje-DdXE",
+ 		"thumb": "images/thumbs/resources/webinar_20250515.jpg"
+            },
+	{
                 "title": "Utilisation des modèles d’ingénierie système de Capella/ARCADIA pour l’application de la méthode System-Theoretic Process Analysis (STPA)",
-                "descr": "STPA (System-Theoretic Process Analysis) est une méthode d’analyse du risque qui se base sur le cadre méthodologique STAMP (System-Theoretic Accident Model and Processes) et son modèle de boucle de contrôle",
+                "descr": "STPA (System-Theoretic Process Analysis) est une méthode d’analyse du risque qui se base sur le cadre méthodologique STAMP (System-Theoretic Accident Model and Processes) et son modèle de boucle de contrôle.",
                 "author": "Jean-François Viardot & Thibault Montigaud (LGM)",
                 "year": "2025",
                 "language": "FR",
