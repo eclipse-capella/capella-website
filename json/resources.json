@@ -144,6 +144,51 @@
         
 
 	{
+                "title": "Driving Shipbuilding Engineering Transformation",
+                "descr": "José Luis Ruiz Herrer, the conceptual design office lead for Spanish shipbuilder Navantia, shared how a MBSE tool suite including Capella has enabled Navantia to transform the entire lifecycle of naval vessels.",
+                "author": "José Luis Ruiz Herrer (Navantia)",
+                "year": "2025",
+                "language": "EN",
+                "topic": "Business Value",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+		"domain":"Shipbuilding",
+                "domain_order": "99",
+ 		"link": "https://content.sw.siemens.com/realize-live-2025/c/navantia-with-jose-luis-ruiz-herrer?pflpid=61769&pfsid=AaOssMVCiX&pfsfc=true",
+ 		"thumb": "images/thumbs/resources/thumb_navantia.jpg"
+            },
+	{
+                "title": "An introduction of implementing model based systems engineering at ASML",
+                "descr": "",
+                "author": "Asha Bhatia (ASML) & Alexandre Poisson (Siemens)",
+                "year": "2023",
+                "language": "EN",
+                "topic": "Business Value",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+		"domain":"Manufacturing",
+                "domain_order": "99",
+ 		"link": "https://video.sw.cdn.siemens.com/mgc/videos/1200/0ac6ec77-65ae-43eb-9578-af4ec47e9e23-en-US-video.mp4",
+ 		"thumb": "images/thumbs/resources/thumb_asml.jpg"
+            },
+	{
+                "title": "Seamless Integration of Capella with Jira and Confluence",
+                "descr": "In this webinar, you'll discover how to publish Capella models to a web server and establish bi-directional connections with Confluence and Jira.",
+                "author": "Alex Fournié (Obeo) & Robert Baillargeon (SodiusWillert)",
+                "year": "2025",
+                "language": "EN",
+                "topic": "Add-ons",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+		"domain":"",
+                "domain_order": "99",
+ 		"link": "https://youtu.be/Ar9nRAi4IzI",
+ 		"thumb": "images/thumbs/resources/webinar_20250626.jpg"
+            },
+	{
                 "title": "A System Definition Process for the Construction Industry",
                 "descr": "This presentation is based on a building construction project where the business needs where pre-defined, and the challenges focused on defining requirements at an abstract opportunity/problem space domain level for an automated renovation advice tool.",
                 "author": "Alan Martin Redmond (Numerique Tech)",
