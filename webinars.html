@@ -142,73 +142,76 @@
         <div class="row">
         	<div id="webinars_accordion" class="accordion dropdown_content"></div>
       		<script>
-				$.getJSON('json/webinars.json', function(data) {
-					var webinar_accordion_group = " ";
-					var items_categories_row = " ";
+				fetch('json/webinars.json')
+				.then(response => {
+					if (!response.ok) {throw new Error('Erreur lors du chargement du fichier JSON');}
+					return response.json();
+				})
+				.then(data => {
+				let webinar_accordion_group = " ";
+				let items_categories_row = " ";
 
-					for (var i in data.webinars.items) {
-						var accordion_body = " ";
-						var accordion_heading = " ";
-						var accordion_inner = " ";
-						var bio = " ";
-						var title = " ";
-						var descr = " ";
-						var item_infos = " ";
-						var link_u = " ";
-						var link_s = " ";
-						var links = " ";
-						var tags = "&nbsp;&nbsp;&nbsp;";
+				for (let i in data.webinars.items) {
+				let accordion_body = " ";
+				let accordion_heading = " ";
+				let accordion_inner = " ";
+				let bio = " ";
+				let title = " ";
+				let descr = " ";
+				let item_infos = " ";
+				let link_u = " ";
+				let link_s = " ";
+				let links = " ";
+				let tags = "&nbsp;&nbsp;&nbsp;";
 
+				title += "<h3>" + data.webinars.items[i].title + "</h3><span class='descr txt_lightest_grey'></span><span class='fas fa-caret-down txt_yellow'>&nbsp;</span></a></div>";
 
-						title += "<h3>" + data.webinars.items[i].title + "</h3><span class='descr txt_lightest_grey'></span><span class='fas fa-caret-down txt_yellow'>&nbsp;</span></a></div>";
+				if (data.webinars.items[i].date !== "") {
+					item_infos += "<i class='far fa-calendar-alt' aria-hidden='true'></i> " + data.webinars.items[i].date;
+				}
+				if (data.webinars.items[i].author !== "") {
+					item_infos += " | <i class='fa fa-user-alt' aria-hidden='true'></i>&nbsp;" + data.webinars.items[i].author;
+				}
+				if (data.webinars.items[i].language !== "") {
+					item_infos += " | " + data.webinars.items[i].language;
+				}
+				if (data.webinars.items[i].tag !== "") {
+					for (let j in data.webinars.items[i].tag) {
+					tags += " <button class='tag'>" + data.webinars.items[i].tag[j] + "</button>";
+					}
+				}
+				item_infos += tags;
 
-						if(data.webinars.items[i].date != ""){
-							item_infos += "<i class='far fa-calendar-alt' aria-hidden='true'></i> " + data.webinars.items[i].date;
-						}
-						if(data.webinars.items[i].author != ""){
-							item_infos += " | <i class='fa fa-user-alt' aria-hidden='true'></i>&nbsp;" + data.webinars.items[i].author;
-						}
-						if(data.webinars.items[i].language != ""){
-							item_infos += " | " + data.webinars.items[i].language;
-						}
-						if(data.webinars.items[i].tag != ""){
-							for (var j in data.webinars.items[i].tag) {
-								tags += " <button class='tag'>" + data.webinars.items[i].tag[j] + "</button>";
-							}
-						}
-						item_infos += tags;
+				if (data.webinars.items[i].utube_link === "soon") {
+					link_u += "Video will be available soon <i class='pl-2 fa fa-brands fa-youtube' aria-hidden='true'></i>&nbsp; &nbsp; &nbsp;";
+				} else if (data.webinars.items[i].utube_link !== "") {
+					link_u += "<a href='" + data.webinars.items[i].utube_link + "'>Video <i class='pl-2 fa fa-brands fa-youtube' aria-hidden='true'></i></a>&nbsp; &nbsp; &nbsp;";
+				}
 
-						if(data.webinars.items[i].utube_link == "soon"){
-						link_u += "Video will be available soon <i class='pl-2 fa fa-brands fa-youtube' aria-hidden='true'></i>&nbsp; &nbsp; &nbsp;"
-						}
-						else if(data.webinars.items[i].utube_link != ""){
-						link_u += "<a href='" + data.webinars.items[i].utube_link + "'>Video <i class='pl-2 fa fa-brands fa-youtube' aria-hidden='true'></i></a>&nbsp; &nbsp; &nbsp;";
-						}
+				if (data.webinars.items[i].slides_link === "soon") {
+					link_s += "Slides will be available soon <i class='pl-2 fa fa-brands fa-slideshare' aria-hidden='true'></i>&nbsp; &nbsp; &nbsp;";
+				} else if (data.webinars.items[i].slides_link !== "") {
+					link_s += "<a href='" + data.webinars.items[i].slides_link + "'>Slides <i class='pl-2 fa fa-brands fa-slideshare' aria-hidden='true'></i></a>";
+				}
 
-						if(data.webinars.items[i].slides_link == "soon"){
-						link_s += "Slides will be available soon <i class='pl-2 fa fa-brands fa-slideshare' aria-hidden='true'></i>&nbsp; &nbsp; &nbsp;"
-						}
-						else if(data.webinars.items[i].slides_link != ""){
-						link_s += "<a href='" + data.webinars.items[i].slides_link + "'>Slides <i class='pl-2 fa fa-brands fa-slideshare' aria-hidden='true'></i></a>";
-						}
+				links += "<p>" + link_u + link_s + "</p>";
 
-						links += "<p>" + link_u + link_s + "</p>";
+				accordion_heading += "<div class='accordion-heading'><a class='accordion-toggle collapsed' data-toggle='collapse' data-parent='#webinars_accordion' href='#"
+					+ data.webinars.items[i].anchor + "'>" + title + item_infos;
 
-						accordion_heading += "<div class='accordion-heading'><a class='accordion-toggle collapsed' data-toggle='collapse' data-parent='#webinars_accordion' href='#"
-						+ data.webinars.items[i].anchor + "'>" + title + item_infos;
+				accordion_inner += "<div class='accordion-inner'><p>"
+					+ data.webinars.items[i].descr + "</p><p><i>" + data.webinars.items[i].bio + "</i></p></div>";
 
+				accordion_body += "<div id='" + data.webinars.items[i].anchor + "' class='accordion-body collapse'>" + accordion_inner + links + "</div>";
+				webinar_accordion_group += "<div class='accordion-group'>" + accordion_heading + accordion_body + "</div>";
+				}
 
-						accordion_inner += "<div class='accordion-inner'><p>"
-						+ data.webinars.items[i].descr +  "</p><p><i>" + data.webinars.items[i].bio + "</i></p></div>";
-
-
-						accordion_body += "<div id='" + data.webinars.items[i].anchor + "' class='accordion-body collapse'>" + accordion_inner + links + "</div>";
-						webinar_accordion_group += "<div class='accordion-group'>" + accordion_heading + accordion_body + "</div>";
-						}
-						document.getElementById("webinars_accordion").innerHTML = webinar_accordion_group;
-
-					});
-				</script>
+				document.getElementById("webinars_accordion").innerHTML = webinar_accordion_group;
+				})
+				.catch(error => {
+				console.error('Erreur :', error);
+				});
+			</script>
 			<p class="text-center"><a class="btn btn-default" href="https://www.youtube.com/watch?v=-LEx-stcAHA&list=PLfrEYVpSGVLxEFRODSWUTP8N5i3NTG4o-">Discover all the webinars <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
        </div>
 	</div>
