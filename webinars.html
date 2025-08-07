@@ -161,6 +161,7 @@
 				let item_infos = " ";
 				let link_u = " ";
 				let link_s = " ";
+				let link_t = " ";
 				let links = " ";
 				let tags = "&nbsp;&nbsp;&nbsp;";
 
@@ -182,19 +183,25 @@
 				}
 				item_infos += tags;
 
-				if (data.webinars.items[i].utube_link === "soon") {
+				if (data.webinars.items[i].utube_link == "soon") {
 					link_u += "Video will be available soon <i class='pl-2 fa fa-brands fa-youtube' aria-hidden='true'></i>&nbsp; &nbsp; &nbsp;";
-				} else if (data.webinars.items[i].utube_link !== "") {
+				} else if (data.webinars.items[i].utube_link) {
 					link_u += "<a href='" + data.webinars.items[i].utube_link + "'>Video <i class='pl-2 fa fa-brands fa-youtube' aria-hidden='true'></i></a>&nbsp; &nbsp; &nbsp;";
 				}
 
-				if (data.webinars.items[i].slides_link === "soon") {
-					link_s += "Slides will be available soon <i class='pl-2 fa fa-brands fa-slideshare' aria-hidden='true'></i>&nbsp; &nbsp; &nbsp;";
-				} else if (data.webinars.items[i].slides_link !== "") {
-					link_s += "<a href='" + data.webinars.items[i].slides_link + "'>Slides <i class='pl-2 fa fa-brands fa-slideshare' aria-hidden='true'></i></a>";
+				if (data.webinars.items[i].slides_link == "soon") {
+					link_s += "Slides will be available soon <i class='pl-2 fa fa-brands fa-file-pdf-o' aria-hidden='true'></i>&nbsp; &nbsp; &nbsp;";
+				} else if (data.webinars.items[i].slides_link) {
+					link_s += "<a href='" + data.webinars.items[i].slides_link + "'>Slides <i class='pl-2 fa fa-brands fa-file-pdf-o' aria-hidden='true'></i></a>&nbsp; &nbsp; &nbsp;";
 				}
 
-				links += "<p>" + link_u + link_s + "</p>";
+				if (data.webinars.items[i].transcript_link == "soon") {
+					link_t += "Transcript will be available soon <i class='pl-2 fa fa-brands fa-file-text-o' aria-hidden='true'></i>&nbsp; &nbsp; &nbsp;";
+				} else if (data.webinars.items[i].transcript_link) {
+					link_t += "<a href='" + data.webinars.items[i].transcript_link + "'>Transcript Summary <i class='pl-2 fa fa-brands fa-file-text-o' aria-hidden='true'></i></a>";
+				}
+
+				links += "<p>" + link_u + link_s + link_t + "</p>";
 
 				accordion_heading += "<div class='accordion-heading'><a class='accordion-toggle collapsed' data-toggle='collapse' data-parent='#webinars_accordion' href='#"
 					+ data.webinars.items[i].anchor + "'>" + title + item_infos;
@@ -212,7 +219,7 @@
 				console.error('Erreur :', error);
 				});
 			</script>
-			<p class="text-center"><a class="btn btn-default" href="https://www.youtube.com/watch?v=-LEx-stcAHA&list=PLfrEYVpSGVLxEFRODSWUTP8N5i3NTG4o-">Discover all the webinars <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+			<p class="text-center"><a class="btn btn-default" href="https://www.youtube.com/playlist?list=PLfrEYVpSGVLxEFRODSWUTP8N5i3NTG4o-">Discover all the webinars <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
        </div>
 	</div>
 </section>
