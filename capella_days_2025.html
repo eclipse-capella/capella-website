@@ -191,6 +191,83 @@
 		</div>
 	</section>
 
+	<section id="talks">
+		<div class="container">
+			<div class="row wow fadeInDown" data-wow-delay=".5s">
+				<h2 class="title">Early Selected Talks</h2>
+			</div>
+			<span class="anchor" id="talk_capgemini"></span>
+				<div class="row wow fadeInDown" data-wow-delay=".3s">
+					<h3>Capella as a Vector of Interoperability Between Practices</h3>
+					<span class="descr"><button class="tag">interoperability</button>&nbsp;<button class="tag">efficiency</button>&nbsp;<button class="tag">frugality</button>&nbsp;<button class="tag">efficiency</button>&nbsp;<button class="tag">project management</button>&nbsp;<button class="tag">variability</button>&nbsp;<button class="tag">safety</button></span>
+					<p></p>
+					<p>As defined by the INCOSE organization, the "Systems Engineering" practice is a "transdisciplinary and integrative approach to enable the successful realization of engineered systems.". And if Capella could be a vector of interoperability between MBSE and other practices ? This paper shares several features added to Capella during Capgemini projects to highlight MBSE activities with other practices (Project Management, Safety, Product Line Engineering, Frugal Platform).</p>
+					<ul>
+					<li>Allocation to workpackages : allow the allocation of Capella objects (functions, logical / physical components, …) to workpackages of the project to manage work sharing into a project or a consortium. [PVMT, DS]</li>
+					<li>Dashboard : allow communication about the quality, completeness and health of the MBSE model according to definition of KPIs and dashboard. [Python4Capella]</li>
+					<li>Decision management : allow the modelization of a network of decisions linked to any other Capella objects. Support impact analysis on systems engineering data when the project shall modify a decision. [Python4Capella]</li>
+					<li>Inputs for safety analysis : allow a structured export of functions from Capella layers into a Functional Breakdown Structure into an Excel file, reused by a safety team to run Preliminary Risk Analysis to identify safety related functions and add new safety requirements. [Python4Capella]</li>
+					<li>Product Line Engineering basics : allow the definition of a variability model and the identification of Capella objects that are specific to each variant. Support the reduction of a 150% multi-variants model into a 100% model of a selected variant. [Python4Capella, PVMT, DS, Excel]</li>
+					<li>Frugal SE platform : The objective of the frugal SE platform is to embed SE artefacts of a SE referential for a project. The expected efficiency will allow to start to deploy SE/MBSE on a project with limited obstacles caused by the deployment of tools. [Capella, ALM, Python, Excel]</li>
+					</ul>
+					<p>All those Capella features can be deployed in any kind of industry.</p>
+					<table style="margin:10px">
+						<tr>
+							<td class="vertical_align_top" width="10%"><img src="images/capella_days_2025/speakers/bruno_vuillemin.png" alt="Bruno Vuillemin (Capgemini Engineering)" width="120"></td>
+								<td>
+							<h4>Bruno Vuillemin (Capgemini Engineering)</h4>
+							<i>Bruno Vuillemin is a Senior Expert in Systems Architecture and Engineering for various industries (aeronautic, automotive, railway, energy, nuclear, air traffic management, ...). Active member of INCOSE/AFIS. Leader of local AFIS group. System Engineering trainer (ISO15288, Operational and Functional analysis, MBSE, Requirement Engineering, Design to Cost) for industries and engineering schools.</i>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</span>
+			<span class="anchor" id="talk_capgemini"></span>
+				<div class="row wow fadeInDown" data-wow-delay=".3s">
+					<h3>Interface Protocol Design Based on Capella</h3>
+					<span class="descr"><button class="tag">Interface</button>&nbsp;<button class="tag">Protocol</button>&nbsp;<button class="tag">Bus</button>&nbsp;<button class="tag">Message</button>&nbsp;<button class="tag">Signal</button>&nbsp;<button class="tag">Cable</button></span>
+					<p></p>
+					<p>Capella is a good platform for architecture design. Engineers can use it to define functional exchange, component exchange, physical link, and relative data structures.</p><p>But it’s not enough for interface protocol design. For those who are still using documents to do interface detailed design, or using several separated tools to design protocol and cables, it will be much easier for them to design interface protocol based on architecture model directly.</p><p>We will show an extension on Capella to do bus structure definition, message design, signal design, and preliminary cable design. All these information is tightly connected and traceable.</p>
+					<table style="margin:10px">
+						<tr>
+							<td class="vertical_align_top" width="10%"><img src="images/capella_days_2025/speakers/renfei_xu.png" alt="Renfei Xu (PGM)" width="120"></td>
+								<td>
+							<h4>Renfei Xu (PGM)</h4>
+							<i>Renfei Xu is the Technical Director of MBSE from PGM. He has participated in many implementation projects of MBSE in areas like Engine Control, Avionics, Mechatronics, RADAR and so on. In recent years, he is dedicated to the promotion of Capella and ARCADIA in China.</i>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</span>
+			<span class="anchor" id="talk_capgemini"></span>
+				<div class="row wow fadeInDown" data-wow-delay=".3s">
+					<h3>Closing the Loop Between MBSE and Cybersecurity</h3>
+					<span class="descr"><button class="tag">MBSE</button>&nbsp;<button class="tag">Cybersecurity Life Cycle</button>&nbsp;<button class="tag">SBOM</button>&nbsp;<button class="tag">CVE</button>&nbsp;<button class="tag">KEV</button>&nbsp;<button class="tag">Risk Analysis</button></span>
+					<p></p>
+					<p>Post-deployment vulnerability management is difficult to integrate into classical V-model lifecycles: threats evolve, dependencies are opaque, and linear processes delay discovery and patching. We propose a Capella extension—the Vulnerability Analysing Viewpoint (VAV)—that integrates runtime cybersecurity concerns into ARCADIA models to enable continuous, model-centric risk control.</p>
+					<p>VAV includes first-class concepts (Vulnerability, Affected Asset, Exploit Path, Risk Assessment, Mitigation, Evidence, Decision) and binds them to Capella elements (functions, components, interfaces, modes, exchange items). It captures external sources (SBOM, CVE/NVD/OSV, KEV, advisories), matches affected items, and overlays the impact on logical, physical, and operational views. It also provides an attack-path overlay that traverses ports and exchanges to show propagation across subsystems, together with a risk matrix that computes likelihood and consequence to prioritize mitigation.</p>
+					<p>Applied to an industrial control system, VAV reduced mean time to mitigation, highlighted hidden interdependencies, and avoided late-cycle rework and backlog. The approach simplifies recertification while incorporating iterative feedback from the cybersecurity team (SBOM diffs, HWBOM diffs, threat analysis), turning the architecture into an iterative security lifecycle.</p>
+					<p>This contribution proposes: (1) the VAV meta-model and Sirius viewpoint definitions; and (2) best-practice workflows for vulnerability capture, impact analysis, mitigation planning, and evidence closure.</p>
+					<table style="margin:10px">
+						<tr>
+							<td class="vertical_align_top" width="10%"><img src="images/capella_days_2025/speakers/jucimar_antunes_cabral.png" alt="Jucimar Antunes Cabral (ReeR Safety)" width="120"></td>
+								<td>
+							<h4>Jucimar Antunes Cabral (ReeR Safety)</h4>
+							<i>Jucimar Antunes Cabral is an embedded systems engineer at ReeR Safety in Turin, Italy, where he architects safety components for industrial automation. An IEC expert for TC 65/SC 65A, he contributes to functional safety standards, particularly IEC 61508. He is active in embedded cybersecurity, developing practical solutions for real-world systems. He holds a B.Sc. in Electronic Engineering from UniSociesc (Brazil) and an M.Sc. in Biomedical Engineering from Politecnico di Torino.</i>
+							</td>
+						</tr>
+						<tr>
+							<td class="vertical_align_top" width="10%"><img src="images/capella_days_2025/speakers/forough_mokabberi.png" alt="Forough	Mokabberi (ReeR Safety)" width="120"></td>
+								<td>
+							<h4>Forough	Mokabberi (ReeR Safety)</h4>
+							<i>Forough Mokabberi is an embedded systems engineer at ReeR Safety in Turin, Italy, where she focuses on safety-critical software architecture. An IEC TC 44 expert, she contributes to cybersecurity standards. She holds a B.Sc. in Electronic Engineering from the University of Guilan (Iran) and an M.Sc. in Biomedical Engineering from Politecnico di Torino.</i>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</span>
+		</div>
+	</section>
 
 
 	<section id="previous">
