@@ -42,6 +42,7 @@
   "capellaStudio": {
     "name": "Capella Studio",
     "key": "CapellaStudio",
+    "releaseNotes": "https://github.com/eclipse-capella/capella-studio/releases",
     "version": "7.0",
     "links": {
       "windows": {
