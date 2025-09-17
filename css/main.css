@@ -113,6 +113,7 @@ img.circular-square  {padding: 0 !important;}
 background-color: #fff; 
 color: #292253;
 }
+
 .btn {
   font-size: 13px;
   font-family: 'LatoWebBold', sans-serif;
@@ -131,6 +132,7 @@ color: #292253;
     color: #FBBF52;
     background-color: #292253;
 }
+
 section {
   padding: 40px;
 }
@@ -1036,6 +1038,15 @@ color: #a94442;
 	background-color: #292253;
 	color:#FBBF52;
 }
+.hover_white:hover {
+background-color: #fff; 
+border-color: #fff; 
+color: #292253;
+}
+.border_yellow {
+border-color: #FBBF52; 
+}
+
 .notes-section {
   text-align: left;
   padding: 12px;
