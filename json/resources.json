@@ -141,7 +141,6 @@
 	    }
         ],
         "items":[
-        
 
 	{
                 "title": "Driving Shipbuilding Engineering Transformation",
@@ -1311,7 +1310,7 @@
 		"domain":"Space",
  		"link": "http://mbse2022.esa.int/",
                 "thumb": ""
-            },        
+            },
 	{
                 "title": "AIDA case-study (Aircraft Inspection by Drone Assistant)",
                 "descr": "",
@@ -2118,7 +2117,7 @@
                 "link": "https://indico.esa.int/event/329/contributions/5516/attachments/3874/5601/0945_-_Presentation_-_Modelling_Avionics_Interfaces_and_Generating_Interface_Control_Documents_for_the_Propulsion_Subsystem_of_the_MPCV_European_Service_Module.pdf",
                 "thumb": ""
             },
-       
+
 	{
                 "title": "Stepwise adoption of model-based solution for a full MBSE transition, an Industrial perspective",
                 "descr": "",
@@ -2134,7 +2133,7 @@
                 "link": "https://indico.esa.int/event/329/contributions/5519/attachments/3877/5604/1130_-_Presentation_-_Stepwise_adoption_of_model-based_solution_for_a_full_MBSE_transition_an_Industrial_perspective.pdf",
                 "thumb": ""
             },
-            
+
 	{
 		    "title": "MBSE with Arcadia and Capella - Reconciling with the past and moving towards the future",
 		    "descr": "",
@@ -2300,8 +2299,8 @@
 		    "link": "https://www.researchgate.net/profile/Irfan_Javid2/publication/346061442_Evaluating_ARCADIA_using_the_FEMMP_Framework_Evaluating_and_comparing_MBSE_methodologies/links/5fb98b2da6fdcc6cc659bb77/Evaluating-ARCADIA-using-the-FEMMP-Framework-Evaluating-and-comparing-MBSE-methodologies.pdf",
 		    "thumb": ""
 		},
-           
-        
+
+
 	{
                 "title": "Lessons learned on the use of MBSE in the preliminary design of space systems at CT Paris",
                 "descr": "",
@@ -2317,7 +2316,7 @@
                 "link": "https://indico.esa.int/event/329/contributions/5520/attachments/3878/5605/1200_-_Presentation_-_Lessons_learned_on_the_use_of_MBSE_in_the_preliminary_design_of_space_systems_at_CT_Paris.pdf",
                 "thumb": ""
             },
-    
+
  	{
                 "title": "Successful MBSE landing on a CNES operational use-case",
                 "descr": "",
@@ -2333,7 +2332,7 @@
                 "link": "https://indico.esa.int/event/329/contributions/5523/attachments/3881/5608/1430_-_Presentation_-_Successful_MBSE_landing_on_a_CNES_operational_use_case.pdf",
                 "thumb": ""
             },
-   
+
  	{
                 "title": "Capella to TASTE MBSE bridge",
                 "descr": "",
@@ -2347,7 +2346,7 @@
                 "link": "https://indico.esa.int/event/329/contributions/5532/attachments/3888/5619/1000_-_Presentation_-_Capella_to_TASTE_MBSE_bridge.pdf",
                 "thumb": ""
             },
-    
+
   	{
                 "title": "Application of co-simulation to support tests and operations",
                 "descr": "",
@@ -2361,8 +2360,8 @@
                 "link": "https://indico.esa.int/event/329/contributions/5539/attachments/3895/5626/1500_-_Presentation_-_ENABLING_COMBINING_MODELS_AND_TOOLS_IN_AN_ONLINE_MBSE_COLLABORATION_PLATFORM.pdf",
                 "thumb": ""
             },
-    
-    
+
+
 	{
                 "title": "Master Class: Design Excellence for Medical Devices, MBSE",
                 "descr": "",
@@ -4117,7 +4116,7 @@
 		    "link": "https://doi.org/10.21278/idc.2018.0448",
 		    "thumb": ""
 
-		}           
+		}
         ]
     }
 }
