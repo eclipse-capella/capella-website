@@ -2954,19 +2954,6 @@
                 "thumb": ""
             },
             {
-                "title": "Project Page",
-                "descr": "",
-                "author": "",
-                "year": "",
-                "language": "EN",
-                "topic": "Learning More",
-                "topic_order": "99",
-                "type": "Documentation",
-                "type_order": "99",
-                "link": "https://projects.eclipse.org/projects/polarsys.capella",
-                "thumb": ""
-            },
-            {
                 "title": "Capella Wiki",
                 "descr": "",
                 "author": "",
@@ -3570,7 +3557,7 @@
                 "topic_order": "5",
                 "type": "Other",
                 "type_order": "5",
-                "link": "https://www.eclipse.org/projects/polarsys.capella",
+                "link": "https://projects.eclipse.org/projects/polarsys.capella",
                 "thumb": ""
             },
             {
