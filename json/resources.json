@@ -143,6 +143,19 @@
         "items":[
 
 	{
+                "title": "Connecting Capella with Requirements and Test Cases in Jama Connect",
+                "descr": "In this webinar, you will learn how to publish Capella models to a controlled web server, so that system data becomes easy to access without installing Capella, and how to set up bidirectional navigable connections with Jama Connect®.",
+                "author": "Laurent Delaigue (Obeo) & Patrick Knowles (Jama Software)",
+                "year": "2025",
+                "language": "EN",
+                "topic": "Add-ons",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+				"link": "https://www.youtube.com/watch?v=HJ6St77DoEw&list=PLfrEYVpSGVLxEFRODSWUTP8N5i3NTG4o-",
+				"thumb": "images/thumbs/resources/webinar_20251211.jpg"
+            },
+	{
                 "title": "Capella in Transport and Infrastructure",
                 "descr": "Capella brings significant advantages to transport and infrastructure projects through its use of the ARCADIA framework. This includes structured use of Physical Architecture Nodes, Behavioural Components, and Functional Chains, enabling clear modelling of system behaviour and interfaces.",
                 "author": "TimCarter (Clarity SE)",
