@@ -3393,8 +3393,6 @@
                 "topic_order": "3",
                 "type": "Fact Sheet",
                 "type_order": "4",
-                "domain": "Automotive",
-                "domain_order": "2",
                 "link": "https://mbse-capella.org/resources/pdf/Case_Study_Continental.pdf",
                 "thumb": "images/thumbs/resources/thumb_case-study-continental.jpg"
             },
@@ -3522,8 +3520,6 @@
                 "topic_order": "99",
                 "type": "Slideshow",
                 "type_order": "99",
-                "domain": "Automotive",
-                "domain_order": "99",
                 "link": "https://fr.slideshare.net/Obeo_corp/capella-day-toulouse-driving-intelligent-transportation-systems-with-capella",
                 "thumb": ""
             },
