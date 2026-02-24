@@ -143,6 +143,19 @@
         "items":[
 
 	{
+                "title": "Environmental Trade-offs into MBSE: An Application of Ecodesign for Capella for System Architects",
+                "descr": "Presentation of a Capella add-on that makes environmental trade-off analysis natively accessible to architects within their established modeling environment.The add-on enabled seamless data integration, streamlined traceability of environmental attributes, and empowered architects to perform design-impactful trade-offs without leaving their MBSE environment.",
+                "author": "Thibault Montigaud (LGM)",
+                "year": "2026",
+                "language": "EN",
+                "topic": "Add-ons",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+				"link": "https://www.youtube.com/watch?v=tBGAIkfgqQI&list=PLfrEYVpSGVLxSqcLaDWPGj341T-Trq-cA",
+				"thumb": "images/thumbs/resources/webinar_20260212.jpg"
+            },
+	{
                 "title": "The S80 Submarine Systems Engineering Journey",
                 "descr": "The presentation focuses on the comprehensive approach taken by Navantia in the systems engineering of the development and sustainment of the S80 submarine program while demonstrating the use of Capella MBSE software and the ARCADIA methodology in the process.",
                 "author": "José Torres (Navantia)",
