@@ -143,6 +143,21 @@
         "items":[
 
 	{
+                "title": "MBSE for Two Student Space Robotics Projects",
+                "descr": "This webinar shows how student teams working on two different space projects quickly get started with Capella to apply MBSE and Arcadia, structure complex systems, improve collaboration, and reduce design risks under tight academic constraints.",
+                "author": "Kaylee Li & Aruk Pavalachandran (Sydney Interplanetary Rover Initiative), Andreea Lita (ISAE Supaero)",
+                "year": "2026",
+                "language": "EN",
+                "topic": "Getting Started",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+                "domain": "Space",
+                "domain_order": "99",
+				"link": "https://www.youtube.com/watch?v=FH5SgB5H2QM&list=PLfrEYVpSGVLxEFRODSWUTP8N5i3NTG4o-",
+				"thumb": "images/thumbs/resources/webinar_20260226.jpg"
+            },
+	{
                 "title": "Environmental Trade-offs into MBSE: An Application of Ecodesign for Capella for System Architects",
                 "descr": "Presentation of a Capella add-on that makes environmental trade-off analysis natively accessible to architects within their established modeling environment.The add-on enabled seamless data integration, streamlined traceability of environmental attributes, and empowered architects to perform design-impactful trade-offs without leaving their MBSE environment.",
                 "author": "Thibault Montigaud (LGM)",
