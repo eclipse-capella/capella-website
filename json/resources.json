@@ -171,6 +171,21 @@
 				"thumb": "images/thumbs/resources/webinar_20260212.jpg"
             },
 	{
+                "title": "MBSE for Space Systems Design with Capella: From Simulation Facilities to NEO Detection",
+                "descr": "This webinar presents two projects from the University of Antioquia that apply a Model-Based Systems Engineering approach to space system development with Capella.",
+                "author": "Paula Andrea García Suárez & Juan Felipe Ríos (Universidad de Antioquia)",
+                "year": "2026",
+                "language": "EN",
+                "topic": "Getting Started",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+                "domain": "Space",
+                "domain_order": "99",
+				"link": "https://www.youtube.com/watch?v=Ia2rTdv24U4&list=PLfrEYVpSGVLxEFRODSWUTP8N5i3NTG4o-",
+				"thumb": "images/thumbs/resources/webinar_20260122.jpg"
+            },
+	{
                 "title": "The S80 Submarine Systems Engineering Journey",
                 "descr": "The presentation focuses on the comprehensive approach taken by Navantia in the systems engineering of the development and sustainment of the S80 submarine program while demonstrating the use of Capella MBSE software and the ARCADIA methodology in the process.",
                 "author": "José Torres (Navantia)",
