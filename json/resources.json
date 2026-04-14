@@ -143,6 +143,19 @@
         "items":[
 
 	{
+                "title": "How-to Model a Logical Architecture with Capella",
+                "descr": "In this presentation, Tim Carter will explore a number of different interpretations of the ARCADIA logical architecture and in which scenarios they may be useful in achieving modelling goals and adding value.",
+                "author": "Tim Carter (Clarity SE)",
+                "year": "2026",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+				"link": "https://www.youtube.com/watch?v=niGHUh-zB7E&list=PLfrEYVpSGVLxEFRODSWUTP8N5i3NTG4o-",
+				"thumb": "images/thumbs/resources/webinar_20260324.jpg"
+            },
+	{
                 "title": "MBSE for Two Student Space Robotics Projects",
                 "descr": "This webinar shows how student teams working on two different space projects quickly get started with Capella to apply MBSE and Arcadia, structure complex systems, improve collaboration, and reduce design risks under tight academic constraints.",
                 "author": "Kaylee Li & Aruk Pavalachandran (Sydney Interplanetary Rover Initiative), Andreea Lita (ISAE Supaero)",
