@@ -143,6 +143,47 @@
         "items":[
 
 	{
+                "title": "Modeling the Eclipse SDV Companion Application with Capella",
+                "descr": "This article describes a way to design and model the Eclipse SDV (Software Defined Vehicle) companion application's architecture using the Arcadia methodology, implemented in Eclipse Capella.",
+                "author": "Martin Lebourgeois (Obeo)",
+                "year": "2026",
+                "language": "EN",
+                "topic": "Learning More",
+                "topic_order": "99",
+                "domain": "Automotive",
+                "domain_order": "99",
+                "type": "Article",
+                "type_order": "99",
+				"link": "https://github.com/eclipse-sdv-blueprints/companion-application/blob/main/modeling-the-companion-application.md",
+				"thumb": "images/thumbs/resources/sdv-capella.png"
+            },
+	{
+                "title": "Why MBSE is Becoming Essential for Modern Cybersecurity",
+                "descr": "By relying on structured system models rather than fragmented documents, MBSE offers a global and consistent view of the system's architecture. This shared representation makes it easier for all stakeholders to collaborate, align their understanding, and identify potential vulnerabilities.",
+                "author": "Stéphane Lacrampe (Obeo)",
+                "year": "2026",
+                "language": "EN",
+                "topic": "Business Value",
+                "topic_order": "99",
+                "type": "Article",
+                "type_order": "99",
+				"link": "https://blog.obeosoft.com/why-mbse-is-becoming-essential-for-modern-cybersecurity",
+				"thumb": "images/thumbs/resources/NIST-Cybersecurity-Framework.png"
+            },
+	{
+                "title": "MBSE for NIS2 Compliance in Cyber-Physical Systems",
+                "descr": "This article explores how MBSE can support cybersecurity efforts in the context of the NIS2 directive.",
+                "author": "Victor Roland (Obeo)",
+                "year": "2026",
+                "language": "EN",
+                "topic": "Business Value",
+                "topic_order": "99",
+                "type": "Article",
+                "type_order": "99",
+				"link": "https://blog.obeosoft.com/mbse-for-nis2-compliance-in-cyber-physical-systems",
+				"thumb": "images/thumbs/resources/mbse-benefits.png"
+            },
+	{
                 "title": "How-to Model a Logical Architecture with Capella",
                 "descr": "In this presentation, Tim Carter will explore a number of different interpretations of the ARCADIA logical architecture and in which scenarios they may be useful in achieving modelling goals and adding value.",
                 "author": "Tim Carter (Clarity SE)",
