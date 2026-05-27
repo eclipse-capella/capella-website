@@ -143,6 +143,21 @@
         "items":[
 
 	{
+                "title": "Practice in COMAC to Conduct MBSA in Avionics System Based on Capella",
+                "descr": "In this webinar in Mandarin, discover how Capella has been extended for COMAC to support 4761-compliant MBSA work",
+                "author": "Hu Po (COMAC) & Xu Renfei (PGM) ",
+                "year": "2026",
+                "language": "CN",
+                "topic": "Learning More",
+                "topic_order": "99",
+                "domain": "Avionics",
+                "domain_order": "99",
+                "type": "Video",
+                "type_order": "99",
+				"link": "https://www.youtube.com/watch?v=hlsHRev8Edo&list=PLfrEYVpSGVLxEFRODSWUTP8N5i3NTG4o-",
+				"thumb": "images/thumbs/resources/webinar_20260512.jpg"
+            },
+	{
                 "title": "Modeling the Eclipse SDV Companion Application with Capella",
                 "descr": "This article describes a way to design and model the Eclipse SDV (Software Defined Vehicle) companion application's architecture using the Arcadia methodology, implemented in Eclipse Capella.",
                 "author": "Martin Lebourgeois (Obeo)",
