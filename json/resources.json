@@ -143,6 +143,19 @@
         "items":[
 
 	{
+                "title": "MBSE Vision 360: A Layered and Semantic Approach to Navigating Complex Models",
+                "descr": "In this webinar, discover MBSE Vision 360, a solution developed by LGM to democratize access to and understanding of MBSE models.",
+                "author": "Ulysse Audren de Kerdrel & Sébastien Dubé (LGM) | EN",
+                "year": "2026",
+                "language": "EN",
+                "topic": "Add-ons",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+				"link": "https://www.youtube.com/watch?v=pl4HdQlLOEg&list=PLfrEYVpSGVLxEFRODSWUTP8N5i3NTG4o-",
+				"thumb": "images/thumbs/resources/webinar_20260611.jpg"
+            },
+	{
                 "title": "Practice in COMAC to Conduct MBSA in Avionics System Based on Capella",
                 "descr": "In this webinar in Mandarin, discover how Capella has been extended for COMAC to support 4761-compliant MBSA work",
                 "author": "Hu Po (COMAC) & Xu Renfei (PGM) ",
