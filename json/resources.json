@@ -143,6 +143,21 @@
         "items":[
 
 	{
+                "title": "MBSE for Software-Defined Vehicles: Enriching a code-first platform with System Architecture",
+                "descr": "In this article, Discover how Capella has been used to model the architecture of the SDV Companion Application, a demonstrator showcasing the development of an application for interaction with a vehicle, for example to adjust the position of a seat.",
+                "author": "Martin Le Bourgeois (Obeo)",
+                "year": "2026",
+                "language": "EN",
+                "topic": "Business Value",
+                "topic_order": "99",
+                "type": "Article",
+                "type_order": "99",
+                "domain": "Automotive",
+                "domain_order": "99",
+				"link": "https://newsroom.eclipse.org/eclipse-newsletter/2026/june/mbse-software-defined-vehicles-enriching-code-first-platform-system",
+				"thumb": "images/thumbs/resources/article-sdv-mbse.png"
+            },
+	{
                 "title": "MBSE Vision 360: A Layered and Semantic Approach to Navigating Complex Models",
                 "descr": "In this webinar, discover MBSE Vision 360, a solution developed by LGM to democratize access to and understanding of MBSE models.",
                 "author": "Ulysse Audren de Kerdrel & Sébastien Dubé (LGM) | EN",
