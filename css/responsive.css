@@ -133,40 +133,6 @@ px      68    160    252    */
     color: #333;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   }
-}
-/*		Wide Mobile Layout: 480px.
-		Gutters: 24px.
-		Outer margins: 22px.
-		Inherits styles from: Default Layout, Mobile Layout.
-------------------------------------------------------------
-cols    1     2      3      4      5
-px      68    160    252    344    436    */
-@media only screen and (max-width: 479px) {
-.title, h1, .h1, .hero-area h1 { font-size: 25px; }
-.hero-area h2 {font-size: 20px;}
-p { font-size: 12px; }
-.btn { font-size: 10px;}
-}
-
-@media only screen and (max-width: 1200px) {
-  #all_diagrams_equivalences img, #all_diagrams_differences img {
-      width: 450px;
-  }
-  }
-  @media (min-width: 992px)
-  {
-  #resources #types .col-md-2 {width: 13.666% !important;}
-  #resources #domains .col-md-2 {width: 13.666% !important;}
-  
-  }
-  @media (max-width: 900px)
-  {
-    .home, .event, .getstarted, .services, .capella_days_25, .community, .resources, .solution, .arcadia, .dwnld, .munich, .online, .adopters, .contact{
-      background-image: none;
-      background-color: #292253;
-    }
-  }
-  @media only screen and (max-width: 768px) {
   img {    
       width: 100%;
   }
@@ -194,4 +160,39 @@ p { font-size: 12px; }
   #event_c2a_banner .links p {
   margin-top: 10px;
   }
+}
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+@media only screen and (max-width: 479px) {
+.title, h1, .h1, .hero-area h1 { font-size: 25px; }
+.hero-area h2 {font-size: 20px;}
+p { font-size: 12px; }
+.btn { font-size: 10px;}
+}
+
+@media only screen and (max-width: 1200px) {
+  #all_diagrams_equivalences img, #all_diagrams_differences img {
+      width: 450px;
+  }
+  .capella_days_26{
+    background-position: 0% 100%;
+  }
+  }
+  @media (min-width: 992px)
+  {
+  #resources #types .col-md-2 {width: 13.666% !important;}
+  #resources #domains .col-md-2 {width: 13.666% !important;}
+  
+  }
+  @media (max-width: 900px)
+  {
+    .capella_days_26, .home, .event, .getstarted, .services, .capella_days_25, .community, .resources, .solution, .arcadia, .dwnld, .munich, .online, .adopters, .contact{
+      background-image: none;
+      background-color: #292253;
+    }
   }
