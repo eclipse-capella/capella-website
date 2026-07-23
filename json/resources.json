@@ -143,6 +143,19 @@
         "items":[
 
 	{
+                "title": "Capella: A Lever for Structuring Systems Engineering and Functional Safety",
+                "author": "SERMA Safety and Security",
+                "descr": "",
+                "year": "2026",
+                "language": "EN",
+                "topic": "Business Value",
+                "topic_order": "99",
+                "type": "Article",
+                "type_order": "99",
+				"link": "https://www.serma-safety-security.com/en/serma-safety-and-security/",
+                "thumb": ""
+            },
+	{
                 "title": "MBSE for Software-Defined Vehicles: Enriching a code-first platform with System Architecture",
                 "descr": "In this article, Discover how Capella has been used to model the architecture of the SDV Companion Application, a demonstrator showcasing the development of an application for interaction with a vehicle, for example to adjust the position of a seat.",
                 "author": "Martin Le Bourgeois (Obeo)",
