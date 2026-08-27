@@ -160,6 +160,21 @@ px      68    160    252    */
   #event_c2a_banner .links p {
   margin-top: 10px;
   }
+    .speakers {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+  .speaker-photo {
+    width: 90px;
+    height: 90px;
+  }
+  .speaker-name {
+    font-size: 18px;
+  }
+  .talk-line {
+    width: 100%;
+  }
+
 }
 /*		Wide Mobile Layout: 480px.
 		Gutters: 24px.
