@@ -121,7 +121,7 @@ color: #292253;
   text-transform: uppercase;
   margin-top: 30px;
 }
-.btn-default {
+.btn-default, .btn-full-orange {
    color: #292253;
    background-color: #FBBF52;
    border: none;
@@ -1014,7 +1014,6 @@ color: #a94442;
 	width: 100%; 
 	z-index: 200;
 }
-    
 .bottom-bar p {
 	margin:20px;
 }
@@ -1031,7 +1030,7 @@ color: #a94442;
 	background-color: #FBBF52;
 	color:#292253;
 }
-.btn-outline, .btn-outline:active, .btn-outline:visited:focus {
+.btn-outline, .btn-outline:active, .btn-outline:visited:focus, .btn-full-orange:hover {
 	border: 1px solid #FBBF52;
 	background-color: transparent;
 	color: #FBBF52;
@@ -1048,7 +1047,6 @@ color: #292253;
 .border_yellow {
 border-color: #FBBF52; 
 }
-
 .notes-section {
   text-align: left;
   padding: 12px;
