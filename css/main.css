@@ -132,7 +132,7 @@ color: #292253;
     color: #FBBF52;
     background-color: #292253;
 }
-
+.btn-full-orange {border: 1px solid #FBBF52;}
 section {
   padding: 40px;
 }
