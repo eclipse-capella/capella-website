@@ -143,6 +143,32 @@
         "items":[
 
 	{
+                "title": "What’s New and What’s Next for Capella",
+                "author": "Stéphane Lacrampe (Obeo)",
+                "descr": "Capella continues to evolve, with new capabilities, integrations, and ongoing initiatives shaping the future of the platform and its ecosystem. In this webinar, the Obeo team will share the latest developments around Capella and give you a look at what’s new and what we’re currently working on.",
+                "year": "2026",
+                "language": "EN",
+                "topic": "Add-ons",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+				"link": "https://www.youtube.com/watch?v=p4xeASu3IeQ&list=PLfrEYVpSGVLxEFRODSWUTP8N5i3NTG4o-",
+				"thumb": "images/thumbs/resources/webinar_20260910.jpg"
+            },
+	{
+                "title": "Overview on Eclipse Capella and Eclipse SysON by Etienne Juliot",
+                "author": "Etienne Juliot (Obeo)",
+                "descr": "In this interview from OCX 2026, Etienne Juliot, Vice President at Obeo, explores how Eclipse Capella and Eclipse SysON help engineering teams address the growing complexity of modern software-defined vehicle development through model-based systems engineering (MBSE).",
+                "year": "2026",
+                "language": "EN",
+                "topic": "Business Value",
+                "topic_order": "99",
+                "type": "Video",
+                "type_order": "99",
+				"link": "https://www.youtube.com/watch?v=Jn9yKGnTz7Y",
+                "thumb": "images/thumbs/resources/etienne-juliot-sdv.png"
+            },
+	{
                 "title": "Capella: A Lever for Structuring Systems Engineering and Functional Safety",
                 "author": "SERMA Safety and Security",
                 "descr": "",

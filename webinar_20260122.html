@@ -13,11 +13,11 @@
 	<meta charset="utf-8">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<link rel="icon" type="image/png" href="images/favicon.ico">
-	<title>Capella Webinars - Upcoming events, and replays of previous events</title>
+	<title>MBSE for Space Systems Design with Capella: From Simulation Facilities to NEO Detection - Webinar Transcript</title>
 	<meta name="description"
-		content="Transcript overview of Capella webinar : MBSE for Space Systems Design with Capella: From Simulation Facilities to NEO Detection.">
+		content="Discover how space engineering projects use Capella and Arcadia to structure needs, define architectures, and maintain traceability.">
 	<meta name="keywords" content="webinars, replay, slides, videos">
-	<meta name="author" content="">
+	<meta name="author" content="Paula Andrea García Suárez & Juan Felipe Ríos (Universidad de Antioquia)">
 	<!-- Mobile Specific Metas
         ================================================== -->
 	<meta name="format-detection" content="telephone=no">
@@ -86,23 +86,24 @@
 			-->
 
 		<div class="row">
-				<h1>Webinar Transcript Summary</h2>
-				<h2>MBSE for Space Systems Design with Capella: From Simulation Facilities to NEO Detection</h2>
-				<i class="far fa-calendar-alt" aria-hidden="true"></i> January 2026 | <i class="fa fa-user-alt" aria-hidden="true"></i>&nbsp;aula Andrea García Suárez &amp; Juan Felipe Ríos (Universidad de Antioquia) | EN&nbsp;&nbsp;&nbsp; <button class="tag">space</button> <button class="tag">research</button>
+				<h1>MBSE for Space Systems Design with Capella: From Simulation Facilities to NEO Detection</h1>
+				<p class="text-uppercase txt_lightest_grey">Webinar Transcript Summary</p>
+				<p>&nbsp;</p>
+				<i class="far fa-calendar-alt" aria-hidden="true"></i> January 2026 | <i class="fa fa-user-alt" aria-hidden="true"></i>&nbsp;Paula Andrea García Suárez &amp; Juan Felipe Ríos (Universidad de Antioquia) | EN&nbsp;&nbsp;&nbsp; <button class="tag">space</button> <button class="tag">research</button>
 				<p></p>
 				<p> <a href="https://www.youtube.com/watch?v=Ia2rTdv24U4&list=PLfrEYVpSGVLxEFRODSWUTP8N5i3NTG4o-">Video <i class="pl-2 fa fa-brands fa-youtube" aria-hidden="true"></i></a>&nbsp; &nbsp; &nbsp; <a href="/resources/pdf/webinars/20260122_CapellaWebinar_Slides_Speaker.pdf">Slides <i class="pl-2 fa fa-brands fa-slideshare" aria-hidden="true"></i></a></p>
-<h3>Introduction</h3>
+<h2>Introduction</h2>
 <p>Space systems are among the most complex engineering environments. They involve multidisciplinary teams, stringent safety constraints, limited budgets, long development cycles, and systems that are difficult or impossible to test under real operating conditions before deployment.</p>
 <p>During this webinar, two projects developed at the University of Antioquia in Colombia demonstrated how Model-Based Systems Engineering and Capella can support both ground-based space infrastructure and mission-driven spacecraft design. The first project focused on a modular vacuum chamber for space simulation, while the second addressed a space-based observatory for Near-Earth Object detection.</p>
 <p>Although the applications were different, both projects showed how Arcadia helps structure operational needs, define system functions, develop logical and physical architectures, and maintain traceability throughout the design process.</p>
-<h3>Designing a Modular Space Vacuum Chamber</h3>
+<h2>Designing a Modular Space Vacuum Chamber</h2>
 <p>The first project aimed to develop a proof of concept for a modular vacuum chamber capable of simulating space-like conditions. Such facilities are essential for material qualification, mechanism testing, sensor validation, and specialized experiments.</p>
 <p>The objective was not to build the chamber, but to create a complete and consistent system design that could support future construction, integration, maintenance, and service delivery.</p>
 <p>The design process began with Operational Analysis. Rather than defining technical solutions immediately, the project first identified the main actors, including users, operators, maintenance technicians, IT administrators, and safety supervisors. Operational scenarios and functional chains were then used to describe activities such as system preparation, evacuation, experiment execution, data acquisition, and safety monitoring.</p>
 <p>This early analysis revealed hidden dependencies and safety-critical interactions before any physical architecture was defined.</p>
 <p>The System Analysis then established what the vacuum chamber had to achieve, while the Logical Architecture decomposed the system into major subsystems such as vacuum generation, control and automation, safety management, communications, and data acquisition.</p>
 <p>In the Physical Architecture, logical functions were allocated to real components, including vacuum pumps, valves, sensors, programmable logic controllers, consoles, and safety devices. The Component Breakdown Structure also distinguished between commercial components, custom hardware, and software elements, supporting early procurement and resource planning.</p>
-<h3>Designing a Space-Based NEO Observatory</h3>
+<h2>Designing a Space-Based NEO Observatory</h2>
 <p>The second project applied the same methodology to a space-based observatory for Near-Earth Object detection.</p>
 <p>Ground-based observatories face limitations such as atmospheric interference, weather, restricted fields of view, and difficulty detecting objects approaching from the direction of the Sun. A space-based infrared observatory can overcome many of these constraints.</p>
 <p>Operational Analysis was especially important because mission choices directly influenced the architecture. The project evaluated possible operational orbits and selected the L1 Lagrange point because of its favorable observation geometry, communication conditions, and ability to monitor regions close to the Sun.</p>
@@ -110,11 +111,11 @@
 <p>The System and Logical Architectures then defined the observatory functions and subsystem interactions. Capella’s System-to-Subsystem transition was used to develop each subsystem in greater detail while preserving requirements allocation and traceability.</p>
 <p>The Physical Architecture included elements such as the infrared payload, propulsion system, thermal control system, Sun shield, radiators, thermal straps, and communication equipment.</p>
 <p>Preliminary verification and validation were performed using NASA’s GMAT and Python models. Orbital propagation confirmed the suitability of the L1 orbit, while communication analysis showed that a single ground station would not provide sufficient coverage. A network such as NASA’s Deep Space Network was therefore required to meet the mission’s continuous communication objective.</p>
-<h3>Key Benefits</h3>
+<h2>Key Benefits</h2>
 <p>Across both projects, Capella provided more than a set of diagrams. It enabled traceability from mission objectives and stakeholder needs to logical functions, physical components, procurement decisions, and preliminary verification activities.</p>
 <p>The models also supported modularity, reuse, early trade-offs, and iterative correction. When omissions or inconsistencies were identified, they could be corrected directly in the model rather than across disconnected documents.</p>
 
-<h3>Q&A Highlights</h3>
+<h2>Q&A Highlights</h2>
 <ul>
   <li><strong>Q: How long did the vacuum chamber model take to develop?</strong><br>
   A: The model was developed by one student over approximately four to five months, with guidance from university professors and an industry advisor.</li>

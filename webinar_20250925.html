@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-WCRD68P');</script>
+		<!-- End Google Tag Manager -->
+	<!-- Basic Page Needs
+        ================================================== -->
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="icon" type="image/png" href="images/favicon.ico">
+	<title>Performing Safety Analyses in Capella with ATICA: Our Experience - Webinar Transcript</title>
+	<meta name="description"
+		content="Discover how integrated safety and reliability analysis helps maintain consistency with system architecture, requirements, and design decisions.">
+	<meta name="keywords" content="webinars, replay, slides, videos">
+	<meta name="author" content="Fernando Macías & Daniel Villafañe (ANZEN Engineering)">
+	<!-- Mobile Specific Metas
+        ================================================== -->
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Template CSS Files
+        ================================================== -->
+	<!-- Twitter Bootstrs CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- animate css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/jquery.fancybox.css">
+	<!-- template main css file -->
+	<link rel="stylesheet" href="css/main.css">
+	<!-- responsive css -->
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/latofonts.css">
+	<link rel="stylesheet" href="css/flag-icons.min.css">
+	<!-- Cookie content -->
+	<link rel="stylesheet" type="text/css"
+		href="//www.eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/vendor/cookieconsent/cookieconsent.min.css" />
+	<!-- Eclipse Foundation Google Tag Manager -->
+	<script>
+		(function (w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({
+				'gtm.start': new Date().getTime(),
+				event: 'gtm.js'
+			});
+			var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l='
+				+ l
+				: '';
+			j.async = true;
+			j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-5WLCZXC');
+	</script>
+	<!-- End Google Tag Manager -->
+	<!-- Template Javascript Files
+        ================================================== -->
+	<!-- Angular -->
+	<base href="/">
+	<script src="js/angular-1.7.8.min.js"></script>
+	<script src="angular/capella.js"></script>
+	<!-- jquery -->
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/helpers.js"></script>
+	<script defer src="https://kit.fontawesome.com/16cf99803e.js" crossorigin="anonymous"></script>
+</head>
+<body ng-app="capella" data-deferred-cloak>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WCRD68P"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	<!--
+        ==================================================
+        Header Section
+        ================================================== -->
+	<ng-include src="'angular/blocks/header.html'"></ng-include>
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="section-heading">
+			</div>
+<!--			<p class="text-center wow fadeInDown" data-wow-delay=".6s">New webinars will be scheduled soon.<p>
+			<p class="text-center wow fadeInDown" data-wow-delay=".6s"><a href="https://www.linkedin.com/in/capella-mbse-tool/"><i class="fa fa-linkedin-square"></i> Stay tuned!</a></p><br>
+			-->
+
+		<div class="row">
+				<h1>Performing Safety Analyses in Capella with ATICA: Our Experience</h1>
+				<p class="text-uppercase txt_lightest_grey">Webinar Transcript Summary</p>
+				<p>&nbsp;</p>
+				<i class="far fa-calendar-alt" aria-hidden="true"></i> Sept 2025 | <i class="fa fa-user-alt" aria-hidden="true"></i>&nbsp;Fernando Macías & Daniel Villafañe (ANZEN Engineering) | EN&nbsp;&nbsp;&nbsp; <button class="tag">safet analysis</button> <button class="tag">add-on</button>
+				<p></p>
+				<p> <a href="https://www.youtube.com/watch?v=fkD2IVYEQsk&list=PLfrEYVpSGVLxEFRODSWUTP8N5i3NTG4o-">Video <i class="pl-2 fa fa-brands fa-youtube" aria-hidden="true"></i></a>&nbsp; &nbsp; &nbsp; <a href="/resources/pdf/webinars/20250925_CapellaWebinar_Slides_Speaker.pdf">Slides <i class="pl-2 fa fa-brands fa-slideshare" aria-hidden="true"></i></a></p>
+				<h2>Introduction</h2>
+				<p>Safety and reliability analyses are essential in the development of complex systems, particularly in aerospace. However, these activities are still often performed using separate documents, spreadsheets, and specialized tools. As systems become more complex and engineering iterations multiply, maintaining consistency between system architecture, safety analyses, requirements, and design decisions becomes increasingly difficult.</p>
+				<p>Anzen developed ATICA for Capella to address this challenge. ATICA integrates safety and reliability engineering directly into a Model-Based Systems Engineering environment, allowing system and safety engineers to work from the same model and maintain a shared source of truth throughout the development lifecycle.</p>
+				<h2>Why Adopt an MBSE Approach?</h2>
+				<p>In a traditional workflow, requirements guide the design of system functions and architecture. Safety, reliability, maintainability, and other quality characteristics are then assessed, generating feedback that may require further design changes.</p>
+				<p>For simple systems, this process remains manageable. For complex systems, however, the loop may be repeated many times. Managing these updates through Word and Excel creates significant traceability, consistency, and configuration challenges.</p>
+				<p>Using Capella as a shared engineering repository offers three main benefits. Safety engineers can work directly with the latest architecture, introduce safety requirements into the same environment used by systems engineers, and identify risks earlier in the lifecycle. This shift-left approach helps reduce late design changes, costs, and project delays.</p>
+				<h2>Standards-Based Implementation</h2>
+				<p>ATICA is based on the safety assessment process defined in ARP4761, also known in Europe as ED-135. Rather than introducing a new methodology, Anzen mapped the standard’s concepts and analyses into the Capella metamodel.</p>
+				<p>ATICA adds safety concepts such as failure conditions, functional failures, failure modes, severity levels, effects, assumptions, failure rates, and probabilities. It also provides dedicated representations for Functional Hazard Assessment (FHA), Fault Tree Analysis (FTA), and Failure Modes and Effects Analysis (FMEA).</p>
+				<p>These elements are linked across the Capella architecture layers. System-level failure conditions can be connected to logical functional failures, which can then be related to physical failure modes. This creates end-to-end consistency between architecture and safety information.</p>
+				<h2>Integrated Safety Analyses</h2>
+				<p>At the System Analysis level, ATICA supports FHA through structured tables associated with system functions. Engineers can create failure conditions, assign severity levels, document assumptions, and define safety effects directly in Capella.</p>
+				<p>At the Logical Architecture level, functional failures are analyzed using graphical fault trees. The FTA editor supports logic gates, basic events, transfer gates, probabilities, failure rates, and recalculation of dependent trees.</p>
+				<p>At the Physical Architecture level, ATICA provides FMEA tables linked to physical components and failure modes. Engineers can document causes, effects, observability, failure rates, and links to higher-level functional failures. Piece-part FMEA workflows are also supported through Bill of Materials import capabilities.</p>
+				<h2>Automation, Reporting, and Demonstration</h2>
+				<p>ATICA automates repetitive tasks by importing structured data, preconfiguring failure modes, and reusing model content across projects. For stakeholders who do not use Capella, M2Doc templates generate Microsoft Word reports directly from the model, including FHA, FMEA, Safety Assessment, and Bill of Materials documents.</p>
+				<p>The webinar demonstrated these capabilities using the Wheel Brake System example from ARP4761. The presenters showed how engineers can create and edit FHA, FTA, and FMEA information through familiar tables and diagrams while keeping all Capella elements synchronized.</p>
+
+
+<h2>Q&A Highlights</h2>
+<ul>
+<li><strong>Q: Does ATICA support standards beyond aerospace?</strong><br>
+A: ATICA currently focuses on ARP4761 and ED-135, but the same approach could be adapted to other domains, including space standards such as ECSS.</li>
+
+<li><strong>Q: Can alternative safety methods be implemented?</strong><br>
+A: Yes. Methods such as STPA could be added, although Anzen generally develops new capabilities through customer projects and partnerships.</li>
+
+<li><strong>Q: How are calculations validated?</strong><br>
+A: Fault tree probabilities and related calculations are performed directly in ATICA and checked through extensive test suites and comparisons with established tools.</li>
+
+<li><strong>Q: Can results be exported or imported?</strong><br>
+A: Safety analyses can be exported to Word using M2Doc. Bills of Materials and FMEA data can also be imported from Excel, CSV, or other structured formats. API-based integration is under development.</li>
+
+<li><strong>Q: Is ATICA connected to reliability databases?</strong><br>
+A: Not yet. Reliability predictions are currently imported from external tools, but direct database integration is on the roadmap.</li>
+
+<li><strong>Q: Does ATICA support multi-system analysis and project reuse?</strong><br>
+A: ATICA relies on Capella’s existing mechanisms for model reuse and system transitions. Multi-system workflows generally require project-specific tailoring.</li>
+</ul>
+</div>
+<p>By integrating architecture, safety, and reliability information into one environment, ATICA improves traceability, reduces manual effort, and supports earlier risk detection.</p>
+<p>The ATICA documentation website: <a href="https://docs.atica.anzenengineering.com/">https://docs.atica.anzenengineering.com/</a></p>
+
+
+	</div>
+        <div class="row">
+        	<div id="webinars_accordion" class="accordion dropdown_content"></div>
+			<p class="text-center"><a class="btn btn-default" href="https://www.youtube.com/playlist?list=PLfrEYVpSGVLxEFRODSWUTP8N5i3NTG4o-">Discover all the webinars <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+       </div>
+</section>
+
+	<div id="back-to-top" data-spy="affix" data-offset-top="100" class="back-to-top hidden-xs hidden-sm affix-top">
+		<button class="btn btn-default" title="Back to Top">
+			<i class="fa fa-caret-up"></i>
+		</button>
+	</div>
+	<script type="text/javascript">
+		// Back to top
+		jQuery('#back-to-top').on('click', function () {
+			jQuery("html, body").animate({
+				scrollTop: 0
+			}, 500);
+			return false;
+		});
+	</script>
+	<!--
+        ==================================================
+        Call To Action Section Start
+        ================================================== -->
+	<ng-include src="'angular/blocks/call2action_webinars.html'"></ng-include>
+	<!--
+        ==================================================
+        Footer Section
+        ================================================== -->
+	<ng-include src="'angular/blocks/footer.html'"></ng-include>
+		 <!-- bootstrap js -->
+        <script defer src="js/bootstrap.min.js"></script>
+        <!-- wow js -->
+        <script defer src="js/wow.min.js"></script>
+        <script defer src="js/jquery.fancybox.js"></script>
+        <!-- template main js -->
+        <script defer src="js/main.js"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-57722280-1"></script>
+		<script async src="js/googleAnalytics.js"></script>
+        <script async src="//www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/vendor/cookieconsent/default.min.js"></script>
+        <!-- modernizr js -->
+        <script defer src="js/vendor/modernizr-2.6.2.min.js"></script>
+</body>
+</html>

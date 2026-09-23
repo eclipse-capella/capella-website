@@ -13,11 +13,11 @@
 	<meta charset="utf-8">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<link rel="icon" type="image/png" href="images/favicon.ico">
-	<title>Capella Webinars - Upcoming events, and replays of previous events</title>
+	<title> - Webinar Transcript</title>
 	<meta name="description"
-		content="Transcript overview of Capella webinar : MBSE for Two Student Space Robotics Projects.">
+		content="Discover how student rover teams use Capella and Arcadia to manage complexity, clarify interfaces, improve reliability, and preserve knowledge.">
 	<meta name="keywords" content="webinars, replay, slides, videos">
-	<meta name="author" content="">
+	<meta name="author" content="K. Li and A. Pavalachandran (Sydney Interplanetary Rover Initiative) & A. Lita (ISAE Supaero)">
 	<!-- Mobile Specific Metas
         ================================================== -->
 	<meta name="format-detection" content="telephone=no">
@@ -86,29 +86,30 @@
 			-->
 
 		<div class="row">
-				<h1>Webinar Transcript Summary</h2>
-				<h2>MBSE for Two Student Space Robotics Projects</h2>
+				<h1>MBSE for Two Student Space Robotics Projects</h1>
+				<p class="text-uppercase txt_lightest_grey">Webinar Transcript Summary</p>
+				<p>&nbsp;</p>
 				<i class="far fa-calendar-alt" aria-hidden="true"></i> February 2026 | <i class="fa fa-user-alt" aria-hidden="true"></i>&nbsp; K. Li and A. Pavalachandran (Sydney Interplanetary Rover Initiative) &amp; A. Lita (ISAE Supaero) | EN&nbsp;&nbsp;&nbsp; <button class="tag">space</button> <button class="tag">academic</button> <button class="tag">adoption</button>
 				<p></p>
 				<p> <a href="https://www.youtube.com/watch?v=FH5SgB5H2QM&list=PLfrEYVpSGVLxEFRODSWUTP8N5i3NTG4o-">Video <i class="pl-2 fa fa-brands fa-youtube" aria-hidden="true"></i></a>&nbsp; &nbsp; &nbsp; <a href="resources/pdf/webinars/20260236_CapellaWebinar_Slides_Speaker_SIRI.pdf">Slides SIRI<i class="pl-2 fa fa-brands fa-file-pdf-o" aria-hidden="true"></i></a>&nbsp; &nbsp; &nbsp; <a href="/resources/pdf/webinars/20260226_CapellaWebinar_Slides_Speaker_ISAE.pdf">Slides ISAE Supaero<i class="pl-2 fa fa-brands fa-file-pdf-o" aria-hidden="true"></i></a></p>
-<h3>Introduction</h3>
+<h2>Introduction</h2>
 <p>Student engineering teams face many of the same challenges as industrial organizations: complex systems, multidisciplinary collaboration, demanding schedules, limited budgets, and frequent team turnover. These difficulties are amplified when participants have little prior systems engineering experience and must develop both the product and the working methods at the same time.</p>
 <p>This webinar presented two student rover initiatives that adopted Capella and the Arcadia methodology to improve reliability, clarify interfaces, and preserve knowledge. The first project supported a rover-and-drone team preparing for the European Rover Challenge. The second described the Sydney Interplanetary Rover Initiative, which develops a modular rover for lunar and Martian competitions.</p>
 <p>Both teams demonstrated that a lightweight MBSE approach can provide significant value without requiring a complete or highly sophisticated modeling environment from the outset.</p>
-<h3>Improving Reliability Through Early Risk Identification</h3>
+<h2>Improving Reliability Through Early Risk Identification</h2>
 <p>The European Rover Challenge project involved a rover and drone operating together in a simulated Martian environment. The system had to perform navigation, mapping, manipulation, drilling, sample collection, and scientific analysis within a short development cycle.</p>
 <p>The initial document-based approach relied on spreadsheets, presentations, and separate technical files. This made it difficult to understand responsibilities, interfaces, and the rationale behind previous decisions. Reliability problems emerged not from isolated component failures, but from unclear assumptions, missing exchanges, and poorly defined test procedures.</p>
 <p>Capella was introduced as a pilot to determine whether a lightweight MBSE workflow could reveal these issues earlier. The team focused on the four main Arcadia layers rather than attempting to use every available feature.</p>
 <p>Operational Analysis translated the competition rulebook into actors, mission outcomes, and operational interactions. System Analysis then converted these needs into system functions, ensuring that each function could be traced to a mission objective. Logical Architecture exposed data, control, and subsystem interfaces, while Physical Architecture mapped these functions to real hardware, including power and communication paths.</p>
 <p>The resulting model supported faster design discussions, earlier identification of hardware gaps, and more effective onboarding. Instead of reviewing multiple documents, students could explore one visual representation of the complete system.</p>
-<h3>Structuring the SIRI Rover Architecture</h3>
+<h2>Structuring the SIRI Rover Architecture</h2>
 <p>The Sydney Interplanetary Rover Initiative adopted MBSE to manage a team of approximately 50 students developing a modular rover for the Australian Rover Challenge and other competitions.</p>
 <p>The presentation focused on the post-landing mission, during which the rover must exit a lander, perform health checks, establish communication, operate controls, and map its environment.</p>
 <p>The first modeling iterations highlighted several common beginner mistakes. Operational Analysis initially included activities that did not contribute directly to rover design. System Analysis mixed scenarios with functions and duplicated functions across several chains. Logical components were also confused with actors.</p>
 <p>By iterating through the model, the team simplified the Operational Analysis, decomposed complex scenarios into atomic system functions, eliminated duplication, and clarified subsystem responsibilities.</p>
 <p>Logical Architecture proved particularly useful because it made dependencies between subsystem teams visible. Functional chains exposed missing functions before integration, while Physical Architecture connected system behavior to actual components and physical interfaces.</p>
 <p>The team also explored Modes and States Machines and Exchange Scenario diagrams. Exchange Scenarios became especially valuable because they represented the chronological interaction between subsystems. They helped the team analyze startup sequences, power consumption, command handling, communication failures, and timeout behavior before implementation.</p>
-<h3>A Lightweight Adoption Strategy</h3>
+<h2>A Lightweight Adoption Strategy</h2>
 <p>In both projects, “lightweight” meant limiting the initial scope to the elements that provided immediate value. The teams prioritized operational needs, functions, components, interfaces, and traceability rather than attempting to implement a complete MBSE process from the beginning.</p>
 <p>This approach was particularly suitable for student organizations, where members work voluntarily, experience varies considerably, and knowledge is frequently lost when students graduate.</p>
 <p>The main lesson was that the tool alone does not guarantee adoption. Successful implementation also requires mentoring, early training, dedicated systems engineering responsibilities, and reusable modeling templates.</p>
@@ -125,7 +126,7 @@ Q&A Highlights
 
 
 
-<h3>Q&A Highlights</h3>
+<h2>Q&A Highlights</h2>
 <ul>
   <li><strong>Q: What does a lightweight MBSE approach mean?</strong><br>
   A: It means focusing on the essential Arcadia concepts rather than using every Capella capability. For beginner teams, the four architectural layers already provide a strong foundation for understanding needs, functions, interfaces, and physical components.</li>

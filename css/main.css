@@ -1189,3 +1189,12 @@ margin-top: 90px;
   background-color: #FBBF52;
   margin-top: 40px;
 }
+
+/* -- Pages Webinar Transcript -- */
+.content-type {
+    margin: 0.4rem 0 1rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #555;
+}
