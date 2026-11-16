@@ -1,9 +1,9 @@
 {
   "$schema": "./download.schema.json",
   "versionBranch": "7.1",
-  "lang": { 
-      "release": { "text": "Download", "icon": "fa fa-download" }, 
-      "dropin": { "text": "Drop-in", "icon": "fa fa-download" }, 
+  "lang": {
+      "release": { "text": "Download", "icon": "fa fa-download" },
+      "dropin": { "text": "Drop-in", "icon": "fa fa-download" },
       "updateSite": { "text": "Update Site", "icon": "fa fa-download" },
       "userManual": { "text": "User manual", "icon": "fa fa-book" },
       "notes": { "text": "Installation notes" },
@@ -23,19 +23,19 @@
   "capella": {
     "name": "Capella",
     "key": "Capella",
-    "version": "7.1.0",
-    "releaseNotes": "https://github.com/eclipse/capella/wiki/Release-Notes-7.1.0",
+    "version": "7.1.1",
+    "releaseNotes": "https://github.com/eclipse/capella/wiki/Release-Notes-7.1.1",
     "links": {
       "windows": {
-        "main": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/7.1.0/capella-7.1.0.202606231255-win32-win32-x86_64.zip"
+        "main": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/7.1.1/capella-7.1.1.202611100925-win32-win32-x86_64.zip"
        },
-      "linux": { 
-        "main": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/7.1.0/capella-7.1.0.202606231255-linux-gtk-x86_64.tar.gz",
-        "aarch64": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/7.1.0/capella-7.1.0.202606231255-linux-gtk-aarch64.tar.gz"
+      "linux": {
+        "main": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/7.1.1/capella-7.1.1.202611100925-linux-gtk-x86_64.tar.gz",
+        "aarch64": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/7.1.1/capella-7.1.1.202611100925-linux-gtk-aarch64.tar.gz"
        },
-      "mac": { 
-        "main": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/7.1.0/capella-7.1.0.202606231255-macosx-cocoa-x86_64.tar.gz",
-        "aarch64": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/7.1.0/capella-7.1.0.202606231255-macosx-cocoa-aarch64.tar.gz"
+      "mac": {
+        "main": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/7.1.1/capella-7.1.1.202611100925-macosx-cocoa-x86_64.dmg",
+        "aarch64": "https://www.eclipse.org/downloads/download.php?file=/capella/core/products/releases/7.1.1/capella-7.1.1.202611100925-macosx-cocoa-aarch64.dmg"
        }
     }
   },
@@ -48,11 +48,11 @@
       "windows": {
         "main": "https://www.eclipse.org/downloads/download.php?file=/capella/studio/products/releases/7.0.0/capella-studio-7.0.0.202407171300-win32.win32.x86_64.zip"
       },
-      "linux": { 
+      "linux": {
         "main": "https://www.eclipse.org/downloads/download.php?file=/capella/studio/products/releases/7.0.0/capella-studio-7.0.0.202407171300-linux.gtk.x86_64.zip",
         "aarch64": "https://www.eclipse.org/downloads/download.php?file=/capella/studio/products/releases/7.0.0/capella-studio-7.0.0.202407171300-linux.gtk.aarch64.zip"
       },
-      "mac": { 
+      "mac": {
         "main": "https://www.eclipse.org/downloads/download.php?file=/capella/studio/products/releases/7.0.0/capella-studio-7.0.0.202407171300-macosx.cocoa.x86_64.zip",
         "aarch64": "https://www.eclipse.org/downloads/download.php?file=/capella/studio/products/releases/7.0.0/capella-studio-7.0.0.202407171300-macosx.cocoa.aarch64.zip"
       }
@@ -67,8 +67,8 @@
       "compatibleWithCurrentVersion": true,
       "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a>",
       "description": "<p>This addon is a System to SubSystem Transition. It initializes a new Capella project from existing model. This transition extracts suitable model information from a selected Capella Component and manage top/down update propagation.</p><p>The automated and iterative transition between system and subsystems is a great help for managing several levels of engineering. The contract and model of the subsystems are computed from the system. Ideally, subsystems stakeholders are involved in co-engineering activities at system level before the transition occurs.</p>",
-      "download": { 
-        "release": "https://github.com/eclipse-capella/capella-sss-transition/releases", 
+      "download": {
+        "release": "https://github.com/eclipse-capella/capella-sss-transition/releases",
         "userManual": "https://github.com/eclipse-capella/capella-sss-transition/wiki",
         "installAddon": "https://github.com/eclipse-capella/capella/blob/master/doc/plugins/org.polarsys.capella.ui.doc/html/Installation%20Guide/How%20to%20install%20Capella%20and%20Addons.mediawiki#Configuration_and_Extensibility"
       },
@@ -82,13 +82,13 @@
       "compatibleWithCurrentVersion": true,
       "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a>",
       "description": "<p>This addon enables the end-user to generate an HTML website from a Capella project (e.g: <a href='resources/doc/IFE_docgen/output/index.html' target='_blank'>In-Flight Entertainment (IFE)</a>).</p><p>Sharing models with all stakeholders is essential in model-based systems engineering. Publishing and sharing HTML versions of models helps make models The reference of all engineering activities.</p><p>For more information, please install the addon within Capella and check online help then dedicated section for the addon.</p>",
-      "download": { 
+      "download": {
         "release": "https://github.com/eclipse-capella/capella-xhtml-docgen/releases",
         "userManual": "https://github.com/eclipse-capella/capella-xhtml-docgen/wiki",
         "installAddon": "https://github.com/eclipse-capella/capella/blob/master/doc/plugins/org.polarsys.capella.ui.doc/html/Installation%20Guide/How%20to%20install%20Capella%20and%20Addons.mediawiki#Configuration_and_Extensibility"
       },
       "tags":["export"]
-    }, 
+    },
     { "name":"Filtering",
       "showOnMainPage": true,
       "key":"FILTERING",
@@ -97,12 +97,12 @@
       "compatibleWithCurrentVersion": true,
       "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a>",
       "description": "<p>Filtering is an addon to filter capella models. It provides several capabilities:</p><ul><li>Definition of filtering criteria to be associated with model elements</li><li>Definition of results containing criteria</li><li>Visualization of criteria and results in diagrams</li><li>Creation of filtered models</li></ul>",
-      "download": { 
-        "release": "https://github.com/eclipse-capella/capella-filtering/releases", 
+      "download": {
+        "release": "https://github.com/eclipse-capella/capella-filtering/releases",
         "userManual": "https://github.com/eclipse-capella/capella-filtering/wiki",
         "installAddon": "https://github.com/eclipse-capella/capella/blob/master/doc/plugins/org.polarsys.capella.ui.doc/html/Installation%20Guide/How%20to%20install%20Capella%20and%20Addons.mediawiki#Configuration_and_Extensibility"
       }
-    }, 
+    },
     { "name":"DARC Viewpoint (Cybersecurity Assets & Threats Modeling analysis)",
       "showOnMainPage": true,
       "key":"DARC",
@@ -111,12 +111,12 @@
       "compatibleWithCurrentVersion": true,
       "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a>",
       "description": "<p>Capella Darc add-on is to support effective co-engineering between systems and cybersecurity engineers teams when performing the following tasks:</p><ul><li>Identify assets and trust boundaries</li><li>Identify threats</li><li>Characterize security needs</li></ul>",
-      "download": { 
-        "release": "https://github.com/eclipse-capella/capella-cybersecurity/releases", 
+      "download": {
+        "release": "https://github.com/eclipse-capella/capella-cybersecurity/releases",
         "userManual": "https://github.com/eclipse-capella/capella-cybersecurity/wiki",
         "installAddon": "https://github.com/eclipse-capella/capella/blob/master/doc/plugins/org.polarsys.capella.ui.doc/html/Installation%20Guide/How%20to%20install%20Capella%20and%20Addons.mediawiki#Configuration_and_Extensibility"
       }
-    }, 
+    },
     { "name":"Property Values Management Tools (PVMT)",
       "showOnMainPage": true,
       "key":"PVMT",
@@ -131,14 +131,14 @@
           "release": "https://github.com/eclipse-capella/capella/wiki/PVMT"
         }
       }
-    }, 
+    },
     { "name":"Ansys ModelCenter – Capella MBSE connector",
       "key":"ModelCenter",
       "fragment":"ModelCenter",
       "licence":"Commercial",
       "contact":"<a href='https://www.ansys.com/contact-us' target='_blank'>Ansys</a>",
       "description": "<p>This connector allows Capella users to integrate their models with <i>ModelCenter</i>. This integration allows them to utilize any engineering analysis tool (spreadsheets, scripts, any COTS simulation tool) to verify requirements satisfaction at any point in the development lifecycle. It also allows them to use <i>ModelCenter</i>’s trade study and optimization capability to optimize their system design.</p><p>This connector is available for free to anyone who purchases <i>ModelCenter</i>.</p>",
-      "download": { 
+      "download": {
         "learnMore": "https://www.ansys.com/products/connect/ansys-modelcenter"
       },
       "tags":["analysis","bridge"]
@@ -149,7 +149,7 @@
       "licence":"Commercial",
       "contact":"<a href='https://www.anzenengineering.com/atica4capella-download' target='_blank'>Anzen</a>",
       "description": "<p>ATICA is a model-based safety analysis framework that allows to perform safety and reliability analysis directly from the system models. The Atica4Capella plugin incorporates safety analysis artifacts specifically conceived to comply to the Capella/Arcadia methodology that support activities such as Functional Hazard Analysis (FHA) and Failure Modes and Effects Analysis (FMEA).</p>",
-      "download": { 
+      "download": {
         "learnMore": "https://www.anzenengineering.com/anzen-wiki/atica4capella/"
       },
       "tags":["Safety Analysis"]
@@ -160,7 +160,7 @@
       "licence":"Commercial",
       "contact":"<a href='https://www.anzenengineering.com/atica4capella-download/' target='_blank'>Obeo</a>",
       "description": "<p>Cloud for Capella provides a classic Capella bundle hosted in a Cloud environment managed by Obeo. It is complemented with add-ons selected and integrated by Obeo (System Subsystem transition, XHTML export, Requirement, Filtering, PVMT, M2Doc).</p><p>Cloud for Capella can be subscribed with the Team option that comes with a collaborative server hosted in the Cloud.</p><p>Alone, or in addition to the Capella environments hosted by Obeo, we can also provide a publication server to expose your Capella models through the OSLC protocol.</p>",
-      "download": { 
+      "download": {
         "learnMore": "https://www.obeosoft.com/en/products/cloud-for-capella"
       },
       "tags":["collaboration","hosting"]
@@ -171,7 +171,7 @@
       "licence":"Commercial",
       "contact":"<a href='http://www.pgmse.com/index' target='_blank'>PGM</a>",
       "description": "<p>Dynamic Execution and System Simulation (DESS) Add-On can make mode and state machines executable. A control panel can be used to interact with the state machine, and the execution process can be automatically recorded as a scenario. During state machine execution, M code embedded in functions can be directly invoked to simulate the operation effect of the architecture.</p>",
-      "download": { 
+      "download": {
         "learnMore": "http://www.pgmse.com/dess"
       },
       "tags":["simulation","modes & states"]
@@ -182,7 +182,7 @@
       "licence":"Commercial",
       "contact":"<a href='https://www.obeosoft.com/en/products/ecodesign-for-capella#form' target='_blank'>Obeo</a>",
       "description": "<p>Make insightful architectural decisions to reduce the environmental impacts of your systems, by using Capella to enter the life expectancy of components, materials utilized, consumptions, and emissions, .... and automatically initialize an inventory model in your third-party LCA tool.</p>",
-      "download": { 
+      "download": {
         "learnMore": "https://www.obeosoft.com/en/products/ecodesign-for-capella"
       },
       "tags":["life cycle assessment","bridge"]
@@ -193,7 +193,7 @@
       "licence":"Commercial",
       "contact":"<a href='https://www.maplesoft.com/contact/webforms/contact_sales.aspx' target='_blank'>Maplesoft</a>",
       "description": "<p>MapleMBSE provides an intuitive, Excel®-based interface to the systems model with optimized, task-specific views for editing the model directly, all while keeping the central model updated for use by all stakeholders.</p><p>Organizations using Capella can now edit models within MapleMBSE, allowing them to simplify tasks and increase engagement with MBSE processes by non-SE stakeholders across the organization.</p>",
-      "download": { 
+      "download": {
         "learnMore": "https://fr.maplesoft.com/products/maplembse/index.aspx"
       },
       "tags":["excel","bridge"]
@@ -204,7 +204,7 @@
       "licence":"Commercial",
       "contact":"<a href='https://www.obeosoft.com/en/products/publication-for-capella#form' target='_blank'>Obeo</a>",
       "description": "<p>Publication for Capella provides a seamlessly integrated view between your system architecture and related engineering activities (IVVQ, Requirements, etc...).</p><p>Publish Capella models on a web server, connect them with requirements, change requests, test cases, releases, etc... defined in third-party repositories, and expose them to authorized stakeholders.</p><p>The supported repositories include Siemens Polarion®, IBM® DOORS Next, PTC Codebeamer®, and Atlassian Jira.</p>",
-      "download": { 
+      "download": {
         "learnMore": "https://www.obeosoft.com/en/products/publication-for-capella"
       },
       "tags":["ALM", "requirements", "bridge"]
@@ -217,8 +217,8 @@
       "compatibleWithCurrentVersion": true,
       "contact":"<a href='https://www.obeosoft.com/contact' target='_blank'>Obeo</a>",
       "description": "<p>M2Doc generates MS-Word documents from Capella models. M2Doc uses wysiwyg and customable Word templates to extract data and diagrams from your models and display them in a docx file.</p>",
-      "download": { 
-        "dandi": "http://www.m2doc.org/capella/", 
+      "download": {
+        "dandi": "http://www.m2doc.org/capella/",
         "learnMore": "http://www.m2doc.org/"
       },
       "tags":["export"]
@@ -229,7 +229,7 @@
       "licence":"Commercial",
       "contact":"<a href='mailto:sales@pure-systems.com?subject=pure::variants Connector for Capella' target='_blank'>pure-systems</a>",
       "description": "<p>Variant management is required in all stages of product line development. However, traditional software development tools are often focused on single system development. pure::variants closes this gap by providing a model-based infrastructure for variability modelling and variant definition in all phases of system and software development.</p><p>The pure::variants connector for Capella enables engineers to systematically reuse their Capella models across multiple product variants and projects based on the mature technologies of feature modeling and feature model-based variant configuration",
-      "download": { 
+      "download": {
         "learnMore": "https://www.pure-systems.eu/modellbasierte-softwareentwicklung"
       },
       "tags":["variability","bridge"]
@@ -240,7 +240,7 @@
       "licence":"Commercial",
       "contact":"<a href='https://www.reusecompany.com/company/contact-reuse-company' target='_blank'>The Reuse Company</a>",
       "description": "<p>This add-on assists users when writing requirements statements, hence improving the overall quality of the requirements or even the model elements, diagrams etc of the projects.</p><p>RAT – Authoring Tools supports AI and Natural Language Processing to provide the following functionalities:</p><ul><li>Real-time Quality Analysis</li><li>Smart Authoring</li><li>Patterns based Authoring</li><li>On-the-fly Requirements-Models consistency checking and traceability</li><li>RMS Synchronization</li><li>Requirements aggregation in a SMART Grid</li></ul>",
-      "download": { 
+      "download": {
         "learnMore": "https://www.reusecompany.com/rat-authoring-tools"
       },
       "tags":["requirements","bridge"]
@@ -251,7 +251,7 @@
       "licence":"Commercial",
       "contact":"<a href='https://3ds.com' target='_blank'>Dassault Systèmes</a>",
       "description": "<p>This add-on enables user to trace objects from a Capella Project (e.g. In-Flight Entertainment) in Reqtify tool which provides Requirements Traceability capabilities to a wide range of connectors. Once traced in Reqtify user can create traceability links with High & Low Level Requirements defined in variety of other applications which are also connected with Reqtify.</p><p>Reqtify add-on can also export High-Level Requirements to a Capella project to enable user to create cover links in Capella itself. This add-on will be able to work with only basic Capella requirements not with Requirements add-on. It is also possible to navigate from Reqtify to Capella and vice-versa.</p><p>This add-on works with Capella 5.0 and Reqtify 2021x Refresh1 and upper versions.</p><p>For more information, please refer to the documentation.</p>",
-      "download": { 
+      "download": {
         "learnMore": "https://3ds.com/reqtify"
       },
       "tags":["requirements","bridge"]
@@ -262,7 +262,7 @@
       "licence":"Commercial",
       "contact":"<a href='mailto:safetyarchitect@all4tec.net?subject=Safety Architect' target='_blank'>ALL4TEC</a>",
       "description": "<p>This add-on provides to Capella a new viewpoint dedicated to safety analysis. Thus, the user can locate the feared events in the model, define the safety scope of the analysis and build critical chains. User can consider the whole model or focus on any architecture level: physical, logical or functional. You can even go further with a efficient bridge with Safety Architect, to perform a complete safety analysis from the Capella model, using the standard methods such as FMEA or FTA and generate the corresponding fault trees. Finally, user can export its safety data to dedicated tools like FaultTree+, or reimport them into Capella to enrich the original model.</p>",
-      "download": { 
+      "download": {
         "learnMore": "https://www.all4tec.com/en/safety-architect-fmeca-fta-sofware/"
       },
       "tags":["safety analysis","bridge"]
@@ -273,18 +273,18 @@
       "licence":"Commercial",
       "contact":"<a href='mailto:thierry.lesergent@ansys.com?subject=SCADE Architect importer for Capella' target='_blank'>ANSYS</a>",
       "description": "<p>SCADE Architect is a SysML based tool that supports several gateways to eg. medini analyze for system functional safety, SCADE Suite for certified embedded software development, FACE or AUTOSAR modeling, etc.</p><p>This add-on , still in beta version for SCADE 2019Rx, allows for importing Capella Logical and Physical Architecture of a model, including the graphical block diagrams, as a SCADE Architect model, thus offering a path to medini analyze or SCADE Suite tools.</p>",
-      "download": { 
+      "download": {
         "learnMore": "https://www.ansys.com/en-in/products/embedded-software"
       },
       "tags":["export","bridge"]
-    },    
+    },
     { "name":"SysML Bridge for Capella",
       "key":"SysMLBridge",
       "fragment": "SysMLBridge",
       "licence":"Commercial",
       "contact":"<a href='https://www.obeosoft.com/en/products/sysml-bridge-for-capella#form' target='_blank'>Obeo</a>",
       "description": "<p><i>SysML Bridge for Capella</i> automatically transforms Capella models in SysML (and vice versa) according to rules that can be adapted to your context.</p><p>It supports three main use-cases:<ul><li>Exchange between stakeholders.</li><li>Migration between standards.</li><li>Connection between tools.</li></ul></p>",
-      "download": { 
+      "download": {
         "learnMore": "https://www.obeosoft.com/en/products/sysml-bridge-for-capella"
       },
       "tags":["SysML", "bridge"]
@@ -295,7 +295,7 @@
       "licence":"Commercial",
       "contact":"<a href='https://www.plm.automation.siemens.com/global/en/contact-us.html' target='_blank'>Siemens Digital Industries Software</a> &amp; <a href='https://www.obeosoft.com/contact' target='_blank'>Obeo</a>",
       "description": "<p>System Modeling Workbench is a supported and complete integration of best of breed Model-Based Systems Engineering (MBSE) tools based on Capella.</p><p>Integrated with Teamcenter this solution allows to link systems models with requirements in a multi-domain product integrated environment.</p>",
-      "download": { 
+      "download": {
         "learnMore": "https://www.obeosoft.com/en/products/smw"
       },
       "tags":["PLM", "requirements", "bridge"]
@@ -306,7 +306,7 @@
       "licence":"Commercial",
       "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a> &amp; <a href='https://www.obeosoft.com/en/team-for-capella#form' target='_blank'>Obeo</a>",
       "description": "<p>This add-on allows users to collaborate on remotely shared models and representations</p><ul><li>All changes on the models and representations are automatically propagated across all users’ views.</li><li>Only the necessary objects are automatically locked and released. On-demand locks can also be created.</li><li>Data is stored in a shared server hosting the whole models with their representations.</li></ul>",
-      "download": { 
+      "download": {
         "learnMore": "https://www.obeosoft.com/en/team-for-capella"
       },
       "tags":["collaboration"]
@@ -317,7 +317,7 @@
       "licence":"Commercial",
       "contact":"<a href='mailto:info@visioneer.info' target='_blank'>VISIONEER</a>",
       "description": "<p>VISIONEER has developed a tool for object-oriented requirement engineering as part of a tool chain with Polarion and Capella. Any Capella System Model can be imported and extended with System Kit Elements for Embedded Systems to generate complete textual specifications, SW code and test cases.</p>",
-      "download": { 
+      "download": {
         "learnMore": "https://visioneer.info"
       },
       "tags":["requirements","export", "bridge"]
@@ -328,12 +328,12 @@
       "licence":"Commercial",
       "contact":"<a href='industry-consortium/artal.html' target='_blank'>Artal</a>",
       "description": "<p>Built on top of proven big-data technologies, Yuzu stores and keeps tracks of all your Capella projects, libraries and dependencies.</p>",
-      "download": { 
+      "download": {
         "learnMore": "http://capella.artal-group.com/yuzu/"
       },
       "tags":["assets management"]
     },
-    
+
      { "name":"Requirements",
        "showOnMainPage": true,
        "isViewpoint": true,
@@ -342,13 +342,13 @@
        "compatibleWithCurrentVersion": true,
        "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a>",
        "description": "<p>This add-on allows importing a set of requirements from a ReqIF file (Requirement Interchange Format / OMG Standard).</p><p>The import is iterative (diff/merge based) and a set of tools is provided to link the model elements to the requirements.</p><p>For more information, please install the addon within Capella and check online help then dedicated section for the addon.</p>",
-       "download": { 
-        "release": "https://github.com/eclipse-capella/capella-requirements-vp/releases", 
+       "download": {
+        "release": "https://github.com/eclipse-capella/capella-requirements-vp/releases",
         "userManual": "https://github.com/eclipse-capella/capella-requirements-vp/wiki",
         "installAddon": "https://github.com/eclipse-capella/capella/blob/master/doc/plugins/org.polarsys.capella.ui.doc/html/Installation%20Guide/How%20to%20install%20Capella%20and%20Addons.mediawiki#Configuration_and_Extensibility"
        },
        "tags":["requirements", "viewpoint"]
-    }, 
+    },
      { "name":"Textual Scenario Editor",
        "showOnMainPage": true,
        "isViewpoint": false,
@@ -357,13 +357,13 @@
        "compatibleWithCurrentVersion": true,
        "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a>",
        "description": "<p>Textual Scenario Editor allows to edit Capella Scenarios in textual mode. The addon allows the user to use a simple language to write the scenarios in textual mode and enables two-way synchronization between the textual scenario and the diagram.</p><p>For more information, please install the addon within Capella and check online help then dedicated section for the addon.</p>",
-       "download": { 
-        "release": "https://github.com/eclipse-capella/capella-textual-editor/releases", 
+       "download": {
+        "release": "https://github.com/eclipse-capella/capella-textual-editor/releases",
         "userManual": "https://github.com/eclipse-capella/capella-textual-editor/wiki",
         "installAddon": "https://github.com/eclipse-capella/capella/blob/master/doc/plugins/org.polarsys.capella.ui.doc/html/Installation%20Guide/How%20to%20install%20Capella%20and%20Addons.mediawiki#Configuration_and_Extensibility"
        },
        "tags":["Textual", "Scenario"]
-    }, 
+    },
     { "name":"Basic Mass",
       "showOnMainPage": true,
       "isViewpoint": true,
@@ -373,7 +373,7 @@
       "compatibleWithCurrentVersion": true,
       "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a>",
       "description": "<p>The Mass viewpoint enables to simply describe the non-functional aspect of mass in Capella. </p><p>For more information, please visit <a href='https://github.com/eclipse-capella/capella-basic-vp/wiki/Basic-Mass-Viewpoint'>wiki page</a>.</p>",
-      "download": { 
+      "download": {
         "release": "https://github.com/eclipse-capella/capella-basic-vp/releases",
         "userManual": "https://github.com/eclipse-capella/capella-basic-vp/wiki/Basic-Mass-Viewpoint",
         "installAddon": "https://github.com/eclipse-capella/capella/blob/master/doc/plugins/org.polarsys.capella.ui.doc/html/Installation%20Guide/How%20to%20install%20Capella%20and%20Addons.mediawiki#Configuration_and_Extensibility"
@@ -389,7 +389,7 @@
       "compatibleWithCurrentVersion": true,
       "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a>",
       "description": "<p>The Price viewpoint enables to simply describe the non-functional aspect of price in Capella.</p><p>For more information, please visit <a href='https://github.com/eclipse-capella/capella-basic-vp/wiki/Basic-Price-Viewpoint'>wiki page</a>.</p>",
-      "download": { 
+      "download": {
         "release": "https://github.com/eclipse-capella/capella-basic-vp/releases",
         "userManual": "https://github.com/eclipse-capella/capella-basic-vp/wiki/Basic-Price-Viewpoint",
         "installAddon": "https://github.com/eclipse-capella/capella/blob/master/doc/plugins/org.polarsys.capella.ui.doc/html/Installation%20Guide/How%20to%20install%20Capella%20and%20Addons.mediawiki#Configuration_and_Extensibility"
@@ -405,7 +405,7 @@
       "compatibleWithCurrentVersion": true,
       "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a>",
       "description": "<p>The Performance viewpoint enables to simply describe the non-functional aspect of performance in Capella.</p><p>For more information, please visit <a href='https://github.com/eclipse-capella/capella-basic-vp/wiki/Basic-Performance-Viewpoint'>wiki page</a>.</p>",
-      "download": { 
+      "download": {
         "release": "https://github.com/eclipse-capella/capella-basic-vp/releases",
         "userManual": "https://github.com/eclipse-capella/capella-basic-vp/wiki/Basic-Performance-Viewpoint",
         "installAddon": "https://github.com/eclipse-capella/capella/blob/master/doc/plugins/org.polarsys.capella.ui.doc/html/Installation%20Guide/How%20to%20install%20Capella%20and%20Addons.mediawiki#Configuration_and_Extensibility"
@@ -421,7 +421,7 @@
       "compatibleWithCurrentVersion": true,
       "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a>",
       "description": "<p>Basic Requirement is an addon to manage and apply requirements on your capella models. It shall not be confused with requirement-vp and only provides basic requirement capabilities. </p><p>For more information, please visit <a href='https://github.com/eclipse-capella/capella-basic-vp/wiki/Basic-Requirement-Viewpoint'>wiki page</a>.</p>",
-      "download": { 
+      "download": {
         "release": "https://github.com/eclipse-capella/capella-basic-vp/releases",
         "userManual": "https://github.com/eclipse-capella/capella-basic-vp/wiki/Basic-Requirement-Viewpoint",
         "installAddon": "https://github.com/eclipse-capella/capella/blob/master/doc/plugins/org.polarsys.capella.ui.doc/html/Installation%20Guide/How%20to%20install%20Capella%20and%20Addons.mediawiki#Configuration_and_Extensibility"
@@ -435,7 +435,7 @@
       "compatibleWithCurrentVersion": true,
       "contact":"<a href='industry-consortium/thales.html' target='_blank'>Thales</a> &amp; <a href='https://www.obeosoft.com/contact' target='_blank'>Obeo</a>",
       "description": "<p>Python4Capella allows you to interact with your Capella model using Python. You will be able to create Python scripts to read and write from/to your Capella model.</p>",
-      "download": { 
+      "download": {
         "updateSite": "https://github.com/labs4capella/python4capella/releases",
         "installAddon": "https://github.com/labs4capella/python4capella"
       },
@@ -447,10 +447,10 @@
       "compatibleWithCurrentVersion": true,
       "contact":"<a href='http://n7space.com/' target='_blank'>N7 Space</a>",
       "description": "<p>The plugin allows to export Capella data and physical architecture models into ASN.1 and AADL models compatible with the TASTE toolchain maintained by the European Space Agency, making it possible to further concretize the model and generate executable code that can be compiled and deployed onto an embedded target platform. Data packages, classes, enumerations, collections, numeric types and similar are transformed into the corresponding ASN.1 constructs. Architecture models are transformed into TASTE Interface and Deployment Views. Additionally, on a Linux platform (e.g. within TASTE Virtual Machine), the plugin provides several convenience actions enabling to partially replace TASTE GUI and facilitate model refinement and compilation directly from Capella.</p><p>The plugin was developed under a programme of, and funded by, the European Space Agency. Any views expressed within the plugin or its documentation can in no way be taken to reflect the official opinion of the European Space Agency.</p>",
-      "download": { 
+      "download": {
         "installAddon": "https://github.com/n7space/Capella-TASTE-Plugin"
       },
       "tags":["export", "bridge"]
     }
-  ] 
+  ]
 }
